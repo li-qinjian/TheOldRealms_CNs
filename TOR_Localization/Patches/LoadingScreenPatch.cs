@@ -15,7 +15,8 @@ namespace TOR_Localization.Patches
             int num = Utilities.GetNumberOfShaderCompilationsInProgress();
             if (num > 0)
             {
-                __instance.DescriptionText = string.Format("{0}{1}", new TextObject("{=GJfeZNQc}Shader compilation in progress. Remaining shaders to compile:"), num);
+                //__instance.DescriptionText = string.Format("{0}{1}", new TextObject("{=GJfeZNQc}Shader compilation in progress. Remaining shaders to compile:"), num);
+                __instance.DescriptionText = string.Format("{0}{1}", SubModule.ShadersCompilingString, num);
             }
         }
     }

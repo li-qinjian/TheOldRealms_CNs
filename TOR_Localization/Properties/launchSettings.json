@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "TheOldRealms_CNs": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\bin\\Win64_Shipping_Client\\TaleWorlds.MountAndBlade.Launcher.exe",
+      "workingDirectory": "E:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\bin\\Win64_Shipping_Client"
+    }
+  }
+}

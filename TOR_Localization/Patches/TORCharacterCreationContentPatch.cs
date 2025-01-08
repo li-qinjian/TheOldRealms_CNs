@@ -26,14 +26,13 @@ namespace TOR_Localization.Patches
                 yield return instruction;
                 if (instruction.opcode == OpCodes.Call && instruction.operand == (object)get_TORCoreModuleExtendedDataPath)
                 {
-                    yield return new CodeInstruction(OpCodes.Ldstr, "TOR_Localization");
+                    yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(SubModule),nameof(SubModule.ModuleName)));
                     yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ModuleHelper), nameof(ModuleHelper.GetModuleFullPath)));
                     yield return new CodeInstruction(OpCodes.Ldstr, "ModuleData/tor_custom_xmls/");
                     yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(String), nameof(String.Concat), new Type[] { typeof(string), typeof(string) }));
 
                     found = true;
                 }
-
             }
             if (found is false)
                 throw new ArgumentException("Cannot find TOR_Core.Utilities.TORPaths::get_TORCoreModuleExtendedDataPath() in TORCharacterCreationContent.ctor");
@@ -46,26 +45,36 @@ namespace TOR_Localization.Patches
             var found = false;
             foreach (var instruction in instructions)
             {
-                //if (instruction.opcode == OpCodes.Ldstr && instruction.operand.ToString() == "Teenage years...")
+
                 if (instruction.opcode == OpCodes.Ldstr)
+                {
+                    var stringOperand = instruction.operand.ToString();
+                    switch (stringOperand)
                     {
-                    //yield return new CodeInstruction(OpCodes.Ldstr, "选择你的家庭出身");
-                    found = true;
+                        case "Choose your family's background...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=4uKx1zWN}Choose your family's background...");
+                            found = true;
+                            break;
+                        case "Teenage years...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=mMVMwNgp}Teenage years...");
+                            found = true;
+                            break;
+                        case "Your starting profession...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=544R7nA7}Your starting profession...");
+                            found = true;
+                            break;
+                        default:
+                            yield return instruction;
+                            break;
+                    }
                 }
-                yield return instruction;
-                //else if (instruction.opcode == OpCodes.Ldstr && instruction.operand == (object)"Teenage years...")
-                //{
-                //    yield return new CodeInstruction(OpCodes.Ldstr, "青年时代...");
-                //    found = true;
-                //}
-                //else if (instruction.opcode == OpCodes.Ldstr && instruction.operand == (object)"Your starting profession...")
-                //{
-                //    yield return new CodeInstruction(OpCodes.Ldstr, "你的起始职业...");
-                //    found = true;
-                //}
-                if (found is false)
-                    throw new ArgumentException("Cannot find ldstr Choose your family's background... in TORCharacterCreationContent.SetMenuLabelTexts");
+                else
+                {
+                    yield return instruction;
+                }
             }
+            if (found is false)
+                throw new ArgumentException("Cannot find ldstr Choose your family's background... in TORCharacterCreationContent.SetMenuLabelTexts");
         }
     }
 }

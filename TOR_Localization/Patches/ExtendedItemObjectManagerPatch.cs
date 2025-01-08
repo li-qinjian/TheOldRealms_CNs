@@ -14,7 +14,7 @@ namespace TOR_Localization.Patches
     [HarmonyPatch]
     public static class ExtendedItemObjectManagerPatch
     {
-        private static string XMLPath = ModuleHelper.GetModuleFullPath("TOR_Localization") + "ModuleData/tor_custom_xmls/tor_extendeditemproperties.xml";
+        private static string XMLPath = ModuleHelper.GetModuleFullPath(SubModule.ModuleName) + "ModuleData/tor_custom_xmls/tor_extendeditemproperties.xml";
 
         [HarmonyPrefix]
         [HarmonyPatch(typeof(ExtendedItemObjectManager), "LoadXML")]
