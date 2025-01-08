@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaLocation="https://www.w3schools.com/xml ../../../../../../resources/language.xsd" type="string">
+    <tags>
+        <tag language="简体中文"/>
+    </tags>
+	<strings>
+		<string id="cla_rome_kingdom_n_name" text="罗马高卢行省"/>
+		<string id="cla_rome_kingdom_n_short_name" text="高卢行省"/>
+		<string id="cla_rome_kingdom_n_title" text="罗马高卢行省"/>
+		<string id="cla_rome_kingdom_n_ruler_title" text="总督"/>
+		<string id="aEfsyVH4" text="帝国中许多最古老的家族生活在北方。他们作为边境领主来到这里，由参议院的同事们授予了广阔的土地，以维持“安抚”北方部落并抵御巴坦、斯图吉亚和库扎伊的袭击。他们排干沼泽，将河流的泛滥平原转变为小麦田，砍伐森林，将山坡变为牧场。但随着共和国变成帝国，皇帝越来越依赖金钱和土地来奖励他们忠诚的士兵，这里的贵族开始担心他们的庄园有一天会被某个缺钱的暴君夺走。因此，在正在进行的帝国内战中，他们成为了卢孔的最强有力支持者，卢孔认为拥有固定财产的人组成的参议院是至高无上的权威，而皇帝则是其仆人。"/>
+
+		<string id="cla_rome_kingdom_w_name" text="罗马西班牙行省"/>
+		<string id="cla_rome_kingdom_w_short_name" text="西班牙行省"/>
+		<string id="cla_rome_kingdom_w_title" text="罗马西班牙行省"/>
+		<string id="cla_rome_kingdom_w_ruler_title" text="总督"/>
+		<string id="mOZsbV8j" text="根据传统，第一批卡尔拉迪亚人作为流亡者进入了这个大陆，来自西海的土地。但帝国的重心向东和南移动，他们原本的故乡大部分已经被弗兰迪亚人占领。如今帝国的西部是一个温暖的绿洲，拥有橡树林和火山岩露头，主要是从帕莱部落征服而来的。他们与卡尔拉迪亚的殖民者通婚，如今他们的古老语言和习俗大多被遗忘。加入军团传统上是一条摆脱农村贫困的道路，许多雄心勃勃的将军都是从这个地区招募到最忠诚的士兵。这里的土地拥有者自然倾向于支持加里奥斯（Garios），他是士兵及士兵利益的支持者，在正在进行的内战中表现突出。"/>
+
+		<string id="cla_rome_kingdom_s_name" text="罗马帝国"/>
+		<string id="cla_rome_kingdom_s_shortname" text="罗马"/>
+		<string id="cla_rome_kingdom_s_title" text="罗马元老院与人民"/>
+		<string id="cla_rome_kingdom_s_ruler_title" text="奥古斯都"/>
+		<string id="Xtyb9Dyr" text="南方帝国（Southern Empire）领土的历史，曾经由独立的城邦统治，这些城邦控制着Perassic海和草原上的贸易路线。随着内部纷争的出现，这些城市逐渐邀请帝国介入他们的争端，最终一个接一个地被帝国吸收，有些是通过条约，有些则是通过征服实现的。卡尔拉迪亚（Calradian）的贵族与商人王子以及游牧首领们通婚，这些首领许多声称自己是东方传说中的国王、英雄和半神的后裔。随着这些城市发展成为大陆上最富有和最人口稠密的地区，其他地区的元老院家族开始对南方人产生怀疑，认为他们可能会试图将某个南方贵族变成世袭君主。这种恐惧似乎得到了证实，因为南方贵族支持Rhagaea，她是王朝原则的直言不讳的倡导者。"/>
+
+		<string id="cla_germ_kingdom_1_name" text="日耳曼"/>
+		<string id="cla_germ_kingdom_1_short_name" text="日耳曼"/>
+		<string id="cla_germ_kingdom_1_title" text="日耳曼部落"/>
+		<string id="cla_germ_kingdom_1_ruler_title" text="部落首领"/>
+		<string id="cla_germ_kingdom_1_text" text="北方的部落过着与周围文化截然不同的生活方式。他们居住在小型、几乎没有防御工事的乡村定居点中，每个定居点由几户财富大致相等的家庭组成。他们通过自给农业、掠夺和贸易维持生计。其中一些人因在战争中的公平交易和声望而被推举为领袖。他们的生活艰苦，因冒险精神和战斗技能而自豪。他们野蛮的战斗方式、异国的风俗以及他们眼中的神情，令那些不幸遭遇他们突袭和迁徙的人心生恐惧。"/>
+
+		<string id="cla_kingdom_carthage_name" text="迦太基共和国"/>
+		<string id="cla_kingdom_carthage_short_name" text="迦太基"/>
+		<string id="cla_kingdom_carthage_title" text="迦太基共和国"/>
+		<string id="cla_kingdom_carthage_ruler_title" text="国王"/>
+		<string id="cla_kingdom_carthage_text" text="凯撒陛下，神圣的奥古斯都，帝国的最高统治者，公民之首。自我们抵达库齐斯的商人共和国，已有两个月之久。情报报告无法真实呈现坎尼克领主们那辉煌的市场。这里生机勃勃——各种异国的皮毛、动物、来自遥远土地的饰品及各类货物应有尽有。当地人主要是坎尼克人和纳哈希人，但许多其他文化的旅客也能在此找到。我们的弗鲁门塔里特使小队在伪装成商人方面没有遇到困难——经过几个恰到好处的贿赂和来自文书馆的伪造文件，我们顺利进入。根据您的指示，我们一直在调查帝国商队失踪的原因，以及众多关于动荡的传言。虽然我们最初的调查假设达尔西人可能涉入，但我不得不以最快速度呈递这一紧急警告。表面上看——对于未受过训练的眼睛而言，这座商人城市似乎满足于繁荣的贸易协定以及帝国的神圣庇护，但我们的观察表明情况正在发生变化。在小巷中——我们注意到大量的外国雇佣兵装备精良。在酒馆中——明显存在着反帝国的言论在百姓中低声传递。我们的特工发现了武器运输量的大幅增加——这引导我们对周边地区展开了调查。虽然存在明显的掩饰意图，但我们还是发现了大批坎尼克战士与未知的蛮族营地。单靠这些尚不足以对我帝国强大的军团构成威胁——但他们所骑乘的怪物让这个卑微的仆人充满恐惧。他们骑在巨大的野兽上，那些野兽的躯壳几乎与人一样高。毫无疑问——坎尼克商人正准备战争。在为时已晚之前，我恳请我的元首强制占...后续的羊皮纸被血迹覆盖，难以辨认，但我们的间谍显然对卡尔拉迪亚的渗透有所察觉。——弗鲁门塔里不明特使的未发出情报报告"/>
+
+		<string id="cla_kingdom_dacia_name" text="达契亚"/>
+		<string id="cla_kingdom_dacia_short_name" text="达契亚"/>
+		<string id="cla_kingdom_dacia_title_name" text="达契亚王国"/>
+		<string id="cla_kingdom_dacia_ruler_title" text="至高王"/>
+		<string id="cla_kingdom_dacia_text" text="长久以来，德里亚提安部落一直统治着北方的德里亚提克山脉。这个名字充分反映了他们所占领的山地领土，他们是一个顽固不化的民族。尽管我们进行了慷慨的外交和贸易尝试，这些野蛮人仍然抵制我们伟大的帝国。和平的外交使者常常被送回，尸体无首，毫无疑问是死于他们弯刀的邪恶之下。随着关于一个“国王”统一他们部落的报告传来，很明显这些野蛮人无法被驯服。根据我们光辉的帝国元首的命令，我现在将带着一整支军团出发。我将夺取他们富饶的矿藏，并亲手从这个所谓的国王头上取下银盔。——前帝国军团长克劳狄乌斯·阿洛布罗吉库斯的最后一段摘录，曾因在迪亚特马的灾难而名声扫地——公元127年"/>
+
+		<string id="0B27RrYJ" text="凯尔特部落"/>
+		<string id="cla_kingdom_celts_0_short_name" text="凯尔特"/>
+		<string id="qaDIU0XC" text="凯尔特人联盟"/>
+		<string id="afvM7XpQ" text="至高王"/>
+		<string id="ZjaaAoxd" text="自古以来，凯尔特部落就有一位至高王，在神圣的邓萨纳赫山上以隆重的仪式加冕。然而，问任何一位巴塔尼亚酋长他生活在何种“王国”中时，他会环顾自己的大厅、田野、牧场、羊群和随从，回答：“当然是我的。” 只有最近，受到帝国的启发，高王们才开始努力施展他们的权威。“我人民如此不羁，确实需要一个强有力的牧者来引导他们远离深渊，保护他们免受狼的侵害，”一位最近的高王曾这样说，没过多久他便被一个嫉妒的表亲背叛，被捕入狱，送往最近的帝国前哨。"/>
+
+		<string id="cla_kingdom_scythia_0_name" text="斯基泰部落"/>
+		<string id="cla_kingdom_scythia_0_short_name" text="斯基泰"/>
+		<string id="cla_kingdom_scythia_0_title" text="斯基泰部落"/>
+		<string id="cla_kingdom_scythia_0_ruler_title" text="部落首领"/>
+		<string id="fGNdo1BK" text="几个世纪以来，位于帝国东部广阔草原上的部落一直满足于游牧生活，偶尔进入帝国土地进行掠夺和贸易，然后返回他们的祖传自由。然而，两代之前，远东发生了一些事情——也许是风向的变化，或某个可怕但遥远的征服者的出现——使得马匹部落开始行动。乌尔昆·库扎伊特带领最近靠近帝国的游牧民族进入其远东省份，征服了城镇并形成了一个可汗国。他对不羁的部落施加了纪律，迫使他们在他的命令下骑马出征，而不是仅仅在他们愿意的时候。然而，在他去世后，他所激励的团结精神消失了。他的后裔仍然统治着这个可汗国，但一些其他的库扎伊特领导人对现任可汗蒙丘格的权威感到不满，另一些则梦想着自己成为可汗。"/>
+	</strings>
+</base>

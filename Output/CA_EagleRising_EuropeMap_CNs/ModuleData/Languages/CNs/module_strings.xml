@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaLocation="https://www.w3schools.com/xml ../../../../../../resources/language.xsd" type="string">
+    <tags>
+        <tag language="简体中文"/>
+    </tags>
+	<strings>
+		<string id="cla_culture_description_rome_eu" text="古罗马起源于公元前753年在意大利半岛的台伯河旁建立的一个意大利部落定居点。这个定居点逐渐发展成为罗马城和罗马政治体，通过条约和军事力量控制了周边的邻国。最终，它控制了整个意大利半岛，吸收了南意大利（大希腊）和伊特鲁里亚的希腊文化，成为地中海地区及欧洲部分地区的主要强国。"/>
+		<string id="cla_culture_description_celts_eu" text="凯尔特人或凯尔特民族是一个分布在欧洲和安纳托利亚的印欧民族群体，以使用凯尔特语言和其他文化相似性为特征。主要的凯尔特群体包括：高卢人；伊比利亚的凯尔特伊比利亚人和加来西亚人；不列颠和爱尔兰的布立吞人和盖尔人；博伊人；以及加拉太人。"/>
+	</strings>
+</base>

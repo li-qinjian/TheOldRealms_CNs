@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaLocation="https://www.w3schools.com/xml ../../../../../../resources/language.xsd" type="string">
+    <tags>
+        <tag language="简体中文"/>
+    </tags>
+	<strings>
+		<string id="Avizina" text="阿维齐纳" />
+		<string id="Aeric" text="艾瑞克" />
+		<string id="Arlech" text="阿尔莱赫" />
+		<string id="Bikili" text="比基利" />
+		<string id="Blaesus" text="布莱苏斯" />
+		<string id="Brasus" text="布拉苏斯" />
+		<string id="Blaikisa" text="布莱基萨" />
+		<string id="Blegissa" text="布莱吉萨" />
+		<string id="Charnabon" text="香拉邦" />
+		<string id="Comosicus" text="科莫西库斯" />
+		<string id="Dadas" text="达达斯" />
+		<string id="Dapyx" text="达皮克斯" />
+		<string id="Dardiolai" text="达尔迪奥莱" />
+		<string id="Danillo" text="丹尼洛" />
+		<string id="Kaigiza" text="凯吉扎" />
+		<string id="Komakiza" text="科马基扎" />
+		<string id="Komozoi" text="科莫佐伊" />
+		<string id="Moskon" text="莫斯孔" />
+		<string id="Mucapor" text="穆卡波尔" />
+		<string id="Mucatra" text="穆卡特拉" />
+		<string id="Natoporus" text="纳托波鲁斯" />
+		<string id="Oroles" text="奥罗莱斯" />
+		<string id="Petipor" text="佩蒂波尔" />
+		<string id="Pouridour" text="普里杜尔" />
+		<string id="Roles" text="罗莱斯" />
+		<string id="Rolouzis" text="罗鲁齐斯" />
+		<string id="Rubobostes" text="鲁博博斯特斯" />
+		<string id="Tarbus" text="塔尔布斯" />
+		<string id="Thiamarkos" text="提亚马克斯" />
+		<string id="Thiaper" text="提阿佩尔" />
+		<string id="Tiatitis" text="提阿提斯" />
+		<string id="Tsiru" text="齐鲁" />
+		<string id="Thiadicem" text="提阿迪克姆" />
+		<string id="Rugan" text="鲁甘" />
+		<string id="Vezina" text="维齐纳" />
+		<string id="Zebeleizis" text="泽贝莱齐斯" />
+		<string id="Zoutulas" text="祖图拉斯" />
+		<string id="Zyraxes" text="齐拉克斯" />
+
+		<string id="Avinia" text="阿维尼亚" />
+		<string id="Ada" text="阿达" />
+		<string id="Anda" text="安达" />
+		<string id="Agia" text="阿吉亚" />
+		<string id="Asa" text="阿萨" />
+		<string id="Brigis" text="布里吉斯" />
+		<string id="Caelis" text="凯利斯" />
+		<string id="Cercer" text="塞尔克" />
+		<string id="Cidre" text="西德雷" />
+		<string id="Daellia" text="达莉亚" />
+		<string id="Dakina" text="达基娜" />
+		<string id="Dicotella" text="迪科特拉" />
+		<string id="Diellena" text="迪埃伦娜" />
+		<string id="Diesema" text="迪埃瑟玛" />
+		<string id="Diodela" text="迪奥德拉" />
+		<string id="Dokela" text="多凯拉" />
+		<string id="Guoleta" text="郭利塔" />
+		<string id="Hormea" text="霍梅亚" />
+		<string id="Mendruta" text="门德鲁塔" />
+		<string id="Mizela" text="米泽拉" />
+		<string id="Nemenepsa" text="内门内普萨" />
+		<string id="Olma" text="奥尔玛" />
+		<string id="Pegrina" text="佩格丽娜" />
+		<string id="Phithophthethela" text="菲托弗忒希拉" />
+		<string id="Riborasta" text="里博拉斯塔" />
+		<string id="Salia" text="萨利亚" />
+		<string id="Seba" text="塞巴" />
+		<string id="Skiare" text="斯基亚雷" />
+		<string id="Stirsozila" text="斯提尔索齐拉" />
+		<string id="Tanidila" text="塔尼迪拉" />
+		<string id="Teudila" text="特乌迪拉" />
+		<string id="Trutrastra" text="特鲁特拉斯特拉" />
+		<string id="Tamaea" text="塔梅阿" />
+		<string id="Tulbela" text="图尔贝拉" />
+		<string id="Usazila" text="乌萨齐拉" />
+		<string id="Ulbela" text="乌尔贝拉" />
+		<string id="Zia" text="西亚" />
+		<string id="Ziaka" text="西亚卡" />
+		<string id="Zevea" text="泽维亚" />
+		<string id="Zaiba" text="扎伊巴" />
+		<string id="Zaika" text="扎伊卡" />
+		<string id="Ziodela" text="齐奥德拉" />
+
+		<string id="Albocensii" text="阿尔博肯斯ii" />
+		<string id="Biesii" text="比埃斯ii" />
+		<string id="Carpii" text="卡尔皮ii" />
+		<string id="Caucoensi" text="考科恩斯ii" />
+		<string id="Ceiagisii" text="凯阿吉斯ii" />
+		<string id="Costobocii" text="科斯托博基ii" />
+		<string id="Crobizii" text="克罗比齐ii" />
+		<string id="Dacii" text="达基ii" />
+		<string id="Daki" text="达基" />
+		<string id="Davi" text="达维" />
+		<string id="Getii" text="盖提ii" />
+		<string id="Harpii" text="哈皮ii" />
+		<string id="Obulensii" text="奥布伦斯ii" />
+		<string id="Oinensii" text="奥伊嫩斯ii" />
+		<string id="Pelii" text="佩利ii" />
+		<string id="Piageții" text="皮亚杰提ii" />
+		<string id="Piefigii" text="皮埃菲吉ii" />
+		<string id="Potulatensii" text="波图拉腾斯ii" />
+		<string id="Predavensii" text="普雷达文斯ii" />
+		<string id="Ratacensii" text="拉塔森斯ii" />
+		<string id="Saldensii" text="萨尔登斯ii" />
+	</strings>
+</base>

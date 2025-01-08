@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaLocation="https://www.w3schools.com/xml ../../../../../../resources/language.xsd" type="string">
+    <tags>
+        <tag language="简体中文"/>
+    </tags>
+	<strings>
+		<string id="hcm28HM7" text="凯尔特"/>
+		
+		<string id="Acedilu" text="阿切迪卢" />
+		<string id="Agisilius" text="阿吉西利乌斯" />
+		<string id="Annamoris" text="安纳莫里斯" />
+		<string id="Atepatus" text="阿特帕图斯" />
+		<string id="Atepiccus" text="阿特皮克斯" />
+		<string id="Ateuritus" text="阿特乌里图斯" />
+		<string id="Borsus" text="博尔苏斯" />
+		<string id="Butiro" text="布提罗" />
+		<string id="Buturo" text="布图罗" />
+		<string id="Caracco" text="卡拉科" />
+		<string id="Carix" text="卡里克斯" />
+		<string id="Cattuvir" text="卡图维尔" />
+		<string id="Caturo" text="卡图罗" />
+		<string id="Caurius" text="考里乌斯" />
+		<string id="Cenalus" text="塞纳卢斯" />
+		<string id="Cingius" text="辛吉乌斯" />
+		<string id="Dagobius" text="达戈比乌斯" />
+		<string id="Dercillos" text="德尔基洛斯" />
+		<string id="Deuus" text="德乌斯" />
+		<string id="Diocaitus" text="迪奥凯图斯" />
+		<string id="Diorix" text="迪奥里克斯" />
+		<string id="Divicatus" text="迪维卡图斯" />
+		<string id="Eburo" text="埃布罗" />
+		<string id="Elusconos" text="埃鲁斯科诺斯" />
+		<string id="Esumagius" text="埃苏马基乌斯" />
+		<string id="Gedilli" text="盖迪利" />
+		<string id="Gennalo" text="根纳洛" />
+		<string id="Grimiggni" text="格里米尼" />
+		<string id="Iatinius" text="伊阿提纽斯" />
+		<string id="Iccalus" text="伊卡卢斯" />
+		<string id="Illiomarus" text="伊利奥马鲁斯" />
+		<string id="Licnos" text="利克诺斯" />
+		<string id="Lituriri" text="利图里里" />
+		<string id="Maccarus" text="马卡鲁斯" />
+		<string id="Maccis" text="马基斯" />
+		<string id="Megaravico" text="梅加拉维科" />
+		<string id="Nertomaros" text="奈托马罗斯" />
+		<string id="Nisigni" text="尼西格尼" />
+		<string id="Regenos" text="雷根诺斯" />
+		<string id="Ripcicnus" text="里普基努斯" />
+		<string id="Samio" text="萨米奥" />
+		<string id="Samocinus" text="萨莫基努斯" />
+		<string id="Senucaris" text="塞努卡里斯" />
+		<string id="Sollouico" text="索卢伊科" />
+		<string id="Suadutto" text="苏阿杜托" />
+		<string id="Talis" text="塔利斯" />
+		<string id="Tanco" text="坦科" />
+		<string id="Taurio" text="陶里奥" />
+		<string id="Triti" text="特里提" />
+		<string id="Trogimarus" text="特罗吉马鲁斯" />
+		<string id="Vecius" text="维基乌斯" />
+		<string id="Vectimarius" text="维克提马里乌斯" />
+		<string id="Vicixtillus" text="维基斯提卢斯" />
+		<string id="Virico" text="维里科" />
+		<string id="Vindicatus" text="温迪卡图斯" />
+
+		<string id="Adnamita" text="阿德纳米塔" />
+		<string id="Agisilia" text="阿吉西利亚" />
+		<string id="Anderina" text="安德里娜" />
+		<string id="Anderitia" text="安德里提亚" />
+		<string id="Andilia" text="安迪利亚" />
+		<string id="Andoca" text="安多卡" />
+		<string id="Aulricmara" text="奥尔里克玛拉" />
+		<string id="Banna" text="班娜" />
+		<string id="Betudaca" text="贝图达卡" />
+		<string id="Bileseton" text="比利塞顿" />
+		<string id="Bussugnata" text="布苏尼亚塔" />
+		<string id="Cabura" text="卡布拉" />
+		<string id="Cassia" text="卡西亚" />
+		<string id="Catica" text="卡提卡" />
+		<string id="Cobnerta" text="科布内尔塔" />
+		<string id="Congenetia" text="孔吉尼提亚" />
+		<string id="Cottula" text="科图拉" />
+		<string id="Cubria" text="库布里亚" />
+		<string id="Eburia" text="埃布里亚" />
+		<string id="Exouna" text="埃克苏纳" />
+		<string id="Gabra" text="加布拉" />
+		<string id="Genna" text="根纳" />
+		<string id="Gnata" text="纳塔" />
+		<string id="Ibliomaria" text="伊布利奥玛丽亚" />
+		<string id="Lituccia" text="利图奇亚" />
+		<string id="Martna" text="马特娜" />
+		<string id="Mata" text="马塔" />
+		<string id="Matina" text="马蒂娜" />
+		<string id="Matona" text="马托纳" />
+		<string id="Moriena" text="莫里耶纳" />
+		<string id="Namidia" text="纳米迪亚" />
+		<string id="Namma" text="纳玛" />
+		<string id="Nantia" text="南提亚" />
+		<string id="Nertilla" text="内提拉" />
+		<string id="Ricua" text="里库阿" />
+		<string id="Sedatia" text="塞达提亚" />
+		<string id="Solimara" text="索利玛拉" />
+		<string id="Taluppa" text="塔卢帕" />
+		<string id="Vecticia" text="维克提西亚" />
+		<string id="Venixema" text="维尼克瑟玛" />
+		<string id="Venna" text="文娜" />
+		<string id="Viriana" text="维里安娜" />
+
+		<string id="Andecavi" text="安德卡维" />
+		<string id="Bellovaci" text="贝洛瓦基" />
+		<string id="Cenomani" text="塞农马尼" />
+		<string id="Diablintes" text="迪亚布林特斯" />
+		<string id="Laevi" text="拉埃维" />
+		<string id="Morini" text="莫里尼" />
+		<string id="Redones" text="雷多内斯" />
+		<string id="Senones" text="塞农内斯" />
+		<string id="Taurini" text="陶里尼" />
+		<string id="Vellavi" text="维拉维" />
+
+	</strings>
+</base>
