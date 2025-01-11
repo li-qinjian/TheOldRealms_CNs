@@ -9,7 +9,7 @@ using TOR_Core.Items;
 using TOR_Core.Utilities;
 using static HarmonyLib.Code;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     internal class TORCharacterCreationContentPatch

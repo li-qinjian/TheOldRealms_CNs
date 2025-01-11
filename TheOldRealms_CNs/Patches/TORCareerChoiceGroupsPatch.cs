@@ -6,7 +6,7 @@ using System.Text;
 using TaleWorlds.Localization;
 using TOR_Core.CharacterDevelopment;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     internal class TORCareerChoiceGroupsPatch

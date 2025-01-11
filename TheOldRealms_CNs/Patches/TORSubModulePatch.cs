@@ -11,7 +11,7 @@ using TaleWorlds.ModuleManager;
 using TOR_Core.CampaignMechanics.CharacterCreation;
 using TOR_Core.Utilities;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     internal class TORSubModulePatch
@@ -26,7 +26,7 @@ namespace TOR_Localization.Patches
 
                 if (instruction.opcode == OpCodes.Ldstr && instruction.operand.ToString() == "Shader compilation in progress. Remaining shaders to compile: ")
                 {
-                    yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(TOR_Localization.SubModule), nameof(TOR_Localization.SubModule.ShadersCompilingString)));
+                    yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(TheOldRealms_CNs.SubModule), nameof(TheOldRealms_CNs.SubModule.ShadersCompilingString)));
 
                     found = true;
                 }

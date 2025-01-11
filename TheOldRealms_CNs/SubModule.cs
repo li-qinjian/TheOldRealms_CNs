@@ -9,11 +9,11 @@ using TaleWorlds.MountAndBlade;
 using TaleWorlds.Localization;
 using TaleWorlds.GauntletUI;
 
-namespace TOR_Localization
+namespace TheOldRealms_CNs
 {
     public class SubModule : MBSubModuleBase
     {
-        internal static string ModuleName = "TOR_Localization";
+        internal static string ModuleName = "TheOldRealms_CNs";
 
         internal static Dictionary<string, string> CustomStrings = new Dictionary<string, string>();
 
@@ -35,7 +35,7 @@ namespace TOR_Localization
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
 
-            InformationManager.DisplayMessage(new InformationMessage((new TextObject("{=30yE54FF}TOR Localization Loaded")).ToString() + "[CNs]", Colors.Green));
+            InformationManager.DisplayMessage(new InformationMessage((new TextObject("{=30yE54FF}TheOldRealms_CNs Loaded")).ToString(), Colors.Green));
 
             this.InitialCustomsStrings();
         }

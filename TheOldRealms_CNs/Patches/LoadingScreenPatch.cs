@@ -1,9 +1,10 @@
 ﻿using HarmonyLib;
+using System;
 using TaleWorlds.Engine;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade.GauntletUI;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     public static class LoadingScreenPatch

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<Platforms>x64;AnyCPU</Platforms>
-	<OutputPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\TOR_Localization\bin\Win64_Shipping_Client</OutputPath>
+	<OutputPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\TheOldRealms_CNs\bin\Win64_Shipping_Client</OutputPath>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
   </PropertyGroup>
@@ -78,6 +78,9 @@
     </Reference>
     <Reference Include="TaleWorlds.SaveSystem">
       <HintPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.SaveSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.ScreenSystem">
+      <HintPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.ScreenSystem.dll</HintPath>
     </Reference>
     <Reference Include="TOR_Core">
       <HintPath>E:\Program Files (x86)\Steam\steamapps\workshop\content\261550\3025574678\bin\Win64_Shipping_Client\TOR_Core.dll</HintPath>

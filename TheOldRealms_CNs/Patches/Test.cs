@@ -5,7 +5,7 @@ using System.Text;
 using TaleWorlds.Localization;
 using TaleWorlds.ModuleManager;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     internal class Test
     {
@@ -15,6 +15,22 @@ namespace TOR_Localization.Patches
             //new TextObject("{=GJfeZNQc}Shader compilation in progress. Remaining shaders to compile:").ToString();
 
             SubModule.CustomStrings.GetValueSafe<string,string>("CustomStrings");
+
+
+            //var str = this.UnderscoreFirstCharToUpper("_sigmarsProclaimerKeystone");
         }
+
+        //public string UnderscoreFirstCharToUpper(this string input)
+        //{
+        //    if (input == null)
+        //    {
+        //        throw new ArgumentNullException("input");
+        //    }
+        //    if (!(input == ""))
+        //    {
+        //        return input[1].ToString().ToUpper() + input.Substring(2);
+        //    }
+        //    throw new ArgumentException("input cannot be empty", "input");
+        //}
     }
 }

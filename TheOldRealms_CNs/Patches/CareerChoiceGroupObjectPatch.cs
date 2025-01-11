@@ -7,7 +7,7 @@ using TaleWorlds.CampaignSystem;
 using TOR_Core.CharacterDevelopment.CareerSystem;
 using TOR_Core.Items;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     internal class CareerChoiceGroupObjectPatch

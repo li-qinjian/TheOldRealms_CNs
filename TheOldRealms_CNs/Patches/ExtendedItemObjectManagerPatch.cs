@@ -9,7 +9,7 @@ using TaleWorlds.ModuleManager;
 using TOR_Core.Items;
 using TOR_Core.Utilities;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     public static class ExtendedItemObjectManagerPatch

@@ -8,7 +8,7 @@ using TOR_Core.CampaignMechanics.CharacterCreation;
 using TOR_Core.CharacterDevelopment;
 using TOR_Core.Utilities;
 
-namespace TOR_Localization.Patches
+namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
     internal class TORSkillEffectsPatch
