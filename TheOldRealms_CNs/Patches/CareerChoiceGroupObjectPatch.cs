@@ -40,7 +40,7 @@ namespace TheOldRealms_CNs.Patches
 
         [HarmonyPrefix]
         [HarmonyPatch(typeof(CareerChoiceGroupObject), "GetUnlockText")]
-        public static bool Prefix2(Hero hero, ref string __result, CareerChoiceGroupObject.UnlockDelegate ____unlockDelegate)
+        public static bool PrefixGetUnlockText(Hero hero, ref string __result, CareerChoiceGroupObject.UnlockDelegate ____unlockDelegate)
         {
             string result = "";
 

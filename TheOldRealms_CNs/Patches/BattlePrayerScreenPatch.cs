@@ -2,24 +2,23 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
-using TOR_Core.CharacterDevelopment.CareerSystem;
+using TOR_Core.AbilitySystem.Spells.Prayers;
 
 namespace TheOldRealms_CNs.Patches
 {
     [HarmonyPatch]
-    internal class CareerScreenPatch
+    internal class BattlePrayerScreenPatch
     {
         [HarmonyTranspiler]
-        [HarmonyPatch(typeof(CareerScreen), "TaleWorlds.Core.IGameStateListener.OnActivate")]
+        [HarmonyPatch(typeof(BattlePrayerScreen), "TaleWorlds.Core.IGameStateListener.OnActivate")]
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
             var found = false;
             foreach (var instruction in instructions)
-            {                
-                if (instruction.opcode == OpCodes.Ldstr && instruction.operand.ToString() == "CareerScreen")
+            {
+                if (instruction.opcode == OpCodes.Ldstr && instruction.operand.ToString() == "BattlePrayerBook")
                 {
-                    yield return new CodeInstruction(OpCodes.Ldstr, "CareerScreenOverride");
-
+                    yield return new CodeInstruction(OpCodes.Ldstr, "BattlePrayerBookOverride");
                     found = true;
                 }
                 else
@@ -28,7 +27,7 @@ namespace TheOldRealms_CNs.Patches
                 }
             }
             if (found is false)
-                throw new ArgumentException("Cannot find ldstr CareerScreen in CareerScreen.OnActivate");
+                throw new ArgumentException("Cannot find ldstr 'BattlePrayerBook' in BattlePrayerScreen.OnActivate");
         }
     }
 }
