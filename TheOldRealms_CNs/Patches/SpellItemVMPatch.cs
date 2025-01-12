@@ -28,7 +28,7 @@ namespace TheOldRealms_CNs.Patches
                             found = true;
                             break;
                         case "Not enough gold":
-                            var codeInstruction = new CodeInstruction(OpCodes.Ldstr, "{=RzFw93wz}Not enough gold");
+                            var codeInstruction = new CodeInstruction(OpCodes.Ldstr, "{=3Oo3ulAv}Not enough gold");
                             codeInstruction.labels.AddRange(instruction.labels);
                             yield return codeInstruction;
                             found = true;
@@ -60,6 +60,13 @@ namespace TheOldRealms_CNs.Patches
                     var stringOperand = instruction.operand.ToString();
                     switch (stringOperand)
                     {
+                        case "Learn ":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=9wGTyXJQ}Learn ");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
                         case "Unfamiliar lore":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=BNvFkEzF}Unfamiliar lore");
                             yield return new CodeInstruction(OpCodes.Ldnull);

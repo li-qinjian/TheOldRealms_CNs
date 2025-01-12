@@ -8,6 +8,8 @@ using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.Localization;
 using TaleWorlds.GauntletUI;
+using TOR_Core.AbilitySystem;
+using TheOldRealms_CNs.Extensions;
 
 namespace TheOldRealms_CNs
 {
@@ -24,6 +26,9 @@ namespace TheOldRealms_CNs
             base.OnSubModuleLoad();
             var harmony = new Harmony(SubModule.ModuleName);
             harmony.PatchAll();
+
+            this.ReInitializeTORModule();
+            AbilityEffectType.SeekerMissile.ToTextObject();
         }
 
         protected override void OnSubModuleUnloaded()
@@ -38,6 +43,13 @@ namespace TheOldRealms_CNs
             InformationManager.DisplayMessage(new InformationMessage((new TextObject("{=30yE54FF}TheOldRealms_CNs Loaded")).ToString(), Colors.Green));
 
             this.InitialCustomsStrings();
+        }
+
+        private void ReInitializeTORModule()
+        {
+            var templates = Traverse.Create<AbilityFactory>().Field<Dictionary<string, AbilityTemplate>>("_templates");
+            templates.Value.Clear();
+            AbilityFactory.LoadTemplates();
         }
 
         private void InitialCustomsStrings()

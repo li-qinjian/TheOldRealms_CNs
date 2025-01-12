@@ -22,6 +22,9 @@
     <Reference Include="TaleWorlds.Core">
       <HintPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Core.dll</HintPath>
     </Reference>
+    <Reference Include="TaleWorlds.Core.ViewModelCollection">
+      <HintPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Core.ViewModelCollection.dll</HintPath>
+    </Reference>
     <Reference Include="TaleWorlds.Diamond.AccessProvider.GDK">
       <HintPath>E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Diamond.AccessProvider.GDK.dll</HintPath>
     </Reference>

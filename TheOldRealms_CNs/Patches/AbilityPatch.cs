@@ -25,23 +25,23 @@ namespace TheOldRealms_CNs.Patches
                     switch (stringOperand)
                     {
                         case "{=!}Enabled":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=6xAo3L4Q}{=!}Enabled");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=6xAo3L4Q}Enabled");
                             found = true;
                             break;
                         case "{=!}On cooldown":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=TpQT1Vm0}{=!}On cooldown");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=TpQT1Vm0}On cooldown");
                             found = true;
                             break;
                         case "{=!}Mission is over":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=G1p7qx2u}{=!}Mission is over");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=G1p7qx2u}Mission is over");
                             found = true;
                             break;
                         case "{=!}Casting":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=Fj0owOnJ}{=!}Casting");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=Fj0owOnJ}Casting");
                             found = true;
                             break;
                         case "{=!}In Mistform":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=bmmSvu7S}{=!}In Mistform");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=bmmSvu7S}In Mistform");
                             found = true;
                             break;
                         default:

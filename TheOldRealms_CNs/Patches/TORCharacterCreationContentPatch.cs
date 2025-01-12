@@ -175,36 +175,6 @@ namespace TheOldRealms_CNs.Patches
                 throw new ArgumentException("Cannot find ldstr 'Successfully learned lore: ' in TORCharacterCreationContent.OnChooseLore");
         }
 
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(TORCharacterCreationContent), "PromptChooseBloodline")]
-        public static bool PrefixPromptChooseBloodline(TORCharacterCreationContent __instance)
-        {
-            List<InquiryElement> list = new List<InquiryElement>(3)
-            {
-                new InquiryElement("generic_vampire", new TextObject("{=yOG7EvBM}Von Carstein Vampire").ToString(), null),
-                new InquiryElement("blood_knight", new TextObject("{=OgVhLRE7}Blood Knight").ToString(), null),
-                new InquiryElement("necrarch", new TextObject("{=ehuB1miD}Necrarch").ToString(), null)
-            };
-
-            var title = new TextObject("{=Z7DQS7uV}Choose Bloodline").ToString();
-            var description = new TextObject("{=hTg0dIbs}Choose your vampiric bloodline.").ToString();
-            string affirmativeText = new TextObject("{=v8KWNkEo}Confirm").ToString();
-            string negativeText = new TextObject("{=i2o7tfXd}Cancel").ToString();
-
-            var TORCharacterCreationContentOnChooseBloodline = Traverse.Create(__instance).Method("OnChooseBloodline", new Type[] { typeof(List<InquiryElement>) });
-            var TORCharacterCreationContentOnCancel = Traverse.Create(__instance).Method("OnCancel", new Type[] { typeof(List<InquiryElement>) });
-
-            Action<List<InquiryElement>> affirmativeAction = new Action<List<InquiryElement>>(obj => {
-                TORCharacterCreationContentOnChooseBloodline.GetValue(obj);
-            });
-            Action<List<InquiryElement>> negativeAction = new Action<List<InquiryElement>>(obj => {
-                TORCharacterCreationContentOnCancel.GetValue(obj);
-            });
-            MBInformationManager.ShowMultiSelectionInquiry(new MultiSelectionInquiryData(title, description, list, false, 1, 1, affirmativeText, negativeText, affirmativeAction, negativeAction, "", false), true, false);
-
-            return false;
-        }
-
         [HarmonyTranspiler]
         [HarmonyPatch(typeof(TORCharacterCreationContent), "PromptChooseBloodline")]
         public static IEnumerable<CodeInstruction> TranspilerPromptChooseBloodline(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
