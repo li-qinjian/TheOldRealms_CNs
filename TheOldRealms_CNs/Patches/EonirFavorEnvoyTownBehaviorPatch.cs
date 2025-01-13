@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
 using TaleWorlds.Localization;
@@ -890,5 +891,47 @@ namespace TheOldRealms_CNs.Patches
             if (found is false)
                 throw new ArgumentException("Cannot find ldstr 'You are not part of these people, begone.' in EonirFavorEnvoyTownBehavior.CreateEnvoys");
         }
+
+        //[HarmonyTranspiler]
+        //[HarmonyPatch(typeof(EonirFavorEnvoyTownBehavior), AccessTools.FirstMethod(typeof(EonirFavorEnvoyTownBehavior), methodInfo => methodInfo.Name.Contains("LearnNewLoresPrompt")).Name)]
+        //public static IEnumerable<CodeInstruction> TranspilerLearnNewLoresPrompt(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
+        //{
+        //    var found = false;
+        //    foreach (var instruction in instructions)
+        //    {
+        //        if (instruction.opcode == OpCodes.Ldstr)
+        //        {
+        //            var stringOperand = instruction.operand.ToString();
+        //            switch (stringOperand)
+        //            {
+        //                case "Learn new lore":
+        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=fVABwOgl}Learn new lore");
+        //                    yield return new CodeInstruction(OpCodes.Ldnull);
+        //                    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+        //                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+        //                    found = true;
+        //                    break;
+        //                case "Force Peace":
+        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=WDLtnx3B}Force Peace");
+        //                    found = true;
+        //                    break;
+        //                case "Select a new lore to learn ( maximum 3)":
+        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=M7rmSbLs}Select a new lore to learn ( maximum 3)");
+        //                    found = true;
+        //                    break;
+        //                default:
+        //                    yield return instruction;
+        //                    break;
+        //            }
+        //            found = true;
+        //        }
+        //        else
+        //        {
+        //            yield return instruction;
+        //        }
+        //    }
+        //    if (found is false)
+        //        throw new ArgumentException("Cannot find ldstr 'Learn new lore' in EonirFavorEnvoyTownBehavior.LearnNewLoresPrompt");
+        //}
     }
 }
