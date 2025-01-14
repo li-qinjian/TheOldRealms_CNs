@@ -928,8 +928,8 @@
 		<string id="tor_religion_follower_none_str" text="没有信仰任意一神"/>
 
 		<!-- InkStory -->
-		<string id="inky_end_str" text="结束"/>
-		<string id="inky_continue_str" text="继续"/>
+		<!-- <string id="inky_end_str" text="结束"/>
+		<string id="inky_continue_str" text="继续"/> -->
 
 		<!-- EngineerQuest -->
 		  <string id="tor_engineer_quest_log0_str" text="工程大师委托我去找盗取部件的窃贼，我应该抓住他们，把他们偷的东西带回来。"/>
@@ -995,7 +995,7 @@
   		<string id="aGsiaegH" text="神圣"/>
   		<string id="90ruy50y" text="光明"/>
   		<string id="vj5Nszy4" text="寒冰"/>
-  		<string id="PjlOCgKb" text="造成伤害（"/>
+  		<string id="PjlOCgKb" text=" 伤害类型（"/>
   		<string id="nP3uh2XY" text="）伤害百分比 "/>
   		<string id="cHwmL0Qp" text=", {0} 伤害属于 {1} [{2}{3}]"/>
   		<string id="6OQzLYHL" text="被吸收了"/>

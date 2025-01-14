@@ -1069,7 +1069,7 @@
 
         <string id="3ganFDR1" text="你加入了{ENLISTING_LORD}的部队{new_line}你已经服役了{ENLISTING_DURATION}天，参加了{HIRELING_BATTLE_COUNT}场战斗。{ENLISTING_ARMY}"/>
         <string id="5w6gfyKg" text="与领主交谈"/>
-        <string id="LZLkBHRN" text="暂停进入下一个定居点：{PAUSE_ONOFF}"/>
+        <string id="LZLkBHRN" text="进入定居点时暂停：{PAUSE_ONOFF}"/>
         <string id="VUi0V4Tb" text="队伍是{ENLISTING_ARMY}的一员"/>
 
         <string id="5dzjib45" text="独自练习瞄准"/>
