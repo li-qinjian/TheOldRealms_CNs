@@ -140,6 +140,13 @@ namespace TheOldRealms_CNs.Patches
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=F7ZMXkmY}Enter the settlement");
                             found = true;
                             break;
+                        case "off":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=8Jncw6Am}off");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
                         case "Desert":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=2vbvuFjg}Desert");
                             yield return new CodeInstruction(OpCodes.Ldnull);

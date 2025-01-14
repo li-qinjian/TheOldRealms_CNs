@@ -32,6 +32,13 @@ namespace TheOldRealms_CNs.Patches
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
+                        case "{tor_custom_settlement_menu_leave_str}Leave...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=tor_custom_settlement_menu_leave_str}Leave...");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
                         case "Praying...":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=6RW5TjRs}Praying...");
                             yield return new CodeInstruction(OpCodes.Ldnull);
