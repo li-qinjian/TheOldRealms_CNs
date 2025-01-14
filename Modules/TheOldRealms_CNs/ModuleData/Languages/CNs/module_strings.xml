@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- HuntingEvent -->
+		<string id="9TjaHKHz" text="狩猎大败" />
+		<string id="HlNWTHY8" text="狩猎失败" />
+		<string id="HlNWTHY8" text="狩猎成功" />
+
+		<!-- BlackGrailKnight Career Choices-->
+		<string id="UHkKZY7n" text="在接下来的6秒内，骑士可以在骑马或步行时准备一次毁灭性的冲锋。骑马时，骑士会获得技能增益，并有20%的几率在骑枪冲刺命中时，继续保持冲刺的状态。骑乘每增加1点，骑枪命中的几率就会增加0.1%。步行时只生效装备buff。"/>
+
+		<string id="f20yBthl" text="骑士冲锋时额外造成 10%的物理伤害。单手熟练度越高，伤害越大"/>
+		<string id="y69mYLL8" text="增加40点的生命"/>
+		<string id="2Jfpfipr" text="队伍中所有骑士单位获得30点长杆熟练度。"/>
+		<string id="5aXLp2wf" text="穆席隆远程单位伤害增加15%"/>
+		<string id="1lKIRfyS" text="厄运骑士同伴有25%的几率将巴托尼亚单位转化为穆席隆单位"/>
+
+		<string id="H0sSffL8" text="增加20%的移动速度，长杆熟练度越高，技能冷却时间越短"/>
+		<string id="tjpwxfS9" text="玩家坐骑生命值增加50%"/>
+		<string id="QGzMYw7F" text="骑乘时额外获得10%的近战伤害"/>
+		<string id="VbKjujb9" text="每次近战击杀可增加流氓习气"/>
+		<string id="7Px8HRKl" text="所有骑士部队的单手和双手熟练度增加20点"/>
+
+		<string id="ZzKcAemt" text="骑士冲刺时可获得20%的物理抗性。启用该技能时，坐骑不会后仰"/>
+		<string id="PD75wlqA" text="所有穆席隆部队日常薪资减少75%"/>
+		<string id="eBarT7GY" text="有40%的几率免费招募一支额外的同类型部队"/>
+		<string id="nZl36v4r" text="近战和远程物理抗性增加15%"/>
+		<string id="I19vdd5O" text="部队规模加50"/>
+
+		<string id="q7JTweHJ" text="将骑枪的攻击范围提升到双手武器，此技能根据你的长杆与骑术熟练度产生不同的效果"/>
+		<string id="DMiJ8Jbr" text="生命值增加40"/>
+		<string id="VsAi6XhG" text="每日获得25点暗能量"/>
+		<string id="0MDOX8iE" text="穆席隆骑士对地方步兵单位伤害加15%"/>
+		<string id="a3Z6I6OU" text="可将巴托骑士转化为厄运骑士（圣杯骑士无效）。"/>
+
+		<string id="zOxA5hnI" text="将骑士冲刺的冷却时间缩短30秒。激活这项技能可令治疗效果影响到马匹"/>
+		<string id="kuTeKRkW" text="马匹冲锋伤害提高50%"/>
+		<string id="3unGUEPv" text="玩家队伍移动速度增加2点"/>
+		<string id="p6Tyxsp3" text="穆席隆骑士增加10%的物理抗性"/>
+		<string id="1Xh0y076" text="劫掠村庄速度加快50%且可获得暗能量"/>
+
+		<string id="LarBDncB" text="职业技能范围取决于玩家的流氓习气，启动时可额外获得20%的伤害加成"/>
+		<string id="jNncq875" text="获得15%近战魔法伤害"/>
+		<string id="F7uNu2bP" text="死灵法师同伴获得25点魔法之风"/>
+		<string id="vqbBblQE" text="秽杯骑士所需的暗能量减少25%"/>
+		<string id="KF6VCTe2" text="秽杯骑士获得15%的近战魔法伤害。"/>
+
+		<string id="bJTcOUwo" text="能力影响范围从同伴本身提升到半径5米的范围内，效果取决于玩家的统御技能"/>
+		<string id="NYhKpqqD" text="同伴上限数量提升10"/>
+		<string id="5glPjA0l" text="低于15点伤害的攻击不会使玩家踉跄"/>
+		<string id="xIHEi55H" text="穆席隆骑士获得 15% 的防护值"/>
+		<string id="0kL9KnMc" text="每位死灵法师和吸血鬼同伴每天获得 10 点黑暗能量。"/> 
+
+		<!-- BloodKnight Career Choices -->
+		<string id="qawLfc83" text="血骑士将向他们的敌人肆意宣泄愤怒和力量。在接下来的 6 秒内，伤害提高 45%，物理抗性提高 10%。这两项加成会随所装备武器的技能而增加，每点增加 0.05%。需要 10 次击杀才能充能。"/>
+
+		<string id="x60oZi4k" text="职业能力与跑动相关。能力激活时，速度提高 20%"/>
+		<string id="71Wmi5Dm" text="增加25点生命"/>
+		<string id="sDsmyOhf" text="近战伤害增加10"/>
+		<string id="9bd5XphL" text="每支 4 阶及以上的部队在击杀敌人后可额外获得 20% 的经验值"/>
+		<string id="ulzMqqbP" text="每天随机获得一种近战技能 100 点经验值。"/>
+		
+		<string id="6NFNAa9y" text="同伴击杀可以帮助玩家充能"/>
+		<string id="CpyTivKx" text="增加25点生命"/>
+		<string id="hR4i7Fza" text="队伍中所有不死单位和吸血鬼的近战武器熟练度增加20"/>
+		<string id="8NMnUmpi" text="夜晚的劫掠速度增加50%"/>
+		<string id="t6CzUio6" text="攻击可对护盾造成额外伤害"/>
+		
+		<string id="qsop3c0d" text="所有近战武器熟练度，不论玩家当前是否持有，均计入职业技能效果"/>
+		<string id="IrV3qJ2f" text="近战伤害增加20%"/>
+		<string id="h49qJTMH" text="战斗结束后的生命值恢复速度提高 5"/>
+		<string id="ToGLBJXE" text="低于 15 的伤害不会使玩家踉跄"/>
+		<string id="VK985mRZ" text="包括玩家在内的所有部队，洗劫村庄时都会获得经验值"/>
+		
+		<string id="v5zyYpmw" text="职业能力与战术相关。附近的部队会获得猩红狂怒 BUFF"/>
+		<string id="8rMGDtoQ" text="近战伤害增加20%"/>
+		<string id="FLiWUU8y" text="吸血鬼部队所需暗能量减少10%"/>
+		<string id="IrMA8L3A" text="部队速度增加 2"/>
+		<string id="n5oVW34W" text="有5% 的概率将被击败的单位招募为血骑士（大于 4 阶的部队概率为10%）"/>
+		
+		<string id="xdKDRZtT" text="猩红狂怒持续时间加倍"/>
+		<string id="Kt30SFEh" text="免疫阳光灼烧"/>
+		<string id="ujGULn4s" text="生命值增加50"/>
+		<string id="OcEH7pVu" text="坐骑生命值增加35%"/>
+		<string id="WJCs0kWj" text="每造成200点伤害可回复1点生命值（最多5点）"/>
+		
+		<string id="gyRZQdAl" text="猩红狂怒与骑术相关，其防御效果为特殊防护。充能速度更快"/>
+		<string id="vsv4Gmq2" text="获得 25% 的物理伤害抗性（近战远程均生效）"/>
+		<string id="MMSFomV3" text="吸血鬼部队所需暗能量减少20%"/>
+		<string id="mOJqpgq7" text="玩家获得 35% 的法术抗性"/>
+		<string id="n79YKywN" text="所有吸血鬼单位薪资减少25%"/>
+		
+		<string id="7RrRj8gw" text="猩红狂怒发动期间，每击杀一个敌人可延长效果2秒"/>
+		<string id="xUabJAIM" text="增加75点生命值"/>
+		<string id="OaqF2lhx" text="坐骑冲撞伤害增加50%"/>
+		<string id="ERmoX9rX" text="骑兵单位伤害增加20%"/>
+		<string id="42VRjvYG" text="近战攻击可造成额外 25% 护甲穿透"/> 
+
+		<!-- GrailDamsel Career Choices -->
+		<string id="UTBfWjme" text="圣杯侍女启动妖精通道，瞬间将玩家传送到目标位置。可造成魔法伤害或回复生命值"/>
+		
+		<string id="k5YoxiZF" text="击倒施法者目标区域内的所有敌人"/>
+		<string id="V7aDfPMu" text="增加魔法伤害 15%。"/>
+		<string id="RNXEwVsP" text="增加10点魔法之风容量"/>
+		<string id="kMnECrub" text="所有部队额外获得 15% 额外的魔法伤害"/>
+		<string id="TF7rBb01" text="所有骑士部队获得 15% 的特殊防护"/>
+
+		<string id="JNpH40oY" text="充能速率翻倍，但同伴的法术和治疗效果计入到玩家的能力中"/>
+		<string id="I4hqyqF7" text="25% 的几率免费招募一个额外的单位"/>
+		<string id="sM7jDuKa" text="受伤的部队会更快恢复"/>
+		<string id="YliVT3oa" text="所有骑士部队的薪资减少 25%"/>
+		<string id="SlgpjpbC" text="如果护甲重量不超过 11，获得 10% 特殊防护"/>
+
+		<string id="N9v9tMe2" text="在使用妖精通道后5秒内免疫所有物理近战伤害"/>
+		<string id="iS3ZJNSQ" text="增加10点魔法之风容量"/>
+		<string id="UYtyH5Gp" text="巴托尼亚单位获得 10% 特殊防护"/>
+		<string id="xT0HJa49" text="在女神神殿祈祷时，所有伤兵都会痊愈"/>9+
+		<string id="uLymRQZ2" text="减少20%法术冷却时间"/>
+
+		<string id="JPzPV8Xw" text="妖精通道充能速度加快30%"/>
+		<string id="K6BjrRQ3" text="增加10点魔法之风容量"/>
+		<string id="ljoMlM2p" text="部队移动速度增加1.5"/>
+		<string id="l2uscizY" text="魔法抗性增加25%"/>
+		<string id="NZKuZhje" text="队伍侦察距离增加20%"/>
+
+		<string id="EJANVfyL" text="对靠近撤离点的部队在5秒内增加30%的魔法伤害"/>
+		<string id="9kniMTUw" text="升级费用减半"/>
+		<string id="vTciSE2p" text="非骑士单位每天获得 100 XP"/>
+		<string id="6STNJW73" text="如果护甲重量不超过 11，获得 15% 特殊防护"/>
+		<string id="PXbYsu5U" text="好感获取加成 20%"/>
+
+		<string id="jQKWM40C" text="妖精通道开启后可以传送两次"/>
+		<string id="vB9lSMxs" text="光明法术伤害增加30%"/>
+		<string id="e9ZGE4Xp" text="法术学习成本降低20%"/>
+		<string id="sezDhE01" text="施放法术时有30%的几率恢复10点魔法之风"/>
+		<string id="Fku5gLtp" text="法术冷却时间减少30%"/>
+
+		<string id="mausjqWz" text="当你启动传送时，周围5米内的友军会随你一起传送"/>
+		<string id="1cSC0VY1" text="增加20%的魔法伤害"/>
+		<string id="KN5hj5R9" text="高阶骑士的生命值翻倍。"/>
+		<string id="z8Zv6flO" text="圣杯侍女获得额外25点魔法之风"/>
+		<string id="QZmDsMO5" text="获得针对全巴托尼亚阵营的强制外交选项"/> 
+
+		<!-- GrailKnight Career Choices -->
+		<string id="bPZ6Zco8" text="在接下来的6秒内，骑士可以在骑马或步行时准备一次毁灭性的冲锋。骑马时，骑士会获得技能增益，并有20%的几率在骑枪冲刺命中时，继续保持冲刺的状态。骑乘每增加1点，骑枪命中的几率就会增加0.1%。步行时只生效装备buff。"/>
+		
+		<string id="GhQg4S3l" text="骑士冲锋时额外造成 10%的物理伤害。单手熟练度越高，伤害越大"/>
+		<string id="uBKMjJc3" text="增加10%的近战伤害"/>
+		<string id="pnzRAX8K" text="增加40点生命"/>
+		<string id="WHAn5Itk" text="所有骑士部队的单手和双手熟练度增加20点"/>
+		<string id="8XyaHCUw" text="队伍中的所有近战部队每日可获得25点经验值"/>
+		
+		<string id="Le2t8VDf" text="能力会随着长柄武器技能而提升，并且开始重新充能"/>
+		<string id="5ryK8VD7" text="玩家坐骑生命值增加50%"/>
+		<string id="YhPfT3tu" text="骑乘时额外获得10%的近战伤害"/>
+		<string id="2MjvYvcX" text="部队升级费用降低25%"/>
+		<string id="MlrUk8L8" text="所有骑士部队的长杆熟练度增加30点"/>
+		
+		<string id="sO3RgqmT" text="骑士冲刺时可获得20%的物理抗性。启用该技能时，坐骑不会后仰"/>
+		<string id="hXOj8S3K" text="增加40点的生命"/>
+		<string id="SUyJjxtz" text="近战和远程攻击的物理抗性提升15%"/>
+		<string id="9PvddDc6" text="所有骑士部队增加10%的物理抗性"/>
+		<string id="nRQngGJ1" text="每位骑士同伴可每日增加3点骑士道"/>
+		
+		<string id="AcYPx6Df" text="将骑枪的攻击范围提升到双手武器，此技能根据你的长杆与骑术熟练度产生不同的效果"/>
+		<string id="xEL8lGqy" text="近战增加10%的火焰伤害"/>
+		<string id="LvkdqEA6" text="近战攻击增加20%的护甲穿透"/>
+		<string id="iXHbxCr5" text="有40%的几率免费招募一支额外的同类型部队"/>
+		<string id="QmNf1gzN" text="低于 15 的伤害不会使玩家踉跄"/>
+		
+		<string id="Lrc8CU2J" text="将骑士冲刺的冷却时间缩短30秒。激活这项技能可令治疗效果影响到马匹"/>
+		<string id="ME3zRWGy" text="马匹冲锋伤害提高50%"/>
+		<string id="HbgJOyVo" text="玩家队伍移动速度增加2点"/>
+		<string id="kigpa5Oy" text="战役地图上的生命值恢复增加4点"/>
+		<string id="I8uQkTcK" text="所有骑士部队的薪资减少25%"/>
+		
+		<string id="fLQEGPhd" text="据你的信仰技能等级，为附近的盟友提供加成，激活这项能力可增加20%的神圣伤害与生命回复"/>
+		<string id="7CD5QCdS" text="生命值增加40点"/>
+		<string id="8ZLP4y1X" text="战斗朝圣者部队增加20%的神圣伤害"/>
+		<string id="xCsjl8wG" text="增加20%的近战神圣伤害"/>
+		<string id="zIO7boq2" text="获得15%的特殊防护"/>
+		
+		<string id="zhQwAmZK" text="根据你的信仰技能等级，为附近的盟友提供加成，激活这项能力可增加20%的神圣伤害与生命回复"/>
+		<string id="Kg73s0PD" text="生命值增加40点"/>
+		<string id="0GxLL3pv" text="每位“骑士”同伴的生命值增加15"/>
+		<string id="g8CEtwLu" text="圣杯骑士可升级为同伴"/>
+		<string id="ZJiF5RJ0" text="同伴上限数量提升10"/> 
+
+		<!-- GreyLord Career Choices -->
+		<string id="0BTrvg3b" text="作为魔法之风和禁忌技艺的大师，灰领主们能在敌人的脑海中唤起微妙的低语，说服这些敌人背叛他们的盟友。毕竟，一个真正的灰领主是不会因为道德考虑而影响他们的判断的。{newline}转化敌人的成功率取决于魔法等级，目标的生命值和等级，还有引路石升级的选项。"/>
+		
+		<string id="BFk4AZWP" text="额外控制两个敌方单位，具体效果取决于玩家的统御技能，近战伤害能为该能力充能"/>
+		<string id="ickyaTkq" text="增加25点生命值"/>
+		<string id="WMmCuvkn" text="获得 25% 的物理伤害抗性（近战远程均生效）"/>
+		<string id="mejz2eRm" text="城镇招募的精灵维持费减少25%"/>
+		<string id="hh22vJ50" text="城镇招募的精灵获得50%火焰抗性"/>
+		
+		<string id="xf2LDiKB" text="玩家操纵的敌方单位被完全治愈，实际效果取决于医术技能"/>
+		<string id="SDIUHu3m" text="魔法之风储量上限加10点"/>
+		<string id="ndIMd1nK" text="玩家受到的法术伤害减少25%"/>
+		<string id="GHiyXQ2k" text="玩家队伍里的伤兵恢复加快"/>
+		<string id="chvKXqpc" text="未释放伤害法术时，治疗法术的持续时间增加50%"/>
+		
+		<string id="y96h6dlx" text="增加15%控制概率，能力开始充能"/>
+		<string id="4HdtYTce" text="魔法之风储量上限加10"/>
+		<string id="q16nrvRz" text="城镇招募精灵的薪资减少20%"/>
+		<string id="3NQWRvYK" text="所有部队获得25%的火焰伤害"/>
+		<string id="X6NzXFdu" text="如果没有装备杀伤魔法，你将获得50%的法术影响半径"/>
+		
+		<string id="equkVtiW" text="玩家操纵的敌方单位死亡时会发生爆炸，未能成功操纵则会对目标造成40点伤害"/>
+		<string id="ycPRCwE9" text="魔法之风储量上限增加15点"/>
+		<string id="009C0MBC" text="施法影响半径增加20%"/>
+		<string id="WdlmLAq7" text="战斗中获得的议会声望增加20%"/>
+		<string id="IWiVoHYA" text="如果没有装备带AOE效果的物品，你的法术伤害增加200%"/>
+		
+		<string id="RFONTmup" text="同伴的伤害可以为能力充能，操纵距离翻倍，实际效果取决于魅力"/>
+		<string id="BQrf1NaN" text="魔法之风充能速率增加0.5"/>
+		<string id="9Onb6ros" text="魔法攻击效果持续时间延长20%"/>
+		<string id="WxdB5PG2" text="魔法之风储量上限增加15点"/>
+		<string id="T8ywp1Ap" text="如果没有装备任何治疗法术，你的魔法伤害增加50%"/>
+		
+		<string id="WKAwSiFS" text="操纵敌方单位变得更加容易，效果取决于流氓习气"/>
+		<string id="6ksdzv4z" text="若玩家护甲重量不超过11，法术效果增加25%"/>
+		<string id="XXNahEJl" text="光明魔法伤害增加10%"/>
+		<string id="1lqxRYGm" text="魔法伤害增加10%"/>
+		<string id="QnWtTxZG" text="如果没有装备正面buff的魔法，攻击魔法的杀伤半径翻倍"/>
+		
+		<string id="yHv3EPfk" text="成功操控敌方单位增加3点魔法之风"/>
+		<string id="2cny2rTD" text="若玩家护甲重量不超过11，法术冷却时间减少50%"/>
+		<string id="vGz8Gktx" text="魔法之风储量上限增加25点"/>
+		<string id="Yxdxm8hv" text="战斗结束后克回复30%的魔法之风"/>
+		<string id="F7xRHwsL" text="火焰魔法伤害增加15%"/> 
+
+		<!-- ImperialMagister Career Choices -->
+		<string id="BSsvOqjZ" text="魔导师在十秒钟内通过引导在空气中打转的魔法之风来增加自己魔法之风的储量。充能时，魔导师所受伤害增加，并且移动速度大幅度降低。每秒钟恢复总魔法之风总容量的3%，每五十点法术技能增加效果一秒，每获得一个关键力量之石会额外增加奥术导体的使用次数"/>
+		
+		<string id="nMloBkWE" text="释放职业能力时，每充能1点增加0.25%物理抗性"/>
+		<string id="sIopg8s4" text="魔法之风储量上限加5"/>
+		<string id="QcQBS0at" text="若玩家护甲重量不超过11，可获得10%伤害防护"/>
+		<string id="Oqb9yS07" text="魔法伤害增加10%"/>
+		<string id="2dSA2O4V" text="玩家所受魔法伤害减少25%"/>
+		
+		<string id="ZgIMFBX3" text="职业技能时间延长25%，具体效果取决于玩家的管理技能"/>
+		<string id="veEeJnsE" text="火焰法术伤害增加 10%"/>
+		<string id="4uTiyqKn" text="闪电法术伤害增加 10%"/>
+		<string id="Dt5ck3Nz" text="魔法之风储量上限加5"/>
+		<string id="4ZGvUimK" text="力量之石所需帝国声望减少25%"/>
+		
+		<string id="IMGEq0xq" text="释放职业技能时，减轻玩家的减速效果，具体取决于统御技能"/>
+		<string id="aLHYusuy" text="魔法之风储量上限加5"/>
+		<string id="VCpn5vc8" text="玩家所受友军的火焰魔法伤害减少30%"/>
+		<string id="pdVaq8AR" text="治疗和正面buff时间延长25%"/>
+		<string id="054XTeW9" text="力量之石所需魔法之风减少25%"/>
+		
+		<string id="gVY0KJU8" text="奥术导体可由魔导师同伴充能"/>
+		<string id="YD7rROu3" text="同伴上限加5"/>
+		<string id="KHc3yOt2" text="魔导师同伴获得25%额外魔法之风"/>
+		<string id="7jLC8KGy" text="每掌握一个魔法学派，战斗结束后所获帝国声望加10%"/>
+		<string id="OtMYcBqE" text="可使用其他魔法学派的力量之石"/>
+		
+		<string id="VnNsbALM" text="奥术导体释放期间，法术伤害增加30%"/>
+		<string id="HFZy0NbN" text="魔法之风储量上限加5"/>
+		<string id="eyJXfiKI" text="减少25%法术冷却时间"/>
+		<string id="b4WXhAmt" text="如果玩家手持法杖，法术效果增加15%"/>
+		<string id="tcmvTL96" text="若玩家护甲重量不超过11，可获得20%伤害防护"/>
+		
+		<string id="Oj9CZr60" text="职业技能冷却时间减少50%，增加使用次数"/>
+		<string id="JjttQFMe" text="法术持续时间延长50%"/>
+		<string id="4rvgVRwN" text="魔法之风充能速率加1"/>
+		<string id="iqFXj5f9" text="用于创造力量之石的魔法之风回复80%"/>
+		<string id="8bnAWdsJ" text="队伍中每有一名帝国魔导师，力量之石所需魔法之风减少5%"/>
+		
+		<string id="LeobB3DF" text="奥术导体释放时间和释放效果增加1倍，且可消除法术冷却时间，获得额外使用次数"/>
+		<string id="Rt0s0lM1" text="同伴释放的魔法伤害加20%"/>
+		<string id="yR3ZC9ZL" text="魔法影响范围加20%"/>
+		<string id="SiZ5KOcV" text="若玩家护甲重量不超过11，法术效果增加20%"/>
+		<string id="7aXLw7Qw" text="队伍中每有一名帝国魔导师，你的魔法之风储量上限4"/> 
+
+		<!-- Mercenary Career Choices -->
+		<string id="nIIAgCxu" text="佣兵首领可以命令身边的士兵做好准备，迎接下一波攻击。周围的部队在短时间内变得无可动摇，士气不受任何影响。统御技能的提升可以延长此效果的持续时间。"/>
+
+		<string id="1agZXyNK" text="启用技能期间，单位增加15%近战和远程抗性"/>
+		<string id="AFqYz93X" text="弹药数加5"/>
+		<string id="N1maCeN6" text="增加10%的远程伤害"/>
+		<string id="rUeKKHI9" text="在森林地形中，部队移动速度提高20%"/>
+		<string id="NL5Zfcfb" text="每天狩猎一次（成功几率取决于侦察、长杆和远程技能）"/>
+		
+		<string id="khmcSpxG" text="启用技能期间，单位攻速提高15%"/>
+		<string id="ZYLjalOa" text="增加20点生命"/>
+		<string id="KY2IXhNa" text="步兵工资降低 20%"/>
+		<string id="4uTq9kxe" text="近战伤害提高10%"/>
+		<string id="6PNXtcM9" text="战役地图上的生命值恢复增加3点"/>
+		
+		<string id="Gpd5sQzh" text="启用技能期间，单位远程伤害增加15%"/>
+		<string id="jANQ3ScI" text="弹药数加10"/>
+		<string id="MVvtkmq0" text="增加10%的远程伤害"/>
+		<string id="hCJRkVJC" text="你的队伍同伴上限加5"/>
+		<string id="F88FJMJt" text="增加15%的远程抗性"/>
+		
+		<string id="ixq7z5Ie" text="启用技能期间，单位近战伤害增加15%"/>
+		<string id="vXMw5sZQ" text="增加15%的近战伤害"/>
+		<string id="942mtTGC" text="增加15%的近战抗性"/>
+		<string id="ChcODE6g" text="增加40点生命"/>
+		<string id="oMLR8Jjz" text="近战攻击的护甲穿透提高15%"/>
+		
+		<string id="K7b6P2bn" text="先前技能的效果翻倍"/>
+		<string id="ha0ccsY4" text="队伍中受伤的单位恢复速度更快"/>
+		<string id="Ws8RqDeA" text="有40%的几率免费招募一支额外的同类型部队"/>
+		<string id="iBINWrRr" text="4阶以上部队的工资减少20%"/>
+		<string id="eIlfJbfr" text="可将你的精英部队升级为同伴"/>
+		
+		<string id="OriSoV7K" text="职业技能的冷却时间减少15%"/>
+		<string id="7Jv9epeo" text="手榴弹或铅弹的数量增加4枚"/>
+		<string id="jUbGEib4" text="所有远程部队的伤害提高15%"/>
+		<string id="aqYlzrSa" text="佣兵契约的报酬更高，损失更低，实际取决于你的贸易技能"/>
+		<string id="g0sTQs6X" text="连发射击可穿透多个目标"/>
+		
+		<string id="DuHxiBkB" text="职业技能的影响范围翻倍"/>
+		<string id="4x6NCASJ" text="你的队伍同伴上限加5"/>
+		<string id="eUm40xQW" text="所有近战部队的伤害提高15%"/>
+		<string id="Ij5TLdUE" text="低于15点的伤害不再迟滞玩家"/>
+		<string id="5OmU0aWX" text="队伍里同伴的生命值增加25点"/> 
+
+		<!-- Necrarch Career Choices -->
+		<string id="Ulh0ZNIz" text="尼古拉契施放的这一投射法术从亡者的领域直接召唤而来，能够造成80点伤害。“痛苦爆破”随着每一点法术技能的提升而不断增强，同时还能通过职业树中的多种升级进行强化。该法术无需耗费任何魔法之风即可施放。"/>
+		
+		<string id="1pREKQD4" text="死灵单位的杀伤可为职业技能充能，效果取决于玩家的流氓习气"/>
+		<string id="pI95t25v" text="部队规模增加35"/>
+		<string id="pvrsSzb8" text="施法消耗减少10%"/>
+		<string id="06CLXMEb" text="幽魂单位所需的暗能量减少25%"/>
+		<string id="p7pcMusX" text="每装备一件魔法属性的装备，战斗中可额外获得2点魔法之风上限"/>
+		
+		<string id="9eP0E7jm" text="攻击每命中一次敌人，魔法之风上限增加0.25%"/>
+		<string id="pTtlDx1T" text="玩家队伍侦查范围加20%"/>
+		<string id="VkaJaToZ" text="魔法之风储量上限加10"/>
+		<string id="ASuwtO39" text="玩家获得25%魔法抗性"/>
+		<string id="n0y2Dgh2" text="若玩家护甲重量不超过11，法术效果增加20%"/>
+		
+		<string id="VCLlWxA1" text="每召唤一个尸妖，法术伤害增加25%"/>
+		<string id="GsvuQuyp" text="魔法之风储量上限加10"/>
+		<string id="c3QlJmvS" text="每日获得15点暗能量"/>
+		<string id="zINEBWZe" text="法术伤害可增加流氓习气"/>
+		<string id="QJTl1iMS" text="每学习一个法术，魔法之风上限加1点"/>
+		
+		<string id="9H3bUNZJ" text="冲撞伤害提高25%，施法的法术会自动追踪目标"/>
+		<string id="9U6NXJE4" text="正面buff持续时间增加25%"/>
+		<string id="h2hqPHfb" text="每日获得30点暗能量"/>
+		<string id="2fDvYoPq" text="若玩家护甲重量不超过11，法术效果增加30%"/>
+		<string id="QIoprTVi" text="增加10%闪电魔法伤害"/>
+		
+		<string id="aH7pdNRm" text="职业技能将自动进行缓慢充能"/>
+		<string id="VRQK6pv0" text="法术效果持续时间增加25%"/>
+		<string id="AGXNY2Mq" text="尸妖免疫友方火焰法术伤害"/>
+		<string id="FSPOwuJJ" text="消耗100点黑暗能量举行黑暗仪式，玩家与同伴获得50点魔法之风"/>
+		<string id="dhNVHULG" text="近战与法术伤害增加10%"/>
+		
+		<string id="c4WICWve" text="职业技能范围取决于玩家的医术，同伴可为技能充能"/>
+		<string id="oV7sLnoE" text="正面buff持续时间延长25%"/>
+		<string id="FFhqrbUI" text="4阶以上兵种获得20%伤害防护"/>
+		<string id="ijPdRybo" text="魔导师同伴获得15点魔法之风"/>
+		<string id="FY0FzYik" text="火焰魔法伤害增加10%"/>
+		
+		<string id="6jt4XUhB" text="可连续释放两次痛苦爆破"/>
+		<string id="wQ3Y2qEr" text="魔法之风充能速率加1"/>
+		<string id="ZeRY7YKb" text="减少35%法术冷却时间"/>
+		<string id="j7hDUmUh" text="如果你的魔法之风已达上限，溢出的魔法之风将转化为暗能量"/>
+		<string id="pwe8nNdq" text="一切非物理伤害将算作法术伤害"/> 
+
+		<!-- Necromancer Career Choices -->
+		<string id="clqjm4Gx" text="召唤出一个由死灵法师控制的冠军。冠军每两秒钟失去五点生命值。每三点魔法技能增加冠军一点生命值。职业技能可通过提供魔法伤害或治疗，或者让亡灵单位承受伤害来充能。"/>
+		
+		<string id="yyG4794d" text="你的召唤物获得双手武器，该能力与流氓习气有关"/>
+		<string id="XiMedQYj" text="部队规模加10"/>
+		<string id="2UNCmwuD" text="召唤物击杀可增加流氓习气"/>
+		<string id="4kY1mGis" text="生命值增加25"/>
+		<string id="ksWYZ6oS" text="魔法伤害增加10%"/>
+		
+		<string id="fOBPFRrL" text="按下释放职业技能的按键可在死灵法师与召唤物之间切换"/>
+		<string id="Lvhbgrfh" text="亡灵单位近战伤害加10%"/>
+		<string id="xcbJECNM" text="部队规模加10"/>
+		<string id="Iu6xkx3i" text="施法消耗减少15%"/>
+		<string id="3Evj1g5x" text="魔法之风储量上限加15"/>
+		
+		<string id="b2zpR6ap" text="在控制冠军时亡灵法师本体增加90%的物理抗性。实际效果取决于医术技能"/>
+		<string id="jq17Qivv" text="部队规模加10"/>
+		<string id="Qkhl21Ct" text="魔法之风储量上限加10"/>
+		<string id="9ANZKa2K" text="玩家队伍里的伤兵恢复速度加快"/>
+		<string id="jHH6nTvb" text="4阶亡灵部队有20%概率变成伤兵，而非阵亡"/>
+		
+		<string id="cT3cpHPn" text="你的冠军获得25%的近战伤害加成"/>
+		<string id="V9b2Kk2d" text="部队规模加25"/>
+		<string id="Hgj9aEbS" text="亡灵部队获得15%的穿甲伤害"/>
+		<string id="18IOUfiC" text="亡灵单位近战伤害加10%"/>
+		<string id="3BvV9JbA" text="法术冷却时间减少20%"/>
+		
+		<string id="2HJdPfZG" text="你的冠军获得25%伤害免疫，且无法被冲撞击倒"/>
+		<string id="2lJEHbKW" text="部队规模加50"/>
+		<string id="20du8kuX" text="玩家魔法造成的持续伤害增加50%"/>
+		<string id="n7gZNbjw" text="亡灵单位维持费用减少25%"/>
+		<string id="l0oqBAg6" text="每个荒坟守卫每日可获得0.5点暗能量"/>
+		
+		<string id="63QQbUHw" text="先驱者每杀死施法者和冠军就增加两点生命值。先驱者获得板甲武装"/>
+		<string id="bcJogJ73" text="亡灵单位获得10%的魔法伤害"/>
+		<string id="RMIBUqID" text="暗能量消耗减少25%"/>
+		<string id="QPQgnIbn" text="正面buff和治疗效果延长50%"/>
+		<string id="e5I4FULv" text="每装备一件魔法物品，可多召唤1个单位"/>
+		
+		<string id="MoDzBAqj" text="冠军完成一次1次击杀可充能1点魔法之风，冠军增加20%魔法伤害"/>
+		<string id="BooQF2JH" text="每日获得15点暗能量"/>
+		<string id="htWk2RWx" text="部队规模加100"/>
+		<string id="jw3KbPGR" text="魔法之风储量上限加25点"/>
+		<string id="7eprlrkl" text="亡灵单位升级所需的暗能量减少50%"/> 
+
+		<!-- Spellsinger Career Choices -->
+		<string id="BKQ0L4gP" text="召唤周围森林的森林精魂，在职业界面里每加一点就增加0.05%的概率吸引新的森林精魂加入战斗"/>
+		
+		<string id="Sy9QWq82" text="施法后所有的森林精魂10秒内提升移速，效果取决于玩家的侦查"/>
+		<string id="HX064DjO" text="部队移动速度增加1"/>
+		<string id="oERqm4ga" text="精灵单位薪资减少15%"/>
+		<string id="5XWSC0ui" text="队伍侦察距离增加20%"/>
+		<string id="GW4JnvuS" text="获得15%的特殊防护"/>
+		
+		<string id="dY5GEKxU" text="冲锋伤害增加50%，召唤部队上限加5%"/>
+		<string id="5OEb75sZ" text="魔法之风储量上限加10"/>
+		<string id="SlVx3K07" text="每日获得20点森林生命"/>
+		<string id="cwU7lOMX" text="树人单位维护费减少10%"/>
+		<string id="KuaZGZfm" text="每学习一项魔法，部队规模加3"/>
+		
+		<string id="CdGUEO13" text="每一个召唤单位为所有英雄提供一点生命值。效果取决于玩家的医术"/>
+		<string id="UlAYvbZ9" text="增加25点生命值"/>
+		<string id="reiVVOXJ" text="玩家部队生命值回复速度加2"/>
+		<string id="4CGXnsES" text="治疗和正面buff持续时间25%"/>
+		<string id="RVmT9z3R" text="战役地图上生命回复加4."/>
+		
+		<string id="MvyH74TR" text="森林精魂获得冲锋攻击职业技能，效果取决于玩家的统御"/>
+		<string id="XsrRTxrW" text="森林精魂单位获得15%伤害加成"/>
+		<string id="iFqeLN7v" text="树精单位获得25%伤害防护"/>
+		<string id="I2jS0RuQ" text="森林精魂单位维护费用减少15%"/>
+		<string id="65D2DTai" text="每有1个森林精魂单位加入队伍，都有25%概率获得1点魔法之风"/>
+		
+		<string id="txTmI73X" text="启用冲锋能力，实际效果取决于玩家的信仰技能"/>
+		<string id="sEMLZIPy" text="获得20%近战魔法伤害"/>
+		<string id="BsNlpsTe" text="魔法之风储量上限增加15"/>
+		<string id="Do6mooSJ" text="爱莎祝福每日可获得20点森林生命"/>
+		<string id="s3UUgcVi" text="法术影响范围扩大20%"/>
+		
+		<string id="iBnA4HBE" text="施法后10秒内，树精完成1个击杀可回复一点魔法之风"/>
+		<string id="vMHn43L4" text="玩家的魔法伤害增加15%"/>
+		<string id="Q0key1QK" text="魔法之风储量上限增加15"/>
+		<string id="elo3sNq6" text="森林精魂单位现在不受友军伤害"/>
+		<string id="EEG3r5j9" text="法术持续时间增加35%"/>
+		
+		<string id="iTDrrft9" text="用能力召唤1个树人，或10个用在近身战里的树妖"/>
+		<string id="gakE4XTy" text="黑暗魔法可为玩家和同伴增加15%魔法伤害"/>
+		<string id="njr4na0A" text="高等魔法可为玩家和同伴增加25%伤害防护"/>
+		<string id="W8aJCV4H" text="树精维护费用减少15%"/>
+		<string id="Ob1pnyzM" text="减少35%魔法冷却时间"/> 
+
+		<!-- VampireCount Career Choices-->
+  		<string id="1b5erN9r" text="玩家化身为雾化形态，无法被捕捉，并可以在任何方向上飞行。该能力持续5秒，每点跑动技能增加0.03秒的持续时间。按下攻击键可以随时取消雾化形态。"/>
+
+  		<string id="2ZqyNwzN" text="需要承伤20%才能充能"/>
+  		<string id="2Hz8f5Mb" text="增加25点生命"/>
+  		<string id="spz7NFDM" text="队伍规模上限增加25"/>
+  		<string id="4kyTl9W9" text="魔法之风上限增加10点"/>
+  		<string id="qNqTTJVX" text="免疫白天减速效果"/>
+
+  		<string id="IS73U8VX" text="飞行速度增加20%"/>
+  		<string id="D4KoItbi" text="近战伤害增加10%"/>
+  		<string id="YFiPnY8J" text="战役地图上生命回复速度加3"/>
+  		<string id="WcZtKgcY" text="队伍移动速度增加1.5"/>
+
+  		<string id="vjXcgh49" text="雾形态受到魔法技能的影响。魔法伤害会使冲撞威力降低90%"/>
+  		<string id="YHk186Ut" text="装备重量不再影响魔法之风充能速度"/>
+  		<string id="fW05YybJ" text="魔法伤害增加10%"/>
+  		<string id="yr402N4P" text="魔法近战伤害增加10%"/>
+  		<string id="loTGwzLb" text="施法消耗减少10%"/>
+
+  		<string id="M6MXx1ij" text="雾形态在战斗开始时就会充能完毕，并且现在它还会随流氓属性提升而增强。"/>
+  		<string id="ml3L9zdf" text="正面关系增益提高20%"/>
+		<string id="q4Snzqsq" text="远程伤害与施法消耗提升10%"/>
+		<string id="ESFXBG1W" text="爆头恢复3点魔法之风"/>
+
+		<string id="3gFUFaWm" text="迷雾形态每秒恢复3点生命值。能力持续时间与所使用的武器技能相关"/>
+		<string id="pxqaxoqS" text="同伴上限增加5"/>
+		<string id="Q1UnixGG" text="部队规模增加75"/>
+		<string id="LFmhlZiX" text="所有吸血鬼部队薪资减少15%"/>
+		<string id="BM1uoka0" text="部队升级费用减半"/>
+
+		<string id="U5D1yP8D" text="在迷雾形态后生效的增益效果（需要额外造成30%的伤害），攻击速度增加20%。"/>
+		<string id="hhdzEzES" text="生命值增加50点"/>
+		<string id="GeCTRV1J" text="所有单位对人类敌人的伤害加10%"/>
+		<string id="xBurrFdG" text="所有攻击可对盾牌造成额外伤害"/>
+
+		<string id="xLt1u4c5" text="保持迷雾形态时所有增益效果仍然生效（需要额外造成30%的伤害）"/>
+		<string id="fp8DpWBg" text="部队规模增加100"/>
+		<string id="heZQ2Vj7" text="不死单位维持费用减少25%"/>
+		<string id="GQww2pNa" text="战斗后复活亡灵的几率增加20%"/>
+		<string id="nDHVUnLK" text="四阶亡灵部队被击倒后有20%变成伤员，而非直接死亡"/>
+
+		<!-- WarriorPriest Career Choices -->
+		<string id="8VFjAUNE" text="战斗牧师释放西格玛的愤怒，为他自己和周围的盟友提供了8秒钟的增强效果，使他们在近战攻击时变得更强，增加20%的伤害。每点信仰属性增加0.05%近战效果和0.05秒持续时间。该技能通过承受总生命值50%的伤害来重新充能，而格挡的伤害计为所承受伤害的10%。"/>
+		
+		<string id="gyNRUuDs" text="打出伤害可为职业技能充能"/>
+		<string id="1fNiaUtQ" text="增加25点生命值"/>
+		<string id="x2uEDjRc" text="所有部队增加10点士气"/>
+		<string id="iJKy8N7Y" text="战斗结束后，所有受伤的同伴将恢复 20 点生命值"/>
+		<string id="su9hk2pI" text="受伤的单位恢复速度加快"/>
+		
+		<string id="mh6ZsAUC" text="正义之怒的光环范围变成两倍"/>
+		<string id="Bw7MF1qO" text="获得10%近战神圣伤害"/>
+		<string id="qUrtmEfp" text="所有西格玛教派单位减少20%的薪资"/>
+		<string id="729cRJF6" text="西格玛教派单位获得20%的远程抗性"/>
+		<string id="WiOIpSN8" text="在西格玛神殿祈祷可回复玩家和同伴50点生命值"/>
+		
+		<string id="7aK7EAJP" text="受影响的部队在正义之怒生效时变得坚不可摧，效果取决于玩家的统御"/>
+		<string id="IlQNmCfm" text="增加25点生命值"/>
+		<string id="yZv752iQ" text="近战伤害增加10%"/>
+		<string id="mvcDMPqC" text="战役地图队伍移动速度加1"/>
+		<string id="nBdZE1Dh" text="祷言不再受冷却时间限制"/>
+		
+		<string id="Mixdy0ng" text="正义之怒增加20%的物理抗性，效果取决于玩家的近战技能"/>
+		<string id="8zepFgak" text="增加25点生命值"/>
+		<string id="qYUCtr2l" text="增加15%近战伤害抵抗"/>
+		<string id="GsLtSQcg" text="增加25%魔法伤害抵抗"/>
+		<string id="7SQVvSQt" text="低于15点的近战伤害不会使玩家踉跄"/>
+		
+		<string id="jfCQxhmd" text="所有受到正义之怒影响的单位都获得武器燃烧加成"/>
+		<string id="CkDnd58J" text="获得10%的额外神圣伤害"/>
+		<string id="qjjrIp3Z" text="对抗亡灵和混队部队可额外获得20%的虔诚"/>
+		<string id="6dzdOao5" text="所有单位对非人类敌人的伤害增加10%"/>
+		<string id="HCKHBhGn" text="所有西格玛教派单位获得10%神圣伤害"/>
+		
+		<string id="x8e0gdHO" text="给正义之怒增加一个恢复增益，每秒钟恢复三点生命值"/>
+		<string id="InKsHNtE" text="战斗中可给祷言充能"/>
+		<string id="BvjFhiO4" text="所有帝国兵种现在视为西格玛教派单位"/>
+		<string id="p5liZnze" text="部队薪资减少15%"/>
+		<string id="F0qjs1cd" text="西格玛教派单位减少20%薪资"/>
+		
+		<string id="AV0XBxK1" text="给正义之怒增加伤害光环，当相关技能提升时光环范围会有所增加"/>
+		<string id="9GY0QR1X" text="近战伤害增加10%"/>
+		<string id="vPhgTaGg" text="同伴上限加5"/>
+		<string id="ehkiMbQC" text="护甲的近战伤害防护增加20%"/>
+		<string id="vcPw3Muy" text="增加30点生命值"/> 
+
+		<!-- WarriorPriest Ulric Career Choices -->
+		<string id="xcxDNSBz" text="狼神祭司以其野性之神的名义释放出强力一击，挥动武器狠狠砸下，仿佛手持闪电之斧。这一击无法被招架，并会影响半径2米内的目标。每1点手持武器的熟练度可使伤害增加0.1%。"/>
+
+		<string id="ZC4izhns" text="敌人会被职业能力释放的攻击击倒"/>
+		<string id="XfWDudSG" text="生命值增加25"/>
+		<string id="3fQXCdfe" text="近战伤害加10%"/>
+		<string id="Kk8vwgx5" text="对4阶以下兵种的近战伤害加10%"/>
+		<string id="rsFwPSCo" text="祷言可在战斗中充能"/>
+		
+		<string id="TCVpppii" text="职业能力与统御技能相关"/>
+		<string id="2ohTHn2m" text="增加10%近战伤害防护"/>
+		<string id="DJLT25AK" text="玩家队伍规模加10"/>
+		<string id="pcXfHNsC" text="战斗结束后的生命回复加2"/>
+		<string id="Mb36nioY" text="战役地图队伍移动速度加1"/>
+		
+		<string id="oWOmGzqL" text="攻击半径增加一米，效果取决于玩家的信仰技能"/>
+		<string id="3Sd7MJNW" text="队伍中伤兵恢复速度加快"/>
+		<string id="rsruxvhb" text="在尤里克神殿祈祷可治愈所有伤兵"/>
+		<string id="gDx8cXC4" text="攻击对护盾造成额外伤害"/>
+		<string id="6SKKAtDe" text="近战部队增加20%远程抗性"/>
+		
+		<string id="5icDMvnR" text="受到攻击的敌人在六秒内减速，现在的攻击伤害是冰冻伤害"/>
+		<string id="nfiSUEH6" text="冰霜伤害加10%"/>
+		<string id="bZWAcNlj" text="近战部队获得10%的冰霜伤害"/>
+		<string id="xcmjvjLR" text="移除队伍在雪地的减速效果"/>
+		<string id="eaWRRpTl" text="增加20%技能效果持续时间"/>
+		
+		<string id="uwIzeUch" text="尤里克之斧攻击到的敌人会随时间受到更多伤害"/>
+		<string id="lGrAmOVV" text="穿戴狼头或狼皮可提高10%的伤害防护"/>
+		<string id="LI4zbTQG" text="增加50点生命值"/>
+		<string id="3rLEu1Yn" text="增加20%的祷言持续时间"/>
+		<string id="rsfs5YzK" text="尤里克教派单位减少20%薪资"/>
+		
+		<string id="DOPgc9ih" text="职业技能充能需求减半"/>
+		<string id="3OcL4Yzh" text="每装备一件近战武器，伤害增加5%（可叠加）"/>
+		<string id="5qDUoEAN" text="武器挥动速度增加10%"/>
+		<string id="UaO9kHeM" text="处于劣势的战斗胜利后可刷新尤里克的祝福时长"/>
+		<string id="CDKUvYz5" text="玩家受到低于15点的伤害将不再产生硬直"/>
+		
+		<string id="rxyaFL1P" text="尤里克之斧每杀死一个敌人，祷言技能的冷却时间随机减少"/>
+		<string id="ASQAo6g0" text="祷言有效范围增加50%"/>
+		<string id="0X9jIHsW" text="护甲对近战伤害的抗性提高20%"/>
+		<string id="KY5wIJbf" text="处于劣势的战斗胜利后可获得两倍的声望"/>
+		<string id="mywQ2IPX" text="每次用职业技能完成击杀可回复0.25生命值"/> 
+
+		<!-- Waywatcher Career Choices -->
+		<string id="mPVYw9e8" text="猎神库诺斯赐福致命一击，使其直穿敌人心脏。受到赐福的远程攻击将自动追踪目标，并在命中时引发爆炸。每增加一点弓术技能，爆炸的范围都会扩大。每支箭最多可累计充能150点，最大杀伤可达1200"/>
+
+		<string id="HUXfEU2l" text="降低范围伤害换取充能"/>
+		<string id="GxYR5D01" text="增加10%远程伤害"/>
+		<string id="LJj4PE9p" text="每袋箭额外获得3发箭矢"/>
+		<string id="7EwHbiHu" text="远程单位日常薪资减少20%"/>
+		<string id="AnN0077D" text="移动时的远程命中惩罚减少15%"/>
+		
+		<string id="HERmslIZ" text="库诺斯之箭的射程变成两倍，具体效果取决于玩家的侦察技能"/>
+		<string id="vZ0H2x8a" text="队伍侦查视野增加20%"/>
+		<string id="7FjXdJD4" text="玩家队伍移动速度增加1"/>
+		<string id="v4ws4oO6" text="移除队伍在雪地上的速度惩罚"/>
+		<string id="z56f67d5" text="玩家无视远程伤害产生的硬直"/>
+		
+		<string id="wnebD5yN" text="所有的敌人在十秒内受到额外的50％的魔法伤害，友军能为该能力充能"/>
+		<string id="IFB7AOSg" text="每日狩猎一次"/>
+		<string id="GazyAeYT" text="获得20%远程伤害抵抗"/>
+		<string id="NOWzFw4R" text="远程部队受到的近战伤害减少20%"/>
+		<string id="pbUQUN1x" text="减少20%的装备重量"/>
+		
+		<string id="sltxZHbk" text="每一个受影响的敌人的远程武器装填时间增加4秒。技能伤害增加50%"/>
+		<string id="Nwbfp9DT" text="每袋箭获得额外六发箭矢"/>
+		<string id="aoRAFp1A" text="远程部队每日获得25点经验值"/>
+		<string id="dIKnoRd1" text="远程攻击未察觉玩家的敌人将增加50%伤害"/>
+		<string id="GkArPQ9d" text="特殊射击：每命中一支箭，魔法伤害都会增加。效果随时间减少"/>
+		
+		<string id="AAHePBFx" text="所有在指定区域内的敌人在被撞击时减速。技能伤害增加50%"/>
+		<string id="WccNBTgn" text="减轻20%装备重量"/>
+		<string id="FOeOqRci" text="爆头伤害翻倍"/>
+		<string id="Ky7cmXgV" text="特殊射击： 每射出的第六箭，都会在命中时附加减速效果"/>
+		<string id="W1phWBHf" text="放大视野时，时间流速会变慢，每秒消耗100点职业技能充能"/>
+		
+		<string id="8oitMtpE" text="敌人受到的伤害随着时间推移增加"/>
+		<string id="KWKQ9ceR" text="每袋箭获得额外六发箭矢"/>
+		<string id="z4T06gNt" text="武器挥动速度增加15%"/>
+		<string id="Omckdx5h" text="玩家箭矢可穿透盾牌"/>
+		<string id="3a5f77Mr" text="特殊射击： 射箭间隔时间会增加下一支箭撞击时爆炸的几率"/>
+		
+		<string id="fgLV9r5T" text="库诺斯之箭失去追踪能力。伤害变为两倍"/>
+		<string id="DK0fr0JB" text="减少20%的装备重量"/>
+		<string id="boYyxvjF" text="玩家箭矢可穿透多个目标"/>
+		<string id="gNjCKyFT" text="队伍里的弓手单位增加50点远程熟练度"/>
+		<string id="9Cghr2EB" text="特殊射击的伤害翻倍"/> 
+
+		<!-- WitchHunter Career Choices -->
+		<string id="ICMleRHP" text="标记一个敌人，持续8秒，第一次命中该目标时，物理伤害增加20%。每次命中后有50%的几率保持标记效果。每有1点火药或弩技能点，标记保持几率增加0.1%，并可额外标记其他目标"/>
+
+		<string id="IGLMSgEv" text="被标记的敌人受到的物理伤害增加20%，角色输出近战伤害可为该技能充能"/>
+		<string id="m4wd5ahF" text="战斗结束后生命恢复速度增加3"/>
+		<string id="7GdjoQcP" text="远程部队薪资减少15%"/>
+		<string id="1VK8HS6B" text="远程部队的近战伤害加10%"/>
+		<string id="noRgDj3D" text="远程部队的全部伤害增加10%"/>
+		
+		<string id="HL5qUo6G" text="标记停留在目标身上的时间延长六秒，效果取决于玩家的双手或单手技能两者之中的最大值"/>
+		<string id="U5xXfTgk" text="增加25点生命值"/>
+		<string id="2z6MwGxx" text="获得5发额外弹药"/>
+		<string id="KENJmIi0" text="近战伤害增加10%"/>
+		<string id="8P6LX8nz" text="爆头射击可增加流氓习气，且标记的效果翻倍"/>
+		
+		<string id="TN4we7ps" text="被标记的敌人受到20%的神圣伤害，效果取决于玩家的信仰技能"/>
+		<string id="AlgGKVuw" text="每击杀一个亡灵或混沌单位，可获得信仰值"/>
+		<string id="4Sa7HKxD" text="你队伍的部队可对亡灵与混沌单位造成额外伤害"/>
+		<string id="oESIjvRr" text="增加25点生命值"/>
+		<string id="6quh6ABS" text="单位可升级为猎巫人随从"/>
+		
+		<string id="fEI9ydEF" text="在该能力持续时间内攻击可以穿透敌人盾牌，敌人保持被标记状态"/>
+		<string id="G0HE62Hu" text="增加20%的神圣近战伤害"/>
+		<string id="xHw2Wyro" text="所有单位的近战和远程熟练度提高20（土匪单位除外）"/>
+		<string id="eH38DXHA" text="增加15%的远程命中率"/>
+		<string id="Lmmd1U2i" text="增加5个同伴上限"/>
+		
+		<string id="X3BwslYi" text="降低敌人的移动与攻击速度，效果取决于玩家的跑动技能"/>
+		<string id="bbFAbMV2" text="获得10发额外弹药"/>
+		<string id="KXXkwKdu" text="移动射击惩罚降低15%"/>
+		<string id="6dfQ7UQg" text="战役地图队伍移动速度增加1.5"/>
+		<string id="DyZnES41" text="近战挥砍速度增加15%"/>
+		
+		<string id="3SbMmC2n" text="同伴和随从可以触发标记的效果"/>
+		<string id="t6JS8QAq" text="部队生命回复速率加2"/>
+		<string id="MhAZFCtA" text="队伍里的远程部队附加15%的神圣伤害"/>
+		<string id="k6MRlupC" text="同伴获得额外50点生命值"/>
+		<string id="LzEFiN0P" text="爆头可增加远程装填速度和近战挥砍速度"/>
+		
+		<string id="BY4vdhS2" text="被标记的敌人受到过量伤害后会将标记传播到其他敌人身上，效果取决于玩家的流氓习气"/>
+		<string id="m5tBlsga" text="远程伤害增加10%"/>
+		<string id="kOC4K4xR" text="远程抵抗增加15%"/>
+		<string id="ZSbcZ2pX" text="近战伤害增加25%的护甲穿透效果"/>
+		<string id="thOGyv9q" text="远程武器可穿透多个目标"/> 
+
+		<string id="str_tor_grail_companion_vow_start" text="您好，大人，我该如何为您效劳？"/>
+  		<string id="str_tor_grail_companion_vow_1" text="你入伍已经有一段时间了。在此期间，你已经充分证明你是最能干、最有骑士精神的人。"/>
+  		<string id="str_tor_grail_companion_vow_2" text="大人，感谢您的赞美，与您并肩作战是我的荣幸。"/>
+  		<string id="str_tor_grail_companion_vow_3" text="我不希望你止步于一名普通的骑士。我想提拔你成为我的内阁，让你作为士兵忠诚的领导者，成为我最信赖的同伴。"/>
+  		<string id="str_tor_grail_companion_vow_4" text="这是我的荣幸。以女神之名，我发誓我将竭诚我忠，至死方休。"/>
+  		<string id="str_tor_grail_companion_vow_5" text="我非常期在待接下来的战斗中，你的出色表现。"/>
+
+  		<string id="i8NcmG8O" text="我能为你做些什么呢？"/>
+  		<string id="2dOrUfFU" text="你表现得非常好，我想让你成为同伴。"/>
+  		<string id="6nq6qAsi" text="成为同伴？"/>
+  		<string id="D8DHn34a" text="你将成为我的同伴，负责一些家族事务处理，并且我不会再支付你工资"/>
+  		<string id="6iM76Usd" text="没看到钱之前，我不会去当保姆或者同伴. 你得先付我 {MERCCOMPANIONPRICE}{GOLD_ICON}"/>
+  		<string id="bixktRyz" text="当然，就把这当作是对你即将获得份额的预支"/>
+  		<string id="6xopCBIr" text="我现在手头没有那么多钱"/>
+  		<string id="RAmQtRcu" text="不错的交易，我期待着你成为我的同伴"/>
+  		<string id="ZdUwBo10" text="嗯，我暂时不想支付更多的工资"/>
+  		<string id="Dd1rlhfO" text="明智的决定"/>
+  		<string id="SdvSJXHd" text="好吧"/>
+
+  		<string id="CG7iYYuN" text="女神要求你停止屠杀你的巴托尼亚同胞！({0}{1})"/>
+  		<string id="HOTaCoxw" text="我的女神，你怎敢对我提要求…… 哦，是她提的？"/>
+  		<string id="wgRolOcu" text="我想，我无法拒绝你的请求。如果女神要求，我会服从。"/>
+  		<string id="XBijn9PB" text="我们美丽而高贵的土地已被入侵！女神要求你攻击她的敌人！({0}{1})"/>
+  		<string id="QsmsOHcs" text="啊，对，所以你更清楚，哪条线索最困扰我们？"/>
+  		<string id="xhKvvBtH" text="我想，我无法拒绝你的吩咐。若女神有所要求，我自当遵从。"/>
+  		<string id="rBvvEEWn" text="停止与 {FACTION_NAME_1} 的战争。"/>
+  		<string id="jbCgRKiB" text="停止与 {FACTION_NAME_2} 的战争。"/>
+  		<string id="7vmyH5iz" text="停止与 {FACTION_NAME_3} 的战争。"/>
+  		<string id="HYdfRRbz" text="别在意"/>
+  		<string id="rqtxmAMN" text="我们需要团结起来对抗 {FACTION_NAME_1}"/>
+  		<string id="kTwdv1mK" text="我们需要团结起来对抗 {FACTION_NAME_2}"/>
+		<string id="kNd9FF0B" text="我们需要团结起来对抗 {FACTION_NAME_3}"/>
+  		<string id="TRe1rxKg" text="如你所愿，我的女神"/>
+
+		<!-- ExtendedInfoManager -->
+  		<string id="8U1fIdXH" text="职业技能使用者" />	
+  		<string id="SpNIAvEr" text="施法者" />	
+  		<string id="2GzK64cw" text="死灵法师" />	
+  		<string id="iF9gcZYh" text="同伴" />	
+  		<string id="a36IuyiB" text="不死生物" />	
+  		<string id="k9YXJSY4" text="混沌神选" />	
+  		<string id="EH3I60Kj" text="黄铜要塞守卫" />	
+  		<string id="tmQK3i2E" text="贝杰拉克" />	
+  		<string id="z1N4oOBD" text="骑士" />	
+  		<string id="PBuIOFlm" text="可部署火炮" />	
+  		<string id="rx3V3Vrh" text="不可打断" />	
+  		<string id="9OWBPxcG" text="工程师同伴" />	
+  		<string id="zAKorxqc" text="厄运缠身" />	
+  		<string id="Hb4d4il6" text="名门望族" />	
+  		<string id="yKn5xYA9" text="杜鲁齐使者" />	
+  		<string id="SawBEST8" text="阿苏焉使者" />	
+  		<string id="CTPz2FBe" text="帝国使者" />	
+  		<string id="JuRyOtHC" text="织法者使者" />	
+
+  </strings>
+</base>

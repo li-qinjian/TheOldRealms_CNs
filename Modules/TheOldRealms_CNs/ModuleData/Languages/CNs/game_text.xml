@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<string id="APcnKMgv" text="确定"/>
+		<string id="2Pn37PsW" text="返回"/>
+		<string id="13Vft5qv" text="离开"/>
+		<string id="oUukZLPN" text="继续"/>
+		
+		
+  		<string id="30yE54FF" text="中古战锤汉化已加载 "/>
+  		<string id="GJfeZNQc" text="着色器编译中，剩余: "/>
+  		<string id="tor_menu_enter_game_label_str" text="进入旧世界 "/>
+  		<string id="tor_menu_shader_cache_label_str" text="构建着色器缓存"/>
+  		<string id="tor_menu_shader_cache_popup_message" text="这将加载一个包含我们模组中所有独特部队与 NPC 的场景。这样做的目的是在您的个人电脑上编译本地着色器缓存。
+
+这会花费很长时间！！！
+我们的用户反馈耗时在 20 到 70 分钟之间。
+这确保您在正常游戏过程中无需单独编译着色器，因为这可能会引发稳定性问题。此举旨在减少 UI 头像生成崩溃的次数，同时消除正常游戏过程中漫长的战斗加载时间。"/>
+  		<string id="tor_menu_shader_cache_popup_title" text="重要警告"/>
+  		<string id="tor_menu_shader_cache_popup_confirm" text="执行"/>
+  		<string id="tor_menu_shader_cache_popup_reject" text="取消"/>
+
+		<string id="tor_spellcasting_mode_key_str" text="退出施法选择页面"/>
+		<string id="tor_quick_cast_key_str" text="快速返回"/>
+  		<string id="tor_career_ability_key_str" text="职业能力"/>
+  		<string id="tor_spellcasting_mode_description_str" text="在战斗中按下 Q 会进入瞄准模式，此时会出现一个选择界面，可以自由选择你想要施放的法术。\n2）使用鼠标滚轮可以在你的法术之间切换（如果你学习了多个法术）\n3）屏幕左下方会出现新的GUI，图像代表你选择的法术和冷却时间\n4）施法需要消耗玩家的魔法之风（法力），这一点不言自明。魔法之风储量会随着时间的推移在战役地图上恢复。"/>
+		<string id="tor_quick_cast_description_str" text="施法或祈祷时不一定要切换到施法模式。但若没有目标指示，法术会遵循预定义的施法顺序。要有针对性地施法，需要手动打开施法界面选择法术"/>
+  		<string id="tor_career_ability_description_str" text="初始职业能力，如吸血鬼伯爵的雾化形态或圣杯骑士的骑士冲锋"/>
+
+		<!-- PrestigeNobleTownBehavior -->
+  		<string id="X4LBsLaO" text="你并不为帝国效力，陌生人，走开。"/>
+  		<string id="0YIMCTQ6" text="我不会和无名小卒做生意，陌生人，而且我不认识你。现在离开。（低声望）"/>
+  		<string id="reHQ3AzZ" text="很高兴认识你，我是贝特霍尔德・文德哈尔斯领主。看起来你已经颇有名声了，帝国宫廷中的许多人都知道你的功绩。"/>
+  		<string id="pkqYp8hB" text="我把结识重要且有用之人当作自己的事。如你所见，人脉是我的营生，我确实相信我们之间的关系会证明是极为有利可图的。"/>
+  		<string id="8E21Zzmi" text="我能帮你在帝国宫廷中进一步扩大权力和影响力，而我所要求的回报仅仅是在需要时你能投桃报李。"/>
+  		<string id="0ByZ4WiN" text="有许多可能会让你感兴趣的项目。我们应该考虑些什么呢？"/>
+  		<string id="ilghwzDN" text="还有什么我能为你做的其他事情吗？"/>
+  		<string id="28D3NqMt" text="你可能有什么我感兴趣的物品吗？"/>
+  		<string id="YMcRiZfG" text="嗯…… 目前我手头只有一样东西，但它非常独特。一只来自帝国动物园的野兽，如果你感兴趣的话？"/>
+  		<string id="MouwZnD1" text="什么样的野兽？"/>
+  		<string id="tNxwSIzf" text="也许是别的什么东西。（返回）"/>
+  		<string id="UKRx0qt1" text="由于一些相当不幸的情况，我们有一匹没有骑手的巨大骏马。确切地说，是一只半狮鹫。虽然骑手会令人怀念，但帝国动物园的管理员不知道该如何处置它。幸运的是，我在堕落骑士团中有联系人，他们可能愿意将这只坐骑委托给你……({1000}{PRESTIGE_ICON})"/>
+  		<string id="N2sTSXQz" text="价格不是问题，这样一匹强大的骏马是值得的。({PRESTIGE_COST}{PRESTIGE_ICON})"/>
+  		<string id="VquLZAMx" text="目前不行，也许以后吧。"/>
+  		<string id="yKHtQwkx" text="我想要投资基础设施，我有哪些选择？"/>
+  		<string id="zMoYOYNL" text="一个有趣的选择，有许多计划在未来进行的项目…… 但有了适量的资金，我可以确保你被知晓为它们加速建设背后的慷慨施主。"/>
+  		<string id="HqaxWOly" text="[为西格玛・海尔登罕默奉献一座雕像]"/>
+  		<string id="GYmDGH1Z" text="[帮助资助一座莎莉雅神庙的建造]"/>
+  		<string id="caCAJrRd" text="[建造一个新的干船坞]"/>
+  		<string id="fd7b5xox" text="[帝国训练场]"/>
+  		<string id="tD97rblE" text="[翻新海尔登罕默]"/>
+  		<string id="6xGrtNNA" text="阿尔道夫城内的西格玛教派有志于建造一座相当庞大的我们最荣耀的西格玛雕像，位于一座能俯瞰他心爱帝国壮丽景色的山丘上。他们在确保其按时完工的资金方面有所欠缺，我能以微不足道的代价确保你的名字被写在这样一座奇妙的纪念馆上。(200000 {GOLD_ICON})"/>
+  		<string id="fFBJgMfX" text="整个帝国中有许多人在受苦，而莎莉亚的女祭司们比以往任何时候都更被需要，然而资助一座献给白衣女士的神庙绝非易事。你可以确信，只需一点小钱，你的名字将因帮助完成这样一项无私的举动而被世代赞颂。(400000 {GOLD_ICON})"/>
+  		<string id="LH9dd0Q0" text="我们面临的来自诺斯卡的威胁始终存在，诺德兰的选帝侯已呼吁建造一个新的干船坞以增强帝国海军实力。当地领主们已经为其提供了资金…… 然而，只需再多一点，我可以确保你被知晓为主要出资人。(500000 {GOLD_ICON})"/>
+  		<string id="6iIPCNGF" text="帝国的森林和山丘需要持续巡逻以确保其公民的安全，当地的一支卫戍部队急需训练装备，而你有机会为他们提供。(250000 {GOLD_ICON})"/>
+  		<string id="FOhuFJhN" text="维持强大的海尔登罕默正常运转需要大量资金，大牧首和西格玛教派对于任何捐赠以确保它随时具备战斗准备的人都会非常青睐。(500000 {GOLD_ICON})"/>
+  		<string id="h3wvI1aQ" text="听起来不错，我会把资金给你。"/>
+  		<string id="C3QfgQdT" text="目前不行，也许以后吧。"/>
+  		<string id="N1jGtwBa" text="也许有别的选择。（返回）"/>
+  		<string id="Hm9kyZDu" text="我对帝国的许多组织感兴趣，有没有我可以援助的？"/>
+  		<string id="DULzdF8h" text="[为前往奥苏恩建立新贸易路线的外交使命寻求支持]"/>
+  		<string id="y5ngGp7B" text="[支持商人公会特使前往与震旦建立火药贸易的使命]"/>
+  		<string id="YoH81dFT" text="[支持工程师公会的技术创新]"/>
+  		<string id="GLqYf3hm" text="[帮助资助一支前往露丝契亚的猎人探险队]"/>
+  		<string id="zUxwTAos" text="一支外交使团准备前往乌鲁斯安，但他们担心缺乏足够精美的礼物来取悦那些尖耳朵…… 精灵。也许你可以帮助他们？(200 {INFLUENCE_ICON})"/>
+  		<string id="rE1VChys" text="我们依靠信仰、钢铁和火药来保护帝国，而我们需要大量的火药。震旦也使用黑火药，为了使我们两国人民更加亲密，贸易公会已派遣一名特使去建立贸易联系。一些选帝侯尚未被说服。(400 {INFLUENCE_ICON})"/>
+  		<string id="onED4gTM" text="工程师公会的奇思妙想众多，但发明、测试等等同样代价高昂。资助他们的实验性努力将为你赢得大量公众舆论的支持。(200 {INFLUENCE_ICON})"/>
+  		<string id="P5P3mZu9" text="露丝契亚的丛林中野兽无数，猎人队很快就要去狩猎了，但在为如此艰难的旅程获取物资方面可能需要帮助。"/>
+  		<string id="81h5aB1D" text="帝国各地的许多团体和组织都需要你的支持。你愿意为他们提供所需的力量吗？"/>
+  		<string id="qEv9OOps" text="这听起来不错，我会支持这个。"/>
+  		<string id="A2zGMa9Q" text="目前不行，也许以后吧。"/>
+  		<string id="Xp2zccPw" text="[在整个帝国扩大你的影响力（可重复）]"/>
+  		<string id="wv5RMDBj" text="也许有别的选择。（返回）"/>
+  		<string id="EitZwuRG" text="谢谢，我会再找你的。"/>
+
+  		<string id="KikYamUt" text="贝托尔德·文德哈斯"/>
+
+  		<string id="DskvrbLy" text="选择你的半狮鹫！"/>
+  		<string id="cp867vwt" text="贵族为您提供服务，他在动物园里饲养的一只半狮鹫可供您使用"/>
+
+		<!-- EonirFavorEnvoyTownBehavior -->
+		<string id="7YBSPfkG" text="你不是这些人的一员，走开。"/>
+  		<string id="W4Lnh13u" text="森林告诉了我你的到来，却没有告诉我原因。你来找我做什么？"/>
+		<string id="5HANLbwJ" text="我想通过世界根须旅行，你能做我的向导吗？"/>
+  		<string id="DjqBTp5p" text="我们需要森林之子，有谁能来援助我们吗？"/>
+		<string id="C5Xhxk0O" text="我寻求进一步了解魔法之风，你能帮助我吗？"/>
+  		<string id="kLRbSfmj" text="我想我已准备学习新的魔法之风"/>
+		<string id="X3aGZ7dk" text="你来这里做什么？"/>
+  		<string id="eAHu0CbA" text="就这样吧，谢谢"/>
+		<string id="apZ5VFit" text="可以是可以，但你同样需要帮助我们，我的族人需要更多的力量，这样我才能帮助你在世界根须中旅行"/>
+  		<string id="nFyQLVmU" text="当然，我愿意帮忙。现在，作为我的向导，请告诉我如何沿着这些古道旅行？"/>
+		<string id="Q5gUUjUP" text="在劳伦洛伦有一个通往世界根须的入口，你们必须先找到它，一旦找到了，一位织法者会帮你穿越它，但只能去到遥远的巴托尼亚麦松塔，我们就不能再往前走了，因为我不想冒犯阿斯莱精灵。世界根须是神圣的，非阿斯莱精灵很少能穿越它们"/>
+  		<string id="HOkMIv92" text="有许多游牧民远离我们的村庄，生活在森林深处。任何信息要传递到他们那里都需要时间，但这是可以做到的。这就是你想要的吗？"/>
+		<string id="nUdVVGNT" text="我们最近请求过森林之子的援助。应该再等一段时间"/>
+  		<string id="mPIYTfVu" text="明白了"/>
+		<string id="UM98PBvD" text="那真是太好了。我相信总有一天我们会报答你的。我会做出有利于林地亲族的决定"/>
+  		<string id="iI5lXnvc" text="容我考虑一下"/>
+  		<string id="1Lukob2K" text="我看看我能做什么"/>
+  		<string id="NKzKcUtJ" text="我可以教你，但无论你准备了多少，我都需要你在议会中的承诺 (500{EONIR_FAVOR})？"/>
+  		<string id="6F5IsL52" text="这不应该对你不利"/>
+  		<string id="hA7PIb2W" text="我代表了保卫劳伦洛伦森林的女巫与法师们，只要议会忙于政治事务，林地亲族就会接受森林的指引"/>
+  		<string id="0sj3fF9W" text="森林时刻遭遇着野兽与人类的破坏行径，那么，你要保护些什么？"/>
+  		<string id="P4xmNuDj" text="议会会能为您解决什么问题？你又能付出什么回报？"/>
+  		<string id="6PN0HtCf" text="城邦民与林地民同属于一个精灵民族，你的事就是我们的事"/>
+  		<string id="ybgm361Y" text="我不是搞政治的。我是来维护自身利益的。我知道精灵议会有时会忘记我们。这就是为什么我站在这里，为森林人民说话。我知道，在这里，没有付出就没有回报"/>
+  		<string id="HRrZVKFq" text="用你的政治力量帮助我们，我会努力让它物有所值。我可以用一些魔法来帮助你们，比如使用阿斯莱的世界根须，或者用你们的影响力换取议会中的权力。此外，我还可以教你一些魔法"/>
+  		<string id="gsyVDcXQ" text="还有什么是我可以做的吗？"/>
+
+  		<string id="FGwwD1aC" text="你无权为议会服务，你现在可以说是一无是处。 (你的声望过低)"/>
+  		<string id="tzymiZRk" text="我能帮上什么忙吗？"/>
+  		<string id="fyQNpQvr" text="我带来了优质商品可供贸易，我想在精灵议会中建立自己的声誉。您感兴趣吗？"/>
+  		<string id="MpCfcjmn" text="我发现自己需要高质量的商品在帝国贵族间交易。您能提供吗？"/>
+  		<string id="kDY99VXI" text="我们的人民需要和平。怎样才能停止战争？"/>
+  		<string id="PQY5EdTE" text="帝国和艾尼尔议会应该和平相处。我们的人民都应毫不犹豫地这样做。 ({PEACE_COSTS}{EONIR_FAVOR})"/>
+  		<string id="cO6n5WfZ" text="我的政治权力有限。你的要求太高了，下次再说吧"/>
+  		<string id="Ulszxwuw" text="就这样做"/>
+  		<string id="GNNXg5Rh" text="看看我能做些什么"/>
+  		<string id="WCXQdbG1" text="显然，你们帝国的提议能使议会受益（将 {ORIGINAL_PRESTIGE} 兑换为 {RETURN_FAVOR}{EONIR_FAVOR}"/>
+  		<string id="49mLC4TQ" text="合作愉快。(用{ORIGINAL_PRESTIGE} 换取 {RETURN_FAVOR}{EONIR_FAVOR})"/>
+  		<string id="qJGJQORn" text="帝国的雄心壮志需要在议会中得到体现。 (30点帝国威望换50点艾尼尔议会声望)"/>
+  		<string id="Gd0FPuZ6" text="合作愉快"/>
+  		<string id="apxKtpxU" text="我是选帝侯鲍里斯-托德布林格的使节，我代表米登领的利益，并在一定程度上代表整个帝国的利益。我们希望与艾尼尔保持和平的关系，建立在信任、贸易和相互尊重的基础上，这样我们都能从中受益"/>
+  		<string id="64oLGj0y" text="你们侵占了我们的土地，却无视神圣的东西，还跟我们谈什么尊重？你们不属于这里"/>
+  		<string id="RGjuJ1YZ" text="在不需要敌人的时候与之为敌，对我们双方都没有好处，贸易与和平才能让两国人民受益"/>
+  		<string id="Ge8ealF5" text="帝国的问题也就是艾尼尔的问题。我们需要并肩作战，共同面对我们的敌人"/>
+  		<string id="nnBw7olg" text="我们只寻求合作，为大家谋取共同利益。两国人民的冲突只会帮助我们的敌人，这一点你们肯定同意"/>
+  		<string id="4RiY4mbm" text="我和选帝侯的话都很有分量 我可以确保两国之间的和平与贸易往来，如果贵国的领土受到威胁，我们甚至可以提供雇佣兵。请考虑一下吧，这样我们都会受益匪浅"/>
+  		<string id="radDVKcA" text="我还能提供其他服务吗？"/>
+
+  		<string id="uIvDWosG" text="我是巫王马雷基斯的仆从，有什么可以为您效劳的？"/>
+  		<string id="JrdC1oeb" text="我们被敌人包围了，因而来寻求你们的帮助，在我们的敌人之中中制造混乱，削弱他们的力量"/>
+  		<string id="o1lB63N5" text="如果你有兴趣，我有一批上好的俘虏要出售"/>
+  		<string id="3n5Cnyml" text="我为你们准备了一些有利可图的突袭目标"/>
+  		<string id="NGCceVrl" text="一把凯恩的匕首，如果能在错误的时间刺入正确的咽喉，就能起到决定性的作用。战争的起因就在于此。我们的匕首该落在谁的喉咙上？(让两个派系开战({FORCEWAR_PRICE}{EONIR_FAVOR})"/>
+  		<string id="UZo3nYU8" text="巫王不会允许的。我们应该再等一等"/>
+  		<string id="HHiiCtsY" text="多有前途的交易啊，下次与巫王谈判时，这就是你的功劳，我相信议会会喜欢的"/>
+  		<string id="UTriM8Hk" text="……你建议我们的黑色方舟停泊在哪里？({SLAVERTIDE_PRICE}{EONIR_FAVOR})"/>
+  		<string id="fCQJqSAa" text="就这样吧。({SLAVERTIDE_PRICE}{EONIR_FAVOR})"/>
+  		<string id="tRsO1ecP" text="看看我能做些什么"/>
+  		<string id="TxOHUiK0" text="我是巫王——阿苏尔合法统治者与黑色议会的特使。我们的观点可能并不总是一致，但我们相信杜鲁奇和阿苏尔有很多共同点，也能从彼此身上获益良多"/>
+  		<string id="E3hCoPqP" text="你们袭击我们的海岸，奴役我们的人民，却厚颜无耻地站在我们面前，仿佛这一切都没有发生过！"/>
+  		<string id="nZWxdrZl" text="我很怀疑，你带着自己的野心来到这里，但目的是什么？现在听你说话，对艾尼尔有什么好处？"/>
+  		<string id="Rh4DAYCW" text="阿苏尔背叛了我们，让我们自生自灭，我不要求你们同意杜鲁奇所有的观念，但我知道你们也深受我们堂兄的无边傲慢之害"/>
+  		<string id="v7OhAG4w" text="我们不是你们的敌人，事实恰恰相反。很少有人能与我们分享在阿苏尔手中遭受的苦难，很少有人能理解我们共同的困境。我们可以通过多种方式共存共荣——加入我们吧，我们已经被我们的亲族蔑视太久了，这是我们共同未来的最佳途径"/>
+  		<string id="11Za94Wp" text="你们的海域将免受袭击，不受任何敌人的侵犯，你们人民最黑暗的欲望将不受审判，而我们所寻求的只是在你们议会中的影响——我们只是希望缩小两个民族之间的差距，这样我们就可以共同对抗阿苏尔，这是一个可靠而正义的事业，你们同意吗？"/>
+  		<string id="YYWcCASK" text="你还需要我做什么吗？"/>
+  		<string id="rr9OOSKH" text="巫王还能为你做什么吗？"/>		
+
+  		<string id="AFWTrARL" text="你面前是阿苏尔精灵与凤凰王的使节，海外的精灵遗民还不速速下跪？有话快说"/>		
+  		<string id="6YKVAKYp" text="我们希望扩大贸易网络，但缺乏资金。奥苏安愿意投资这项事业吗？"/>		
+  		<string id="cEiP7pbA" text="艾尼尔受到威胁，我们需要士兵保卫家园和人民，你们能帮助我们吗？"/>		
+  		<string id="A62ouYQ4" text="我们寻求贵国外交官的帮助，人类王国之间的关系非常紧张，我们希望扭转这种局面"/>		
+  		<string id="phHVZA26" text="简单，你要多少？"/>		
+  		<string id="IQyM2Ygt" text="我们在等待另一批宝藏船队，这可能需要几天时间"/>		
+  		<string id="rVLwBWyI" text="{ASUR_MONEYRETURN1}{GOLD_ICON} 换取 {ASUR_FAVORCOST_MONEY1}{EONIR_FAVOR}"/>		
+  		<string id="MxYxCfQy" text="{ASUR_MONEYRETURN2}{GOLD_ICON} 换取 {ASUR_FAVORCOST_MONEY2}{EONIR_FAVOR}"/>		
+  		<string id="mtsbvc69" text="{ASUR_MONEYRETURN3}{GOLD_ICON} 换取 {ASUR_FAVORCOST_MONEY3}{EONIR_FAVOR}"/>		
+  		<string id="ygGEZPSp" text="阿苏尔中也许有精灵愿意战斗，即使是为了我们文明程度较低的亲属"/>		
+  		<string id="CUOaO4iM" text="很好，我接受。 (150 {EONIR_FAVOR})"/>		
+  		<string id="ZSGigdWT" text="我们可以从众多的使节中为您美言几句，阿苏尔的话在凡人间很有价值。你想和谁建立更好的关系？"/>		
+  		<string id="wmKmGU2e" text="你应该再等等，良好的外交需要耐心"/>		
+  		<string id="SfhXhq7W" text="很好，我接受。 (400 {EONIR_FAVOR})."/>		
+  		<string id="RX1nYik1" text="我是作为奥苏安的代表来到这里的，我想提醒你们，你们所享有的自由和独立是凤凰王赐予你们的最慷慨的礼物。这份礼物可以由王来决定是否收回"/>		
+  		<string id="gEtj3avH" text="你们抛弃了我们，让我们自生自灭，然后试图用武力夺取我们的土地。没有奥苏安，我们照样活得好好的，一直活到了现在。走吧，“亲戚”"/>		
+  		<string id="Bs6Et84t" text="请注意，我们愿意谈判并不表明我们已经忘记了你们的过失，你们来这里是要给我们什么？"/>		
+  		<string id="3H7K7tnR" text="我们是亲戚，分开太久了，我们寻求阿苏尔的帮助，并对他们的帮助表示感谢"/>		
+  		<string id="8HSzi1pr" text="只要能增加我们在议会中的影响力，我们愿意提供多种形式的援助"/>		
+  		<string id="1uowtL5k" text="奥苏安与整个旧世界都有联系，如果需要资金、跟敌人说几句好话，或者需要士兵保卫您的森林，我们都可以提供。当然，是按照约定的价格提供"/>		
+  	
+  		<string id="5GLwmlZC" text="巫王特使"/>		
+  		<string id="6WtgDRJ7" text="凤凰王特使"/>		
+  		<string id="H1vQ0Rvv" text="帝国特使"/>		
+  		<string id="CHngGIAB" text="林地咒咏者"/>		
+
+  		<string id="fVABwOgl" text="学习新魔法之风"/>		
+  		<string id="WDLtnx3B" text="强制和平"/>		
+  		<string id="M7rmSbLs" text="选择一个新魔法之风（最多可学3种）"/>	
+
+  		<string id="q99lDm1L" text="迫使一个帝国与艾尼尔处于和平状态"/>		
+  		<string id="B7wUIrpo" text="挑起两个王国之间的战争"/>
+  		<string id="TkjsDGiy" text="“改善与一个派系的关系"/>
+  		<string id="wz15kkuj" text="选择将爆发战争的两个派系"/>
+
+  		<string id="P0A7V8TQ" text="选择一个将被围攻的王国"/>
+  		<string id="WlIpxiKK" text="选择一个正被杜鲁齐奴隶贩子部队围攻的王国"/>
+		
+  		<string id="hRWmIRtU" text="阿苏焉支持"/>
+
+  		<string id="B0QFjTwp" text="改善关系"/>
+  		<string id="t58yk3Lb" text="选择一个派系，你与它的关系将提升 15，与艾尼尔派系的关系也是如此"/>
+ 
+
+		
+
+		
+
+		<!-- Career Switch Dialog-->
+		<string id="tor_bloodkiss_player_notification_str" text="玩家接受了鲜血之吻。"/>
+		<string id="tor_blackgrail_request_str" text="你总是说女神是虚假的。你到底是什么意思？"/>
+  		<string id="tor_blackgrail_answer_line1_str" text="并非所有巴托尼亚人，都准备好接受真相。你愿意摆脱巴托尼亚一直以来，教条般追求的东西，并彻底净化自己吗？"/>
+  		<string id="tor_blackgrail_answer_line2_str" text="我必须警告你，一旦你踏上这条路，就没有救赎可言。你将被所有巴托尼亚人视为国王的敌人。"/>
+  		<string id="tor_blackgrail_answer_ready_str" text="所以我再问你一遍，你真的想知道，那所谓女神的真相？"/>
+  		<string id="tor_blackgrail_answer_player_ready_str" text="大人，我准备好了。"/>
+  		<string id="tor_blackgrail_answer_player_notready_str" text="容我三思。"/>
+  		<string id="tor_blackgrail_receive_str" text="真相是，高贵的、骄傲的巴托尼亚人，竟对一只精灵的呢喃，俯首听命！不是什么女神，也不是什么圣人，她不过就是一只精灵女巫。我们整个王国，都建立在这“女神”的谎言之上。我要让你摆脱这些谎言，喝下这圣杯吧，你将获得巴托尼亚真正的力量！"/>
+  		<string id="tor_blackgrail_receive_end_str" text="来吧，我的骑士。让我们净化这荒唐的世界吧！"/>
+  		<string id="tor_blackgrail_dontbotherme_str" text="那就去一边凉快去。"/>
+
+		<string id="tor_bloodkiss_request_blooddragon_str" text="大团长，我希望能加入血龙，成为一名光荣的血骑士。"/>
+  		<string id="tor_bloodkiss_blooddragon_answer_line2_str" text="啊，有趣，一位不可思议的战士，竟然站在我瓦拉齐·哈肯的面前，索取鲜血之吻。虽然你只是区区凡人，但你的英勇和对骑士精神的执著确实值得称赞，你对完美的追求着实有趣。"/>
+  		<string id="tor_bloodkiss_blooddragon_answer_line3_str" text="鲜血之吻可不是随随便便配得上的。但是，我能感受到你对血龙骑士团极为罕见的献身精神。你对卓越的渴望和坚定不移的纪律产生了强烈的共鸣。你所宣誓的誓言，你所坚守的骑士准则，正是血龙骑士团的根基。"/>
+  		<string id="tor_bloodkiss_blooddragon_answer_ready_str" text="骑士，你要知道，鲜血之吻不是轻易赐予的礼物。它是永恒的纽带，是对我和我族效忠的誓言。所有凡人可悲的仁慈和软弱都将泯灭（魔法能力将被消除！）。你对权力和统治的渴望将永远得到满足。"/>
+  		<string id="tor_bloodkiss_blooddragon_player_ready_str" text="我准备好了，大团长。"/>
+  		<string id="tor_bloodkiss_blooddragon_player_notready_str" text="转念一想，我需要考虑一下。"/>
+  		<string id="tor_bloodkiss_receive_str" text="在黑夜中拥抱新生吧。"/>
+  		<string id="tor_bloodkiss_player_receive_end_str" text="苏醒吧，冯·卡斯坦因的后裔。"/>
+  		<string id="tor_bloodkiss_necrach_request_str" text="我主，驭生者扎卡利亚，梅尔希奥尔的门徒，最强大的死灵法师。我愿抛弃我的凡人之躯，永远地侍奉你。"/>
+
+		<!-- Custom Dialog -->
+		<string id="ccultist_drowninblood" text="淹死在自己的血泊之中吧！"/>
+		<string id="FtLhGJuH" text="我会回来的！"/>
+  		<string id="beastmen_trample" text="我们要将你那孱弱的身躯践踏成渣！"/>
+  		<string id="99HbzqtI" text="黑暗诸神抛弃了我们！"/>
+  		<string id="ccultist_flames" text="欢愉吧！你将沐浴在混沌的火焰中！"/>
+  		<string id="CTyb6l9M" text="万变之主的诡计无穷无尽，你们注定一事无成！"/>
+  		<string id="ccultist_thirdeye" text="兄弟，睁开第三只眼，让我为你展现真理！"/>
+  		<string id="9OZKNj67" text="也许你赢得了这场战斗，但你的人生注定会比我更加失败！"/>
+  		<string id="ccultist_spreadpox" text="想在你的肉上种点痘"/>
+  		<string id="NN88q4oH" text="今日死，明日生，轮回不止。"/>
+  		<string id="druchii_greet_neutral" text="干什么，陌生人？不想被锁进船里就赶紧说。"/>
+
+		<string id="druchii_greet_war" text="是你……卡隆德·卡尔的主人们确实会很高兴。戴上你的枷锁吧，奴隶！"/>
+		<string id="byjd11Ie" text="我们的失败是对凯恩的嘲弄"/>
+		<string id="A7SseJu8" text="将你的俘虏卖作奴隶({RANSOM_AMOUNT}{GOLD_ICON})"/>
+		<string id="vXjUux1L" text="你的队伍里没有俘虏"/>
+		<string id="U92gQ6Ic" text="你与该派系处于交战中"/>
+
+		<!-- Custom Event -->
+		<string id="tor_hunt_perk_animal_large_str" text="大型动物"/>
+  		<string id="tor_hunt_perk_animal_medium_str" text="中型动物"/>
+  		<string id="tor_hunt_perk_animal_small_str" text="小型动物"/>
+
+		<string id="5PPtBRZI" text="混沌腐化严重，就会在 {0} 爆发判断"/>
+		
+		<!-- Custom Resources -->
+		<string id="resname_Prestige" text="帝国威望"/>
+		<string id="resdesc_Prestige" text="可用于升级帝国单位或执行特殊行动"/>
+
+		<string id="resname_Chivalry" text="骑士道"/>
+		<string id="resdesc_Chivalry" text="可用于升级巴托尼亚单位或执行特殊行动"/>
+
+		<string id="resname_DarkEnergy" text="森林生命"/>
+		<string id="resdesc_DarkEnergy" text="用于升级和维持精灵单位，亦可用于时代橡树的交互"/>
+		
+		<string id="resname_ForestHarmony" text="暗能量"/>
+		<string id="resdesc_ForestHarmony" text="暗能量用于升级和维护亡灵单位"/>
+
+		<string id="resname_CouncilFavor" text="艾尼尔议会声望"/>
+		<string id="resdesc_CouncilFavor" text="可在艾尼尔的议会执行特殊行动"/>
+
+		<string id="resname_WindsOfMagic" text="魔法之风"/>
+		<string id="resdesc_WindsOfMagic" text="施展法术需要消耗魔法之风"/>
+
+		<!-- ChivalryHelper -->
+		<string id="Su4TkpI9" text="骑士等级"/>
+		<string id="41DPFjm4" text="骑士薪资"/>
+		<string id="zisSJbik" text="士气"/>
+		<string id="YUU11DKq" text="每日骑士道增加"/>
+		<string id="xID1KHTe" text="下一等级"/>
+		<string id="UhkPoKgL" text="需要骑士道"/>
+
+		<string id="tor_enum_ChivalryLevel_to_textObject_Chivalrous" text="侠义"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_Honourable" text="荣耀"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_PureHearted" text="纯洁"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_Noteworthy" text="闻名"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_Sincere" text="真诚"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_Uninspiring" text="新兵"/>
+		<string id="tor_enum_ChivalryLevel_to_textObject_Unknightly" text="扈从"/>
+
+		<!--ForestHarmonyHelper -->
+		<string id="U9JmGIHC" text="当前激活的符文"/>
+		<string id="1fASujgB" text="森林生命"/>
+		<string id="sUM1wA8d" text="生命值上限减少"/>
+		<string id="G4WFaFc7" text="生命回复速率减少"/>
+		<string id="k5q7QTy3" text="魔法之风充能速率减少"/>
+		<string id="XZzhLHkR" text="你是森林之子"/>
+		<string id="30sSLju4" text="需要森林生命"/>
+
+		<!-- TORMapInfo Extension -->
+		<string id="M1g7cwq0" text="每日变化"/>
+
+		<string id="tor_ui_artillery_title_str" text="火炮"/>
+  		<string id="tor_ui_artillery_amount_str" text="物品栏中的火炮数量："/>
+  		<string id="tor_ui_artillery_amount_maximum_str" text="最多可部署火炮："/>
+
+ 		<string id="tor_ui_winds_of_magic_title_str" text="魔法之风"/>
+  		<string id="tor_ui_winds_of_magic_maximum_str" text="最大值："/>
+  		<string id="tor_ui_winds_of_magic_recharge_rate_str" text="充能速率："/>
+
+		<string id="RD57Za8O" text="祝福"/>
+  		<string id="jSwQ0Z3P" text="持续时间："/>
+  		<string id="LdPaERPC" text="效果："/>
+  		<string id="Oua2AdnA" text="目前没有神明的祝福"/>
+  		<string id="4GpjZtoC" text="你是吸血鬼，你就是自己的神明"/>
+  		<string id="hFuM8Gc1" text="天"/>
+
+		<!-- Ability -->
+  		<string id="6xAo3L4Q" text="已启用"/>
+  		<string id="TpQT1Vm0" text="冷却中"/>
+  		<string id="G1p7qx2u" text="任务完成"/>
+  		<string id="Fj0owOnJ" text="施法中"/>
+  		<string id="bmmSvu7S" text="处于雾化形态"/>
+  		<string id="xYxWbi2Y" text="必须锁定一个目标"/>
+  		<string id="VvDbhtSJ" text="施法者被击溃或已死亡"/>
+		<string id="UQcdzMRW" text="魔法之风不足"/>
+		<string id="Yu5UeOJa" text="使用次数不足，（最大值 {0}）"/>
+		<string id="Ed1Lh5qB" text="未锁定目标"/>
+		<string id="vYChLbgr" text="施法者不受玩家控制"/>
+		<string id="HyIIrFYD" text="充能中"/>
+		<string id="RVZ3wwGo" text="骑马时不能使用"/>
+		<string id="wOMpKWnP" text="库存中没有更多的火炮"/>
+		<string id="8OUxMh2O" text="无法部署更多火炮"/>
+
+  		<string id="tor_spell_stat_tag_name_str" text="法术名："/>
+  		<string id="tor_spell_stat_tag_wom_cost_str" text="魔法之风耗费："/>
+  		<string id="tor_spell_stat_tag_tier_str" text="法术等级："/>
+  		<string id="tor_spell_stat_tag_type_str" text="法术类型："/>
+  		<string id="tor_spell_stat_tag_cooldown_str" text="冷却："/>
+
+		<string id="tor_prayer_stat_tag_name_str" text="祷言名："/>
+  		<string id="tor_prayer_stat_tag_tier_str" text="祷言等级："/>
+  		<string id="tor_prayer_stat_tag_type_str" text="祷言类型："/>
+
+  		<string id="4yHGR23S" text="秒"/>
+
+  		<string id="XFvGclRH" text="信仰："/>
+  		<string id="BssrlIDo" text="祷言等级："/>
+
+		<string id="tor_enum_AbilityType_to_textObject_Innate" text="初始"/>
+  		<string id="tor_enum_AbilityType_to_textObject_Spell" text="法术"/>
+  		<string id="tor_enum_AbilityType_to_textObject_Prayer" text="祷告"/>
+  		<string id="tor_enum_AbilityType_to_textObject_ItemBound" text="物品"/>
+  		<string id="tor_enum_AbilityType_to_textObject_CareerAbility" text="职业技能"/>
+
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Projectile" text="投射"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Missile" text="飞弹"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_SeekerMissile" text="自动飞弹"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Wind" text="魔法之风"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Vortex" text="漩涡"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Heal" text="治疗"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Augment" text="增益"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Hex" text="减益"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Summoning" text="召唤"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Bombardment" text="轰击"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_Blast" text="爆炸"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_ArtilleryPlacement" text="“火炮部署"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_TimeWarpEffect" text="时间扭曲"/>
+  		<string id="tor_enum_AbilityEffectType_to_textObject_CareerAbilityEffect" text="职业技能"/>
+
+  		<string id="tor_enum_SpellCastingLevel_to_textObject_Minor" text="次级"/>
+  		<string id="tor_enum_SpellCastingLevel_to_textObject_Entry" text="初级"/>
+  		<string id="tor_enum_SpellCastingLevel_to_textObject_Adept" text="中级"/>
+  		<string id="tor_enum_SpellCastingLevel_to_textObject_Master" text="高级"/>
+
+  		<string id="tor_enum_PrayerLevel_to_textObject_Minor" text="次级"/>
+  		<string id="tor_enum_PrayerLevel_to_textObject_Novice" text="初级"/>
+  		<string id="tor_enum_PrayerLevel_to_textObject_Adept" text="中级"/>
+  		<string id="tor_enum_PrayerLevel_to_textObject_Grand" text="高级"/>
+
+		<!-- Lores -->
+  		<string id="JX7zCt89" text="基础魔法"/>
+  		<string id="2FOZvUat" text="火焰系魔法"/>
+  		<string id="UsRNAJeh" text="光明系魔法"/>
+  		<string id="fjbmyqlW" text="天堂系魔法"/>
+  		<string id="OYcNcuJG" text="生命系魔法"/>
+  		<string id="I9jG7hj8" text="金属系魔法"/>
+  		<string id="C61DCGqh" text="野兽系魔法"/>
+  		<string id="Y5iq8Hmn" text="高等魔法"/>
+  		<string id="oWhw9ZtM" text="黑暗魔法"/>
+  		<string id="LgRvw60L" text="死灵魔法"/>
+
+		<!-- Spell Book -->
+  		<string id="JtQvmrcR" text="英雄名："/>
+  		<string id="RzFw93wz" text="施法等级："/>
+  		<string id="yQRUQHyd" text="魔法之风上限："/>
+  		<string id="OkjrMxCX" text="当前魔法之风："/>
+  		<string id="pBRJVbRM" text="魔法之风回复："/>
+  		<string id="sqRSVYq0" text="/每小时"/>
+  		<string id="Cxkbaha7" text="已掌握法系："/>
+
+  		<string id="i99UqhEh" text="成功学会下列魔法："/>
+  		<string id="3Oo3ulAv" text="金钱不足"/>
+  		<string id="9wGTyXJQ" text="学习 "/>
+  		<string id="BNvFkEzF" text="不熟悉的魔法系"/>
+  		<string id="0nWD1vCr" text="施法等级不足"/>
+  		<string id="zsO0terz" text="可学习"/>
+	
+		<!-- Character Creation Chose Lore -->
+  		<string id="dNakXeqI" text="选择专精"/>
+  		<string id="3Ol7cDT7" text="选择一个你专精的魔法系"/>
+  		<string id="v8KWNkEo" text="确认"/>
+  		<string id="i2o7tfXd" text="取消"/>
+  		<string id="EyVZ8Quk" text="成功掌握："/>
+  		<string id="ZsYsnFJy" text="你必须做出选择"/>
+
+  		<string id="Z7DQS7uV" text="选择血脉"/>
+  		<string id="hTg0dIbs" text="选择你的吸血鬼血脉"/>
+  		<string id="ycim1VPY" text="成功学会死灵魔法"/>
+  		<string id="MknKgcKP" text="成为血骑士"/>
+  		<string id="ob3n6E3M" text="成为吸血鬼"/>
+
+  		<string id="WS6HYv7K" text="选择神祇"/>
+  		<string id="YFWWrQKQ" text="你是帝国的一名牧师，请选择一个宣誓的神祇。"/>
+
+		<!-- Character Attributes And Skills-->
+  		<string id="tor_attribute_discipline_str" text="纪律"/>
+  		<string id="tor_attribute_discipline_description_str" text="纪律是一项能力，可以精进某些需要练习或专注的技能"/>
+  		<string id="tor_attribute_discipline_abbreviation_str" text="纪"/>
+
+  		<string id="tor_skill_faith_str" text="信仰"/>
+  		<string id="tor_skill_faith_description_str" text="象征着你在所选教义中的信仰。"/>
+  		<string id="tor_skills_ward_save_str" text="伤害抵抗：+{a0}%"/>
+		<string id="tor_skills_blessing_duration_str" text="祝福持续时间：+{a0}%"/>
+
+  		<string id="tor_skill_gunpowder_str" text="火药"/>
+		<string id="tor_skills_gun_reload_speed_str" text="火器装填速度：+{a0}%"/>
+  		<string id="tor_skill_gunpowder_description_str" text="火药学影响你使用火枪和火炮的能力"/>
+  		<string id="tor_skills_gun_accuracy_str" text="火器命中率：+{a0}%"/>
+
+  		<string id="tor_skill_spellcraft_str" text="魔法"/>
+  		<string id="tor_skill_spellcraft_description_str" text="魔法决定了你施法的能力。"/>
+  		<string id="tor_skills_spell_effectiveness_str" text="法术效果：+{a0}%"/>
+  		<string id="tor_skills_spell_duration_str" text="法术持续时间：+{a0}%"/>
+  		<string id="ns9n1Vah" text="魔法之风充能速率： +{a0} /每小时"/>
+  		<string id="GDp75qTe" text="魔法之风储量上限： +{a0}"/>
+		
+		<!-- Character Perks -->
+        <string id="tor_perk_run_and_gun_label_str" text="跑轰战术"/>
+        <string id="tor_perk_run_and_gun_1_str" text="持火枪步行时,移动带来的精准度惩罚降低20%。"/>
+        <string id="tor_perk_run_and_gun_2_str" text="你部队中的步兵火药技能提高30。"/>
+
+        <string id="tor_perk_mounted_heritage_label_str" text="骑乘传统"/>
+        <string id="tor_perk_mounted_heritage_1_str" text="你骑乘时的火枪射击精度提高20%。"/>
+        <string id="tor_perk_mounted_heritage_2_str" text="你部队中的骑乘士兵火枪射击技能提高30。"/>
+
+        <string id="tor_perk_firing_drills_label_str" text="射击技巧"/>
+        <string id="tor_perk_firing_drills_1_str" text="立即提升 1 点“纪律”。"/>
+        <string id="tor_perk_firing_drills_2_str" text="你部队中的火枪单位每天获得 5 点经验。"/>
+
+        <string id="tor_perk_ammunition_wagons_label_str" text="弹药补给车"/>
+        <string id="tor_perk_ammunition_wagons_1_str" text="你队伍中的所有火枪单位增加50%弹药 (包括玩家)。"/>
+        <string id="tor_perk_ammunition_wagons_2_str" text="提高负载量30%。"/>
+
+        <string id="tor_perk_close_quarter_label_str" text="短兵交接"/>
+        <string id="tor_perk_close_quarter_1_str" text="7 米内造成的火枪伤害提高25%。"/>
+        <string id="tor_perk_close_quarter_2_str" text="你队伍中的远程部队的单手武器技能提高30。"/>
+
+        <string id="tor_perk_dead_eye_label_str" text="死亡之眼"/>
+        <string id="tor_perk_dead_eye_1_str" text="你的长枪造成额外30%伤害。"/>
+        <string id="tor_perk_dead_eye_2_str" text="你队伍中持双手长枪的士兵造成20%额外伤害。"/>
+
+        <string id="tor_perk_bullet_proof_label_str" text="防弹"/>
+        <string id="tor_perk_bullet_proof_1_str" text="你受到的火枪伤害降低15%。"/>
+        <string id="tor_perk_bullet_proof_2_str" text="你队伍中的士兵所受的火枪伤害降低5%。"/>
+
+        <string id="tor_perk_bomb_suit_label_str" text="防爆专家"/>
+        <string id="tor_perk_bomb_suit_1_str" text="你受到的火炮伤害和攻城武器伤害降低25%。"/>
+        <string id="tor_perk_bomb_suit_2_str" text="你的士兵所收到的火炮伤害和攻城武器伤害降低25%。"/>
+
+        <string id="tor_perk_pack_it_in_label_str" text="喷子专家"/>
+        <string id="tor_perk_pack_it_in_1_str" text="你使用多弹道武器时, 发射物数量提高50%。"/>
+        <string id="tor_perk_pack_it_in_2_str" text="当你的士兵使用带爆炸范围伤害的武器时，额外造成10%的伤害而且算作火焰伤害。"/>
+
+        <string id="tor_perk_steel_terror_label_str" text="你队伍中的攻城学徒和炮兵免受士气影响。"/>
+        <string id="tor_perk_steel_terror_1_str" text="火炮和重型火枪额外造成10%的士气打击。"/>
+        <string id="tor_perk_steel_terror_2_str" text="你队伍中的攻城学徒和炮兵免受士气影响。"/>
+
+        <string id="tor_perk_piercing_shots_label_str" text="穿透射击"/>
+        <string id="tor_perk_piercing_shots_1_str" text="你的射击可忽略50%护甲而且你士兵的火枪射击可以穿透盾牌。"/>
+
+        <string id="tor_perk_novice_spellcaster_label_str" text="新手施法者"/>
+        <string id="tor_perk_novice_spellcaster_1_str" text="可以使用入门级法术。"/>
+
+        <string id="tor_perk_adept_spellcaster_label_str" text="进阶施法者"/>
+        <string id="tor_perk_adept_spellcaster_1_str" text="可以使用进阶级法术。"/>
+
+        <string id="tor_perk_master_spellcaster_label_str" text="大师施法者"/>
+        <string id="tor_perk_master_spellcaster_1_str" text="可以使用大师级法术。"/>
+
+        <string id="tor_perk_selfish_label_str" text="自私"/>
+        <string id="tor_perk_selfish_1_str" text="你释放的伤害法术对自己造成的伤害减少90%。"/>
+        <string id="tor_perk_selfish_2_str" text="你释放的个人增益法术持续时间延长50%。"/>
+
+        <string id="tor_perk_well_controlled_label_str" text="张弛有度"/>
+        <string id="tor_perk_well_controlled_1_str" text="你释放的法术对友军伤害减少30%。"/>
+        <string id="tor_perk_well_controlled_2_str" text="在模拟战斗中额外获得5%的优势。"/>
+
+        <string id="tor_perk_librarian_label_str" text="图书管理员"/>
+        <string id="tor_perk_librarian_1_str" text="从书本中获得双倍经验。"/>
+        <string id="tor_perk_librarian_2_str" text="学习新法术的价格减少50%。"/>
+
+        <string id="tor_perk_story_teller_label_str" text="传道者"/>
+        <string id="tor_perk_story_teller_1_str" text="你队伍中的同伴每天获得1000点随机技能经验。"/>
+        <string id="tor_perk_story_teller_2_str" text="你的队伍永远获得+5士气。"/>
+
+        <string id="tor_perk_overcaster_label_str" text="过载施法"/>
+        <string id="tor_perk_overcaster_1_str" text="你释放的伤害法术造成20%额外伤害但消耗10%额外魔法之风。"/>
+
+        <string id="tor_perk_effective_spellcaster_label_str" text="节能施法"/>
+        <string id="tor_perk_effective_spellcaster_1_str" text="你的法术造成的伤害减少20%，但消耗的魔法之风减少30%。"/>
+
+        <string id="tor_perk_improvision_label_str" text="临场应变"/>
+        <string id="tor_perk_improvision_1_str" text="加入战场时至少获得25点魔法之风。"/>
+        <string id="tor_perk_improvision_2_str" text="提高10%的谈判成功率。"/>
+
+        <string id="tor_perk_catalyst_label_str" text="催化剂"/>
+        <string id="tor_perk_catalyst_1_str" text="每个装备中的魔法物品会为你在战场中增加5点魔法。"/>
+        <string id="tor_perk_catalyst_2_str" text="在城镇中获得+20%的魔法充能效率。"/>
+
+        <string id="tor_perk_dampener_label_str" text="魔法缓冲"/>
+        <string id="tor_perk_dampener_1_str" text="你的魔法伤害降低15%，但你的士兵获得30%魔法伤害抗性。"/>
+        <string id="tor_perk_dampener_2_str" text="你获得5%魔法免伤。"/>
+
+        <string id="tor_perk_arcane_link_label_str" text="奥术链接"/>
+        <string id="tor_perk_arcane_link_1_str" text="你对友军释放的增益魔法同样作用于自己，哪怕你不在范围内。"/>
+        <string id="tor_perk_arcane_link_2_str" text="你小队中的施法者造成额外10%的伤害。"/>
+
+        <string id="tor_perk_exchange_label_str" text="能量交换"/>
+        <string id="tor_perk_exchange_1_str" text="你的武器物理伤害翻倍，且转换50%为魔法伤害。"/>
+
+        <string id="tor_perk_novice_prayer_label_str" text="新手祷言"/>
+        <string id="tor_perk_novice_prayer_1_str" text="可以使用新手祷言。"/>
+
+        <string id="tor_perk_adept_prayer_label_str" text="进阶祷言"/>
+        <string id="tor_perk_adept_prayer_1_str" text="可以使用进阶祷言"/>
+
+        <string id="tor_perk_grand_prayer_label_str" text="大师祷言"/>
+        <string id="tor_perk_grand_prayer_1_str" text="可以使用大师级祷言。"/>
+
+        <string id="tor_perk_devotee_label_str" text="忠实信徒"/>
+        <string id="tor_perk_devotee_1_str" text="每点“纪律”增加 3 点伤害。"/>
+        <string id="tor_perk_devotee_2_str" text="可以使用大师级祷言。"/>
+
+        <string id="tor_perk_devine_mission_label_str" text="神圣使命"/>
+        <string id="tor_perk_devine_mission_1_str" text="医学”获得 1 专精点。"/>
+        <string id="tor_perk_devine_mission_2_str" text="你家族的定居点民兵数量增加50%。"/>
+
+        <string id="tor_perk_imperturbable_label_str" text="临场应变"/>
+        <string id="tor_perk_imperturbable_1_str" text="在定居点等待时，每天获得 500 “信仰”技能经验。"/>
+        <string id="tor_perk_imperturbable_2_str" text="队伍中的宗教单位获得 10% 的物理抗性。"/>
+
+        <string id="tor_perk_superstitious_label_str" text="坚定信仰"/>
+        <string id="tor_perk_superstitious_1_str" text="战役地图上的诅咒地区对你队伍造成的伤害效果降低20%。"/>
+        <string id="tor_perk_superstitious_2_str" text="队伍中宗教单位获得额外10%的物理伤害加成。"/>
+
+        <string id="tor_perk_offering_label_str" text="奉献"/>
+        <string id="tor_perk_offering_1_str" text="获得在神殿捐赠物品以获得声望的能力。"/>
+
+        <string id="tor_perk_blessed_label_str" text="祝福"/>
+        <string id="tor_perk_blessed_1_str" text="你的家族每天获得3点影响力，每有一个家族队伍都拥有激活的祝福效果。"/>
+        <string id="tor_perk_blessed_2_str" text="只要队伍有激活的祝福效果，队伍中的宗教单位每天获得10点经验值。"/>
+
+        <string id="tor_perk_foresight_label_str" text="先见之明"/>
+        <string id="tor_perk_foresight_1_str" text="获得一个免费属性点。"/>
+        <string id="tor_perk_foresight_2_str" text="增加你的队伍在战役地图上视野范围10%。"/>
+
+        <string id="tor_perk_rivival_label_str" text="复活"/>
+        <string id="tor_perk_rivival_1_str" text="医疗/治愈技能失败时，角色和单位在被击败时有第二次50%的机会变为受伤而不是被杀死。"/>
+
+        <string id="tor_perk_spirit_label_str" text="气魄"/>
+        <string id="tor_perk_spirit_1_str" text="当一个6级或更高级的单位死亡时，将他们的经验平均分配给队伍中的其他单位。"/>
+
+        <string id="tor_perk_miracle_label_str" text="神迹"/>
+        <string id="tor_perk_miracle_1_str" text="你的信仰是如此坚定，以至于能够不时的显现出神迹事件。"/>
+
+		<!-- Character Traits -->
+		<string id="tor_spellcaster_trait_name_str" text="施法者"/>
+		<string id="tor_spellcaster_trait_description_str" text="施法者描述"/>
+
+		<string id="tor_shallyadevoted_trait_name_str" text="莎莉雅祭司"/>
+  		<string id="tor_shallya_trait_description_str" text="莎莉雅的虔诚祭司"/>
+
+		<string id="tor_sigmardevoted_trait_name_str" text="西格玛牧师"/>
+		<string id="tor_sigmardevoted_trait_description_str" text="西格玛的虔诚牧师"/>
+
+  		<string id="tor_ulricdevoted_trait_name_str" text="尤里克牧师"/>
+  		<string id="tor_ulricdevoted_trait_description_str" text="尤里克的虔诚牧师"/>
+
+  		<string id="tor_nagashCorrupted_trait_name_str" text="纳迦什腐化"/>
+  		<string id="tor_nagashcorrupted_trait_description_str" text="此人的心灵已被纳迦什的诅咒所腐化"/>
+
+		<string id="tor_gunner_trait_name_str" text="枪炮专家"/>
+  		<string id="tor_gunner_trait_description_str" text="熟练掌握使用黑火药武器的专家"/>
+
+		<!-- Character Careers -->
+
+		<!-- Careers Screen -->
+		<string id="ENYsSvUd" text="剩余加点："/>
+		
+		<!-- Careers Choices Group -->
+		<string id="5o5BUr4y" text="需要家族等级2"/>
+  		<string id="6QmA5K0l" text="需要家族等级4"/>
+  		<string id="JaEMdu7u" text="解锁黑暗魔法"/>
+  		<string id="zv0Eiz5S" text="解锁第二法系"/>
+  		<string id="x2PwiTkd" text="解锁天堂系魔法"/>
+  		<string id="S8jyzkTS" text="解锁大型力量石"/>
+  		<string id="HpyiXD0C" text="解锁全能力量石"/>
+  		<string id="Yn0Wvubl" text="可为部队装备疾风之锥"/>
+  		<string id="Zkgx1XzI" text="可为部队装备淬毒武器"/>
+  		<string id="yApOnGrj" text="解锁星火之锥"/>
+
+		<string id="book_of_sigmar_choice_group_str" text="西格玛之卷"/>
+  		<string id="sigmar_proclaimer_choice_group_str" text="西格玛传道者"/>
+  		<string id="relentless_fanatic_choice_group_str" text="无尽狂热"/>
+		<string id="protector_of_the_weak_choice_group_str" text="济弱扶危"/>
+  		<string id="holy_purge_choice_group_str" text="神圣净化"/>
+  		<string id="arch_lector_choice_group_str" text="大诵经师"/>
+  		<string id="fhcgIAwh" text="双尾彗星"/>
+  		<string id="sUatXxGA" text="正义之道"/>
+  		<string id="PfH20FyX" text="诛灭邪祟"/>
+  		<string id="NpqXdInx" text="白银之锤"/>
+  		<string id="HuTHSJWN" text="除恶不息"/>
+  		<string id="Xt6rZKHB" text="不择手段"/>
+  		<string id="p3NHcgLU" text="快速定罪"/>
+  		<string id="Af99k5JN" text="消灭包庇"/>
+  		<string id="xIZDzANG" text="死灵之书"/>
+  		<string id="3MPCDBng" text="卡堂之秘术"/>
+  		<string id="pOkLhNXI" text="苦修之书"/>
+  		<string id="FY95NG1M" text="幽冥之书"/>
+  		<string id="Y0rPsPKn" text="乌索伦之书"/>
+  		<string id="smAVGbQI" text="死灵魔典"/>
+  		<string id="ykSQjSDV" text="纳迦什之卷"/>
+  		<string id="new_blood_choice_group_str" text="新血"/>
+  		<string id="tg2OIm2x" text="野性之力"/>
+  		<string id="arkayne_choice_group_str" text="吸血鬼魔法"/>
+  		<string id="courtley_choice_group_str" text="宫廷礼仪"/>
+  		<string id="lordly_choice_group_str" text="贵族之道"/>
+  		<string id="martialle_choice_group_str" text="战争之道"/>
+  		<string id="master_of_dead_choice_group_str" text="死亡主宰"/>
+  		<string id="peerless_warrior_choice_group_str" text="无双战士"/>
+  		<string id="night_rider_choice_group_str" text="暗夜骑士"/>
+		<string id="blade_master_choice_group_str" text="剑术大师"/>
+  		<string id="doom_rider_choice_group_str" text="厄兆骑士"/>
+  		<string id="controlled_hunger_choice_group_str" text="抑制嗜血"/>
+  		<string id="avatar_of_death_choice_group_str" text="死亡化身"/>
+		<string id="dread_knight_choice_group_str" text="恐惧骑士"/>
+		<string id="survivalist_choice_group_str" text="求生专家"/>
+  		<string id="duelist_choice_group_str" text="决斗者"/>
+  		<string id="headhunter_choice_group_str" text="猎头人"/>
+  		<string id="knightly_choice_group_str" text="骑士风范"/>
+  		<string id="40T3amv6" text="军需官"/>
+  		<string id="mercenary_lord_choice_group_str" text="佣兵之主"/>
+  		<string id="commander_choice_group_str" text="指挥官"/>
+  		<string id="errantry_war_choice_group_str" text="骑士之道"/>
+  		<string id="enhanced_horse_combat_choice_group_str" text="马战精通"/>
+  		<string id="questing_vow_choice_group_str" text="探寻之誓"/>
+  		<string id="monster_slayer_choice_group_str" text="野兽杀手"/>
+  		<string id="master_horseman_choice_group_str" text="马术大师"/>
+  		<string id="grail_vow_choice_group_str" text="圣杯誓言"/>
+  		<string id="holy_crusader_choice_group_str" text="神圣征途"/>
+  		<string id="curse_of_mousillon_group_str" text="穆席隆的诅咒"/>
+  		<string id="swamp_rider_choice_group_str" text="沼泽骑手"/>
+  		<string id="uunbreakable_army_choice_group_str" text="不破之军"/>
+  		<string id="scourge_of_Mousillon_choice_group_str" text="巴托尼亚之灾祸"/>
+  		<string id="robber_baron_choice_group_str" text="盗贼骑士"/>
+  		<string id="lie_of_lady_choice_group_str" text="女神的谎言"/>
+  		<string id="_black_grail_vow_choice_group_str" text="秽杯誓言"/>
+  		<string id="inspiration_of_the_lady_choice_group_str" text="女神启示"/>
+  		<string id="tales_of_gilles_choice_group_str" text="吉勒斯之道"/>
+  		<string id="fey_enchantment_choice_group_str" text="仙林魔法"/>
+  		<string id="vivid_visions_choice_group_str" text="生动幻象"/>
+  		<string id="just_cause_choice_group_str" text="正当防卫"/>
+  		<string id="secrets_of_the_grail_choice_group_str" text="圣杯之秘"/>
+  		<string id="envoy_of_the_lady_choice_group_str" text="女神使者"/>
+  		<string id="HZUgJviq" text="被诅咒者的门徒"/>
+  		<string id="yXxggLEd" text="巫术视野"/>
+  		<string id="J09Zf2jc" text="黑暗视界"/>
+  		<string id="W0HGgW5N" text="黑暗视界"/>
+  		<string id="TOsS20gh" text="亵渎灵魂"/>
+  		<string id="DaIGgQ3N" text="知识渴求"/>
+  		<string id="7BRUglR5" text="达尔之源"/>
+  		<string id="cHlDk18L" text="永恒秘密"/>
+  		<string id="PvuSh4CR" text="碾碎弱者"/>
+  		<string id="9uJDWNAE" text="野性之力"/>
+  		<string id="a1uqIXgv" text="冬日之父的教诲"/>
+  		<string id="L3FZXvAx" text="森林噬咬"/>
+  		<string id="FcB2iAS4" text="白狼符咒"/>
+  		<string id="DBqr6HX1" text="战争狂热"/>
+  		<string id="cpx4ArGY" text="尤里克之火"/>
+  		<string id="3rsNDlV6" text="探索实践"/>
+  		<string id="1rX19sK4" text="泰格里斯的教诲"/>
+  		<string id="TjPrEoHH" text="帝国魔法"/>
+  		<string id="7IVXBA7l" text="学院导师"/>
+  		<string id="jjXQOhCI" text="魔法战斗训练"/>
+  		<string id="MVebklla" text="古代卷轴"/>
+  		<string id="cstTzWgv" text="奥术知识"/>
+  		<string id="4u7SHppR" text="森林守护者"/>
+  		<string id="4mrG0X0J" text="寻路者"/>
+  		<string id="y1GEu6cY" text="森林迷踪"/>
+  		<string id="B8IeCuxF" text="箭雨"/>
+  		<string id="O020X8Bz" text="鹰眼"/>
+  		<string id="RzqJRY5z" text="星火之质"/>
+  		<string id="84fDtdeO" text="猎人之眼"/>
+  		<string id="aq8wlRVg" text="路径塑形"/>
+  		<string id="I40SsXVy" text="树之牧歌"/>
+  		<string id="RkEcyM3q" text="生命涌动"/>
+  		<string id="jEgdNttI" text="林木之心"/>
+  		<string id="2FOE3Bm9" text="艾瑞尔的祝福"/>
+  		<string id="d0ho2E9m" text="林中魔法"/>
+  		<string id="5vGWj3oO" text="森林之怒"/>
+  		<string id="pqhWCwVO" text="凯瑞斯的智慧"/>
+  		<string id="cqfqXikN" text="灵魂束缚"/>
+  		<string id="6zULnlbm" text="玛洛克传说"/>
+  		<string id="KsQZLrNp" text="不受约束的魔法"/>
+  		<string id="e8skG94h" text="禁忌的萨弗瑞卷轴"/>
+  		<string id="L6F2ozqe" text="不惜一切"/>
+  		<string id="9QxC3yzL" text="邪牙之秘"/>
+
+		<string id="tor_graveyard_nightwatch_name" text="{SETTLEMENTNAME}的夜巡队"/>
+
+		<!-- RaiseDeadInTownBehavior -->
+  		<string id="yQimMCD4" text="城镇"/>
+  		<string id="Y9XzO83x" text="墓地"/>
+  		<string id="dSsjNOnw" text="去墓地"/>
+  		<string id="JZGSiaZf" text="墓地"/>
+		<string id="tor_settlement_graveyard_introduction" text="你来到了{SETTLEMENT_NAME}的墓地。宁静的山坡上，墓碑和家族墓穴随处可见。"/>
+	
+  		<string id="tor_settlement_graveyard_raise_dead_action" text= "从墓地中复活死者（需要8小时）"/>
+  		<string id="tor_settlement_graveyard_raise_dead_begin_text" text= "大多数坟墓可以利用！你花了些时间从墓地中复活死者，莫尔今晚要生气了！"/>
+		<string id="tor_settlement_graveyard_raise_dead_interrupt" text= "当地的守夜人盯上你了，面对你卑鄙行为的后果吧。"/>
+		<string id="tor_settlement_graveyard_raise_dead_interrupt_action" text= "保护自己"/>
+		<string id="CuTUFYeS" text= "投降"/>
+		<string id="tor_settlement_graveyard_closed" text="墓地的铁门紧闭着。"/>
+
+		<!-- ServeAsAHirelingCampaignBehavior -->
+		<string id="6lwXDEoY" text= "这将损害你与整个派系的关系。"/>
+		<string id="FLT0000044" text= "离开派系"/>
+		<string id="FLT0000046" text= "你确定要放弃这个派系吗？{HIRELING_DESERT_TEXT}"/>
+		<string id="FLT0000047" text= "确定"/>
+		<string id="FLT0000048" text= "取消"/>
+
+		<string id="I7JC76vt" text= "我想要辞去我的职务"/>
+		<string id="rX4KbXwM" text= "你确定吗？"/>
+		<string id="mQLnMJtM" text= "是的，我想要离开"/>
+		<string id="4iDBIgCE" text= "我需要考虑一下"/>
+		<string id="VXmPSt7I" text= "我在此献上我的剑"/>
+		<string id="ZjE3WFik" text= "我接受，我的领主"/>
+		<string id="lwLNcA9b" text= "我需要考虑一下"/>
+
+		<string id="F7ZMXkmY" text= "进入定居点"/>
+		<string id="8Jncw6Am" text= "关闭"/>
+		<string id="L8hcF1Rg" text= "开启"/>
+		<string id="2vbvuFjg" text= "终止合约"/>
+		<string id="FLT0000045" text= "这将损害你在{FACTION}中的声誉。至少服务 {MINIMUMSERVEDAYS} 天，并与你的招募领主交谈以避免后果"/>
+
+		<string id="GFBZqDjw" text= "你的领主参与了一场战斗"/>
+		<string id="DpY9C2a8" text= "加入战斗"/>
+		<string id="ySQjGSpm" text= "避免战斗"/>
+		<string id="zNL6CZbo" text= "逃跑"/>
+	
+		<string id="1CJq27il" text= "骑士道"/>
+		<string id="grwRJzwT" text= "汲取黑暗能量"/>
+		<string id="rkF8YUEE" text= "获得力量"/>
+		<string id="BX15hV8Y" text= "获得帝国权威"/>
+
+		<string id="FxSJn4KD" text= "雇佣兵工资"/>
+	
+		<!-- SpellTrainerInTownBehavior -->
+		<string id="tor_spelltrainer_prophetesse_start_str" text="欢迎，巴托尼亚的子女，女神已经指导着你来到此地。说吧，敞开你的心扉。"/>
+  		<string id="tor_spelltrainer_prophetesse_choices_str" text="你还有更多的追求吗？说出你的愿望。"/>
+  		<string id="tor_spelltrainer_prophetesse_open_book_str" text="尊敬的湖神仙女，请分享我您的魔法教诲。"/>
+  		<string id="tor_spelltrainer_prophetesse_scrolls_str" text="仁慈的湖神仙女，我请求您赐予我开启智慧之门的书籍和卷轴。"/>
+  		<string id="tor_spelltrainer_prophetesse_damselsecond_lore_str" text="我的妖精女巫，我觉得 {DAMSELNAME} 已经达到了一个新的魔法潜力水平，你有什么可以教她的吗？"/>
+  		<string id="tor_spelltrainer_prophetesse_player_goodbye_str" text="再会，我尊敬的湖神仙女。"/>
+  		<string id="tor_spelltrainer_prophetesse_goodbye_str" text="去吧，愿女神的恩典照亮你的道路。"/>
+  		<string id="tor_spelltrainer_prophetesse_close_book_str" text="你已能熟练编织力量。这些知识，宛如愿女神祝福的灯塔，带给你慰藉帮助。"/>
+
+  		<string id="mgYNghwE" text="我欢迎你，艾索洛伦的孩子"/>
+  		<string id="xwYXq1IT" text="你还有更多的追求吗？说出你的愿望。"/>
+  		<string id="WDHctJKc" text="我寻求关于艾索洛伦魔法的更多知识。"/>
+  		<string id="3xtv3Q1g" text="我想成为一名织法者"/>
+  		<string id="XFekXOjF" text="教我阿斯莱众多路径中的一条"/>
+  		<string id="WUFOXnb5" text="一名吟咒者，可以选择织暗者之路或者织明者之路。明智地选择。"/>
+  		<string id="s90pKC0r" text="让我来选择"/>
+  		<string id="7RKg4vLq" text="你可以学习森林魔法的其他方面。明智地选择（总共不超过 2 种额外的法术知识，总计 6 种）"/>
+  		<string id="awk9gy9J" text="愿阿斯莱在你穿越她花园的所有道路上引导你"/>
+  		<string id="0ShfMDuI" text="我觉得 {SPELLSINGERNAME} 已经达到了一个新的魔法潜力水平，是时候培养一位新的织法者了"/>
+  		<string id="6wuFOPb2" text="阿斯莱与你同在"/>
+  		<string id="vbBxjFB4" text="阿斯莱无限知识的一个新方面"/>
+
+		<string id="tor_spelltrainer_start_str" text="我认识你吗？有什么事快说我可忙得很。"/>
+  		<string id="tor_spelltrainer_open_book_str" text="我来寻求更多知识。"/>
+  		<string id="tor_spelltrainer_scrolls_str" text="你卖卷轴吗（购买后通过物品栏点击放大镜按钮开始阅读）？"/>
+  		<string id="tor_spelltrainer_close_book_str" text="好吧，我把我会的教给你。"/>
+  		<string id="tor_spelltrainer_magictest_vc_vampire_player_specialize_lore_str" text="我能感觉到我的黑暗之力在不断增长。凡人，给我更多禁忌魔法的力量。"/>
+
+  		<string id="OVW6hZq9" text="接受我的礼物。现在给我我所要求的！(2000{DARKENERGYICON})"/>
+  		<string id="vU7Ad7SB" text="我无法给你这个礼物"/>
+  		<string id="vhasfDRX" text="真遗憾。那我还能帮你做什么呢？"/>
+  		<string id="tor_spelltrainer_player_goodbye_str" text="再会了，导师。"/>
+  		<string id="tor_spelltrainer_goodbye_str" text="好吧，再见。"/>
+
+  		<string id="oojYjSUH" text="你不应该看见这个"/>
+		<string id="tor_spelltrainer_magictest_vc_str" text="我需要力量来摆脱死亡，以更强大的力量统治这个世界。你能教我如何使用你的力量吗？"/>
+  		<string id="tor_spelltrainer_magictest_empire_str" text="我不辞万里来求知，想要学习魔法。您能帮帮我吗？"/>
+
+		<string id="tor_spelltrainer_magictest_begin_vc_str" text="让我来看看你有没有掌握魔法之风的潜质……"/>
+  		<string id="tor_spelltrainer_magictest_begin_empire_str" text="嗯，要理解魔法之风，你必须具备以太感知。让我在你身上做个实验，来测定你的潜力……"/>
+
+		<string id="tor_spelltrainer_magictest_result_success_str" text="嗯……有趣。看起来你确实有些潜力。"/>
+  		<string id="tor_spelltrainer_magictest_result_failure_str" text="害，你毫无潜力。快走吧别浪费我的时间了。"/>
+
+		<string id="tor_spelltrainer_magictest_vc_player_specialize_lore_str" text="我的主人。请你教我更多的黑暗魔法。我已经把力所能及的全部学会了，我一定会成为你忠诚的学徒。"/>
+  		<string id="tor_spelltrainer_magictest_vc_vampire_player_specialize_lore_str" text="我能感受到我的黑暗能量在不断的增长，快去把你的魔法书拿出来，否则我会迫不及待地找一份新“导师”替代你。"/>
+  		<string id="tor_spelltrainer_magictest_empire_player_specialize_lore_str" text="我准备好加入学院并且成为帝国的一名法师了！"/>
+
+  		<string id="tor_spelltrainer_magictest_vc_specialize_lore_str" text="你看起来很有潜力。我会尽快把我会的都传授给你，跟我过来让我们琢磨一下魔法书。"/>
+  		<string id="tor_spelltrainer_magictest_vc_vampire_specialize_lore_str" text="好的我伟大又慈悲的主人！立刻马上！"/>
+  		<string id="tor_spelltrainer_magictest_empire_specialize_lore_str" text="你已经证明了自己对魔法之风的掌握，你打算专精哪个魔法系呢？你只能选择一个所以记得谨慎选择。"/>
+
+  		<string id="tor_magic_lore_prompt_label_str" text="选择专精法术"/>
+  		<string id="tor_magic_lore_prompt_description_str" text="选择一项专精的魔法"/>
+  		<string id="tor_magic_lore_prompt_notification_str" text="成功掌握了下列法术："/>
+
+		<string id="tor_chaos_raiders_str" text="混沌掠夺者"/>
+  		<string id="tor_beastmen_raiders_str" text="野兽人掠夺者"/>
+  		<string id="tor_dark_elf_slavers" text="暗精灵奴隶贩子"/>
+
+		<string id="tor_custom_settlement_chaos_portal_victory_str" text="你获胜了！领取你的奖励吧！"/>
+  		<string id="tor_custom_settlement_chaos_portal_lose_str" text="敌人似乎比你更强。再接再厉！"/>
+
+		<!-- CursedSiteMenuLogic -->
+		<string id="lg9LtwR9" text="汲取黑暗魔法的凝固精华，将一些幽灵束缚于你的意志之下"/>
+  		<string id="tor_custom_settlement_menu_cursed_site_ghost_str" text="感应森林精魂，需要100{FORESTHARMONY}。"/>
+  		<string id="tor_custom_settlement_menu_leave_str" text="离开"/>
+		<string id="tor_custom_settlement_cursed_site_purify_progress_str" text="举行净化仪式"/>
+  		<string id="tor_custom_settlement_cursed_site_ghosts_progress_str" text="举行缚灵仪式"/>
+  		<string id="7TVVVUIT" text="强化你的爪牙……"/>
+  		<string id="tor_custom_settlement_menu_continue_str" text="继续"/>
+
+  		<string id="tor_custom_settlement_cursed_site_ward_text_str" text="目前，有一些防护措施可以阻挡诅咒的邪恶能量。这些防护罩将能维持{CURSEDSITE_WARDHOURS}小时。"/>
+  		<string id="tor_custom_settlement_cursed_site_purify_text_str" text="以{GOD_NAME}之名，举行净化仪式。"/>
+  		<string id="tor_custom_settlement_cursed_site_purify_fail_text_str" text="至少需要 10 名健康的士兵才能举行仪式。"/>
+  		<string id="tor_custom_settlement_cursed_site_not_necromancer_text_str" text="你不是死灵法师。"/>
+  		<string id="tor_custom_settlement_cursed_site_not_enough_free_slots_text_str" text="你的队伍空间不足。"/>
+  		<string id="tor_custom_settlement_cursed_site_once_a_day_text_str" text="{DEFILE_COOLDOWN_DAYS}天只能执行一次。"/>
+
+  		<string id="mCQvdzbd" text="你的队伍中没有不死生物"/>
+  		<string id="AaIMiUaa" text="你没有足够的黑暗能量({DARKENERGYICON})"/>
+
+		<string id="tor_custom_settlement_cursed_site_purify_success_str" text="你的队伍成功地在周围设置了封印和魔法阵，减弱了诅咒的影响。您估计这些魔法阵可以维持{PURIFICATION_DURATION}小时"/>
+  		<string id="tor_custom_settlement_cursed_site_purify_wounded_result_str" text="进行仪式时，你的士兵一直待在被诅咒的地方，受影响严重，{PURIFICATION_WOUNDED_RESULT_NUMBER}名士兵严重受伤。"/>
+  		<string id="tor_custom_settlement_cursed_site_ghosts_result_str" text="你成功束缚了{GHOST_RESULT_NUMBER}个灵魂归于你的指挥。"/>
+
+  		<string id="7SIc63va" text="你的爪牙的 {UNDEAD_UPGRADES} 变得更强了"/>
+
+		<!-- OakOfAgesMenuLogic -->
+  		<string id="cPstkNrN" text="树精"/>
+  		<string id="ckBNGOjq" text="时代橡树枝"/>
+  		<string id="GQJB31LK" text="时代橡树的世界之根"/>
+  		<string id="lA34QIEz" text="树木符文"/>
+
+  		<string id="7AGZ7Dev" text="与时代橡树周围的树精交流"/>
+  		<string id="X21so5LJ" text="唤醒树妖。800 {FORESTHARMONY}。"/>
+  		<string id="X345baXa" text="慰藉树精"/>
+  		<string id="nAO6h0nv" text="捐赠灵魂"/>
+  		<string id="7Ajo9kvu" text="你得以将 {NUMBEROFTROOPS} 名树妖纳入你的队伍"/>
+
+  		<string id="KinyMyGK" text="树木符文：为你的队伍选择一个激活的符文。这些符文会提供强大的增强效果，但它们也会带来严重的劣势。明智地选择，一次只能有一个符文处于激活状态"/>
+  		<string id="DERcfqv4" text="移除符文"/>
+  		<string id="Hvg8XhRh" text="魔法粉笔 {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}"/>
+  		<string id="28wGfKjr" text="移除符文变更成本 {newline}{UPGRADEFAILEDREASON}"/>
+
+  		<string id="WrMi9r0z" text="需要等级"/>
+  		<string id="xubAsrWo" text="{newline}需要等级"/>
+  		<string id="uCadPfat" text="{newline}森林之心不足"/>
+  		<string id="jtwNMbmj" text="{newline}升级已解锁"/>
+  		<string id="PJnIwefY" text="{newline}没有更多的升级"/>
+
+  		<string id="u7B4HWqV" text="{newline}森林符文已激活"/>
+
+  		<string id="5wDfyHZL" text="世界之根：世界之根与时代橡树的根形成了一条辫状的通道。借助它们，阿斯莱得以在世界中旅行。帮助重建这些根，并前往旧世界中根的尽头。"/>
+  		<string id="YVAyDFto" text="解锁通往阿登森林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="0YaQIMX8" text="前往阿登森林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="TBzCGmtx" text="解锁通往劳恩洛伦的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="ALVOQpPa" text="前往劳恩洛伦 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="psIX4EaF" text="解锁通往格里芬伍德的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="2RJWbPLl" text="前往格里芬伍德 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="CScWjVsn" text="内化根路径 {ROOTTRAVELUPGRADE}{FORESTHARMONY}"/>
+		<string id="qdG2Z0ui" text="建立返回时代橡树的路径 {ROOTRETURNUPGRADE}{FORESTHARMONY}"/>
+		<string id="PhqPSaSF" text="世界之根的治疗光环 {ROOTHEALUPGRADE}{FORESTHARMONY}"/>
+		
+  		<string id="tor_custom_settlement_we_party_size_info_str" text="已经解锁"/>
+	
+  		<string id="YNbIGaAL" text="前往迈松塔尔"/>
+  		<string id="natOhOp2" text="前往劳恩洛伦"/>
+  		<string id="4Ud9yoOm" text="返回艾索洛伦"/>
+  		<string id="zObjtTxB" text="建立返回时代橡树的路径"/>
+
+  		<string id="yf7MFFAp" text="时代橡树的树枝"/>
+  		<string id="GRLjfdqm" text="建造前哨站 {PARTYSIZEUPGRADECOST}"/>
+  		<string id="EaB9NNhq" text="强壮的树枝 {HEALTHUPGRADECOST}"/>
+  		<string id="DFVQqXfB" text="繁茂的叶子 {GAINUPGRADECOST}"/>
+
+		<!-- ShrineMenuLogic -->
+  		<string id="xprJh6ZA" text="亵渎神龛以获取黑暗能量。{GOD_NAME} 的追随者将会记住这一点"/>
+		<string id="tor_custom_settlement_shrine_offering_label_str" text="向神殿供奉物品"/>
+  		<string id="6RW5TjRs" text="祷告"/>
+  		<string id="34WsXeDC" text="正在亵渎神龛……"/>
+  		<string id="tRVH9gaP" text="你成功收集了"/>
+  		<string id="rcxBjJpC" text="黑暗能量 {DARKENERGYICON}。{GOD_NAME} 的追随者会将此视为一种罪行"/>
+
+		<string id="tor_custom_settlement_cursed_site_once_a_day_text_str" text="{DEFILE_COOLDOWN_DAYS}天只能执行一次。"/>
+		<string id="tor_custom_settlement_shrine_pray_text_str" text="祈祷，并取得{GOD_NAME}的祝福。"/>
+  		<string id="tor_custom_settlement_shrine_blessing_already_active_str" text="你已经有一个生效的祝福了。"/>
+  		<string id="IAa7xHTk" text="你已将生命献给了 {CAREERGOD_NAME}。你无法在此祈祷"/>
+  		<string id="tor_custom_settlement_donation_perk_info_str" text="你需要在信仰的技能栏中点出“奉献”才能执行此操作。"/>
+  		<string id="tor_custom_settlement_shrine_pray_result_text_str" text="你得到了{GOD_NAME}的祝福"/>
+  		<string id="tor_custom_settlement_shrine_follower_result_str" text="{FOLLOWER_RESULT_NUMBER} {FOLLOWER_RESULT_TROOP}见证了你的祈祷后，决定加入你的队伍。"/>
+
+		<!-- MasterEngineerTownBehaviour -->
+		<string id="tor_rogue_engineer_name_str" text="戈斯温"/>
+		
+		<string id="tor_religion_label" text="信仰"/>
+		<string id="tor_religion_follower_none_str" text="没有信仰任意一神"/>
+
+		<!-- InkStory -->
+		<string id="inky_end_str" text="结束"/>
+		<string id="inky_continue_str" text="继续"/>
+
+		<!-- EngineerQuest -->
+		  <string id="tor_engineer_quest_log0_str" text="工程大师委托我去找盗取部件的窃贼，我应该抓住他们，把他们偷的东西带回来。"/>
+  		<string id="tor_engineer_quest_log1_str" text="我找到了窃贼，但他们没有偷来的部件。我应该向工程大师报告这个消息。"/>
+  		<string id="tor_engineer_quest_log2_str" text="被盗部件似乎在一个叛徒工程师手里，工程大师需要我找到他。"/>
+  		<string id="tor_engineer_quest_log3_str" text="我已经杀死了戈斯温，并取回了被盗的部件，我应该回去告诉工程大师。"/>
+  		<string id="tor_engineer_quest_task0_str" text="抓住逃跑的窃贼"/>
+  		<string id="tor_engineer_quest_task1_str" text="回努恩向工程大师报告"/>
+  		<string id="tor_engineer_quest_task2_str" text="追踪戈斯温，取回被盗部件"/>
+  		<string id="tor_engineer_quest_task3_str" text="回努恩向工程大师报告"/>
+  		<string id="tor_engineer_quest_cultists_skip_str" text="你们的胜利毫无意义……你们永远找不到我们拿走的东西"/>
+  		<string id="tor_engineer_quest_engineer_skip_str" text="你根本不知道你在做什么……"/>
+  		<string id="tor_engineer_quest_log1_fail_str" text="我失败了，回去向工程大师报告吧……"/>
+  		<string id="tor_engineer_quest_log3_fail_str" text="我失败了，回去向工程大师报告吧……"/>
+
+		<!-- HuntCultistsQuestCampaignBehavior  -->
+		<string id="tor_quest_hunt_cultist_description_str" text="前往目标定居点，铲除可能藏匿在那里的邪教徒。"/>
+  		<string id="tor_quest_hunt_cultist_issue_accept_player_str" text="大人，您有什么需要做的吗？"/>
+  		<string id="tor_quest_hunt_cultist_issue_brief_str" text="事实上，我有一个潜在邪教徒的线索。一个需要调查的严重指控。"/>
+  		<string id="tor_quest_hunt_cultist_issue_explanation_str" text="我要你前往{TARGET_SETTLEMENT}，调查当地居民，铲除可能潜藏在那里的邪教徒，事成之后我会你给你{REWARD}{GOLD_ICON}。"/>
+  		<string id="tor_quest_hunt_cultist_accept_player_str" text="就这样吧。"/>
+  		<string id="tor_quest_hunt_cultist_title_str" text="邪教徒就在我们中间"/>
+  		<string id="tor_quest_hunt_cultist_log_updated_success_str" text="你成功发现了躲藏起来的邪教徒"/>
+  		<string id="tor_quest_hunt_cultist_log_updated_fail_str" text="邪教徒逃走了"/>
+		<string id="tor_quest_hunt_cultist_started_str" text="你受命前往{TARGET_SETTLEMENT}，邪教徒可能就藏在那，需要你去铲除。"/>
+  		<string id="tor_quest_hunt_cultist_out_of_time_log_str" text="你没能及时完成调查。躲藏起来的邪教徒现在肯定都消失得无影无踪了。"/>
+  		<string id="tor_quest_hunt_cultist_offer_dialog_str" text="很好，不要低估毁灭的力量，在你的征途中需要时刻保持警惕！"/>
+  		<string id="tor_quest_hunt_cultist_discuss_dialog_str" text="合作愉快。"/>
+  		<string id="khorne_cultist_mission" text="别动我们的容器，快滚，别干扰我们的计划。"/>
+  		<string id="tor_quest_hunt_cultist_quest_prepare_to_die_str" text="准备去死吧。"/>
+  		<string id="tor_quest_hunt_cultist_village_raided_info_str" text="村子被袭击了，现在找不到任何邪教徒。等村子重新有人居住时再回来吧。"/>
+
+		<!-- PlaguedVillageQuestCampaignBehavior -->
+		<string id="tor_quest_plagued_village_issue_brief_str" text="事实上，我有一个潜在邪教活动的线索。一个村庄发生了可怕的非自然瘟疫，问题很严重，需要人手去调查。"/>
+  		<string id="tor_quest_plagued_village_issue_accept_player_str" text="我应该做什么？"/>
+  		<string id="tor_quest_plagued_village_issue_explanation_str" text="我要你前往{TARGET_SETTLEMENT}，调查当地瘟疫的根源，事成之后我会你给你{REWARD}{GOLD_ICON}。"/>
+  		<string id="tor_quest_plagued_village_accept_player_str" text="我明白了。"/>
+  		<string id="tor_quest_plagued_village_title_str" text="瘟疫肆虐的村庄"/>
+  		<string id="tor_quest_plagued_village_description_str" text="前往目标村落，调查这起非自然瘟疫的源头。"/>
+  		<string id="tor_quest_hunt_cultist_title_str" text="瘟疫肆虐的村庄"/>
+  		<string id="tor_quest_plagued_village_offer_dialog_str" text="好极了，不要低估毁灭的力量，在你的征途中需要时刻保持警惕！"/>
+  		<string id="tor_quest_plagued_village_discuss_dialog_str" text="合作愉快。"/>
+  		<string id="nurgle_cultist_start" text="等等……咱们之间其实没必要动手！"/>
+  		<string id="nurgle_cultist_continue" text="慈父纳垢会……其实祂有件礼物要送你，只要你原意接受（生命值永久加20）"/>
+  		<string id="nurgle_gift_accepted" text="很好，我接受。"/>
+  		<string id="nurgle_gift_deny" text="你们卑鄙的阴谋到此为止。这个苦难村庄的呐喊呼唤着正义。去死吧!"/>
+  		<string id="nurgle_gift_denied" text="你会后悔的。"/>
+  		<string id="tor_quest_hunt_cultist_out_of_time_log_str" text="你没能及时完成调查。"/>
+  		<string id="tor_quest_plague_village_raided_info_str" text="村子被袭击了，现在找不到任何邪教徒。等村子重新有人居住时再回来吧。"/>
+  		<string id="tor_quest_plague_village_log_updated_success_str" text="你成功根除了瘟疫。"/>
+  		<string id="tor_quest_plague_village_log_updated_fail_str" text="你放弃了这个任务。"/>
+
+		<!-- SpecializeLoreQuest -->
+  		<string id="tor_specialize_lore_quest_task1_str" text="使用5次魔法"/>
+  		<string id="tor_specialize_lore_quest_task1_counter_str" text="法术使用次数"/>
+		<string id="tor_specialize_lore_quest_task1_finish_str" text="拜访魔导师，专精一类法术。"/>
+  		<string id="tor_specialize_lore_quest_title_str" text="练习施法"/>
+
+		<!-- TORDamageDisplay -->
+  		<string id="AKmb49uI" text="物理"/>
+  		<string id="tXn87GoB" text="魔法"/>
+  		<string id="Sr9yggir" text="火焰"/>
+  		<string id="aGsiaegH" text="神圣"/>
+  		<string id="90ruy50y" text="光明"/>
+  		<string id="vj5Nszy4" text="寒冰"/>
+  		<string id="PjlOCgKb" text="造成伤害（"/>
+  		<string id="nP3uh2XY" text="）伤害百分比 "/>
+  		<string id="cHwmL0Qp" text=", {0} 伤害属于 {1} [{2}{3}]"/>
+  		<string id="6OQzLYHL" text="被吸收了"/>
+  		<string id="gunBlw1K" text="{0}点伤害属于{1}{2}{3} {4}{5}{6}"/>
+
+  		<string id="zT8vGnja" text="单位属性"/>
+  		<string id="W3YA4UXU" text="生命值"/>
+  		<string id="HkbAtuGQ" text="防护"/>
+  		<string id="hA0jJ5I3" text="伤害抗性"/>
+  		<string id="qyPFvVEk" text="伤害加成"/>
+
+  		<string id="1V4Awr07" text="远程"/>
+  		<string id="MrAbpel2" text="近战"/>
+  		<string id="PHOr23UP" text="长矛/骑枪"/>
+  		<string id="ufWv3i3F" text=" 伤害 "/>
+
+		
+  </strings>
+</base>

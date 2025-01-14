@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- empire religions -->
+  		<string id="tor_religion_cult_name_cult_of_sigmar_str" text="西格玛教会"/>
+  		<string id="uAcDYWQY" text="西格玛"/>
+  		<string id="rptmi0UA" text="塔尔教会"/>
+  		<string id="To2UP6EE" text="尤里克教会"/>
+  		<string id="2Udeg0Ga" text="莎莉雅教会"/>
+  		<string id="NTPbEeHn" text="曼纳恩教会"/>
+  		
+		<!-- bretonnia religions -->
+  		<string id="5V6f3I9K" text="湖神仙女教会"/>
+
+		<!-- vampire religions -->
+  		<string id="MUMTzo1G" text="纳伽什子嗣"/>
+
+		<!-- chaos religions -->
+  		<string id="vTvOAztl" text="混沌四神教会"/>
+  		<string id="9Il43M6M" text="色孽教会"/>
+  		<string id="fIcPUzGv" text="纳垢教会"/>
+  		<string id="TXT9KJsN" text="恐虐教会"/>
+  		<string id="8qLEOMRf" text="奸奇教会"/>
+
+		<!-- elven religions -->
+  		<string id="Nbfh9BEO" text="爱莎教会"/>
+  		<string id="i1xo0UUr" text="库诺斯教会"/>
+  		<string id="qOwxILpB" text="瓦尔教会"/>
+  		<string id="6oV6DXuW" text="安埃斯·莱玛教会"/>
+  		<string id="Ni8GpT4x" text="阿苏焉教会"/>
+  		<string id="GdXUNDIA" text="洛依克教会"/>
+
+  </strings>
+</base>

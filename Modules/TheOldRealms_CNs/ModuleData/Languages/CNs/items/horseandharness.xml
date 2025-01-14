@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!--KEEP THIS HERE! Important! DO NOT MOVE IT TO OTHER XML-->
+  		<string id="CGB4Qxkb" text="战役旗帜（小）"/>
+
+		<!--Generic Mount-->
+  		<string id="hfJejZ2H" text="老马"/>
+
+		<!--Empire Mount-->
+  		<string id="aQi16W1y" text="帝国竞技马"/>
+  		<string id="PEErv97J" text="帝国军马"/>
+  		<string id="Q3WS7GAN" text="帝国战马"/>
+  		<string id="xgKhWiWQ" text="半狮鹫"/>
+  		<string id="OtFRjw81" text="雪域半狮鹫"/>
+
+		<!--Vampire Count Mount-->
+  		<string id="CQDnXrLU" text="僵尸马"/>
+  		<string id="g1Wk7hSk" text="骷髅马"/>
+  		<string id="O19OJWJk" text="鬼魂马"/>
+  		
+		<!--Chaos Mount-->
+  		<string id="C4niv2fA" text="混沌马"/>
+
+		<!--Wood Elves Mount-->
+  		<string id="OTPL2EhV" text="巨牡鹿"/>
+  		<string id="etYyRACg" text="独角兽"/>
+  		<string id="ABQb3ESg" text="巨牡鹿鞍"/>
+		
+
+		<!--Bretonnian Mount-->
+  		<string id="cjHuCxtU" text="巴托尼亚扈从马"/>
+  		<string id="VLOFQwVR" text="巴托尼亚纯种马"/>
+  		<string id="NJoK7rBz" text="巴托尼亚战马"/>
+		
+		<!--Vampire Count Mount Armor-->
+  		<string id="y9xyqwD0" text="吸血鬼马挽具"/>
+  		<string id="cuRtZrxa" text="黑骑士马具"/>
+  		<string id="7owIFZXT" text="鬼魂马具"/>
+
+		<!--Empire Mount Armor-->
+  		<string id="zNZ9jINX" text="帝国马胄"/>
+  		<string id="4DvqD2Av" text="帝国王室马胄"/>
+  		<string id="PNfb0nNX" text="帝国王室白银马胄"/>
+  		<string id="C975ihfd" text="半狮鹫马鞍"/>
+  		<string id="IU4XX3FD" text="半狮鹫马胄"/>
+  		<string id="hHnR8Tew" text="狮鹫骑士团半狮鹫马胄"/>
+
+		<!--Bretonnia Mount Armor-->
+  		<string id="YiVINvHy" text="巴托尼亚马胄"/>
+
+		
+    </strings>
+</base>

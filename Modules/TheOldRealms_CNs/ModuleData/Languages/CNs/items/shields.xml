@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="str_tor_empire_weapon_banner_001" text="斯提尔领的旗帜"/>
+		<string id="str_tor_empire_weapon_banner_002" text="艾维领的旗帜"/>
+  		<string id="str_tor_empire_weapon_banner_003" text="艾维领的旗帜"/>
+		<string id="str_tor_faction_banner_001_t1" text="派系旗帜 T1"/>
+  		<string id="str_tor_faction_banner_001_t2" text="派系旗帜 T2"/>
+  		<string id="str_tor_faction_banner_001_t3" text="派系旗帜 T3"/>
+  		<string id="str_tor_empire_banner_001_t1" text="派系旗帜T1"/>
+  		<string id="str_tor_empire_banner_001_t2" text="派系旗帜T2"/>
+  		<string id="str_tor_empire_banner_001_t3" text="派系旗帜T3"/>
+		<string id="str_tor_vc_weapon_banner_001" text="希尔瓦尼亚旗帜"/>
+  		<string id="str_tor_vc_weapon_banner_002" text="冯·卡斯坦因旗帜"/>
+  		<string id="str_tor_vc_weapon_banner_003" text="希尔瓦尼亚旗帜"/>
+  		<string id="str_tor_vc_weapon_banner_undead_001" text="不死图腾"/>
+		<string id="str_tor_chaos_weapon_banner_001" text="混沌旗帜"/>
+  		<string id="str_tor_chaos_weapon_banner_002" text="混沌旗帜"/>
+		<string id="str_tor_fake_faction_banner_001_t1" text="派系旗帜"/>
+  		<string id="str_tor_fake_faction_banner_001_t2" text="派系旗帜"/>
+  		<string id="str_tor_fake_faction_banner_001_t3" text="派系旗帜"/>
+  		<string id="str_tor_empire_weapon_shield_001" text="金属覆板盾"/>
+  		<string id="str_tor_empire_weapon_shield_002" text="焰阳盾"/>
+		<string id="str_tor_empire_weapon_shield_003" text="华丽金属盾"/>
+  		<string id="str_tor_empire_weapon_shield_004" text="华丽金属盾"/>
+  		<string id="str_tor_empire_weapon_shield_005" text="华丽金属盾"/>
+   		<string id="str_tor_empire_weapon_shield_006" text="木板盾"/>
+  		<string id="str_tor_empire_weapon_shield_007" text="木板盾"/>
+  		<string id="str_tor_empire_weapon_shield_008" text="金属覆板盾"/>
+  		<string id="str_tor_empire_weapon_shield_luthor" text="卢瑟·胡斯盾"/>
+ 		<string id="str_tor_empire_weapon_shield_warrior_priest_001" text="战斗牧师盾"/>
+  		<string id="str_tor_empire_weapon_shield_warrior_priest_002" text="战斗牧师盾"/>
+  		<string id="str_tor_empire_weapon_shield_warrior_priest_003" text="战斗牧师盾"/>
+  		<string id="str_tor_empire_weapon_shield_warrior_priest_004" text="战斗牧师盾"/>
+  		<string id="str_tor_empire_weapon_shield_warrior_priest_005" text="战斗牧师盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_knight_001" text="瑞克禁卫骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_knight_002" text="瑞克禁卫骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_knight_003" text="瑞克禁卫骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_circle_001" text="内环瑞克禁卫盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_circle_002" text="内环瑞克禁卫盾"/>
+  		<string id="str_tor_empire_weapon_shield_reiksguard_circle_003" text="内环瑞克禁卫盾"/>
+ 		<string id="str_tor_vc_weapon_shield_skeleton_001" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_002" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_003" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_004" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_005" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_006" text="骷髅战士盾"/>
+  		<string id="str_tor_vc_weapon_shield_skeleton_007" text="骷髅战士盾"/>
+ 		<string id="str_tor_vc_weapon_shield_grave_guard_001" text="荒坟守卫盾"/>
+  		<string id="str_tor_vc_weapon_shield_grave_guard_002" text="荒坟守卫盾"/>
+		<string id="str_tor_vc_weapon_shield_vampire_006" text="吸血鬼之盾"/>
+  		<string id="str_tor_vc_weapon_shield_vampire_007" text="吸血鬼之盾"/>
+  		<string id="str_tor_vc_weapon_shield_vampire_008" text="吸血鬼之盾"/>
+  		<string id="str_tor_vc_weapon_shield_vampire_009" text="吸血鬼之盾"/>
+  		<string id="str_tor_vc_weapon_shield_vampire_010" text="吸血鬼之盾"/>
+  		<string id="str_tor_vc_weapon_shield_vampire_lord_001" text="吸血鬼之盾"/>
+  		<string id="str_tor_chaos_weapon_shield_001" text="混沌之盾"/>
+  		<string id="str_tor_chaos_weapon_shield_nurgle_001" text="纳垢之盾"/>
+		<string id="str_tor_bretonnia_weapon_shield_001" text="巴托尼亚盾"/>
+  		<string id="str_tor_bretonnia_weapon_shield_002" text="巴托尼亚加固盾"/>
+  		<string id="str_tor_bretonnia_weapon_shield_003" text="巴托尼亚盾"/>
+  		<string id="str_tor_bretonnia_weapon_shield_004" text="巴托尼亚加固盾"/>
+  		<string id="str_tor_bretonnia_weapon_shield_005" text="巴托尼亚盾"/>
+  		<string id="str_tor_bretonnia_weapon_shield_006" text="巴托尼亚加固盾"/>
+ 		<string id="str_tor_empire_weapon_shield_grail_knight_001" text="圣杯骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_grail_knight_002" text="圣杯骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_grail_knight_003" text="圣杯骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_knight_errant_001" text="侠义骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_knight_errant_002" text="侠义骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_knight_errant_003" text="侠义骑士盾"/>
+   		<string id="str_tor_empire_weapon_shield_noble_001" text="巴托尼亚贵族盾"/>
+  		<string id="str_tor_empire_weapon_shield_noble_002" text="巴托尼亚贵族盾"/>
+  		<string id="str_tor_empire_weapon_shield_noble_003" text="巴托尼亚贵族盾"/>
+ 		<string id="str_tor_empire_weapon_shield_kotr_001" text="王国骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_kotr_002" text="王国骑士盾"/>
+  		<string id="str_tor_empire_weapon_shield_kotr_003" text="王国骑士盾"/>
+		<string id="str_tor_mousillon_weapon_shield_knight_001" text="穆席隆骑士盾"/>
+  		<string id="str_tor_mousillon_weapon_shield_knight_002" text="穆席隆骑士盾"/>
+  		<string id="str_tor_mousillon_weapon_shield_black_grail_knight_001" text="秽杯骑士盾"/>
+  		<string id="str_tor_we_weapon_shield_eternalguard_001" text="永恒守卫盾"/>
+  		<string id="str_tor_we_weapon_shield_lord_001" text="林地领主盾"/>
+ 		<string id="str_tor_he_weapon_shield_001" text="高精灵长矛兵盾"/>
+  		<string id="str_tor_he_weapon_shield_002" text="高精灵长矛兵盾"/>
+  		<string id="str_tor_de_weapon_shield_001" text="黑暗精灵盾"/>
+		<string id="str_tor_empire_staff_cw_001_combined" text="天堂法师主法杖"/>
+  		<string id="str_tor_empire_staff_cw_002_combined" text="天堂法师法杖"/>
+  		<string id="str_tor_empire_staff_cw_003_combined" text="天堂法师新手法杖"/>
+  		<string id="str_tor_empire_staff_bw_001_combined" text="光明法师法杖"/>
+  		<string id="str_tor_empire_staff_bw_002_combined" text="光明法师法杖"/>
+  		<string id="str_tor_empire_staff_lw_001_combined" text="光明法师法杖"/>
+  		<string id="str_tor_empire_staff_lw_002_combined" text="光明法师法杖"/>
+  		<string id="str_tor_empire_staff_lw_003_combined" text="光明法师法杖"/>
+  		<string id="str_tor_empire_staff_volkmar" text="指挥杖"/>
+		<string id="str_tor_empire_staff_gelt" text="沃兰之杖"/>
+  		<string id="str_tor_prophetess_staff_combined" text="女先知杖"/>
+  		<string id="str_tor_vc_nm_staff_001_combined" text="死灵法师法杖"/>
+
+    </strings>
+</base>

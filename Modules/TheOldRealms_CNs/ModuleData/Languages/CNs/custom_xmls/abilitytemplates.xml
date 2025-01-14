@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- Minor magic -->
+		<string id="dart_label_str" text="魔法箭"/>
+		<string id="7NvvW30f" text="向敌人投掷一道魔法飞弹。飞弹会自动追踪目标，并在接触到目标时在 3 米半径内造成 40 点伤害"/>
+
+		<string id="ward_of_arrows_label_str" text="疫病箭"/>
+		<string id="ward_of_arrows_description_str" text="施法者获得抵御远程伤害40%的物理抗性，持续15秒"/>
+
+		<string id="minor_heal_label_str" text="小型治疗"/>
+		<string id="minor_heal_description_str" text="每七秒治愈施法者3点血量"/>
+
+		<string id="foetid_cloud_label_str" text="毒云"/>
+		<string id="foetid_cloud_description_str" text="发射一个短距离的毒云。"/>
+
+		<string id="enchant_weapon_label_str" text="附魔武器"/>
+		<string id="enchant_weapon_description_str" text="让一个友军武器附带魔法伤害"/>
+
+		<string id="aura_of_resistance_label_str" text="抵抗光环"/>
+		<string id="aura_of_resistance_description_str" text="半径三米内的友方单位会获得持续15秒的20%物理抗性（伤害减免）"/>
+
+		<string id="strength_of_combat_label_str" text="战斗力量"/>
+		<string id="strength_of_combat_description_str" text="接下来的15秒内，施法者造成的物理伤害会提高20%"/>
+
+		<string id="dust_storm_label_str" text="沙尘暴"/>
+		<string id="dust_storm_description_str" text="来自沙漠里的干燥的风会击倒受害者并且施加少量伤害"/>
+
+		<!-- Lore of Fire -->
+		<string id="fireball_label_str" text="火球术"/>
+		<string id="fireball_description_str" text="没有什么比一个火球打在脸上更让人高兴的了。在3米范围内造成80的伤害，并在5秒内产生燃烧状态的效果。"/>
+
+		<string id="cinder_blast_label_str" text="熔岩爆裂"/>
+		<string id="cinder_blast_description_str" text="向敌人投掷凝固的熔岩碎片，接触后造成中等伤害。"/>
+
+		<string id="bolt_of_aqshy_label_str" text="阿克夏之箭"/>
+		<string id="bolt_of_aqshy_description_str" text="快速移动的火焰弹，撞击时造成中等伤害。"/>
+
+		<string id="sear_label_str" text="灼伤"/>
+		<string id="sear_description_str" text="用短距离的灼热火焰攻击轰击敌人，造成中等伤害。"/>
+
+		<string id="cascading_fire_cloak_label_str" text="流火斗篷"/>
+		<string id="cascading_fire_cloak_description_str" text="施法者将自己包裹在火焰护罩里,灼烧附近的敌人。在15秒内抵御物理伤害（20%）和火焰伤害（70%）。"/>
+
+		<string id="flaming_swords_label_str" text="鲁因火焰剑"/>
+		<string id="flaming_swords_description_str" text="使5米范围内的盟友的武器获得火焰特性的加持，持续20秒。这些武器会迸发出火焰，并烧毁他们击中的每个敌人。"/>
+
+		<string id="burning_head_label_str" text="烈焰之颅"/>
+		<string id="burning_head_description_str" text="召唤出一个巨大的燃烧头骨，向前移动，烧毁沿途的一切。"/>
+
+		<string id="flame_storm_label_str" text="烈焰风暴"/>
+		<string id="flame_storm_description_str" text="一个随机移动的火焰龙卷风。造成高额伤害。肉体与肌肤熔化，骨骼灰飞烟灭。"/>
+
+		<!-- Lore of Heavens -->
+		<string id="lightning_bolt_label_str" text="闪电箭"/>
+		<string id="lightning_bolt_description_str" text="向敌人投掷一枚闪电箭，撞击时造成中等伤害。"/>
+
+		<string id="wind_blast_label_str" text="风爆术"/>
+		<string id="wind_blast_description_str" text="一阵风将受害者击倒，并造成轻微伤害。"/>
+
+		<string id="chain_lightning_label_str" text="连环闪电"/>
+		<string id="chain_lightning_description_str" text="一个闪电球，对其范围内的敌人造成中等伤害。"/>
+
+		<string id="harmonic_convergence_label_str" text="和音汇集"/>
+		<string id="harmonic_convergence_description_str" text="施法者占卜到有利的迹象，引导战士同伴们的思想。10米内的盟友获得50%的物理抵抗，持续50秒。"/>
+
+		<string id="blizzard_label_str" text="碎冰风暴"/>
+		<string id="blizzard_description_str" text="暴风雨的云层笼罩着该地区，给下面的人带来了尖锐的冰块。"/>
+
+		<string id="comet_of_casandora_label_str" text="卡莎朵拉彗星"/>
+		<string id="comet_of_casandora_description_str" text="一颗巨大的流星袭击了这个地区，在巨大的冲击波中杀死了下面所有的人。"/>
+
+		<string id="thunderbolt_label_str" text="尤瑞诺闪电箭"/>
+		<string id="thunderbolt_description_str" text="一道巨大的闪电从天而降，带着巨大的电荷。"/>
+
+		<string id="curse_of_midnight_wind_label_str" text="夜风诅咒"/>
+		<string id="curse_of_midnight_wind_description_str" text="法师说出一句古代三言咒语诅咒敌人。降低40%的移动与攻击速度。"/>
+
+		<!-- Lore of Light -->
+		<string id="shem_gaze_label_str" text="闪的灼热凝视"/>
+		<string id="shem_gaze_description_str" text="一枚由净化能量构成的箭头自施法者的手掌迸射而出。，灼烧从任何方向袭来的邪物。"/>
+
+		<string id="healing_light_label_str" text="治愈之光"/>
+		<string id="healing_light_description_str" text="在该区域的盟友随着时间推移恢复生命。"/>
+
+		<string id="pha_protection_label_str" text="菲的庇护之光"/>
+		<string id="pha_protection_description_str" text="法师召唤出仁慈的光之守护神保护他的盟友免受伤害。在50秒内提供50%的物理伤害抗性。"/>
+
+		<string id="deathly_shards_label_str" text="死亡碎片"/>
+		<string id="deathly_shards_description_str" text="锋利的光线碎片飞向目标，穿透最坚硬的盔甲。"/>
+
+		<string id="radiance_pillar_label_str" text="光芒之柱"/>
+		<string id="radiance_pillar_description_str" text="一个巨大的光柱对被光束击中的人造成高伤害。"/>
+
+		<string id="radiant_gaze_label_str" text="光辉凝视"/>
+		<string id="radiant_gaze_description_str" text="一簇光柱拔地而起"/>
+
+		<string id="net_of_amyntok_label_str" text="阿明托克之网"/>
+		<string id="net_of_amyntok_description_str" text="一张由海希之力编织的网被降到目标身上,使目标在25秒内被迷惑而无法行动。"/>
+
+		<string id="bironas_timewarp_label_str" text="拜若纳的时光扭曲"/>
+		<string id="bironas_timewarp_description_str" text="减缓周围的时间，只有你周边的单位不受影响。"/>
+
+		<!-- Necromancy -->
+		<string id="nagash_gaze_label_str" text="纳伽什的凝视"/>
+		<string id="nagash_gaze_description_str" text="施法者的眼睛里飞出一道道达尔，它们所触及的肉体变黑、枯萎，完全剥落，露出下面的白骨。"/>
+
+		<string id="summon_skeleton_label_str" text="唤醒死者"/>
+		<string id="summon_skeleton_description_str" text="从场地里收集古代遗骨来让死灵法师统帅。召唤25个骷髅战士。"/>
+
+		<string id="shadowblood_label_str" text="暗影之血"/>
+		<string id="shadowblood_description_str" text="朦胧的血球飞向目标，每一步都沾染了下面的地面。"/>
+
+		<string id="morkharn_label_str" text="莫克卡恩的黑暗吐息"/>
+		<string id="morkharn_description_str" text="该地区的盟友会随着时间的推移恢复HP。"/>
+
+		<string id="vanhelsdansemacabre_label_str" text="范赫的死亡之舞"/>
+		<string id="vanhelsdansemacabre_description_str" text="死者往往行动笨拙。然而这个法术让他们迅速而优雅，也让他们变得更加致命。"/>
+
+		<string id="wind_of_death_label_str" text="死亡之风"/>
+		<string id="wind_of_death_description_str" text="召唤死者的灵魂来吞噬活人的灵魂。在路径上施加高额伤害。"/>
+
+		<string id="grave_call_label_str" text="坟茔召唤"/>
+		<string id="grave_call_description_str" text="召唤黑暗能量在大地上流淌。死灵法师寻觅到死亡已久的尸体听从他的召唤。唤醒25个古坟守卫。"/>
+
+		<string id="curse_of_years_label_str" text="岁月诅咒"/>
+		<string id="curse_of_years_description_str" text="法师释放出古老的诅咒，他的敌人以难以置信的速度衰老。将敌人的伤害和移动速度减少至50%，持续30秒。"/>
+
+		<!-- Dark Magic -->
+		<string id="chillwind_label_str" text="彻骨寒风"/>
+		<string id="chillwind_description_str" text="施法者用冰冷的大风袭击敌人。"/>
+
+		<string id="doom_bolt_label_str" text="毁灭魔矢"/>
+		<string id="doom_bolt_description_str" text="法师向他的敌人召唤出一道从天而降的炽热黑色火焰。"/>
+
+		<string id="death_spasm_label_str" text="死亡痉挛"/>
+		<string id="death_spasm_description_str" text="一个噼里啪啦的黑色能量弹，在火球中爆炸，使受害者着火。"/>
+
+		<string id="soul_rain_label_str" text="灵魂之雨"/>
+		<string id="soul_rain_description_str" text="一片黑云笼罩着目标区域，用弧形闪电打击下面的人。"/>
+
+		<string id="power_of_darkness_label_str" text="黑暗之力"/>
+		<string id="power_of_darkness_description_str" text="施法者从混沌的国度汲取不稳定的力量，赋予盟友20%的物理伤害加成，持续35秒。"/>
+
+		<string id="screaming_skull_label_str" text="尖啸之颅"/>
+		<string id="screaming_skull_description_str" text="召唤出一个滴着酸液的尖叫的头骨，向前移动，破坏其路径上的一切。"/>
+
+		<string id="black_horror_label_str" text="阿恩齐帕尔的黑色恐怖"/>
+		<string id="black_horror_description_str" text="施法者撕裂了现实之间的墙壁，一团黑色的能量云席卷整个战场。随着黑暗的蔓延，粘稠的触手从其深处伸出来，将不幸的受害者拖向未知的命运。"/>
+
+		<string id="soul_stealer_label_str" text="灵魂窃取"/>
+		<string id="soul_stealer_description_str" text="区域内的敌人会经历一个灵魂耗尽的直接伤害效果，使他们在10秒内每秒受到12点伤害。"/>
+
+		<!-- High Magic -->
+		<string id="apotheosis_label_str" text="神圣颂扬"/>
+		<string id="apotheosis_description_str" text="法师向他的盟友们灌输纯净的魔法能量使其充满活力。"/>
+
+		<string id="fiery_convocation_label_str" text="万焰燃集"/>
+		<string id="fiery_convocation_description_str" text="说出一道密语，让你的敌人被烈焰灼烧。对指定的一片区域里造成大量伤害并且在一定时间内造成持续伤害。"/>
+
+		<string id="soul_quench_label_str" text="灵魂淬火"/>
+		<string id="soul_quench_description_str" text="一个明亮的球体从施法者的指尖显露出来。被击中的敌人受中等伤害。"/>
+
+		<string id="courage_of_aenarion_label_str" text="艾纳瑞昂之勇"/>
+		<string id="courage_of_aenarion_description_str" text="精灵法师引导魔法八风唤醒初代凤凰王艾纳瑞昂之名。增加法师周围的盟友的攻击频率。"/>
+
+		<string id="curse_of_arrowattraction_label_str" text="引箭咒"/>
+		<string id="curse_of_arrowattraction_description_str" text="法师在指定区域施加诅咒，使敌方单位周围的空气扭曲并以惊人的精度引导我方单位的投射物命中敌人。"/>
+
+		<string id="tempest_label_str" text="八风暴雨"/>
+		<string id="tempest_description_str" text="召唤闪烁着所有魔法八风颜色的耀眼风暴。"/>
+
+		<string id="shield_of_saphery_label_str" text="萨芙睿之盾 "/>
+		<string id="shield_of_saphery_description_str" text="施法者召唤出一道缥缈的穹顶，保护友军免受远程范围伤害。"/>
+
+		<!-- Lore of Life-->
+		<string id="dwellers_below_label_str" text="地灵觉醒"/>
+		<string id="dwellers_below_description_str" text="卷须从地下破土而出攻击指定区域的敌人。击倒敌人，使敌人落马，降低其80%的速度，同时每秒钟造成10伤害，持续15秒。"/>
+
+		<string id="the_green_eye_label_str" text="碧绿双眼"/>
+		<string id="the_green_eye_description_str" text="施法者双眼合拢，向指定方向瞬间发射出一束快而可穿透的激光。"/>
+
+		<string id="barkskin_label_str" text="石化之躯"/>
+		<string id="barkskin_description_str" text="目标的皮肤变得坚硬。80秒内提供50%的物理抗性。&quot;"/>
+
+		<string id="summer_heat_label_str" text="夏日之炎"/>
+		<string id="summer_heat_description_str" text="用夏季的热量烧灼小面积区域，受影响的人汗流浃背，疲惫不堪。降低50%的移速，并使敌人在15秒内更易受到火焰伤害。"/>
+
+		<string id="regrowth_label_str" text="再生术"/>
+		<string id="regrowth_description_str" text="吟诵“远古荒祠之主杜仁铎”之命，法师为同伴治愈伤口，接骨续筋。所有位于3米半径内的盟友每秒治疗5点生命值，持续12秒。"/>
+
+		<string id="drain_life_label_str" text="吸取生命"/>
+		<string id="drain_life_description_str" text="吸取一个人身上的生命能量。每秒造成5次伤害，持续10秒。"/>
+
+		<string id="storm_of_renewal_label_str" text="重生风暴"/>
+		<string id="storm_of_renewal_description_str" text="原始的，神奇的生命能量在战场上流动，修复伤口，恢复人们的活力。治疗30点生命，治愈范围内友军10点生命，持续12秒。"/>
+
+		<string id="barkskin_label_str" text="石化之躯"/>
+		<string id="barkskin_description_str" text="目标的皮肤变得坚硬。80秒内提供50%的物理抗性。&quot;"/>
+
+		<!-- Lore of Beasts-->
+		<string id="amber_spear_label_str" text="琥珀之矛"/>
+		<string id="amber_spear_description_str" text="施法者向指定区域掷出一柄类似琥珀之矛的标枪，可穿透复数目标。"/>
+
+		<string id="tangling_thorn_label_str" text="荆棘环绕"/>
+		<string id="tangling_thorn_description_str" text="树根破土而出阻止所有敌人移动，持续十秒钟。"/>
+
+		<string id="panns_impenetrable_pelt_label_str" text="潘恩的坚韧毛皮"/>
+		<string id="panns_impenetrable_pelt_description_str" text="在施法者周边环绕一圈魔法皮肤，保护施法者使其免受40%的伤害，持续40秒钟。"/>
+
+		<string id="hail_storm_label_str" text="冰雹风暴"/>
+		<string id="hail_storm_description_str" text="一阵石风暴降临到敌人头上，在一定半径范围内造成物理伤害。"/>
+
+		<string id="flock_of_doom_label_str" text="群鸦盛宴"/>
+		<string id="flock_of_doom_description_str" text="在指定的区域召唤出一群梦魇般的乌鸦。被侵袭的敌人在一定时间受到轻微伤害并且在十秒内降低其20%的物理抗性。"/>
+
+		<string id="the_beast_unleashed_label_str" text="野性释放"/>
+		<string id="the_beast_unleashed_description_str" text="释放施法者盟友心中的原始野性，将他们推向疯狂。在六十秒内增加25%的物理伤害和额外攻击速度。"/>
+
+		<string id="curse_of_anraheir_label_str" text="安拉海尔的诅咒"/>
+		<string id="curse_of_anraheir_description_str" text="林地精魂阻碍该区域内所有的敌人15秒，降低35%的移动速度和50%的攻速，同时造成每秒三点伤害。"/>
+
+		<!-- Lore of Metal-->
+		<string id="quicksilver_swords_label_str" text="水银剑"/>
+		<string id="2o3LTevs" text="为盟友的武器注入闪耀的能量 —— 在金属法师的帮助下，即使是生锈的剑也会变得致命。友军单位在 60 秒内造成 20% 的魔法和火焰伤害"/>
+		
+		<string id="gleaming_arrow_label_str" text="闪耀飞矢"/>
+		<string id="gleaming_arrow_description_str" text="一枚由纯粹金色能量构成的箭头自施法者的前额迸射而出。击中目标的导弹将会造成100点物理伤害。"/>
+
+		<string id="meteoric_ironclad_label_str" text="流星铁甲"/>
+		<string id="meteoric_ironclad_description_str" text="盟友被铁与银的魔法保护。提供60%的物理抗性持续45秒。"/>
+
+		<string id="plague_of_rust_label_str" text="铁锈瘟疫"/>
+		<string id="plague_of_rust_description_str" text="法师轻击手腕，让敌人的盔甲变得腐朽不堪。在120秒内降低敌人70%的物理抗性。"/>
+
+		<string id="gehennas_golden_globe_label_str" text="吉哈纳的黄金球"/>
+		<string id="gehennas_golden_globe_description_str" text="一个闪闪亮的能量球将敌人吞没并将其活活烧死。若运气不好让敌人活了下来也可以降低其移动速度。"/>
+
+		<string id="final_transmutation_label_str" text="终极炼金术"/>
+		<string id="final_transmutation_description_str" text="法师编织起辉煌的虔门之风，将他的敌人变成纯金的雕像。造成持续伤害并降低敌人的移动速度。"/>
+
+		<string id="gehennas_golden_hounds_label_str" text="吉哈纳的黄金猎犬"/>
+		<string id="gehennas_golden_hounds_description_str" text="法师召唤出一对巨大的黄金猎犬，围绕圆周运动。"/>
+
+		<!-- Artillery -->
+		<string id="mortar_spawner_label_str" text="放置迫击炮"/>
+		<string id="great_cannon_spawner_label_str" text="放置大型加农炮"/>
+		<string id="field_trebuchet_spawner_label_str" text="放置野战投石机"/>
+
+		<!-- Career Abilities -->
+		<string id="shadowstep_label_str" text="血雾形态"/>
+		<string id="righteous_fury_label_str" text="公义之怒"/>
+		<string id="accusation_str" text="诉罪"/>
+		<string id="CVbAG68w" text="猩红狂怒"/>
+		<string id="klb3skM0" text="准备迎击"/>
+		<string id="n31jmaWt" text="尤里克之斧"/>
+
+		<string id="f7J4qNqq" text="伟大先驱"/>
+		<string id="BoQMJVNh" text="在目标位置召唤一名冠军战士"/>
+
+		<string id="gjid4xhQ" text="痛苦爆破"/>
+		<string id="Py47iLMn" text="向目标位置释放痛苦爆破"/>
+
+		<string id="xz09JqF7" text="库诺斯之箭"/>
+		<string id="VXnwgwbD" text="向目标方向发射一次库诺斯之箭"/>
+
+		<string id="hIUdhgSF" text="森林之怒"/>
+		<string id="muFiIZbz" text="在目标位置召唤树妖"/>
+
+		<string id="2J6jEfyE" text="林木之途"/>
+		<string id="qIKZKouN" text="圣杯侍女启动妖精通道，瞬间将玩家传送到目标位置。可造成魔法伤害或回复生命值。"/>
+
+		<string id="XWb2nyE6" text="狼神之礼"/>
+		<string id="kPs2gTXK" text="狼神祭司发出威严的嚎叫，将杀戮献给尤里克。移动速度和攻击速度增加30%，持续25秒"/>
+
+		<string id="e6nzxyGx" text="白狼之心"/>
+		<string id="PyrwlgR6" text="牧师的盟友会陷入狂热。10米范围内的友军会获得物理伤害增加35%，并在20秒内永不溃败，不被冲撞击倒"/>
+
+		<string id="QF3Yp35K" text="寒冰风暴"/>
+		<string id="lYLhH7Jq" text="狼神祭司会在一个区域内召唤寒冰风暴。敌人会受到-50%的移动和攻击速度惩罚，并随着时间的推移受到伤害"/>
+
+		<string id="19doIo8F" text="雪王判决"/>
+		<string id="doJ2ayaD" text="牧师咆哮着念出长篇祷文，召唤出冰冻的蓝色火焰，净化目标区域内的懦夫和弱者。受影响的敌人会受到伤害，并受到-50%移动速度和攻击速度惩罚，伤害会随时间流逝。"/>
+
+		<string id="red_fury_label_str" text="奥术导体"/>
+
+		<string id="knightly_charge_label_str" text="骑士冲锋"/>
+
+		<string id="mindcontrol_label_str" text="精神控制"/>
+		<string id="bqg58PMv" text="血红色的暗影球体飞向目标，在沿途的每一步都将地面染成血色"/>
+		
+		<!-- Shallya Prayers (NPC ONLY) -->
+		<string id="regrowth_label_str" text="再生术"/>
+		<string id="regrowth_description_str" text="吟诵“远古荒祠之主杜仁铎”之命，法师为同伴治愈伤口，接骨续筋。所有位于3米半径内的盟友每秒治疗5点生命值，持续12秒。"/>
+
+		<!-- Sigmarite Prayers -->
+		<string id="comet_of_sigmar_label_str" text="西格玛彗星"/>
+		<string id="comet_of_sigmar_description_str" text="你抛出一枚炽热的飞弹，外形类似于西格玛著名的双尾彗星形态，射向射程内你所选择的敌人。造成30点伤害，可击倒敌人拖下骑兵。仅限敌人。"/>
+		<string id="healing_hand_label_str" text="治疗之手"/>
+		<string id="healing_hand_description_str" text="在5米范围内每两秒增加五点生命持续九秒。"/>
+		<string id="armor_of_righteousness_label_str" text="正义之甲"/>
+		<string id="armor_of_righteousness_description_str" text="3米内的友军获得35%物理抗性，持续8秒"/>
+		<string id="vanquish_label_str" text="征服"/>
+		<string id="vanquish_description_str" text="5米内友军武器加持火焰特质，持续20秒。武器会迸发火焰，灼烧每一个被击中的敌人"/>
+		<string id="armor_of_righteousness_label_str" text="正义之甲"/>
+		<string id="armor_of_righteousness_description_str" text="3米内的友军获得35%物理抗性，持续8秒"/>
+
+		<!-- Power of the Lady -->
+		<string id="aerial_shield_label_str" text="空灵护盾"/>
+		<string id="aerial_shield_description_str" text="湖中女神的力量令敌方的导弹类法术在半空中消失。在一定半径的范围内阻挡90%的远程伤害。"/>
+		<string id="shield_of_combat_label_str" text="战斗之盾"/>
+		<string id="shield_of_combat_description_str" text="湖中女神的神圣力量使盟友的护甲可以偏转敌人的攻击。增加一定半径范围内50%的物理伤害抗性。"/>
+		<string id="ladys_favour_label_str" text="女神恩赐"/>
+		<string id="ladys_favour_description_str" text="少女召唤出湖中女神的幻象，让巴托尼亚人备受鼓舞。在一定范围内增加25%的攻击速度。"/>
+
+  </strings>
+</base>

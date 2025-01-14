@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="str_tor_emp_lord_averland_factionleader" text="选帝候 马略·雷特多夫"/>
+		<string id="str_tor_emp_lord_moot_factionleader" text="长老 希斯梅·强心"/>
+		<string id="str_tor_emp_lord_averland_golden_1" text="首席大导师 拜尔沙泽·盖尔特"/>
+		<string id="str_tor_emp_lord_averland_golden_2" text="阿尔布雷希特·赫尔塞赫"/>
+		<string id="str_tor_emp_lord_averland_golden_3" text="哈契卡·希克迈"/>
+		<string id="str_tor_emp_lord_averland_golden_4" text="本尼迪克特·施特罗斯"/>
+		<string id="str_tor_emp_lord_averland_first_2" text="费利贝尔特·雷特多夫"/>
+		<string id="str_tor_emp_lord_averland_first_3" text="卡斯托尔·雷特多夫"/>
+		<string id="str_tor_emp_lord_averland_first_4" text="女伯爵 卡米拉·冯·萨赫斯"/>
+		<string id="str_tor_emp_lord_averland_first_5" text="男爵 鲍里斯·乌尔布里希特"/>
+		<string id="str_tor_emp_lord_averland_first_6" text="伯爵 迪特尔·冯·海内"/>
+		<string id="str_tor_emp_lord_averland_first_7" text="费迪南德·雷特多夫"/>
+		<string id="str_tor_emp_lord_averland_second_1" text="女伯爵 卢德米拉·阿尔普特劳姆"/>
+		<string id="str_tor_emp_lord_averland_second_2" text="女伯爵 玛尔莱内·阿尔普特劳姆"/>
+		<string id="str_tor_emp_lord_averland_second_3" text="费伦茨·阿尔普特劳姆"/>
+		<string id="str_tor_emp_lord_averland_second_4" text="马蒂亚斯·阿尔普特劳姆"/>
+		<string id="str_tor_emp_lord_averland_second_5" text="克洛蒂尔德·阿尔普特劳姆"/>
+		<string id="str_tor_emp_lord_averland_third_1" text="女伯爵 塞蕾娜·冯·库施"/>
+		<string id="str_tor_emp_lord_averland_third_2" text="男爵 西格蒙德·兴登贝格"/>
+		<string id="str_tor_emp_lord_averland_third_3" text="女男爵 埃莉丝·阿尔德"/>
+		<string id="str_tor_emp_lord_averland_third_4" text="马蒂亚斯·冯·格伦瓦尔德"/>
+		<string id="str_tor_emp_lord_averland_third_5" text="戈特弗里德·冯·格伦瓦尔德"/>
+		<string id="str_tor_emp_lord_averland_kobs_1" text="西格弗里德·特拉彭菲尔德"/>
+
+		<string id="str_tor_emp_lord_stirland_sigmarcult_1" text="卢瑟·胡斯"/>
+		<string id="str_tor_emp_lord_stirland_sigmarcult_2" text="大神官 “无情者”沃克玛"/>
+		<string id="str_tor_emp_lord_stirland_sigmarcult_3" text="阿德索·特伊斯"/>
+		<string id="str_tor_emp_lord_stirland_factionleader" text="选帝候 阿尔贝里希·豪特-安德森"/>
+		<string id="str_tor_emp_lord_stirland_first_2" text="鲁道夫·豪特-安德森"/>
+		<string id="str_tor_emp_lord_stirland_first_3" text="男爵 安东·基辛格"/>
+		<string id="str_tor_emp_lord_stirland_first_4" text="女伯爵 佩特拉·哈登"/>
+		<string id="str_tor_emp_lord_stirland_first_5" text="伯爵 阿图尔·冯·特雷奇克"/>
+		<string id="str_tor_emp_lord_stirland_first_6" text="男爵 伊曼努尔·克雷布斯"/>
+		<string id="str_tor_emp_lord_stirland_first_7" text="埃里希·冯·哈尔施泰特"/>
+		<string id="str_tor_emp_lord_stirland_second_1" text="伯爵 佩特尔·冯·施托尔珀"/>
+		<string id="str_tor_emp_lord_stirland_second_2" text="领主 沃斯·冯·特菲尔塔尔"/>
+		<string id="str_tor_emp_lord_stirland_second_3" text="爵士 罗尔夫·范·鲁南"/>
+		<string id="str_tor_emp_lord_stirland_second_4" text="达里乌斯·盖斯特维希特"/>
+		<string id="str_tor_emp_lord_stirland_third_1" text="亚历珊德拉·冯·明斯特伯格"/>
+		<string id="str_tor_emp_lord_stirland_third_2" text="伯爵 安德雷亚斯·冯·韦贝恩"/>
+		<string id="str_tor_emp_lord_stirland_third_3" text="高阶牧师 马洛巴德"/>
+
+		<string id="str_tor_emp_lord_wissenland_factionleader" text="女选帝候 埃曼纽尔·冯·利布维茨"/>
+		<string id="str_tor_emp_lord_wissenland_first_2" text="子爵 莱奥斯·冯·利布维茨"/>
+		<string id="str_tor_emp_lord_wissenland_first_3" text="伯爵 布鲁诺·菲弗拉赫"/>
+		<string id="str_tor_emp_lord_wissenland_first_4" text="埃斯佩斯·冯·德拉肯"/>
+		<string id="str_tor_emp_lord_wissenland_first_5" text="弗里德布拉特·菲弗拉赫"/>
+		<string id="str_tor_emp_lord_wissenland_first_6" text="西格玛拉·菲弗拉赫"/>
+		<string id="str_tor_emp_lord_wissenland_first_7" text="元帅 沃夫哈特·冯·利布维茨"/>
+		<string id="str_tor_emp_lord_wissenland_second_1" text="女伯爵 茉莉·托本海默"/>
+		<string id="str_tor_emp_lord_wissenland_second_2" text="耶罗尼姆斯·卡尔·托本海默"/>
+		<string id="str_tor_emp_lord_wissenland_second_3" text="玛格达琳·托本海默"/>
+		<string id="str_tor_emp_lord_wissenland_second_4" text="佩提尔·瑙布霍菲"/>
+		<string id="str_tor_emp_lord_wissenland_second_5" text="男爵 弗雷德里希·赫尔巴特"/>
+		<string id="str_tor_emp_lord_wissenland_second_6" text="赫伦博尔杜斯·赫尔巴特"/>
+		<string id="str_tor_emp_lord_wissenland_third_1" text="伯爵 曼弗雷德·冯·埃根霍夫"/>
+		<string id="str_tor_emp_lord_wissenland_third_2" text="男爵 约翰·冯·卡尔布"/>
+		<string id="str_tor_emp_lord_wissenland_third_3" text="男爵 文肯图斯·普雷斯"/>
+		<string id="str_tor_emp_lord_wissenland_third_4" text="女男爵 卡塔琳娜·冯·海森贝格"/>
+		<string id="str_tor_emp_lord_wissenland_third_5" text="子爵 赫尔博特·安鲁"/>
+		<string id="str_tor_emp_lord_wissenland_third_6" text="猎人元帅 奥德里克·洛伦施泰讷"/>
+
+		<string id="str_tor_emp_lord_talabecland_factionleader" text="选帝侯 赫尔穆特·费尔巴哈"/>
+		<string id="str_tor_emp_lord_talabecland_first_2" text="女伯爵伊莉斯·克里格利茨·翁特恩"/>
+		<string id="str_tor_emp_lord_talabecland_first_3" text="伯爵 西奥多·冯·赫尔德"/>
+		<string id="str_tor_emp_lord_talabecland_first_4" text="元帅 曼弗雷德·舒尔茨"/>
+		<string id="str_tor_emp_lord_talabecland_first_5" text="指挥官 克里斯托夫·斯托迈尔"/>
+		<string id="str_tor_emp_lord_talabecland_first_6" text="指挥官 迪特里夫·基恩霍尔茨"/>
+		<string id="str_tor_emp_lord_talabecland_first_7" text="指挥官 约尔格·哈夫纳"/>
+		<string id="str_tor_emp_lord_talabecland_first_8" text="指挥官 卓尔格·施密特"/>
+		<string id="str_tor_emp_lord_talabecland_second_1" text="伯爵 约瑟夫·冯·贝林"/>
+		<string id="str_tor_emp_lord_talabecland_second_2" text="男爵 弗兰兹·里希特"/>
+		<string id="str_tor_emp_lord_talabecland_second_3" text="男爵 阿尔布雷希特·唐恩"/>
+		<string id="str_tor_emp_lord_talabecland_second_4" text="男爵 库尔特·布鲁克纳"/>
+		<string id="str_tor_emp_lord_talabecland_second_5" text="男爵 洛伦兹·德·伦德"/>
+		<string id="str_tor_emp_lord_talabecland_third_1" text="伯爵 曼弗雷德·冯·席拉赫"/>
+		<string id="str_tor_emp_lord_talabecland_third_2" text="男爵 瓦尔德马尔·冯·祖岑"/>
+		<string id="str_tor_emp_lord_talabecland_third_3" text="伯爵 戈特弗里德·冯·李比希"/>
+		<string id="str_tor_emp_lord_talabecland_third_4" text="男爵 勒贝雷希特·福禄贝尔"/>
+		<string id="str_tor_emp_lord_talabecland_third_5" text="伯爵 乌尔里希·冯·彪罗"/>
+		<string id="str_tor_emp_lord_talabecland_third_6" text="男爵 迪特·博伦"/>
+
+		<string id="str_tor_emp_lord_reikland_factionleader" text="皇帝 卡尔·弗兰兹·冯·霍尔斯维格·施利斯坦"/>
+		<string id="str_tor_emp_lord_reikland_first_2" text="大元帅 库尔特·赫尔伯格"/>
+		<string id="str_tor_emp_lord_reikland_first_3" text="路德维希·施瓦兹海姆"/>
+		<string id="str_tor_emp_lord_reikland_first_4" text="侯爵夫人 伊莎贝拉·冯·霍尔斯维格·施利斯坦"/>
+		<string id="str_tor_emp_lord_reikland_first_5" text="女皇 玛丽亚·路易丝·冯·沃尔芬"/>
+		<string id="str_tor_emp_lord_reikland_first_6" text="国务大臣 伊曼纽尔·费朗·冯·霍尔斯维格·施利斯坦"/>
+		<string id="str_tor_emp_lord_reikland_first_7" text="侯爵 埃德勒布拉特·冯·阿本瑙尔"/>
+		<string id="str_tor_emp_lord_reikland_first_8" text="大魔导师 泰勒斯·戈曼"/>
+		<string id="str_tor_emp_lord_reikland_second_1" text="伯爵 费迪南德·冯·华伦斯坦"/>
+		<string id="str_tor_emp_lord_reikland_second_2" text="领主 阿德尔伯特·冯·华伦斯坦"/>
+		<string id="str_tor_emp_lord_reikland_second_3" text="女男爵 马格里特·冯·维特根斯坦"/>
+		<string id="str_tor_emp_lord_reikland_second_4" text="伯爵 海因里希·冯·法尔肯海恩"/>
+		<string id="str_tor_emp_lord_reikland_second_5" text="伯爵 西吉斯蒙德·冯·荣弗洛伊德"/>
+		<string id="str_tor_emp_lord_reikland_third_1" text="侯爵 莱因哈特·冯·马肯森"/>
+		<string id="str_tor_emp_lord_reikland_third_2" text="伯爵 伯恩哈德·洛伊茨"/>
+		<string id="str_tor_emp_lord_reikland_third_3" text="伯爵 罗伯特·冯·乌兰德"/>
+		<string id="str_tor_emp_lord_reikland_fourth_1" text="伯爵 威廉一世·冯·萨波纳特海姆"/>
+		<string id="str_tor_emp_lord_reikland_fourth_2" text="乌利 ‘小个子’ 格鲁伯"/>
+		<string id="str_tor_emp_lord_reikland_fourth_3" text="小伯爵 威廉二世·冯·萨波纳特海姆"/>
+
+		<string id="str_tor_emp_lord_middenland_factionleader" text="选帝侯 鲍里斯·托德布林格"/>
+		<string id="str_tor_emp_lord_middenland_first_2" text="海因里希·托德布林格"/>
+		<string id="str_tor_emp_lord_middenland_first_3" text="伯爵 迈克尔·伊梅尔沙伊德"/>
+		<string id="str_tor_emp_lord_middenland_first_4" text="埃尔斯特·斯特恩豪尔"/>
+		<string id="str_tor_emp_lord_middenland_first_5" text="阿克塞尔·魏斯伯格"/>
+		<string id="str_tor_emp_lord_middenland_first_6" text="男爵 海因里希·冯托尔里希·赫尔姆"/>
+		<string id="str_tor_emp_lord_middenland_first_7" text="阿尔乌里克·埃米尔·瓦尔盖尔"/>
+		<string id="str_tor_emp_lord_middenland_first_8" text="沃恩·图根海姆"/>
+		<string id="str_tor_emp_lord_middenland_second_1" text="利奥波德·冯·比尔德霍芬"/>
+		<string id="str_tor_emp_lord_middenland_second_2" text="西格弗里德·冯·比尔德霍芬男爵"/>
+		<string id="str_tor_emp_lord_middenland_second_3" text="乌多·冯·比尔德霍芬"/>
+		<string id="str_tor_emp_lord_middenland_second_4" text="奥托·冯·阿姆斯多夫"/>
+		<string id="str_tor_emp_lord_middenland_second_5" text="埃米尔·冯·科策布"/>
+		<string id="str_tor_emp_lord_middenland_third_1" text="骑士团长 雷因·沃尔哈德"/>
+		<string id="str_tor_emp_lord_middenland_third_2" text="狼祭司 海姆达尔"/>
+		<string id="str_tor_emp_lord_middenland_third_3" text="猎人元帅 赫尔穆特·卢茨"/>
+		<string id="str_tor_emp_lord_middenland_third_4" text="维尔纳·布鲁特巴特"/>
+		<string id="str_tor_emp_lord_middenland_third_5" text="弗朗茨斯卡·斯图尔姆"/>
+		<string id="str_tor_emp_lord_middenland_third_6" text="男爵 汉斯·霍尔茨贝克"/>
+		<string id="str_tor_emp_lord_middenland_third_7" text="哈拉尔德·贝尔"/>
+
+		<string id="str_tor_emp_lord_ostermark_factionleader" text="选帝侯 沃尔弗拉姆·赫特维希"/>
+		<string id="str_tor_emp_lord_ostermark_first_2" text="亲王 马特乌斯·赫特维希"/>
+		<string id="str_tor_emp_lord_ostermark_first_3" text="伯爵 埃德蒙·冯·布吕歇尔"/>
+		<string id="str_tor_emp_lord_ostermark_first_4" text="侯爵 康拉德·龙根"/>
+		<string id="str_tor_emp_lord_ostermark_first_5" text="侯爵 理查德·多尼尔"/>
+		<string id="str_tor_emp_lord_ostermark_first_6" text="侯爵 奥斯瓦尔德·克拉纳赫"/>
+		<string id="str_tor_emp_lord_ostermark_first_7" text="爵士 弗朗茨·冯·卡尔滕布隆"/>
+		<string id="str_tor_emp_lord_ostermark_first_8" text="将军 安德烈·艾斯劳费尔"/>
+		<string id="str_tor_emp_lord_ostermark_first_9" text="亨罗特·布茨曼"/>
+		<string id="str_tor_emp_lord_ostermark_first_10" text="猎人将军 约翰·松普弗内贝尔"/>
+		<string id="str_tor_emp_lord_ostermark_second_1" text="男爵 斯特凡·胡塞尔"/>
+		<string id="str_tor_emp_lord_ostermark_second_2" text="伯爵 赫尔穆特·格伦茨曼"/>
+		<string id="str_tor_emp_lord_ostermark_second_3" text="伯爵 海因里希·霍赫施泰因"/>
+		<string id="str_tor_emp_lord_ostermark_second_4" text="伯爵 沃尔布雷希特·德尔·梅赫尔"/>
+		<string id="str_tor_emp_lord_ostermark_second_5" text="伯爵 卡罗尔·斯坦伯格曼"/>
+		<string id="str_tor_emp_lord_ostermark_second_6" text="伯爵 恩格尔布雷希特·赫尔策恩施皮尔"/>
+		<string id="str_tor_emp_lord_ostermark_third_1" text="侯爵 赫尔曼·马赫"/>
+		<string id="str_tor_emp_lord_ostermark_third_2" text="侯爵 尤尔根·德尔·斯拉格"/>
+		<string id="str_tor_emp_lord_ostermark_third_3" text="侯爵 哥特霍尔德·舒尔茨"/>
+		<string id="str_tor_emp_lord_ostermark_third_4" text="伯爵 桑德·西尔本施韦尔特"/>
+		<string id="str_tor_emp_lord_ostermark_third_5" text="加布里埃尔·冯·赖因"/>
+
+		<string id="str_tor_emp_lord_hochland_factionleader" text="选帝侯 艾德布兰德·冯·鲁登霍夫"/>
+		<string id="str_tor_emp_lord_hochland_first_2" text="康拉德·冯·卢登多夫"/>
+		<string id="str_tor_emp_lord_hochland_first_3" text="海因里希·冯·卢登多夫"/>
+		<string id="str_tor_emp_lord_hochland_first_4" text="安东·冯·鲁登霍夫"/>
+		<string id="str_tor_emp_lord_hochland_first_5" text="延斯·冯·鲁登霍夫"/>
+		<string id="str_tor_emp_lord_hochland_first_6" text="赫尔曼·布吕滕贝格"/>
+		<string id="str_tor_emp_lord_hochland_second_1" text="路德维希·冯·哈尔贝瓦尔德"/>
+		<string id="str_tor_emp_lord_hochland_second_2" text="贝恩德·冯·哈尔贝瓦尔德"/>
+		<string id="str_tor_emp_lord_hochland_second_3" text="霍斯特·特劳滕费尔斯"/>
+		<string id="str_tor_emp_lord_hochland_second_4" text="猎人元帅 库尔特·费尔哈德"/>
+		<string id="str_tor_emp_lord_hochland_second_5" text="玛格丽特·海尔弗罗"/>
+		<string id="str_tor_emp_lord_hochland_third_1" text="马丁·冯·霍亨施泰因"/>
+		<string id="str_tor_emp_lord_hochland_third_2" text="赫尔加·冯·霍亨施泰因"/>
+		<string id="str_tor_emp_lord_hochland_third_3" text="维尔纳·特罗斯"/>
+		<string id="str_tor_emp_lord_hochland_third_4" text="狼祭司君特"/>
+		<string id="str_tor_emp_lord_hochland_third_5" text="骑士团长 汉斯·赫尔米奇"/>
+
+		<string id="str_tor_emp_lord_nordland_factionleader" text="选帝侯 提奥多里克·高瑟"/>
+		<string id="str_tor_emp_lord_nordland_first_2" text="古斯塔夫·冯·卡尔滕多夫"/>
+		<string id="str_tor_emp_lord_nordland_first_3" text="勋爵 奥斯特温·高瑟"/>
+		<string id="str_tor_emp_lord_nordland_first_4" text="霍斯特·策克尔"/>
+		<string id="str_tor_emp_lord_nordland_first_5" text="罗吉尔·豪普特曼"/>
+		<string id="str_tor_emp_lord_nordland_first_6" text="格里姆瓦尔德·布劳库格尔"/>
+		<string id="str_tor_emp_lord_nordland_second_1" text="男爵 路德尔夫·“年轻人”·科勒"/>
+		<string id="str_tor_emp_lord_nordland_second_2" text="男爵 居特尔·冯·哈尔根费尔斯"/>
+		<string id="str_tor_emp_lord_nordland_second_3" text="男爵 埃瓦尔德·冯·劳埃"/>
+		<string id="str_tor_emp_lord_nordland_second_4" text="哈维尔·科勒"/>
+		<string id="str_tor_emp_lord_nordland_second_5" text="长老 路德尔夫·科勒"/>
+		<string id="str_tor_emp_lord_nordland_second_6" text="达里乌斯·德尔·施皮尔"/>
+		<string id="str_tor_emp_lord_nordland_third_1" text="男爵 奥特马尔·冯·诺伊拉特"/>
+		<string id="str_tor_emp_lord_nordland_third_2" text="赫尔穆特·阿登纳"/>
+		<string id="str_tor_emp_lord_nordland_third_3" text="男爵 尤斯图斯·维蒂希"/>
+		<string id="str_tor_emp_lord_nordland_third_4" text="杰拉尔德·弗卢赫特雷格"/>
+		<string id="str_tor_emp_lord_nordland_third_5" text="大诵经师 奥托·冯·莱登沙夫特"/>
+		<string id="str_tor_emp_lord_nordland_third_6" text="阿尔伯特·海因"/>
+
+		<string id="str_tor_emp_lord_ostland_factionleader" text="选帝侯 沃米尔·冯·劳科夫"/>
+		<string id="str_tor_emp_lord_ostland_first_2" text="亲王 瓦西里·冯·劳科夫"/>
+		<string id="str_tor_emp_lord_ostland_first_3" text="元帅 奥列格·冯·劳科夫"/>
+		<string id="str_tor_emp_lord_ostland_first_4" text="骑士团长 利奥波德·冯·劳科夫"/>
+		<string id="str_tor_emp_lord_ostland_first_5" text="司祭 克劳雷达特"/>
+		<string id="str_tor_emp_lord_ostland_first_6" text="女男爵 吉赛拉·冯·泽克特"/>
+		<string id="str_tor_emp_lord_ostland_second_1" text="元帅 加里德·冯·斯特鲁特"/>
+		<string id="str_tor_emp_lord_ostland_second_2" text="男爵 马康德·贝克伯格"/>
+		<string id="str_tor_emp_lord_ostland_second_3" text="侯爵 格奥尔格·冯·德布赖纳"/>
+		<string id="str_tor_emp_lord_ostland_second_4" text="伯爵 奥托·冯·厄贝尔施泰因"/>
+		<string id="str_tor_emp_lord_ostland_third_1" text="男爵 古斯塔夫·冯·沃尔德"/>
+		<string id="str_tor_emp_lord_ostland_third_2" text="帝国元帅 赫罗菲尔·哈夫丹"/>
+		<string id="str_tor_emp_lord_ostland_third_3" text="男爵 阿洛伊斯·奥特贝恩"/>
+		<string id="str_tor_emp_lord_ostland_third_4" text="火炮大师 君特·特伦德尔科普夫"/>
+		<string id="str_tor_emp_lord_ostland_third_5" text="骑士团长 阿尔德雷德·特莱茨绍尔"/>
+		<string id="str_tor_emp_lord_ostland_fourth_1" text="男爵 普莱斯凯·冯·华伦斯坦"/>
+		<string id="str_tor_emp_lord_ostland_fourth_2" text="男爵 克莱门斯·高斯"/>
+		<string id="str_tor_emp_lord_ostland_fourth_3" text="女侯爵 安娜·梅耶-施纳贝尔"/>
+
+		<string id="str_tor_emp_lord_wasteland_factionleader" text="市长 路易特波德·冯·拉斯默斯维克"/>
+		<string id="str_tor_emp_lord_wasteland_first_2" text="将军 安德烈·范·哈林"/>
+		<string id="str_tor_emp_lord_wasteland_first_3" text="帝国队长 雅各波·达雷佐"/>
+		<string id="str_tor_emp_lord_wasteland_first_4" text="总督 路德维希·德贝克"/>
+		<string id="str_tor_emp_lord_wasteland_first_5" text="指挥官 奥古斯廷·兹万"/>
+		<string id="str_tor_emp_lord_wasteland_first_6" text="帝国队长 托马斯·布尔斯博姆"/>
+		<string id="str_tor_emp_lord_wasteland_first_7" text="指挥官 本尼迪克特·奥普滕奥尔特"/>
+		<string id="str_tor_emp_lord_wasteland_second_1" text="大祭司 沃特·贝尔考特"/>
+		<string id="str_tor_emp_lord_wasteland_second_2" text="骑士团长 迪特里希·奥格"/>
+		<string id="str_tor_emp_lord_wasteland_second_3" text="骑士指挥官 凯尔兰·斯凯林斯"/>
+		<string id="str_tor_emp_lord_wasteland_third_1" text="勋爵 埃格蒙德·登·欧韦"/>
+		<string id="str_tor_emp_lord_wasteland_third_2" text="男爵 马提努斯·范·布伦"/>
+		<string id="str_tor_emp_lord_wasteland_third_3" text="指挥官 埃格贝特·胡伊伯斯"/>
+		<string id="str_tor_emp_lord_wasteland_third_4" text="帝国队长 拉乌尔·德拉拉克"/>
+		<string id="str_tor_emp_lord_wasteland_fourth_1" text="军队统帅 克里斯皮恩·范·哈根"/>
+		<string id="str_tor_emp_lord_wasteland_fourth_2" text="帝国队长 埃德瓦尔德·范·德·克拉尔"/>
+		<string id="str_tor_emp_lord_wasteland_fourth_3" text="帝国队长 斯特凡·扬森松"/>
+
+		<string id="str_tor_vc_lord_sylvania_factionleader" text="曼弗雷德·冯·卡斯坦因"/>
+		<string id="str_tor_vc_lord_sylvania_first_2" text="安纳克·冯·卡斯坦因"/>
+		<string id="str_tor_vc_lord_sylvania_first_3" text="迪特里希·冯·多尔"/>
+		<string id="str_tor_vc_lord_sylvania_first_4" text="埃曼纽尔·冯·塔兰霍夫"/>
+		<string id="str_tor_vc_lord_sylvania_first_5" text="埃莉策·冯·卡斯坦因"/>
+		<string id="str_tor_vc_lord_sylvania_first_6" text="埃里坎·克罗芬德"/>
+		<string id="str_tor_vc_lord_sylvania_first_7" text="马科斯·冯·卡斯坦因"/>
+		<string id="str_tor_vc_lord_sylvania_first_8" text="阿多尔弗斯·克里格"/>
+		<string id="str_tor_vc_lord_sylvania_first_9" text="加布里埃拉·冯·本德巴德"/>
+		<string id="str_tor_vc_lord_sylvania_second_1" text="“鲨鱼” 约翰·冯·卡斯坦因"/>
+		<string id="str_tor_vc_lord_sylvania_second_2" text="维克特罗斯·冯·克里格"/>
+		<string id="str_tor_vc_lord_sylvania_second_3" text="哈尔·阿克·伊玛尼"/>
+		<string id="str_tor_vc_lord_sylvania_second_4" text="穆尔格尔·冯·里加克"/>
+		<string id="str_tor_vc_lord_sylvania_second_5" text="鲁道夫·布雷希特"/>
+		<string id="str_tor_vc_lord_sylvania_third_1" text="男爵 德雷克·冯·比特"/>
+		<string id="str_tor_vc_lord_sylvania_third_2" text="约纳斯·伯塞拉格"/>
+		<string id="str_tor_vc_lord_sylvania_third_3" text="“疯子” 鲁文"/>
+		<string id="str_tor_vc_lord_sylvania_third_4" text="里昂·荷尔斯切尔"/>
+		<string id="str_tor_vc_lord_sylvania_third_5" text="皮特·冯·舒尔霍夫"/>
+		<string id="str_tor_vc_lord_sylvania_fourth_1" text="戈尔吉维希·克拉克瓦尔德"/>
+		<string id="str_tor_vc_lord_sylvania_fourth_2" text="爵士 提比略·凯尔"/>
+		<string id="str_tor_vc_lord_sylvania_fourth_3" text="拉贝·冯·斯塔尔"/>
+		<string id="str_tor_vc_lord_sylvania_fourth_4" text="弗里希·冯·哈斯"/>
+
+		<string id="str_tor_vc_lord_blooddragons_factionleader" text="瓦拉齐·哈肯"/>
+		<string id="str_tor_vc_lord_blooddragons_first_2" text="德拉古"/>
+		<string id="str_tor_vc_lord_blooddragons_first_3" text="布拉索夫的德拉什洛哈夫"/>
+		<string id="str_tor_vc_lord_blooddragons_first_4" text="达契亚人达迪奥莱"/>
+		<string id="str_tor_vc_lord_blooddragons_first_5" text="科尔布斯"/>
+		<string id="str_tor_vc_lord_blooddragons_first_6" text="卡斯滕·盖斯特斯克朗克"/>
+
+		<string id="str_tor_vc_lord_necrarch_first_factionleader" text="“永生者” 扎卡里亚斯"/>
+		<string id="str_tor_vc_lord_necrarch_first_2" text="迪特尔·赫尔斯尼希特"/>
+		<string id="str_tor_vc_lord_necrarch_first_3" text="汉斯·格雷贝"/>
+		<string id="str_tor_vc_lord_necrarch_first_4" text="拉文娜·阿尔特施图尔"/>
+		<string id="str_tor_vc_lord_necrarch_first_5" text="阿尔弗雷德·格拉布罗伊伯"/>
+		<string id="str_tor_vc_lord_necrarch_second_1" text="登托马兹"/>
+		<string id="str_tor_vc_lord_necrarch_second_2" text="努梅尔西本"/>
+		<string id="str_tor_vc_lord_necrarch_second_3" text="格特鲁达·纳格尔科普夫"/>
+
+		<string id="str_tor_br_lord_parravon_factionleader" text="公爵 卡西翁·德·帕拉翁"/>
+		<string id="str_tor_br_lord_parravon_first_2" text="爵士 菲利普·安托万"/>
+		<string id="str_tor_br_lord_parravon_first_3" text="爵士 奥尔德里克·勒·多雷"/>
+		<string id="str_tor_br_lord_parravon_first_4" text="爵士 高缇耶·蒙斯特雷-弗洛"/>
+		<string id="str_tor_br_lord_parravon_first_5" text="爵士 奥德里克·德·帕拉翁"/>
+		<string id="str_tor_br_lord_parravon_first_6" text="爵士 卢卡斯·德·拉·麦松塔"/>
+		<string id="str_tor_br_lord_parravon_first_7" text="爵士 皮埃尔·勒·费尔"/>
+
+		<string id="str_tor_br_lord_montfort_factionleader" text="福尔卡德·德·蒙特福特"/>
+		<string id="str_tor_br_lord_montfort_first_2" text="爵士 阿洛伊·德·拉·蒙塔涅"/>
+		<string id="str_tor_br_lord_montfort_first_3" text="爵士 埃利安·勒·布朗"/>
+		<string id="str_tor_br_lord_montfort_first_4" text="爵士 乌尔班·博福特"/>
+		<string id="str_tor_br_lord_montfort_first_5" text="爵士 塞德里克·德·拉·蒙塔涅"/>
+		<string id="str_tor_br_lord_montfort_first_6" text="爵士 居伊·德·勒尔布"/>
+		<string id="str_tor_br_lord_montfort_first_7" text="爵士 埃尔·勒·普"/>
+
+		<string id="str_tor_br_lord_bastonne_factionleader" text="“野兽杀手” 博希蒙"/>
+		<string id="str_tor_br_lord_bastonne_first_2" text="“美人” 雅斯佩尔"/>
+		<string id="str_tor_br_lord_bastonne_first_3" text="卢卡·卢普"/>
+		<string id="str_tor_br_lord_bastonne_first_4" text="克里斯特福·杜托伊特"/>
+		<string id="str_tor_br_lord_bastonne_first_5" text="“猎鹰” 高文"/>
+		<string id="str_tor_br_lord_bastonne_first_6" text="爵士 “蜘蛛杀手” 埃德温"/>
+		<string id="str_tor_br_lord_bastonne_first_7" text="布鲁塞的西蒙"/>
+		<string id="str_tor_br_lord_bastonne_second_1" text="加拉蒙的卡拉尔"/>
+		<string id="str_tor_br_lord_bastonne_second_2" text="加拉蒙的阿娜拉女士"/>
+
+		<string id="str_tor_br_lord_bordeleaux_factionleader" text="公爵 艾博里克·德·波尔德罗"/>
+		<string id="str_tor_br_lord_bordeleaux_first_2" text="爵士 吉弗罗伊·拉尼耶"/>
+		<string id="str_tor_br_lord_bordeleaux_first_3" text="爵士 邦普尔·拉巴特"/>
+		<string id="str_tor_br_lord_bordeleaux_first_4" text="爵士 吉弗洛伊·伊皮埃希厄"/>
+		<string id="str_tor_br_lord_bordeleaux_first_5" text="爵士 雷索尔的甘德阿尔"/>
+		<string id="str_tor_br_lord_bordeleaux_first_6" text="爵士 福格埃林·德·维斯奥"/>
+		<string id="str_tor_br_lord_bordeleaux_first_7" text="爵士 皮格平·希米尔鲁德"/>
+
+		<string id="str_tor_br_lord_carcassonne_factionleader" text="公爵 卡尔卡松的休贝尔德"/>
+		<string id="str_tor_br_lord_carcassonne_first_2" text="男爵 阿伯拉尔·德·图林"/>
+		<string id="str_tor_br_lord_carcassonne_first_3" text="爵士 德·雷克"/>
+		<string id="str_tor_br_lord_carcassonne_first_4" text="爵士 吕西安·勒·洛克"/>
+		<string id="str_tor_br_lord_carcassonne_first_5" text="爵士 杰拉德·索瓦琼"/>
+		<string id="str_tor_br_lord_carcassonne_first_6" text="爵士 阿兰·伊弗隆"/>
+		<string id="str_tor_br_lord_carcassonne_first_7" text="爵士 菲尔贝·勒科雄"/>
+		<string id="str_tor_br_lord_carcassonne_second_1" text="爵士 阿马尔里克·德·高达伦"/>
+		<string id="str_tor_br_lord_carcassonne_second_2" text="女士 朱莉娅·德·图林"/>
+		<string id="str_tor_br_lord_carcassonne_second_3" text="女士 玛格丽特·德·图林"/>
+
+		<string id="str_tor_br_lord_brionne_factionleader" text="公爵 布理奥涅的提奥多里克"/>
+		<string id="str_tor_br_lord_brionne_first_2" text="加斯顿·勒皮桑"/>
+		<string id="str_tor_br_lord_brionne_first_3" text="“灰袍” 菲利普"/>
+		<string id="str_tor_br_lord_brionne_first_4" text="克劳德·拉·桑泰"/>
+		<string id="str_tor_br_lord_brionne_first_5" text="安托万·勒贝尔"/>
+		<string id="str_tor_br_lord_brionne_first_6" text="夏尔·德·阿拉里"/>
+		<string id="str_tor_br_lord_brionne_first_7" text="雅克·勒·尚特拉姆"/>
+
+		<string id="str_tor_br_lord_aquitaine_factionleader" text="公爵 阿奎坦的阿尔芒"/>
+		<string id="str_tor_br_lord_aquitaine_first_2" text="爵士 马库斯·勒布雷"/>
+		<string id="str_tor_br_lord_aquitaine_first_3" text="爵士 博德温二世"/>
+		<string id="str_tor_br_lord_aquitaine_first_4" text="爵士 亚伦·勒克鲁尔"/>
+		<string id="str_tor_br_lord_aquitaine_first_5" text="爵士 吉迪恩·勒马内杜瓦"/>
+		<string id="str_tor_br_lord_aquitaine_first_6" text="爵士 达律斯·热唐什"/>
+		<string id="str_tor_br_lord_aquitaine_first_7" text="爵士 加百列·勒皮厄"/>
+		<string id="str_tor_br_lord_aquitaine_first_8" text="爵士 雅克·勒马兰"/>
+
+		<string id="str_tor_br_lord_quenelles_factionleader" text="公爵 塔克雷德二世·德·奎那利斯"/>
+		<string id="str_tor_br_lord_quenelles_first_2" text="伯爵 雷诺"/>
+		<string id="str_tor_br_lord_quenelles_first_3" text="爵士 “长者” 潘特莱翁"/>
+		<string id="str_tor_br_lord_quenelles_first_4" text="奥斯特雷的厄尔-安泰尔姆"/>
+		<string id="str_tor_br_lord_quenelles_first_5" text="爵士 基恩的赫罗德贝特"/>
+		<string id="str_tor_br_lord_quenelles_first_6" text="爵士 “漫游者” 陶林"/>
+		<string id="str_tor_br_lord_quenelles_second_1" text="爵士 “马蒂尔德的爱人” 莱昂"/>
+		<string id="str_tor_br_lord_quenelles_second_2" text="女士 费伊的马蒂尔德"/>
+
+		<string id="str_tor_br_lord_couronne_factionleader" text="劳恩·列奥康沃尔"/>
+		<string id="str_tor_br_lord_couronne_first_2" text="菲利普·博代"/>
+		<string id="str_tor_br_lord_couronne_first_3" text="热昂·勒·弗雷隆"/>
+		<string id="str_tor_br_lord_couronne_first_4" text="吉耶·勒·拉萨热"/>
+		<string id="str_tor_br_lord_couronne_first_5" text="大总管 热拉尔"/>
+		<string id="str_tor_br_lord_couronne_first_6" text="米歇尔·拉·蒙塔涅"/>
+		<string id="str_tor_br_lord_couronne_first_7" text="伯爵 阿达尔贝尔·杜·马雷"/>
+		<string id="str_tor_br_lord_couronne_first_8" text="兰德温·德·库隆"/>
+		<string id="str_tor_br_lord_couronne_first_9" text="亚历山大·勒·格里"/>
+		<string id="str_tor_br_lord_couronne_second_1" text="男爵 库隆的法拉布斯"/>
+		<string id="str_tor_br_lord_couronne_second_2" text="贝特朗·勒·格朗德"/>
+		<string id="str_tor_br_lord_couronne_second_3" text="特里斯坦·德·拉·图尔"/>
+		<string id="str_tor_br_lord_couronne_third_1" text="罗兰·马里夏"/>
+		<string id="str_tor_br_lord_couronne_third_2" text="菲利普·达尔托"/>
+
+		<string id="str_tor_br_lord_anguille_factionleader" text="公爵 托贝尔·德·勒安谷"/>
+		<string id="str_tor_br_lord_anguille_first_2" text="内德雷德·德·勒安谷"/>
+		<string id="str_tor_br_lord_anguille_first_3" text="巴亚尔·吉拉尔"/>
+		<string id="str_tor_br_lord_anguille_first_4" text="阿尔贝·德罗"/>
+		<string id="str_tor_br_lord_anguille_second_1" text="戈德玛尔·菲茨戈德里克"/>
+		<string id="str_tor_br_lord_anguille_second_2" text="港口之主 埃里希特·冯·弗里森"/>
+		<string id="str_tor_br_lord_anguille_second_3" text="“老顽固” 奈杰尔"/>
+
+		<string id="str_tor_br_lord_lyonesse_factionleader" text="公爵 阿达尔哈德·德·里昂尼斯"/>
+		<string id="str_tor_br_lord_lyonesse_first_2" text="阿尔德拉德"/>
+		<string id="str_tor_br_lord_lyonesse_first_3" text="舒尔莱"/>
+		<string id="str_tor_br_lord_lyonesse_first_4" text="菲利普·博布伦"/>
+		<string id="str_tor_br_lord_lyonesse_first_5" text="红衣亨利"/>
+		<string id="str_tor_br_lord_lyonesse_first_6" text="罗兰元帅"/>
+		<string id="str_tor_br_lord_lyonesse_first_7" text="奥德里克"/>
+
+		<string id="str_tor_br_lord_artois_factionleader" text="公爵 希尔弗罗瓦·德·阿图瓦"/>
+		<string id="str_tor_br_lord_artois_first_2" text="伯爵 托比亚斯·拉雷"/>
+		<string id="str_tor_br_lord_artois_first_3" text="弗雷德蒙德·拉雷"/>
+		<string id="str_tor_br_lord_artois_first_4" text="男爵 克洛德加尔"/>
+		<string id="str_tor_br_lord_artois_first_5" text="爵士 马德雷冈"/>
+		<string id="str_tor_br_lord_artois_first_6" text="勋爵 “屠兽者” 鲁尔"/>
+		<string id="str_tor_br_lord_artois_first_7" text="勋爵 “伐木者” 吉斯卡尔"/>
+
+		<string id="str_tor_br_lord_gisoreux_factionleader" text="公爵 哈根·德·吉索尔"/>
+		<string id="str_tor_br_lord_gisoreux_first_2" text="侯爵 弗雷德里克·德弗勒夫"/>
+		<string id="str_tor_br_lord_gisoreux_first_3" text="贵族管家 克马尔"/>
+		<string id="str_tor_br_lord_gisoreux_first_4" text="伯爵 奥兰多·德·瓦希永"/>
+		<string id="str_tor_br_lord_gisoreux_first_5" text="爵士 “救赎者” 吕多夫"/>
+		<string id="str_tor_br_lord_gisoreux_first_6" text="爵士 “雄鹿” 洛塔尔"/>
+
+		<string id="str_tor_m_lord_mousillon_factionleader" text="穆席隆的毒蛇"/>
+		<string id="str_tor_m_lord_mousillon_first_1" text="领主 拉什德"/>
+		<string id="str_tor_m_lord_mousillon_first_2" text="妮科莱特夫人·德瓦斯芒"/>
+		<string id="str_tor_m_lord_mousillon_first_3" text="爵士 凯恩·贝当古"/>
+		<string id="str_tor_m_lord_mousillon_first_4" text="格列布·马克斯"/>
+		<string id="str_tor_m_lord_mousillon_first_5" text="爵士 黑玫瑰的加勒斯"/>
+		<string id="str_tor_m_lord_mousillon_first_6" text="爵士 “暗影” 阿格拉文"/>
+		<string id="str_tor_m_lord_mousillon_first_7" text="爵士 “恐惧者” 盖里"/>
+		<string id="str_tor_m_lord_mousillon_first_8" text="皮特尔·丰塞"/>
+		<string id="str_tor_m_lord_mousillon_first_9" text="黑公爵"/>
+		<string id="str_tor_m_lord_mousillon_second_1" text="勋爵 奥卡桑"/>
+		<string id="str_tor_m_lord_mousillon_second_2" text="爵士 尤斯塔什 “铁锈之刃”"/>
+		<string id="str_tor_m_lord_mousillon_second_3" text="爵士 穆席隆的杰弗雷拉"/>
+		<string id="str_tor_m_lord_mousillon_second_4" text="爵士 布加尔·德·比奥凯尔"/>
+
+		<string id="str_tor_we_lord_athel_loren_factionleader" text="“大胆者” 阿拉洛斯"/>
+		<string id="str_tor_we_lord_athel_loren_first_2" text="“漫游者” 斯卡洛克"/>
+		<string id="str_tor_we_lord_athel_loren_second_1" text="女领主 特瓦瑞尔"/>
+		<string id="str_tor_we_lord_athel_loren_second_2" text="女领主 德琳娜"/>
+		<string id="str_tor_we_lord_athel_loren_third_1" text="“钩刃” 赛奥兰"/>
+		<string id="str_tor_we_lord_athel_loren_third_2" text="“长矛” 内梅鲁"/>
+		<string id="str_tor_we_lord_athel_loren_fourth_1" text="“末日之星” 塔兰多"/>
+		<string id="str_tor_we_lord_athel_loren_fourth_2" text="领主 洛魁梅尔的贝尔迪亚斯"/>
+		<string id="str_tor_we_lord_athel_loren_fifth_1" text="领主 “黎明之矛” 阿玛德里"/>
+		<string id="str_tor_we_lord_athel_loren_fifth_2" text="领主 瑟拉林"/>
+		<string id="str_tor_we_lord_athel_loren_sixth_1" text="领主 埃罗斯的艾德瑞尔"/>
+		<string id="str_tor_we_lord_athel_loren_sixth_2" text="瓦拉里昂"/>
+		<string id="str_tor_we_lord_athel_loren_seventh_1" text="“夜鹰” 德瑞娅"/>
+		<string id="str_tor_we_lord_athel_loren_seventh_2" text="泽林"/>
+		<string id="str_tor_we_lord_athel_loren_eighth_1" text="假面女士海戈瑞"/>
+		<string id="str_tor_we_lord_athel_loren_eighth_2" text="“野性” 维切威瑟尔"/>
+		<string id="str_tor_we_lord_athel_loren_ninth_1" text="领主 阿瑞亚斯"/>
+		<string id="str_tor_we_lord_athel_loren_ninth_2" text="女领主 莫兰娜"/>
+		<string id="str_tor_we_lord_athel_loren_tenth_1" text="女领主 “帷幕分离者” 阿尔达"/>
+		<string id="str_tor_we_lord_athel_loren_tenth_2" text="“预言者” 奈斯"/>
+		<string id="str_tor_we_lord_athel_loren_eleventh_1" text="领主 戴斯"/>
+		<string id="str_tor_we_lord_athel_loren_eleventh_2" text="卡拉诺斯"/>
+		<string id="str_tor_we_lord_athel_loren_twelfth_1" text="领主 芬多尔"/>
+		<string id="str_tor_we_lord_athel_loren_twelfth_2" text="女领主 伊芙琳"/>
+		<string id="str_tor_we_lord_athel_loren_thirteenth_1" text="阿洛瀚"/>
+		<string id="str_tor_we_lord_athel_loren_thirteenth_2" text="奈丝特拉"/>
+
+		<string id="str_tor_eo_lord_laurelorn_factionleader" text="劳伦洛伦女王 玛瑞斯特"/>
+		<string id="str_tor_eo_lord_laurelorn_first_2" text="劳伦洛伦亲王 艾斯林"/>
+		<string id="str_tor_eo_lord_laurelorn_first_3" text="亚多"/>
+		<string id="str_tor_eo_lord_laurelorn_second_1" text="领主 云行家族的盖伦斯特拉"/>
+		<string id="str_tor_eo_lord_laurelorn_second_2" text="伊洛拉"/>
+		<string id="str_tor_eo_lord_laurelorn_second_3" text="加雷莱恩"/>
+		<string id="str_tor_eo_lord_laurelorn_third_1" text="常青林的风暴女巫 凯娅"/>
+		<string id="str_tor_eo_lord_laurelorn_third_2" text="勋爵 踏浪家族的阿顿"/>
+		<string id="str_tor_eo_lord_laurelorn_third_3" text="亲王 海生家族的菲尔森"/>
+		<string id="str_tor_eo_lord_laurelorn_third_4" text="灰领主 卡勒多家族的阿尔萨里昂"/>
+		<string id="str_tor_eo_lord_laurelorn_fourth_1" text="勋爵 艾尔温家族的林迪亚洛克"/>
+		<string id="str_tor_eo_lord_laurelorn_fourth_2" text="织法者 阿萨诺克"/>
+		<string id="str_tor_eo_lord_laurelorn_fourth_3" text="霍尔兰家族的伊雅娜女士"/>
+
+		<string id="str_tor_chaos_lord_factionleader" text="混沌领主 莫特金"/>
+
+		<string id="str_tor_chaos_lord_brasskeep_factionleader" text="“污舌” 皮乌西乌斯"/>
+		<string id="str_tor_chaos_lord_brasskeep_first_2" text="“狂暴者” 斯奎姆 "/>
+		<string id="str_tor_chaos_lord_brasskeep_first_3" text="“黏涎战盔”"/>
+		<string id="str_tor_chaos_lord_brasskeep_first_4" text="奥伯斯坦的马拉瑞斯"/>
+		<string id="str_tor_chaos_lord_brasskeep_first_5" text="“腐疫药师” 布勒博斯"/>
+		<string id="str_tor_chaos_lord_brasskeep_first_6" text="“污浊者” 沃洛特"/>
+
+		<string id="str_tor_de_lord_factionleader" text="“血痕” 德拉克索"/>
+
+		<string id="str_tor_chaos_lord_factionleader" text="混沌领主 莫特金"/>
+
+		<string id="str_tor_br_bergerac_leader" text="“盗贼” 伯特兰"/>
+		<string id="str_tor_br_bergerac_2" text="奎勒·格罗斯"/>
+		<string id="str_tor_br_bergerac_3" text="小雨果"/>
+
+		<string id="str_tor_br_wainfleet_leader" text="温弗利特的热吉"/>
+
+		<string id="str_tor_br_troubadour_leader" text="爵士 “吟游诗人” 特里斯坦"/>
+		<string id="str_tor_br_troubadour_2" text="“弄臣” 朱尔斯"/>
+
+		<string id="str_tor_dog_clan_hero_braganza" text="卢卡·布拉甘萨"/>
+		<string id="str_tor_dog_clan_hero_cursed" text="“被诅咒者” 里希特·克罗伊加尔"/>
+		<string id="str_tor_dog_clan_hero_leopard" text="莱奥波尔多·迪·卢奇"/>
+		<string id="str_tor_dog_clan_hero_voland" text="佛朗德"/>
+		<string id="str_tor_dog_clan_hero_miragliano" text="马克西米利安·达马克"/>
+		<string id="str_tor_dog_clan_hero_ricco" text="里科"/>
+		<string id="str_tor_dog_clan_hero_muktar" text="穆赫塔尔"/>
+
+	</strings>
+</base>

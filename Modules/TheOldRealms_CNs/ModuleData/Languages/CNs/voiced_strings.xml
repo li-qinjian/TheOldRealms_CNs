@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- CULTIST LINES -->
+  		<string id="ccultist_robbery" text="又一个傻瓜进入了我们的地界。要么交出你的黄金，要么失去你的生命！"/>
+
+		<!-- VAMPIRE LINES -->
+		<string id="v_first_meeting" text="你需要我做什么?"/>
+		<string id="v_annoyed_first_meeting" text="你是谁，竟敢接近我？说吧，我的耐心已经快耗尽了。"/>
+		<string id="v_fealty" text="我向您献上我的忠诚{STR_SALUTATION}"/>
+		<string id="v_whoislay" text="停下！你是谁？我想知道我要杀的是什么人。"/>
+		<string id="v_beensometime" text="这已经过了一段时间了{STR_SALUTATION}"/>
+		<string id="v_yourstocommand" text="我任你差遣。"/>
+		<string id="v_atyourservice" text="听候您的命令。我该如何为您效劳？"/>
+		<string id="v_unburied}" text="我定要让你曝尸荒野。{STR_SALUTATION}"/>
+		<string id="v_perish" text="随你怎么说，但你最终会迎接死亡。"/>
+		<string id="v_diejoinarmy" text="如果你今天死得好，你将在死后加入我的军队。"/>
+
+		<!-- ELF LINES -->
+		<string id="e_first_meeting" text="你面前的是一位受祝福之人，我却不知道你是谁。有话快说，否则滚出我的视线。"/>
+		<string id="e_first_meeting_renowned" text="猿人，你的成就实在微不足道，你想从艾索洛伦的儿女们手中得到些什么呢？"/>
+		<string id="e_first_meeting_kin" text="爱莎欢迎你的族人。"/>
+		<string id="e_met_before" text="你好，今天什么风把你吹到埃斯莱这里了？"/>
+		<string id="e_met_before_kin" text="爱莎欢迎你的族人。"/>
+		<string id="e_met_before_friendly" text="愿爱莎保佑你的朋友，有什么事吗？"/>
+		<string id="e_wary_1" text="请告诉我老妇人在我的路上诅咒了哪个可怜虫。"/>
+		<string id="e_wary_2" text="奥莱恩与艾瑞尔的子嗣欢迎你。快说吧，我现在很忙。"/>
+		<string id="e_wary_3" text="异邦人，你在浪费我的时间，但我会听的。说吧，快说。"/>
+		<string id="e_hostile_1" text="我还以为厄斯·哈依艾抓走了你呢，发生什么事了，朋友？"/>
+		<string id="e_hostile_2" text="莉莉丝要我听听你那恶毒的话语，否则我早就把你的舌头割下来了。"/>
+		<string id="e_under_command" text="愿爱莎保佑你的朋友，有什么事吗？"/>
+		<string id="e_attacking_1" text="库诺斯要我们今天去狩猎，看来我们已经找到了猎物。在你还能说点什么的时候说话！"/>
+		<string id="e_attacking_2" text="艾德雷泽将注视着今天的战斗。如果你渴求死亡，埃斯莱也将赠与死亡。"/>
+		<string id="e_attacking_3" text="凯恩马上就要把你拖进死亡的深渊了，这可真残酷，在你死之前你想说点什么？"/>
+		<string id="e_attacking_4" text="在我的复仇化作一份给德拉科拉甜美的邀约前，我会听听你要说什么蠢话。"/>
+		<string id="e_attacking_5" text="赞美德拉科拉！我最大的仇敌给我亲自送上门了！说说你的遗言，然后滚回你的军队里等着被宰吧！"/>
+		<string id="e_attacking_6" text="我的亲族在争论你适合做库诺斯的祭品还是安埃斯·莱玛的祭品。说话吧，我来决定你适合做哪个。"/>
+		<string id="e_defending_1" text="埃斯莱之敌啊，为我们各自的族人想想吧，先让我们谈谈。"/>
+		<string id="e_defending_2" text="莉莉斯希望我们看清人的本性，我祈祷你的本性是和平的。"/>
+
+  </strings>
+</base>

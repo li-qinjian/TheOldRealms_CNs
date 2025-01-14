@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- CharacterCreation -->
+  		<string id="tor_cc_finished_info_str" text="你已经准备好踏入战锤中古世界了！检查一下你的角色，如果有不对的地方就返回修改。"/>
+  		<string id="tor_cc_origin_summary_str" text="出生"/>
+  		<string id="tor_cc_growth_summary_str" text="经历"/>
+  		<string id="tor_cc_profession_summary_str" text="职业"/>
+  		<string id="4uKx1zWN" text="选择你的家庭背景"/>
+  		<string id="mMVMwNgp" text="青年时期"/>
+  		<string id="544R7nA7" text="初始职业"/>
+
+		<!-- Empire stage 1 -->
+		<string id="tor_cc_option1_label_str" text="帝国贵族"/>
+		<string id="tor_cc_option1_text_str" text="你的父母忠心耿耿地为豪特-安德森伯爵效力，虽然不是贵族，但他们却在选帝侯的宫廷中占有一席之地，因此你的童年是十分舒适的。"/>
+		<string id="tor_cc_option2_label_str" text="帝国军士"/>
+		<string id="tor_cc_option2_text_str" text="你父亲不仅服役出色而且活了很长时间获得了军士的头衔，成为一个曾和野兽人与强盗血战的老兵。"/>
+		<string id="tor_cc_option3_label_str" text="盗贼之家"/>
+		<string id="tor_cc_option3_text_str" text="不是所有帝国内的人都受到了拉诺德(盗窃与赌博之神)的庇佑，你的家庭很穷，靠机智和灵巧的双手勉强度日。从宽松的口袋里偷硬币塞到自己的口袋里。"/>
+		<string id="tor_cc_option4_label_str" text="平民百姓"/>
+		<string id="tor_cc_option4_text_str" text=""/>
+		<string id="tor_cc_option5_label_str" text="行商之家"/>
+		<string id="tor_cc_option5_text_str" text="酒是乌特巴德的血液，你的家族通过在斯提尔河上和整个帝国的贸易获利。你早期的生活就是不停地旅行。"/>
+
+		<!-- Empire stage 2 -->
+		<string id="tor_cc_option6_label_str" text="应征民兵"/>
+		<string id="tor_cc_option6_text_str" text="野兽人和土匪在帝国内部横行，而你的家族需要强壮的人，和民兵一起训练，你很快就获得了强壮的手臂和战斗的兴趣。"/>
+		<string id="tor_cc_option7_label_str" text="商人助手"/>
+		<string id="tor_cc_option7_text_str" text="注意到你在数字方面的天赋，一个路过你家的商人把你放在他的保护下，提出教你做生意，以换取你在他的日常工作中提供帮助。"/>
+		<string id="tor_cc_option8_label_str" text="铁匠学徒"/>
+		<string id="tor_cc_option8_text_str" text="帝国的冲突从未结束正如铁匠的工作，你选择将你的力量转化为一门手艺.在当地铁匠的指导下，你学会弯折金属。你造的第一把剑可能摇摇晃晃，但它仍然锋利！"/>
+		<string id="tor_cc_option9_label_str" text="西格玛信众"/>
+		<string id="tor_cc_option9_text_str" text="你在内心深处感受到一种召唤，一种为更伟大的事物服务的需要。穿上侍从的衣服，你的生活变成了不断的祈祷和学习，这样你才能更好地为西格玛服务。"/>
+		<string id="tor_cc_option10_label_str" text="工程师学生"/>
+		<string id="tor_cc_option10_text_str" text="努恩学院的故事一直是你最喜欢的，当一位正在寻找学徒的工程大师决定你是最佳人选时，拉诺德似乎祝福了你。"/>
+			
+		<!-- Empire stage 3 -->
+		<string id="tor_cc_option11_label_str" text="自由民兵连"/>
+		<string id="PQn9G9aC" text="“雇佣兵”职业"/>
+		<string id="tor_cc_option11_text_str" text="打斗和喝酒，生活中还需要什么？你手里拿着剑，带着你的无旗帜的同伴从一场战斗走到另一场战斗，赢得了你应得的一份伤痕。你愿意以合适的价格为任何一位君主服务。"/>
+
+		<string id="tor_cc_option12_label_str" text="见习魔导师"/>
+		<string id="G9yzvOeG" text="“帝国魔导师”职业"/>
+		<string id="tor_cc_option12_text_str" text="你在魔法之风方面的天赋为你在阿尔道夫魔法学院赢得了一席之地，随着时间的推移，你了解了身体适应魔法之风的本质，并学会了如何利用魔法力量。"/>
+
+		<string id="tor_cc_option13_label_str" text="司祭侍僧"/>
+		<string id="nGdTeb62" text="“牧师”职业"/>
+		<string id="tor_cc_option13_text_str" text="你将你的一生奉献给你的守护神，你寻求着符合你的信仰的正义之道。作为一名祭祀你要不断磨练自己，对抗邪恶，超自然生物，与可怖的怪物。"/>
+
+		<string id="tor_cc_option14_label_str" text="新手猎巫人"/>
+		<string id="c4iJGUzO" text="“猎巫人”职业"/>
+		<string id="tor_cc_option14_text_str" text="异端邪说是帝国善良人民的祸根，一种需要清除的腐朽。学习猎巫人的艺术，你已经准备好用火药和信仰面对各种邪恶的野兽和术士。"/>
+
+		<string id="tor_cc_option15_label_str" text="商人"/>
+		<string id="9hxJpDY6" text="“雇佣兵”职业"/>
+		<string id="tor_cc_option15_text_str" text="在帝国内部有很多交易的商品，你认为适合在众多商人中占有一席之地，用你省下的钱，你开始组建自己的商队，并为自己扬名。"/>
+
+		<!-- VC stage 1 -->
+		<string id="tor_cc_option16_label_str" text="流亡贵族"/>
+		<string id="tor_cc_option16_text_str" text="野心是许多人的陷阱，你的家人失去了选帝侯的恩典，被流放到希尔瓦尼亚，家境贫寒，你的家人被迫生活在农民中间。"/>
+		<string id="tor_cc_option17_label_str" text="史崔格尼旅者"/>
+		<string id="tor_cc_option17_text_str" text="你生于一个史崔格尼之家。外人可能会容许你的存在，但从没有人将你们接纳为他们的一员，你的童年就是跟着部族的商队，从一个城市走到另一个城市。"/>
+		<string id="tor_cc_option18_label_str" text="盗墓贼"/>
+		<string id="tor_cc_option18_text_str" text="希尔瓦尼亚有一些人为尸体付出了高昂的代价，这是你的家人选择的营生。在夜深人静的时候偷走被爱的逝者，然后把他们带到城堡或贵族领地，永远不要问为什么。"/>
+		<string id="tor_cc_option19_label_str" text="渔民"/>
+		<string id="tor_cc_option19_text_str" text="几代人以来，你的家人一直沿着斯提尔河捕鱼捉蛙以养活自己，这远非一种体面的生活，但这是一项诚实的工作，你的家人很满意。即使在你哥哥失踪之后……"/>
+		<string id="tor_cc_option20_label_str" text="无亲无故"/>
+		<string id="tor_cc_option20_text_str" text="你从来都不知道你的家人，尽管很多人都带着恐惧看着你，悄悄地窃窃私语，但你可以通过搜刮和从别人的残羹剩饭中挣扎生存。你经常不得不躲避夜间潜伏的生物。"/>
+
+		<!-- VC stage 2 -->
+		<string id="tor_cc_option21_label_str" text="贵族侍者"/>
+		<string id="tor_cc_option21_text_str" text="在冯·卡斯坦因的宫廷上任职让你深入了解了不死者的生活，贵族的复杂和政治教会了你很多东西。你的勤奋让你活得舒服。"/>
+		<string id="tor_cc_option22_label_str" text="死灵法师学徒"/>
+		<string id="tor_cc_option22_text_str" text="你的主人几乎毫无理智，他每天都致力于解剖卷轴和执行黑暗仪式。他痴迷于变得强大，但却无能为力，他试图利用你的能力来支持自己。"/>
+		<string id="tor_cc_option23_label_str" text="沼泽夫"/>
+		<string id="tor_cc_option23_text_str" text="从沼泽地里挖出臭气熏天的淤泥绝非易事。 但这样做确实能让你和你的村庄从仅有的几亩耕地中获得微薄的收成。"/>
+		<string id="tor_cc_option24_label_str" text="征召入伍"/>
+		<string id="tor_cc_option24_text_str" text="你被主人征召入伍，在战场上度过了青春。你与不死怪物和亡灵憎恶并肩作战，不知何故，你活了下来，并向他人讲述这个故事。"/>
+		<string id="tor_cc_option25_label_str" text="史崔格尼浪荡儿"/>
+		<string id="tor_cc_option25_text_str" text="你在营地外围寻找容易下手的人和年轻少女，利用你的诱惑和放荡不羁的态度，花时间做你的生意。"/>
+
+		<!-- VC stage 3 -->
+		<string id="tor_cc_option26_label_str" text="吸血鬼伯爵"/>
+		<string id="TQ8JY6q1" text="“吸血鬼”职业"/>
+		<string id="tor_cc_option26_text_str" text="终于，你的主人认识到了你的品质，把你从贫困中解救出来，并揭示了他的真实本性。在接受血吻后，你获得了重生，不朽，更加强大。获得在战斗后或墓地中复活死尸的能力，且在游戏开局后可以选择你的吸血鬼族系。"/>
+
+		<string id="tor_cc_option27_label_str" text="见习死灵法师"/>
+		<string id="4DbkqyUx" text="“死灵法师”职业"/>
+		<string id="tor_cc_option27_text_str" text="你摆脱了奴隶般的学徒角色，转而成为一位年长得多的亡灵巫师，在你离开时偷走了他的一本大部头魔法书。你现在可以自由地钻研黑暗传说并决定自己的命运。获得召唤骷髅法术和在战斗后或墓地复活死尸的能力。"/>
+
+		<string id="tor_cc_option28_label_str" text="守夜人"/>
+		<string id="tor_cc_option28_text_str" text="众所周知，希尔瓦尼亚的凡人会与他们主人的不死生物群并肩作战。永远不会遇到比这些省兵更阴沉、更迷信的人，但他们很少在激烈的战斗中崩溃。"/>
+
+		<string id="tor_cc_option29_label_str" text="史崔格尼占卜师"/>
+		<string id="tor_cc_option29_text_str" text="虽然影响力不及族长，但他们也是史崔格尼社会的重要成员，主要负责维护着家族的凝聚力，在与外人打交道时也是部族的代言人。虽然他们不是专业的战士，但长年带领商队穿越旧世界的经历使他们的实力不容小觑。"/>
+
+		<string id="tor_cc_option30_label_str" text="流浪者"/>
+		<string id="tor_cc_option30_text_str" text="希尔瓦尼亚的道路黑暗且危险，你捕食着为数不多的旅行者，用你的利刃囤积着仅有的一点财富。然而，你并不是潜伏在黑暗沼泽和森林中唯一的怪物，有时旅行者们已经一无所有。"/>
+
+		<!-- Bretonnia stage 1 -->
+		<string id="tor_cc_option31_label_str" text="巴托尼亚贵族"/>
+		<string id="tor_cc_option31_text_str" text="你的家族几乎可以追溯到开国者吉勒斯时代。从您的衣着打扮、言谈举止以及对农民的颐指气使中便可看出您的贵族身份。"/>
+		<string id="tor_cc_option32_label_str" text="巴托尼亚佃农"/>
+		<string id="tor_cc_option32_text_str" text="你的家族世世代代都在为您的领主耕种土地。你的父亲很久以前就不再试着去理解领主话语，只是向一直陪伴在他身边的男仆寻求命令，这通常伴随着巨大的体力劳动。"/>
+		<string id="tor_cc_option33_label_str" text="巴托尼亚水手"/>
+		<string id="tor_cc_option33_text_str" text="你的父亲是巴托尼亚海盗船上的一名水手。每当他回到渔村休整时，他会尽可能多地陪伴你的母亲、你和你的兄弟姐妹。他尽可能多地教给你们一些技能，比如打绳结、使用窥视镜以及如何根据夜空星象导航。"/>
+		<string id="tor_cc_option34_label_str" text="法外之徒"/>
+		<string id="tor_cc_option34_text_str" text="不知何故，你的家族违背了对领主的誓言，从此被打上了法外之徒的烙印。你的家族不断逃亡，生活在社会的边缘，只能靠在森林里偷猎来维持生计。"/>
+		<string id="tor_cc_option35_label_str" text="葡萄酒商人"/>
+		<string id="tor_cc_option35_text_str" text="您的家族是巴托尼亚极少数富裕农民中的一员，世世代代通过向帝国、埃斯塔利亚和提利尔出售许多巴托尼亚葡萄酒赚取财富。最近，您的领主允许您免于遵守《肃穆法》，使您可以穿上及膝的靴子。"/>
+
+		<!-- Bretonnia stage 2 -->
+		<string id="tor_cc_option36_label_str" text="巴托尼亚侍臣"/>
+		<string id="tor_cc_option36_text_str" text="多年来，你一直被培养成为最好的巴托尼亚贵族。这包括礼仪、骑术和骑士精神方面的课程。"/>
+		<string id="tor_cc_option37_label_str" text="武装步兵"/>
+		<string id="tor_cc_option37_text_str" text="你一成年便开始为你的领主效力。你接受的训练是坚守阵地，在战场上尽力生存。你能活到今天，说明一定学的还不赖。"/>
+		<string id="tor_cc_option38_label_str" text="通缉犯"/>
+		<string id="tor_cc_option38_text_str" text="你年少轻狂，触犯了巴托尼亚社会的众多法律之一。在别无选择的情况下，你被迫沦为社会的边缘人，永远躲避着当局的追捕。有一段时间，你只能靠偷猎和盗窃为生，但最终你的罪行得到了宽恕。"/>
+		<string id="tor_cc_option39_label_str" text="工匠学徒"/>
+		<string id="tor_cc_option39_text_str" text="你父亲帮你在当地的一个工匠那里当了学徒。在五年的时间里，你的师傅把他能教的一切都教给了你，让你掌握了普通农民永远学不到的技能。"/>
+		<string id="tor_cc_option40_label_str" text="牧羊人"/>
+		<string id="tor_cc_option40_text_str" text="你成为了一名牧羊人，看护着你的族群赖以生存的各种牲畜。你和你的伙伴们实际上扮演着双重角色，既要保护牲畜免受狼群和其他掠食者的侵害，又要在村子外围监视入侵者的踪迹。"/>
+
+		<!--  Bretonnia stage 3 -->
+		<string id="tor_cc_option41_label_str" text="侠义骑士"/>
+		<string id="LffRoqCm" text="“巴托尼亚骑士”职业"/>
+		<string id="tor_cc_option41_text_str" text="您选择踏上巴托尼亚的骑士之道。恪尽职守的骑士道是艰难的，许多敌人和战斗在等着你。但是，如果你有资格，在你的征程结束时，你将获得人类所知的最大祝福：从圣杯中啜饮一口。"/>
+
+		<string id="tor_cc_option42_label_str" text="圣杯侍女"/>
+		<string id="K5vwylgi" text="“圣杯之女”职业"/>
+		<string id="tor_cc_option42_text_str" text="在你还年少的时候，女先知拜访了你的家庭，并把你带走了。她发现了你的巨大潜力，于是你成了了她的学生。经过多年的训练，她认为你已经准备好出征，为湖神的意志服务。"/>
+
+		<string id="tor_cc_option43_label_str" text="侍从长官"/>
+		<string id="tor_cc_option43_text_str" text="向领主证明了自己的价值，领主便任命你为他的侍从。因此，你有时会被安排指挥其他农民，或者在出征时充当骑兵。"/>
+
+		<string id="tor_cc_option44_label_str" text="自由民"/>
+		<string id="tor_cc_option44_text_str" text="有了行动自由和自我完善的意识，你发现自己摆脱了直系领主的束缚，能够有所作为。如果你掌握了一些手艺，或者在贸易中运气好，你还可以让自己成为一个有资格享受免税待遇的农民。"/>
+
+		<string id="tor_cc_option45_label_str" text="护墙工"/>
+		<string id="tor_cc_option45_text_str" text="你当过一段时间城墙工程师的学徒。你帮助他评估损失，维护领主的城堡。你的师傅在一次攻城的行动中阵亡后，你就接替他成了护墙工。然而，在一次小小的失误之后，你的领主解除了对你的封建契约，招了更专业的人来取代你，并让你另寻出路。"/>
+
+		<!-- Mousillon stage 1 -->
+		<string id="tor_cc_option46_label_str" text="穆席隆贵族"/>
+		<string id="tor_cc_option46_text_str" text="你的父母是穆席隆所谓的”贵族“，如果可以这么称呼的话。这里的贵族主要由巴托尼亚的非法贵族、其他国家的流亡者、吸血鬼、木乃伊和其他各种怪物组成。他们固然处于穆席隆社会的顶端，可一旦走出这片凋敝的土地，他们和这里的其他人一样都会被他人瞧不起。"/>
+		<string id="tor_cc_option47_label_str" text="穆席隆侍从"/>
+		<string id="tor_cc_option47_text_str" text="你的父亲是这个受诅咒的公国中一位领主的管家。他的职位是为数不多的能确保你家人在大多数时候都有干爽住所和体面食物的人之一。他不出征时，会尽力教你一些战斗技巧。"/>
+		<string id="tor_cc_option48_label_str" text="沼泽走私者"/>
+		<string id="tor_cc_option48_text_str" text="碍于卫生防疫措施，进出穆席隆的贸易几乎是不可能的。尽管如此，您的家族还是熟练地通过城门和守卫走私货物。虽然以大多数人的标准来看您并不富裕，但在穆席隆这个地方，您无疑是含着银汤匙出生的。"/>
+		<string id="tor_cc_option49_label_str" text="沼泽夫和他的蛙妻"/>
+		<string id="tor_cc_option49_text_str" text="不知何故，你的家族违背了对领主的誓言，从此被打上了法外之徒的烙印。你的家族不断逃亡，生活在社会的边缘，只能靠在森林里偷猎来维持生计。"/>
+		<string id="tor_cc_option50_label_str" text="法外之徒"/>
+		<string id="tor_cc_option50_text_str" text="穆席隆最常见的职业之一，您的家族都是一群粗暴的人，他们用自己的力量和智慧来利用其他软弱和愚蠢的人。"/>
+		
+		<!-- Mousillon stage 2 -->
+		<string id="tor_cc_option51_label_str" text="穆席隆贵族"/>
+		<string id="tor_cc_option51_text_str" text="多年来，你一直被培养成为最好的穆席隆贵族。这包括礼仪、骑术和骑士精神方面的课程。"/>
+		<string id="tor_cc_option52_label_str" text="巫术学生"/>
+		<string id="tor_cc_option52_text_str" text="巫术和魔法在穆席隆盛行。你成了其中一位巫师的学生，从事酿酒和药剂工作，直到你取得信任，可以学习更多神秘的知识。"/>
+		<string id="tor_cc_option53_label_str" text="穆席隆武装步兵"/>
+		<string id="tor_cc_option53_text_str" text="你一成年便开始为你的领主效力。你接受的训练是坚守阵地，在战场上尽力生存。你能活到今天，说明一定学的还不赖。"/>
+		<string id="tor_cc_option54_label_str" text="沼泽夫"/>
+		<string id="tor_cc_option54_text_str" text="为了养家糊口，你经常在沼泽和沼泽地里捕捉青蛙和蜗牛。这是一项棘手的任务，需要一定的技巧和敏捷的手指，但蜗牛和青蛙是你的土地上为数不多的丰富资源之一。"/>
+		<string id="tor_cc_option55_label_str" text="强盗"/>
+		<string id="tor_cc_option55_text_str" text="你在公路边和渡口附近守候，以伏击路人并索要财物为生。这种生活并不容易，但你宁愿过自己的生活，也不愿过去当那些“贵族”的受害者。"/>
+
+		<!--  Mousillon stage 3 -->
+		<string id="tor_cc_option56_label_str" text="穆席隆游侠骑士"/>
+		<string id="bSExmjLi" text="“穆席隆骑士”职业"/>
+		<string id="tor_cc_option56_text_str" text="从来没有规定穆席隆就不能走巴托尼亚的骑士之路。至于这条路通向何方，永远取决于行者的意志与纯洁。"/>
+
+		<string id="tor_cc_option57_label_str" text="穆席隆吸血鬼"/>
+		<string id="Cjadgtdb" text="“穆席隆吸血鬼”职业"/>
+		<string id="tor_cc_option57_text_str" text="沼泽阻止了骑士团收复这个受诅咒的公国，因此许多奇怪的生物在穆席隆找到了一种庇护所，就连暗夜领主也不例外。"/>
+
+		<string id="tor_cc_option58_label_str" text="死灵法师"/>
+		<string id="tor_cc_option58_text_str" text="你是学习高等法术和黑暗法术的咒咏者。你理解魔法森林的本质，将会像法师女皇那样保护它。"/>
+
+		<string id="tor_cc_option59_label_str" text="越界走私者"/>
+		<string id="tor_cc_option59_text_str" text="只要是穆席隆的东西，在抵达旧世界的其他任何港口时都会被没收。次元石、奇怪的迷药、奴隶、赃物、海盗船，还有更多见不得光的东西。必须有人将这些物品送到他们安排好的买家手中，而这些买家几乎都在穆席隆以外的地方。这就意味着，需要有人将这些物品越过“安全警戒线”。"/>
+
+		<string id="tor_cc_option60_label_str" text="海寇"/>
+		<string id="tor_cc_option60_text_str" text="穆席隆浓雾弥漫的河头和沼泽海湾是不正当行业从业者的绝佳藏身之处。巴托尼亚的舰船是世界上最好的船只之一，经常满载着价值连城的货物。这些船只经常要在穆席隆沿海水域航行，这就为那些愿意”夺取“船只的人创造了许多机会。"/>
+
+		<!-- Asrai stage 1 -->
+		<string id="tor_cc_option_1_daith_label_str" text="戴斯的学徒"/>
+		<string id="tor_cc_option_1_daith_text_str" text="你被带到了埃斯莱大师铁匠戴斯的宗派之中。在他的指导下。你学习了锻治魔法武器与盔甲的奥秘。你唯一能与你的锻造能力相匹敌的特长就是战斗了。这一切都让你成为了望而生畏的战士和熟练的工匠。"/>
+		<string id="tor_cc_option_1_we_forest_label_str" text="森林的幸存者"/>
+		<string id="tor_cc_option_1_we_forest_text_str" text="数十年以来，在接触到其他的木精灵以前，你独自在森林里长大。尽管你适应埃斯莱社会适应的很慢，但你已经习得了如何与森林本身对话。"/>
+		<string id="tor_cc_option_1_we_mountain_label_str" text="森林冲突的老兵"/>
+		<string id="tor_cc_option_1_we_mountain_text_str" text="在围绕着艾索洛伦的灰色山脉里，你经历过无数与顽强矮人的遭遇战。这些严峻战斗的经历磨炼了你的技巧与坚忍，让你成为了一个比大多数人都要更坚韧的林地战士。"/>
+		<string id="tor_cc_option_1_we_noble_label_str" text="艾索洛伦小贵族"/>
+		<string id="tor_cc_option_1_we_noble_text_str" text="你出生在艾索洛伦小贵族的厅堂里，接受了苍翠之道下的良好教育与培训。你的高贵出身给予了你学习战斗和外交的最好导师。"/>
+		<string id="tor_option_1_we_guardian_anmyr_label_str" text="安米尔守卫"/>
+		<string id="tor_option_1_we_guardian_anmyr_text_str" text="安米尔，凋零之地，枯萎腐烂之国度，为魔古尔的污血所伤。结果野兽人战帮们如飞蛾扑火般涌向安米尔。你是响应安米尔召唤的木精灵之一，心怀热情，满怀责任感的武装起来抵抗野兽人。凋零地永不陷落！"/>
+
+		<!-- Asrai stage 2 -->
+		<string id="xkx38PhW" text="猎神，库诺斯"/>
+		<string id="MwCgULml" text="解锁邻帮符文"/>
+		<string id="AMahdkyX" text="库诺斯是狩猎之神，也是荒野之主。所有的精灵都崇拜他，他是伊莎的丈夫，也是他们种族的父神，但没有比木精灵更崇拜他了，木精灵相信只有他们才能活在库诺斯所认可的世界里。"/>
+		
+		<string id="YG4DANtO" text="精灵之母，伊莎"/>
+		<string id="4ymBFoeJ" text="解锁树精符文"/>
+		<string id="UqDE4p3f" text="伊莎是生育女神，自然的保护者，精灵种族的母亲。旧世界的木精灵崇拜她，认为她是他们的主神之一，其他精灵也向她祈祷，希望她能帮助耕种，在分娩时得到保护，或者在野外时得到帮助。她与猎神库诺斯结婚，并生下了莉莉丝。"/>
+
+		<string id="tor_cc_option_2_we_loec_label_str" text="洛依克，影舞者"/>
+		<string id="BzAhMJ79" text="解锁战舞者符文"/>
+		<string id="tor_cc_option_2_we_loec_text_str" text="欢笑欺诈和音乐之神也是埃斯莱战舞者的保护者。洛依克是十分神秘的神灵，而那些侍奉他的人保守着祭祀他的秘仪。谎言之神的追随者以表演精妙复杂的舞蹈来重述艾索洛伦的历史而闻名。洛依克也有黯影，隐形和复仇之神的更阴暗一面。"/>
+
+		<string id="tor_cc_option_2_we_vaul_label_str" text="瓦尔，工匠之神"/>
+		<string id="QJHExurl" text="解锁邻帮符"/>
+		<string id="tor_cc_option_2_we_vaul_text_str" text="精灵的铁匠，工匠和手艺人之神。瓦尔在远古的神战中为凯恩所伤变得既瘸又盲。但这并不能阻止顽强的铁匠神日以继夜的劳作，不断地为他的亲族谋福利。许多曾被挥舞过的伟大古代兵器都来自瓦尔的熔炉。包括那恐怖的寡妇制造机——凯恩之剑。"/>
+
+		<string id="tor_cc_option_2_we_anath_raema_label_str" text="安埃斯·莱玛，狂猎之神"/>
+		<string id="tor_cc_option_2_we_anath_raema_text_str" text="安埃斯·莱玛，凯恩的姊妹。她是库诺斯的阴暗面，是一个只对让低等造物流留血感兴趣的狂野猎人。尽管她在艾索洛伦被公开唾弃但还是有一些木精灵王国在寻求她的庇护，并且将他们的杀戮献祭给狂猎的埃斯莱多的超乎想象。安埃斯·莱玛对她的追随者唯一认可的祈祷就是猎物的死去，大到龙小到老鼠，这些都能取悦她。"/>
+
+		<!--  Asrai stage 3 -->
+		<string id="tor_cc_option_3_we_wardancer_label_str" text="战舞者之道"/>
+		<string id="tor_cc_option_3_we_wardancer_text_str" text="你是舞蹈在洛依克之道上的战士。作为战舞者，你在战斗中的迅捷和优雅是无可比拟的。你精准而又流畅的移动着，将战斗化作致命的舞蹈。"/>
+
+		<string id="tor_cc_option_3_we_waywatcher_label_str" text="巡林客之道"/>
+		<string id="JDWSVbL2" text="“巡林客”职业"/>
+		<string id="tor_cc_option_3_we_waywatcher_text_str" text="你是一名经验老道的侦察兵，保护并守望着安全的森林。你的实力无与伦比，身心与弓合二为一。"/>
+
+		<string id="Pa6PK29v" text="咒咏者之道"/>
+		<string id="NQAy2Rx2" text="“咒咏者”职业"/>
+		<string id="4cd3QiIt" text="你是一名咒咏者，将研习高等或黑暗魔法。你将了解这片魔法森林的本质，并像法师女王本人一样保护它。"/>
+
+		<string id="gRC4edec" text="林地骑手之道"/>
+		<string id="8qjHOLhM" text="阿斯莱与他们的坐骑和谐相处，这独一无二。你在早年就决心要与你的马融为一体。"/>
+
+		<string id="tor_cc_option_3_we_wildwood_label_str" text="守望者之道"/>
+		<string id="pYktMCGa" text="你是一名经验老道的侦察兵，保护并守望着安全的森林。你的实力无与伦比，身心与弓合二为一。"/>
+
+		<!-- Eonir stage 1 -->
+		<string id="tor_cc_option_1_eo_toriour_label_str" text="城邦亲族"/>
+		<string id="tor_cc_option_1_eo_toriour_text_str" text="作为一个城里人，你过去的大多数时间都在塔尔·利塔内尔度过。在你离开你的亲族之前，你在那里习得了长久保存下来的传统和技艺。"/>
+		<string id="tor_cc_option_1_eo_faniour_label_str" text="林地亲族"/>
+		<string id="tor_cc_option_1_eo_faniour_text_str" text="你的家族从长须之战中幸存下来，逃去了劳伦洛伦森林中幸存精灵最后的堡垒。作为林地亲族，你的青春年华大多数时间都是在劳伦洛伦森林的监护下度过的。"/>
+		<string id="tor_cc_option_1_eo_harioth_label_str" text="新血亲族"/>
+		<string id="tor_cc_option_1_eo_harioth_text_str" text="你的家族在最近的一千年里来到了劳伦洛伦森林？你作为第二代移民勉强通过了接纳仪式。你的青春岁月大多数时间都在艾尼尔边境的山洞和临时搭建的避难所里度过。"/>
+		<string id="tor_cc_option_1_eo_diplomat_label_str" text="阿苏尔外交官亲族"/>
+		<string id="tor_cc_option_1_eo_diplomat_text_str" text="你来自一个至今都在奥苏安和艾尼尔之中都有崇高声望的家族。来自遥远的阿苏尔之地的外交官在每日例会上，每听到你的名字都会侧耳倾听。"/>
+		<string id="tor_cc_option_1_eo_druchii_foundling_label_str" text="杜鲁奇弃儿"/>
+		<string id="tor_option_1_eo_druchii_foundling_text_str" text="阿苏尔的海卫攻击了一艘杜鲁奇贩奴船。尽管所有的船员都死去了，他们还是找到了一个杜鲁奇小孩。他们不知道该拿你怎么办，就把你当孤儿作为交易的一部分卖给了艾尼尔。没有人知道你来自哪里，只有你知道发生了什么。"/>
+
+		<!-- Eonir stage 2 -->
+		<string id="tor_cc_option_2_eo_council_guard_label_str" text="议会中担任护卫"/>
+		<string id="tor_option_2_eo_council_guard_text_str" text="你涉足了一系列关于议会安保的任务，近些年来你以队长的身份声名鹊起。"/>
+
+		<string id="tor_cc_option_2_eo_trader_empire_label_str" text="在帝国市镇经商"/>
+		<string id="qW8FG1UM" text="作为一名四处奔走的商人，你或许认识的人类比自己族人还多。然而，你依然学会了如何为自己赢得名声，因此，无论在人类还是精灵中，你都备受尊敬。"/>
+
+		<string id="tor_option_2_eo_witch_king_envoy_str" text="担任巫王的特使"/>
+		<string id="GWh1lXIX" text="精灵王庭常常派你前往遥远的纳迦罗斯或四处游弋的黑色方舟执行任务。你的频繁造访让你对杜鲁奇的日常事务有了一些深入的了解。"/>
+
+		<string id="tor_cc_option_2_eo_senat_member_label_str" text="议会中的议员"/>
+		<string id="tor_cc_option_2_eo_senat_member_text_str" text="作为一名优秀的战士，你为自己在议会赢得了一席之地。你学会了如何外交，还有如何用演讲来在政治上推进你的政策。"/>
+
+		<string id="tor_cc_option_2_eo_protector_wards_label_str" text="监视守卫"/>
+		<string id="tor_cc_option_2_eo_protector_wards_text_str" text="你在林地里度过了大部分时光，监视防备着艾尼尔面临无尽的威胁。"/>
+
+		<!--  eonir stage 3 -->
+		<string id="tor_cc_option_3_eo_envoy_label_str" text="艾尼尔特使"/>
+		<string id="tor_cc_option_3_eo_envoy_text_str" text="你是一名在林地之外为艾尼尔效力的特使，处理与选帝候领的贸易与外交关系。"/>
+
+		<string id="tor_cc_option_3_we_waywatcher_label_str" text="巡林客之道"/>
+
+		<string id="5rjxLxFn" text="邻帮战士"/>
+		<string id="tor_cc_option_3_we_spellsinger_text_str" text="你与你的族人并肩作战，为了保护森林不惜一切代价。虽然邻帮战士与其他精灵相比缺乏一定的优雅，但他们的创造力和实用性使他们成为森林中出色的战士。"/>
+
+		<string id="tor_cc_option_3_eo_greylord_apprentice_label_str" text="灰领主学徒"/>
+		<string id="SwmbgVyA" text="“灰领主”职业"/>
+		<string id="tor_cc_option_3_eo_greylord_apprentice_text_str" text="你决定追随一位奥苏安流亡法师领主的教导，他们对于这个世界无所不知。除此之外，这些法师对于控制巨龙有着很大的兴趣，他们对此不惜一切代价。"/>
+
+		<string id="tor_cc_option_3_eo_eonir_expatriate_label_str" text="艾尼尔侨民"/>
+		<string id="tor_cc_option_3_eo_eonir_expatriate_text_str" text="你认为艾尼尔的事业已然没落。相反，你开始将人类的省份称之为家。你以做雇佣兵和商人为生。"/>
+
+  </strings>
+</base>

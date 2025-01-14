@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="str_tor_emp_lord" text="帝国领主"/>
+  		<string id="str_tor_bw_lord" text="烈焰法师"/>
+  		<string id="str_tor_lw_lord" text="光明法师"/>
+  		<string id="str_tor_cw_lord" text="天堂法师"/>
+  		<string id="str_tor_mw_lord" text="金属法师"/>
+  		<string id="str_tor_prophetess_lw" text="女先知（生命系）"/>
+  		<string id="str_tor_prophetess_bw" text="女先知（野兽系）"/>
+  		<string id="str_tor_hm_lord" text="高等法师"/>
+  		<string id="str_tor_glade_lord" text="林地领主"/>
+  		<string id="str_tor_vc_lord" text="吸血鬼伯爵"/>
+  		<string id="str_tor_necromancer_lord" text="死灵法师"/>
+
+  </strings>
+</base>

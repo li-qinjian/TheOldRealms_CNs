@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="str_tor_empire_weapon_crossbow_empire_crossbow_001" text="帝国弩"/>
+  		<string id="str_tor_we_weapon_bow_001" text="豪华的埃斯莱弓"/>
+  		<string id="str_tor_we_weapon_bow_002" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_003" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_004" text="豪华的埃斯莱弓"/>
+  		<string id="str_tor_we_weapon_bow_005" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_006" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_007" text="豪华的埃斯莱弓"/>
+		<string id="str_tor_we_weapon_bow_008" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_009" text="木精灵弓"/>
+  		<string id="str_tor_we_weapon_bow_010" text="豪华的埃斯莱弓"/>
+  		<string id="str_tor_we_weapon_bow_011" text="木精灵弓"/>
+		<string id="str_tor_we_weapon_bow_012" text="埃斯莱巡林客弓"/>
+  		<string id="str_tor_we_weapon_bow_013" text="埃斯莱巡林客弓"/>
+  		<string id="str_tor_we_weapon_bow_legendary" text="库洛斯之弓"/>
+  		<string id="str_tor_neutral_weapon_gun_old_rifle" text="旧步枪"/>
+  		<string id="str_tor_empire_weapon_gun_arquebus_001" text="帝国火绳枪"/>
+  		<string id="str_tor_empire_weapon_gun_arquebus_002" text="帝国火绳枪"/>
+   		<string id="str_tor_empire_weapon_gun_handgun_001" text="帝国猎枪"/>
+  		<string id="str_tor_empire_weapon_gun_flintlock_001" text="帝国短猎枪"/>
+  		<string id="str_tor_empire_weapon_gun_handgun_002" text="六管连发手炮"/>
+  		<string id="str_tor_empire_weapon_gun_empire_repeater_001" text="六管连发手炮"/>
+  		<string id="str_tor_empire_weapon_gun_empire_repeater_003" text="六管连发手炮"/>
+  		<string id="str_tor_empire_weapon_gun_handgun_003" text="帝国枪刃"/>
+  		<string id="str_tor_empire_weapon_gun_flintlock_pistol_005" text="双管枪刃"/>
+  		<string id="str_tor_empire_weapon_gun_flintlock_pistol_006" text="帝国燧发手枪"/>
+  		<string id="str_tor_empire_weapon_gun_flintlock_pistol_007" text="帝国连发手枪"/>
+  		<string id="str_tor_empire_weapon_gun_flintlock_pistol_008" text="四管枪刃"/>
+  		<string id="str_tor_empire_weapon_gun_longrifle_001" text="霍克领长柄火枪"/>
+  		<string id="str_tor_empire_weapon_gun_longrifle_002" text="霍克领长柄火枪"/>
+  		<string id="str_tor_empire_weapon_gun_longrifle_003" text="霍克领长柄火枪"/>
+  		<string id="str_tor_empire_weapon_gun_longrifle_004" text="霍克领长柄火枪"/>
+		<string id="str_tor_empire_weapon_gun_blunderbuss_001" text="帝国喇叭枪"/>
+  		<string id="str_tor_empire_weapon_gun_blunderbuss_002" text="帝国喇叭枪"/>
+   		<string id="str_tor_empire_weapon_gun_big_musket_001" text="帝国短铳"/>
+  		<string id="str_tor_empire_weapon_gun_big_musket_002" text="帝国短铳"/>
+   		<string id="str_tor_empire_weapon_gun_special_musket_001" text="帝国华丽短铳"/>
+  		<string id="str_tor_empire_weapon_gun_special_musket_002" text="帝国装饰短铳"/>
+    </strings>
+</base>

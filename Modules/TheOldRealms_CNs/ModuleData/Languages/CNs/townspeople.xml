@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="dhnqW8Gq" text="谨慎的帝国商人"/>
+  		<string id="TLeiSU3v" text="酿酒工 {FIRSTNAME}"/>
+  		<string id="F5w5kSap" text="心狠手辣的帝国商人"/>
+  		<string id="h4GAJ43V" text="冷血的帝国商人"/>
+  		<string id="OHjvpnjX" text="盐场工 {FIRSTNAME}"/>
+  		<string id="YYKFTHkJ" text="谨慎的帝国商人"/>
+  		<string id="97Gso8zX" text="白手起家的帝国商人"/>
+  		<string id="B59KaGgt" text="诙谐的帝国商人"/>
+  		<string id="xcD1mLrk" text="继承的帝国商人"/>
+  		<string id="cfVwj9m5" text="狡诈的帝国商人"/>
+  		<string id="DUU3eSrc" text="弥赛亚的帝国传教士"/>
+  		<string id="7EB59HvP" text="清教徒的帝国传教士"/>
+  		<string id="HTfH2O9X" text="女性帝国术士"/>
+  		<string id="wk0DDRtR" text="粗鲁的帝国劳工领袖"/>
+  		<string id="HOl9L6oC" text="外向的帝国劳工领袖"/>
+  		<string id="yR9D56B0" text="保护性的帝国男帮派头目"/>
+  		<string id="OzJfch0u" text="刻薄的帝国帮派头目"/>
+  		<string id="hPHNesHZ" text="可怕的帝国男帮派头目"/>
+  		<string id="sdL5vR3U" text="野蛮的帝国男帮派头目"/>
+  		<string id="T0Wqn5SD" text="女性帝国帮派头目"/>
+  		<string id="iVVTXFmX" text="险恶的帝国女帮派头目"/>
+  		<string id="FN2GXtOl" text="粗鲁的帝国乡村要人"/>
+  		<string id="pXkJI8ep" text="和蔼的帝国乡村要人"/>
+  		<string id="8rDOA0e2" text="叛逆的帝国头人"/>
+  		<string id="Vae5bJXu" text="保守的帝国头人"/>
+  		<string id="Ud54TULd" text="狡猾的帝国头人"/>
+  		<string id="OKdhvd1d" text="奇怪的巴托尼亚商人"/>
+  		<string id="H3MU6o0o" text="唐突的巴托尼亚商人"/>
+  		<string id="Iu26PDgS" text="大胆的巴托尼亚商人"/>
+  		<string id="on6JK95u" text="温和的巴托尼亚商人"/>
+  		<string id="sGx53Rcj" text="厨师 {FIRSTNAME}"/>
+  		<string id="F7nnlG4J" text="仓库管理员 {FIRSTNAME}"/>
+  		<string id="JXCp0PJX" text="嗣女 {FIRSTNAME}"/>
+  		<string id="vCs1kf1z" text="苦行的男传道者"/>
+  		<string id="nNheEOBU" text="叛逆的女传道者"/>
+  		<string id="VKZoMRc0" text="权威的男帮主"/>
+  		<string id="uaBJ5JFg" text="帮派女头目"/>
+  		<string id="JliyBypF" text="帮派男头目"/>
+  		<string id="XBtVxFoN" text="巴托尼亚工匠"/>
+  		<string id="L4QdVLJ9" text="巴托尼亚侍从"/>
+  		<string id="cV3YrsXl" text="叛逆的巴托尼亚头人"/>
+  		<string id="fsYVUloI" text="保守的巴托尼亚头人"/>
+  		<string id="tl27s1nx" text="狡猾的巴托尼亚头人"/>
+  		<string id="nBGUX3lc" text="奇怪的穆席隆商人"/>
+  		<string id="f9K0KWoD" text="唐突的穆席隆商人"/>
+  		<string id="2ywbrXp4" text="大胆的穆席隆商人"/>
+  		<string id="YBjuzheM" text="温和的穆席隆商人"/>
+  		<string id="2MyiitEs" text="穆席隆工匠"/>
+  		<string id="DnGmasQc" text="穆席隆自由民"/>
+  		<string id="piscrypk" text="叛逆的穆席隆头人"/>
+  		<string id="lX0Gpv79" text="保守的穆席隆头人"/>
+  		<string id="3cRiuKe5" text="狡猾的穆席隆头人"/>
+  		<string id="qmy64O5S" text="奇怪的混沌商人"/>
+  		<string id="628FED2q" text="精练的混沌商人"/>
+  		<string id="DzKnZWNQ" text="大胆的混沌商人"/>
+  		<string id="HchY4Evx" text="心直口快的混沌商人"/>
+  		<string id="GLJlAXwr" text="混沌工匠"/>
+  		<string id="RJ3e6JyT" text="混沌侍从"/>
+  		<string id="1TEYlGWr" text="桀骜的混沌头人"/>
+  		<string id="zbyqtuFj" text="保守的混沌头人"/>
+  		<string id="1UtoYXt1" text="狡猾的混沌头人"/>
+
+		<!-- URBAN CHARACTERS OF asrai -->
+  		<string id="RDxNNSrd" text="阿斯莱铁匠"/>
+  		<string id="G2063vhL" text="阿斯莱武器匠"/>
+  		<string id="M85Fqmfw" text="阿斯莱军械士"/>
+  		<string id="NYovrboj" text="居民"/>
+  		<string id="ofUPwuGb" text="阿斯莱村民"/>
+  		<string id="0POnANRU" text="阿斯莱店员"/>
+  		<string id="PMkG8JV1" text="阿斯莱酒馆老板"/>
+  		<string id="w5zIJJ7M" text="阿斯莱乐师"/>
+  		<string id="ZAT1aeol" text="阿斯莱商人"/>
+  		<string id="hXlmeRa8" text="阿斯莱马商"/>
+  		<string id="GQahppiE" text="阿斯莱公证人"/>
+  		<string id="jv1AvLzg" text="阿斯莱公证人"/>
+  		<string id="VkCN7M9A" text="阿斯莱公证人"/>
+  		<string id="rLsjmlQU" text="阿斯莱奴隶贩子"/>
+  		<string id="CkFS5ici" text="阿斯莱流氓"/>
+  		<string id="zFpYcm8V" text="刀子嘴的阿斯莱商人"/>
+  		<string id="XrFiFJU0" text="精练的阿斯莱商人"/>
+  		<string id="vsMyoiSj" text="勇敢的阿斯莱商人"/>
+  		<string id="TIAmrMFP" text="善于言辞的阿斯莱商人"/>
+  		<string id="XeBFuEiN" text="阿斯莱公证人"/>
+  		<string id="GE29oqmD" text="阿斯莱农夫"/>
+  		<string id="mXWvk4Sb" text="桀骜的阿斯莱头人"/>
+  		<string id="XyJrovDB" text="保守的阿斯莱头人"/>
+  		<string id="gySlb2Or" text="狡猾的阿斯莱头人"/>
+  		<string id="ubysnNf8" text="监狱守卫"/>
+
+		<!-- URBAN CHARACTERS OF eonir -->
+  		<string id="Bc55IVvo" text="艾尼尔铁匠"/>
+  		<string id="ThQnTYhY" text="艾尼尔武器匠"/>
+  		<string id="sEoArnKv" text="艾尼尔军械士"/>
+  		<string id="zrM5atg1" text="托里奥"/>
+  		<string id="3EtMj0Cm" text="法尼奥尔"/>
+  		<string id="UVxUf985" text="艾尼尔美发师"/>
+  		<string id="39Na3uUp" text="艾尼尔店员"/>
+  		<string id="vH9PAq5F" text="艾尼尔酒馆老板"/>
+  		<string id="aCAt31d3" text="艾尼尔音乐家"/>
+  		<string id="Ic20Op6c" text="艾尼尔少女"/>
+  		<string id="t6Wp8yl5" text="艾尼尔舞者"/>
+  		<string id="EecY2jTx" text="艾尼尔贸易商"/>
+  		<string id="8cKHnEcH" text="艾尼尔马商"/>
+  		<string id="dkuAAleH" text="艾尼尔公证人"/>
+  		<string id="8rT0F33G" text="艾尼尔奴隶贩子"/>
+  		<string id="genMUJyE" text="监狱守卫"/>
+  		<string id="tp8SV1Ow" text="竞技场老板"/>
+  		<string id="9ysraKi0" text="艾尼尔帮派首领"/>
+  		<string id="UPkYTknh" text="刀子嘴的艾尼尔商人"/>
+  		<string id="kM2liUnY" text="精练的艾尼尔商人"/>
+  		<string id="1P0RDsMC" text="大胆的艾尼尔商人"/>
+  		<string id="oWNdJhlc" text="善于言辞的艾尼尔商人"/>
+  		<string id="xUSx6x7z" text="艾尼尔工匠"/>
+  		<string id="KymX0G9B" text="艾尼尔侍从"/>
+  		<string id="YVJvzrWA" text="桀骜的艾尼尔头人"/>
+  		<string id="GY8cmXme" text="保守的艾尼尔头人"/>
+  		<string id="VRo8F2Kt" text="狡猾的艾尼尔头人"/>
+		
+  </strings>
+</base>

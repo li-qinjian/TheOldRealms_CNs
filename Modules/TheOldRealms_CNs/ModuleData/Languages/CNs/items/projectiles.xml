@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="ffEzMQMp" text="矮人手榴弹"/>
+  		<string id="Mzl6vNdU" text="火枪子弹"/>
+  		<string id="Hzta7mME" text="银弹"/>
+  		<string id="M9BJ6Bon" text="铅弹"/>
+  		<string id="DxeYtPLm" text="炮弹"/>
+  		<string id="jLVswoqJ" text="破碎的武器"/>
+  		<string id="DtYdsemZ" text="手榴弹"/>
+		<string id="Fg3VM1Y9" text="琥珀之矛"/>
+		<string id="VrQUO4UW" text="绿眼"/>
+		<string id="HXFx8xkK" text="木精灵竞赛箭"/>
+		<string id="9qKHLcRe" text="威力箭"/>
+    </strings>
+</base>

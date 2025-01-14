@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!-- CC Options -->
+  		<string id="DLm9L9dO" text="你一生中大部分时间都在供奉阿斯莱神之一……"/>
+  		<string id="O1kJr9x8" text="选择你的路线……"/>
+
+		<!--Rogue Engineer Quest-->
+  		<string id="NhKa5we6" text="{ROGUE_ENGINEER_NAME}的劫匪人生"/>
+  		<string id="fxdFKJz4" text="你看着就跟连黑火药的火星子都没见过似的，你确定这是你该来的地方吗？"/>
+  		<string id="oqIwzbLE" text="啊，你回来了。有什么新消息吗？"/>
+  		<string id="DZZmTZn7" text="有消息了再回来找我吧。"/>
+  		<string id="TlrU6WaM" text="你找到{ROGUE_ENGINEER_NAME}了吗？"/>
+  		<string id="VDO14Mtf" text="你改主意想来帮忙猎杀{ROGUE_ENGINEER_NAME}了吗？"/>
+
+  		<string id="q1Gs2LTI" text="又是你，你想要什么？"/>
+  		<string id="mDuWPnC4" text="我想要买一些火炮"/>
+  		<string id="YqwYnxCS" text="我想要招募一些工程师"/>
+  		<string id="d5b5ZpE9" text="我怎么用火炮？"/>
+  		<string id="3bqJh00v" text="我怎么可以买到更多火炮？"/>
+  		<string id="OVHnD67y" text="暂时没事了，我得走了"/>
+
+  		<string id="wqYibRtf" text="我重新考虑了下你的提议，我想帮忙。"/>
+  		<string id="DX5jg82d" text="工程大师您好，我是{PlAYERNAME}。我是来寻求进入努恩熔炉的许可的。请问您能帮忙吗？"/>
+  		<string id="hxZ5O2fH" text="是的，我想知道如何使用黑火药武器"/>
+
+  		<string id="UfTsYgU7" text="哈！你可不像是会用这些玩意的人。你想拿我们的作品来干嘛？"/>
+  		<string id="CZB4u7Dd" text="我没空做这事。你走吧。"/>
+  		<string id="3Y1FBJjS" text="这些是帝国最强大的武器，它们一次又一次抵御了混沌之潮。我们可不会把我们的作品随便就交给哪个路过的，况且我根本不认识你，你也没有赢得我们的信任。"/>
+
+  		<string id="YkrxXOst" text="话是这么讲，我们倒也不是没可能达成一个协议。听着，现在有个内部事务需要紧急处理，而我又没法直接参与。你要是肯帮忙，我会看情况帮你一把的，就算还你一个人情。你怎么说？"/>
+  		<string id="B7ZvkO3G" text="你想让我做什么？"/>
+  		<string id="vZmOqbTD" text="我没时间做这个。"/>
+  		<string id="DfRC9Jin" text="通常我们不会寻求外界援助，但确实是人手紧缺。我们有些重要的零件被从努恩熔炉里偷走了，必须要把它们找回来。如果你能跟踪到这些逃跑的贼然后把零件都找回来的话，我们再谈后面的事。"/>
+
+  		<string id="hTKDi8wO" text="也行吧，只要我们的交易算数的话。我会给你把他找出来的，作为回报，你要放我进入努恩熔炉。"/>
+  		<string id="C41pt0sH" text="如果进入熔炉别无他法的话，那就这样吧。我会给你把那人的脑袋带过来的。"/>
+  		<string id="jMs67166" text="还是算了吧，我有些其他的要紧事处理。"/>
+  		<string id="LkGfLvfN" text="可以，那成交。我手上大概有些关于他的线索，这就给你标在地图上。陌生人，愿西格玛指引你。"/>
+	
+  		<string id="PsAVodHA" text="明白了，我一有消息就回来。"/>
+  		<string id="TbnJlrjK" text="就这？听起来够简单的。"/>
+  		<string id="H9eiOYTn" text="我没时间干这个。"/>
+  		<string id="TsNbw3Wo" text="好！期待你的好消息"/>
+  		<string id="VIuBGXLT" text="真可惜，要是改变了主意再回来找我吧"/>
+
+  		<string id="2Y0xrYLi" text="恐怕我没有带来你想要的东西。"/>
+  		<string id="hfgQU1B5" text="啧，这比我想的差多了。现在还有一些时间，你仍然可以追踪他们，如果你的速度够快的话"/>
+  		<string id="m8mZgnlk" text="我不会再让你失望了。"/>
+  		<string id="OwwGQoqo" text="这次我不认为我做得到。"/>
+
+  		<string id="4OcPbotZ" text="我回来了，但被偷走的部件还是没找到。恐怕我得说，这些部件已经没了。"/>
+  		<string id="aOEhSF6W" text="我明白了，但这不是我想要的结果。你有挖出更进一步的线索吗？你有审问过这些恶棍吗？"/>
+  		<string id="KdM5LbPL" text="其中一个强盗确实透露了一个名字，“{ROGUE_ENGINEER_NAME}”，应该？"/>
+  		<string id="QP69PyPM" text="该死！我早该知道了。如果你愿意的话，我想再请你帮一次忙。这件事远比我想象得要严重。{ROGUE_ENGINEER_NAME}是一名工程师，技术十分精湛，但他的作品似乎总是……有问题。"/>
+  		<string id="PhunoSRw" text="如果他偷了这些零件，其目的必然是做一些穷凶极恶的事情。我必须请你去追踪他，去终结他要做出的任何疯狂的行为。你觉得如何？"/>
+
+  		<string id="sge2BKOo" text="我还没追踪到他的去向。"/>
+  		<string id="FfUxYOBe" text="我明白了，等你查到有用的信息再来找我。"/>
+
+  		<string id="KwgTljfi" text="我已经解决掉他了，并且还找回他偷走的东西，我不确定他们要拿去干吗。"/>
+  		<string id="1JqRcgub" text="这不重要，但毫无疑问这是一个正在塑形的东西。我必须感谢你所做出的一切努力。作为回报，你将可以访问我们的铸造厂并从我们这里购买你想要的。"/>
+  		<string id="c2pWWzTe" text="那么，我能帮上什么吗？"/>
+
+  		<string id="uVNruJE2" text="我还没有找到他的下落"/>
+  		<string id="HOxPo0qq" text="我明白了，希望下次你能带给我更好的消息。"/>
+
+  		<string id="AGYl2JvB" text="当然，全努恩你都找不到比我这儿更好的铁匠铺了！"/>
+  		<string id="z59AtiQG" text="我还能为你做什么？"/>
+
+  		<string id="ABDg8Yci" text="我们的一对新手工程师希望以（{RECRUITMENT_PRICE}）加入你。"/>
+  		<string id="fGbCr9wl" text="欢迎加入我们。"/>
+  		<string id="23ob4asT" text="我现在没有足够的资金。"/>
+  		<string id="51gToZNy" text="我再想一下，也许以后吧。"/>
+
+  		<string id="g7CHC16q" text="你加入帝国阵营才能购买大炮"/>
+  		<string id="YKuIamLX" text="工程技能每提高50级就会增加你的军队中可以使用的大炮数量。"/>
+  		<string id="avmLq9dt" text="如果你符合这些要求，只需与我交谈，我将向你展示我们所拥有的一切。"/>
+
+  		<string id="P1v9GNy0" text="大炮是使用施法模式放置的，但要发射大炮，你需要雇用至少两名炮手。"/>
+  		<string id="2iXbSPyc" text="你还需要确保大炮在你的军队库存中。"/>
+  		<string id="tpRMyu7D" text="工程师和炮手都可以发射大炮"/>
+
+  		<string id="7UICMg1b" text="是对的，他们派人追杀我们了！快拿起你的武器！"/>
+  		<string id="JfHEtO4H" text="等等，我只是来拿被盗的零件，没有必要在这里流血，也许我们可以达成一致。"/>
+  		<string id="9Ap11h33" text="放下你们的武器，我可以饶你们一命。"/>
+  		<string id="SpLLn7f7" text="不管有没有武器，我们都会杀了你们，夺回你们偷走的东西！"/>
+  		<string id="N1N78C5l" text="你骗不了我们!  它们有更重要的使命！我不会让你拿走它们！"/>
+
+  		<string id="FrNFjJWU" text="所以那个愚蠢的老东西派你来找我？他是怎么想到我的？这不重要，你挡在我创作的路上了。你会死在这里的！"/>
+  		<string id="aSbzuN9d" text="你的计划到此结束"/>
+
+		<!--culture related-->
+  		<string id="6GajudVL" text="吸血鬼伯爵"/>
+  		<string id="hhVAXlWT" text="人类帝国"/>
+  		<string id="dua4oq73" text="巴托尼亚"/>
+  		<string id="Fyhd5WMU" text="穆席隆"/>
+  		<string id="Ftm3mtSa" text="阿斯莱"/>
+  		<string id="MoFjsUDA" text="艾尼尔"/>
+  		<string id="0wdo3fjR" text="混沌"/>
+
+  		<string id="tK2yoCVB" text="吸血鬼伯爵是无与伦比的恶魔。他们寻求推翻活人的文明，并以不死帝国取而代之。每个吸血鬼都是独特而威严的人物，拥有自己的个性、动力和野心。相比之下，他们的手下是毫无意识的顺从者——一排排破烂和被尘土覆盖的尸体，被他们主人的死灵魔法力量所强迫复活。"/>
+  		<string id="nTGe2n7w" text="人类帝国是统治旧世界的庞大人类国家，每天都面临着生存的艰辛挑战。在皇帝卡尔·弗兰兹的引领下，帝国的军队展现出坚定的纪律和无与伦比的战斗技巧。在一个充斥着野蛮残忍的野蛮人和嗜血怪物的世界中帝国得以持续存在，得益于其军队的卓越纪律，这是通过严格的训练磨练出来的，并且得到了对西格玛信仰的坚定支持。作为人类坚韧不拔的象征，帝国的士兵展示了在无尽的敌人面前人类不可征服的精神。"/>
+  		<string id="VCaiHxAA" text="巴托尼亚王国是一个以强大骑士和他们坚守的骑士精神而闻名的国家。在仙子女巫和女神先知的引导下，农民辛勤劳作，而他们的贵族领主则保护他们免受威胁其生存的种种危险。在战争时期，整个王国可以团结一致，在劳恩·列奥康沃尔国王的领导下，进行对抗敌人的十字军战争，没有任何敌人能够战胜他们。"/>
+  		<string id="16g38SkH" text="穆席隆是坐落在巴托尼亚心脏地带的一个被诅咒的领地，它在整片土地上投下了黑暗而不祥的阴影。曾经它是一个自豪的公爵领地，如今它成为了阴影中残存的腐败的可怕见证。由穆席隆之蛇统治，这个沼泽和密林之地与高贵的巴托尼亚形成鲜明对比。然而，更加悲剧和令人不安的是它变异的农民，不再由高贵的骑士统治，而是由扭曲的亡灵统治，他们的黑暗骑士融合了传统巴托尼亚的武艺和邪恶力量，令人不寒而栗。"/>
+  		<string id="4XC9KfV8" text="阿斯莱是艾索洛伦精灵之一，他们生性多疑、孤僻、野蛮，生活在艾索洛伦森林中，这些神奇的森林家园既危险又美丽，因此将他们的技艺磨练得十分熟练。阿斯莱在爱莎和库诺斯的教导下，以猎人和战士的身份生活，保卫自然世界，但黑暗却一直在引诱他们进行屠杀和破坏。"/>
+  		<string id="SAc6AXKM" text="在诺德领与威斯特领之间，坐落着劳伦洛伦森林，那里居住着高傲的艾尼尔精灵。不同于其他族人，他们不愿逃离旧世界，选择了坚守家园，并成功抵御了矮人对森林的入侵。艾尼尔族的社会结构分为森林民与城镇民，呈现出明显的阶层划分。他们通过谨慎的外交策略，确保自身的安全，不仅与周边邻国友好往来，而且与黑暗精灵和高等精灵也保持着一定的联系。艾尼尔的统治方式以多级议会为核心，具有一定程度的民主色彩。战斗来临之时，艾尼尔族会召唤最黑暗的魔法与最纯净的森林精魂，誓言守护他们的家园。"/>
+  		<string id="PcYHxbqv" text="没有人真正知道凡世中混沌的起源，就连高等精灵的长寿学者们也只能推测混沌的最初起源。战争、饥荒、自然灾害以及时间几乎摧毁了所有关于混沌根源的迹象。"/>
+
+  		<string id="XOLpErUD" text="伯爵"/>
+  		<string id="dr7fFLyk" text="女伯爵"/>
+  		<string id="5sStbfnh" text="选帝侯"/>
+  		<string id="kfBHzvgW" text="选帝侯"/>
+  		<string id="1ErJSufG" text="领主"/>
+  		<string id="x3n83eDD" text="女士"/>
+  		<string id="EsRlYtP2" text="吸血鬼伯爵"/>
+  		<string id="ngg8tMWV" text="吸血鬼夫人"/>
+		<string id="4RzKm6Cp" text="领主"/>
+  		<string id="RT7XLu80" text="女士"/>
+  		<string id="IuBrFFiz" text="公爵"/>
+  		<string id="fUpaMrbo" text="女公爵"/>
+		<string id="1cy8h2tT" text="领主"/>
+  		<string id="0LOVzSNK" text="女士"/>
+  		<string id="30UoTENu" text="公爵"/>
+  		<string id="zQq1uQoG" text="女公爵"/>
+		<string id="NCepqFxx" text="领主"/>
+  		<string id="LpqJqThq" text="女士"/>
+  		<string id="guz2oyoA" text="贵族"/>
+  		<string id="zQq1uQoG" text="贵族"/>
+		<string id="EyIfrDBN" text="领主"/>
+  		<string id="pVb9F5wo" text="女士"/>
+  		<string id="KP9eb2bb" text="贵族"/>
+  		<string id="BC0bHWk6" text="贵族"/>
+		<string id="rwwoKbE0" text="混沌领主"/>
+  		<string id="w8RC1vqy" text="混沌领主"/>
+  		<string id="lOkbHLO5" text="混沌领主"/>
+  		<string id="kVOwkFt0" text="混沌领主"/>
+
+  		<string id="t4i9zWb1" text="帝国"/>
+  		<string id="ypbnWI8d" text="巴托尼亚"/>
+  		<string id="ypbnWI8d" text="半身人"/>
+  		<string id="Mi2Z1Krg" text="穆席隆"/>
+  		<string id="LW0amYNS" text="吸血鬼"/>
+  		<string id="GBSCDhmY" text="阿斯莱"/>
+  		<string id="bhEEX4Bt" text="艾尼尔"/>
+
+  		<string id="n7hlloBm" text="艾维领"/>
+  		<string id="dJDzm1Tb" text="斯提尔领"/>
+  		<string id="tMpGyh9k" text="威森领"/>
+  		<string id="LxEemjOe" text="塔拉贝克领"/>
+  		<string id="DhpphY6l" text="瑞克领"/>
+  		<string id="1eEtqtsy" text="米登领"/>
+  		<string id="8Ehw7bMM" text="奥斯特马克领"/>
+  		<string id="8prOcGu6" text="霍克领"/>
+  		<string id="iStS5ZzF" text="诺德领"/>
+  		<string id="AnI8gWLw" text="奥斯特领"/>
+  		<string id="KjuKOvVv" text="威斯特领"/>
+  		<string id="IXfVQ6uq" text="哥隆尼"/>
+  		<string id="eTO2NmUC" text="勒安谷"/>
+  		<string id="KT9g20v9" text="里昂尼斯"/>
+  		<string id="2Wcrieox" text="阿图瓦"/>
+  		<string id="F9rZeD4u" text="吉索莱奥"/>
+  		<string id="Xyw4MC5G" text="帕拉翁"/>
+  		<string id="Q5g4COih" text="蒙特福特"/>
+  		<string id="XVb0U6pN" text="巴斯托涅"/>
+  		<string id="YxvKr5mE" text="波尔德罗"/>
+  		<string id="frMVgdY7" text="卡尔卡松"/>
+  		<string id="XlNY4Bgw" text="阿奎坦"/>
+  		<string id="NDt8duwD" text="布理奥涅"/>
+  		<string id="37V1VCTg" text="奎那利斯"/>
+  		<string id="3wQHhqf4" text="半身人"/>
+  		<string id="ImFUfP8t" text="穆席隆"/>
+  		<string id="VSXJZJ62" text="吸血鬼"/>
+  		<string id="KTA0RfoM" text="吸血鬼"/>
+  		<string id="PP45eq1K" text="阿斯莱"/>
+  		<string id="XUN80nto" text="艾尼尔"/>
+
+  		<string id="dxynIHMx" text="希尔瓦尼亚"/>
+  		<string id="mkgyqFjh" text="帝国"/>
+  		<string id="x5kJxA7r" text="巴托尼亚"/>
+  		<string id="UjBPeAiw" text="穆席隆"/>
+  		<string id="ZjJIBTlG" text="艾索洛伦"/>
+  		<string id="JpwpK3WW" text="劳伦洛伦森林"/>
+  		<string id="Z3lM564Q" text="混沌之力"/>
+
+  		<string id="n6YCq1JG" text="希尔瓦尼亚"/>
+  		<string id="DkrdrKOR" text="帝国"/>
+  		<string id="qxndkUzq" text="巴托尼亚"/>
+  		<string id="ajymIonP" text="穆席隆"/>
+  		<string id="eZvqH5lW" text="艾索洛伦"/>
+  		<string id="26MPHQsI" text="劳伦洛伦"/>
+  		<string id="z3wII1hI" text="混沌"/>
+
+  		<string id="9hVhVJcK" text="吸血鬼"/>
+  		<string id="EsKjks3A" text="帝国"/>
+  		<string id="giCKpkTf" text="巴托尼亚"/>
+  		<string id="dY04ocbE" text="穆席隆"/>
+  		<string id="CKwGZDrJ" text="阿斯莱"/>
+  		<string id="h4mCSQ2F" text="艾尼尔"/>
+  		<string id="BIUxJmky" text="混沌"/>
+		
+  		<string id="ok3lr938" text="希尔瓦尼亚人"/>
+  		<string id="n9ThifZl" text="帝国人"/>
+  		<string id="s6giJty7" text="巴托尼亚人"/>
+  		<string id="YVDe3tji" text="穆席隆人"/>
+  		<string id="HjBHFbTW" text="阿斯莱精灵"/>
+  		<string id="6dbhVn2W" text="艾尼尔精灵"/>
+  		<string id="1iCiEIE1" text="混沌勇士"/>
+
+  		<string id="aZ5qyIVR" text="我在此宣誓为艾维领服务。"/>
+  		<string id="TfroQjrI" text="我宣誓选帝侯马略·雷特多夫是我的合法君主，比库尔特·海尔伯格更帅。"/>
+  		<string id="mfmTRhsJ" text="我坚持用我的剑来保护艾维领的阳光普照的土地，它的人民，它的牛群，最重要的是：香甜的葡萄酒。"/>
+  		<string id="oK3ACY6n" text="我承认你是我的主和拯救者，并将跟随你到地狱深处，咳--以及从地狱回来。"/>
+
+  		<string id="ZkzLDA13" text="我宣誓效忠霍克领选帝侯。"/>
+  		<string id="GRyxNxxU" text="我承认霍克领选帝侯兼赫吉格男爵阿尔德布兰德·鲁登霍夫为我的合法统治者。"/>
+  		<string id="1O4LszNp" text="让塔尔、蕾雅和西格玛指引我履行职责"/>
+  		<string id="nlUWZMzS" text="让我的剑、盾与弓在敌人面前稳健如山。"/>
+
+  		<string id="3hpLbDiS" text="我庄严宣誓效忠米登领和米登海姆选帝侯。"/>
+  		<string id="bzpXYEzl" text="我承认米登海姆伯爵、米登领领主、卡隆堡亲王鲍里斯·托德布林格是我的领主和指挥官。"/>
+  		<string id="Tu2JFJhh" text="愿冬日之神尤里克指引我，为我们谋得胜利。"/>
+  		<string id="6UQ1puWr" text="除非敌人不复存在，或者我被狼神夺去生命，否则我决不罢休。"/>
+
+  		<string id="KpsCEgBu" text="我宣誓效奥斯特马克同盟"/>
+  		<string id="wJ8YmtF4" text="我承认总理，贝克港选帝候亲王，奥斯特马克领沃尔弗拉姆·赫特维希为我的领主。"/>
+  		<string id="M20iTv4C" text="只要我尚存一气，绝不让异形和亡灵靠近。"/>
+  		<string id="zmNL1e6R" text="我誓为领地与其子民谋福利。"/>
+
+  		<string id="uuSvgAp5" text="我宣誓效忠奥斯特领"/>
+  		<string id="fL4yqfwk" text="愿吾主奥斯特领大公、北征侯爵、东方之锤沃米尔·冯·劳科夫让吾等粉碎敌人。"/>
+  		<string id="rZn4S7js" text="请赐予我为您而战的机会，直至在莫尔怀中安息。"/>
+  		<string id="Yyr9IFTI" text="弑敌于奥斯特领外！"/>
+
+  		<string id="z6PbvFME" text="我在此宣誓对斯提尔领的忠诚"/>
+  		<string id="jtMKoIvf" text="我承认阿尔贝里奇-豪特-安德森，斯提尔领的大伯爵，乌特巴德的王子和希尔瓦尼亚的霸主，是我的君主和监护人，直到我死的那天。"/>
+  		<string id="pELDAH7y" text="我承认阿尔贝里奇-豪特-愿我的身体成为斯提尔领的盾牌，以抵御亡灵的威胁。"/>
+  		<string id="QThA6z60" text="我将跟随你到死亡之地的最深处。"/>
+
+  		<string id="AQedBQJT" text="我向韦斯特领商业城邦宣誓效忠。"/>
+  		<string id="zDHEfwie" text="我将在曼纳恩祝福下战斗，因为大海是我的家园。"/>
+  		<string id="6LOpVocf" text="血中充满了盐，身上装满了金子，只因我来自玛丽恩堡。"/>
+  		<string id="OJEZViSN" text="欠债还钱，天经地义！"/>
+
+  		<string id="DUtoppVq" text="我在此宣誓，我对南方的堡垒、帝国的瑰宝努恩以及威森领周边小村庄、城堡和城镇的忠诚。"/>
+  		<string id="GEyMkuDd" text="我承认女选帝候，埃曼纽尔·冯·利布维茨，威森领大伯爵夫人，努恩伯爵夫人和梅森公爵夫人是我永远愿意效劳的女士。"/>
+  		<string id="dogH3L9s" text="我承认女选帝候，在迫切需要的时候，我将尽最大努力捍卫努恩。"/>
+  		<string id="DvJyz1Om" text="我保证无论你带我去哪里，我都会追随你，并将捍卫你，直到我死去的那一天。"/>
+
+  		<string id="oMFlNnyz" text="我在此对塔拉贝克大公领宣誓不息的忠诚。"/>
+  		<string id="j6rjH12x" text="我承认赫尔穆特·费尔巴哈，塔拉贝克大公，东部领地统军以及塔尔护佑之人，作为我永远的主人。"/>
+  		<string id="qBY2yOix" text="在你需要的时候，我会守护塔拉巴斯顿直到最后一口气。"/>
+  		<string id="04MDXwuZ" text="我将援助你守护塔尔圣地，直到世界末日。"/>
+
+  		<string id="LPMUPR79" text="我在此对瑞克领及其统治者，卡尔·弗朗茨·霍斯维格·施利斯泰因，帝国的守护者、抵御黑暗者、西格玛后裔、南方皇帝，以及众皇之子，宣誓永恒的服务。"/>
+  		<string id="2SqKMTBq" text="我向战神西格玛献出我的灵魂，祂的敌人将知晓我的怒火。"/>
+  		<string id="haeGpjKw" text="愿你的敌人将我视作他们永恒的宿敌，只要我一息尚存，将永不停驻。"/>
+  		<string id="WoMv7GCK" text="卡尔·弗朗茨万岁，我将跟随他到深渊的尽头。"/>
+
+  		<string id="FmvRfDOx" text="我在此对穆特领宣誓服务。"/>
+  		<string id="qoGpD6bt" text="我宣告长者希斯梅·强心将作为我正统的君主。"/>
+  		<string id="HXlTTkWC" text="我将紧握我的宝剑，在不死族的威胁下保护人民。"/>
+  		<string id="O4AtVeZ7" text="我发誓不论战争或和平都将援助你。"/>
+
+  		<string id="JGTQXUZS" text="我宣誓效忠诺德领大公。"/>
+  		<string id="5Jp9fV4G" text="我承认选帝侯、诺德领大公、萨尔岑蒙德亲王西奥德里克·高瑟为我的合法领主。"/>
+  		<string id="rUFbBDyD" text="我誓要保护诺德领的海岸线、港口与森林，不让任何人、任何事威胁到它。"/>
+  		<string id="0kbyLzM5" text="愿曼纳恩，尤里克，塔尔和西格玛指引我的道路。"/>
+
+  		<string id="EgDXAZHh" text="我向希尔瓦尼亚的土地献出我的灵魂，以作永恒的服务。"/>
+  		<string id="89MYsWQV" text="我在此对曼弗雷德·冯·卡斯坦因，希尔瓦尼亚伯爵，世间最为狡诈和最具魔法天赋的冯·卡斯坦因血系吸血鬼，宣誓我不灭的忠诚。"/>
+  		<string id="ZuUzjMCF" text="愿你的敌人在见到我和我的不死军团时，都颤抖溃散。"/>
+  		<string id="3w2isCcP" text="我将加入你的宫廷，跟随你攻入帝国腹地。"/>
+
+  		<string id="3bdYZfIq" text="女神在上，实所亲鉴。赤心奉国，盐壤碱地，勒安古朗。"/>
+  		<string id="geaKzSjt" text="效忠公爵，吾主陶贝特。倘公有难，云集旗下。"/>
+  		<string id="F1CMfi78" text="驱马阡陌，肜舸海疆。沃土湾港，吾誓守之。"/>
+  		<string id="zGO2dWzy" text="女神恩泽，所向披靡！"/>
+
+  		<string id="q2jIAT6D" text="一片丹心，尽奉阿图瓦。茂树荫蔚，皆为戍守。"/>
+  		<string id="lCL56qjU" text="即为臣子，宝剑锐矛，悉听尊便。"/>
+  		<string id="Y140oiBG" text="以身为盾，誓守黎民。骑士之魄，至死不渝。"/>
+  		<string id="CzIFeXSz" text="事任骑士，于此起誓。护国安境，保民无恙。"/>
+
+  		<string id="WRWwXDF0" text="竭诚我忠，淳正光耀。献忠公国，其曰阿奎坦。"/>
+  		<string id="L5fE7F4I" text="高贵尊荣，阿尔芒公；侠义昭昭，美德垂范。"/>
+  		<string id="4FxDJrzl" text="誓愿我剑，护国安邦；戍卫万民，不易其方。"/>
+  		<string id="Iq0zY9kk" text="笃诚尽忠，御侮折冲；愿守侠义，载誉耀荣。"/>
+
+  		<string id="oaWCMCVY" text="至荣至谦，纳忠效信；献忠公国，巴斯托涅。"/>
+  		<string id="IqdieVhH" text="侠义徽标，勇猛无双；遵奉公爵，博希蒙德。"/>
+  		<string id="jlleSuwX" text="无畏铁骑，守土护疆；神佑福地，万世流芳。"/>
+  		<string id="9JE8EuuF" text="既为骑士，身披荣光；扬我侠义，勇且益刚。护卫国境，守其旧方。"/>
+
+  		<string id="E0JYGoKR" text="荣之我心，笃且不动；献忠公国，波尔德罗。"/>
+  		<string id="GzNGMkSZ" text="昭告我忠，尽献公爵：远见卓识，艾博里克。凤翥鹏翔，于战于耕。女神之下，何人媲之？"/>
+  		<string id="JRxRNo0P" text="黎民美酒，凛不可犯；誓愿我剑，捍其沃土。"/>
+  		<string id="Lfnwqsfo" text="扬我侠义，壮我骁勇；倘有一息，不失寸疆。"/>
+
+  		<string id="XRUYkbQn" text="效忠纳信，护国佑民；竭诚尽节，布理奥涅。"/>
+  		<string id="v6qXR5sX" text="君圣臣贤，百姓称颂；誓向公爵，提奥多里克。"/>
+  		<string id="FSfcx0aC" text="广土众民，沃野千里；高城深池，点缀其间；吾当誓守严防。"/>
+  		<string id="omldT6QX" text="布理奥涅，山辉川媚；正义之士，誓荣守忠；护卫公爵，美德载崇。"/>
+
+  		<string id="9iB4MVTX" text="卡尔卡松，勇士之乡；矢志不渝，誓死不贰。"/>
+  		<string id="8eopF17i" text="效忠纳信，休贝尔德；骁勇善战，震古烁今。"/>
+  		<string id="9PacGv9g" text="愿戍国疆，定土安邦；铁骑雄师，谁人可当？"/>
+  		<string id="vSkoF5rs" text="公国忠卫，岿然不动；勇毅荣光，亘护我邦。"/>
+
+  		<string id="b93H3hUW" text="纳忠效信，誓死不贰。驰义公国哥隆尼。"/>
+  		<string id="IkrpDGJq" text="钦附吾王，甘为臣属。"/>
+  		<string id="kiem1IZo" text="我等为臣，皆听王令。"/>
+  		<string id="x3QJ4HBC" text="吾王万岁！"/>
+
+  		<string id="xbj6gsNn" text="荣兮其壤，耀兮其邦。誓守公国，吉索莱奥。"/>
+  		<string id="d00KUTkb" text="旌旗猎猎，吾主哈根。即为扈从，愿助其向。"/>
+  		<string id="7Xo4MqjM" text="上守苍白姐妹之峰，下镇吉索莱奥之川。戍卫国疆，视同厅堂。"/>
+  		<string id="HkKcuLGF" text="赤子之心，敬奉公国。身死魂灭，不移义方。"/>
+
+  		<string id="Sm5FKzet" text="利剑坚盾，敬奉公国。蒙天赐福，里昂尼斯。"/>
+  		<string id="7Vtjs9er" text="效忠公爵，阿达尔哈德。敕领宝地，护其权柄。"/>
+  		<string id="AqD1BvIq" text="铁骑蹴踏，奋勇凌敌，戍卫圣地。"/>
+  		<string id="lbxCXxJo" text="愿为橕樘，勇如狻猊。永葆遗风，不移旧方。"/>
+
+  		<string id="aWW7VbRf" text="竭诚我忠，笃且不动；献忠公国，蒙特福特。"/>
+  		<string id="ttLywkAu" text="效忠公爵，福尔卡尔；英勇无匹，屹然如山。"/>
+  		<string id="ovNQ5vWc" text="愿守疆土，护民安邦；巍巍城阙，昭我勇刚。"/>
+  		<string id="q4GmzqGo" text="尽心图报，侠义献邦；倘有一息，不损荣光。"/>
+		
+  		<string id="SLtHYi3b" text="竭诚我忠，尽献公国。赫赫声名，其曰帕拉翁。"/>
+  		<string id="t8pLb3RW" text="效忠公爵卡西永，戍守山林，勇护国疆。"/>
+  		<string id="lFvgNtDQ" text="黎民圣土，吾誓卫之；暄烜天马，吾誓爱之。"/>
+  		<string id="P9Q1yO1C" text="既为骑士，当守希望；戍卫国土，余烈流芳。"/>
+
+  		<string id="MQxlkddN" text="至荣至谦，纳忠效信；献忠公国，奎那利斯。"/>
+  		<string id="h0T2qvlW" text="效忠公爵，坦克雷德二世；明睿毅决，勃然奋励。"/>
+  		<string id="kEwIp6gn" text="黎民圣祠，吾当卫之；奎那利斯，吾当护之。"/>
+  		<string id="l3srsMFD" text="既为骑士，当守侠义；卫戍国境，护其美绮。"/>
+
+  		<string id="TfmAmgfy" text="至忠至谦，纳信效忠，献忠国境，其曰穆席隆。"/>
+  		<string id="pPAhvyx9" text="誓愿随公，名曰毒蛇；影绰如斯，我当拥之。"/>
+  		<string id="DQRiTmXE" text="尘世之民，我当护之；魑魅游魂，我当佑之。"/>
+  		<string id="ZiaEfVGI" text="世人鄙我，自不畏之；旆旟招展，与公同仇。"/>
+
+  		<string id="ePeSQPny" text="我在此宣誓效忠瓦拉赫·哈肯、龙骑士团和我的同僚骑士们。"/>
+  		<string id="8aoXUS7U" text="我在此宣誓，我的剑将彻底毁灭人类和任何其他反对吸血鬼伟力的生物。"/>
+  		<string id="YBPa18bZ" text="愿我永远满足我的剑对鲜血的渴望，并追寻我们最强大的敌人。"/>
+  		<string id="4NWZEifj" text="我永远不会退出战斗，我会忠于你，否则就会承受背叛的后果。"/>
+
+  		<string id="2B1tIs8m" text="我于此邪夜向您，永生者扎卡利亚斯，尼古拉契家族之血脉，许下我永恒的誓言。"/>
+  		<string id="kNtvhKI0" text="我将潜心追求神秘，将灵魂羁束于魔法的精髓。"/>
+  		<string id="5XfElydV" text="在古冢之中，我将指引暗影，释放那早已作古的低语和隐秘。"/>
+  		<string id="PGbizH7L" text="正如汝在我沦殁后指引我的命运一般。"/>
+
+  		<string id="vOlDNPfz" text="大人，在这神圣的时刻，我站在您的面前，对您的光临深感荣幸。"/>
+  		<string id="rId5sWAF" text="我承诺守护土地，保护其魔力与美丽，让它将我们所有人联系在一起。"/>
+  		<string id="j1NTj7g0" text="在这波光粼粼的溪流和古树前，我宣誓成为我们王国的守护者。"/>
+  		<string id="RsuJwrzP" text="愿劳伦洛伦玛瑞斯特女王和艾尼尔永远繁荣昌盛！"/>
+
+  		<string id="wQXTCwCO" text="我发誓保护艾索洛伦王国。"/>
+  		<string id="Erqsjrmy" text="我将献身为艾索洛伦之弓，而她为我弦上之箭。"/>
+  		<string id="KBGk6FTT" text="我向我们的森林之主奥莱恩和艾瑞尔宣誓效忠，我也会在危难之时响应他们的号角。"/>
+  		<string id="lTIvdclC" text="愿森林之根引导我！"/>
+
+  		<string id="9PgIWGLP" text="锻造于瘟疫，我们从腐朽中崛起。"/>
+  		<string id="yiecdmkn" text="承蒙瘟疫之主恩赐，步入战场，战意昂扬。"/>
+  		<string id="252fVSGi" text="死寂中，吾等之力愈发强盛。"/>
+  		<string id="UWgidYk4" text="以纳垢之名，吾等将降下死亡！"/>
+
+  		<string id="2wJNBJVT" text="我宣布你为帝国贵族。你的生命与财产将被帝国的法律所保护，且不会非法遭到剥夺。你可作为一名官员监护领地，也可在我们召唤你时作为将军统帅军队。"/>
+  		<string id="6KHrlqxW" text="我宣布你为希尔瓦尼亚贵族以及冯·卡斯坦因的仆从。期待你执行我们的旨意，并在战时披挂上阵。"/>
+  		<string id="tEzwlI1A" text="{PLAYER.NAME}，我知道你会证明自己配得上我对你的信任。"/>
+  		<string id="SSQoHXYT" text="{PLAYER.NAME}，这是我的一些追随者，愿他们在战斗中助您一臂之力。接受这把剑吧。"/>
+  		<string id="KAYNi4Mp" text="以湖中女神之名，我宣布你为巴托尼亚贵族以及王国的卫士。"/>
+  		<string id="Q7jfmvkA" text="我任命你为艾索洛伦的守护者，阿斯莱的贵族，愿那弓矢永远正中靶心。"/>
+  		<string id="juNWaR9m" text="我宣布你为艾尼尔的贵族，为你现在是圣劳拉洛伦森林的卫士而骄傲吧。"/>
+  		<string id="tXfQ3tEn" text="愿纳垢赐福你的信仰。"/>
+
+  		<string id="zwQNneh3" text="其中一个帝国行省的选帝侯"/>
+  		<string id="ZupsQiZA" text="其中一个帝国行省的女选帝侯"/>
+  		<string id="Pj6ATEq8" text="血龙骑士团大团长"/>
+  		<string id="xBlsAV1h" text="希尔瓦尼亚领的统治者"/>
+  		<string id="GUmHckuu" text="希尔瓦尼亚的吸血鬼女士"/>
+  		<string id="0yxTDSSc" text="巴托尼亚公爵"/>
+  		<string id="1uJ63QTn" text="巴托尼亚女公爵"/>
+  		<string id="tfaG1ijc" text="穆席隆公爵"/>
+  		<string id="78gn2eXA" text="穆席隆女公爵"/>
+  		<string id="14TBTX4A" text="艾索洛伦贵族"/>
+  		<string id="bYugWF2Q" text="艾索洛伦贵族"/>
+  		<string id="61nR8e0d" text="劳伦洛伦贵族"/>
+  		<string id="g0BPYqRZ" text="劳伦洛伦贵族"/>
+  		<string id="SDkSFW8c" text="混沌领主"/>
+  		<string id="1rw9X2cb" text="混沌领主"/>
+
+  		<string id="Cdp22kiK" text="我是{CLAN_NAME}一族的{CONVERSATION_CHARACTER.LINK}。"/>
+  		<string id="a4sjz3C1" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。我们家族世代为帝国效力。"/>
+  		<string id="4BQRr0eT" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。我们家族从西格玛还未升格的时代就光荣地履行着我们的职责。"/>
+  		<string id="0AlgV4Gq" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。虽然一个人不应该对自己的血统太过骄傲，但我很乐意表示我们一直认真履行职责，保护着帝国的平民百姓。"/>
+  		<string id="BYqIK9cC" text="我是{CONVERSATION_CHARACTER.LINK}，来自{CLAN_NAME}家族，帝国史册上最显赫的家族之一。"/>
+  		<string id="SxLq0acE" text="我是{CONVERSATION_CHARACTER.LINK}，来自{CLAN_NAME}家族，帝国史册上最显赫的家族之一。世上最美妙的是什么？我告诉你，是将你的敌人碾碎，看他们在你面前窜逃，再听他们的寡妇致哀祷告。"/>
+
+  		<string id="5cQqxUm4" text="你要知道，如果你敢惹我，就会变成我们军队中的又一具不死士兵。"/>
+  		<string id="PmH364pZ" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。"/>
+  		<string id="o6Egrbdl" text="我是{CONVERSATION_CHARACTER.LINK}，来自{CLAN_NAME}家族。我很肯定你听过我们家族的名字，它总是被帝国的士兵们恐惧地低语。"/>
+  		<string id="vL2hBy2k" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。我们部族世世代代效忠于冯·卡斯坦因。"/>
+
+  		<string id="T0J7TVeE" text="幸会，我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}。"/>
+  		<string id="ZdiZiAQ1" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，我的家族世代为巴托尼亚人民和湖中女神服务"/>
+  		<string id="pldPS4kC" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，来吧，无论是朋友还是敌人，来吧，让我听听你要说什么。"/>
+  		<string id="UGe951Do" text="我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}，我的主人指示我不要对任何人表示怜悯，但你看起来并不会对我的事业构成威胁。"/>
+  		<string id="Uzl8Ea6b" text="我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}，快说吧，我对那些胸无大志的人没有耐心。"/>
+  		<string id="z1pxDP3E" text="苦工、乞丐和懦夫没有权利踏上{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}走过的土地。有话快说，否则我就宰了你。"/>
+
+  		<string id="BnIBpLwd" text="我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}。"/>
+  		<string id="qU3UsTND" text="你来到了{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}面前。"/>
+  		<string id="ekXfQjhK" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，来吧，无论是朋友还是敌人，来吧，让我听听你要说什么。"/>
+  		<string id="TFtZoiix" text="我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}，我的主人指示我不要对任何人表示怜悯，但你看起来并不会对我的事业构成威胁。"/>
+  		<string id="IxfPbJ42" text="我是{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}，快说吧，我对那些胸无大志的人没有耐心。"/>
+  		<string id="arPNmW47" text="苦工、乞丐和懦夫没有权利踏上{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}走过的土地。有话快说，否则我就宰了你。"/>
+
+  		<string id="7zm4mT52" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}"/>
+  		<string id="7FuZYb6z" text="你来到了{CLAN_NAME}家族的{CONVERSATION_CHARACTER.LINK}"/>
+  		<string id="Y9xkrTJd" text="你来到了{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，自精灵大分裂以来，我们的领地经受住了时间的考验。"/>
+  		<string id="7OeStTpi" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，我的领主吩咐我不要对任何人手下留情，但你似乎对我的事业并不构成威胁。"/>
+  		<string id="nsbwpqwv" text="我是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}。有话快说，我对无关紧要的事没什么耐心。"/>
+  		<string id="S4Pr6hnj" text="你面前可是{CLAN_NAME}的{CONVERSATION_CHARACTER.LINK}，谁给你的胆子？"/>
+
+		<!--skills-->
+  		<string id="5j0zXZqH" text="使用战斗祷告。"/>
+  		<string id="AgQs8pFN" text="使用火器战斗。"/>
+  		<string id="dGwQ4Ndl" text="施放法术，用魔法造成伤害。"/>
+
+		<!--crafting-->
+  		<string id="QRgbmv1s" text="TOR-巨剑"/>
+  		<string id="yrmHTDQC" text="TOR-剑"/>
+  		<string id="u6638g29" text="TOR-护手刺剑"/>
+  		<string id="L7IUh94o" text="TOR-镰刀"/>
+  		<string id="5orkSp5r" text="TOR-魔杖"/>
+  		<string id="5Ilgm0uJ" text="TOR-长柄武器"/>
+  		<string id="2Y77Lk6A" text="TOR-斧头"/>
+  		<string id="LCSnVYfQ" text="TOR-巨斧"/>
+  		<string id="b1ppRDaa" text="TOR-钉锤"/>
+  		<string id="4jRr3XSO" text="TOR-双手锤"/>
+  		<string id="34DzcunV" text="TOR-长枪"/>
+  		<!-- <string id="hwBNKrsp" text="TOR-双持"/> -->
+		
+  		<string id="Nfq313J1" text="单手剑"/>
+  		<string id="xSvE3at3" text="双手剑"/>
+  		<string id="5poglvyQ" text="刺剑"/>
+  		<string id="6WssnqiG" text="单手斧"/>
+  		<string id="vlujAIx9" text="双手斧"/>
+  		<string id="Q8uLMnCP" text="单手锤"/>
+  		<string id="4CYRMCps" text="双手锤"/>
+  		<string id="OiQSsgqY" text="单手长杆"/>
+  		<string id="ahNR1Lxp" text="双手长杆"/>
+  		<string id="hGumtvpi" text="架枪"/>
+  		<string id="NRjQQ7JE" text="法杖"/>
+  		<string id="6qr71Ohl" text="镰刀"/>
+  		<string id="8wXc4vAj" text="长矛"/>
+  		<string id="LYV9PY0I" text="骑枪冲刺"/>
+  		<!-- <string id="5sDe9jHK" text="双持"/> -->
+
+		<!--inventory-->
+  		<string id="YmmQF8Mh" text="手枪"/>
+  		<string id="wHaD9McE" text="火枪"/>
+
+  		<!--party screen-->
+  		<string id="q3bhAMpk" text="你愿意花{\?}买下{TRADE_AMOUNT}吗{?}，{?PAY_OR_GET}"/>
+
+  		<!--custom settlements e.g. chaos portal, shrines, herdstones -->
+  		<string id="jvKbK9Zo" text="你来到了时代橡树，艾索洛伦之心。"/>
+  		<string id="9AkVER63" text="你来到了亚登森林世界根须的尽头"/>
+  		<string id="spGWTI1X" text="你来到了劳伦洛伦世界根须的尽头"/>
+  		<string id="MO0TLFSV" text="你来到了劳伦洛伦世界根须的尽头。一位友好的咒咏者欢迎你的到来。只要你支付酬劳，他愿意将你传送到麦松塔森林。这笔费用并非由黄金支付。你愿意接受这个提议吗？"/>
+  		<string id="sFsj6xhP" text="你来到了麦松塔世界根须的尽头"/>
+  		<string id="CZaTwArE" text="你来到了一个不起眼的世界根须尽头。一位友好的咒咏者欢迎你的到来。只要你支付酬劳，他愿意将你传送到劳伦洛伦森林。这笔费用并非由黄金支付。你愿意接受这个提议吗？"/>
+  		<string id="H4RvIsRE" text="你来到了一个不起眼的世界根须尽头。"/>
+
+  		<string id="1pACSI4G" text="你来到了一个黑暗精灵的奴隶营。舰船停泊在海湾里，笼子里装满了“货物”。"/>
+  		<string id="m5WdCO94" text="奴隶贩子离开了岸边。晚点再回来吧。"/>
+  		<string id="Xwl8sG5t" text="尝试赶走奴隶贩子"/>
+
+  		<string id="NoaHSh6m" text="你来到了一处活跃的混沌传送门。这个邪恶的传送门散发着魔风，混沌军团的小部队正陆续地通过它入侵到这里。"/>
+  		<string id="66AycTlw" text="传送门暂停运作了。晚点再回来吧。"/>
+  		<string id="FFnjCW2X" text="尝试打败防守的混沌军团并且关闭这个传送门。"/>
+
+  		<string id="FBBY6Mx8" text="你来到一个野兽人的万魔岩。一堆熊熊燃烧的信号火点燃，将战帮聚集到这里的兽群集会地。"/>
+  		<string id="bI2kN0RI" text="这个万魔岩是空的，稍后再来吧。"/>
+  		<string id="FUHrQFDT" text="尝试在野兽人的血地核心击败他们的战帮。"/>
+
+  		<string id="63Rf5hfG" text="你来到了{RELIGION_LINK}的神殿。来自周围定居点的朝圣者正在向神王祈祷。"/>
+  		<string id="jEKsGlgO" text="神龛已经荒废，这里无事可做。"/>
+
+  		<string id="SoNvRmkv" text="你来到了{RELIGION_LINK}的神殿。。来自周围定居点的朝圣者正在向自然之神祈祷。"/>
+
+  		<string id="1VPyGori" text="你来到了{RELIGION_LINK}的树林。来自周围定居点的朝圣者正在向湖中女神祈祷。"/>
+
+  		<string id="C3MmJM8e" text="这片被当地的希尔瓦尼亚人遗弃的土地充斥着食尸鬼和像迷宫一般可能有幽灵的荆棘和沼泽。只有疯狂或绝望的人才会冒险踏入其中。"/>
+  		<string id="AB5n8RzI" text="你不应该看到这个。"/>
+
+  		<string id="Q7yj9Q6c" text="你来到了{RELIGION_LINK}的神殿。庙宇潮湿而祭司们正在祈祷。"/>
+
+  		<string id="mGkfW0oc" text="你来到了{RELIGION_LINK}的神殿。阿苏焉的圣火正于此地燃烧。"/>
+
+  		<string id="qn7ZSDOY" text="你来到了{RELIGION_LINK}的神殿。狼首好像在注视着你走出的每一步。"/>
+
+  		<string id="FYPJIFXe" text="你来到了{RELIGION_LINK}的神殿。姐妹们正在照料伤员。"/>
+
+  		<string id="AO61I4aB" text="你来到了{RELIGION_LINK}的神殿，影子们好像自己在树木周围舞蹈。"/>
+
+  		<string id="GQqWfUAP" text="你来到了{RELIGION_LINK}的神殿，神殿周围四处摆放着装满鲜血的碗。"/>
+
+  		<string id="I6EtSzIZ" text="你来到了{RELIGION_LINK}的神殿。来自艾索洛伦各个角落的工匠与铁匠都在这强大的熔炉里工作。"/>
+
+  		<string id="HzVaU1RG" text="你来到了{RELIGION_LINK}的神殿。狂猎们看起来都在对猎神顶礼膜拜。"/>
+
+  		<string id="oenLQdue" text="你来到了{RELIGION_LINK}的神殿，圣母神庙散发着生育与生命的光芒。"/>
+
+		<!--wanderer stories-->
+  		<string id="zWmgTvZK" text="我的故事？当然，我可以分享给你。"/>
+  		<string id="RrX0eJjR" text="少年时期我就发现我不像周围的其他孩子，不久后学院也意识到了这一点。"/>
+  		<string id="k83JvAp0" text="我对阿克夏的亲和一被发现，就立即从我的农民生活中解放出来了，成为了阿尔道夫学院的一名魔法学徒。"/>
+  		<string id="b8lEJdu5" text="几年前阿尔道夫酒馆里的那场火？哈哈！肯定不是我吧！"/>
+  		<string id="xFx5QIxv" text="真有趣。"/>
+  		<string id="Y6iPs5RU" text="噗。"/>
+  		<string id="MdWjma8g" text="好吧。"/>
+  		<string id="DbHmrtvN" text="我是一个持证的阿尔道夫学院光明法师。我敢肯定你已经见过我们之中的好几个了，也知道我们到底能有多强大。"/>
+
+  		<string id="Gg6IY8GU" text="我的人生故事不重要，但我还是说说吧。"/>
+  		<string id="t8t3vv8g" text="我曾经是个孤儿，被留在教堂的门口，西格玛教会带走了我，把我养大。"/>
+  		<string id="Ml9iFPqn" text="我学到了许多神圣的经文，也把我的人生献给了抵御肮脏混沌的无尽战斗。"/>
+  		<string id="iHmw0BsS" text="我游历乡间，用坚定的决心执行净化。"/>
+  		<string id="E6E8ZtZt" text="我同意。"/>
+  		<string id="gWR1ntiz" text="你说完了吗？"/>
+  		<string id="iR39ueDK" text="我是一个西格玛的战斗牧师，没有腐蚀能够逃过我的怒火。"/>
+
+		<string id="vlgyUSjA" text="虽然没多少故事，但我还是讲讲我的过去。"/>
+  		<string id="Y9PpSGug" text="我妈在妓院里工作，我们基本没吃过一顿饱饭，也不知道我爸是谁。"/>
+  		<string id="cPdmHj1k" text="我很小的时候就不得不学习如何保护自己不受喝醉的酒客伤害。我妈不管我怎么求她，就是不愿意离开那儿。"/>
+  		<string id="Up3NdN0j" text="有一天事情搞大发了，她的一个客人想用某种神秘的仪式要了她的命。我偷了他的匕首割了他的喉咙，然后就逃到了圣堂那边，最后加入了他们。"/>
+  		<string id="jTHiJVh9" text="你做的是西格玛的活儿！"/>
+  		<string id="blm62rjH" text="这真是值得同情。"/>
+  		<string id="8nTBeNG3" text="我是个猎巫人，一个西格玛圣殿骑士。罪恶无法从我的身旁逃脱。"/>
+
+		<string id="cKFUH4XR" text="我的故事没有那么特别，但我也不介意讲一讲。"/>
+  		<string id="6TNvN6JW" text="我是一个巫师的孩子，在我也表现出了一点魔法天赋之后就被送到了学院。"/>
+  		<string id="tQMb0WEq" text="我一直都是班上的尖子。其他人指责我狂妄自大，但他们只不过是平庸到了不能理解天才的程度罢了。"/>
+  		<string id="wHx32V62" text="你在帝国绝对找不到第二个像我这样有能耐的法师了。我正在超越贝尔沙泽·盖尔特本人的路上呢！"/>
+  		<string id="YgyTwKrc" text="我明白了。"/>
+  		<string id="HTqBCEwz" text="噗，离谱。"/>
+  		<string id="xUO1qWwo" text="我是帝国学院的一个光明法师。我毫不怀疑你听说过我们的神通。"/>
+
+		<string id="PcSQo0a1" text="乐意之至。"/>
+  		<string id="MbGlbiTq" text="我出生在农奴家庭，但是在农田里工作可不是我想要的人生！"/>
+  		<string id="ws9QfDPl" text="我成为了一个炼金大师的学徒，但是那个杂种什么都没教我，却让我往死里加班了好几年。"/>
+  		<string id="GgFDgPtd" text="有一天，我在他的马车坏掉的时候从路旁逃走了，加入了军队，在那边我学到了如何保养装备。炸药更是我最近的兴趣所在。"/>
+  		<string id="UbdbFa8o" text="真有趣。"/>
+  		<string id="9BVrG5u4" text="我是一个擅长操作以及保养火药武器的工程师。"/>
+
+		<string id="JmYaSBDx" text="我是谁并不重要，重要的是我做了什么，我照料那些需要帮助的人。"/>
+  		<string id="RjMcxyR9" text="帮助病患和伤者一直是我的天职，我小时候父母就去世了，我不希望别人也遭受这样的痛苦。"/>
+  		<string id="hQoBQcYJ" text="我把一生都献给了莎莉雅，作为回报，我被赋予了治愈他人的礼物。"/>
+  		<string id="V631STtg" text="从那以后我就在帝国四处游历，寻找最需要我技能的地方。平等地照顾农民和士兵。"/>
+  		<string id="a1LOYlaF" text="我明白了。"/>
+  		<string id="OWEuXPnD" text="我是女神莎莉雅的祭司，专注于治愈的艺术。"/>
+
+		<string id="UDWGtJbR" text="你无需知晓我的故事，陌生人，只需了解我的技艺。"/>
+  		<string id="IH2IKH9y" text="我曾是一名宫廷猎手。好吧，曾经是。这么说吧，我只差一点儿就射中了一位贵族的屁股。"/>
+  		<string id="EQUy46pX" text="如今我追踪、捕猎，靠做雇佣兵赚钱。"/>
+  		<string id="vqMHDCi8" text="我猎杀过各种野兽和兽人，甚至偶尔还有兽人。我的技能会提供给出价最高的人。"/>
+  		<string id="arSk5TAX" text="Mhmm..."/>
+  		<string id="ZIbklMH9" text="我是个猎人，在为帝国服务时，我的手杀死了许多怪物。"/>
+
+		<string id="iBwLfEvf" text="重要的是我的故事，而不是我的名字……"/>
+  		<string id="osVjNeFY" text="我受尊贵的黄金学院录取，很快就在一众门徒中崭露头角。"/>
+  		<string id="s7MyGrXo" text="我对虔门之风的掌控几近完美。不过，拜尔沙泽·盖尔特很快现身，他的技艺使我们万马齐喑。我本可以成为帝国有史以来最伟大的黄金法师的。"/>
+  		<string id="fEaZSC9H" text="不过还好，我在学院积累了无价的学识，能在盖尔特追名逐利的时候向整个旧世界证明我的价值。"/>
+  		<string id="EvbrWW2z" text="是的……当然。"/>
+  		<string id="6BHeneqT" text="看来我得在第二金属法师的位子上将就了。"/>
+  		<string id="4V1C55J4" text="别让我的外表蒙骗了你的双眼，很快，我就会超越盖尔特。拭目以待吧。在这期间，我必须得磨炼我的技能，最好是在某个能干的人身边。另外，我还希望有一些特定的待遇。"/>
+  		<string id="RsE6Pu0T" text="我是帝国学院的金属法师，施术者和炼金大师。"/>
+  	
+		<string id="nL5urn3Z" text="生命满是疑问，而我能为你一一解答。"/>
+  		<string id="aDMMTlUk" text="我的家在德拉科瓦尔德森林——我在那里出生长大，第一次被纪伦之风所滋养。人们叫我们德鲁伊。"/>
+  		<string id="cvM56wii" text="我看护自然，治愈伤痛，因着我的魔法是恢复之力，而非无脑的毁灭。"/>
+  		<string id="LoStxBR3" text="我的职责是在帝国和养育我们的自然之间保持平衡。"/>
+  		<string id="uOXaCu0Y" text="太棒了！"/>
+  		<string id="6vQop84U" text="我会把它当做最重要的职责。"/>
+  		<string id="zs8MR64E" text="我是帝国学院的生命法师。你一定听说过我们的神通。"/>
+
+		<string id="819FqRjr" text="你的好奇心真重，旅行者。你想听听我的故事吗？"/>
+  		<string id="qfakaDji" text="我还小的时候，我就感觉到与那些森林生物有着强烈的联系。不就我就学会了和它们交谈。"/>
+  		<string id="2RsKLXJl" text="当村民们发现这件事时，他们喊着异端，想把我绑在木桩子上烧死。还好我有幸脱逃，跟森林里的动物一起躲了起来。"/>
+  		<string id="VvPq6sPP" text="在独自生活很长时间之后，一名琥珀法师发现了我并邀我同行。他告诉我说那些能力并不代表我是混沌的造物，而是受了辜尔之风的祝福。"/>
+  		<string id="MQgsr3jd" text="帝国的公民有时很残忍。"/>
+  		<string id="4fm23da6" text="怪不得你这么孤僻。"/>
+  		<string id="akQSRoiM" text="我是帝国学院的一名野兽法师。你一定听说过我们赖以为生的实力和才能。"/>
+
+		<string id="UTRXtQcT" text="嗯，你想知道我的过去？那么接下来我会分享我传奇的一生。"/>
+  		<string id="AFRgmcAB" text="死亡一直都围绕在我四周，死亡就是希尔瓦尼亚的全部。"/>
+  		<string id="OPb27ANO" text="我的命运绝不是成为一具僵尸在地上乱爬，而是控制它们、召唤它们，让它们为我所用。"/>
+  		<string id="5Mr0met8" text="这花了点时间，但最终死者还是服从于我的意志，且我的力量一天天膨胀。"/>
+  		<string id="cIatx172" text="真有趣。"/>
+  		<string id="UHyBDOCa" text="我可一点都不关心你那肮脏的出身。"/>
+  		<string id="3nuEpFJB" text="我是掌控生与死的主人，无数人都畏惧我，你呢？"/>
+
+		<string id="75VyXbOg" text="我不太记得过去，我只知道当下和心中的欲望。"/>
+  		<string id="xpJcMb4o" text="作为人类的感觉好像一个幻梦一样，而我已经高兴地从那个梦里得到了解放。"/>
+  		<string id="YV0o2o8w" text="以前我作为血税被从村子里带走了，但我的吸血鬼主人却发现我正好是他想要的人。我被纳加什的礼物所祝福了"/>
+  		<string id="IMOv9IqV" text="然而我的主人却在吸血鬼战争中湮灭了，从那天起我就一个人被留在夜晚里游荡。"/>
+  		<string id="BbI9dlee" text="我是新生吸血鬼，强大且不死。"/>
+
+  		<string id="EW7cL8Vj" text="破碎的记忆，勇士，士兵？太久远了。"/>
+  		<string id="ftLr7mBZ" text="失去了很多，流血，战斗，死亡。"/>
+  		<string id="ftLr7mBZ" text="我臣服，我战斗，我毁灭。"/>
+  		<string id="lXk8IB6I" text="好好好……"/>
+  		<string id="F5p0prHc" text="我，尸妖王，侍奉于黑暗。"/>
+
+		<string id="8olg3lui" text="喔~你想听我的故事吗？很好。"/>
+  		<string id="FHYY5i18" text="正如你的眼睛所看到的，我是一位吸血鬼女伯爵。"/>
+  		<string id="K5stDGW2" text="然而，我坐在这里等待，看是否有人值得我花时间去关注，因为处理内费塔塔斯的家族政治对我来说无聊透顶。"/>
+  		<string id="FtugwWgY" text="相信我，如果您有兴趣，我的服务确实会非常有价值"/>
+  		<string id="xvDkbPEO" text="我想"/>
+  		<string id="5zjwuQu6" text="好吧，那你要说什么？"/>
+  		<string id="nXSJpF7u" text="我是一名莱弥亚女伯爵，不仅能在战斗中保护自己，而且在旅行中对您会非常有帮助。"/>
+
+		<string id="0pVGgLII" text="我不介意与陌生人谈论我的生活。"/>
+  		<string id="UY89LN1b" text="我出生于卡尔卡松的一个贵族家庭，我的父亲在我之前是一名骑士。"/>
+  		<string id="UKdi18l0" text="成为一名骑士是我的职责，我目前正在寻求获得湖中女神的青睐。"/>
+  		<string id="hLgvuLyV" text="我的旅程才刚刚开始，我还有很多东西要学。"/>
+  		<string id="PyKVKxQg" text="我希望你能实现你设定的目标。"/>
+  		<string id="ZLgdKoEK" text="你不应该离家那么远。"/>
+  		<string id="FwAHMuwb" text="我是一名探险骑士，一生献身于湖中女神和巴托尼亚。"/>
+
+  		<string id="gtrAePLc" text="帮助患者一直是我的使命。和许多人一样，我因为与魔法之风的亲和力而被救出并接受训练。"/>
+  		<string id="J1SZAxNk" text="我将我的生命奉献给了湖中女神，作为回报，我因帮助她的骑士而获得了一份礼物。"/>
+  		<string id="t8XU6ZOG" text="从那时起，我一直在各地旅行，寻找最需要我的技能的地方，并照顾农民和士兵。"/>
+
+		<string id="QS6jVTEN" text="哼~ 你想听听我的故事吗？"/>
+  		<string id="kdviHsXP" text="很久以前，我也是那些追寻骑士之道中的一员，为那个该死的女士奉献了我的一生。"/>
+  		<string id="OjKpnIN3" text="但这么多年过去了，一个又一个任务，一次又一次杀戮，她仍然不认为我配得上！这个混蛋！"/>
+  		<string id="SN30SQMz" text="现在我不再追随那条虚伪的宗教之路，而是寻找那些钱袋最鼓的人。"/>
+  		<string id="pw6uIqdj" text="非常有趣。"/>
+  		<string id="u2sPCDvL" text="我希望这是您唯一要寻找的东西。"/>
+  		<string id="ezAxJtBe" text="好吧，别浪费我的时间了。"/>
+  		<string id="71LgeWAL" text="我曾经是一名巴托尼亚骑士，如果你需要杀死什么，我就是你的战士。"/>
+
+  		<string id="jIGS48J6" text="死亡一直都围绕在我四周，死亡就是穆席隆的全部。"/>
+  		<string id="IUcXXgKZ" text="我的命运绝不是成为一具僵尸在地上乱爬，而是控制它们、召唤它们，让它们为我所用。"/>
+  		<string id="JJvse70R" text="这花了点时间，但最终死者还是服从于我的意志，且我的力量一天天膨胀。"/>
+
+		<string id="UUqR9oVu" text="关于我？我没什么好说的。"/>
+  		<string id="KTn60Hzt" text="我一生都在与毁灭之力斗争。我用艾瑞尔尚为凡人时就高耸的古树木材制作了自己的弓。我在十一岁就杀了人生第一只劣角兽，十四岁杀了第一只混沌造物。最近，我在两百步开外只用一箭就正中了一只食人妖的眉心。"/>
+  		<string id="eX6RO6dJ" text="野兽，怪物，人类，甚至其他精灵，如果有必要，任何威胁森林的造物都会尝到我箭头的锋利。"/>
+  		<string id="vd1KouSG" text="看好了，我族每斩杀一名敌人，都会在小臂上留下一道记号。上面还有很多空位呢。"/>
+  		<string id="8DXcMIw1" text="世界上少一点恶心的生物还是很好的。"/>
+  		<string id="TH9TPEvE" text="一个小孩子能杀野兽？我反正不信。"/>
+  		<string id="dpxKDyyz" text="我是陶瑞尔一族的守护法师，魔法技艺的专家。我将降下艾尼尔的正义。"/>
+  		<string id="yPvGkDYb" text="我更愿意留在我亲爱的树林里。但要是价钱合适，我或许也能陪你一段时间。"/>
+  		
+		<string id="kuH3V8V11" text="傲慢无礼之人，你面前可是艾尼尔的守护法师。"/>
+  		<string id="r30YZh45" text="我的血脉来自一支古老的战士家族，能追溯到长须之战。没错，我的一个祖先就是伟大的凯勒多二世的左膀右臂，和他一同在三塔之战中并肩作战。"/>
+  		<string id="sxroTx2j" text="着实是荣耀的血脉。"/>
+  		<string id="TG5xGH7M" text="很多人都自称是古代英雄之后。"/>
+  		<string id="ZLMxxITt" text="站着，陌生人。我的服务可不便宜——你最好展现你的诚意。"/>
+
+		<string id="uMutfUnO" text="啊，不敢相信我们曾有一面之缘。祝你平安，陌生人。"/>
+  		<string id="izhc3dNg" text="你之前见过像我一样的人吗？这并不奇怪，因为我是阿斯莱的咒咏者。"/>
+  		<string id="BV4u5oHw" text="不像我大多数的族人，我拥有与深林中魔法生物沟通的稀有能力。我能把他们和我自己的思想融合起来，还能保证它们紧密合作。"/>
+  		<string id="fa7FQvxG" text="我所拥有的才能对于大多数精灵而言不过是基本的天赋。然而，作为一名真正有天赋的精灵，这份才能则会锐变成一股强大的力量。"/>
+  		<string id="CgRrkE2O" text="这无疑是一种可怕的力量。"/>
+  		<string id="zn5OMduq" text="这些都是吓唬孩子的故事。"/>
+  		<string id="k9g6B6B7" text="森林是一个有生命的，尊重森林，森林就会回馈你，而我就受到森林宠爱，许多人都在寻找拥有我这样能力的人。"/>
+  		<string id="78ItSRMr" text="许多人都渴望拥有一名咒咏者，但很少有人愿意为此付出代价。"/>
+
+		<string id="PadbRW6q" text="我不记得在这里见过你，你是谁？"/>
+  		<string id="cKtzu3iW" text="我是个贫寒家庭的小女儿，侍奉着一位伟大的阿斯莱领主。然而出身并不是一切。多年以来我磨炼着我的剑、矛与弓箭的技艺。我的勇气和领导才能让我赢得了林地队长的称号。"/>
+  		<string id="myS0VzUr" text="不过，我依然渴望攀登更高的山峰。要想成为一位林地领主，并赢得“库诺斯之爪”的称号，我必须建立起卓越的声誉，并且向艾索洛伦的所有人展示我的力量。"/>
+  		<string id="sT9OZVl9" text="森林是一个生机勃勃的存在。只要给予它应有的尊重，就能按自己的意志来塑造它。许多人都在寻找拥有我这种能力的人。这就是为什么我远离故土，寻求新的挑战来磨炼自己，并在阿斯莱氏族中赢得尊重。"/>
+  		<string id="vx8RgA7w" text="如果你愿意加入我的队伍，我保证你将拥有这样的机会。"/>
+  		<string id="RdTtY0EJ" text="一个阿斯莱的职责在于森林，你该回家了。"/>
+  		<string id="qZ2jkDxV" text="若你的战团需要第二位指挥官的话我很乐意效劳。我将率领你的军队走向胜利。"/>
+  		<string id="T3H3HShu" text="你是有名的指挥官吗？你能帮我爬到那样的地位吗？我相信你是不会反对去证明你的实力的。"/>
+
+		<string id="1tA8uk1P" text="陌生人，愿库诺斯与你同在。"/>
+  		<string id="6vBXuPRO" text="我是一名巡林客，擅长伏击和隐身。小时候，我能感受到万林的呼唤在我的血液中流淌。我经过训练，能够悄无声息地消失在荒野中，并隐藏自己的踪迹，静静等待猎物的出现。"/>
+  		<string id="tBEwzHwL" text="我曾进入过连阿斯莱人也不敢轻易涉足的森林深处，当其他人躲在安全的大厅里时，我却在磨练自己的射箭能力，让我的箭矢精准无误地射中目标。"/>
+  		<string id="J9fCzd5t" text="在精灵中，能与像我这样的巡林客抗衡的人屈指可数。"/>
+  		<string id="3koFUAav" text="毫无疑问，你一定是个天才。"/>
+  		<string id="WI9LXeH4" text="阿斯莱喜欢你的陪伴？"/>
+  		<string id="Vqz4uXnn" text="我精通生存、破坏和埋伏，甚至可以接近我的猎物时迅速出击，然后在它的身体落地之前消失，亦或者我可以巧妙地将它引入我的陷阱。"/>
+  		<string id="I07I8XnY" text="我只有一个请求，虽然我很少离开森林，但当我离开后，我想寻求文明生活的乐趣，美酒和同伴……我相信您能提供这些。"/>
+		
+		<!-- Religions -->
+  		<string id="tor_religion_label_str" text="信仰"/>
+        <string id="tor_religion_text_frame_str" text="{TOR_RELIGION}的{TOR_DEVOTION_LEVEL}"/>
+        <string id="tor_religion_change_notification_frame_str" text="{PLAYER.NAME}现在是{TOR_RELIGION}的{TOR_DEVOTION_LEVEL}"/>
+        <string id="tor_religion_label_none_str" text="不信仰任何一神"/>
+        <string id="tor_religion_label_follower_str" text="信徒"/>
+        <string id="tor_religion_label_devoted_str" text="热诚信徒"/>
+        <string id="tor_religion_label_fanatic_str" text="虔信者"/>
+        <string id="tor_religion_description_cult_of_sigmar_str" text="帝国的西格玛崇拜，有时也被称为西格玛教会、圣殿、神职团或简称为西格玛教，它是帝国的国教，负责管理该领域的守护神西格玛·赫尔登哈默的崇拜。西格玛教会由狂热的修道士约翰·赫尔斯特鲁姆于帝国历73年创立，当时他向众人讲述了他所经历的一次关于西格玛跪拜在战争和冬季之神乌尔里克面前的异象，乌尔里克将神冠戴在西格玛头上，使其成为旧世界万神殿中的众神之一。至今，西格玛教会已成为帝国社会的重要组成部分。帝国内几乎每个城市、小镇或村庄都为创建和维护西格玛教殿献出了财富和土地的一部分，教会的神职人员将通过祷告的圣言、英勇的行动以及战斗中的试炼来关心其公民的精神福祉。{newline}{newline}西格玛教会在维护帝国的信仰和道德价值观方面扮演着重要角色。{newline}{newline}它为人民提供指引、安慰和集体感，并成为内外威胁的统一力量。教会的教义强调勇气、正义和荣誉等美德，其神职人员经常在社区中担任领导角色。总体而言，西格玛教会是帝国宗教和社会生活的重要支柱，培养对西格玛的奉献精神，强化支撑帝国稳定和福祉的价值观。"/>
+        <string id="tor_religion_description_cult_of_taal_str" text="塔尔和蕾雅崇拜是旧世界最古老且广泛存在的信仰之一，可以追溯到最深远的历史，与原始神祇直接相连。教会的发展自然而然地发生，早期的人类试图解释自然现象，如雷电、季节的更替以及海洋的涨落。随着时间的推移，塔尔和蕾雅这两位神祇诞生了，最初作为一个单一实体，被称为Ishnernos。这种分裂发生在数千年前，而Ishnernos信仰团则逐渐消失在遥远的记忆中。塔尔统治着大自然，被视为众神之王。他宣称荒野为自己的领地，主要受到坚韧的林居人、追踪者和游侠的崇拜。蕾雅的信徒则分布在帝国的耕地和果园中，他们是农民、渔民和年轻情侣的信仰者。塔尔和蕾雅信仰团是塔拉贝海姆特许的宗教团体，在帝国的东部和北部非常受欢迎。在这两者之间，塔尔获得了更多的认可，而蕾雅的角色则大大减弱。塔拉贝海姆这座伟大的城市对塔尔和蕾雅的崇拜尤为热诚。然而，在其他城市，尽管蕾雅的名字普遍为人所知，但她的崇拜却很罕见，这导致许多城市居民认为她的信仰正在衰落。"/>
+        <string id="tor_religion_description_cult_of_ulric_str" text="尤里克教派，也称尤里克教会或简单称为尤里克信仰，是帝国许可的宗教组织，负责管理对战争、寒冬与狼之神尤里克的崇拜。它在影响力上仅次于西格玛教派，却是人类帝国中最古老的宗教之一，早在西格玛建立帝国之前便已存在。作为战争之神，尤里克的崇拜通过战斗与鲜血得以实现，任何胆敢对抗他的人都注定会遭遇其祭司的凶猛反击。{newline}{newline}尤里克，赐我以狼之獠牙，{newline}尤里克，赐我以狼之利爪，{newline}尤里克，赐我以狼之皮裘，{newline}我将以狼之怜悯对待您的敌仇。"/>
+        <string id="tor_religion_description_cult_of_shallya_str" text="莎莉雅的教团虔诚地崇拜这位象征慈悲的白鸽——白衣圣女莎莉雅。仁慈、怜悯与治愈是教团的教义，她的祭司在帝国各地向需要帮助的人伸出援手。旧世界艰难而残酷，疾病、伤痛与厄运充斥其间，常常将人逼至绝望深渊，而正是这些不幸之人，转向了莎莉雅，祈求她的祭司带来怜悯与慰藉。她的神殿同时也是医院，为那些无法负担医生费用的人提供治疗，这些医院由虔诚的女祭司们管理，极少有男性参与其中。"/>
+        <string id="tor_religion_description_cult_of_manaan_str" text="曼纳恩是旧世界负责监督与管理的海洋与潮汐之神，其崇拜组织尤其活跃于帝国西境的沿海地带，那里利爪海的浪涛拍击着人类的海岸。在玛丽恩堡，该教派的影响力尤为显著。其成员多为导航员、领航员和精壮的水手，而若有曼纳恩的祭司随船出行，则会被人们视为莫大的幸运。{newline}{newline}赞美曼纳恩，他是送我们远航的清风，{newline}赞美曼纳恩，他是迎我们归岸的浪潮，{newline}赞美曼纳恩，他是养育我们的大海丰饶，{newline}赞美曼纳恩，否则我们将葬身怒海狂涛。"/>
+
+        <string id="tor_religion_description_cult_of_lady_str" text="湖中女神崇拜，简称湖神信仰，是一个官方的国家宗教团体，致力于追随和维护湖中女神赋予他们的价值观，并为她和巴托尼亚王国的利益服务。自古以来，巴托尼亚人就将湖中女神视为他们的女神和主要的神明，她是神话和传说中的人物，指引着他们的国王，保护着他们的土地免受伤害。对女神的崇拜可以追溯到王国的最早时期。据说她在波尔德罗大胜的黎明时分，从一座神圣的湖泊中出现在吉尔·勒布雷顿和他的骑士伴侣面前。女神身披仙光，从水中升起，手持一只洋溢着光芒的圣杯，光芒溢出湖水，祝福着聚集的骑士们，直到黎明的阳光从山上升起。"/>
+        <string id="tor_religion_description_cult_of_nagash_str" text="各种吸血鬼都憎恶众神。他们并不否认众神的存在，但他们不侍奉众神，而是追求与众神平等。对于吸血鬼而言，最接近宗教的概念是他们共同承认纳迦什是不死之源的创造者。最终，所有的吸血鬼都源自他。纳迦什以许多名字为人所知，如“伟大的死灵法师”、“伟大的背叛者”、“篡夺者”、“不朽之王”、“不死亡灵的至高统治者”或简称为“不可言说者”。他是死亡和不死之物的终极化身，一位古老的邪恶存在，追求征服这个残酷、混乱的凡人世界，带来永恒的不死时代。纳迦什是黑暗和无理的仇恨的具象化，邪恶的死灵法术的创始人和吸血鬼之主。他的每一个行动和举动都是自私的，他的成就令人震惊和憎恶，他的每一个心血都是为了确保没有人再敢否认或挑战他统治的权利。"/>
+        <string id="tor_religion_description_cult_of_chaos_undivided_str" text="混沌无分派指的是混沌势力中的一个派系，它作为整体侍奉主要混沌神祇的众神团，而不是对其中一个神祇完全效忠。它通常由混沌的永恒选民代表，即作为所有主要混乱神祇最伟大的勇士的混沌领主来代表。混沌无分派的追随者崇拜混乱的力量本身，有时将其视为某些疯狂的旧世界学者所称的“大兽”，其中主要的混沌神祇被视为单一神明的四个主要组成部分，应当平等崇拜，因为它们是同一宇宙力量的不同表现。有时，这个实体会暂时搁置内部的疯狂斗争，也被称为伟大的游戏，使得主要混乱神祇的分散军队能够聚集在一面旗帜下，比如在各种混沌入侵已知世界的时刻，如大混沌之战和末世时刻。这些时刻让旧世界颤抖并充满恐惧和憎恶。"/>
+        <string id="tor_religion_description_cult_of_chaos_slaanesh_str" text="色孽，又被称为“黑暗王子”、“欢愉之君”、“放纵之主”、“痴迷之神”、“蛇神”、“一切事物中的过度之主”、“完美王子”，甚至被称为“混沌之王”，是快感、激情、痴迷、过度、享乐主义、颓废和痛苦的主要混沌神祇。色孽诞生于凡人的灵感和欲望，他是伟大的缪斯，梦想的实现者。他是激情的具象化。他是快感的化身，从解决问题的智力满足到满足低级欲望。他统治着挫折和痛苦的领域，是为了实现凡人所垂涎的事物而进行的斗争。他是刺激。他是痛苦。他是所有凡人经历的总和。"/>
+        <string id="tor_religion_description_cult_of_chaos_nurgle_str" text="纳垢，又被称为“瘟疫之主”、“慈父”、“疫病之王”、“苍蝇之主”、“始祖之父”和“乌鸦”等众多称号，是疾病、腐朽、绝望、毁灭、死亡和重生的主要混沌神祇。纳垢是与凡人特别是人类密切相关的混乱神祇，他们极度害怕死亡。他是四大混沌神祇中最年长的，事实上，他无疑是所有混沌神祇中最古老的，因为死亡和腐朽的过程就像生命本身一样古老。纳垢是宇宙中赋予所有生命以动力的不断死亡和重生的化身，他的存在是由凡人对死亡的恐惧以及他们对年龄和疾病所带来的不可避免的死亡感到绝望而产生的。"/>
+        <string id="tor_religion_description_cult_of_chaos_khorne_str" text="恐虐，又被称为“鲜血之神”、“杀戮之主”、“颅骨之主”、“灵魂猎手”和诺斯卡的“猎犬”，是战争、仇恨、愤怒、暴怒、谋杀、鲜血、力量、勇气和武勋的主要混沌神祇。恐虐是主要毁灭之力中年龄第二大的，他在这个持续冲突的时代的力量不断壮大，经常使他在对凡人世界的影响和众神之间的伟大游戏中成为最强大的混沌神祇。他的领域包括最基本和野蛮的有知觉情感——仇恨、愤怒、狂怒、对毁灭的欲望和杀敌的欢乐。在凡人世界中的每一次杀戮或谋杀行为都会滋养和增强恐虐，而越是毫无意义、残忍和嗜血，效果就越好。"/>
+        <string id="tor_religion_description_cult_of_chaos_tzeentch_str" text="奸奇，又被称为“变化之神”、“变革之主”、“命运的建筑师”、“风之主”、“乌鸦之神”和“伟大的密谋者”，是变化、进化、野心、阴谋、命运、谎言、欺诈、巫术、知识和变异的主要混沌神祇。虽然疲倦的恶魔学者以奸奇为名称识此神，但事实上，他在多个方面、名称和层面上超越了其他毁灭之力。因为他就是变化，据说体现了每个凡人生物对变化、成长、行动和追求更多的意识——更多的知识、更多的财富、更多的权力。他的面容和形态在永恒之中不断转变。"/>
+
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+        <string id="tor_religion_description_cult_of_isha_str" text=""/>
+
+        <string id="tor_religion_name_of_god_cult_of_sigmar_str" text="西格玛"/>
+        <string id="tor_religion_name_of_god_cult_of_taal_str" text="塔尔"/>
+        <string id="tor_religion_name_of_god_cult_of_ulric_str" text="尤里克"/>
+        <string id="tor_religion_name_of_god_cult_of_shallya_str" text="莎莉雅"/>
+        <string id="tor_religion_name_of_god_cult_of_manaan_str" text="曼纳恩"/>
+        <string id="tor_religion_name_of_god_cult_of_lady_str" text="湖中女神"/>
+        <string id="tor_religion_name_of_god_cult_of_nagash_str" text="纳迦什"/>
+        <string id="tor_religion_name_of_god_cult_of_isha_str" text="爱莎"/>
+        <string id="tor_religion_name_of_god_cult_of_kurnous_str" text="库诺斯"/>
+        <string id="tor_religion_name_of_god_cult_of_vaul_str" text="瓦尔"/>
+        <string id="tor_religion_name_of_god_cult_of_anath_raema_str" text="安埃斯·莱玛"/>
+        <string id="tor_religion_name_of_god_cult_of_asuryan_str" text="阿苏焉"/>
+        <string id="tor_religion_name_of_god_cult_of_loec_str" text="洛依克"/>
+        <string id="tor_religion_name_of_god_chaos_undivided_str" text="堕落之力"/>
+        <string id="tor_religion_name_of_god_cult_of_slaanesh_str" text="色孽"/>
+        <string id="tor_religion_name_of_god_cult_of_nurgle_str" text="纳垢"/>
+        <string id="tor_religion_name_of_god_cult_of_khorne_str" text="恐虐"/>
+        <string id="tor_religion_name_of_god_cult_of_tzeentch_str" text="奸奇"/>
+
+        <string id="tor_religion_blessing_effect_description_cult_of_sigmar" text="获得额外20%的威望。"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_shallya" text="你的队伍成员疗伤速度增加20%。"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_taal" text="森林中部队移动速度加快20%。"/>
+        <string id="n6ZASJ3A" text="战斗后额外获得20%的经验"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_manaan" text="你部队里的所有单位增加额外的10%闪电伤害"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_lady" text="仅限巴托尼亚出生，每日获得15骑士精神。"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_loec" text="你队伍中的所有单位都增加额外的15%移速和10%的攻击速度"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_isha" text="你的魔法之风再生速度增加25%。"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_asuryan" text="你队伍里的所有单位都增加10%的火焰伤害"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_vaul" text="你部队里的所有单位都增加10%的物理抗性"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_raema" text="在战斗后战利品里额外增加七件随机物品。"/>
+        <string id="tor_religion_blessing_effect_description_cult_of_kurnous" text="你单位里的所有远程部队都增加额外10%的物理伤害。"/>
+
+        <string id="tor_religion_blessing_name_cult_of_sigmar_str" text="西格玛的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_taal_str" text="莎莉雅的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_taal_str" text="塔尔的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_lady_str" text="湖神的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_ulric_str" text="尤里克的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_manaan_str" text="曼纳恩的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_loec_str" text="洛依克的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_isha_str" text="爱莎的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_asuryan_str" text="阿苏焉的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_vaul_str" text="瓦尔的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_raema_str" text="安埃斯·莱玛的祝福"/>
+        <string id="tor_religion_blessing_name_cult_of_kurnous_str" text="曼纳恩的祝福"/>
+
+        <!-- Career related -->
+        <string id="Ff2d1g7v" text="西格玛战斗牧师"/>
+        <string id="VACersqr" text="尤里克战斗祭司"/>
+        <string id="Zl70JNDb" text="猎巫人"/>
+        <string id="nFnVu70n" text="吸血鬼贵族"/>
+        <string id="0DbC7BaR" text="巴托尼亚骑士"/>
+        <string id="8eT4KEvy" text="圣杯之女"/>
+        <string id="OgVhLRE7" text="血骑士"/>
+        <string id="nZyqBGQM" text="雇佣兵"/>
+        <string id="aZzFE40k" text="死灵法师"/>
+        <string id="W7qZomWp" text="帝国学院魔导师"/>
+        <string id="N2HgPvyf" text="穆席隆骑士"/>
+        <string id="ehuB1miD" text="尼古拉契吸血鬼"/>
+        <string id="8SognkF4" text="巡林客"/>
+        <string id="vZRG8LI1" text="咒咏者"/>
+        <string id="6XzDm5mA" text="灰领主"/>
+        <string id="yOG7EvBM" text="冯·卡斯坦因吸血鬼"/>
+
+        <string id="QRJiHduu" text="成为卡斯坦因吸血鬼"/>
+        <string id="LxFY9iTv" text="成为血骑士"/>
+        <string id="rxtnNbS4" text="成为穆席隆骑士"/>
+        <string id="X6bkPnZV" text="成为尼古拉契吸血鬼"/>
+
+        <string id="BCGOxwvk" text="被接纳为吸血鬼是一个永久性决策，而在接下来的游玩过程中你也没有回头路可走。{newline}{newline}成为吸血鬼后你将会被剥夺除了基本魔法以外的所有法术和信仰技能。{newline}除此之外你将获得吸血鬼之力。{newline}在百科中获取更多信息。{newline}{newline}如果您拒绝，对话可以重新开始。"/>
+        <string id="co0Dfv5I" text="被接纳为血龙骑士吸血鬼是一个永久性决策，而在接下来的游玩过程中你也没有回头路可走。{newline}{newline}成为血龙骑士后你将被剥夺你全部的施法与信仰技能，无法施法。{newline}{newline}除此之外你将被切换到专注于近身战的血龙骑士职业。{newline}{newline}在百科中获取更多的信息。{newline}"/>
+        <string id="FLA8wuZv" text="被接纳为穆席隆骑士是一个永久性决策，而在接下来的游玩过程中你也没有回头路可走。{newline}{newline}成为穆席隆骑士后你将被剥夺你全部的信仰技能。{newline}{newline}在百科中获取更多的信息。{newline}{newline}如果您拒绝，对话可以重新开始。{newline}"/>
+        <string id="jzw6cWjF" text="被接纳为尼古拉契吸血鬼是一个永久性决策，而在接下来的游玩过程中你也没有回头路可走。{newline}{newline}成为尼古拉契吸血鬼后后你将被剥夺你已有的全部光明魔法与生命魔法与信仰技能。{newline}除此之外你将获得尼古拉契之力。{newline}在百科中获取更多的信息。{newline}{newline}如果您拒绝，对话可以重新开始。"/>
+
+        <string id="career_choicegroup1_witch_hunter_str" text="猎巫人新手"/>
+        <string id="career_choicegroup2_witch_hunter_str" text="猎巫人队长"/>
+        <string id="career_choicegroup3_witch_hunter_str" text="猎巫人大师"/>
+
+        <string id="career_choicegroup1_warrior_priest_ulric_str" text="侍僧"/>
+        <string id="career_choicegroup2_warrior_priest_ulricstr" text="狼祭司"/>
+        <string id="career_choicegroup3_nwarrior_priest_ulric_str" text="尤里克高阶祭司"/>
+	        	
+        <string id="career_choicegroup1_warrior_priest_str" text="西格玛狂热者"/>
+        <string id="career_choicegroup2_warrior_priest_str" text="战斗牧师"/>
+        <string id="career_choicegroup3_warrior_priest_str" text="大诵经师"/>
+	        	
+        <string id="mv0MxDiU" text="学徒"/>
+        <string id="50Ur3z4i" text="学者"/>
+        <string id="lMHVVFdU" text="巫妖大师"/>
+
+		<string id="career_choicegroup1_minor_vampire_str" text="新血"/>
+        <string id="career_choicegroup2_minor_vampire_str" text="吸血鬼"/>
+        <string id="career_choicegroup3_minor_vampire_str" text="长老"/>
+
+        <string id="career_choicegroup1_blood_knight_str" text="新兵"/>
+        <string id="career_choicegroup2_blood_knight_str" text="血骑士"/>
+        <string id="career_choicegroup3_blood_knight_str" text="团长"/>
+
+        <string id="career_choicegroup1_grail_knight_str" text="侠义骑士"/>
+        <string id="career_choicegroup2_grail_knight_str" text="探险骑士"/>
+        <string id="career_choicegroup3_grail_knight_str" text="圣杯骑士"/>
+
+        <string id="career_choicegroup1_mercenary_str" text="新兵"/>
+        <string id="career_choicegroup2_mercenary_str" text="军士"/>
+        <string id="career_choicegroup3_mercenary_str" text="指挥官"/>
+
+        <string id="career_choicegroup1_grail_damsel_str" text="圣杯侍女"/>
+        <string id="career_choicegroup2_grail_damsel_str" text="圣杯之女"/>
+        <string id="career_choicegroup3_grail_damsel_str" text="女先知"/>
+
+        <string id="career_choicegroup1_black_grail_knight_str" text="厄运贵族"/>
+        <string id="career_choicegroup2_black_grail_knight_str" text="厄运探险骑士"/>
+        <string id="career_choicegroup3_black_grail_knight_str" text="秽杯骑士"/>
+
+        <string id="career_choicegroup1_necrarch_str" text="学徒"/>
+        <string id="career_choicegroup2_necrarch_str" text="求索者"/>
+        <string id="career_choicegroup3_necrarch_str" text="大师"/>
+
+        <string id="career_choicegroup1_imperialmagister_str" text="见习魔导师"/>
+        <string id="career_choicegroup2_imperialmagister_str" text="战斗法师"/>
+        <string id="career_choicegroup3_imperialmagister_str" text="大魔导师"/>
+
+        <string id="career_choicegroup1_waywatcher_str" text="斥候"/>
+        <string id="career_choicegroup2_waywatcher_str" text="巡林客"/>
+        <string id="career_choicegroup3_waywatcher_str" text="迷踪客"/>
+
+        <string id="career_choicegroup1_spellsinger_str" text="咒咏者"/>
+        <string id="career_choicegroup2_spellsinger_str" text="咒织者"/>
+        <string id="UAUKeR7u" text="大师咒织者"/>
+
+        <string id="career_choicegroup1_greylord_str" text="流亡者学徒"/>
+        <string id="career_choicegroup2_greylord_str" text="灰法师"/>
+        <string id="career_choicegroup3_greylord_str" text="灰领主"/>
+
+  		<!--Career related !-->
+		<string id="career_description_warriorpriest_str" text="在凡俗生活中，西格玛象征着人类团结一致，对抗邪恶、抵御腐化的坚定意志。你将他开辟的道路奉为榜样，珍藏于心。身为西格玛的神职者，你是全人类的守护者与引路人。尽管许多神职者选择留守在寺庙和大教堂中，但你深知真相——唯有亲身出击，才能追捕并消灭那些被诅咒者与诅咒者。"/>
+		<string id="career_description_warriorpriest_ulric_str" text="成为狼祭司意味着成为尤里克冠军之一，变得强大，热忱，受野性之神的祝福。哪里有战场，哪里就有尤里克的道。在流淌的鲜血之中，他在祭献之中得以荣耀。"/>
+        <string id="career_description_bloodknight_str" text="由艾博赫拉什所创造的血骑士，是对凡人一切高尚与美德的黑暗讽刺。曾经象征荣誉的他们，在经历血之吻后，变得残忍无情；信仰转变为对一切的轻蔑，而责任则沦为肆意的野心。尽管所有吸血鬼都具备这些特征，但旧世界的堕落骑士更加悲惨。"/>
+        <string id="career_description_minorvampire_str" text="吸血鬼以许多名字为人所知，也被众人所恐惧。无论是人类还是野兽，圣洁还是恶魔，几乎没有人能够面对吸血鬼并幸存下来。所有的吸血鬼都努力成为他们不死生命的唯一主宰，摆脱对宗教或主人的任何义务。这种自恋的驱动力推动着他们追求更大的野心，以便有一天能成为他们所观察到的一切的主宰。"/>
+        <string id="career_description_mercenary_str" text="活在帝国历2500年，你是那无数人类之一。旧世界正处在毁灭与混乱的边缘，四周是无尽的混沌与死亡。在这个时代，软弱意味着灭亡；有些人则从乱世中寻找机遇，将战争化作财富，把斗争磨砺为荣耀，将悲剧铸就成命运。或许有人会称你为雇佣兵，但不管别人怎么称呼，你的命运从未被他人左右。"/>
+        <string id="career_description_grailknight_str" text="成为巴托尼亚的骑士，意味着终生追寻女神的祝福与圣杯的恩赐。任何被选中得以从圣杯中饮下圣水者，都会蜕变为神圣的战士，受到整个巴托尼亚乃至更遥远之地的敬仰与尊崇。通往这一崇高目标的道路充满艰辛，绝大多数骑士虽怀揣同样的梦想，抵达终点者却寥寥无几。"/>
+        <string id="career_description_graildamsel_str" text="女巫是被湖神仙女寻找出来的孩子，因为她们具有潜在的魔法潜力。她们被带离家庭，秘密地培养成为巴托尼亚的强大守护者。在完成培训后，她们踏上旅途，前往各地帮助人民，并影响骑士们，以实现他们的战斗潜力。"/>
+        <string id="career_description_necromancer_str" text="虽然许多黑暗魔导师都在侍奉不朽的吸血鬼。但实际上，在吸血鬼出现之前关于死亡与不死的研究就已经开始了。死灵法师终其一生都在研究困扰着每一个凡人的终极问题：如何才能长生不老？对于在哲学意义上来讲更高尚的的死灵法师来说，吸血鬼不过是试图回答这个问题的一个比较成功的失败品而已。这些堕落的学者们所深信的唯一真理是去学习纳伽什的成果并对其加以创新。纳伽什是首个，也是最伟大的死灵法师。"/>
+        <string id="career_description_witchHunter_str" text="无论是以信仰、纯洁还是利益之名。猎巫人都有义务去消除那些传播黑暗腐蚀之人所造成的威胁。他们以保护无辜灵魂为由，为自己的武器、超常规的工具和不择手段辩护。这是一项吃力不讨好的任务，即使是他们所宣誓保护的人，也会害怕猎巫人的影子踏入门槛。"/>
+        <string id="career_description_black_grail_knight_str" text="不祥和可怕的是，秽杯骑士是神秘的穆席隆之蛇的私人随从。秽杯骑士在面对诸多巴托尼亚政治时，表现出了和他们的狡诈和强大如出一辙的策略和过人的才能。即便如此，他们还常常能用甜言蜜语和巧舌如簧来赢得许多人的心，吸引更多的人加入他们从湖中女神的谎言中解放巴托尼亚的事业。"/>
+        <string id="career_description_necrarch_str" text="在纳迦什的造物中，尼古拉契吸血鬼也许是最接近他邪恶形象的化身。所有尼古拉契都专注于一个目标——不断精进他们的死灵法术。他们远离文明，隐居深处，孜孜不倦地研究和实践那些污秽的魔法。在极少数情况下，某位尼古拉契会打破自我强加的隔绝而现身世间，而他们的出现几乎总伴随着一片腥风血雨和废墟，因为极少有人能从这些永恒不灭的恶灵手中幸存。"/>
+        <string id="career_description_imperialmagister_str" text="学院的魔导师过着养尊处优的日子，他们被授予空间与资源来安全地精进其技艺。作为回报，他们要向他们的学派和整个帝国奉献终生。魔导师的职责广泛，无论是摧毁黑暗势力，还是为帝国的领主和女士们提供服务，都涉及方方面面。帝国的凡人们可能对魔导师们的重要性嗤之以鼻，但明智之人都知道他们是抵御混沌与妖术的守护者。"/>
+        <string id="career_description_waywatcher_str" text="巡林客是艾索洛伦的终极守护者，深谙通往这片古老森林的隐秘路径。他们是丛林的潜行者与弓箭的无双大师，能够在暗处潜伏多日，待机而发，精准无误地射出连珠箭雨。巡林客还擅长布下令人心惊胆寒的陷阱，不仅杀伤和重创任何胆敢踏入此地的入侵者，更令他们从心底生出恐惧。即便在精灵一族中，也少有射手能匹敌他们的箭术造诣。因为这些精灵早已脱离了精灵社会，彻底响应这片蓬勃森林的召唤，与大自然融为一体。"/>
+        <string id="career_description_greylord_str" text="灰领主曾是奥苏安最强大的法师之一，却因其冷酷的实验而被逐出故土。如今，他们隐居于劳伦洛伦，继续进行那些伴随着危险的试验，甚至将禁忌魔法教授给忠实的学徒。灰领主的力量不容小觑，正是他们的秘法多次拯救了劳伦洛伦森林，使之免遭劫难。然而，一些精灵心中始终怀有隐忧：这种难以掌控的力量或许会为艾尼尔招来灭顶之灾。"/>
+        <string id="career_description_spellsinger_str" text="咒咏者与艾索洛伦有着深邃而神秘的联系，通过古老的仪式与森林融为一体，获得类似森林精魂的共感意识，同时仍保持个体的独立意志。低阶的咒咏者能够聆听森林的低语，与大地交流；而高阶咒咏者则拥有重塑森林的力量，既可用以建造家园，也可借此摧毁敌人。在艾索洛伦，咒咏者既是艺术家，又是法师，常常肩负起外出与外界进行稀有交流的重任。尽管男性和女性都可以成为咒咏者，但得益于艾瑞尔与艾索洛伦森林的紧密共鸣，女性咒咏者通常会变得更为强大。"/>
+
+        <!--TOR Information and data !-->
+        <string id="tor_extendedInfo_undead_str" text="不死生物——虽然不会因士气过低而逃跑，但是在战场上被击倒就会彻底死亡，无法变成伤员。"/>
+        <string id="tor_extendedInfo_artillerycrew_str" text="炮兵部队——可以，也必须操作大炮。"/>
+        <string id="tor_extendedInfo_unbreakable_str" text="死战不退——该单位不会因士气过低而逃跑。"/>
+        <string id="tor_extendedInfo_unstoppable_str" text="破障先锋——单位被击中时不会表现出任何痛苦的迹象。"/>
+
+        <string id="tor_damagetype_invalid_str" text="无效伤害"/>
+        <string id="tor_damagetype_physical_str" text="物理"/>
+        <string id="tor_damagetype_magical_str" text="魔法"/>
+        <string id="tor_damagetype_fire_str" text="火焰"/>
+        <string id="tor_damagetype_holy_str" text="神圣"/>
+        <string id="tor_damagetype_frost_str" text="冰冻"/>
+        <string id="aoR0AAqB" text="闪电"/>
+
+        <string id="UeVVOfhS" text="近战"/>
+        <string id="bowj0CBR" text="远程"/>
+        <string id="qkESbDky" text="咒术"/>
+        <string id="MEWU5AF4" text="普通"/>
+
+        <!-- Begin FaceGen Entries -->
+        <string id="941Umq7R" text="腹部"/>
+        <string id="C0Ft56nN" text="髋骨尺寸"/>
+        <string id="9Uqv1C8t" text="臀部尺寸"/>
+        <string id="AXao9hGo" text="大腿尺寸"/>
+        <string id="e834cXtK" text="小腿尺寸"/>
+        <string id="DQseMj1M" text="脚的尺寸"/>
+        <string id="cvBjy8WM" text="躯干宽度"/>
+        <string id="svoUBNOI" text="躯干深度"/>
+        <string id="wcKVOFfe" text="前锯肌高度"/>
+        <string id="ZhO1cx1D" text="胸大肌宽度"/>
+        <string id="m5aygkAT" text="胸部深度"/>
+        <string id="E4IyY447" text="胸大肌高度"/>
+        <string id="6M4vrbtg" text="颈部"/>
+        <string id="WHTAsR4E" text="头部深度"/>
+        <string id="lw6gRvCC" text="头部宽度"/>
+        <string id="Ble6b9mg" text="头部高度"/>
+        <string id="niPumzdV" text="肩部"/>
+        <string id="2ApAC9ne" text="大臂"/>
+        <string id="YXV0B4SJ" text="前臂"/>
+        <string id="m6Ddz3xM" text="手掌"/>
+        <string id="MjaXDKEv" text="体重"/>
+        <string id="dy0B59XL" text="强壮"/>
+        <string id="oPXRfQbI" text="体重"/>
+        <string id="HK2rjJbQ" text="体格"/>
+
+  		<string id="careerchoice_description_warriorpriest_root_str" text="战斗牧师释放西格玛的愤怒，为他自己和周围的盟友提供了8秒钟的增强效果，使他们在近战攻击时变得更强，增加20%的伤害。每点信仰属性增加0.05%近战效果和0.05秒持续时间。该技能通过承受总生命值50%的伤害来重新充能，而格挡的伤害计为所承受伤害的10%。"/>
+
+  		<!--Career perks related !-->
+        <string id="tor_hunt_perk_result_failed_str" text="今日的狩猎一无所获。"/>
+        <string id="EK7aLgo6" text="你发现了一头{PERK_HUNT_ANIMAL_SIZE}，但是狩猎失败了。"/>
+        <string id="tor_hunt_perk_result_success_str" text="你发现了一头{PERK_HUNT_ANIMAL_SIZE}，并取得了{PERK_HUNT_PREY}"/>
+
+        <!--TOR_CHOICE_HEALTH !-->
+        <string id="str_tor_career_choice_basic_health" text="增加{EFFECT_VALUE}的生命值。"/>
+        <!--TOR_CHOICE_COMPANIONLIMIT !-->
+        <string id="str_tor_career_choice_basic_companion_limit" text="增加{EFFECT_VALUE}个同伴上限 "/>
+        <!--TOR_CHOICE_DAMAGE !-->
+        <string id="str_tor_career_choice_basic_damage" text="你造成{EFFECT_VALUE}%的额外{EFFECT_DAMAGE_TYPE}{EFFECT_ATTACK_TYPE}伤害"/>
+        <!--TOR_CHOICE_RESISTANCE !-->
+        <string id="str_tor_career_choice_basic_resistance" text="你得到{EFFECT_VALUE}%的{EFFECT_DAMAGE_TYPE}{EFFECT_ATTACK_TYPE}伤害抵抗"/>
+        <!--TOR_CHOICE_ARMORPENETRATION  Increases armor penetration of melee attacks by 15%!-->
+        <string id="str_tor_career_choice_basic_armorpenetration" text="你增加{EFFECT_VALUE}%的破甲伤害"/>
+        <!--TOR_CHOICE_HORSEHEALTH !-->
+        <string id="str_tor_career_choice_basic_horsehealth" text="玩家坐骑生命值增加{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_HORSECHARGEDAMAGE !-->
+        <string id="str_tor_career_choice_basic_horsechargedamage" text="你的坐骑冲锋伤害增加{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_WINDSOFMAGIC !-->
+        <string id="str_tor_career_choice_basic_windsofmagic" text="你的魔法之风上限增加{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_WINDSCOSTREDUCTION !-->
+        <string id="ngE7z4sZ" text="你的施法消耗减少{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_WINDSCOOLDOWNREDUCTION!-->
+        <string id="xW8MjuYq" text="施法冷却时间减少{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_WINDSCOOLDOWNREDUCTION!-->
+        <string id="Si93r0Y5" text="战斗祷告冷却时间减少{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_PARTYMOVEMENTSPEED !-->
+        <string id="gdmgl7Fk" text="你的队伍地图移动速度增加{EFFECT_VALUE}"/>
+        <!--TOR_CHOICE_PARTYSIZE-->
+        <string id="13yx7poz" text="你的部队规模增加{EFFECT_VALUE}"/>
+        <!--TOR_CHOICE_TROOPREGENERATION!-->
+        <string id="Wu1j8Tho" text="你队伍里的伤兵治疗速度加快（{EFFECT_VALUE}）"/>
+        <!--TOR_CHOICE_TROOPUPGRADECOST !-->
+        <string id="tfwCb8aX" text="你的部队升级费用减少{EFFECT_VALUE}%"/>
+        <!--TOR_CHOICE_AMMO !-->
+        <string id="YDlevE6p" text="你获得{EFFECT_VALUE}额外弹药"/>
+
+		<!--Warrior Priest !-->
+
+  		<!--Grail Knight !-->
+
+		<!--Custom Resource related ! -->
+		
+		<!--Forest Harmony ! -->
+        <string id="9rMUr460" text="邻帮符号"/>
+        <string id="4s4rEAqA" text="战舞者符号"/>
+        <string id="LiJRHeTU" text="树精符号"/>
+        <string id="Iyzet19E" text="奥莱恩符号"/>
+        <string id="pjqxlxBk" text="艾瑞尔符号"/>
+        <string id="v2n1Ty9B" text="杜尔苏符号"/>
+        <string id="BnM70s4C" text="流浪符号"/>
+
+        <string id="str_tor_treesymbol_description_kithbandsymbol" text="你的队伍规模增加 50%，森林生命的收益减少 25%，部队薪资增加 15%。"/>
+        <string id="str_tor_treesymbol_description_wardancersymbol" text="你和你的同伴获得额外 25% 生命值，伤口恢复速度加快 25%。所有部队治愈速度减慢 25%，森林生命获得速度减慢 25%。"/>
+        <string id="str_tor_treesymbol_description_treekinsymbol" text="树精单位的森林生命消耗降低 50%。精灵单位的薪资提高 25%。"/>
+        <string id="str_tor_treesymbol_description_orionsymbol" text="精灵单位的薪资减少50%。森林精魂的消耗增加一倍。"/>
+        <string id="str_tor_treesymbol_description_arielsymbol" text="魔法之风储存上限增加25%，当你处于艾索洛伦王国时，魔法之风额外回复1点，维护成本增加50%。"/>
+        <string id="str_tor_treesymbol_description_durthusymbol" text="可拥有树人的规模增加50%，生命值增加25%。队伍规模减少25%。火焰抗性降低25%。"/>
+        <string id="str_tor_treesymbol_description_wanderersymbol" text="处于低森林生命时不会有负面影响，但其收益减少 50%，维护成本增加 50%。"/>
+        <!--Meadow ! -->
+
+        <!-- Inky translation related.  Do NOT add texts inside quotation marks!-->
+        <!-- every inky story starts with "inky: "+ ID of the file name. While the Variation accounts for the specific text block -->
+        <string id="inky_continue_str" text=""/>
+        <string id="inky_end_str" text=""/>
+
+        <!--Ink !-->
+        <string id="inky_party_skill_check_template_str" text="({inky_skill_check_skill_name}检查成功概率 {inky_Party_skill_CheckChance}%)"/>
+        <string id="inky_player_skill_check_template_str" text="({inky_skill_check_skill_name} 检查成功概率{inky_Player_skill_CheckChance}%)"/>
+        <string id="inky_player_attribute_check_template_str" text="{=inky_player_attribute_check_template_str}({inky_attribute_check_attribute_name}检查成功概率{inky_Player_attribute_CheckChance}%)"/>
+        <string id="inky_party_attribute_check_template_str" text="({inky_attribute_check_attribute_name}检查成功概率{inky_Party_attribute_CheckChance}%)"/>
+
+        <!--Battlefield !-->
+        <string id="inky_battlefield_strid_title" text=""/>
+        <string id="inky_battlefield_start1_str" text=""/>
+
+        <string id="inky_battlefield_search_for_survivors_1_str" text=""/>
+        <string id="inky_battlefield_search_for_survivors_2_str" text=""/>
+
+        <string id="inky_battlefield_use_ghyranmagic_1_str" text=""/>
+        <string id="inky_battlefield_use_ghyranmagic_2_str" text=""/>
+
+        <string id="inky_battlefield_help_but_die_1_str" text=""/>
+        <string id="inky_battlefield_help_but_die_2_str" text=""/>
+
+        <string id="inky_battlefield_pay_respect_1_str" text=""/>
+        <string id="inky_battlefield_pay_respect_2_str" text=""/>
+
+        <string id="inky_battlefield_continue_on_1_str" text=""/>
+        <string id="inky_battlefield_continue_on_2_str" text=""/>
+
+        <!-- Cabin in the Wood!-->
+        <string id="inky_cabin_in_the_woods_locked_door_text_weak_str" text="弱"/>
+        <string id="inky_cabin_in_the_woods_locked_door_text_average_str" text="一般"/>
+        <string id="inky_cabin_in_the_woods_locked_door_text_strong_str" text="强壮"/>
+
+        <string id="inky_cabin_in_the_woods_locked_lock_text_weak_str" text="弱"/>
+        <string id="inky_cabin_in_the_woods_locked_lock_text_average_str" text="普通"/>
+        <string id="inky_cabin_in_the_woods_locked_lock_text_strong_str" text="强壮"/>
+
+        <string id="inky_cabin_in_the_woods_locked_reward_text_1_str" text="5袋谷物"/>
+        <string id="inky_cabin_in_the_woods_locked_reward_text_2_str" text=""/>
+        <string id="inky_cabin_in_the_woods_locked_reward_text_3_str" text=""/>
+
+        <string id="inky_cabin_in_the_woods_start_1_str" text=""/>
+        <string id="inky_cabin_in_the_woods_approach_1_str" text=""/>
+        <string id="inky_cabin_in_the_woods_inside_1_str" text=""/>
+
+        <!--Fair !-->
+        <string id="inky_fair_strid_title" text=""/>
+        <string id="inky_fair_start1_str" text=""/>
+        <string id="inky_fair_start2_str" text=""/>
+        <string id="inky_fair_leave1_str" text=""/>
+        <string id="inky_fair_strid_buy_horse_1_str" text=""/>
+        <string id="inky_fair_strid_buyhorse_not_enough_gold" text=""/>
+        <string id="inky_fair_persuadeMerchant_fail_str" text=""/>
+        <string id="inky_fair_persuadeMerchant_fail_str" text=""/>
+
+        <!--Duel !-->
+        <string id="inky_duel_met_before_false_str" text="你注意到一个神秘的人影自信地朝你走来。随着他逐渐靠近，你的视线被他腰间那把闪耀着寒光的精美军刀吸引住了。陌生人停在你面前，脸上露出温暖的微笑，目光如同细致的刀锋审视着你。"/>
+        <string id="inky_duel_met_before_true_str" text="你发现了熟悉的身影，著名的提利尔决斗者维托里奥·德·卢卡，他正大步向你们走来。"/>
+        <string id="inky_duel_denied_before_false_str" text="曾经的回忆如潮水般涌现，第一次对决的激动感依旧在你的心中回响。"/>
+        
+        <string id="inky_duel_denied_before2_false_str" text="这次想证明一下你的实力吗？"/>
+        <string id="inky_duel_denied_before2_true_str" text="愿意再来一场较量，证明一下你的实力吗？"/>
+        <string id="inky_duel_met_before2_true_str" text="再来一次"/>
+
+        <string id="WeIBjMGv" text="当维托里奥走近时，你的视线被他腰间那把闪耀着寒光的精美军刀吸引住了，他打量着你，脸上露出温暖的微笑。“啊，在这条孤独的路上再次相遇真是太幸运了，”他说，声音中带着一种俏皮的语气。“我能看到你的心中仍然燃烧着战士的怒焰。”"/>
+        <string id="uZKitvm8" text="“啊，在这条孤独的路上遇到一群值得尊敬的战士真是幸运，”他们说道。“我是维托里奥·德·卢卡，来自遥远的提利尔的剑术大师。我走遍了四方，寻找一位能与我匹敌的对手。现在，命运让我们相遇。想在友谊决斗中证明你的实力吗？然后再打个小赌，让游戏变得更刺激一些？”"/>
+
+        <!--Serve as a Hireling!-->
+        <string id="9VAaQRbm" text="好吧，如你所愿。"/>
+        <string id="xSt5AUnX" text="“雇佣兵？我想我可以用到你。不过你得记住，我不打算再招募其他人了。”"/>
+        <string id="GjNB4JtC" text="“帝国需要你这样的新鲜血液。不过，我不打算再招募其他人了。”"/>
+        <string id="BWiaeBOc" text="“以骑士身份服务国家是巴托尼亚人的最高使命。不过你得记住，我不打算再招募其他人。”"/>
+        <string id="gYnW87Dn" text="“啊，新鲜血液，正好我可以用到你。不过你要记住，你只服务于我，我不想再有其他血奴加入我的战团。”"/>
+        <string id="x0amQYaS" text="雇佣兵？真方便。不过你得记住，你是为我效力的，我不需要更多的农民。"/>
+
+        <string id="pRpC6oud" text="收拾好你的装备吧。我希望你立刻加入我的队伍。"/>
+        <string id="qngvft4u" text="收拾好你的东西，帝国需要你。"/>
+        <string id="GSPOI8OW" text="一个明智的选择。没有比为湖中女神的土地服务更高的荣誉了。"/>
+        <string id="nVpjbnw6" text="我忙着呢，快滚！"/>
+
+        <string id="TLmPYBXV" text="当领主的佣兵"/>
+        <string id="DHkGRuln" text="你可以带领你的队伍加入一个领主部队，充当佣兵，除同伴之外所有的部队都将被移除，要继续吗？"/>
+
+        <string id="3ganFDR1" text="你加入了{ENLISTING_LORD}的部队{new_line}你已经服役了{ENLISTING_DURATION}天，参加了{HIRELING_BATTLE_COUNT}场战斗。{ENLISTING_ARMY}"/>
+        <string id="5w6gfyKg" text="与领主交谈"/>
+        <string id="LZLkBHRN" text="暂停进入下一个定居点：{PAUSE_ONOFF}"/>
+        <string id="VUi0V4Tb" text="队伍是{ENLISTING_ARMY}的一员"/>
+
+        <string id="5dzjib45" text="独自练习瞄准"/>
+        <string id="1MAhcDJC" text="爬到树上侦查周围环境"/>
+        <string id="RoDnYe6l" text="在周围巡逻并布置好陷阱"/>
+        <string id="TeX8rngk" text="高阶训练课程"/>
+        <string id="8bxoTVNu" text="采集草药"/>
+
+        <string id="f5jCroam" text="专注于你的学习"/>
+        <string id="eYhzfBy0" text="帮助领主处理账务"/>
+        <string id="MOAhvVJe" text="加入正在训练中的士兵"/>
+        <string id="76KXEW7d" text="照顾受伤的士兵"/>
+        <string id="jgSMtgDq" text="向指挥官提建议"/>
+
+        <string id="hXhvRJfH" text="练习剑术"/>
+        <string id="XSFqu9EM" text="结交贵族"/>
+        <string id="fvGlE0mR" text="攻入敌阵"/>
+        <string id="vjIv4awe" text="坐镇指挥"/>
+        <string id="QTomUjjE" text="向湖中女神祈祷"/>
+
+        <string id="swWubUuU" text="与马厩里的马交谈"/>
+        <string id="5UqnwYUG" text="准备守护仪式"/>
+        <string id="31yM5mqa" text="以湖中女神之名，庇佑我军"/>
+        <string id="jvtwxabY" text="向军队指挥官提出你的建议"/>
+        <string id="uiUdy8ar" text="调解陷入纠纷的贵族"/>
+
+        <string id="vBIMPuTB" text="搜寻荒野"/>
+        <string id="8EZqXGXF" text="使用战斧进行训练"/>
+        <string id="vBEvrrNG" text="帮忙砍柴"/>
+        <string id="3GfMU676" text="激励士兵们，并指导他们克服自己的弱点。"/>
+        <string id="6RPMuHjx" text="宣扬尤里克的教义"/>
+
+        <string id="AKHrxUuO" text="与突击部队讨论战术"/>
+        <string id="qjC6TaqD" text="与弓弩兵团进行射击练习"/>
+        <string id="gH53UIKz" text="保养火药武器"/>
+        <string id="F7tls8GW" text="与军需官讨价还价"/>
+        <string id="IjeCMy7A" text="在指挥官的帐篷旁偷听"/>
+
+        <string id="YOI1fm0L" text="在贵族中传播关于湖中女神的谎言"/>
+        <string id="eUDyEBY9" text="带头冲锋"/>
+        <string id="l0Er6JiQ" text="参与骑士比武"/>
+        <string id="jhWTa0ae" text="严守农民纪律"/>
+
+        <string id="aiFvwMqB" text="单手剑训练"/>
+        <string id="yxMBAjkb" text="双手剑训练"/>
+        <string id="7jRLAelp" text="带头冲锋"/>
+        <string id="ryV04yTu" text="参加战略会议"/>
+        <string id="oSValRTb" text="把弱者和强者区分开来"/>
+
+        <string id="MNo6GsRN" text="与部下练习拳击"/>
+        <string id="tVsxzCnO" text="谄媚指挥官"/>
+        <string id="qO8ZgpDT" text="关注该地区的邪恶力量"/>
+        <string id="MoXF3Mgu" text="寻找猎物"/>
+        <string id="htOFP3sx" text="指挥血奴"/>
+
+        <string id="HvovWB2J" text="训练巫术洞察力"/>
+        <string id="Pad0vUil" text="寻找猎物"/>
+        <string id="uKkW782u" text="解剖测试对​​象"/>
+        <string id="5DaRuP5H" text="钻研奥秘设计图"/>
+        <string id="dY2jsdTJ" text="给仆从下达指令"/>
+
+        <string id="UbylhtgJ" text="学习知识宝库"/>
+        <string id="UFmEb5Zj" text="突袭附近的邪恶墓地"/>
+        <string id="S359KRNy" text="尸体实验"/>
+        <string id="xcTVHuDL" text="派遣你的爪牙在军队前方"/>
+        <string id="4oqKMZof" text="协助吸血鬼副官"/>
+
+        <string id="WiHlR09C" text="巨剑对练"/>
+        <string id="34ktHcd4" text="弩的打靶练习"/>
+        <string id="t01hFLJP" text="保养火药武器"/>
+        <string id="zQUbLuQC" text="传授腐化危害"/>
+        <string id="DBhorWCp" text="细剑练习"/>
+
+        <string id="qUVEh2Cx" text="训练"/>
+        <string id="IPKutqNr" text="帮忙扎营"/>
+        <string id="75scYNeD" text="协助莎莉雅的女祭司"/>
+        <string id="Euzc9ScH" text="传授西格玛·赫尔登哈默的教义"/>
+
+        <string id="aKsmdKeQ" text="感应森林精魂"/>
+        <string id="ISVdo0Rv" text="与厩养马匹交流"/>
+        <string id="V80Ydt7g" text="向圣母爱莎祈祷"/>
+        <string id="nBBGiNiP" text="与指挥官讨论外交事务"/>
+        <string id="cuzLsRHN" text="采集草药"/>
+        
+        <string id="RCbsEntn" text="阅读手抄本"/>
+        <string id="I3Xhd42f" text="从事簿记工作"/>
+        <string id="Ur6rtuS6" text="向卡勒多龙骑士演讲"/>
+        <string id="WGZmSTqh" text="保持阿苏尔礼仪"/>
+        <string id="mzSQt820" text="炼金物质实验"/>
+  
+    	<!--Meadow ! -->
+        <string id="inky_Meadow_is_night_true_str" text="圣银月光"/>
+        <string id="inky_Meadow_is_night_false_str" text="金色阳光"/>
+
+        <string id="inky_IsNight" text="阳光透过树冠，温暖地洒在草地上，仿佛为大地披上了一层金色的轻纱。空气中弥漫着盛开的花朵的芬芳，宛如大自然的香水，令人陶醉。鸟儿在枝头欢唱，悦耳的旋律在林间空地回荡，仿佛为你疲惫的心灵奏响了一曲安抚的交响乐。"/>
+
+        <!--Overturned Cart ! -->
+        <string id="inky_overturned_cart_injury1_1_str" text="弱"/>
+        <string id="inky_overturned_cart_injury1_2_str" text="温和"/>
+        <string id="inky_overturned_cart_injury1_3_str" text="严重"/>
+
+        <string id="inky_overturned_cart_injury2_1_str" text="询问"/>
+        <string id="inky_overturned_cart_injury2_2_str" text="乞求"/>
+        <string id="inky_overturned_cart_injury2_3_str" text="喘息"/>
+
+        <string id="inky_overturned_cart_injury3_1_str" text="起来"/>
+        <string id="inky_overturned_cart_injury3_2_str" text="勉勉强强起来"/>
+        <string id="inky_overturned_cart_injury3_3_str" text="躺在地上，努力活下去。"/>
+
+        <string id="inky_overturned_cart_injury4_1_str" text=""/>
+        <string id="inky_overturned_cart_injury4_2_str" text="他知道自己至少会瘫痪一段时间，所以似乎有点沮丧。"/>
+        <string id="inky_overturned_cart_injury4_3_str" text="死了"/>
+
+        <string id="inky_overturned_cart_profession_1_str" text="商人"/>
+        <string id="inky_overturned_cart_profession_2_str" text="农民"/>
+        <string id="inky_overturned_cart_profession_3_str" text="铁匠"/>
+
+        <string id="inky_overturned_cart_rewardtext_0_str" text="500金币"/>
+        <string id="inky_overturned_cart_rewardtext_1_str" text="5袋谷物"/>
+        <string id="inky_overturned_cart_rewardtext_2_str" text="2块钢锭"/>
+
+        <string id="inky_overturned_cart_horsesaround_1_str" text="去牵马"/>
+
+        <string id="inky_overturned_cart_start_1_str" text="当你们的队伍在旅行时，你看到远处有一辆马车。"/>
+        <string id="inky_overturned_cart_start_2_str" text="当你靠近时，你可以看到它已经坏掉并翻倒了。"/>
+        <string id="APYaRWYU" text="你还看到附近田野里有几匹马正在吃草，推测它们之前是拉着那辆马车的。"/>
+
+        <string id="inky_overturned_cart_approach_2_str" text="你注意到被马车压住的男人是……"/>
+        <string id="inky_overturned_cart_approach_3_str" text="当你靠近时，他对你说：“救命，请帮帮我。”"/>
+
+        <string id="inky_overturned_cart_reward_for_help_1_str" text="你问那个男人他能为你做些什么。"/>
+        <string id="inky_OverturnedCart.STR_RewardForHelp2" text="我只是一个来自 {Settlement} 的简单 {Profession}，除了我的感谢，我不能给你别的回报。"/>
+        <string id="inky_OverturnedCart.STR_RewardForHelp2" text="片刻之后，他说：“我是 {Notable} 的朋友，我会为你美言几句的。"/>
+
+        <string id="inky_overturned_cart_helpextort_3_str" text="你告诉{inky_Profession}，他不必如此谦虚。他显然是个富裕的人，完全可以轻松提供{inky_RewardText}作为感谢。"/>
+        <string id="inky_overturned_cart_after_Lift_Medicine_3_str" text="你告诉{inky_Profession}，他不必如此谦虚。他显然是个富裕的人，完全可以轻松提供{inky_RewardText}作为感谢。"/>
+
+  </strings>
+</base>

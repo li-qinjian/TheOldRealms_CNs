@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+  		<string id="str_tor_empire_artillery_mortar_001" text="臼炮"/>
+  		<string id="str_tor_empire_artillery_cannon_001" text="巨型加农炮"/>
+  		<string id="str_tor_bretonnia_artillery_fieldtrebuchet_001" text="野战抛石机"/>
+  		<string id="str_tor_books_engineering_001" text="《列奥纳多·达·米拉利亚诺的智慧》弗雷德里克·豪普斯特斯著"/>
+  		<string id="str_tor_books_charm_001" text="《英勇赞歌》游吟诗人特里斯坦著"/>
+  		<string id="str_tor_books_charm_002" text="《沉默是金》"/>
+  		<string id="str_tor_book_rougery_001" text="《突袭阴影：传奇》"/>
+		<string id="str_tor_book_tactics_001" text="《全面战争兵法》"/>
+		<string id="str_tor_book_range_001" text="《沃法特年鉴：序章》赫维茨·弗兰克著"/>
+		<string id="str_tor_book_range_002" text="《沃法特年鉴：露斯契亚的野兽》"/>
+		<string id="str_tor_book_crafting_001" text="《格朗尼之书》"/>
+  		<string id="str_tor_book_riding_001" text="《骏马的护理：巴托尼亚良驹》"/>
+  		<string id="str_tor_book_onehanded_001" text="《埃斯塔利亚决斗指南》斯特万著"/>
+  		<string id="str_tor_book_twohanded_001" text="《来自海之彼岸的剑圣教诲》"/>
+  		<string id="str_tor_book_trade_001" text="《南码头区的交易秘密》"/>
+  		<string id="str_tor_book_bow_001" text="《神射手：从入门到精通》"/>
+  		<string id="str_tor_book_crossbow_001" text="《帝国纹章学：十字弓》"/>
+  		<string id="str_tor_book_leadership_001" text="《指挥艺术》"/>
+  		<string id="str_tor_book_polearm_001" text="《成为奥斯特领的人》"/>
+  		<string id="str_tor_book_throwing_001" text="《怪物猎人手册》约翰·克鲁伊夫译"/>
+  		<string id="str_tor_book_athletics_001" text="《赤裸者无畏》"/>
+  		<string id="str_tor_book_hybrid_001" text="《洛瑟恩海卫：大洋的守护者》"/>
+  		<string id="str_tor_books_engineering_002" text="《时代的奇迹》"/>
+  		<string id="str_tor_books_gunpowder_001" text="《装填，瞄准，射击：一名枪手的野战手册》"/>
+  		<string id="str_tor_books_gunpowder_002" text="《沃尔克·冯·梅科普特的榴弹发射器相关机械理论》"/>
+  		<string id="str_tor_book_spellcraft_001" text="《自然守护者》埃尔温. 格伦菲尔德著"/>
+  		<string id="str_tor_book_spellcraft_002" text="《目眦欲裂》沃兰斯著"/>
+  		<string id="str_tor_book_spellcraft_003" text="《魔法之风：阿克夏》"/>
+  		<string id="str_tor_book_hybrid_002" text="《炼金术士的训练》拜尔沙泽·盖尔特著"/>
+  		<string id="str_tor_book_hybrid_003" text="《吸血鬼海岸：露丝契亚的诅咒》"/>
+
+    </strings>
+</base>

@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+		<!-- HuntingEvent -->
+		<string id="tor_hunt_perk_result.CompletelyFailed" text="{=9TjaHKHz}CompletelyFailed"/>
+		<string id="tor_hunt_perk_result.Failed" text="{=HlNWTHY8}Failed"/>
+		<string id="tor_hunt_perk_result.Success" text="{=TvPLGDJk}Success"/>
+
+		<!-- BlackGrailKnight Career Choices-->
+		<string id="careerchoice_description.BlackGrailKnightRoot" text="{=UHkKZY7n}The knight prepares a devastating charge, mounted or on foot, for the next 6 seconds. When mounted, the knight receives perk buffs as well as a 20% chance of his lance not bouncing off after a couched lance attack. The couched lance attack chance increases by 0.1% for every point in Riding. When on foot, the knight only receives perk buffs."/>
+
+		<string id="careerchoice_description.CurseOfMousillonKeystone" text="{=f20yBthl}10% extra physical damage during Knightly Charge. The ability scales with the One Handed skill."/>
+		<string id="careerchoice_description.CurseOfMousillonPassive1" text="{=y69mYLL8}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.CurseOfMousillonPassive2" text="{=2Jfpfipr}All Knight troops receive 30 bonus points in their Polearm skill."/>
+		<string id="careerchoice_description.CurseOfMousillonPassive3" text="{=5aXLp2wf}Mousillon ranged troops gain 15% extra ranged damage."/>
+		<string id="careerchoice_description.CurseOfMousillonPassive4" text="{=1lKIRfyS}Ill fated Knight Companions occasionally train Bretonnian Peasants to Mousillon Peasants."/>
+		
+		<string id="careerchoice_description.SwampRiderKeystone" text="{=H0sSffL8}10% extra physical damage during Knightly Charge. The ability scales with the One Handed skill."/>
+		<string id="careerchoice_description.SwampRiderPassive1" text="{=tjpwxfS9}50% additional Hitpoints for the player's mount."/>
+		<string id="careerchoice_description.SwampRiderPassive2" text="{=QGzMYw7F}10% extra melee damage while on horseback."/>
+		<string id="careerchoice_description.SwampRiderPassive3" text="{=VbKjujb9}Every melee kill gives roguery XP"/>
+		<string id="careerchoice_description.SwampRiderPassive4" text="{=7Px8HRKl}All Knight troops receive 20 bonus points in their One and Two-handed skill."/>
+
+		<string id="careerchoice_description.UnbreakableArmyKeystone" text="{=ZzKcAemt}Knightly Charge grants 20% physical resistance. Mount will not rear during the ability."/>
+		<string id="careerchoice_description.UnbreakableArmyPassive1" text="{=PD75wlqA}All mousillon peasant troops wages are reduced by 75%."/>
+		<string id="careerchoice_description.UnbreakableArmyPassive2" text="{=eBarT7GY}40% chance to recruit an extra unit of the same type free of charge."/>
+		<string id="careerchoice_description.UnbreakableArmyPassive3" text="{=nZl36v4r}Gain 15% physical resistance to melee and ranged attacks"/>
+		<string id="careerchoice_description.UnbreakableArmyPassive4" text="{=I19vdd5O}Increases Party size by 50"/>
+
+		<string id="careerchoice_description.ScourgeOfBretonniaKeystone" text="{=q7JTweHJ}Ability duration scales with Polearm and Riding. The lance attack scales with Two Handed."/>
+		<string id="careerchoice_description.ScourgeOfBretonniaPassive1" text="{=DMiJ8Jbr}Increases Hitpoints by 40"/>
+		<string id="careerchoice_description.ScourgeOfBretonniaPassive2" text="{=VsAi6XhG}Gain 25 Dark Energy daily"/>
+		<string id="careerchoice_description.ScourgeOfBretonniaPassive3" text="{=0MDOX8iE}Mousillon Knight damage against infantry  is increased by 15%."/>
+		<string id="careerchoice_description.ScourgeOfBretonniaPassive4" text="{=a3Z6I6OU}Any Bret. Knight units can be transformed to ill-fated mousillon units."/>
+
+		<string id="careerchoice_description.RobberKnightKeystone" text="{=zOxA5hnI}Reduces cooldown of Knightly Charge by 30s. During the ability, all healing affects the horse."/>
+		<string id="careerchoice_description.RobberKnightPassive1" text="{=kuTeKRkW}Horse charge damage is increased by 50%."/>
+		<string id="careerchoice_description.RobberKnightPassive2" text="{=3unGUEPv}Party movement speed is increased by 2."/>
+		<string id="careerchoice_description.RobberKnightPassive3" text="{=p6Tyxsp3}All mousillon Knight units gain 10% Physical resistance"/>
+		<string id="careerchoice_description.RobberKnightPassive4" text="{=1Xh0y076}Pillaging is 50% faster  and gains dark energy"/>
+
+		<string id="careerchoice_description.LieOfLadyKeystone" text="{=LarBDncB}Ability scales with Roguery. When active, get +20% magic damage and health regen."/>
+		<string id="careerchoice_description.LieOfLadyPassive1" text="{=jNncq875}15% extra melee magic damage."/>
+		<string id="careerchoice_description.LieOfLadyPassive2" text="{=F7uNu2bP}Necromancer companions gain 25 Winds of magic."/>
+		<string id="careerchoice_description.LieOfLadyPassive3" text="{=vqbBblQE}Dark Energy upkeep for Knights of the black grail is reduced by 25%"/>
+		<string id="careerchoice_description.LieOfLadyPassive4" text="{=KF6VCTe2}Knights of the black grail deal 15% magical damage"/>
+
+		<string id="careerchoice_description.BlackGrailVowKeystone" text="{=bJTcOUwo}Ability scales with Leadership and propagates from all heroes to units in a 5m radius."/>
+		<string id="careerchoice_description.BlackGrailVowPassive1" text="{=NYhKpqqD}Companion limit of party is increased by 10."/>
+		<string id="careerchoice_description.BlackGrailVowPassive2" text="{=5glPjA0l}Hits below 15 damage will not stagger the player."/>
+		<string id="careerchoice_description.BlackGrailVowPassive3" text="{=xIHEi55H}Mousillon Knights gain 15% Wardsave."/>
+		<string id="careerchoice_description.BlackGrailVowPassive4" text="{=0kL9KnMc}Every necromancer and Vampire companion gains 10 dark energy per day."/> 
+
+		<!-- BloodKnight Career Choices -->
+		<string id="careerchoice_description.BloodKnightRoot" text="{=qawLfc83}The Blood Knight is channeling focus and rage towards the enemies. Damage increased by 45% and physical resistance by 10% for the next 6 seconds. Both bonuses increase with the skill of the equipped weapon by 0.05% per point. Requires 5 kills to recharge, +1 kill per a final perk picked up to max 10."/>
+
+		<string id="careerchoice_description.PeerlessWarriorKeystone" text="{=x60oZi4k}Career Ability scales with Athletics. Speed increased by 20% when the ability is active."/>
+		<string id="careerchoice_description.PeerlessWarriorPassive1" text="{=71Wmi5Dm}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.PeerlessWarriorPassive2" text="{=sDsmyOhf}Extra melee damage (10%)."/>
+		<string id="careerchoice_description.PeerlessWarriorPassive3" text="{=9bd5XphL}Every troop of Tier 4 and above gains an extra 20% exp for kills."/>
+		<string id="careerchoice_description.PeerlessWarriorPassive4" text="{=ulzMqqbP}You gain 100 exp in one of the melee combat skills at random every day."/>
+
+		<string id="careerchoice_description.NightRiderKeystone" text="{=6NFNAa9y}Companion Kills will count for career charge."/>
+		<string id="careerchoice_description.NightRiderPassive1" text="{=CpyTivKx}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.NightRiderPassive2" text="{=hR4i7Fza}All undead and vampires receive 20 points to their melee skills."/>
+		<string id="careerchoice_description.NightRiderPassive3" text="{=8NMnUmpi}Raiding is at Night 50% faster."/>
+		<string id="careerchoice_description.NightRiderPassive4" text="{=t6CzUio6}Attacks deal bonus damage against shields."/>
+
+		<string id="careerchoice_description.BladeMasterKeystone" text="{=qsop3c0d}All melee weapon skills, wielded or not, count towards the career ability effects."/>
+		<string id="careerchoice_description.BladeMasterPassive1" text="{=IrV3qJ2f}20% extra melee damage."/>
+		<string id="careerchoice_description.BladeMasterPassive2" text="{=h49qJTMH}Increases health regeneration after battles by 5."/>
+		<string id="careerchoice_description.BladeMasterPassive3" text="{=ToGLBJXE}Hits below 15 damage will not stagger the player."/>
+		<string id="careerchoice_description.BladeMasterPassive4" text="{=VK985mRZ}All troops, the player included, gain exp when raiding villages."/>
+
+		<string id="careerchoice_description.DoomRiderKeystone" text="{=v5zyYpmw}The Career Ability scales with Tactics. Nearby troops receive the Red Fury buff."/>
+		<string id="careerchoice_description.DoomRiderPassive1" text="{=8rMGDtoQ}20% extra melee damage."/>
+		<string id="careerchoice_description.DoomRiderPassive2" text="{=FLiWUU8y}Reduce the Dark Energy upkeep for vampire troops by 10%."/>
+		<string id="careerchoice_description.DoomRiderPassive3" text="{=IrMA8L3A}Party speed increases by 2."/>
+		<string id="careerchoice_description.DoomRiderPassive4" text="{=n5oVW34W}Recruit defeated units as Blood Knights with a chance of 5% (10% for Tier >4)."/>
+
+		<string id="careerchoice_description.ControlledHungerKeyStone" text="{=xdKDRZtT}The duration of Red Fury is doubled."/>
+		<string id="careerchoice_description.ControlledHungerPassive1" text="{=Kt30SFEh}Immune to sunlight malus."/>
+		<string id="careerchoice_description.ControlledHungerPassive2" text="{=ujGULn4s}Increases Hitpoints by 50"/>
+		<string id="careerchoice_description.ControlledHungerPassive3" text="{=OcEH7pVu}Mount health is increased by 35%."/>
+		<string id="careerchoice_description.ControlledHungerPassive4" text="{=WJCs0kWj}For every 200 damage hit the player gets healed by 1 Hit point(Maximum 5)."/>
+
+		<string id="careerchoice_description.AvatarOfDeathKeystone" text="{=gyRZQdAl}Red Fury's resistance is now Ward save. The ability grants a scaling attack speed boost."/>
+		<string id="careerchoice_description.AvatarOfDeathPassive1" text="{=vsv4Gmq2}Gain 25% physical resistance to melee and ranged attacks."/>
+		<string id="careerchoice_description.AvatarOfDeathPassive2" text="{=MMSFomV3}Reduce the Dark Energy upkeep for vampire troops by 20%."/>
+		<string id="careerchoice_description.AvatarOfDeathPassive3" text="{=mOJqpgq7}The player gains 35% Magic resistance against spells."/>
+		<string id="careerchoice_description.AvatarOfDeathPassive4" text="{=n79YKywN}25% Ward save for all vampire units."/>
+
+		<string id="careerchoice_description.DreadKnightKeystone" text="{=7RrRj8gw}Red Fury scales with Riding and consecutive kills during ability increase duration by 2 sec each."/>
+		<string id="careerchoice_description.DreadKnightPassive1" text="{=xUabJAIM}Increases Hitpoints by 75."/>
+		<string id="careerchoice_description.DreadKnightPassive2" text="{=OaqF2lhx}Horse charge damage is increased by 50%."/>
+		<string id="careerchoice_description.DreadKnightPassive3" text="{=ERmoX9rX}Cavalry units get a 20% damage increase in damage"/>
+		<string id="careerchoice_description.DreadKnightPassive4" text="{=42VRjvYG}Extra 25% armor penetration of melee attacks."/> 
+
+		<!-- GrailDamsel Career Choices-->
+		<string id="careerchoice_description.GrailDamselRoot" text="{=UTBfWjme}The Damsel wanders on the fey paths. Instantly teleports the player to the targeted ground position. Charges with dealt or healed damage by magic"/>
+
+		<string id="careerchoice_description.FeyEnchantmentKeystone" text="{=k5YoxiZF}Enemies on the target area of the spell caster are knocked down"/>
+		<string id="careerchoice_description.FeyEnchantmentPassive1" text="{=V7aDfPMu}Increases magic spell damage by 15%."/>
+		<string id="careerchoice_description.FeyEnchantmentPassive2" text="{=RNXEwVsP}Increases max Winds of Magic by 10."/>
+		<string id="careerchoice_description.FeyEnchantmentPassive3" text="{=kMnECrub}All troops gain 15% extra magic damage."/>
+		<string id="careerchoice_description.FeyEnchantmentPassive4" text="{=TF7rBb01}All Knight troops gain 15% Ward save."/>
+
+		<string id="careerchoice_description.InspirationOfTheLadyKeystone" text="{=JNpH40oY}Charge Amount is doubled but companion spell and heal effects count towards the ability"/>
+		<string id="careerchoice_description.InspirationOfTheLadyPassive1" text="{=I4hqyqF7}25% chance to recruit an extra unit free of charge."/>
+		<string id="careerchoice_description.InspirationOfTheLadyPassive2" text="{=sM7jDuKa}Wounded troops in your party heal faster."/>
+		<string id="careerchoice_description.InspirationOfTheLadyPassive3" text="{=YliVT3oa}All Knight troops wages are reduced by 25%."/>
+		<string id="careerchoice_description.InspirationOfTheLadyPassive4" text="{=SlgpjpbC}10% Ward save if your armor weight does not exceed 11 weight"/>
+
+		<string id="careerchoice_description.TalesOfGilesKeystone" text="{=N9v9tMe2}You are immune to physical Melee damage for 5 seconds after using the fey paths"/>
+		<string id="careerchoice_description.TalesOfGilesPassive1" text="{=iS3ZJNSQ}Increases max Winds of Magic by 10."/>
+		<string id="careerchoice_description.TalesOfGilesPassive2" text="{=UYtyH5Gp}Bretonnian units receive 10% Ward save"/>
+		<string id="careerchoice_description.TalesOfGilesPassive3" text="{=xT0HJa49}When praying at a shrine of the Lady, all wounded troops get healed"/>
+		<string id="careerchoice_description.TalesOfGilesPassive4" text="{=uLymRQZ2}20% spell cooldown reduction."/>
+
+		<string id="careerchoice_description.VividVisionsKeystone" text="{=JPzPV8Xw}Fey path charges 30% faster."/>
+		<string id="careerchoice_description.VividVisionsPassive1" text="{=K6BjrRQ3}Increases max Winds of Magic by 10."/>
+		<string id="careerchoice_description.VividVisionsPassive2" text="{=ljoMlM2p}Party movement speed is increased by 1."/>
+		<string id="careerchoice_description.VividVisionsPassive3" text="{=l2uscizY}Increases Magic resistance against spells by 25%"/>
+		<string id="careerchoice_description.VividVisionsPassive4" text="{=NZKuZhje}The Spotting range of the party is increased by 20%."/>
+
+		<string id="careerchoice_description.JustCauseKeystone" text="{=EJANVfyL}Magical damage for troops close to the exit of the teleport  is increased by 30% for 5 secounds"/>
+		<string id="careerchoice_description.JustCausePassive1" text="{=9kniMTUw}Upgrade costs are halved."/>
+		<string id="careerchoice_description.JustCausePassive2" text="{=vTciSE2p}Non-knight units in the party gain 100 XP every day."/>
+		<string id="careerchoice_description.JustCausePassive3" text="{=6STNJW73}Extra 15% Wardsave if your armor weight does not exceed 11 weight."/>
+		<string id="careerchoice_description.JustCausePassive4" text="{=PXbYsu5U}Increases positive Relation gains by 20%."/>
+
+		<string id="careerchoice_description.SecretsOfTheGrailKeystone" text="{=jQKWM40C}After using Fey Paths, a second jump is available shortly after the first one"/>
+		<string id="careerchoice_description.SecretsOfTheGrailPassive1" text="{=vB9lSMxs}Increases lightning spell damage by 30%."/>
+		<string id="careerchoice_description.SecretsOfTheGrailPassive2" text="{=e9ZGE4Xp}20% cost reduction for spells."/>
+		<string id="careerchoice_description.SecretsOfTheGrailPassive3" text="{=sezDhE01}Casting prayers has a 30% chance to restore 10 Winds of Magic."/>
+		<string id="careerchoice_description.SecretsOfTheGrailPassive4" text="{=Fku5gLtp}30% prayer cooldown reduction."/>
+		
+		<string id="careerchoice_description.EnvoyOfTheLadyKeystone" text="{=mausjqWz}When you teleport, you take all units in your closest surroundings(5m radius) with you."/>
+		<string id="careerchoice_description.EnvoyOfTheLadyPassive1" text="{=1cSC0VY1}Increases Magic damage by 20%."/>
+		<string id="careerchoice_description.EnvoyOfTheLadyPassive2" text="{=KN5hj5R9}Knight Companion health points are doubled."/>
+		<string id="careerchoice_description.EnvoyOfTheLadyPassive3" text="{=z8Zv6flO}Damsel Companion have 25 more Winds of Magic."/>
+		<string id="careerchoice_description.EnvoyOfTheLadyPassive4" text="{=QZmDsMO5}Diplomatic force options for all Brettonnian Leaders."/> 
+
+		<!-- GrailKnight Career Choices -->
+		<string id="careerchoice_description.GrailKnightRoot" text="{=bPZ6Zco8}The knight prepares a devastating charge, mounted or on foot, for the next 6 seconds, increasing the speed by 20%. When mounted, the knight receives perk buffs as well as a 20% chance of his lance not bouncing off after a couched lance attack. The couched lance attack chance increases by 0.1% for every point in Riding. When on foot, the knight only receives perk buffs."/>
+	
+		<string id="careerchoice_description.ErrantryWarKeystone" text="{=GhQg4S3l}10% extra physical damage during Knightly Charge. The ability scales with the One Handed skill."/>
+		<string id="careerchoice_description.ErrantryWarPassive1" text="{=uBKMjJc3}10% extra melee damage."/>
+		<string id="careerchoice_description.ErrantryWarPassive2" text="{=pnzRAX8K}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.ErrantryWarPassive3" text="{=WHAn5Itk}All Knight troops receive 20 bonus points in One and Two Handed skills."/>
+		<string id="careerchoice_description.ErrantryWarPassive4" text="{=8XyaHCUw}All melee troops in the party gain 25 exp per day."/>
+	
+		<string id="careerchoice_description.EnhancedHorseCombatKeystone" text="{=Le2t8VDf}Ability scales now  with the Polearm skill and starts recharged."/>
+		<string id="careerchoice_description.EnhancedHorseCombatPassive1" text="{=5ryK8VD7}50% additional Hitpoints for the player's mount."/>
+		<string id="careerchoice_description.EnhancedHorseCombatPassive2" text="{=YhPfT3tu}10% extra melee damage while on horseback"/>
+		<string id="careerchoice_description.EnhancedHorseCombatPassive3" text="{=2MjvYvcX}Upgrade costs are reduced by 25%."/>
+		<string id="careerchoice_description.EnhancedHorseCombatPassive4" text="{=MlrUk8L8}All Knight troops receive 30 bonus points in their Polearm skill."/>
+	
+		<string id="careerchoice_description.QuestingVowKeyStone" text="{=sO3RgqmT}Knightly Charge grants 20% physical resistance. Mount will not rear during the ability."/>
+		<string id="careerchoice_description.QuestingVowPassive1" text="{=hXOj8S3K}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.QuestingVowPassive2" text="{=SUyJjxtz}Gain 15% physical resistance to melee and ranged attacks."/>
+		<string id="careerchoice_description.QuestingVowPassive3" text="{=9PvddDc6}All Knight troops gain 10% physical resistance."/>
+		<string id="careerchoice_description.QuestingVowPassive4" text="{=nRQngGJ1}For every Knight Companion you gain 3 Chivalry per Day."/>
+	
+		<string id="careerchoice_description.MonsterSlayerKeystone" text="{=AcYPx6Df}Ability duration scales with Polearm and Riding. The lance attack scales with Two Handed."/>
+		<string id="careerchoice_description.MonsterSlayerPassive1" text="{=xEL8lGqy}10% extra melee fire damage."/>
+		<string id="careerchoice_description.MonsterSlayerPassive2" text="{=LvkdqEA6}20% extra armor penetration of melee attacks."/>
+		<string id="careerchoice_description.MonsterSlayerPassive3" text="{=iXHbxCr5}40% chance to recruit an extra unit of the same type free of charge"/>
+		<string id="careerchoice_description.MonsterSlayerPassive4" text="{=QmNf1gzN}Hits below 15 damage will not stagger the player."/>
+	
+		<string id="careerchoice_description.MasterHorsemanKeystone" text="{=Lrc8CU2J}Reduces cooldown of Knightly Charge by 30s. During the ability, all healing affects the horse."/>
+		<string id="careerchoice_description.MasterHorsemanPassive1" text="{=ME3zRWGy}Horse charge damage is increased by 50%."/>
+		<string id="careerchoice_description.MasterHorsemanPassive2" text="{=HbgJOyVo}Party movement speed is increased by 2."/>
+		<string id="careerchoice_description.MasterHorsemanPassive3" text="{=kigpa5Oy}somethi+4 health regeneration on the campaign map.ng"/>
+		<string id="careerchoice_description.MasterHorsemanPassive4" text="{=I8uQkTcK}All Knight troops wages are reduced by 25%."/>
+	
+		<string id="careerchoice_description.GrailVowKeystone" text="{=fLQEGPhd}Reduces cooldown of Knightly Charge by 30s. During the ability, all healing affects the horse."/>
+		<string id="careerchoice_description.GrailVowPassive1" text="{=7CD5QCdS}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.GrailVowPassive2" text="{=8ZLP4y1X}20% extra holy damage for Battle pilgrim troops."/>
+		<string id="careerchoice_description.GrailVowPassive3" text="{=xCsjl8wG}20% extra melee holy damage."/>
+		<string id="careerchoice_description.GrailVowPassive4" text="{=zIO7boq2}Gain 15% Ward save."/>
+	
+		<string id="careerchoice_description.HolyCrusaderKeystone" text="{=zhQwAmZK}Ability scales with Leadership and propagates from all Companions to units in a 5m radius"/>
+		<string id="careerchoice_description.HolyCrusaderPassive1" text="{=Kg73s0PD}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.HolyCrusaderPassive2" text="{=0GxLL3pv}Companion Health increases by 15 for every 'Knight' Companion."/>
+		<string id="careerchoice_description.HolyCrusaderPassive3" text="{=g8CEtwLu}Grail Knights can be upgraded to Companions."/>
+		<string id="careerchoice_description.HolyCrusaderPassive4" text="{=ZJiF5RJ0}Companion limit of party is increased by 10."/> 
+
+		<!-- GreyLord Career Choices -->
+		<string id="careerchoice_description.GreyLordRoot" text="{=0BTrvg3b}As a master of Winds of Magic and forbidden arts, the Grey Lord conjures subtle whispers inside the enemy’s mind and convinces the foes in the area to turn on their allies. After all, a true Grey Lord knows better than to cloud his judgment with trifling matters of morality. {newline} The chance to turn enemies rises with Spellcraft skills, the health and the level of targets as well as each keystone perk selected"/>
+
+		<string id="careerchoice_description.CaelithsWisdomKeystone" text="{=BFk4AZWP}2 additional overtakes. Ability scales with Leadership. Melee damage can charge ability."/>
+		<string id="careerchoice_description.CaelithsWisdomPassive1" text="{=ickyaTkq}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.CaelithsWisdomPassive2" text="{=WMmCuvkn}Gain 25% fire resistance."/>
+		<string id="careerchoice_description.CaelithsWisdomPassive3" text="{=mejz2eRm}Cityborn upkeep is reduced by 25%."/>
+		<string id="careerchoice_description.CaelithsWisdomPassive4" text="{=hh22vJ50}Cityborn troops gain 50% fire resistance."/>
+
+		<string id="careerchoice_description.SoulBindingKeystone" text="{=xf2LDiKB}Controlled unit gets healed completely. Ability scales with medicine."/>
+		<string id="careerchoice_description.SoulBindingPassive1" text="{=SDIUHu3m}Increases maximum winds of magic capacities by 10."/>
+		<string id="careerchoice_description.SoulBindingPassive2" text="{=ndIMd1nK}Increases Magic resistance against spells by 25%."/>
+		<string id="careerchoice_description.SoulBindingPassive3" text="{=GHiyXQ2k}Wounded troops in your party heal faster."/>
+		<string id="careerchoice_description.SoulBindingPassive4" text="{=chvKXqpc}Not wielding projectile spells increase spell duration for healing spells by 50%"/>
+
+		<string id="careerchoice_description.LegendsOfMalokKeystone" text="{=y96h6dlx}control chance is 15% higher. Ability starts charged."/>
+		<string id="careerchoice_description.LegendsOfMalokPassive1" text="{=4HdtYTce}Increases maximum winds of magic capacities by 10."/>
+		<string id="careerchoice_description.LegendsOfMalokPassive2" text="{=q16nrvRz}Favor costs for cityborn  troop upgrades is reduced by 20%."/>
+		<string id="careerchoice_description.LegendsOfMalokPassive3" text="{=3NQWRvYK}Adds 25% fire damage to all troops."/>
+		<string id="careerchoice_description.LegendsOfMalokPassive4" text="{=X6NzXFdu}If no hex spells are equipped you gain 50% spell radius."/>
+
+		<string id="careerchoice_description.UnrestrictedMagicKeystone" text="{=equkVtiW}When the controlled dies he explodes. Unsucessful control hurt the enemy by 40 HP."/>
+		<string id="careerchoice_description.UnrestrictedMagicPassive1" text="{=ycPRCwE9}Increases maximum winds of magic capacities by 15."/>
+		<string id="careerchoice_description.UnrestrictedMagicPassive2" text="{=009C0MBC}Spell effect radius is increased by 20%."/>
+		<string id="careerchoice_description.UnrestrictedMagicPassive3" text="{=WdlmLAq7}Favor gain from battles is increased by 20%"/>
+		<string id="careerchoice_description.UnrestrictedMagicPassive4" text="{=IWiVoHYA}If no AOE effect is equipped, your projectile spells deal 200% extra damage."/>
+
+		<string id="careerchoice_description.ForbiddenScrollsOfSapheryKeystone" text="{=RFONTmup}Companion damage can charge ability. Range is doubled. Scale with Charm"/>
+		<string id="careerchoice_description.ForbiddenScrollsOfSapheryPassive1" text="{=BQrf1NaN}Increases Windsregeneration by 0.5"/>
+		<string id="careerchoice_description.ForbiddenScrollsOfSapheryPassive2" text="{=9Onb6ros}Increase hex durations by 20%."/>
+		<string id="careerchoice_description.ForbiddenScrollsOfSapheryPassive3" text="{=WxdB5PG2}Increases maximum winds of magic capacities by 15."/>
+		<string id="careerchoice_description.ForbiddenScrollsOfSapheryPassive4" text="{=T8ywp1Ap}Not wielding any healing spells increase hex duration by 50%"/>
+
+		<string id="careerchoice_description.ByAllMeansKeystone" text="{=WKAwSiFS}Ability scales with roguery. Units are easier to overtake"/>
+		<string id="careerchoice_description.ByAllMeansPassive1" text="{=6ksdzv4z}Extra 25% Wardsave if your armor weight does not exceed 11 weight."/>
+		<string id="careerchoice_description.ByAllMeansPassive2" text="{=XXNahEJl}Increases Lightning spell damage by 10%."/>
+		<string id="careerchoice_description.ByAllMeansPassive3" text="{=1lqxRYGm}Increases magic spell damage by 10%."/>
+		<string id="careerchoice_description.ByAllMeansPassive4" text="{=QnWtTxZG}If no buff spells are equipped, duration of vortex and area effects are doubled."/>
+
+		<string id="careerchoice_description.SecretOfFellfangKeystone" text="{=yHv3EPfk}Successful overtake grants 3 winds of magic."/>
+		<string id="careerchoice_description.SecretOfFellfangPassive1" text="{=2cny2rTD}50% cooldown reduction if you wield less than 11 spells"/>
+		<string id="careerchoice_description.SecretOfFellfangPassive2" text="{=vGz8Gktx}Increases maximum winds of magic capacities by 25."/>
+		<string id="careerchoice_description.SecretOfFellfangPassive3" text="{=Yxdxm8hv}After battle, 30% of your winds are regenerated."/>
+		<string id="careerchoice_description.SecretOfFellfangPassive4" text="{=F7xRHwsL}Increases fire spell damage by 15%."/> 
+
+		<!-- ImperialMagister Career Choices -->
+		<string id="careerchoice_description.ImperialMagisterRoot" text="{=BSsvOqjZ}For 10 seconds, the wizard charges his own magical reserves by channeling Winds of Magic swirling in the air. While charging, the wizard is vulnerable to damage and moves at a greatly reduced pace. Every second, 3% of the total Winds of Magic reserve is regained. For every 50 points in Spellcraft, the duration is extended by 1 second, and every key stone picked grants an additional use of Arcane Conduit."/>
+	
+		<string id="careerchoice_description.StudyAndPractiseKeystone" text="{=nMloBkWE}Ability scaling adds  0.25% physical resistance per point."/>
+		<string id="careerchoice_description.StudyAndPractisePassive1" text="{=sIopg8s4}Increases max Winds of Magic by 5."/>
+		<string id="careerchoice_description.StudyAndPractisePassive2" text="{=QcQBS0at}10% Ward save if your armor weight does not exceed 11 weight."/>
+		<string id="careerchoice_description.StudyAndPractisePassive3" text="{=Oqb9yS07}Increases magic spell damage by 10%."/>
+		<string id="careerchoice_description.StudyAndPractisePassive4" text="{=2dSA2O4V}Increases Magic resistance against spells by 25%"/>
+	
+		<string id="careerchoice_description.TeclisTeachingsKeystone" text="{=ZgIMFBX3}You charge 25% longer. Ability scales with Steward."/>
+		<string id="careerchoice_description.TeclisTeachingsPassive1" text="{=veEeJnsE}Increases fire spell damage by 10%"/>
+		<string id="careerchoice_description.TeclisTeachingsPassive2" text="{=4uTiyqKn}Increases electric spell damage by 10%"/>
+		<string id="careerchoice_description.TeclisTeachingsPassive3" text="{=Dt5ck3Nz}Increases max Winds of Magic by 5."/>
+		<string id="careerchoice_description.TeclisTeachingsPassive4" text="{=4ZGvUimK}Powerstones cost 35% less Prestige"/>
+	
+		<string id="careerchoice_description.ImperialEnchantmentKeystone" text="{=IMGEq0xq}You are less slowed down using Arcane Conduit. Scales with leadership"/>
+		<string id="careerchoice_description.ImperialEnchantmentPassive1" text="{=aLHYusuy}Increases max Winds of Magic by 5."/>
+		<string id="careerchoice_description.ImperialEnchantmentPassive2" text="{=VCpn5vc8}Friendly fire damage is reduced by 30%"/>
+		<string id="careerchoice_description.ImperialEnchantmentPassive3" text="{=pdVaq8AR}Buffs and healing duration is increased by 50%."/>
+		<string id="careerchoice_description.ImperialEnchantmentPassive4" text="{=054XTeW9}Power stones reserve 25% less Winds."/>
+	
+		<string id="careerchoice_description.CollegeOrdersKeystone" text="{=gVY0KJU8}Arcane Conduit also refreshes Winds of Companions."/>
+		<string id="careerchoice_description.CollegeOrdersPassive1" text="{=YD7rROu3}Companion limit of party is increased by 5."/>
+		<string id="careerchoice_description.CollegeOrdersPassive2" text="{=KHc3yOt2}Magister Companions have 25 more Winds of Magic."/>
+		<string id="careerchoice_description.CollegeOrdersPassive3" text="{=7jLC8KGy}For every type of  College Wizard gain 10% more Prestige from combat"/>
+		<string id="careerchoice_description.CollegeOrdersPassive4" text="{=OtMYcBqE}Gain access to Power stones of other College Orders"/>
+	
+		<string id="careerchoice_description.MagicCombatTrainingKeystone" text="{=VnNsbALM}Your spell damage is increased for 30% during Arcane Conduit."/>
+		<string id="careerchoice_description.MagicCombatTrainingPassive1" text="{=HFZy0NbN}Increases max Winds of Magic by 5."/>
+		<string id="careerchoice_description.MagicCombatTrainingPassive2" text="{=eyJXfiKI}25% spell cooldown reduction."/>
+		<string id="careerchoice_description.MagicCombatTrainingPassive3" text="{=b4WXhAmt}Increases Spell effectiveness by 15% if you wield an offhand staff."/>
+		<string id="careerchoice_description.MagicCombatTrainingPassive4" text="{=tcmvTL96}Extra 20% Wardsave if your armor weight does not exceed 11 weight."/>
+	
+		<string id="careerchoice_description.AncientScrollsKeystone" text="{=Oj9CZr60}Cooldown reduction by 50%. Additional Usage"/>
+		<string id="careerchoice_description.AncientScrollsPassive1" text="{=JjttQFMe}Increase hex durations by 50%."/>
+		<string id="careerchoice_description.AncientScrollsPassive2" text="{=4rvgVRwN}Increases Windsregeneration by 1."/>
+		<string id="careerchoice_description.AncientScrollsPassive3" text="{=iqFXj5f9}Recover 80% used Prestige from used Powerstones"/>
+		<string id="careerchoice_description.AncientScrollsPassive4" text="{=8bnAWdsJ}For every varying imperial wizard, reduce the powerstone winds upkeep by 5%."/>
+	
+		<string id="careerchoice_description.ArcaneKnowledgeKeystone" text="{=LeobB3DF}Arcane Conduit resets cooldowns of spells. Halves duration and doubles gain. Additional usage"/>
+		<string id="careerchoice_description.ArcaneKnowledgePassive1" text="{=Rt0s0lM1}Spelldamage of companions is increased by 20%"/>
+		<string id="careerchoice_description.ArcaneKnowledgePassive2" text="{=yR3ZC9ZL}Spell effect radius is increased by 20%."/>
+		<string id="careerchoice_description.ArcaneKnowledgePassive3" text="{=SiZ5KOcV}Increases Spell effectiveness by 20% if your armor weight undershoots 11 stones."/>
+		<string id="careerchoice_description.ArcaneKnowledgePassive4" text="{=7aXLw7Qw}For every imperial Magister in your party, your maximum winds increases by 4"/> 
+
+		<!-- Mercenary Career Choices -->
+		<string id="careerchoice_description.MercenaryRoot" text="{=nIIAgCxu}The Mercenary prepares the men around him for the next attack. Makes all troops unbreakable for a short amount of time. The duration is prolonged by the leadership skills"/>
+
+		<string id="careerchoice_description.SurvivalistKeystone" text="{=1agZXyNK}Adds 15% Melee and Ranged Resistance during the career ability."/>
+		<string id="careerchoice_description.SurvivalistPassive1" text="{=AFqYz93X}5 extra ammo"/>
+		<string id="careerchoice_description.SurvivalistPassive2" text="{=N1maCeN6}Increases ranged damage by 10%."/>
+		<string id="careerchoice_description.SurvivalistPassive3" text="{=rUeKKHI9}Party movement speed is increased by 20% in forest, mountain and swamp terrain."/>
+		<string id="careerchoice_description.SurvivalistPassive4" text="{=NL5Zfcfb}Go for a hunt once a day (success chance based on Scouting, Polearm and ranged skills)"/>
+
+		<string id="careerchoice_description.DuelistKeystone" text="{=khmcSpxG}Increases melee attack speed during career ability by 15%."/>
+		<string id="careerchoice_description.DuelistPassive1" text="{=ZYLjalOa}Increases Hitpoints by 20."/>
+		<string id="careerchoice_description.DuelistPassive2" text="{=KY2IXhNa}Increases melee damage resistance of melee troops by 10%."/>
+		<string id="careerchoice_description.DuelistPassive3" text="{=4uTq9kxe}Increases melee damage by 10%."/>
+		<string id="careerchoice_description.DuelistPassive4" text="{=6PNXtcM9}Increases health regeneration on the campaign map by 3."/>
+
+		<string id="careerchoice_description.HeadhunterKeystone" text="{=Gpd5sQzh}Increases range damage during the career ability by 15%."/>
+		<string id="careerchoice_description.HeadhunterPassive1" text="{=jANQ3ScI}10 extra ammo."/>
+		<string id="careerchoice_description.HeadhunterPassive2" text="{=MVvtkmq0}Increases ranged damage by 10%."/>
+		<string id="careerchoice_description.HeadhunterPassive3" text="{=hCJRkVJC}Companion limit of party is increased by 5."/>
+		<string id="careerchoice_description.HeadhunterPassive4" text="{=F88FJMJt}Increases ranged damage resistance by 15%."/>
+
+		<string id="careerchoice_description.KnightlyKeystone" text="{=ixq7z5Ie}Increases melee damage during the career ability by 15%."/>
+		<string id="careerchoice_description.KnightlyPassive1" text="{=vXMw5sZQ}Increases melee damage by 15%."/>
+		<string id="careerchoice_description.KnightlyPassive2" text="{=942mtTGC}Increases melee resistance by 15%."/>
+		<string id="careerchoice_description.KnightlyPassive3" text="{=ChcODE6g}Increases Hitpoints by 40."/>
+		<string id="careerchoice_description.KnightlyPassive4" text="{=oMLR8Jjz}Increases armor penetration of melee attacks by 15%."/>
+
+		<string id="careerchoice_description.PaymasterKeystone" text="{=K7b6P2bn}Values for career ability effects are doubled."/>
+		<string id="careerchoice_description.PaymasterPassive1" text="{=ha0ccsY4}Wounded troops in your party heal faster."/>
+		<string id="careerchoice_description.PaymasterPassive2" text="{=Ws8RqDeA}40% chance to recruit an extra unit of the same type free of charge."/>
+		<string id="careerchoice_description.PaymasterPassive3" text="{=iBINWrRr}Wages of Tier 4 troops and above are reduced by 20%."/>
+		<string id="careerchoice_description.PaymasterPassive4" text="{=eIlfJbfr}Hire your elite troops as companion"/>
+
+		<string id="careerchoice_description.MercenaryLordKeystone" text="{=OriSoV7K}The Career ability reduces reload time by 15%."/>
+		<string id="careerchoice_description.MercenaryLordPassive1" text="{=7Jv9epeo}4 extra special ammo like grenades or buckshot."/>
+		<string id="careerchoice_description.MercenaryLordPassive2" text="{=jUbGEib4}Increases the damage of all ranged troops by 15%."/>
+		<string id="careerchoice_description.MercenaryLordPassive3" text="{=aqYlzrSa}Higher mercenary contract payment, lower Influence loss. Scales with the Trade skill."/>
+		<string id="careerchoice_description.MercenaryLordPassive4" text="{=g0sTQs6X}Ranged shots can penetrate multiple targets."/>
+
+		<string id="careerchoice_description.CommanderKeystone" text="{=DuHxiBkB}Radius of ability is doubled."/>
+		<string id="careerchoice_description.CommanderPassive1" text="{=4x6NCASJ}Companion limit of party is increased by 5."/>
+		<string id="careerchoice_description.CommanderPassive2" text="{=eUm40xQW}Increases the damage of all melee troops by 15%."/>
+		<string id="careerchoice_description.CommanderPassive3" text="{=Ij5TLdUE}Hits below 15 damage do not stagger the player."/>
+		<string id="careerchoice_description.CommanderPassive4" text="{=5OmU0aWX}Companion health of party is increased by 25."/> 
+
+		<!-- Necrarch Career Choices -->
+		<string id="careerchoice_description.NecrarchRoot" text="{=Ulh0ZNIz}Summoned directly from the realm of the dead and cast by the Necrarch, this projectile spell deals 80 damage. The Blast of Agony grows in size for every point put into the Spellcraft skill, it can also be modified with several upgrades from the Career tree. It is free of any winds of magic cost to cast."/>
+	
+		<string id="careerchoice_description.DiscipleOfAccursedKeystone" text="{=1pREKQD4}Undead troops can charge career ability. Ability scales with Roguery"/>
+		<string id="careerchoice_description.DiscipleOfAccursedPassive1" text="{=pI95t25v}Increases Party size by 35."/>
+		<string id="careerchoice_description.DiscipleOfAccursedPassive2" text="{=pvrsSzb8}10% cost reduction for spells."/>
+		<string id="careerchoice_description.DiscipleOfAccursedPassive3" text="{=06CLXMEb}Reduce the Dark Energy upkeep for wraith troops by 25%."/>
+		<string id="careerchoice_description.DiscipleOfAccursedPassive4" text="{=p7pcMusX}For every magical item in your battle equipment you increase your maximum winds by 2."/>
+	
+		<string id="careerchoice_description.WitchSightKeystone" text="{=9eP0E7jm}For every hit enemy gain 0.25% of your maximum Winds of magic"/>
+		<string id="careerchoice_description.WitchSightPassive1" text="{=pTtlDx1T}The Spotting range of the party is increased by 20%."/>
+		<string id="careerchoice_description.WitchSightPassive2" text="{=VkaJaToZ}Increases max Winds of Magic by 10."/>
+		<string id="careerchoice_description.WitchSightPassive3" text="{=ASuwtO39}Increases Magic resistance against spells by 25%."/>
+		<string id="careerchoice_description.WitchSightPassive4" text="{=n0y2Dgh2}Increases max Winds of Magic by 20 if your armor weight undershoots 11 stones."/>
+	
+		<string id="careerchoice_description.DarkVisionKeystone" text="{=VCLlWxA1}Summons a Wraith on impact. Spell damage charge is increased by 25%"/>
+		<string id="careerchoice_description.DarkVisionPassive1" text="{=GsvuQuyp}Increases max Winds of Magic by 10."/>
+		<string id="careerchoice_description.DarkVisionPassive2" text="{=c3QlJmvS}Gain 15 Dark Energy daily."/>
+		<string id="careerchoice_description.DarkVisionPassive3" text="{=zINEBWZe}Spell damage increase roguery."/>
+		<string id="careerchoice_description.DarkVisionPassive4" text="{=QJTl1iMS}For every known spell your winds capacity rises by 1."/>
+	
+		<string id="careerchoice_description.UnhallowedSoulKeystone" text="{=9H3bUNZJ}Increase impact damage of netherball by 25%. The Projectile is now target seeking"/>
+		<string id="careerchoice_description.UnhallowedSoulPassive1" text="{=9U6NXJE4}Increase buff durations by 25%."/>
+		<string id="careerchoice_description.UnhallowedSoulPassive2" text="{=h2hqPHfb}Gain 30 Dark Energy daily."/>
+		<string id="careerchoice_description.UnhallowedSoulPassive3" text="{=2fDvYoPq}Increases Spell effectiveness by 30% if your armor weight undershoots 11 stones."/>
+		<string id="careerchoice_description.UnhallowedSoulPassive4" text="{=QIoprTVi}Increases lightning spell damage by 10%."/>
+	
+		<string id="careerchoice_description.HungerForKnowledgeKeystone" text="{=aH7pdNRm}The Career ability is constantly slowly charged."/>
+		<string id="careerchoice_description.HungerForKnowledgePassive1" text="{=VRQK6pv0}Increase hex durations by 25%."/>
+		<string id="careerchoice_description.HungerForKnowledgePassive2" text="{=AGXNY2Mq}Wraiths are immune to friendly fire spell damage."/>
+		<string id="careerchoice_description.HungerForKnowledgePassive3" text="{=FSPOwuJJ}Perform with your companion a dark ritual gaining 50 Winds each for 100 Dark Energy"/>
+		<string id="careerchoice_description.HungerForKnowledgePassive4" text="{=dhNVHULG}Increases Magic melee and spell damage by 10%."/>
+	
+		<string id="careerchoice_description.WellspringOfDharKeystone" text="{=c4WICWve}Ability scales with Medicine. Ability starts charged. Companions can charge ability."/>
+		<string id="careerchoice_description.WellspringOfDharPassive1" text="{=oV7sLnoE}Increase buff durations by 25%."/>
+		<string id="careerchoice_description.WellspringOfDharPassive2" text="{=FFhqrbUI}Tier 4 Undead troops can get wounded with a 20% lower chance."/>
+		<string id="careerchoice_description.WellspringOfDharPassive3" text="{=ijPdRybo}Spellcaster Companion gain 15 more Winds of Magic."/>
+		<string id="careerchoice_description.WellspringOfDharPassive4" text="{=FY0FzYik}Increases fire spell damage by 10%."/>
+	
+		<string id="careerchoice_description.EverlingsSecretKeystone" text="{=6jt4XUhB}After using nether ball, a second use is available shortly after the first one."/>
+		<string id="careerchoice_description.EverlingsSecretPassive1" text="{=wQ3Y2qEr}Increases Windsregeneration by 1."/>
+		<string id="careerchoice_description.EverlingsSecretPassive2" text="{=ZeRY7YKb}35% spell cooldown reduction."/>
+		<string id="careerchoice_description.EverlingsSecretPassive3" text="{=j7hDUmUh}Once your Winds are full, your winds recharge rate is counted towards your Dark Energy."/>
+		<string id="careerchoice_description.EverlingsSecretPassive4" text="{=pwe8nNdq}Any non-physical damage count towards spell damage type"/> 
+
+		<!-- Necromancer Career Choices -->
+		<string id="careerchoice_description.NecromancerRoot" text="{=clqjm4Gx}Summon a champion that the necromancer take control of. The Champion loses every 2 seconds 5 health points. For every 3 points in spell casting skill the champion gains 1 health point. Charging: applying spell- damage or healing. Alternatively, Let undead units inflict damage."/>
+	
+		<string id="careerchoice_description.LiberNecrisKeystone" text="{=yyG4794d}Your Harbinger gains a two handed weapon. Ability scales with Roguery"/>
+		<string id="careerchoice_description.LiberNecrisPassive1" text="{=XiMedQYj}Increases Party size by 10."/>
+		<string id="careerchoice_description.LiberNecrisPassive2" text="{=2UNCmwuD}Harbinger kills increase rougery"/>
+		<string id="careerchoice_description.LiberNecrisPassive3" text="{=4kY1mGis}Increases your health by 25."/>
+		<string id="careerchoice_description.LiberNecrisPassive4" text="{=ksWYZ6oS}Increases magic spell damage by 10%."/>
+	
+		<string id="careerchoice_description.DeArcanisKadonKeystone" text="{=fOBPFRrL}Pressing Ability key allows to switch between characters; Harbinger acts independent."/>
+		<string id="careerchoice_description.DeArcanisKadonPassive1" text="{=Lvhbgrfh}10% extra melee damage for undead troops."/>
+		<string id="careerchoice_description.DeArcanisKadonPassive2" text="{=xcbJECNM}Increases Party size by 10."/>
+		<string id="careerchoice_description.DeArcanisKadonPassive3" text="{=Iu6xkx3i}15% cost reduction for spells."/>
+		<string id="careerchoice_description.DeArcanisKadonPassive4" text="{=3Evj1g5x}Increases maximum winds of magic capacities by 15."/>
+	
+		<string id="careerchoice_description.CodexMortificaKeystone" text="{=b2zpR6ap}During Champion control gain 90% damage resistance for caster. Ability scales with Medicine."/>
+		<string id="careerchoice_description.CodexMortificaPassive1" text="{=jq17Qivv}Increases Party size by 10."/>
+		<string id="careerchoice_description.CodexMortificaPassive2" text="{=Qkhl21Ct}Increases maximum winds of magic capacities by 10."/>
+		<string id="careerchoice_description.CodexMortificaPassive3" text="{=9ANZKa2K}Wounded troops in your party heal faster"/>
+		<string id="careerchoice_description.CodexMortificaPassive4" text="{=jHH6nTvb}Tier 4 Undead troops can get wounded with a 20% lower chance."/>
+	
+		<string id="careerchoice_description.LiberMortisKeystone" text="{=cT3cpHPn}Your champion gains 25% extra melee damage. Ability starts charged"/>
+		<string id="careerchoice_description.LiberMortisPassive1" text="{=V9b2Kk2d}Increases Party size by 25."/>
+		<string id="careerchoice_description.LiberMortisPassive2" text="{=Hgj9aEbS}Attacks of undead troops can penetrate 15% armor."/>
+		<string id="careerchoice_description.LiberMortisPassive3" text="{=18IOUfiC}Undead troops gain 10% extra physical melee damage."/>
+		<string id="careerchoice_description.LiberMortisPassive4" text="{=3BvV9JbA}20% Spell cooldown reduction."/>
+	
+		<string id="careerchoice_description.BookofWsoranKeystone" text="{=2HJdPfZG}Your Champion gains 25% Wardsave and can't be staggered."/>
+		<string id="careerchoice_description.BookofWsoranPassive1" text="{=2lJEHbKW}Increases Party size by 50."/>
+		<string id="careerchoice_description.BookofWsoranPassive2" text="{=20du8kuX}Increase hex durations by 50%."/>
+		<string id="careerchoice_description.BookofWsoranPassive3" text="{=n7gZNbjw}Undead troops gain 25% Ward save."/>
+		<string id="careerchoice_description.BookofWsoranPassive4" text="{=l0oqBAg6}Gain 0.5 Dark Energy for every Grave guard troop."/>
+	
+		<string id="careerchoice_description.GrimoireNecrisKeystone" text="{=63QQbUHw}Harbinger kills gain 2HP for caster and the Champion. Harbinger gains a plate armor"/>
+		<string id="careerchoice_description.GrimoireNecrisPassive1" text="{=bcJogJ73}Undead troops gain 10% extra magical melee damage."/>
+		<string id="careerchoice_description.GrimoireNecrisPassive2" text="{=RMIBUqID}Dark Energy Upkeep costs are reduced by 25%"/>
+		<string id="careerchoice_description.GrimoireNecrisPassive3" text="{=QPQgnIbn}Buffs and healing duration is increased by 50%."/>
+		<string id="careerchoice_description.GrimoireNecrisPassive4" text="{=e5I4FULv}For every magical item equipped you summon 1 unit more."/>
+	
+		<string id="careerchoice_description.BooksOfNagashKeystone" text="{=MoDzBAqj}Regenerate per kill of your champion 1 winds of magic. Adds 20% magical damage to champion"/>
+		<string id="careerchoice_description.BooksOfNagashPassive1" text="{=BooQF2JH}Gain 15 Dark Energy daily."/>
+		<string id="careerchoice_description.BooksOfNagashPassive2" text="{=htWk2RWx}Increases Party size by 100."/>
+		<string id="careerchoice_description.BooksOfNagashPassive3" text="{=jw3KbPGR}Increases maximum winds of magic capacities by 25."/>
+		<string id="careerchoice_description.BooksOfNagashPassive4" text="{=7eprlrkl}Dark Energy cost for undead troop upgrades is reduced by 50%."/> 
+
+		<!-- Spellsinger Career Choices -->
+		<string id="careerchoice_description.SpellSingerRoot" text="{=BKQ0L4gP}Calls treespirits of the surouding forests. Every point in Spellcraft increases the chance by 0.05% additional treespirits join the combat"/>
+
+		<string id="careerchoice_description.PathShapingKeystone" text="{=Sy9QWq82}Upon casting, all forest spirits are moving faster for 10 seconds. Ability scales with Scouting"/>
+		<string id="careerchoice_description.PathShapingPassive1" text="{=HX064DjO}Party movement speed is increased by 1."/>
+		<string id="careerchoice_description.PathShapingPassive2" text="{=oERqm4ga}Upkeep for elven units is reduced by 15%."/>
+		<string id="careerchoice_description.PathShapingPassive3" text="{=5XWSC0ui}The Spotting range of the party is increased by 20%."/>
+		<string id="careerchoice_description.PathShapingPassive4" text="{=GW4JnvuS}Gain 15% Ward save."/>
+
+		<string id="careerchoice_description.TreeSingingKeystone" text="{=dY5GEKxU}Charge is increased by 50%. +5 base troops for summoning."/>
+		<string id="careerchoice_description.TreeSingingPassive1" text="{=5OEb75sZ}Increases maximum winds of magic capacities by 10."/>
+		<string id="careerchoice_description.TreeSingingPassive2" text="{=SlVx3K07}Gain 20 Harmony daily."/>
+		<string id="careerchoice_description.TreeSingingPassive3" text="{=cwU7lOMX}Upkeep for dryads units is reduced by 10%."/>
+		<string id="careerchoice_description.TreeSingingPassive4" text="{=KuaZGZfm}For every known spell increase party size by 3"/>
+
+		<string id="careerchoice_description.VitalSurgeKeystone" text="{=CdGUEO13}Every spawned unit heals 1 HP for all heroes. Ability scales with Medicine"/>
+		<string id="careerchoice_description.VitalSurgePassive1" text="{=UlAYvbZ9}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.VitalSurgePassive2" text="{=reiVVOXJ}Increases troop regeneration by 2."/>
+		<string id="careerchoice_description.VitalSurgePassive3" text="{=4CGXnsES}Buffs and healing duration is increased by 25%."/>
+		<string id="careerchoice_description.VitalSurgePassive4" text="{=RVmT9z3R}Increases health regeneration on the campaign map by 4."/>
+
+		<string id="careerchoice_description.HeartOfTheTreeKeystone" text="{=MvyH74TR}Treespirit attacks charge Career Ability. Ability scales with Leadership"/>
+		<string id="careerchoice_description.HeartOfTheTreePassive1" text="{=XsrRTxrW}tree spirits deal 15% extra damage."/>
+		<string id="careerchoice_description.HeartOfTheTreePassive2" text="{=iFqeLN7v}dryads gain 25% Wardsave."/>
+		<string id="careerchoice_description.HeartOfTheTreePassive3" text="{=I2jS0RuQ}Upkeep for tree spirit units is reduced by 15%."/>
+		<string id="careerchoice_description.HeartOfTheTreePassive4" text="{=65D2DTai}Every joining friendly tree spirit unit has a 25% chance to provide 1 wind."/>
+
+		<string id="careerchoice_description.ArielsBlessingKeystone" text="{=txTmI73X}Ability starts charged. Ability scales with Faith"/>
+		<string id="careerchoice_description.ArielsBlessingPassive1" text="{=sEMLZIPy}20% extra magical melee damage."/>
+		<string id="careerchoice_description.ArielsBlessingPassive2" text="{=BsNlpsTe}Increases maximum winds of magic capacities by 15."/>
+		<string id="careerchoice_description.ArielsBlessingPassive3" text="{=Do6mooSJ}Isha's blessing also provides 20 Forest harmony daily"/>
+		<string id="careerchoice_description.ArielsBlessingPassive4" text="{=s3UUgcVi}Spell effect radius is increased by 20%."/>
+
+		<string id="careerchoice_description.MagicOfAthelLorenKeystone" text="{=iBnA4HBE}for 10 seconds after casting, dryad kills gain 1 Wind."/>
+		<string id="careerchoice_description.MagicOfAthelLorenPassive1" text="{=vMHn43L4}15% extra magical spell damage."/>
+		<string id="careerchoice_description.MagicOfAthelLorenPassive2" text="{=Q0key1QK}Increases maximum winds of magic capacities by 15."/>
+		<string id="careerchoice_description.MagicOfAthelLorenPassive3" text="{=elo3sNq6}tree spirits are not affected by friendly fire."/>
+		<string id="careerchoice_description.MagicOfAthelLorenPassive4" text="{=EEG3r5j9}Increase hex durations by 35%."/>
+		
+		<string id="careerchoice_description.FuryOfTheForestKeystone" text="{=iTDrrft9}Call 1 Treeman with ability (or 10 dryads in close quarter Missions)"/>
+		<string id="careerchoice_description.FuryOfTheForestPassive1" text="{=gakE4XTy}A Dark weaver provides 15% extra Maigcal damage to all heroes."/>
+		<string id="careerchoice_description.FuryOfTheForestPassive2" text="{=njr4na0A}A High weaver provides 25% extra wardsave to all heroes."/>
+		<string id="careerchoice_description.FuryOfTheForestPassive3" text="{=W8aJCV4H}Treeman Upkeep is reduced by 25%"/>
+		<string id="careerchoice_description.FuryOfTheForestPassive4" text="{=Ob1pnyzM}35% Spell cooldown reduction."/>
+
+		<!-- VampireCount Career Choices-->
+		<string id="careerchoice_description.VampireCountRoot" text="{=1b5erN9r}The player transforms into fog, which is impossible to catch and can fly in every direction. The ability lasts 5 seconds and the duration increases by 0.03 seconds for each point in Athletics. Mist Form can be deactivated at will by pressing attack."/>
+
+		<string id="careerchoice_description.NewBloodKeystone" text="{=2ZqyNwzN}Ability needs 20% less damage to get charged."/>
+		<string id="careerchoice_description.NewBloodPassive1" text="{=2Hz8f5Mb}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.NewBloodPassive2" text="{=spz7NFDM}Increases Party size by 25."/>
+		<string id="careerchoice_description.NewBloodPassive3" text="{=4kyTl9W9}Increases max Winds of Magic by 15."/>
+		<string id="careerchoice_description.NewBloodPassive4" text="{=qNqTTJVX}Immune to sunlight speed malus."/>
+
+		<string id="careerchoice_description.FeralKeystone" text="{=IS73U8VX}Mistform speed is increased by 20%."/>
+		<string id="careerchoice_description.FeralPassive1" text="{=D4KoItbi}10% extra melee damage."/>
+		<string id="careerchoice_description.FeralPassive2" text="{=YFiPnY8J}Increases health regeneration on the campaign map by 3."/>
+		<string id="careerchoice_description.FeralPassive3" text="{=WcZtKgcY}Party movement speed is increased by 1.5."/>
+		<string id="careerchoice_description.FeralPassive4" text="{=2Hz8f5Mb}Increases Hitpoints by 25."/>
+
+		<string id="careerchoice_description.ArkayneKeystone" text="{=vjXcgh49}Mistform scales with Spellcraft. Spell damage can charge ability with 90% reduced power."/>
+		<string id="careerchoice_description.ArkaynePassive1" text="{=YHk186Ut}Armor weight doesn't affect winds recharge rate"/>
+		<string id="careerchoice_description.ArkaynePassive2" text="{=fW05YybJ}Increases Magical spell damage by 10%."/>
+		<string id="careerchoice_description.ArkaynePassive3" text="{=yr402N4P}10% extra Magical melee damage."/>
+		<string id="careerchoice_description.ArkaynePassive4" text="{=loTGwzLb}10% cost reduction for spells."/>
+
+		<string id="careerchoice_description.CourtleyKeystone" text="{=M6MXx1ij}Mist Form is recharged on battle start and now also scales with Roguery."/>
+		<string id="careerchoice_description.CourtleyPassive1" text="{=ml3L9zdf}Increases positive Relation gains by 20%."/>
+		<string id="careerchoice_description.CourtleyPassive2" text="{=2Hz8f5Mb}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.CourtleyPassive3" text="{=q4Snzqsq}10% extra Magical spell and ranged damage."/>
+		<string id="careerchoice_description.CourtleyPassive4" text="{=ESFXBG1W}Killing blows in the head replenish 3 Winds of Magic."/>
+
+		<string id="careerchoice_description.LordlyKeystone" text="{=3gFUFaWm}Mist Form heals 3 HP per second. The ability duration scales with the wielded weapon skill."/>
+		<string id="careerchoice_description.LordlyPassive1" text="{=pxqaxoqS}Increases Companion Limit by 5."/>
+		<string id="careerchoice_description.LordlyPassive2" text="{=Q1UnixGG}Party size is increased by 75."/>
+		<string id="careerchoice_description.LordlyPassive3" text="{=LFmhlZiX}All Vampire troops wages are reduced by 15%."/>
+		<string id="careerchoice_description.LordlyPassive4" text="{=BM1uoka0}Upgrade costs are halved."/>
+		
+		<string id="careerchoice_description.MartialleKeystone" text="{=U5D1yP8D}+20% swing speed. Buffs are active after Mist Form (requires extra 30% damage dealt)."/>
+		<string id="careerchoice_description.MartiallePassive1" text="{=D4KoItbi}10% extra melee damage."/>
+		<string id="careerchoice_description.MartiallePassive2" text="{=hhdzEzES}Increases Hitpoints by 50."/>
+		<string id="careerchoice_description.MartiallePassive3" text="{=GeCTRV1J}Increases Companion Limit by 5."/>
+		<string id="careerchoice_description.MartiallePassive4" text="{=xBurrFdG}All attacks deal bonus damage against shields"/>
+
+		<string id="careerchoice_description.MasterOfDeadKeystone" text="{=xLt1u4c5}All buffs are propagated while remaining in Mist Form (requires extra 30% damage dealt)."/>
+		<string id="careerchoice_description.MasterOfDeadPassive1" text="{=fp8DpWBg}Increases Party size by 100."/>
+		<string id="careerchoice_description.MasterOfDeadPassive2" text="{=heZQ2Vj7}Undead troops gain 25% Ward save."/>
+		<string id="careerchoice_description.MasterOfDeadPassive3" text="{=GQww2pNa}20% higher chance for raised dead after battle."/>
+		<string id="careerchoice_description.MasterOfDeadPassive4" text="{=nDHVUnLK}Tier 4 Undead troops can get wounded with a 20% lower chance."/>
+
+		<!-- WarriorPriest Career Choices -->
+		<string id="careerchoice_description.WarriorPriestRoot" text="{=8VFjAUNE}The Warrior Priest unleashes Sigmar's wrath for 8 seconds, which empowers him and the surrounding allies with 20% stronger melee attacks.  Every point in Faith increases the melee effect by 0.05% and the duration by 0.05 seconds. The ability recharges by taking 50% of damage of total health. Blocked damage counts as 10% of the damage taken."/>
+	
+		<string id="careerchoice_description.BookOfSigmarKeyStone" text="{=gyNRUuDs}Ability can also be charged by applying damage."/>
+		<string id="careerchoice_description.BookOfSigmarPassive1" text="{=1fNiaUtQ}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.BookOfSigmarPassive2" text="{=x2uEDjRc}Increases morale for all troops by 10."/>
+		<string id="careerchoice_description.BookOfSigmarPassive3" text="{=iJKy8N7Y}After battle, all wounded companions are healed for 20 Hitpoints."/>
+		<string id="careerchoice_description.BookOfSigmarPassive4" text="{=su9hk2pI}Wounded troops in your party heal faster."/>
+	
+		<string id="careerchoice_description.SigmarsProclaimerKeystone" text="{=mh6ZsAUC}Doubles the aura size of Righteous Fury."/>
+		<string id="careerchoice_description.SigmarsProclaimerPassive1" text="{=Bw7MF1qO}10% extra holy melee damage."/>
+		<string id="careerchoice_description.SigmarsProclaimerPassive2" text="{=qUrtmEfp}All Sigmarite troops wages are reduced by 20%"/>
+		<string id="careerchoice_description.SigmarsProclaimerPassive3" text="{=729cRJF6}Sigmarite troops get 25% resistance to physical ranged attacks."/>
+		<string id="careerchoice_description.SigmarsProclaimerPassive4" text="{=WiOIpSN8}When praying at a shrine of Sigmar, all characters restore 50 Hitpoints."/>
+	
+		<string id="careerchoice_description.RelentlessFanaticKeyStone" text="{=7aK7EAJP}Righteous Fury scales with Leadership. Troops affected get unbreakable for the duration."/>
+		<string id="careerchoice_description.RelentlessFanaticPassive1" text="{=IlQNmCfm}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.RelentlessFanaticPassive2" text="{=yZv752iQ}10% extra holy melee damage."/>
+		<string id="careerchoice_description.RelentlessFanaticPassive3" text="{=mvcDMPqC}Party movement speed is increased by 1."/>
+		<string id="careerchoice_description.RelentlessFanaticPassive4" text="{=nBdZE1Dh}Prayers aren't affected by global cooldowns."/>
+	
+		<string id="careerchoice_description.ProtectorOfTheWeakKeyStone" text="{=Mixdy0ng}Righteous Fury scales with the highest melee weapon skill. Adds 20% physical resistance."/>
+		<string id="careerchoice_description.ProtectorOfTheWeakPassive1" text="{=8zepFgak}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.ProtectorOfTheWeakPassive2" text="{=qYUCtr2l}Increases melee physical resistance by 15%."/>
+		<string id="careerchoice_description.ProtectorOfTheWeakPassive3" text="{=GsLtSQcg}Increases Magic resistance against spells by 25%."/>
+		<string id="careerchoice_description.ProtectorOfTheWeakPassive4" text="{=7SQVvSQt}Hits below 15 damage do not stagger the player."/>
+	
+		<string id="careerchoice_description.HolyPurgeKeyStone" text="{=jfCQxhmd}All units affected by Righteous Fury receive a burning weapon buff."/>
+		<string id="careerchoice_description.HolyPurgePassive1" text="{=CkDnd58J}10% extra holy melee damage."/>
+		<string id="careerchoice_description.HolyPurgePassive2" text="{=qjjrIp3Z}All battles against forces of Chaos and undead earn 20% more prestige."/>
+		<string id="careerchoice_description.HolyPurgePassive3" text="{=6dzdOao5}All troops deal 10% more melee damage to non-human enemies."/>
+		<string id="careerchoice_description.HolyPurgePassive4" text="{=HCKHBhGn}All Sigmarite troops gain 10% extra Holy damage."/>
+	
+		<string id="careerchoice_description.ArchLectorKeyStone" text="{=x8e0gdHO}Adds a healing buff to Righteous Fury that restores 3 Hitpoints per second."/>
+		<string id="careerchoice_description.ArchLectorPassive1" text="{=InKsHNtE}Prayers are recharged on battle start."/>
+		<string id="careerchoice_description.ArchLectorPassive2" text="{=BvjFhiO4}All neutral Empire troops now count as Sigmarite troops."/>
+		<string id="careerchoice_description.ArchLectorPassive3" text="{=p5liZnze}Gain 15% Ward save."/>
+		<string id="careerchoice_description.ArchLectorPassive4" text="{=F0qjs1cd}All Sigmarite troops gain 20% Ward save."/>
+	
+		<string id="careerchoice_description.TwinTailedCometKeystone" text="{=AV0XBxK1}Righteous Fury adds a damaging aura. Its radius increases slightly when raising relevant skills."/>
+		<string id="careerchoice_description.TwinTailedCometPassive1" text="{=9GY0QR1X}10% extra holy melee damage."/>
+		<string id="careerchoice_description.TwinTailedCometPassive2" text="{=vPhgTaGg}Increases Companion Limit by 5."/>
+		<string id="careerchoice_description.TwinTailedCometPassive3" text="{=ehkiMbQC}Extra 20% armor penetration of melee attacks."/>
+		<string id="careerchoice_description.TwinTailedCometPassive4" text="{=vcPw3Muy}Increases Hitpoints by 30."/> 
+
+		<!-- WarriorPriest Ulric Career Choices -->
+		<string id="careerchoice_description.WarriorPriestUlricRoot" text="{=xcxDNSBz}The Wolf Priest unleashes a mighty blow in the name of his feral god, bringing the full might of his weapon crashing to the ground as if he were wielding Blitzbeil itself. This attack cannot be parried and affects targets in a 2-meter radius. For every point of the players highest weapon skill, damage is increased by 0.1%."/>
+	
+		<string id="careerchoice_description.CrusherOfTheWeakKeystone" text="{=ZC4izhns}Enemies are knocked down from the blow of the ability."/>
+		<string id="careerchoice_description.CrusherOfTheWeakPassive1" text="{=XfWDudSG}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.CrusherOfTheWeakPassive2" text="{=3fQXCdfe}Extra melee damage (10%)."/>
+		<string id="careerchoice_description.CrusherOfTheWeakPassive3" text="{=Kk8vwgx5}Extra melee damage if the target is below tier 4 (10%)."/>
+		<string id="careerchoice_description.CrusherOfTheWeakPassive4" text="{=rsFwPSCo}Prayers are recharged on battle start."/>
+	
+		<string id="careerchoice_description.WildPackKeystone" text="{=TCVpppii}Leadership counts towards career ability"/>
+		<string id="careerchoice_description.WildPackPassive1" text="{=2ohTHn2m}Increases melee physical resistance by 10%."/>
+		<string id="careerchoice_description.WildPackPassive2" text="{=DJLT25AK}Increases Party size by 10."/>
+		<string id="careerchoice_description.WildPackPassive3" text="{=pcXfHNsC}Increases health regeneration after battles by 2."/>
+		<string id="careerchoice_description.WildPackPassive4" text="{=Mb36nioY}Party movement speed is increased by 1."/>
+	
+		<string id="careerchoice_description.TeachingsOfTheWinterFatherKeystone" text="{=oWOmGzqL}The radius of the attack is increased by 1 meters. Faith counts towards ability"/>
+		<string id="careerchoice_description.TeachingsOfTheWinterFatherPassive1" text="{=3Sd7MJNW}Wounded troops in your party heal faster."/>
+		<string id="careerchoice_description.TeachingsOfTheWinterFatherPassive2" text="{=rsruxvhb}Praying at a shrine of ulric refills player health completely"/>
+		<string id="careerchoice_description.TeachingsOfTheWinterFatherPassive3" text="{=gDx8cXC4}Attacks deal bonus damage against shields."/>
+		<string id="careerchoice_description.TeachingsOfTheWinterFatherPassive4" text="{=6SKKAtDe}Increases range damage resistance of melee troops by 20%."/>
+	
+		<string id="careerchoice_description.FrostsBiteKeystone" text="{=5icDMvnR}Enemies affected by the attack are slowed down for 6 seconds. Damage of the attack is now Frost damage."/>
+		<string id="careerchoice_description.FrostsBitePassive1" text="{=nfiSUEH6}Extra frost damage (10%)."/>
+		<string id="careerchoice_description.FrostsBitePassive2" text="{=bZWAcNlj}Add 10% frost damage to melee troops."/>
+		<string id="careerchoice_description.FrostsBitePassive3" text="{=xcmjvjLR}Party is not slowed by snow."/>
+		<string id="careerchoice_description.FrostsBitePassive4" text="{=eaWRRpTl}Increase hex durations by 20%."/>
+	
+		<string id="careerchoice_description.RunesOfTheWhiteWolfKeystone" text="{=uwIzeUch}All Enemies hit by the Axe of Ulric suffer from a damage over time effect"/>
+		<string id="careerchoice_description.RunesOfTheWhiteWolfPassive1" text="{=lGrAmOVV}Wearing wolf heads or pelts increases wardsave by 10%"/>
+		<string id="careerchoice_description.RunesOfTheWhiteWolfPassive2" text="{=LI4zbTQG}Increases Hitpoints by 50."/>
+		<string id="careerchoice_description.RunesOfTheWhiteWolfPassive3" text="{=3rLEu1Yn}Increase prayer durations by 20%."/>
+		<string id="careerchoice_description.RunesOfTheWhiteWolfPassive4" text="{=rsfs5YzK}Ulrican troops gain 20% Ward save."/>
+	
+		<string id="careerchoice_description.FuryOfWarKeystone" text="{=DOPgc9ih}Required charge for ability is halved."/>
+		<string id="careerchoice_description.FuryOfWarPassive1" text="{=3OcL4Yzh}Every  equipped melee weapon increases melee damage by 5%."/>
+		<string id="careerchoice_description.FuryOfWarPassive2" text="{=5qDUoEAN}Weapon swing speed increased by 10%."/>
+		<string id="careerchoice_description.FuryOfWarPassive3" text="{=UaO9kHeM}Battles with even or unfavorable odds refresh your Ulric blessing."/>
+		<string id="careerchoice_description.FuryOfWarPassive4" text="{=CDKUvYz5}Hits below 15 damage do not stagger the player."/>
+	
+		<string id="careerchoice_description.FlameOfUlricKeystone" text="{=rxyaFL1P}For every executed Axe of Ulric one of your prayer cooldowns gets randomly reset."/>
+		<string id="careerchoice_description.FlameOfUlricPassive1" text="{=ASQAo6g0}Increases range of prayers by 50%."/>
+		<string id="careerchoice_description.FlameOfUlricPassive2" text="{=0X9jIHsW}Extra 20% armor penetration of melee attacks."/>
+		<string id="careerchoice_description.FlameOfUlricPassive3" text="{=KY5wIJbf}Battles with even or unfavorable odds provide double Prestige."/>
+		<string id="careerchoice_description.FlameOfUlricPassive4" text="{=mywQ2IPX}For every kill through abilities gain 0.25 health points"/> 
+
+		<!-- Waywatcher Career Choices -->
+		<string id="careerchoice_description.WayWatcherRoot" text="{=mPVYw9e8}Kurnous, Lord of the Hunt, blesses this fatal shot to travel straight through the heart of the enemy. This missile attack will seek out its target and trigger an explosion upon impact. With every skill point in Archery, the radius increases. For charging ability deal 1200 damage points with bows. Each Arrow charges a maximum of 150 points"/>
+	
+		<string id="careerchoice_description.ProtectorOfTheWoodsKeystone" text="{=HUXfEU2l}Reduces the amount of ranged damage to unlock ability. Ability starts charged."/>
+		<string id="careerchoice_description.ProtectorOfTheWoodsPassive1" text="{=GxYR5D01}Extra ranged damage (10%)."/>
+		<string id="careerchoice_description.ProtectorOfTheWoodsPassive2" text="{=LJj4PE9p}3 extra Arrows per equipped Quiver"/>
+		<string id="careerchoice_description.ProtectorOfTheWoodsPassive3" text="{=7EwHbiHu}All ranged troops wages are reduced by 20%"/>
+		<string id="careerchoice_description.ProtectorOfTheWoodsPassive4" text="{=AnN0077D}Reduce range Accuracy movement penalty by 15%."/>
+	
+		<string id="careerchoice_description.PathfinderKeystone" text="{=HERmslIZ}The range of Arrow of Kournous is doubled. Ability scales with Scouting"/>
+		<string id="careerchoice_description.PathfinderPassive1" text="{=vZ0H2x8a}The Spotting range of the party is increased by 20%."/>
+		<string id="careerchoice_description.PathfinderPassive2" text="{=7FjXdJD4}Party movement speed is increased by 1."/>
+		<string id="careerchoice_description.PathfinderPassive3" text="{=v4ws4oO6}Party travels unhindered through snow"/>
+		<string id="careerchoice_description.PathfinderPassive4" text="{=z56f67d5}Ranged damage is shrugged off"/>
+	
+		<string id="careerchoice_description.ForestStalkerKeystone" text="{=wnebD5yN}All enemies suffer 50% more magical damage for 10 seconds. Allied troops charge ability."/>
+		<string id="careerchoice_description.ForestStalkerPassive1" text="{=IFB7AOSg}Once per day, go for a hunt."/>
+		<string id="careerchoice_description.ForestStalkerPassive2" text="{=GazyAeYT}Gain 20% range resistance."/>
+		<string id="careerchoice_description.ForestStalkerPassive3" text="{=NOWzFw4R}Increases range damage resistance of melee troops by 20%."/>
+		<string id="careerchoice_description.ForestStalkerPassive4" text="{=pbUQUN1x}20% Equipment weight Reduction"/>
+	
+		<string id="careerchoice_description.HailOfArrowsKeystone" text="{=sltxZHbk}Every affected enemy increases reload speed for 4 sec. The damage increased by 50%"/>
+		<string id="careerchoice_description.HailOfArrowsPassive1" text="{=Nwbfp9DT}6 extra Arrows per equipped Quiver"/>
+		<string id="careerchoice_description.HailOfArrowsPassive2" text="{=aoRAFp1A}Ranged troops gain 25XP daily"/>
+		<string id="careerchoice_description.HailOfArrowsPassive3" text="{=dIKnoRd1}Attacking unaware enemies adds 50% extra damage"/>
+		<string id="careerchoice_description.HailOfArrowsPassive4" text="{=GkArPQ9d}Special shot: For every hit arrow, your magic damage increase. Bonus slowly decrease."/>
+	
+		<string id="careerchoice_description.HawkeyedKeystone" text="{=AAHePBFx}All Enemies in the area are slowed on impact. The damage increased by 50%"/>
+		<string id="careerchoice_description.HawkeyedPassive1" text="{=WccNBTgn}20% Equipment weight Reduction"/>
+		<string id="careerchoice_description.HawkeyedPassive2" text="{=FOeOqRci}Headshots double the fill"/>
+		<string id="careerchoice_description.HawkeyedPassive3" text="{=Ky7cmXgV}Special shot: Every sixth arrow, applies a slow down effect on impact."/>
+		<string id="careerchoice_description.HawkeyedPassive4" text="{=W1phWBHf}While Zoomed in, the time is slowed down. Every second you lose 100 Career Charge."/>
+	
+		<string id="careerchoice_description.StarfireEssenceKeystone" text="{=8oitMtpE}Enemies suffer from a damage over time effect on impact."/>
+		<string id="careerchoice_description.StarfireEssencePassive1" text="{=KWKQ9ceR}6 extra Arrows per equipped Quiver"/>
+		<string id="careerchoice_description.StarfireEssencePassive2" text="{=z4T06gNt}15% swing speed"/>
+		<string id="careerchoice_description.StarfireEssencePassive3" text="{=Omckdx5h}Your arrows can penetrate shields"/>
+		<string id="careerchoice_description.StarfireEssencePassive4" text="{=3a5f77Mr}Special shot: Not shooting an arrows increase the chance your next arrow explode on impact."/>
+	
+		<string id="careerchoice_description.EyeOfTheHunterKeystone" text="{=fgLV9r5T}Arrow of Kurnous loses it's seeking ability. The damage is doubled."/>
+		<string id="careerchoice_description.EyeOfTheHunterPassive1" text="{=DK0fr0JB}20% Equipment weight Reduction"/>
+		<string id="careerchoice_description.EyeOfTheHunterPassive2" text="{=boYyxvjF}Arrows can pierce multiple targets"/>
+		<string id="careerchoice_description.EyeOfTheHunterPassive3" text="{=gNjCKyFT}Your Archer units gain 50 points in bow skill"/>
+		<string id="careerchoice_description.EyeOfTheHunterPassive4" text="{=9Cghr2EB}Special shot efficiency is doubled"/> 
+
+		<!-- WitchHunter Career Choices -->
+		<string id="careerchoice_description.WitchHunterRoot" text="{=ICMleRHP}A single enemy is marked for 8 seconds and the first hit inflicted against the target increases the physical damage by 20%. After every hit there is a 50% chance the marker stays on the target. For every point in Gunpowder or crossbow, the chances increases by 0.1% additional targets are marked."/>
+	
+		<string id="careerchoice_description.HuntTheWickedKeystone" text="{=IGLMSgEv}20% additional physical damage for marked enemies. Melee damage can charge ability"/>
+		<string id="careerchoice_description.HuntTheWickedPassive1" text="{=m4wd5ahF}Increases health regeneration after battles by 3."/>
+		<string id="careerchoice_description.HuntTheWickedPassive2" text="{=7GdjoQcP}Ranged Infantry wages are 15% reduced."/>
+		<string id="careerchoice_description.HuntTheWickedPassive3" text="{=1VK8HS6B}Every  equipped ranged weapon increases melee damage by 10%."/>
+		<string id="careerchoice_description.HuntTheWickedPassive4" text="{=noRgDj3D}Increases the damage of all ranged troops by 10%."/>
+	
+		<string id="careerchoice_description.ToolsOfJudgementKeystone" text="{=HL5qUo6G}The Marker stays 6 seconds longer on the target. Ability scales with the higehest One- or Two-Handed-skill."/>
+		<string id="careerchoice_description.ToolsOfJudgementPassive1" text="{=U5xXfTgk}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.ToolsOfJudgementPassive2" text="{=2z6MwGxx}5 extra ammo"/>
+		<string id="careerchoice_description.ToolsOfJudgementPassive3" text="{=KENJmIi0}Extra melee damage (10%)."/>
+		<string id="careerchoice_description.ToolsOfJudgementPassive4" text="{=8P6LX8nz}Every headshot kill gains you roguery, count twice for marked targets."/>
+	
+		<string id="careerchoice_description.SilverHammerKeystone" text="{=TN4we7ps}Increases holy damage by 20% to the marked target. Ability scales with Faith."/>
+		<string id="careerchoice_description.SilverHammerPassive1" text="{=AlgGKVuw}Exterminated Undead and Ruinous powers increase faith per fallen Unit."/>
+		<string id="careerchoice_description.SilverHammerPassive2" text="{=4Sa7HKxD}All units deal more damage against undead and chaos."/>
+		<string id="careerchoice_description.SilverHammerPassive3" text="{=oESIjvRr}Increases Hitpoints by 25."/>
+		<string id="careerchoice_description.SilverHammerPassive4" text="{=6quh6ABS}Troops can be upgraded to Witch Hunter Retinues."/>
+	
+		<string id="careerchoice_description.NoRestAgainstEvilKeystone" text="{=fEI9ydEF}Shield penetration for the duration of the ability. Enemy stays marked"/>
+		<string id="careerchoice_description.NoRestAgainstEvilPassive1" text="{=G0HE62Hu}Extra holy melee damage (20%)."/>
+		<string id="careerchoice_description.NoRestAgainstEvilPassive2" text="{=xHw2Wyro}All regular troops have 20 higher ranged and melee skill"/>
+		<string id="careerchoice_description.NoRestAgainstEvilPassive3" text="{=eH38DXHA}Increases accuracy by 15%."/>
+		<string id="careerchoice_description.NoRestAgainstEvilPassive4" text="{=Lmmd1U2i}Increases Companion Limit by 5."/>
+	
+		<string id="careerchoice_description.SwiftProcedureKeystone" text="{=X3BwslYi}Marked enemies movement and swing speed is decreased. Ability scales with athletics"/>
+		<string id="careerchoice_description.SwiftProcedurePassive1" text="{=bbFAbMV2}10 extra ammo"/>
+		<string id="careerchoice_description.SwitftProcedurePassive2" text="{=KXXkwKdu}Reduce range Accuracy movement penalty by 15%."/>
+		<string id="careerchoice_description.SwitftProcedurePassive3" text="{=6dfQ7UQg}Party movement speed is increased by 1.5."/>
+		<string id="careerchoice_description.SwitftProcedurePassive4" text="{=DyZnES41}Weapon swing speed increased by 15%"/>
+	
+		<string id="careerchoice_description.GuiltyByAssociationKeystone" text="{=3SbMmC2n}Companions and Retinues can trigger mark effects. Companions can charge ability"/>
+		<string id="careerchoice_description.GuiltyByAssociationPassive1" text="{=t6JS8QAq}Increases troop regeneration by 2."/>
+		<string id="careerchoice_description.GuiltyByAssociationPassive2" text="{=MhAZFCtA}Every ranged troop deals 15% extra holy damage."/>
+		<string id="careerchoice_description.GuiltyByAssociationPassive3" text="{=k6MRlupC}Companions have 50 additional health points."/>
+		<string id="careerchoice_description.GuiltyByAssociationPassive4" text="{=LzEFiN0P}Killing blows in the head increase temporary reload amd swing speed"/>
+	
+		<string id="careerchoice_description.EndsJustifiesMeansKeystone" text="{=BY4vdhS2}Marked enemies suffering from overkill damage propagate mark. Scales with Rougery"/>
+		<string id="careerchoice_description.EndsJustifiesMeansPassive1" text="{=m5tBlsga}Extra ranged damage (10%)."/>
+		<string id="careerchoice_description.EndsJustifiesMeansPassive2" text="{=kOC4K4xR}Increases range resistance by 15%."/>
+		<string id="careerchoice_description.EndsJustifiesMeansPassive3" text="{=ZSbcZ2pX}Extra 25% armor penetration of melee attacks."/>
+		<string id="careerchoice_description.EndsJustifiesMeansPassive4" text="{=thOGyv9q}Ranged shots can penetrate multiple targets."/> 
+
+		<!-- ExtendedInfoManager -->
+  		<string id="tor_extendedInfo.AbilityUser" text="{=8U1fIdXH}AbilityUser" />
+  		<string id="tor_extendedInfo.SpellCaster" text="{=SpNIAvEr}SpellCaster" />
+  		<string id="tor_extendedInfo.Necromancer" text="{=2GzK64cw}Necromancer" />
+  		<string id="tor_extendedInfo.AICompanion" text="{=iF9gcZYh}AICompanion" />
+  		<string id="tor_extendedInfo.Undead" text="{=a36IuyiB}Undead" />
+  		<string id="tor_extendedInfo.Everchosen" text="{=k9YXJSY4}Everchosen" />
+  		<string id="tor_extendedInfo.Brasskeep" text="{=EH3I60Kj}Brasskeep" />
+  		<string id="tor_extendedInfo.Bergerac" text="{=tmQK3i2E}Bergerac" />
+  		<string id="tor_extendedInfo.PeasantKnight" text="{=z1N4oOBD}PeasantKnight" />
+  		<string id="tor_extendedInfo.CanPlaceArtillery" text="{=PBuIOFlm}CanPlaceArtillery" />
+  		<string id="tor_extendedInfo.Unbreakable" text="{=rx3V3Vrh}Unbreakable" />
+  		<string id="tor_extendedInfo.EngineerCompanion" text="{=9OWBPxcG}EngineerCompanion" />
+  		<string id="tor_extendedInfo.IllFated" text="{=zAKorxqc}IllFated" />
+  		<string id="tor_extendedInfo.PrestigeNoble" text="{=Hb4d4il6}PrestigeNoble" />
+  		<string id="tor_extendedInfo.DruchiiEnvoy" text="{=yKn5xYA9}DruchiiEnvoy" />
+  		<string id="tor_extendedInfo.AsurEnvoy" text="{=SawBEST8}AsurEnvoy" />
+  		<string id="tor_extendedInfo.EmpireEnvoy" text="{=CTPz2FBe}EmpireEnvoy" />
+  		<string id="tor_extendedInfo.SpellsingerEnvoy" text="{=JuRyOtHC}SpellsingerEnvoy" />
+
+</strings> 

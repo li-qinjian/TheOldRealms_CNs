@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<!--Custom Settlements-->
+  		<string id="ZoIo42dV" text="时代橡树"/>
+  		<string id="YX6Nxgc4" text="亚登森林世界根须"/>
+  		<string id="jrr9mYN5" text="劳伦洛伦世界根须"/>
+  		<string id="vQQiHxXP" text="狮鹫林世界根须"/>
+  		<string id="FvLU6ZlF" text="麦松塔世界根须"/>
+  		<string id="PowBix35" text="混沌传送门"/>
+  		<string id="3aghuuCn" text="西格玛神殿"/>
+  		<string id="YvIm5FlD" text="西格玛神殿遗迹"/>
+  		<string id="U0zZATV0" text="塔尔神殿"/>
+  		<string id="7ZjRjgEL" text="庇护石阵"/>
+  		<string id="wmmRbQTl" text="湖中女神之林"/>
+  		<string id="hmdbc659" text="野兽人万魔岩"/>
+  		<string id="SWK0qouo" text="黑暗精灵奴隶营"/>
+  		<string id="D3GuXD2U" text="曼纳恩神殿"/>
+  		<string id="ynSjTWwi" text="海神之牙"/>
+  		<string id="CGZwdmnr" text="阿苏焉神殿"/>
+  		<string id="e6xyJypP" text="尤里克神殿"/>
+  		<string id="HO9O9bxV" text="莎莉雅神殿"/>
+  		<string id="h55iYaTm" text="洛依克神殿"/>
+  		<string id="k1hrhNGC" text="安埃斯·莱玛神殿"/>
+  		<string id="QwlqhJhp" text="瓦尔神殿"/>
+  		<string id="XAieKYgw" text="库洛斯神殿"/>
+  		<string id="eqTl4aGZ" text="爱莎神殿"/>
+
+		<!--haunted sites-->
+  		<string id="WQKOmvrx" text="饥饿林地"/>
+  		<string id="7iF0t2EK" text="这片在当地希尔瓦尼亚人称作 “维洪根” 的荒僻之地，四处散布着荆棘与沼泽，犹如一座迷宫，还到处出没着食尸鬼，说不定还有幽灵。只有疯子或者走投无路的人才会冒险踏入这片阴森之地。"/>
+  		<string id="3oLjCU7m" text="海尔芬"/>
+  		<string id="wmjPS5Sy" text="海尔芬在远古时代曾被从天而降的邪火摧毁，这里很可能是整个瑞克盆地中受诅咒最深的区域。破败不堪的建筑、腐朽的树木，以及裹着焦油的尸体，星星点点地散布在这荒芜的景象之中。这里也是曼弗雷德・冯・卡斯坦因战败之处，标志着吸血鬼战争的终结。"/>
+  		<string id="5ntb8Tmf" text="不毛山"/>
+  		<string id="uyalMZ27" text="塔拉贝姆东南方的群山已被诅咒许久。这片土地对怪异之事与悲剧早已司空见惯。即便如此，却没人知道这团瘴气的成因；倒不是人们没有尝试去探究。"/>
+  		<string id="KsutDlZ4" text="查内尔山谷"/>
+  		<string id="Z6DvmovU" text="几个世纪前，穆西隆城外的山丘被用作大型墓地，埋葬了数千名死于红痘病的患者。遇难者数量极为庞大，以至于时至今日，从城墙上都能看到覆盖着他们墓穴的那片土地。这里的空气有时都带着毒性，和这片被诅咒土地的其他地方一样，那些早已逝去的人也不得安息。"/>
+
+		<!-- Averland 2 Towns 11 villages 2 castles -->
+  		<string id="Settlements.Settlement.name.town_AV1" text="艾维海姆"/>
+  		<string id="3wNDgI1Z" text="艾维海姆，艾弗兰大省的首府，是帝国最古老的城市之一。现今这座现代化城市所处的位置，早在西格玛时代之前就已有人居住，那时艾弗兰人还被称作布里格伦迪人。由于艾维河是半身人货物从集会场进入更广阔帝国的主要贸易路线，这里的船坞格外繁忙。城市坐落的峭壁保护着居民免受偶尔来袭的洪水侵扰，而且这里一直是横渡艾维河的理想渡口；这使得狮鹫桥成为了方圆数英里内，商人和旅人北上前往斯提尔兰或南下进入艾弗兰的唯一过河通道。城市的天际线由艾维堡宫主导，这座坚固的堡垒始建于帝国初立之时；从宫殿眺望，周边数英里的景色尽收眼底。这座城市以其牲畜围场闻名，数千头艾弗兰牛最终都会被送到这里，还有普伦泽广场，当然，还有它的领主 —— 艾弗兰的疯狂伯爵，马里厄斯・利托夫。"/>
+  		<string id="Settlements.Settlement.name.village_AV1_1" text="斯特莱森"/>
+		<string id="Settlements.Settlement.text.village_AV1_1" text="斯特莱森镇位于艾维河和拉默河交汇处的下游，以其革命精神和动荡的过去而闻名。 该镇拥有一所小型大学和医学院，以培养不循规蹈矩的学生而闻名。 施特赖森曾经拥有自己的城镇宪章，授予许多税务减免和选举自己领导人的能力，但在与伯爵夫人 柳德米拉.阿普特拉姆的交易中被撤销，后者将城镇从学生领导的革命中拯救出来。 大学在大多数居民的脑海中的仍旧新鲜的回忆有关阿普特拉姆的暴力镇压中继续运作。 提供穿越艾维领的渡船在这里运行。"/>
+		<string id="Settlements.Settlement.name.village_AV1_2" text="伦根费尔德"/>
+  		<string id="Settlements.Settlement.text.village_AV1_2" text="伦根费尔德是卡米拉·冯·萨克斯伯爵夫人的主要领土。这里的人们捕鱼为生，把剩下的鱼和他们的牛一起晒干，进行交易。这里还保留了轮渡，方便穿越艾维领的旅行和贸易，"/>
+		<string id="Settlements.Settlement.name.village_AV1_3" text="比耶斯旺"/>
+  		<string id="Settlements.Settlement.text.village_AV1_3" text="在哀嚎森林的西部边上有一个叫比耶斯旺的村庄。这里的人们靠他们能种的东西生存，靠交易来购买他们不能种的东西。与大多数阿威兰德人不同的是，他们靠近一片被认为是受诅咒的树林，这让他们很多人迷信;新来这片村庄的人很难赢得他们的信任。"/>
+  		<string id="Settlements.Settlement.name.village_AV1_4" text="海德克"/>
+  		<string id="Settlements.Settlement.text.village_AV1_4" text="海德克城最初是由小矮人在几千年前王国鼎盛时期建造的，坐落在老矮人路的十字路口。这里为数不多的仍被人类使用的矮小建筑，是上古种族建筑标准的证明。据说海德克城下面有许多矮人地下墓穴，里面装满了古老的宝藏和人工制品，等待着被打开和带走。"/>
+  		<string id="Settlements.Settlement.name.castle_AV2" text="伍珀塔尔"/>
+  		<string id="wPwhZjbD" text="伍珀塔尔是一座风景如画的艾弗兰小镇，有人甚至会说它凝固在了备受珍视的往昔岁月里。这座城市以木工手艺、优质啤酒（以人类的标准而言）而闻名，这里的艾弗兰居民也恪守传统。小镇还接待了许多朝圣者与狂热信徒，是西格玛教派在南部的据点之一，此地的神龛供奉着虔诚者约瑟夫。小镇上还有一座大型的维雷娜神庙以及一座摩尔花园。和上瑞克沿岸的许多定居点一样，有一艘渡船往来运送货物与人员，渡河进出艾弗兰或是前往威森兰。 "/>
+		<string id="Settlements.Settlement.name.castle_village_AV2_1" text="静渡岭"/>
+  		<string id="Settlements.Settlement.text.castle_village_AV2_1" text="静渡岭被沟渠和石栅所包围。 这是一个朴素的小镇，由西格蒙德·兴登堡男爵统治，他驻扎在位于附近山丘上的兴登堡城堡对定居点和周边地区保持警戒。 渡轮为寻求跨越瑞克河的旅客提供服务，向南驶入威森领或向北驶入艾维领。"/>
+  		<string id="Settlements.Settlement.name.castle_village_AV2_2" text="洛宁布鲁克"/>
+  		<string id="Settlements.Settlement.text.castle_village_AV2_2" text="作为艾维领南部的一个小镇，洛宁布鲁克是沿着瑞克河往来商人的重要一站，无论是沿着下游前往马丽恩堡和浩瀚洋，还是沿着上游前往矮人王国。往来黑火隘口的唯一道路之一也穿过朗宁布鲁克。由于这些商业利益，该镇的经济依赖于这些路线带来的贸易，仅靠出售牲畜作为补充。镇上主要是由一家大型驿站“十字钥匙”和镇上最大的寺庙“维雷纳神庙”构成。不幸的是，郎宁布鲁克也代表郎宁布鲁克红宝石，一种臭名昭著的低质量葡萄酒。"/>
+		<string id="Settlements.Settlement.name.village_AV2_3" text="贝恩洛克"/>
+  		<string id="Settlements.Settlement.text.village_AV2_3" text="不起眼的伯恩洛克村是奥尔斯女爵的故乡，以其伯恩洛克硬奶酪而闻名。 这里的人们大多饲养山羊作为肉和奶酪，并促进沿阿格拜滕-海迪克路径的贸易"/>
+  		<string id="Settlements.Settlement.name.town_AV3" text="边陲城"/>
+  		<string id="rzehxUwm" text="格伦茨施塔特是一座堡垒城镇，扼守着进出臭名昭著的黑火隘口的要道。古老的矮人之路在向北延伸时也会穿过此地。因其地理位置优越，这座城镇既能便利地与矮人卡拉克斯开展贸易，又能防范绿皮等异族经由黑火隘口入侵。高大坚固的城墙与塔楼，还有规模庞大的商业区，让城镇看起来比实际规模更大。平日里，城中的访客数量通常比常住居民还要多。在这些居民当中，有十分之一是矮人，他们作为各自氏族的代理人，留意那些企图在帝国售卖被盗矮人工艺品的人类窃贼。这座城镇还以格伦茨施塔特葡萄酒闻名，这种高品质葡萄酒饮后几乎不会让人宿醉。 "/>
+		<string id="Settlements.Settlement.name.village_AV3_1" text="霍克斯莱本"/>
+  		<string id="Settlements.Settlement.text.village_AV3_1" text="霍克斯莱本的码头标志着瑞克领北部的船只通行的尽头。 虽然河流继续向高山延伸数英里，但过了这一节点，急流、瀑布和上旋对旅行来说太危险了。 因此，该镇通常拥有许多小舟和货轮，它们都在往来于世界边缘山脉的货物贸易。"/>
+  		<string id="Settlements.Settlement.name.village_AV3_2" text="阿格拜滕"/>
+  		<string id="Settlements.Settlement.text.village_AV3_2" text="阿格拜滕是一个大村庄也同时是南艾维领的商业和宗教中心。塔勒本广场是阿格拜滕的中心，一个大型广场，阿格拜滕的日常市场位于洛宁布鲁克-霍克斯莱本和海迪克路的交叉路口。 广场的北端是供奉西格玛、尤里克和瓦蕾娜的神殿。 塔尔和蕾雅的木结构寺庙是帝国南部最大的寺庙之一，也是少数位于城镇石墙内的寺庙之一。 阿格拜滕的人大多是 塔尔和蕾雅的追随者。"/>
+  		<string id="Settlements.Settlement.name.castle_AV4" text="普芬兹格城堡"/>
+  		<string id="8zpZ9yIa" text="在艾弗兰的东部边境，矗立着普丰齐格，它是冯·海涅家族的一座堡垒兼权力中心。普丰齐格能将周边数英里的景色尽收眼底，让人得以俯瞰一大片蓝河湾、南部的哀号森林以及南斯提尔兰的区域。虽然此地附近没有桥梁横跨河流，但堡垒设有一艘渡船，供那些愿意付费渡河的人使用。 "/>
+		<string id="Settlements.Settlement.name.castle_village_AV4_1" text="泽尔"/>
+  		<string id="Settlements.Settlement.text.castle_village_AV4_1" text="泽尔小村庄建立在蓝色运河的一条供水支流上。 虽然这里的水对于其他河流常见的大型贸易船只来说太浅了，但村民们使用小船和木筏将他们的庄稼运到法伦布拉特，在那里可以卖给半身人或沿河流进一步运输。"/>
+  		<string id="Settlements.Settlement.name.castle_village_AV4_2" text="迪特福兹"/>
+  		<string id="Settlements.Settlement.text.castle_village_AV4_2" text="迪特福兹向周围的定居点以及芬济格的商店供应粮食。 这里的村民对新来者持怀疑态度，担心他们是半身人间谍或者更糟； 来自东斯提尔领的旅客。 冯海涅伯爵从雇佣了许多来自迪特福兹的部队，其中许多人在退休后返回家乡，因此迪特福兹的人大多是优秀的士兵。"/>
+  		
+
+		<!--Stirland 4 towns 23 villages 5 castles-->
+		<string id="Settlements.Settlement.name.town_ST1" text="乌特巴德"/>
+		<string id="2Mbj4zwa" text="伍特巴德坐落在斯特尔河畔，是该省的首府。它是斯特尔兰人口最密集的城镇，也是破败的米尔米达神庙的所在地。伍特巴德的贵族和平民都以多疑和阴沉著称，毕竟失落的西尔凡尼亚行省近在咫尺，让人难以安心。这里是少数几处能够渡河运输货物的地方，因此，对于任何想要深入这片土地的人来说，它都是绝佳的战略要冲。 "/>
+		<string id="Settlements.Settlement.name.village_ST1_1" text="比伯霍夫"/>
+  		<string id="Settlements.Settlement.text.village_ST1_1" text="比伯霍夫位于乌特巴德以南几公里处，周围环绕着茂密的森林。 它的居民已经非常熟练地使用斧头，既可以从周围的老树上收获优质木材，又可以保护他们的营地免受野生动物和偶尔的强盗的侵害。 来自比伯霍夫的木材受到乌特巴德贵族的追捧，因为据说它的深色调对于任何不幸被这种木材制成的木桩刺穿的吸血鬼来说都是一种诅咒。"/>
+  		<string id="Settlements.Settlement.name.village_ST1_2" text="尤尔巴赫"/>
+  		<string id="Settlements.Settlement.text.village_ST1_2" text="尤尔巴赫位于斯提尔河和艾维河之间。 它坐落在被泽亚山丘遮蔽的山谷中，绵羊沿着通往努恩的道路自由漫步。 西边几英里的纳特恩森林既是财富的来源，也是迷信的来源，即使在冬天最寒冷的夜晚，当昆虫和野兽都睡觉时，远处也能听到隆隆的蹄声。"/>
+  		<string id="Settlements.Settlement.name.village_ST1_3" text="奥伯维尔"/>
+  		<string id="Settlements.Settlement.text.village_ST1_3" text="奥伯维尔是一个位于乌特巴德以西几英里处的小渔村。 通往奥伯维尔的路线大多是踩出来的小道，因此大多数贸易和旅行都是通过河流完成的。 这个村庄在一定程度上受到了经常出没的斯提尔领巡河队的保护，但村民们通常不得不自生自灭，抵御来自黑暗森林的土匪和野兽人。"/>
+  		<string id="Settlements.Settlement.name.village_ST1_4" text="塔尔霍夫"/>
+  		<string id="Settlements.Settlement.text.village_ST1_4" text="塔尔霍夫位于斯提尔胡戈山的北部边缘。 村子里有大量的贸易商来往于乌特巴德和沃登之间，沿着旧矮人之路来往。 因此，村里几乎每家都自称是旅馆，尽管热情好客千差万别，而且旅行者可能会发现自己睡在一堆干草上，就像睡在合适的草垫床上一样。"/>
+		<string id="Settlements.Settlement.name.castle_ST1" text="弗伦斯堡"/>
+        <string id="Settlements.Settlement.text.castle_ST1" text="弗伦斯堡是一个集市小镇，坐落在斯提尔胡格西部的扎亚山上。 山上非常适合放羊，小镇的经济以羊毛、羔羊肉和绵羊肉为主。 该镇在该地区还以拥有一座主要的莎莉雅神庙而闻名。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST1_1" text="洛兴"/>
+        <string id="Settlements.Settlement.text.castle_village_ST1_1" text="洛肯是附近小镇弗伦斯堡的附属定居点。 该村主要由向集镇供应粮食的农民组成。 洛肯受到佩特拉·哈登女伯爵和她的部队的保护。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST1_2" text="拉姆绍"/>
+        <string id="Settlements.Settlement.text.castle_village_ST1_2" text="{=Settlements.Settlement.text.castle_village_ST1_2}"/>
+        <string id="Settlements.Settlement.name.castle_ST2" text="弗兰岑"/>
+        <string id="Settlements.Settlement.text.castle_ST2" text="弗兰岑是一个有点不起眼的小镇，坐落在附近大型定居点的阴影中。 它拥有来自拉默尔和艾维河的成熟渔业贸易，并且还拥有横跨拉默尔河的使用良好的渡轮，使旅客继续向西前往鲁斯巴赫。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST2_1" text="穆里耶斯特"/>
+        <string id="Settlements.Settlement.text.castle_village_ST2_1" text="科罗博克是一个小型农业社区，位于马蒂德，拉默尔和 艾维河之间的低湿地中。 河流提供的天然灌溉使该地区成为完美的耕地，附近的弗兰岑和艾维海姆享有村庄的丰富粮食供应。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST2_2" text="鲁斯巴赫"/>
+        <string id="Settlements.Settlement.text.castle_village_ST2_2" text="鲁斯巴赫是一个小村庄，位于斯提尔胡格山以南的湿沼泽中。 地表之下是深粘土坑，鲁斯巴赫的人们以开采建筑材料为生。 当游客们闻到制砖窑的刺鼻烟味时，他们就知道他们就在村庄附近。"/>
+        <string id="Settlements.Settlement.name.castle_ST3" text="哈尔斯特"/>
+        <string id="Settlements.Settlement.text.castle_ST3" text="哈尔斯特城堡位于 斯提尔胡格山的东南边缘，是该地区道路守望者的集结点。 最初它是属于某个早已被遗忘的领主的庄园，随着时间的推移，它变得更加坚固，因为后来的每个主人都试图保护其居民免受来自附近艾尔登森林的土匪和绿皮的侵害。 最终它落入国家手中，并变成了保护该地区的官方道路守望者的军事要塞。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST3_1" text="拉布"/>
+        <string id="Settlements.Settlement.text.castle_village_ST3_1" text="拉布是一个自然形成在莎莉雅修道院周围的村庄。 它位于多条道路的交汇处，是路边修道院的天然场所-旅行者在旅途中停下来休息和祈求祝福的地方。 有一天，一位经常光顾修道院的酒商意识到这种简单习俗的价值，并在十字路口建造了一家旅馆。 不久，一个社区就在它周围建立起来，拉布村就形成了。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST3_2" text="滕内克"/>
+        <string id="Settlements.Settlement.text.castle_village_ST3_2" text="坦内克是一个由葡萄酒商组成的村庄，为当地道路守望者的要塞哈尔斯特城堡提供供应。 坦内克由在哈尔斯特封地照料土地和贵族的奴隶家庭组成。哈尔斯特封地变成哈尔斯特城堡后，他们变成了自由人，并决定耕种土地以出售水果和饮料。 哈尔斯特城堡的守望者经常每月接受几加仑的葡萄酒，以换取坦内克人民的安全。"/>
+        <string id="Settlements.Settlement.name.town_ST2" text="莱希贝格"/>
+        <string id="njEX3woL" text="在黑润河源头附近的闹鬼山丘之中，坐落着小镇莱歇贝格。这里的居民终日生活在对东邻西尔凡尼亚的恐惧之中。小镇的统治者，彼得·冯·斯托尔普伯爵，一生中多次与不死者交锋，为应对它们的卷土重来采取了诸多防范措施。正因如此，许多猎巫人和吸血鬼猎人都在此定居。这座小镇引人注目的地方在于，它拥有一座规模远超居民数量所需的摩尔神庙与墓园，因为冯·斯托尔普伯爵觉得，确保自己领地内所有人都能妥善安葬是他的职责所在。 "/>
+        <string id="Settlements.Settlement.name.village_ST2_1" text="施瓦茨港"/>
+        <string id="Settlements.Settlement.text.village_ST2_1" text="施瓦茨港是一个以其历史而闻名的小村庄。 大约五百年前，这里曾发生过一场大战，一座城堡的废墟和定居点东边的旧村庄据称是那场冲突的物理上残留的所有遗迹。 现代村庄很繁荣，但由于靠近希尔瓦尼亚，所以对外来者保持警惕。"/>
+        <string id="Settlements.Settlement.name.village_ST2_2" text="瑙博努姆"/>
+        <string id="Settlements.Settlement.text.village_ST2_2" text="瑙博纳姆是一个小村庄，就在希尔瓦尼亚的边界上。主要靠庄稼自给自足，其他商品则通过出售多余的农作物或劳动来购买。由于靠近闹鬼丘陵，所以这里的居民经常担心来自东方的外来者、邪灵和秽物。不过身为田园管理员的半身人在巡逻穆特岛东部时，会不时地在这个村庄短暂驻留。"/>
+        <string id="Settlements.Settlement.name.village_ST2_3" text="拜洛霍夫"/>
+        <string id="Settlements.Settlement.text.village_ST2_3" text="最近，拜洛霍夫这个小镇在摆脱了希尔瓦尼亚的统治后重新回归到神圣阵营。拜洛霍夫的信仰主要是拜洛拉克（Bylorak）神，他是镇西边沼泽地的神灵。拜洛拉克的祭司们掌管着镇上的事务，并寻求更大的支持和与斯提尔领的重返联系。镇上有四座小寺庙，分别供奉拜洛拉克、莫尔、西格玛和莎莉雅。旧领主的城堡位于镇西，就在拜洛霍夫沼泽旁边，现已成为废墟。"/>
+        <string id="Settlements.Settlement.name.town_ST3" text="莎格弗里德霍夫镇"/>
+        <string id="NJJUFzHi" text="西格弗里德霍夫小镇坐落在传统西尔凡尼亚的边境上。它依偎在饥饿森林边缘与斯瓦尔湖之间，历史上一直在埃申施蒂尔盆地占据着战略要地。小镇由“应得安息高尚骑士团”监管，这个骑士团更广为人知的名字是“渡鸦骑士”，其大团长亲自负责守护此地民众。400年前，在海尔芬之战中，该骑士团贡献卓著，作为感激，斯特尔兰选帝侯将西格弗里德霍夫的管理权授予了摩尔教团的圣殿骑士。小镇还是圣艾塞尔伯特修道院的所在地，这位艾塞尔伯特以警觉著称。由于摩尔教团在此地影响重大，西格弗里德霍夫常被用作特工监视西尔凡尼亚的集结地。西格弗里德霍夫的居民对陌生人极为多疑，甚至发生过抢先私刑处决陌生旅人的事件。 "/>
+        <string id="Settlements.Settlement.name.village_ST3_1" text="斯特尼斯特"/>
+        <string id="Settlements.Settlement.text.village_ST3_1" text="斯特尼斯特是一个繁荣的森林村庄，位于饥饿林地和斯瓦尔湖之间，这里的人们主要靠砍伐当地的木材，然后沿河漂流到齐格弗里德进行交易。这里的人们对莫尔非常虔诚，经常召唤乌鸦骑士保护他们免受哥布林和附近森林中或来自更遥远地方的其他危险威胁。"/>
+        <string id="Settlements.Settlement.name.village_ST3_2" text="菲尔施泰因"/>
+        <string id="Settlements.Settlement.text.village_ST3_2" text="菲尔施泰因是位于莫芬斯沼泽南侧、埃舍恩斯蒂尔盆地内的一个小村庄。这里的人们与外界高度隔绝，只有在前往莎格弗里德霍夫镇出售鱼干时，才会与更广阔的帝国进行交流。这里的人还以神枪手著称，经常担任乌鸦骑士团的弓箭手或斥候。"/>
+        <string id="Settlements.Settlement.name.town_ST4" text="米特尔堡"/>
+        <string id="2LJIv90c" text="米特伦堡坐落在黑山脚下，距离沦陷的卡拉克斯・瓦恩和黑水湖不远。这是一座规模适中的小镇，居民们深知自己身处黑火隘口与西尔凡尼亚之间的危险境地，因此，小镇修筑了颇为坚固的防御工事，以应对这些潜在威胁。西格玛神庙与塔尔神庙都经过精心祝圣，摩尔花园周围还围着一道防护性的幕墙。许多前往攀登斯卡拉诺拉克最终神庙的朝圣者，都会在米特伦堡稍作停留，购置补给品。"/>
+        <string id="Settlements.Settlement.name.village_ST4_1" text="考尼茨"/>
+        <string id="Settlements.Settlement.text.village_ST4_1" text="考尼茨是斯提尔领最南部的一个小村庄。这里的人们在陵地耕种为生，并以从地里挖出的矿石为辅。大多数旅行者和货物在考尼茨都会受到欢迎，当地矮人在离开山区进入更广阔的帝国时经常会经过这里。不过，这里的人对史崔格尼一族很警惕，他们会毫不犹豫地其赶出家门。"/>
+        <string id="Settlements.Settlement.name.village_ST4_2" text="马尔堡"/>
+        <string id="Settlements.Settlement.text.village_ST4_2" text="马尔堡是位于乌特巴德和西格弗里德霍夫之间的小村庄。该村以养猪和种植农作物而闻名，这些农作物可以在丰收时期帮助附近的社区和城镇解决粮食问题。不幸的是，该村靠近大森林，经常遭受来自森林生物的入侵，因此导致了较差的收成。"/>
+        <string id="Settlements.Settlement.name.village_ST4_3" text="西格玛林根"/>
+        <string id="Settlements.Settlement.text.village_ST4_3" text="西格玛林根是七座西格玛神庙中的第一座，沿着第一位皇帝进入黑色山脉的原始路径前行，以杀死沙拉诺拉克，一只初生的龙魔。这里的居民通过接待朝圣者并为他们提供上山所需的食物和装备来赚取大部分收入。"/>
+        <string id="Settlements.Settlement.name.village_ST4_4" text="胡滕"/>
+        <string id="Settlements.Settlement.text.village_ST4_4" text=""/>
+        <string id="Settlements.Settlement.name.castle_ST4" text="沃尔德恩"/>
+        <string id="ApiV4i5Y" text="沃尔登是一座隐匿在群山峡谷之间的小镇。崎岖的地形让小镇几乎无法扩张，不过古老的矮人之路与普拉格街在此交汇，使得这里仍可供通行；虽说如此，外地人在沃尔登可感受不到什么友善。偶尔能看到古怪的集会场居民来此采购路途所需物资，但小镇的主要吸引力在于沃尔登肉类及牲畜拍卖行。在斯特尔兰，这是唯一一座还没看见就能先闻到味儿的小镇。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ST4_1" text="努斯巴赫"/>
+        <string id="Settlements.Settlement.text.castle_village_ST4_1" text="努斯巴赫是一个在拉默河分叉处的的小村子，在这里两条源流汇聚。村子南侧的肥沃平原是养牛的绝佳地点，这正是努斯巴赫人几代以来的营生。这个和平的村子只被来自艾维领的暴发户贵族的土地纠纷所打扰。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST4_2" text="克尔哈姆"/>
+        <string id="Settlements.Settlement.text.castle_village_ST4_2" text="克尔哈姆与世隔绝，位于矮人古道的山丘之间。由于地处偏僻，这里的居民可以平静地耕种小麦和其他谷物。没有被当地人食用的粮食会沿着路运往斯提尔领东部的其他地方，最终运往穆特领。"/>
+        <string id="Settlements.Settlement.name.castle_ST5" text="马尔贝格"/>
+        <string id="Settlements.Settlement.text.castle_ST5" text="马尔贝格堡位于米特尔堡南部，靠近通往沙拉诺拉克七座神庙的朝圣之路。建造这座城堡是为了保护矮人商人从世界边缘山脉出去的通道，同时也是为了监视黑火山口以北的领地。"/>
+        <string id="Settlements.Settlement.name.castle_village_ST5_1" text="齐普夫"/>
+        <string id="Settlements.Settlement.text.castle_village_ST5_1" text=""/>
+        <string id="Settlements.Settlement.name.castle_village_ST5_2" text="基尔"/>
+        <string id="Settlements.Settlement.text.castle_village_ST5_2" text=""/>
+
+		<!-- Mootland 1 town 4 villages -->
+  		<string id="Settlements.Settlement.name.town_MT1" text="埃歇沙滕"/>
+  		<string id="lCSH2KMk" text="艾歇沙滕是半身人的家园，也是集会场地区的长老（半身人更喜欢这个称呼，因为“大伯爵”听起来“太浮夸” ）所在地。它位于艾维河湾沿岸，由一条条蜿蜒的小巷组成，处于从沃尔登和哈尔施泰特延伸过来的道路尽头。 "/>
+        <string id="Settlements.Settlement.name.village_MT1_1" text="吉普费尔"/>
+        <string id="Settlements.Settlement.text.village_MT1_1" text="吉普费尔，是位于绿叶山脉中心的一个小村庄"/>
+        <string id="Settlements.Settlement.name.village_MT1_2" text="格伦许格尔"/>
+        <string id="Settlements.Settlement.text.village_MT1_2" text=""/>
+        <string id="Settlements.Settlement.name.village_MT1_3" text="豪克恩"/>
+        <string id="Settlements.Settlement.text.village_MT1_3" text=""/>
+        <string id="Settlements.Settlement.name.village_MT1_4" text="堕落裂缝"/>
+        <string id="Settlements.Settlement.text.village_MT1_4" text=""/>
+
+		<!-- Sylvania 2 towns 19 villages 7 castles-->
+        <string id="Settlements.Settlement.name.town_SY1" text="邓肯霍夫城堡"/>
+        <string id="7YwfVfxY" text="希尔瓦尼亚昔日的帝国首府，历经漫长岁月的重重动荡。这里曾是帝国选帝侯奥托·冯·德拉克伯爵的府邸。自冯·卡斯坦因血脉建立后，它便沦为旧世界中吸血鬼势力的据点。城堡浸透着历任冯·卡斯坦因家族族长的鲜血，他们为争夺城堡的统治权彼此厮杀。如今，曼弗雷德·冯·卡斯坦因就栖身于此。它是恐怖与神秘事物的黑暗巢穴。冒险者们时常突袭这座城堡，企图掠夺其中的隐秘，而大多数人都在这被诅咒的厅堂内迎来凄惨的结局。 "/>
+        <string id="Settlements.Settlement.name.village_SY1_1" text="邓肯霍夫"/>
+        <string id="Settlements.Settlement.text.village_SY1_1" text="邓肯霍夫镇曾被视为帝国的文化灯塔。但自从吸血鬼伯爵们阴险地接管希尔瓦尼亚后，邓肯霍夫城堡原本高耸而鼓舞人心的尖顶，如今却阴森地笼罩着镇上的居民。邓肯霍夫的人民被冯·卡斯坦因家族所压迫。他们利用邓肯霍夫镇来隐藏他们危险的异世界财产。这里的人们成了路过吸血鬼的点心。每个黑暗的角落都是无数不可言说的邪恶的巢穴，从黄昏到黎明都在捕食镇上的居民。"/>
+        <string id="Settlements.Settlement.name.village_SY1_2" text="纳希特哈芬"/>
+        <string id="Settlements.Settlement.text.village_SY1_2" text="纳希特哈芬是一个非常无趣的地方，这正是其统治者加布丽埃拉·冯·邦德巴德女伯爵所喜欢的。纳希特哈芬不参与吸血鬼阴谋的琐事纷争，也不寻求与帝国开战。它纯粹是一个宁静、普通的村庄。这里没有什么值得一看的。只有美味的村民在经营自己的事务，直到主人们来进食的时候。"/>
+        <string id="Settlements.Settlement.name.village_SY1_3" text="福尔堡"/>
+        <string id="Settlements.Settlement.text.village_SY1_3" text="当希尔瓦尼亚第一次落入吸血鬼伯爵们手中时，埃申的居民环绕着他们的村子建起了高墙。希望使用深沟高墙来对抗不断进攻他们村子的被诅咒的不死者。尽管他们幸存了一段时间，黑暗的力量却可以耐心等待凡人的生命流逝。最终埃申被击垮了，然而城墙却始终屹立，里面的居民则在死后为其新主人效劳。现在高大且坚固的埃申城墙保护着居住其中的吸血鬼。"/>
+        <string id="Settlements.Settlement.name.village_SY1_4" text="格尔霍夫"/>
+        <string id="Settlements.Settlement.text.village_SY1_4" text="斯蒂芬斯多普因其成为一位古老吸血鬼的最后安息之地而闻名于世。这位吸血鬼在希尔瓦尼亚陷入黑暗之前，就已被村民们所杀。传言中，曾有几位吸血鬼试图复活这位神秘的存在，他的名字在凡人心中早已遗失，据信他曾拥有巨大的财富，这些财富如今被锁在他隐秘的墓穴中。无论是冒险者还是黑暗势力，皆曾为寻找这个墓穴而不懈努力，但始终未能成功。"/>
+        <string id="Settlements.Settlement.name.castle_SY1" text="塔兰霍夫城堡"/>
+        <string id="Settlements.Settlement.text.castle_SY1" text="塔兰霍夫的传说广为流传。曾几何时，这里是残暴的埃曼纽尔·冯·塔兰霍夫伯爵夫人的领地。在与围攻她家园的朱夫巴尔矮人进行的一场黑暗而可怕的战斗中，伯爵夫人埃曼纽尔用亵渎的魔法沐浴了她的城堡，使得周围的地区陷入了永恒的黑夜中。然而，不屈不挠的矮人坚持了下来。尽管损失惨重，他们还是在塔兰霍夫城堡中杀死了邪恶的伯爵夫人。据说，在矮人留下符文以驱除黑暗魔法之后，她痛苦的尖叫声仍回荡在整个大厅中。最近，人们得知其中一些符文已然褪色，城堡中的黑暗魔法开始蠢蠢欲动，并且中间还伴随着一阵阵撕心裂肺的尖叫合唱。"/>
+        <string id="Settlements.Settlement.name.castle_village_SY1_1" text="塔兰霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY1_1" text="塔兰霍夫村经历了许多噩梦般的事件。曾经由吸血鬼伯爵夫人埃曼纽尔·冯·塔兰霍夫掌控，如今却成为了一群光明法师的家园。尽管村民们将这些法师视为救世主，但他们依然低声议论着一个幽灵的故事。关于“低语的奈尔”的传说在村民中广为流传，它讲述着一个邪恶的幽灵在镇上及其周边地区徘徊，她劫走孩子，杀害无辜，仿佛她是这个地方的主人。"/>
+        <string id="Settlements.Settlement.name.castle_village_SY1_2" text="范哈尔登霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY1_2" text="范哈尔登霍夫，这个位于希尔瓦尼亚的村庄，宛如一抹可怜的污点。它最初是为了守护范哈尔登城堡和其主人——死灵法师腓特烈·范·哈尔而建立的。然而，随着城堡的崩溃，这个村庄的命运也随之改写，成为了希尔瓦尼亚吸血鬼的猎场。他们在此肆意捕食无辜的居民，并享受着折磨他们的乐趣。村民们在这片土地上几乎沦为无拘无束的牲畜，任由命运摆布，毫无尊严可言。"/>
+        <string id="Settlements.Settlement.name.town_SY2" text="瓦尔登霍夫"/>
+        <string id="AalOZAvu" text="在许多吸血鬼伯爵看来，瓦尔登霍夫才是希尔瓦尼亚真正的权力中心。众多吸血鬼聚居于此，弗拉德也曾将他的权力宝座设在此处。但时过境迁，曼弗雷德如今坐镇德拉肯霍夫。瓦尔登霍夫尽管依旧重要，也充斥着大量不死者，可与德拉肯霍夫相比，已稍显逊色。小镇终年被浓稠如汤的阴霾笼罩，一片凄惨荒芜的氛围笼罩着这片土地。镇内所有凡人都只是得过且过，静候死亡降临。 "/>
+        <string id="Settlements.Settlement.name.village_SY2_1" text="米卡尔斯多夫"/>
+        <string id="Settlements.Settlement.text.village_SY2_1" text="又一个被诅咒而悲惨的地方。村民们在附近的冯·卡尔斯坦因的眼中，几乎只被视作随时可口的食物。尽管米卡尔斯多夫的叛乱时有发生，但屡次被镇压，村民们如今已沦为可怜而绝望的存在。他们无助地徘徊，心中没有任何救赎的希望。"/>
+        <string id="Settlements.Settlement.name.village_SY2_2" text="洪达姆"/>
+        <string id="Settlements.Settlement.text.village_SY2_2" text="乍看之下，洪达姆似乎毫不起眼，但这里却是低语谣言的温床。人们说，死者在街道上自由游荡，无需丝线操纵的木偶在夜里翩翩起舞，他们似乎都在模仿生者的姿态。然而，谁也无法确认传言是否属实，因为敢于踏入这条狭窄街道、尘土飞扬的商铺和那家意外开放而热情的酒馆的人寥寥无几。但所有靠近这里的人都警告他人：千万不可在夜间靠近洪达姆。因为正是在这个时候，吸血鬼们会聚集在一起开舞会。他们特别喜欢那些面色潮红、诱人至极的活人，来陪伴他们共舞。"/>
+        <string id="Settlements.Settlement.name.village_SY2_3" text="埃申"/>
+        <string id="gdPxhU2j" text="当希尔瓦尼亚最初落入吸血鬼伯爵之手时，埃申村的居民们在村子周围筑起了高墙。他们深挖壕沟，加固防御工事，抵御那些不断冲击城墙的被诅咒的不死者。虽说他们撑过了一段时间，但黑暗有无尽的耐心，而血肉之躯终会腐朽。最终，埃申村还是被攻陷了，城墙依旧屹立不倒，可村民们却被迫在死后侍奉他们的新主人。如今，埃申村那高大坚固的城墙庇护着里面的吸血鬼。 "/>
+        <string id="Settlements.Settlement.name.village_SY2_4" text="斯特凡斯多普"/>
+        <string id="SSBh7CC4" text="施特凡斯多夫之所以出名，是因为它是一位古代吸血鬼的安息之所。早在西尔凡尼亚被黑暗笼罩之前，这位吸血鬼就已被村民们杀死。据说，有好几个吸血鬼都曾试图复活这位神秘的吸血鬼。几个世纪以来，他的名字已从凡人的记忆中消失，据说他生前藏有巨额财宝，如今都锁在他那隐秘的墓穴里。冒险家和黑暗势力都曾探寻过这座墓穴，却全都无功而返。 "/>
+        <string id="Settlements.Settlement.name.castle_SY2" text="奥博斯特恩要塞"/>
+        <string id="Settlements.Settlement.text.castle_SY2" text="奥伯斯特恩要塞曾是帝国的一座战略要地，看似渺小实则非常坚固。它的建立是在公元2010年的吸血鬼大战期间，弗拉德·冯·卡斯坦因在阿尔道夫围城战中被击败后的不久。然而，几个世纪过去，因疏于管理和人手不足，这座要塞轻易地落入了康拉德·冯·卡斯坦因的手中。虽然帝国曾一度收复了这座要塞，但许多年后，它又被曼弗雷德·冯·卡斯坦因占领，并在此处施展了可怕的诅咒魔法。自此，每当要塞遭到围攻时，往日战争中愤怒的幽灵便会苏醒，向所有威胁要塞的人发起致命的反击。这些幽灵宣称要塞归他们所有，而帝国自那时起再未能夺回此地。"/>
+        <string id="DxXXcm1g" text="穆瑞斯特"/>
+        <string id="Settlements.Settlement.text.castle_village_SY2_1" text="穆瑞斯特最奇特的地方在于，这里的人民并不信仰西格玛的宗教，也没有遵循任何其他国家认可的信仰。相反，穆瑞斯特的卑微村民们把周围的吸血鬼视为神明，崇拜他们的黑暗力量，希望有朝一日能够成为他们中的一员。在这个地区，吸血鬼们对此种崇拜心存宽容，视这些可怜的村民为有趣的“牲畜”。当然事实上，吸血鬼们确实热衷将他们的猎物玩弄于股掌之间。"/>
+        <string id="Settlements.Settlement.name.castle_SY3" text="布拉赫城堡"/>
+        <string id="Settlements.Settlement.text.castle_SY3" text="布拉赫堡是吸血鬼们钟爱的巢穴，他们常把受害者拖到此处，尽情折磨一番。从这座堡垒传出的尖叫声，数英里之外都能听见。布拉赫堡时常成为吸血鬼伯爵们争夺的目标，他们都想觅得一处新据点，好去折磨帝国的子民。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY3_1" text="直地"/>
+        <string id="Settlements.Settlement.text.castle_village_SY3_1" text="大多数吸血鬼伯爵都不会去招惹施图德霍夫。此地的统治者将它经营得像一座人类牲畜屠宰场，效率颇高。从外面看，它不过是这片荒芜之地中央又一个满是泥巴的村庄，外界对它几乎一无所知。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY3_2" text="迈尔霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY3_2" text=""/>
+        <string id="Settlements.Settlement.name.castle_SY4" text="夜锁堡"/>
+        <string id="Settlements.Settlement.text.castle_SY4" text="以人皮挂毯而闻名的纳赫特施洛瑟，是个肆意屠戮、荒芜阴森的地方。黑暗潜藏在每一个角落，弥漫于它那被诅咒的内部的每一条回廊。怪物在走廊里肆意游荡，寻觅新的受害者，好用他们来试验最新的缝合花样。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY4_1" text="加尔霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY4_1" text="加尔霍夫常常是巴托尼亚血骑士喜爱的出没之地。这里被用作这些嗜血生物的训练营与宴会厅。 "/>
+        <string id="Settlements.Settlement.name.castle_SY5" text="森克霍夫城堡"/>
+        <string id="Settlements.Settlement.text.castle_SY5" text="森克霍夫城堡是希尔瓦尼亚仅存的几处人类自由堡垒之一。尽管此地在名义上处于吸血鬼伯爵的统治之下，但人类冒险者与十字军常常利用森霍夫及其周边城镇，来策划对抗他们那些吸血鬼主子的冲突，或者至少将这里当作寻找财宝的基地。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY5_1" text="森克霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY5_1" text="森霍夫是希尔瓦尼亚自由人类最后的堡垒之一。尽管它在名义上处于吸血鬼伯爵的统治之下，但人类冒险者与十字军时常把森霍夫及其周边城镇当作据点，来发动对抗吸血鬼主子的冲突，又或者起码将其当作一处寻宝基地。 "/>
+        <string id="Settlements.Settlement.name.castle_SY6" text="瓦尔滕霍夫城堡"/>
+        <string id="Settlements.Settlement.text.castle_SY6" text="就在吸血鬼战争爆发前短短几个月，一位信奉纳垢的巫师给周边村庄降下了一场瘟疫。瓦尔滕霍夫的贵族们躲进城堡，筑起壁垒。村民们的肉体因致命的脓疮肿胀、破裂，他们苦苦哀求救赎，可贵族们对他们毫不理会。在城堡内，贵族们逐渐陷入疯狂，在与世隔绝的高墙后变成了纳垢邪教徒。后来吸血鬼接管希尔瓦尼亚时，将他们屠戮殆尽，但纳垢腐朽留下的伤痕依旧存在。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY6_1" text="瓦尔滕霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY6_1" text="当瓦尔滕霍夫的贵族们把自己封闭起来时，瓦尔滕霍夫村那些饱受折磨的灵魂渐渐屈服于纳垢腐疫之症。许多人直接死去，他们算是幸运的。因为纳垢将他降下的疫病视为一种赐福与礼物，而人必须活着才能体验这一切。当吸血鬼伯爵来到瓦尔滕霍夫时，仅存的少数村民欣然投身吸血鬼麾下，只求能换来解药。一旦他们的服务有所懈怠，腐疫就会卷土重来。所以村民们拼尽全力保持忠诚。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY6_2" text="苏普夫多夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY6_2" text="这个沼泽遍布的村庄与希尔瓦尼亚的大部分地区隔绝开来。只有乘船才能抵达，房屋都建在高脚桩上，任何吸血鬼都很难在这里找到立足之地，苏姆普多夫村的村民和农夫们知道，他们不会受到出没于黑暗荒野的僵尸侵扰，相对安全。但当地的吸血鬼伯爵仍会从瓦尔滕霍夫城堡乘飞行物前来，征收血税。 "/>
+        <string id="Settlements.Settlement.name.castle_SY7" text="热尔登城堡"/>
+        <string id="Settlements.Settlement.name.castle_village_SY7_1" text="泽登施洛瑟城堡"/>
+        <string id="Settlements.Settlement.text.castle_village_SY7_1" text="泽登是一座小小的沼泽城镇，主要用作泽登施洛瑟城堡的第一道防线。这一地区能找到大量黏土。 "/>
+        <string id="Settlements.Settlement.name.castle_village_SY7_2" text="梅辛霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_SY7_2" text="梅辛霍夫是位于瓦尔登霍夫与泽登施洛瑟城堡之间的一个小村庄。村里的大多数居民过去都是农民，但由于吸血鬼的侵蚀，他们的庄稼歉收，牲畜也都死了。如今，村民们做起了伐木工，靠砍伐枯树谋生。 "/>
+
+	    <!--Wissenland 6 towns 6 castles 35 villages -->
+        <string id="Settlements.Settlement.name.town_WI1" text="努恩"/>
+        <string id="0AI7UYxb" text="努恩是帝国最伟大的工业城市，帝国军队所使用的绝大多数火药武器、火炮，以及军备物资均产自这里。努恩还是一个贸易中心，来自南方的威森兰、索兰、艾维兰的贸易往来，以及途经黑火隘口或灰黑山的贸易，在抵达帝国其他地区之前，都必须先经过努恩。努恩长期作为帝国的首都，历史上也获得过使其真正发展成大都市所需的支持。它也是西格玛教会在南方的宗教首府，监管着威森兰、斯提尔兰和艾维兰地区。整个威森兰的选帝侯女伯爵在此设立宫廷，虽说省级首府仍在威森堡，但比起威森兰议会里那些“一脸严肃的家伙”，她更喜欢努恩的舒适惬意。 "/>
+        <string id="Settlements.Settlement.name.town_WI2" text="法伊道夫"/>
+        <string id="KxVne8A1" text="法伊道夫，在门诺哥特瑞克语中意为“箭镇”，它曾是已覆灭的索兰大领的首府。这座城市历史漫长且波折，游客到此，便能感受到岁月的重担沉甸甸地压在居民肩头。曾经，法伊道夫与威森堡一样宏伟，索兰领也和艾维领、斯提尔领一样富庶。18世纪初，一场兽人入侵致使当地大部分贵族丧生，多数民众逃亡，此后，法伊道夫及原省份便被非正式地划分给了威森领和艾维领。24世纪时，虔诚者马格努斯皇帝试图恢复索兰领，划定了它与艾维领、威森领的边界，将其重组为索兰大男爵领。然而，索兰领依旧与威森领紧密相连，尽管有多项法律协定，实际上它仍是威森领的一部分。如今，法伊道夫是苏德领羊毛贸易的中心，它位于瑞克河上游与索尔河交汇处，凭借这一水域优势，此地成了天然的贸易集散地，当地羊毛以及来自南部灰山的矮人货物在此装上船只，运往努恩及更远处。 "/>
+        <string id="Settlements.Settlement.name.town_WI3" text="克罗伊茨霍芬"/>
+        <string id="p1xjq5FF" text="克罗伊茨霍芬是一座位于三条主要交通要道交汇处的小镇。向西通往布列塔尼亚的是蒙迪迪耶隘口；往东是冬牙隘口，穿过山脉可抵达中部边境亲王领；往西南走，在穹顶之下是阿利门托隧道，这条长达三百英里的地下河道，将克罗伊茨霍芬与米拉格利亚内塞的坎波格罗塔镇相连，同时也是威森领索尔河与提利尔克里斯塔洛河的源头。克罗伊茨霍芬是一座古雅且富裕的小镇，贸易往来使其财源滚滚。小镇的统治者是布鲁诺·普法夫劳赫伯爵，在漫长的家族传承中，历任统治克罗伊茨霍芬的普法夫劳赫家族成员里，他是最新的一位。 "/>
+        <string id="Settlements.Settlement.name.town_WI4" text="迈森"/>
+        <string id="xdUqALpt" text="迈森是一座位于旧索尔领的小镇，虽面积不大，但极为富庶。它坐落在花岗岩隘口的尽头、索尔河河畔。迈森以其银器闻名，包括高脚杯、餐具和珠宝。得益于与卡拉克·诺恩的联系，这座城市拥有近乎取之不尽的银矿石，还汇聚了帝国南部一些顶尖的银匠，许多来自灰山的矮人工艺匠也在此处出没。它的内河港口是索尔河沿岸最大的港口，作为城市南部大片区域所有北上贸易的焦点，迈森的银匠公会极为富有且颇具影响力。公会的大部分生意都在矮人建造并加固过的公会会馆里开展，据说公会将大部分银锭存放在这里，供会员日后取用。迈森堡的银制品相当出名，偶尔还会迎来选帝侯女伯爵伊曼纽尔·冯·利布维茨，她每次前来，总会买下当时市面上最好的银制品。 "/>
+        <string id="Settlements.Settlement.name.town_WI5" text="格施堡"/>
+        <string id="2spngsqH" text="格施堡是索尔河畔的一座小镇。托彭海默家族在此设有一处驻军，鉴于它位于威森领的中心位置，且有横跨索尔河的渡口，此地便成了该地区的战略要地。不远处便是旧索尔领战败之地，800年前，就在格施堡东边的山丘上，一位入侵的兽人战争头目将索尔领选帝侯及其大部分近亲斩于剑下。 "/>
+        <string id="Settlements.Settlement.name.town_WI6" text="厄布什豪恩"/>
+        <string id="8f54JOBX" text="厄布什豪恩小镇是在旧索尔领（厄布什豪恩居民称之为“苏德领” ）覆灭后，由威森领人建立起来的。小镇周边的土地被开垦用于种植庄稼，由奥格尔河进行灌溉。虽说厄布什豪恩并不在奥格尔领内，但它与那里的社群有着相当广泛的贸易往来。 "/>
+        <string id="Settlements.Settlement.name.castle_WI1" text="武斯特堡"/>
+        <string id="4PCaGZ7q" text="武斯特堡镇位于能望见黑山的地方，索尔河、索内河、奥伦河与霍恩伯格河在此交汇。武斯特堡招待许多来自卡拉克·希尔恩的黑矮人，他们在前往努恩及更远处的途中会路过此地。实际上，武斯特堡有一个规模颇为庞大的黑矮人与帝国矮人社区，部分原因或许在于大名鼎鼎的巴格曼啤酒厂就坐落在武斯特堡城外。虽说这家著名的啤酒厂已被一支地精大军摧毁，但它的味道仍留存在那些尝过的人的记忆里。武斯特堡为酿酒艺术遭受的这一耻辱而哀悼，不过，作为一个贸易中心，以及索尔河仅有的几处渡口之一，这座小镇依旧地位重要。曼弗雷德·冯·艾根霍夫男爵是武斯特堡的统治者，得益于贸易往来，以贵族的标准衡量，他相当富有。 "/>
+        <string id="Settlements.Settlement.name.castle_WI2" text="内伦"/>
+        <string id="qVfTbtjY" text="内伦是一座小型堡垒，设立于此是为了守卫索尔河上游，以及通往艾瑟洛伦森林的狂野隘口附近的肥沃牧场。 "/>
+        <string id="Settlements.Settlement.name.castle_WI3" text="索讷富特"/>
+        <string id="1BY1KAy2" text="索讷富特位于索内河与索尔河的交汇处。这里的城堡是在虔诚者马格努斯试图恢复旧索尔领之后的某个时间点建造的，从那时起，它就成了一个极为重要的防御据点，用于防范绿皮从冰风隘口或冬牙隘口进入帝国。 "/>
+        <string id="Settlements.Settlement.name.castle_WI4" text="门德尔霍夫"/>
+        <string id="9agCUdRK" text="门德尔霍夫曾是奥格尔领内的一个索尔领小村庄，如今，一座堡垒取代了昔日的聚居地。该堡垒建于奥格尔河东岸，目的是监视奥格尔隘口，以及位于奥格尔河与瑞克河上游之间、威森领和艾维领存在争议的土地。 "/>
+        <string id="Settlements.Settlement.name.castle_WI5" text="科尔布许格尔"/>
+        <string id="Gb8YkZ3D" text="科尔布许格尔最初是武斯特堡与瓦尔德巴赫之间的一个中途停歇站，后来，一位前威森领选帝侯认为应当在此设立一支常驻守军，这样既能打击拦路强盗，又能在门德尔霍夫或索讷富特需要援助时，从该地派遣援军前往。 "/>
+        <string id="Settlements.Settlement.name.castle_WI6" text="施泰格"/>
+        <string id="E9xaQBDr" text="施泰格是一座小型堡垒，设立它是为了监视瑞克河上游。多年来，此地的驻军多次阻止地精河盗深入帝国腹地。 "/>
+        <string id="Settlements.Settlement.name.village_WI1_1" text="格里森瓦尔德"/>
+        <string id="Settlements.Settlement.text.village_WI1_1" text="格里森瓦尔德是威森领最北端的定居点，就位于瑞克河河畔，在沃伯格兰运河系统起点以南，同时也处于瑞克瓦尔德森林的南端。矮人棚屋“卡齐德·斯拉姆博尔”紧挨着它的栅栏南侧，这里大多是临时歇脚的矮人商人和商队成员的住所，他们在继续赶路前，会与常住此地的同族在此休憩。许多猎人、陷阱捕手和伐木工在此定居，白天他们会前往北方的瑞克瓦尔德森林谋生。南部的瑞克瓦尔德森林因怪物和不法之徒横行而闻名。因此，格里森瓦尔德的统治者布鲁诺·普法夫劳赫伯爵是一名职业军人，人们常常能看到他带领巡逻队在城镇周边巡查，以防森林中的危险来袭。 "/>
+        <string id="Settlements.Settlement.name.village_WI1_2" text="罗尔豪森"/>
+        <string id="Settlements.Settlement.text.village_WI1_2" text="罗尔豪森是一个与世隔绝的威森领村庄，以其优质的葡萄园而闻名，这里的葡萄酒甚至在努恩一些最好的酒馆里也很受欢迎。这在一定程度上得益于从罗尔豪森附近山区流出的格里斯河的清凉河水。 "/>
+        <string id="Settlements.Settlement.name.village_WI1_3" text="威森堡"/>
+        <string id="Settlements.Settlement.text.village_WI1_3" text="威森堡是威森领的首府，虽说它在经济或文化方面的影响力不及努恩，但它确实是民众的中心。这里的民众完美展现了那些让威森领人有别于帝国其他地区的美德。商人、工匠与劳工们秉持节俭务实的作风经营生意，说话简洁明快、直截了当。与阿尔道夫或努恩不同，这里的人们没工夫讲那些诗意华丽的辞藻。大多数市民会把城中形形色色的神庙融入日常行程，每天挑一座进去，即便只待几分钟，也要表达敬意，如此一来，每周便能向多数主要神祇都献上敬意。威森堡也是瑞克河上游前往努恩之前的最后一处内河贸易站，周边环绕着肥沃的农田。选帝侯女伯爵伊曼纽尔·冯·利布维茨很少前往威森堡，只有在会见威森领议会里那些“表情严肃的商人”时才会来。因此，虽说这座城镇名义上由她统治，但托彭海默男爵夫人在整个省份被赋予的管控权越来越大。 "/>
+        <string id="0cJib5M5" text="多特恩巴赫"/>
+        <string id="Settlements.Settlement.text.village_WI1_4" text="在灰色山脉的边界，威森河畔有一个道腾巴赫村。这里的人都是牧羊人，习惯于攀爬到自家西边的高地，因此当他们有多余的年轻人时，就会招募他们。"/>
+        <string id="Settlements.Settlement.name.village_WI2_1" text="哈尔格巴赫"/>
+        <string id="Settlements.Settlement.text.village_WI2_1" text="哈尔格巴赫是一个与世隔绝的威森领村庄，位于与旧索尔领的传统边界上。它坐落在威森河畔，这里的人们用威森河灌溉庄稼。"/>
+        <string id="Settlements.Settlement.name.village_WI2_2" text="杜布海姆"/>
+        <string id="Settlements.Settlement.text.village_WI2_2" text="在索尔河的西岸，附近仅有的渡口之一就是杜布海姆村。这里的人放牧为生，为附近的法伊道夫提供羊毛。"/>
+        <string id="Settlements.Settlement.name.village_WI2_3" text="贝尔瑙"/>
+        <string id="Settlements.Settlement.text.village_WI2_3" text="贝尔瑙是一个典型的索尔领村庄；这里的居民大多是牧羊人，靠养羊获取羊毛为生。他们把羊毛拿到附近的法伊道夫去卖，能卖个不错的价钱，对于这种朴实的生活，他们很是满足。 "/>
+        <string id="Settlements.Settlement.name.village_WI2_4" text="塞克绍"/>
+        <string id="Settlements.Settlement.text.village_WI2_4" text="索尔河畔的东岸坐落着索尔领的塞克绍村。这里的村民生活并不宽裕，通常只能种出够自家糊口的粮食。要是有多余的收成，就会拿到法伊道夫的集市上去卖。 "/>
+        <string id="Settlements.Settlement.name.village_WI3_1" text="韦勒贝格"/>
+        <string id="Settlements.Settlement.text.village_WI3_1" text="与克罗伊茨霍芬隔索尔河相望的是小村庄韦勒贝格。两个聚居地相距很近，这使得它们之间联系紧密。例如，克罗伊茨霍芬的掘墓人鲍里斯·希普勒就居住在韦勒贝格。 "/>
+        <string id="Settlements.Settlement.name.village_WI3_2" text="塞里格"/>
+        <string id="Settlements.Settlement.text.village_WI3_2" text="塞里格的索尔领人都是淳朴之人，并且以此为傲。随便问问这里的哪个牧羊人，是否有比放羊更大的抱负，都会招来一阵哄笑，随后他们便会宣称：“自索尔领覆灭以来，我家就一直生活在这里，就算是恶魔也别想让我放弃我们这门营生！” "/>
+        <string id="Settlements.Settlement.name.village_WI4_1" text="奥温根"/>
+        <string id="Settlements.Settlement.text.village_WI4_1" text="奥温根是威森领的一个小型农耕村落，位于索尔河下游河畔，就在索尔河下游与另一条索尔河支流交汇形成的一片小型沼泽地的南边。这里的村民把大量谷物卖给附近的卡拉克·诺恩，换回钱币与酒水，不过要是有余粮的话，他们也会卖给你。 "/>
+        <string id="Settlements.Settlement.name.village_WI4_2" text="海森堡"/>
+        <string id="Settlements.Settlement.text.village_WI4_2" text="海森堡以其深红色葡萄酒而闻名遐迩，这些葡萄酒从法伊道夫运往基斯里夫售卖。此地的威森领酿酒师将葡萄的高品质归功于灌溉土地的索尔河上游河水，以及从花岗岩隘口吹来的宜人微风。 "/>
+        <string id="Settlements.Settlement.name.village_WI4_3" text="奥根"/>
+        <string id="Settlements.Settlement.text.village_WI4_3" text="奥根村坐落在索尔河下游河畔。曾几何时，这片土地上居住的是索尔领人，但如今，南登兰的这一区域成了威森领人的家园。这里的村民家族渊源至少能追溯到三个世纪以前，都是经验极为丰富的农夫。奥根村常被路人光顾，因为它位于花岗岩隘口道路沿线，这是连接迈森与卡拉克·诺恩的主要通道。 "/>
+        <string id="Settlements.Settlement.name.village_WI4_4" text="克尔加德"/>
+        <string id="Settlements.Settlement.text.village_WI4_4" text="克尔加德是位于索尔河上游西岸的一个威森领小村庄。这里的村民大多在附近的山里开采铁矿石。 "/>
+        <string id="Settlements.Settlement.name.village_WI5_1" text="弗鲁奥恩"/>
+        <string id="Settlements.Settlement.text.village_WI5_1" text="格施堡以北是弗鲁奥恩，这是一个古老的索尔领村庄，早在索尔领沦陷之前就已出现在地图上。这里的人们继承了索尔领的传统，甚至还有一个供奉麦尔米蒂雅的小神龛。"/>
+        <string id="Settlements.Settlement.name.village_WI5_2" text="阿尔索森"/>
+        <string id="Settlements.Settlement.text.village_WI5_2" text="格施堡南面是阿尔索森，这是一个索尔领村庄，大部分居民都是牧羊人。这里的土地也适合种植葡萄，虽然阿尔索森的葡萄酒在该地区以外并不出名，但格施堡的人民颇有偏爱。"/>
+        <string id="Settlements.Settlement.name.village_WI5_3" text="索赫特瑙"/>
+        <string id="Settlements.Settlement.text.village_WI5_3" text="索赫特瑙是一个相对较新的聚居地，在过去几代人的时间里才建立起来，索尔领的民众试图借此恢复一些往昔的荣光。和许多索尔领人一样，他们似乎背负着历史的重担，刻骨铭心，但他们为自己的劳作感到自豪，饲养羊群时既节俭又高效。 "/>
+        <string id="Settlements.Settlement.name.village_WI6_1" text="斯坦加特"/>
+        <string id="Settlements.Settlement.text.village_WI6_1" text="斯坦加特曾是一座中等规模的城市。随着旧索尔领的覆灭，如今的施泰因加特只剩往昔的空壳。在现今城镇周边，还能看到有着八百年历史的废墟。在施泰因加特，笼罩在索尔领人身上的压抑氛围最为浓重，仿佛只要能忘却昔日的辉煌，他们就会更快乐些。施泰因加特的南边有一组古老的立石，通常被称作“塔尔之牙”。尽管塔尔教派坚称此地并非源自塔尔信仰，但它依旧叫这个名字。此处有一个横渡奥格尔河的渡口，朝着门德尔霍夫的方向。 "/>
+        <string id="Settlements.Settlement.name.village_WI6_2" text="莫阿萨赫"/>
+        <string id="Settlements.Settlement.text.village_WI6_2" text="靠近瓦尔德巴赫的地方有一个威森领的小型定居点——莫萨赫。莫萨赫的居民靠养猪维持生计。 "/>
+        <string id="Settlements.Settlement.name.village_WI6_3" text="巴伦霍夫"/>
+        <string id="Settlements.Settlement.text.village_WI6_3" text="在阿格贝滕城墙的视野范围内，有个威森领的村庄叫巴伦霍夫。这里的村民很友善，但对艾维领人极为不信任，他们会说：“那些家伙死活都不肯签合同，说什么信我的话就行，还讲什么以他们的名誉担保。我跟他们讲，要是我就凭他们的名誉做事，那我现在就得拿到克朗和先令！”  "/>
+        <string id="Settlements.Settlement.name.castle_village_WI1_1" text="埃根霍夫"/>
+        <string id="Settlements.Settlement.text.castle_village_WI1_1" text="埃根霍夫的索尔领人依靠索尔河的灌溉，得以种植大量谷物及其他粮食作物，他们时常把这些收成运到伍斯特堡装船，再销往更北方的地区。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI1_2" text="罗滕巴赫"/>
+        <string id="Settlements.Settlement.text.castle_village_WI1_2" text="罗滕巴赫这个索尔领村庄坐落在伍斯特堡西北方的山间。这里的居民大多是牧羊人，据说他们放牧羊群的范围远至塞里格。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI2_1" text="萨尔姆法尔"/>
+        <string id="Settlements.Settlement.text.castle_village_WI2_1" text="萨尔姆法尔是索尔河上游沿岸的一个小型威森领农耕村落。它受到附近内伦的庇护，免受危险侵扰。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI2_2" text="特鲁尔本"/>
+        <string id="Settlements.Settlement.text.castle_village_WI2_2" text="特鲁尔本是一个小型的索尔领村庄，主要靠羊毛贸易维持生计。这里的牧羊人常与罗滕巴赫和塞里格的牧羊人合作。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI3_1" text="沙姆贝克"/>
+        <string id="Settlements.Settlement.text.castle_village_WI3_1" text="靠近索讷河的山区源头处有个村庄叫沙姆贝克。这里的居民是坚毅的山区索尔领人，他们要么在附近蒂尔许格尔的矿山工作，要么在定居点西北方的小平原上养牛来维持生计。在村中心以北的高地上，有一圈古老的立石。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI3_2" text="塔尔方"/>
+        <string id="Settlements.Settlement.text.castle_village_WI3_2" text="塔尔方村位于索讷富特 - 伍斯特堡公路沿线，这个村子以砍伐木材和招待过往路人营生。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI4_1" text="梅尔费尔德"/>
+        <string id="Settlements.Settlement.text.castle_village_WI4_1" text="梅尔费尔德是奥格尔兰的一个村庄，正因如此，它处于艾维领和威森领的争议领土范围内。梅尔费尔德北面是横跨上游瑞克河、通往霍赫莱本的桥梁，南面则是延根村。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI4_2" text="延艮"/>
+        <string id="Settlements.Settlement.text.castle_village_WI4_2" text="延艮是奥格尔兰的一个小型聚居地，近年来，它陷入了威森领与艾维领的争端之中。根据一项古老条约，威森领与艾维领的分界线划在瑞克河上游以南、奥格尔河以东五十里格处。不幸的是，众所周知，瑞克河上游经常改道，而且在帝国里，里格已不再使用，取而代之的是帝国英里。奥格尔兰这片肥沃且水源充足的草原，深受威森领牧羊人和艾维领牧场主的觊觎；这两个群体之间时常爆发争吵，甚至发生“争斗”。牧场主和牧羊人都向各自的领主请愿，要求解决这场争端，必要时不惜动用武力。 "/>
+        <string id="JUdrv4gA" text="奥斯特泽尔"/>
+        <string id="Settlements.Settlement.text.castle_village_WI4_3" text="奥斯特泽尔曾被视作威森领的一部分，门德尔霍夫的堡垒便是为了确保这一点。尽管有这些既定的法律事实，奥斯特泽尔的民众向来与艾维领人更为亲近，相比之下，跟威森领人，甚至索尔领人的关系都没这么亲。要是艾维领决定就奥格尔领争端采取行动，奥斯特泽尔的民众定会支持他们。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI5_1" text="帕尔"/>
+        <string id="Settlements.Settlement.text.castle_village_WI5_1" text="帕尔是一个索尔领村庄。这里的村民大多是牧羊人，依靠羊毛生产来维持生计。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI5_2" text="克罗珀勒本"/>
+        <string id="Settlements.Settlement.text.castle_village_WI5_2" text="往返于寒冰风隘口与卡拉克·希尔恩之间的旅人，必然会经过克罗彭莱本。许多人会选择在此停留过夜，然后再继续行程。克罗彭莱本这个小村落很乐意给这些旅人提供住所，也会售卖当地猎人本季猎获的皮毛。克罗彭莱本坐落在霍恩伯格河河畔，就在奥伦河汇入之后的位置。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI5_3" text="贝德瑙"/>
+        <string id="Settlements.Settlement.text.castle_village_WI5_3" text="贝德瑙是一个索尔领村庄，就在伍斯特堡以北，中间仅隔着索尔河。这里的村民生产的粮食仅够自给，偶尔有少量余粮，才会带到伍斯特堡的集市上去售卖。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI6_1" text="法尔岑"/>
+        <string id="Settlements.Settlement.text.castle_village_WI6_1" text="法尔岑是威森领森林中的一个小社群，这里为附近的许多聚落提供木料。"/>
+        <string id="Settlements.Settlement.name.castle_village_WI6_2" text="毛亨"/>
+        <string id="Settlements.Settlement.text.castle_village_WI6_2" text="毛亨是威森领伐木工们组成的一个小聚居地，他们在伍珀塔尔相当出名，因为他们采伐的大部分木材都会运到瑞克河对岸进行切割加工。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WI6_3" text="埃尔旺根"/>
+        <string id="Settlements.Settlement.text.castle_village_WI6_3" text="从埃尔布绍恩前往施泰格和威森堡的路上，有个名为埃尔旺根的小渔村，它的名字源自一项古老的筑路法规要求。"/>
+
+		<!--Talabecland-->
+        <string id="Settlements.Settlement.name.town_TB1" text="塔拉贝海姆"/>
+        <string id="Jbtowctk" text="塔拉贝海姆，在古代被称作塔拉海姆，意思是“塔拉的胜利”，它是塔拉贝克领大公国的首都。塔拉贝海姆深藏于帝国的大森林之中，由此得了“森林之眼”这个名号，就好似一场猛烈风暴的风眼，那座环形山在周遭危险中犹如一座宁静的孤岛。城市建在一个叫塔尔巴斯通的巨大浅环形山里，直径达数英里，其外缘形成了一道宽阔的岩石边缘与天然城墙。人们在这道城墙上添砖加瓦，筑起众多高耸的炮楼，它切实地划分出了城市的边界。环形山内部地域辽阔，有肥沃的农田、一座淡水湖，还有宏伟的城市主体，如此一来，哪怕有强大敌军突破塔拉贝克领的军队防线，只要敌军被这巨大的环形山城墙阻拦，这座城市及其骄傲的市民几乎就能无限期抵御围攻。塔拉贝克河从环形山外侧蜿蜒流过，当它流经城墙东北边缘时，那里有一座设防的帝国城镇，名为塔拉格拉德，还有一个深水港，河上舰队就停泊在此。塔拉贝海姆最大的神庙供奉着塔拉神，也兼祀莱雅神，只是程度稍轻。虽说祭拜塔拉神的首要场所依旧是圣林，但生活在城市范围内的信徒们很珍视无需前往环形山另一端就能追寻精神启迪的机会。 "/>
+        <string id="Settlements.Settlement.name.village_TB1_1" text="塔拉加德"/>
+        <string id="Settlements.Settlement.text.village_TB1_1" text="这是个破败不堪的贫民窟，住着赤贫之人，酗酒和犯罪现象猖獗。这里大约有1200名基斯里夫移民，他们生活在自己的一方小天地“小基斯里夫”里。基斯里夫移民和当地的塔拉贝克领人之间没什么往来。 "/>
+        <string id="Settlements.Settlement.name.village_TB1_2" text="特皮茨"/>
+        <string id="Settlements.Settlement.text.village_TB1_2" text="在乌克罗河的上游，托伊皮茨的村民们组成了一个关系紧密的社群，大家互帮互助，满足彼此的需求。这里鲜少有访客，偶尔有到访之人，也多是为了从当地的伐木场换取木材而来。 "/>
+        <string id="Settlements.Settlement.name.village_TB1_3" text="德雷茨"/>
+        <string id="Settlements.Settlement.text.village_TB1_3" text="德里茨村靠近与塔拉贝海姆环形山城墙相接的那片森林的林线。这里的村民饲养奶牛，许多牧民和一些兽医悉心照料着在德里茨田野内外吃草的大群牛只。 "/>
+        <string id="Settlements.Settlement.name.village_TB1_4" text="罗克瑞福"/>
+        <string id="Settlements.Settlement.text.village_TB1_4" text="洛赫拉富特村位于洛赫拉河河口附近，村名也由此而来。这里的村民以务农和养猪为生。河水常被引入村庄，用于灌溉农田，也供许多在村周边泥坑中打滚的猪只饮用。 "/>
+        <string id="Settlements.Settlement.name.town_TB2" text="贝克"/>
+        <string id="V0Vwb2wp" text="贝克是由约瑟夫·冯·贝林伯爵统治的省份的首府城镇，它通常是一座宁静的贸易城镇，出口来自大森林的木材与鱼干，并对使用其码头的船只收取通行费。自战争爆发以来，这座城镇及周边地区涌入了一千多名来自奥斯特领的移民，数量之多，甚至超过了本镇居民。这极大地加重了资源负担，当地人和难民之间的冲突屡见不鲜，规模也日益扩大。冯·贝林伯爵是选帝侯费尔巴哈伯爵的早期支持者，如今他期望能得到回报。费尔巴哈已派遣一支自己的亲卫队前往贝克维持秩序，但有传言称，很快会有一支规模更大的部队抵达，奉命入侵奥斯特领，“以恢复秩序，让难民返回家园”。可问题在于，要恢复的是谁统治下的秩序，尚无定论。 "/>
+        <string id="Settlements.Settlement.name.village_TB2_1" text="维尔瑙"/>
+        <string id="Settlements.Settlement.text.village_TB2_1" text="一个依赖塔拉贝克河的渔村。维尔瑙村被奥斯特领色彩风格的帐篷所包围。然而，维尔瑙村并没有像贝克镇那样，给奥斯特领人特权。尽管他们的人数超过了当地人，但村里的长老还是让移民们去工作，要么协助捕鱼、要么在当地牧师的祝福下组成猎人小组，再要么就是作为农民务农。"/>
+        <string id="Settlements.Settlement.name.village_TB2_2" text="弗雷塔尔"/>
+        <string id="Settlements.Settlement.text.village_TB2_2" text="一个小村庄，东边是大森林，南边有几座山。村民主要是伐木工人，靠买卖木材维持生计。"/>
+        <string id="Settlements.Settlement.name.village_TB2_3" text="厄特伯格"/>
+        <string id="Settlements.Settlement.text.village_TB2_3" text="厄特伯格两面与洛奇拉河相邻，享受着来自西方和南方的河水提供的天然屏障。厄特伯格是一个多元化的村庄，有一些猎人，一些农民，一些渔民和一些塔尔小教堂的祭司。"/>
+        <string id="Settlements.Settlement.name.town_TB3" text="克鲁根海姆"/>
+        <string id="SvQ2Jds5" text="斯特尔河畔坐落着克鲁根海姆镇，此地曾孕育出不少帝国的杰出将领。如今，克鲁根海姆的农民为城镇供应鱼类和农作物，同时，镇里的兵营驻扎着多个训练有素的国家军团。 "/>
+        <string id="Settlements.Settlement.name.village_TB3_1" text="格斯多夫"/>
+        <string id="Settlements.Settlement.text.village_TB3_1" text="斯提尔河和科尔平河沿岸的一个繁华小镇，当地居民多为伐木工人。这里有很多供樵夫们休息的酒馆，并且所有这些酒馆都以其赞助人的工作岗位命名。他们有悼亡者行会，专门侍奉莫尔教派，负责组织葬礼和维护当地墓地。"/>
+        <string id="Settlements.Settlement.name.village_TB3_2" text="萨布里茨"/>
+        <string id="Settlements.Settlement.text.village_TB3_2" text="这是一个不起眼的农庄，位于科尔平河以东。没有通往萨布里茨的公路，因此农民们会沿着河流向南走，到达格斯多夫。他们对此并不太在意，因为他们喜欢独来独往，对陌生人相当警惕。"/>
+        <string id="Settlements.Settlement.name.town_TB4" text="沃尔根"/>
+        <string id="AgUNKyCB" text="这是塔拉贝克河南岸的一个中等富裕城镇，所属村庄的贫困状况并不严重，城镇也能从中征收到颇为可观的税款。这里的居民衣食无忧，并且为维持这种生活状态辛勤劳作。 "/>
+        <string id="Settlements.Settlement.name.village_TB4_1" text="普里斯特利海姆"/>
+        <string id="Settlements.Settlement.text.village_TB4_1" text="普里斯特利海姆是一座大型西格玛修道院，与不毛山被大森林隔开，即利奥波德的神殿 &quot;信仰之锤 &quot;。修道院的成员致力于研究根除不毛山的诅咒。虽然他们会自己探索不毛山，但如果有其他事情需要关注，他们也会雇佣冒险者。修道院还会追杀任何从不毛山向北游荡的变异生物。"/>
+        <string id="Settlements.Settlement.name.village_TB4_2" text="加恩多夫"/>
+        <string id="Settlements.Settlement.text.village_TB4_2" text="加恩多夫是一个戒备森严的村庄，它背靠塔拉贝克河，一侧与卡威河接壤。加恩多夫的战略地位非常重要，享有天然屏障，其边界有石墙保护。人们可以通过城墙上的舷窗进入加恩多夫，也可以通过渡口渡过塔拉贝克河。"/>
+        <string id="Settlements.Settlement.name.village_TB4_3" text="古托"/>
+        <string id="Settlements.Settlement.text.village_TB4_3" text="沃尔根最南方的村庄。村民们养着一大群羊，在不毛山附近吃草。尽管普里斯特利海姆努力追杀来自不毛山的“鬼魂”，但羊群还是时不时地失踪。尽管如此，羊群的规模仍然相当庞大。"/>
+        <string id="Settlements.Settlement.name.castle_TB1" text="戈斯塔霍夫"/>
+        <string id="X6W6jd01" text="在斯特尔河与大森林的一角之间，坐落着小型防御工事戈斯塔霍夫。凭借一座精巧的矮人水车磨坊，戈斯塔霍夫对从大森林砍伐下来的、以及从东边运来的大部分木材进行加工处理。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB1_1" text="米森"/>
+        <string id="fEfbPfiL" text="米森村毗邻斯特尔河，位于一处十字路口的中心位置，周边村庄往来的人流量很大。不远处有几片树林，当地居民靠着木材贸易过上了不错的日子。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB1_2" text="西多"/>
+        <string id="Settlements.Settlement.text.castle_village_TB1_2" text="他们常被描述为一群热爱树木的群体，他们赞颂塔拉神，只使用枯树的木材。他们靠着自家贫瘠的农场，以及在大森林里采集野果、野菜勉强度日。 "/>
+        <string id="Settlements.Settlement.name.castle_TB2" text="赫姆斯多夫"/>
+        <string id="U04ar3H7" text="老森林路最南端的定居点是一个拥有近400名居民的小型伐木城镇。赫姆斯多夫建在一座低矮山丘的山顶附近，俯瞰着向南延伸15英里的伍特巴德山谷。当地的统治者，瓦尔代马尔·冯·祖滕男爵，大部分时间都在伍特巴德寻欢作乐，把日常的行政管理职责交给他的管家。赫姆斯多夫位于斯特尔河沿岸两条主要道路的交汇处，车水马龙，交通繁忙。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB2_1" text="拉德舍"/>
+        <string id="  Settlements.Settlement.text.castle_village_TB2_1" text="拉德舍是位于大森林深处的一座村庄，有一条土路从赫姆斯多夫通向这里。过去，村民靠做木材生意能换来不少铜材，但出于对森林的敬重，拉德舍的居民如今改行从事与马术相关的营生了。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB2_2" text="奥西诺"/>
+        <string id="Settlements.Settlement.text.castle_village_TB2_2" text="奥西诺村离其他城镇和村庄都很远，尽管村里有相当数量的存粮，但依然十分贫穷。常有不少人往来于奥斯特马克，他们路过此地，有时也有顺着斯特尔河而下的旅人，所以村子里人流量还算可观，不过没多少人愿意在这么个荒凉的地方久留。村民多次向赫姆斯多夫请求支援工具和物资来修缮村庄，但截至目前，还没什么实质性的进展。 "/>
+        <string id="Settlements.Settlement.name.castle_TB3" text="奥贝尔海姆"/>
+        <string id="FPMLHxZa" text="奥贝尔海姆是老森林路上为数不多的几个歇脚点之一，依赖周边村庄为其提供食物。大部分进口的小麦和大麦都被用来在当地客栈酿制成啤酒。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB3_1" text="巴道"/>
+        <string id="Settlements.Settlement.text.castle_village_TB3_1" text="一个靠近一小片森林的村庄，周围环绕着小山丘。巴道的村民在山脚附近有许多农场，利用从山上流下来的雨水进行灌溉。"/>
+        <string id="Settlements.Settlement.name.castle_village_TB3_2" text="霍尔诺"/>
+        <string id="Settlements.Settlement.text.castle_village_TB3_2" text="霍尔诺村毗邻一大片广袤的森林，村里的村民大多是猎人和樵夫。霍尔诺村靠售卖猎物的肉与皮毛挣得颇为可观的收入，村民们也因此赞颂塔拉神。 "/>
+        <string id="Settlements.Settlement.name.castle_TB4" text="瑞文斯坦"/>
+        <string id="ZazgufBL" text="瑞文斯坦城堡骄傲地屹立着，守望其北方的邻邦。它被塔拉贝克河与卢格河环绕，防御森严。再加上厚实的城墙，此地着实是个易守难攻的要塞。城堡中的居民辛勤劳作，为城堡供应食物。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB4_1" text="克莱比锡"/>
+        <string id="Settlements.Settlement.text.castle_village_TB4_1" text="在食物和金钱方面，克莱普齐格比塔拉贝克领的大多数村庄都要稍微富裕一些。它还享有瑞文斯坦城堡提供的庇护。 "/>
+        <string id="Settlements.Settlement.name.castle_village_TB4_2" text="祖林"/>
+        <string id="Settlements.Settlement.text.castle_village_TB4_2" text="祖林村隐匿于两片大森林之间，村里有不少塔拉神的信徒，他们时常前往塔拉贝姆朝圣，或是响应塔拉神的召唤。祖林村的渔夫们常常朝北走向乌克罗河捕鱼，一路上尽情享受在大森林中的漫步。那些留在村里的人，则忙着祭拜塔拉神与照料农田。 "/>
+
+		<!--Reikland-->
+  		<string id="Settlements.Settlement.name.town_RL1" text="阿尔道夫"/>
+  		<string id="5A1SXzA6" text="阿尔道夫或许是帝国乃至整个已知世界最伟大的城市，唯有玛丽恩堡、努恩和艾兰格拉德这类城市，在规模与重要性上能与之匹敌。卡尔·弗兰兹皇帝在这座不断扩张的城市中，统治着瑞克领大公国与西格玛帝国。西格玛在两千五百年前亲手建立的城市，还有比它更适合做首都的吗？除了历史底蕴，阿尔道夫在地理上还是帝国四分之三地区贸易往来的核心枢纽；来自奥斯特马克领、塔拉贝克领、霍克领、斯提尔领、威森领和艾维领的所有货物与旅人，都得先汇聚于此，才能顺着瑞克河前往玛丽恩堡及更遥远的地方。这座城市还汇聚了众多骑士团，是西格玛教会的中心，以及八大帝国魔法学院的所在地。尽管阿尔道夫繁荣且至关重要，但它也是一座动荡不安的城市：人口过于密集，政治暴力一触即发，这座美丽城市的诸多设施与服务早已不堪重负。 "/>
+  		<string id="Settlements.Settlement.name.village_RL1_1" text="弗雷德海姆"/>
+  		<string id="Settlements.Settlement.text.village_RL1_1" text="弗雷德海姆是阿尔道夫以北的阿尔道夫-米登海姆公路上的一个小瑞克领村庄。虽然这座小镇是卡尔·弗朗茨的财产也是阿尔道夫的领地，皇帝认为，除了名义上的，其他一切都交给莎里雅教会来管理。这是教会要求在一个地区建立一个有围墙的临终关怀和疗养院的结果。"/>
+  		<string id="Settlements.Settlement.name.village_RL1_2" text="卡尔达赫"/>
+  		<string id="Settlements.Settlement.text.village_RL1_2" text="卡尔达赫村坐落在塔尔河与瑞克河交汇处的东岸。这座村庄尤为引人注目，因为它是瑞克领与塔拉贝克领的分界线。除此之外，它只是一个小型农耕社区。 "/>
+  		<string id="Settlements.Settlement.name.village_RL1_3" text="霍克洛夫"/>
+  		<string id="Settlements.Settlement.text.village_RL1_3" text="在阿尔道夫正西，在瑞克河与威斯布鲁克运河之间坐落着霍克洛夫村。这个聚落因他们出产的特殊谷物品种霍克洛夫谷而闻名，这个品种是制作高品质面粉的不二之选。"/>
+        <string id="Settlements.Settlement.name.town_RL2" text="希尔德海姆"/>
+        <string id="w9dPkEcW" text="希尔德河与瑞克河交汇处坐落着希尔德海姆镇。该镇由格拉夫·罗伯特·冯·乌兰德统治，是阿尔道夫下游一处重要的河港市场，也是瑞克河上的贸易船只前往玛丽恩堡之前，最后能够停靠的地方之一。 "/>
+        <string id="Settlements.Settlement.name.village_RL2_1" text="霍尔图森"/>
+        <string id="Settlements.Settlement.text.village_RL2_1" text="霍尔图森是位于瑞克领西部希尔德河畔的一座城镇。从陆路来看，它坐落在艾尔哈特与希尔德海姆之间。这座城镇的主要贸易商品是霍尔图森大桶，整个帝国都用这种桶在装运货物前陈酿或发酵产品。据说，这些桶十分坚固，即便遭遇直接的炮火攻击，也能保护桶内物品不受损。每年，霍尔图森都会举办葡萄酒节，这是一场需获邀请才能入场的大型品酒盛会。当然，没有邀请函可阻拦不了那群想畅饮节日免费美酒的无赖和流氓。葡萄酒节也是一年中唯一一次会搬出金桶的时候，据说桶里装着的酒，即便不是整个旧世界，也是帝国里最好的葡萄酒。由于小镇地处森林地带，经常遭到野兽人的袭击。通常来说，木栅栏和守卫的力量足以击退这些怪物，但镇民们还是担心哪天防御会失效。正因如此，一些镇民一直在树林边缘放置几桶廉价葡萄酒，试图用贡品安抚野兽人。这种靠不住的做法，大概也维持不了多久了。 "/>
+        <string id="Settlements.Settlement.name.village_RL2_2" text="艾尔哈特"/>
+        <string id="Settlements.Settlement.text.village_RL2_2" text="艾尔哈特之所以在地图上留下自己的印记是有原因的：因其广受欢迎的白葡萄酒。 艾尔哈特葡萄酒是瑞克领最好的葡萄酒之一，因其清脆清淡的风味和温和的后劲而受到珍视。 艾尔哈特是河船巡游的目的地，来自阿尔道夫的富商和贵族经常在河上品尝当地的各种葡萄酒和美食。 据说这里的许多人都有巴托尼亚人的血统，来访者经常评论许多居民共有相似的骨骼结构。"/>
+        <string id="Settlements.Settlement.name.town_RL3" text="海尔姆加特"/>
+        <string id="H2jp3Yk0" text="海尔姆加特镇坐落在斧咬山口的顶端。由边疆伯爵莱因哈特·冯·麦肯森统治，这座要塞城镇既是帝国与巴托尼亚之间的经济边界，也是军事边界。斧咬山口是穿越灰色山脉的三条山路之一，因此，保障这条通道的安全是首要考量。海尔姆加特本身是一座集镇，四周环绕着几道城墙。其中一道城墙横跨山口的整个宽度，这意味着所有过往行人都必须经过它的唯一一道城门，不然就会被困在巴托尼亚或帝国的边境一侧。 "/>
+        <string id="Settlements.Settlement.name.village_RL3_1" text="乌辛根"/>
+        <string id="Settlements.Settlement.text.village_RL3_1" text="乌辛根是一个小村庄，位于霍尔图森和奥斯堡之间的路上。该镇位于希尔德河仍可通过驳船通航的最远处，这意味着许多运往海尔姆加这里的人们沿着席尔德河种植庄稼，并将冒险进入附近的灰山开采矿层。特的货物会先到达这里。该镇受到赫尔姆加特城墙的良好保护，实际上只担心赖克瓦尔德的居民。"/>
+        <string id="Settlements.Settlement.name.village_RL3_2" text="莫伦福"/>
+        <string id="Settlements.Settlement.text.village_RL3_2" text="莫伦福是博根河源头附近的一个小村庄。该镇以其银矿和矮人小社区而闻名，这些矮人社区为瑞克领内的白银贸易做出了贡献。"/>
+        <string id="Settlements.Settlement.name.town_RL4" text="博根哈芬"/>
+        <string id="qqWlOYkX" text="博根哈芬是一座著名的集镇，坐落在博根河两岸。它位于阿尔道夫与蒙特福特之间，这让该镇即便历经诸多艰难，也能维持其经济上的重要地位。镇的北区被称作“坑洼区”，是博根哈芬最小且最贫穷的区域。镇的南区汇聚了大部分财富以及所有重要的市政机构，包括宗教庙宇与市政厅。镇议会以格拉夫·威廉·冯·萨波纳特海姆的名义进行统治。 "/>
+        <string id="Settlements.Settlement.name.village_RL4_1" text="奥斯堡"/>
+        <string id="Settlements.Settlement.text.village_RL4_1" text="在斧痕隘口脚下，坐落着小村奥斯堡，它是市场要塞赫姆加特前，也是帝国/巴托尼亚边境前的最后一座帝国定居点。向赫姆加特而去的货物必须经过此地，而这些贸易资源使得这里的商人绰有余裕。"/>
+        <string id="Settlements.Settlement.name.village_RL4_2" text="赫尔扎德"/>
+        <string id="Settlements.Settlement.text.village_RL4_2" text="在博艮哈芬的西北偏北方向，正是出产木材的赫尔扎德村。坐落于瑞克伍德森林深处，赫尔扎德因它所出产木材的质量与长度而闻名，这些木材大部分都送去博艮哈芬与格伦堡以供造船业之用。"/>
+        <string id="Settlements.Settlement.name.town_RL5" text="乌贝斯雷克"/>
+        <string id="7iTM7KaM" text="乌贝斯雷克是瑞克领最重要的贸易中心之一。它横跨一座重要桥梁，坐落在从博根哈芬到敦克尔堡的道路上。贸易沿着这条路流动，也顺流而下，通向奥尔斯瓦尔德、格林堡、肯珀巴德和阿尔道夫。此外，由于它临近灰夫人山口，对于那些要翻越灰色山脉的商人来说，乌贝斯雷克是个理想之地，他们可以在这里把货物从水路转运到陆路，反之亦然。 "/>
+        <string id="Settlements.Settlement.name.village_RL5_1" text="格雷斯巴赫"/>
+        <string id="Settlements.Settlement.text.village_RL5_1" text="格雷斯巴赫是乌贝斯雷克以北的一个森林村庄。这里的人们小心翼翼地在附近的树林里伐木，并在村庄周围的空地上种植他们能种植的庄稼。长期以来，一直有传言和担忧，说村子东边有一个黑暗的庄园，据说那里有巨大的邪恶。"/>
+        <string id="Settlements.Settlement.name.village_RL5_2" text="塔勒霍夫"/>
+        <string id="K3Z64kae" text="塔尔霍夫是一个小村庄，位于灰夫人路与矮人路的交汇处。它横跨恶魔河，这里是驳船仍能通航的恶魔河最高处。要不是有从卡拉克·阿兹加拉兹前往乌贝斯雷克的矮人贸易途经此地，这个村子早就被遗弃了。 "/>
+        <string id="Settlements.Settlement.name.village_RL5_3" text="胡格尔达尔"/>
+        <string id="Settlements.Settlement.text.village_RL5_3" text="乌贝斯雷克的南部是采矿村胡格尔达尔。胡格尔达尔是在帝国成立三百年后建立的，目的是在灰山开采铜和铁。帝国历1112年，城镇记录显示黑死病摧毁了当地人口，几乎摧毁了整个城镇。沙利亚的信徒认为不久之后在这里建立了一个收容所是合适的。沙利亚人到来后不久，一直经常光顾该地区的史崔格尼被禁止进入该镇。尽管如此，他们还是经常在栅栏外扎营，与当地人进行娱乐和贸易。"/>
+        <string id="Settlements.Settlement.name.town_RL6" text="敦克尔堡"/>
+        <string id="NZRGrT43" text="敦克尔堡集镇位于格里森河北岸。它受益于施蒂米根运河，通过这条运河能够抵达瑞克领南部地区的诸多集镇。这座城镇以其质朴氛围著称，即便规模持续扩大，这种氛围也依旧保留着。不幸的是，敦克尔堡靠近灰色山脉，这使得它时常受到地精的侵扰，地精们会定期来洗劫城镇。这些劫掠造成的后果之一，便是与帝国许多其他地方相比，该镇的孤儿数量要多得多。不过，只要这些孤儿在镇上的几处漂白场工作，冯·华伦斯坦家族就会为他们提供生计。 "/>
+        <string id="Settlements.Settlement.name.village_RL6_1" text="巴尔弗斯海姆"/>
+        <string id="Settlements.Settlement.text.village_RL6_1" text="巴尔弗斯海姆是格里森河沿岸的一个小村庄，靠近伊曼纽尔伯爵夫人运河。它的谷物经常出口到瑞克领，以供应格里森瓦尔德和努恩。"/>
+        <string id="Settlements.Settlement.name.village_RL6_2" text="斯坦道夫"/>
+        <string id="Settlements.Settlement.text.village_RL6_2" text="斯坦道夫是格里森河源头附近的一个小村庄。它的人民拒绝进入经常使村庄黯然失色的灰色山脉。尽管矿物会给村子带来巨大的财富，但这里的人说在他们上方的山里有一座可怕的城堡,说他们宁愿留在他们的谷地。"/>
+        <string id="Settlements.Settlement.name.castle_RL1" text="施蒂米根"/>
+        <string id="uwQASXxv" text="在瑞克领的南前山区坐落着施蒂米根集镇。施蒂米根位于奥伯河畔，施蒂米根运河与灰夫人运河在此交汇。这座城镇尤以厄恩瓦尔德苹果而闻名，这种苹果口感酸甜，施蒂米根人用它来制作馅饼、糕点、碎果甜点和苹果酒，还有当地那道恶名远扬的“鼠肉苹果炖菜”。施蒂米根有大量的半身人，他们擅长种植厄恩瓦尔德苹果以及制作相关衍生产品。 "/>
+        <string id="Settlements.Settlement.name.castle_village_RL1_1" text="纳夫多夫"/>
+        <string id="Settlements.Settlement.text.castle_village_RL1_1" text="纳夫多夫是一个孤立的村庄，坐落在斯蒂米根和胡格尔达尔之间的灰色女士运河上。纳夫多夫几乎完全被附近的托伊费尔，奥伯和特雷尼格河流形成的沼泽地所包围。事实上，没有太多理由在纳夫多夫停下来，该村的主要商品是利用运河在河流之间移动的鱼类。"/>
+        <string id="Settlements.Settlement.name.castle_village_RL1_2" text="托费尔费尔"/>
+        <string id="Settlements.Settlement.text.castle_village_RL1_2" text="托费尔费尔是肯珀巴德郊外的一个乡村。这个村庄真正值得注意的只是一百年前赖克瓦尔德部队与从赖克瓦尔德森林中出现的最大的野兽人之一发生冲突的场景。他的故事是这样的，当战斗巫师通过他们的魔法之火向怪物，他们周围的树木爆发出魔鬼之火，其色调对这个世界来说是不自然的。这里的人们为这个故事感到自豪，并经常兜售这场历史性战役的“遗物”。"/>
+        <string id="Settlements.Settlement.name.castle_RL2" text="肯珀巴德"/>
+        <string id="GaxtQ8ch" text="肯珀巴德大自由市是一座重要的贸易城市，位于瑞克河与斯特尔河的交汇处。这座城市牢牢把控着该河段的贸易，对保障帝国南部持续的经济繁荣起着关键作用。该市于帝国历1066年，从无能的鲍里斯皇帝手中购得特许状，自那时起，便直接由十三人议会统治。该议会成员包括城中最有势力的商人，以及当地西格玛神庙与莎莉雅神庙的代表。 "/>
+        <string id="Settlements.Settlement.name.castle_village_RL2_1" text="迪斯多夫"/>
+        <string id="Settlements.Settlement.text.castle_village_RL2_1" text="迪斯多夫是一个坐落于瑞克河畔，阿尔道夫与科佩巴德之间的小城镇。迪斯多夫是西格玛信仰的一个主要圣地，据说虔诚者马格努斯曾经在此对聚集而来的群众们发表过一次慷慨激昂的演讲。大约六十年之后，时任皇帝威尔海姆三世在此设立了迪斯多夫军事学院来训练那些在战斗中凸显出领导才能的人。"/>
+        <string id="Settlements.Settlement.name.castle_village_RL2_2" text="拉肯巴德"/>
+        <string id="Settlements.Settlement.text.castle_village_RL2_2" text="拉肯巴德位于位于灰色女士和奥伯斯蒂米根运河的交汇点沿特拉尼格河沿岸。虽然这个村庄是一个农业社区，但它是一个才华横溢的铁匠的家，乌利和他才华横溢的儿子瓦尔滕。"/>
+        <string id="Settlements.Settlement.name.castle_RL3" text="瑞克禁卫堡垒"/>
+        <string id="g2cQpbQP" text="瑞克卫城堡是瑞克禁卫骑士团大骑士团的堡垒。它坐落在恶魔河与瑞克河的交汇处。在西格蒙德皇帝统治时期，当瑞克领受到戈尔巴德·“铁爪”的威胁时，矮人建筑师对其进行了重新加固与扩建。它至今仍是一座强大的堡垒，能够容纳数百名士兵与工作人员，并且还是卡尔 - 弗兰兹的避暑行宫。 "/>
+        <string id="Settlements.Settlement.name.castle_village_RL3_1" text="沃尔里茨"/>
+        <string id="Settlements.Settlement.text.castle_village_RL3_1" text="沃利茨是一个由驻守城堡卫队的部队保护的河村。这里的人们非常忠于卡尔·弗朗茨皇帝，许多人认为他是西格玛的转世。该镇受益于沿着雷克到阿尔道夫，马林堡等地的贸易。"/>
+        <string id="Settlements.Settlement.name.castle_village_RL3_2" text="格伦堡"/>
+        <string id="Settlements.Settlement.text.castle_village_RL3_2" text="格伦堡坐落在吸血鬼河畔。虽然贸易从运河流向城市内部，从瑞克领流向北部，但格伦堡的主要财富来源来自于河上的船坞，许多往来于瑞克领河上的船只和驳船都来自于此。这座城市也因格伦堡战役而闻名，大约在5000年前，兽人军阀铁爪葛巴德的前进最终被阻止了。战斗平原之所以如此珍贵，是因为几乎所有的帝国和兽人军队都是骑在马背上的骑士，这在现代都不寻常。因此，有几个感兴趣的团体建立了一个挖掘现场，许多人来看看他们的工作。"/>
+        <string id="Settlements.Settlement.name.castle_RL4" text="格劳恩堡"/>
+        <string id="ku9pC5id" text="格劳恩堡城堡是格拉夫·威廉·冯·萨波纳特海姆统治瑞克领中部及其男爵领地的所在地。它是博根河畔的一座堡垒，保护博根哈芬和附近其他地方免受攻击。"/>
+        <string id="Settlements.Settlement.name.castle_village_RL4_1" text="维斯布鲁克"/>
+        <string id="Settlements.Settlement.text.castle_village_RL4_1" text="维斯布鲁克坐落在魏斯布鲁克运河和巴根河的交汇处。该镇曾经是雷克兰的主要煤和铁来源，其开采为格鲁伯家族提供了足够的资金来建造魏斯布鲁克运河，这使得开采的材料更容易运输到市场。现在矿山大部分已经枯竭，虽然由于运河，该镇继续在贸易方面蓬勃发展，该矿的许多前工人发现自己失业并被困在魏斯布鲁克，他们喝廉价的酒并制造麻烦。"/>
+        <string id="Settlements.Settlement.name.castle_village_RL4_2" text="海利根"/>
+        <string id="Settlements.Settlement.text.castle_village_RL4_2" text="就在阿尔道夫的西南方，有一个叫海利根的小村庄。这个村庄不值一提，但它靠近琥珀色的小山，从高处俯瞰阿尔道夫的壮丽景色。"/>
+
+        <!--Middenland-->
+        <string id="Settlements.Settlement.name.town_ML1" text="米登海姆"/>
+        <string id="q33cmYR6" text="宏伟的米登海姆城，传闻由战神尤里克亲自建立，是帝国境内最伟大且防御最为坚固的城市之一。因其所谓的起源，这座城市也常被简称为尤里克堡、“斧击城” 或是“白狼之城”。它坐落在一座巨大的山峰之上，既是米登领选帝侯的驻地，也是尤里克教派的总部。自建成以来，它从未被征服过，是帝国北方的堡垒。 "/>
+        <string id="Settlements.Settlement.name.village_ML1_1" text="诺德林根"/>
+        <string id="Settlements.Settlement.text.village_ML1_1" text="米登领的大部分地区都被德拉科瓦尔德森林覆盖，在这些阴森可怕的森林里，各个村庄艰难求生，诺德林根村也是如此。村民们砍伐优质树木以换取基本生活必需品，同时还得时刻留意那些隐藏在视线之外的种种危险事物。 "/>
+        <string id="Settlements.Settlement.name.village_ML1_2" text="舍宁哈根"/>
+        <string id="Settlements.Settlement.text.village_ML1_2" text="这是米登领星罗棋布的众多木材采伐村庄之一，这个村子经历过不少起起落落，但与许多更为不幸的邻村不同，无论是过去还是现在，它都还未曾遭遇过任何不幸的悲剧。 "/>
+        <string id="Settlements.Settlement.name.village_ML1_3" text="阿雷伯格"/>
+        <string id="Settlements.Settlement.text.village_ML1_3" text="阿雷伯格的地理位置十分优越，位于宏伟的米登海姆城与霍克兰边境之间，离守护着通往霍克兰道路的伊默尔施海德堡不远。它邻近伊默尔施海德公国，那里的采石场为整个米登领供应石材，正因如此，形形色色原本绝不会踏足此地的访客纷纷来到阿雷伯格。 "/>
+        <string id="Settlements.Settlement.name.village_ML1_4" text="耶格豪森"/>
+        <string id="mAgVqoXw" text="在米登海姆以北的森林深处，这些吃苦耐劳的民众为了过上像样的生活，无休止地辛勤劳作。许多人倒在了树林深处潜藏的各类威胁之下，但普通民众依然顽强不屈。 "/>
+        <string id="Settlements.Settlement.name.town_ML2" text="阿伦霍夫"/>
+        <string id="rxQufRw7" text="阿伦霍夫是米登领内规模较大的城镇之一，它是著名的欣德林豪华航线从阿尔道夫到塔拉贝姆途中的一个渡口，为这里带来了大量来自帝国各地的贸易往来与旅客。米登领内的大部分木材及农产品贸易都要经过这个城镇，再被转运到最急需这些物资的地方。 "/>
+        <string id="Settlements.Settlement.name.village_ML2_1" text="贝德霍讷"/>
+        <string id="Settlements.Settlement.text.village_ML2_1" text="在整个旧世界，这样的地方都相当罕见，这个村庄里有一处温泉浴场。虽说维持生计仍是村子的主要事务，但拥有如此独特的奢侈享受，对巴德·霍内村而言可是一大幸事，因为他们靠收取不菲的使用费获利颇丰。 "/>
+        <string id="Settlements.Settlement.name.village_ML2_2" text="莱尔"/>
+        <string id="Settlements.Settlement.text.village_ML2_2" text="利尔村坐落在与霍克兰的边境上，靠近塔拉贝克河。它是少数拥有开阔空地的村庄之一，村民们利用这片空地养猪，同时也做常规的木材贸易。和米登领其他居民一样，这些村民在日常劳作时，也会虔诚地向尤里克祈祷。 "/>
+        <string id="Settlements.Settlement.name.village_ML2_3" text="苏德贝格"/>
+        <string id="0XGDfeML" text="这个村庄惬意地依偎在塔拉贝克河向北延伸出的众多支流之一的河畔，村里住着一群吃苦耐劳的养牛人，他们尽责地将自家的牲畜，或是仅仅把牛肉，运往贸易城镇阿伦霍夫。 "/>
+        <string id="Settlements.Settlement.name.town_ML3" text="卡伦堡"/>
+        <string id="Stz0eY6G" text="卡伦堡曾是米登领的旧都，那时米登领还未与米登海姆合并，被称作德拉科瓦尔德行省。如今，它是一座专注于玻璃制造的贸易枢纽。此地历史氛围浓厚，它还曾是条顿根国王的驻地，也是德拉科瓦尔德王朝统治下帝国的都城。这里是卡伦堡巨剑武士的故乡，还有一座属于烈日骑士团的分会修道院，因此，它在帝国内依然是一座威严的堡垒。 "/>
+        <string id="Settlements.Settlement.name.village_ML3_1" text="安塞尔多夫"/>
+        <string id="Settlements.Settlement.text.village_ML3_1" text="安塞尔多夫距离卡伦堡城不远，是许多人从瑞克领进入米登领时最先遇到的村庄之一。再往北不远处，便是米登沼地，那里的水域雾气弥漫。 "/>
+        <string id="Settlements.Settlement.name.village_ML3_2" text="巴伦法尔"/>
+        <string id="Settlements.Settlement.text.village_ML3_2" text="巴伦法尔是塔拉贝克河畔星罗棋布的众多村庄之一，设有渡口。因此，这里常常成为人们渡河的地点，同时也迎接着形形色色途经塔拉贝克河的商人、旅行者以及豪华客船。 "/>
+        <string id="Settlements.Settlement.name.village_ML3_3" text="敦克比尔德"/>
+        <string id="FFw8aG0T" text="敦克尔比尔德这个不起眼的小村庄，离米登沼地更近，舒适地依偎在德拉科瓦尔德森林边缘。这个地方乏善可陈，但考虑到森林里潜藏着各式野兽，平淡无奇倒也是件幸事。 "/>
+        <string id="Settlements.Settlement.name.village_ML3_4" text="魏德马克特"/>
+        <string id="3QBvbU8k" text="这座村庄坐落在阿尔道夫与米登海姆之间最常使用的道路沿线，位置十分宜人，形形色色的路人从这里经过。它还是少数几个种植并售卖自家葡萄酒的村庄之一，对任何疲惫的旅人来说，都是令人欣喜的存在。 "/>
+        <string id="Settlements.Settlement.name.town_ML4" text="格里敏哈根"/>
+        <string id="OHFGHFM7" text="北方帝国各地采伐的大量木材最终都会运往格里敏哈根，该地的主要产业之一便是木器工艺，工匠们对此深感自豪。格里敏哈根坐落在霍克兰边境，距离米登海姆以南不远，这里手工制作的木制品常常运往两地的市场售卖。 "/>
+        <string id="Settlements.Settlement.name.village_ML4_1" text="芬特尔"/>
+        <string id="Settlements.Settlement.text.village_ML4_1" text="芬特尔是少数几个建在离米登海姆不远的开阔山丘间的村庄之一，而非位于令人压抑的德拉科瓦尔德森林那片黑暗之中。这使得村庄能够保持安宁，村民们专注于农耕与日常生活，无需操心太多其他事务。 "/>
+        <string id="Settlements.Settlement.name.village_ML4_2" text="哈尔苏姆"/>
+        <string id="Settlements.Settlement.text.village_ML4_2" text="哈尔苏姆是众多为格里敏哈根城及其木工提供德拉科瓦尔德森林木材的村庄之一。凭借靠近米登海姆首府以及众多其他小镇，它与文明世界距离较近，这确保了村庄能有相对安全的生存环境。 "/>
+        <string id="Settlements.Settlement.name.village_ML4_3" text="罗舍"/>
+        <string id="GJv6G0eG" text="罗舍村巧妙地夹在托尔茨贝克村与格里敏哈根城之间，是众多直接为工匠运送木材的村庄供应商之一，工匠们继而制作出手工艺品。它还是一个为城中辛勤劳作的市民提供食物的村庄，作为回报，也能得到相应的保护。 "/>
+        <string id="Settlements.Settlement.name.village_ML4_4" text="托尔茨贝克"/>
+        <string id="Hlp7OsAi" text="这个村庄离格里敏哈根镇不远，位于一条通往城市，继而延伸至米登海姆的常用道路旁，一直以来都相对安全。村民的日常生活主要是自给自足的农耕与伐木，在北方帝国的诸多此类村庄中，情况大抵相似。 "/>
+        <string id="Settlements.Settlement.name.town_ML5" text="德尔贝茨"/>
+        <string id="5etWJ77v" text="就地理位置而言，这个城镇在米登领颇为重要，它是阿尔道夫 - 米登海姆道路沿线的一座港口城镇。虽说它经营着本地供应商提供的葡萄酒，但来自帝国各地的商人在前往北方帝国更深处的途中都会途经此地，所以这里很少有安静的时候。米登领内的大部分木材贸易都在此处进行，之后再运往帝国的其他行省。 "/>
+        <string id="Settlements.Settlement.name.village_ML5_1" text="米特尔蒙德"/>
+        <string id="Settlements.Settlement.text.village_ML5_1" text="这个村庄位于其母镇德尔贝兹以南，坐落在同样繁忙的阿尔道夫 - 米登海姆公路沿线，来来往往于米登领首府的众多旅人都会经过此地。村里的村民耕种出大量粮食，为德尔贝兹的市民提供食物。 "/>
+        <string id="Settlements.Settlement.name.village_ML5_2" text="施瓦兹马克"/>
+        <string id="E6Q7YhRX" text="这个村庄位于贸易城镇德尔贝兹以北，是少数几个负责提供农产品的村庄之一，直接为往返于阿尔道夫 - 米登海姆道路、途经德尔贝兹前往或离开米登海姆的市民与各类旅人提供食物。 "/>
+        <string id="Settlements.Settlement.name.village_ML5_3" text="图姆格费尔"/>
+        <string id="Settlements.Settlement.text.village_ML5_3" text="这个村庄再普通不过了，其主要贸易品是德拉科瓦尔德森林里随处可见的优质木材。不过，它位于北方帝国一条较为繁忙的林间道路旁，所以相较许多其他在森林里采伐的地方，这里的生活要安全得多。 "/>
+        <string id="Settlements.Settlement.name.town_ML6" text="沙因费尔德"/>
+        <string id="yVRNuROx" text="离这座城镇不远，向东仅两英里处，坐落着一座供奉莎莉雅女神的神圣修道院。虽说城镇本身贸易繁忙，主要是农产品与鱼类交易，但来此地的访客中，更多人是为了向这位白衣女神祈祷，或是寻求她的女祭司们的帮助。 "/>
+        <string id="Settlements.Settlement.name.village_ML6_1" text="胡普施泰特"/>
+        <string id="Settlements.Settlement.text.village_ML6_1" text="这种情况很少见，但大家都知道，胡普施泰特村有一些村民会冒险深入村子边缘的米登沼地，而且走得有点太远了。至于他们为什么这么做，多数人只能猜测。其余村民则专注于养家糊口，把自家的食物拿到沙因费尔德镇上去售卖。 "/>
+        <string id="Settlements.Settlement.name.village_ML6_2" text="乌德"/>
+        <string id="Settlements.Settlement.text.village_ML6_2" text="这座小村庄隐匿在德拉科瓦尔德森林深处，坐落在瑞克河河畔，河水朝着利爪海奔涌而去。住在此处的人寥寥无几，而留下来的村民早已习惯在森林中讨生活所需的坚韧。河里新鲜的鱼，以及穿梭往来的众多船只，为村民们带来了急需的物资。 "/>
+        <string id="Settlements.Settlement.name.castle_ML1" text="莱希林贝格"/>
+        <string id="GXqf5KCv" text="这座城堡要塞位于米登海姆城外不远处，它守卫着北方帝国较为开阔的一些土地，时刻保持警惕，驻军严阵以待，留意任何野兽或劫掠者靠近附近城市或村庄的蛛丝马迹。"/>
+        <string id="Settlements.Settlement.name.castle_village_ML1_1" text="卡门顿"/>
+        <string id="Settlements.Settlement.text.castle_village_ML1_1" text="这个村庄离通往米登海姆的北方大道不远，坐落在沙登森普夫边缘。那里浑浊且幽深的水域令大多数人望而却步，但这里的村民继续在周边较为开阔的土地上耕种，还因靠近首府而享有相对的安全。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML1_2" text="格鲁本特赖希"/>
+        <string id="Settlements.Settlement.text.castle_village_ML1_2" text="这是米登海姆首府城外众多村庄之一，这座不起眼的村庄靠自给自足的农耕维持生计，多余的农产品会卖到首府，为城里众多市民提供食物。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML1_3" text="普里茨施托克"/>
+        <string id="vXhuVKIO" text="这是紧邻首府的三个村庄之一，与莱希林贝格堡垒相连。这个特别的村庄负责为堡垒中饥饿的驻军提供食物，而驻军则负责守望周边土地。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML1_4" text="福尔贝格韦克"/>
+        <string id="r6hivVvf" text="这个村庄位于北方大道不远处，依偎在沙登森普夫那片浑浊的水域旁，来来往往于荒野和自由城市玛丽恩堡之间的各类旅人都会途经此地。 "/>
+        <string id="Settlements.Settlement.name.castle_ML2" text="米登施塔格"/>
+        <string id="nr6KhCnc" text="一座关键的驻军要塞，是黑豹骑士团的驻地，这座令人生畏的城堡沿着霍克领边境，从德拉科瓦尔德森林中耸然而起。驻守在城堡城墙内的人，负责保卫从霍克领到德尔贝兹的主要路线，还要在恶名远扬、危险重重的呼啸山丘一带巡逻。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML2_1" text="昂特贾德"/>
+        <string id="Settlements.Settlement.text.castle_village_ML2_1" text="随着这个村庄不断发展壮大，它说不定哪天就会变成一座小镇。它位于霍克领边境，就在主干道边上，离格里米根镇不远，许多往返于首府，或是前往霍克领、瑞克领的旅人都会途经此地。它如今能有这般发展，一方面得益于优越的地理位置，另一方面则要归功于它的镇议会，颇为独特的是，这里是由镇议会而非领主来管理的。 "/>
+        <string id="Settlements.Settlement.name.castle_ML3" text="但赛"/>
+        <string id="3sGcXmny" text="这座城堡坚守在往返荒野的北方大道沿线，驻守城堡、巡逻城墙的驻军，常常看着形形色色的商人、旅行者、朝圣者等来来往往，他们在去往首府或返程的路上途经此地。更为重要的是，这座城堡防范着一伙以周边德拉科瓦尔德森林为据点的森林地精部落。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML3_1" text="文森"/>
+        <string id="Settlements.Settlement.text.castle_village_ML3_1" text="这个村庄历经了不少悲剧。具体从何时起已无从知晓，但有一伙森林地精多年来一直困扰着这个村庄。尽管附近的戴恩施特城堡多次派人巡逻，仍有不少村民沦为这些德拉科瓦尔德森林生物的牺牲品。 "/>
+        <string id="Settlements.Settlement.name.castle_village_ML3_2" text="博克尔"/>
+        <string id="Settlements.Settlement.text.castle_village_ML3_2" text="沿着北方大道再往前走，这个村庄受到绿皮威胁的情况远比周边村庄少得多。在这里，更常见的是遇见旅人，听他们讲述形形色色的故事，这些旅人有些是在前往首府的路上，有些则是正返回荒野。 "/>
+
+		<!-- Ostermark -->
+        <string id="Settlements.Settlement.name.town_OM1" text="贝查芬"/>
+        <string id="K2etWc1J" text="自从莫德海姆被摧毁后，贝查芬就成了奥斯特马克领的首府。此地的建筑又高又瘦，取材于大森林，尤其是狮鹫木林中的深色木材，这让建筑透着一股阴森的气息。虽说大森林的木材色泽不佳，但其质地坚韧，是众多行业的绝佳材料。贝查芬尤以卓越的造船厂和本地精心打造的内河船只而声名远扬。卡拉克 - 卡德林的矮人国王赠予贝查芬两座水力锯木厂，如此，顺流而下运抵这座城市的原木就能被加工成更易于运输、方便使用的木板。 "/>
+        <string id="Settlements.Settlement.name.village_OM1_1" text="多尔纳"/>
+        <string id="Settlements.Settlement.text.village_OM1_1" text="多尔纳在税收征缴方面发挥着重要作用，它向过往船只征税，还负责南部地区的树木采伐。此外，这里也是水手们的休憩之地，待他们和所装载的木材稍作休整后，便会继续向南朝着塔拉贝姆或更远的地方航行。 "/>
+        <string id="Settlements.Settlement.name.village_OM1_2" text="穆恩肯霍夫"/>
+        <string id="Settlements.Settlement.text.village_OM1_2" text="穆恩肯霍夫村临近布伦瓦瑟河河口，这使得村里的村民都很擅长捕鱼，能在必要时为贝查芬以及周边村庄提供食物。那些坚固的渔船曾多次保护船主免受潜在掠食者的侵害，有些家伙试图把渔民挤出船外，或是将船整个掀翻，但最后往往只会落得脑袋挨上一闷棍，两眼之间插着一支鱼叉的下场。 "/>
+        <string id="Settlements.Settlement.name.village_OM1_3" text="雷特魏因"/>
+        <string id="Settlements.Settlement.text.village_OM1_3" text="雷特魏因村距离布伦瓦瑟河很近，这为村庄带来了肥沃的土壤，村民们得以在这片土地上种植亚麻。 "/>
+        <string id="Settlements.Settlement.name.village_OM1_4" text="鲁根巴特尔"/>
+        <string id="Settlements.Settlement.text.village_OM1_4" text="沿着向西的道路前行，便能抵达鲁根巴特尔，这是一座平平无奇的森林村庄。尽管有一定数量的行人往来经过，但村庄本身非常贫穷。或许是因为旅人都巴不得尽快走出这片黑暗森林，更倾向前往像贝查芬那样安全的地方。 "/>
+        <string id="Settlements.Settlement.name.town_OM2" text="艾森塔尔"/>
+        <string id="yVp6hbLt" text="艾森塔尔是奥斯特马克领与卡拉克·卡德林的矮人之间重要的贸易枢纽。因其位于布鲁特河沿岸，又是矮人商人的第一站，所以这里的水路与附近道路通常戒备森严，除了大规模的兽人部落，一般的威胁都能被艾森塔尔的军队轻松应对。 "/>
+        <string id="Settlements.Settlement.name.village_OM2_1" text="米尔劳"/>
+        <string id="Settlements.Settlement.text.village_OM2_1" text="位于奥里斯河与上布鲁特河交汇处的是米尔劳，一个不起眼的牧羊小村庄。它地处偏远，这为村民们的牲畜提供了充足的放牧空间，保证牲畜长得膘肥体壮，产出高品质的羊毛。 "/>
+        <string id="Settlements.Settlement.name.village_OM2_2" text="比森多夫"/>
+        <string id="Settlements.Settlement.text.village_OM2_2" text="上布鲁特河与下布鲁特河汇合成布鲁特河的地方，坐落着比森多夫。比森多夫凭借临近布鲁特河的便利，砍伐生长于上、下布鲁特河之间的布鲁特森林的木材。"/>
+        <string id="Settlements.Settlement.name.village_OM2_3" text="陶尔"/>
+        <string id="Settlements.Settlement.text.village_OM2_3" text="陶尔位于奥斯特马克边境领的南端。陶尔附近的山麓地带土壤肥沃但地势崎岖，人们需费些力气才能收获颇丰。正因如此，这里的居民吃苦耐劳、身体健壮，但依旧生活贫困。 "/>
+        <string id="Settlements.Settlement.name.town_OM3" text="纳根霍夫"/>
+        <string id="1z6XHDKL" text="纳根霍夫坐落在卡德林大道沿线，是一座雄伟的要塞城市，守护着奥斯特马克领的东部山麓，抵御绿皮的入侵。不过，纳根霍夫很少遭遇真正的入侵威胁，这要归功于众多的矮人屠夫群体，他们会途经这座城镇，向东进发，去寻求属于自己的壮烈结局。 "/>
+        <string id="Settlements.Settlement.name.village_OM3_1" text="布科夫"/>
+        <string id="Settlements.Settlement.text.village_OM3_1" text="布科夫的牧民们常常越过河流，尽可能靠近草原去放牧他们的羊群，这让边疆伯爵康拉德·伦琴十分懊恼。他也根本没办法当场抓住这些牧民，好采取点什么措施。毕竟，山麓地带生长的草十分稀少，靠这些草，羊儿可长不肥。 "/>
+        <string id="Settlements.Settlement.name.village_OM3_2" text="魏勒"/>
+        <string id="Settlements.Settlement.text.village_OM3_2" text="当人们向东前行时，魏勒是最后一站；而从东边过来时，它通常又是第一站。就村庄而言，魏勒相当富裕，因为往来的人流量很大，有商人，也有路过的矮人屠夫，这些矮人在奔赴战场寻死之前，会在这里花掉最后一点积蓄。 "/>
+        <string id="Settlements.Settlement.name.town_OM4" text="雷默"/>
+        <string id="siVf6Sqf" text="一方面，雷默是一座气势恢宏的城市，工匠们在此施展技艺，集市上人头攒动，锤子的敲打声与人们的低语声充斥着街道。另一方面，在河边，河岸两旁布满了码头与渔船，来自奥斯特马克各地的渔民汇聚于此，为家人谋生计。雷默向联盟内的众多城镇与村庄大量出口鱼类。"/>
+        <string id="Settlements.Settlement.name.village_OM4_1" text="齐索斯"/>
+        <string id="Settlements.Settlement.text.village_OM4_1" text="这是一个规模不大的村庄，村民大多以牧羊为生。村子东边大片的土地被留作牧场，放养着村里众多的奶牛。为了避免与边疆伯爵康拉德·伦琴发生冲突，村民们在东边草原的边界筑起了围栏，以防自家奶牛意外闯入那片草原。 "/>
+        <string id="Settlements.Settlement.name.village_OM4_2" text="赫芬根"/>
+        <string id="Settlements.Settlement.text.village_OM4_2" text="赫芬根，当地以繁育速度快且体格健壮的马匹而闻名。赫芬根的村民颇为自豪，他们充分利用居住空间来开展各类手艺活。然而，美中不足的是，他们对草原几乎没有管辖权，不然的话，他们本可以在那里大幅拓展畜牧规模，这实在令人懊恼。 "/>
+        <string id="Settlements.Settlement.name.village_OM4_3" text="埃尔宾"/>
+        <string id="Settlements.Settlement.text.village_OM4_3" text="沿着通往贝查芬的道路坐落着埃尔宾，这儿行人往来颇为频繁。如果向东前行，此地是相当长一段路程内的最后一站；要是从东边过来，它则是第一站。村民们衣食无忧，小酒馆常常热闹非凡，任何从荒凉沼泽游荡过来的不死生物，通常都会被迅速处理掉。 "/>
+        <string id="Settlements.Settlement.name.castle_OM1" text="埃森"/>
+        <string id="Settlements.Settlement.text.castle_OM1" text="西边是死寂之林，东边是诡异丘陵，南边则是赫尔芬。人们常常猜测，逝者与生者同行，鬼魂在街上徘徊的频率和活人一样高。实际情况要严峻得多，这座城镇时刻面临着被不死生物袭击的威胁，或是有从死寂之林游荡过来、迷失太远的混沌生物来袭。生活在埃森的平民在城墙后过着贫苦的日子，而熟悉猎杀不死生物的民兵则不断巡逻，守护着亲人的生命。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OM1_1" text="卡斯布喀"/>
+        <string id="Settlements.Settlement.text.castle_village_OM1_1" text="作为埃森重要的食物来源地，许多巡逻队会定期途经此地，以应对来自诡异丘陵的不死生物，以及从西南方溜过来的零散部落。卡尔斯布鲁克的村民们一直试图扩大他们的农田，可这里的土壤十分贫瘠，几乎寸草不生，即便有少量收成，也都直接运往了埃森。更糟糕的是，不死生物带来的腐化扩散得极为迅速，侵占了越来越多的农田。 "/>
+        <string id="Settlements.Settlement.name.castle_OM2" text="福特恩哈夫"/>
+        <string id="Settlements.Settlement.text.castle_OM2" text="福特恩哈夫是一个重要的战略要地，既能抵御入侵，又能对渡河者收取税费。此地离北部边境很近，所以许多居民来自基斯里夫也就不足为奇了。帝国人和基斯里夫人之间的关系往好了说也常常很冷淡，夜里常有酒馆斗殴事件被人叫停。不过，他们都清楚一件事：要是家园受到威胁，他们就会并肩作战，誓死捍卫。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OM2_1" text="戈多登"/>
+        <string id="Settlements.Settlement.text.castle_village_OM2_1" text="一大片狮鹫木林环绕着格尔杜恩，每天都有人外出砍伐尽可能多的木材，以便让这些木材顺流而下漂至贝查芬。虽说砍伐量巨大，但令人惊讶的是，这片树林的边界似乎从未缩减。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OM2_2" text="雷登"/>
+        <string id="Settlements.Settlement.text.castle_village_OM2_2" text="雷登的青草萋萋、旷野无垠、溪水清澈，是放羊与定居的理想之地。众所周知，这片区域是森林地精的必经之路，它们企图跨越上塔勒贝克河，闯入帝国境内。通常情况下，牧羊人们能对付这些野蛮人，但它们的数量偶尔会激增，届时村庄就得寻求援助，以解决地精肆虐的问题。 "/>
+
+		<!-- Hochland -->
+        <string id="Settlements.Settlement.name.town_HL1" text="赫吉格"/>
+        <string id="HRR5t3m0" text="作为霍克领的首府，赫吉格是一座坐落在茂密的德拉科瓦尔德森林中的繁华枢纽。它以精湛的木工技艺，以及标志性的霍克领魔法学院而闻名，融合了坚固的林地建筑风格与精巧复杂的防御工事。街道上常常充斥着工匠劳作的声响，偶尔还会传来士兵行军的步伐声，这反映出赫吉格的战略重要性与文化丰富性。这座城镇的建筑传统上采用石头与砖块建造，体现出它更为现代的追求，部分得益于矮人聚居区巧匠们的助力。东大门桥曾是奥斯特领与霍克领之间历史战役的发生地，凸显出它对这座城市的战略意义。尽管在战争中饱受磨难，经历过一场致使大要塞沦陷的惨烈围城，但赫吉格如今正处于复兴阶段。 "/>
+		<string id="Settlements.Settlement.name.village_HL1_1" text="邓斯蒂格福特"/>
+        <string id="Settlements.Settlement.text.village_HL1_1" text="邓斯蒂格福特坐落在塔拉贝克河沿岸，是一座以出色的渔业和木屋建筑而闻名的小村庄。村民们擅长利用河流资源，为包括赫吉格在内的周边城镇供应鲜鱼。和霍克领的许多其他村庄一样，周围的树林构成了一幅相对宁静的背景。 "/>
+        <string id="Settlements.Settlement.name.village_HL1_2" text="米登"/>
+        <string id="Settlements.Settlement.text.village_HL1_2" text="米登是坐落于基弗河河畔的一个村庄。它靠近山脉，这使得当地的矿业社区蓬勃发展，人们开采出各类贵重矿物。米登周边地势崎岖，构成了一道天然防线，此地居民也以坚韧不拔著称。 "/>
+        <string id="Settlements.Settlement.name.village_HL1_3" text="施托克塞"/>
+        <string id="Settlements.Settlement.text.village_HL1_3" text="施托克塞是一个小村庄，位于与米登村相对的河流尽头。即便在擅猎的霍克领人中，这里也以技艺娴熟的猎人和陷阱捕手闻名。这片茂密的森林猎物繁多，村民们更是以擅长在充满挑战的林地环境中穿梭、生存而著称。 "/>
+        <string id="Settlements.Settlement.name.village_HL1_4" text="沃夫"/>
+        <string id="jrj9R8JA" text="沃夫是位于霍克领茂密森林中的一处偏远定居点。它主要因那些吃苦耐劳的伐木工而闻名，鉴于其处在德拉科瓦尔德森林更为中心的位置，这些伐木工比大多数霍克领人都更勇敢地深入森林腹地。这个村庄带着质朴的魅力，有着坚固的木质建筑和关系紧密的社群。 "/>
+        <string id="Settlements.Settlement.name.town_HL2" text="布雷德"/>
+        <string id="7vc4CRz6" text="布雷德是霍克领一座重要的城市，坐落在中山脉的山麓沿线。这座城市的一大特色是大部分建筑都位于地下，就在中山脉的山麓之中。它因维护良好的城墙而闻名，是来自中山脉与德拉科瓦尔德森林各类货物的关键贸易站。该市人口多元，是矮人和本土霍克领人的大熔炉。 "/>
+        <string id="Settlements.Settlement.name.village_HL2_1" text="埃斯克"/>
+        <string id="Settlements.Settlement.text.village_HL2_1" text="埃斯克是一个位于中山脉山麓的小型采矿与伐木村落。这个村子以勤劳的矿工和伐木工而闻名，他们为霍克领较大的聚居地提供重要资源。 "/>
+        <string id="Settlements.Settlement.name.village_HL2_2" text="克尔林"/>
+        <string id="Settlements.Settlement.text.village_HL2_2" text="与它的姊妹村埃斯克一样，科林隐匿于中山脉的山麓。这是一个小村庄，因其技艺娴熟的矿工与工匠而闻名。村民们能巧妙地用从附近山脉开采出的石头与矿石制作各类物品。 "/>
+        <string id="Settlements.Settlement.name.town_HL3" text="克鲁登瓦尔德"/>
+        <string id="INsjIEGw" text="作为霍克领第二大聚居地，克鲁登瓦尔德是一座以坚韧不拔和好客传统著称的城市。这里是冒险家和雇佣兵的集散地，融合了粗犷的荒野风貌与都市的便利设施。该市人口多元，有大量矮人屠夫、雇佣兵以及其他漂泊不定的战士。 "/>
+        <string id="Settlements.Settlement.name.village_HL3_1" text="加尔森"/>
+        <string id="Settlements.Settlement.text.village_HL3_1" text="加尔森是霍克领东部的一个小村庄，以农业和普通的木材生产闻名。村庄位于两条河流之间。"/>
+        <string id="Settlements.Settlement.name.village_HL3_2" text="赫弗尔霍夫"/>
+        <string id="Settlements.Settlement.text.village_HL3_2" text="这个小村庄背靠中山脉，坐落在一条汇入塔拉贝克大河的溪流河口处。村民们居住的地方离黄铜要塞近得让人不安，即便相隔这么远，依然能感受到它的存在。即便如此，他们还是拼尽全力心怀希望地生活着，盼着混沌的威胁永远不会降临。 "/>
+        <string id="Settlements.Settlement.name.village_HL3_3" text="泽尔米格霍尔茨"/>
+        <string id="wLtgiwYo" text="这个村庄只是周边众多位于边境沿线的村庄之一，也是进入米登领的主要通道之一。这里的居民经常看到来自两个省份的巡逻队从村子经过，或是沿着边境行进，因为霍克领的大量贸易都要途经此地。 "/>
+        <string id="Settlements.Settlement.name.castle_HL1" text="科沃堡"/>
+        <string id="urWipLyD" text="就在这座城堡的西边，塔拉贝克河对岸，矗立着雄伟的塔拉贝姆城。从城堡的城墙上可以看到许多在河面上航行的商船，驻军也常常被派去巡逻河岸。 "/>
+        <string id="Settlements.Settlement.name.castle_village_HL1_1" text="施特鲁德尔"/>
+        <string id="Settlements.Settlement.text.castle_village_HL1_1" text="这是塔拉贝克河沿岸为数不多未被帝国境内常见的大片松树林侵蚀的村庄之一。由于临近这条主要河流，各种各样的人都会经过这个原本不起眼的村庄。 "/>
+        <string id="Settlements.Settlement.name.castle_HL2" text="席普尔堡"/>
+        <string id="WdBwyFte" text="这是一座孤独的堡垒，俯瞰着危险的沼泽和被称作魏斯丘陵的山地。它的城墙历经多次围城之困，却始终屹立不倒。多年来，堡垒驻军数量有所减少，但它守护周边地区的能力并未削弱。 "/>
+        <string id="Settlements.Settlement.name.castle_village_HL2_1" text="格鲁伊登"/>
+        <string id="Settlements.Settlement.text.castle_village_HL2_1" text="这是一个供奉着帝国万神殿众多神祇的小型神社村落，坐落在塔拉贝克河畔，仰仗着科尔弗堡的当地驻军来保护自身以及为数不多的朝圣者。此地还因格鲁伊登那位年逾百岁的先知而闻名，引得许多人前来寻访。 "/>
+        <string id="Settlements.Settlement.name.castle_village_HL2_2" text="巴韦德尔"/>
+        <string id="Settlements.Settlement.text.castle_village_HL2_2" text="坐落在魏斯丘陵间的森林深处，巴韦达尔村遭遇过一连串厄运。从村民莫名失踪，到野蛮的劫掠者来袭，然而，出于纯粹的执拗，村庄宁静的生活仍在继续。 "/>
+        <string id="Settlements.Settlement.name.castle_HL3" text="登赫堡"/>
+        <string id="PVWbM5Ht" text="这座堡垒依傍着德拉克斯河，与米登领接壤，监管着周边众多村庄，期望能护其周全，因为霍克领的山林中潜藏着诸多威胁。 "/>
+        <string id="Settlements.Settlement.name.castle_village_HL3_1" text="格尔岑"/>
+        <string id="Settlements.Settlement.text.castle_village_HL3_1" text="这座不起眼的小村庄坐落在塔拉贝克河与德拉克斯河众多支流之一的附近。在霍克领，这样的村庄数不胜数，村里满是吃苦耐劳的村民，在西格玛的注视下艰难维持着微薄的生计。 "/>
+
+        <!-- Nordland -->
+        <string id="Settlements.Settlement.name.town_NL1" text="萨尔岑蒙德"/>
+        <string id="ZfEtoLDZ" text="萨尔岑蒙德，作为诺德领帝国选侯省的首府，本身也是帝国的一个公国。它坐落于群山之中，山间诸多支流汇聚，形成了萨尔茨河，城市也由此得名。选帝侯们在这些山头的顶端建造了高大的城堡，俯瞰着这座日益壮大的城市。这里曾是瓦斯朱特部落西部后裔的集会之所。通往那座名为“朱特之巢”的城堡的道路极为狭窄，以至于都无需修筑周边的幕墙，这座宏伟的城堡就静静矗立在那儿，守护着这片区域。当地人传言，选帝侯从他王座室的窗户便能将整个省份一览无余，窗户朝向西方，如此一来，他便能时刻留意劳雷尔恩森林里精灵的动向。 "/>
+        <string id="Settlements.Settlement.name.village_NL1_1" text="贝克霍芬"/>
+        <string id="Settlements.Settlement.text.village_NL1_1" text="比克霍芬是帝国诺德领一座繁忙的贸易城镇。它被誉为“诺德领的门户”，坐落在米登海姆 - 埃伦格拉德公路沿线。周边的树林因盛产粗壮且天然弯曲的树枝而闻名，这些树枝经砍伐后，可用于制作船只的弯曲部件，所以需求量极大。 "/>
+        <string id="Settlements.Settlement.name.village_NL1_2" text="格拉芬里希"/>
+        <string id="Settlements.Settlement.text.village_NL1_2" text="它曾被用作帝国与伊奥尼尔族会面的场所，地点就在镇外的一个长满青草的圆形露天剧场。木材顺流而下，运到萨尔岑蒙德售卖，驳船也会运载农产品、银和铅。 "/>
+        <string id="Settlements.Settlement.name.village_NL1_3" text="库尔特瓦伦"/>
+        <string id="Settlements.Settlement.text.village_NL1_3" text="库尔茨瓦伦是一个位于萨尔岑蒙德以北64公里处的村庄，村民多为猎人和捕兽人，地处一片远离其他城镇的林区。两百多年前，在上一次混沌入侵期间，这片地区被超乎想象的怪物与可憎之物所侵扰。在成群结队的混沌生物中，有一伙狼人。他们被赶回森林，而后被白狼骑士团剿灭。经过数十年的平静，猎人和捕兽人……（此处原文似乎有缺失）。虽说村子里没有客栈，但旅客可以留宿在马厩上方的谷仓里。任何执意要在户外过夜的人，都会不断看到黑影来来去去，还能听到不远处当地狼群的嗥叫声。 "/>
+        <string id="Settlements.Settlement.name.village_NL1_4" text="奥尔登利茨"/>
+        <string id="ZdCt3hOx" text="奥尔登利茨是帝国诺德领的一座小型矿业城镇。它位于萨尔岑蒙德西南方向的达门劳布湖中的一座岛屿上，有一条堤道从湖岸延伸至门楼，宽度足够两辆马车并行通过。它最初是在一群盐矿的中心发展起来的聚居地。 "/>
+        <string id="Settlements.Settlement.name.town_NL2" text="迪特斯哈芬"/>
+        <string id="s2ksdu29" text="迪特绍芬是诺德领的一座沿海城市，也是帝国海军第二舰队目前的驻地。迪特绍芬是帝国最重要的沿海海港，造船厂一片繁忙景象，造船工匠们正为第二舰队打造新船。声名远扬的迪特绍芬港口卫队在滨水区巡逻、操练。食品供应商们为堆积如山的盐渍鳕鱼、大量的淡啤酒和成箱的船用饼干讨价还价。监管这一切的是巴伦·卢道夫·科勒，他期望打造出一支超越布列塔尼亚或玛丽恩堡的舰队。这座城镇蓬勃发展，源源不断的木材运入城中，商人们从出手阔绰的水手身上赚得盆满钵满。矮人工匠不惜重金加固城墙——历史上，城墙一直是该港口防御的薄弱环节。要是你会用锤子、能驾船或者擅打斗，在迪特绍芬就能找到活儿干。 "/>
+        <string id="Settlements.Settlement.name.village_NL2_1" text="卢夫特伯格"/>
+        <string id="Settlements.Settlement.text.village_NL2_1" text="卢夫特伯格是位于诺德领海岸，距离萨尔森堡向北骑行一天路程的一个村庄。村里曾有一座乌尔里克教堂。在一场很可能是由高等精灵发动的袭击之后，教堂不复存在了，但原址矗立着一座方尖碑，任何触碰它的人都会被蓝色火焰吞噬。大多数村民都是农民和伐木工。 "/>
+        <string id="Settlements.Settlement.name.town_NL3" text="新埃姆斯克朗克"/>
+        <string id="QLGs0y9x" text="新埃姆斯克兰克是诺德领于帝国历2460年开设的首个港口，这是一项从玛丽恩堡分流生意的计划，结果却惨败收场。此地原本是个名为帕格斯布拉特的小渔村，镇产权被一个诈骗犯詹斯 - 彼得·里曼斯牵头的投资集团买下，该集团的支持者包括三位选帝侯，还有一些地位稍低但依旧富有有权势的贵族与帝国商行。他们的计划是打造两座港口，从玛丽恩堡分流航运业务，借此绕开那里的中间商，为自己创造更多利润。为此，他们在2460年买下帕格斯布拉特，将其更名为新埃姆斯克兰克。当地居民被迫迁出，重新安置在威廉斯科格地区，还引入殖民者来重振此地。这个卡特尔建造房屋与店铺，让城市面貌焕然一新；他们投资仓库，准备承接必然会蜂拥而至的货运；还打造了新的贸易帆船，作为舰队先锋。自然，这完全就是一场灾难。 "/>
+        <string id="Settlements.Settlement.name.village_NL3_1" text="海利希多夫"/>
+        <string id="Settlements.Settlement.text.village_NL3_1" text="海利希多夫是一个信奉玛纳恩的宗教村落。大多数村民以捕鱼为生，或是在帝国海军服役。这个村子是诺德领水手们最有力的支持者之一，为海军输送了许多兵员。 "/>
+        <string id="Settlements.Settlement.name.town_NL4" text="诺登"/>
+        <string id="e0BcV25k" text="诺登位于诺德领的德罗斯塞尔斯普勒湾最东端，实际上，它正被秘密打造成探索与征服露丝契亚的行动基地。此地还用于将囚犯运往南方之地的利奥波德海姆。诺登相较于其他港口有一项优势，它临近米登海姆 - 埃伦格拉德公路，这是一条贸易及其他出行的主要干道。直到不久前，它还是一座开放城镇，来自米登海姆、诺德领和西奥斯特领的商人，会用适合诺登周边浅沙航道的大型平底船，与利爪洋周边港口进行货物交易。但如今，这座城镇不再对外人开放。国营军的戟兵会在距离诺登数英里之外，就将货车和马车拒之门外。在萨尔兹莫拉斯的玛纳恩之冠驿站设有一个贸易站，商人们可在此交易，无需靠近城镇。 "/>
+        <string id="Settlements.Settlement.name.village_NL4_1" text="贝伦"/>
+        <string id="Settlements.Settlement.text.village_NL4_1" text="贝伦是米登海姆 - 埃伦格拉德公路沿线的一座大城镇。虽说贝伦或许并未因其所处位置直接获得经济收益，但多年来它确实避开了诺斯劫掠者的威胁，因为克莱德克利珀和萨尔兹莫拉斯成了更诱人的目标。诺登镇及其防御工事与小型舰队，对沿海劫掠起到了威慑作用。更不用说，海岸线的自然地理条件本就难以航行。他们的主要贸易商品是谷物和羊毛。 "/>
+        <string id="Settlements.Settlement.name.village_NL4_2" text="盖尔廷"/>
+        <string id="Settlements.Settlement.text.village_NL4_2" text="盖尔廷是米登海姆 - 埃伦格拉德公路上的一个贸易站，主要向路上的商队售卖克莱德克利珀渔民捕获的鱼。这里还有一家名为“哼唱的美人鱼”的风月场所，多数水手都会把辛苦挣来的钱花在这家妓院里。 "/>
+        <string id="Settlements.Settlement.name.village_NL4_3" text="克莱德克利珀"/>
+        <string id="Settlements.Settlement.text.village_NL4_3" text="克莱德克利珀是一个拥有相当大规模捕鱼船队的渔村。出生在克莱德克利珀的大多数人，要么当渔夫，要么做鱼类商人。由于克莱德克利珀所处的地理位置，他们经常成为诺斯人的劫掠目标。 "/>
+        <string id="Settlements.Settlement.name.village_NL4_4" text="萨尔兹莫拉斯"/>
+        <string id="Settlements.Settlement.text.village_NL4_4" text="萨尔兹莫拉斯因它的玛纳恩之冠驿站而闻名。这是一个大型贸易站，萨尔兹莫拉斯地区是一片遍布咸水的沼泽地。 "/>
+        <string id="Settlements.Settlement.name.town_NL5" text="哈根多夫"/>
+        <string id="PnQ2TyCr" text="哈根多夫是帝国诺德领一座规模可观的渔业城镇，坐落在港口城市迪特绍芬以西。这里是帝国海军第二舰队的母港。它还有个不怎么光彩的名声，即这里是公元2390年，“永世神选”艾查恩的出生地。哈根多夫距离诺德领的主要聚居地有一段距离，位于德姆斯特河的东岸。它是个繁忙的港口，船只在此停靠补充物资，贸易船只则采购盐、鱼、羊和羊毛。鉴于其地处偏远，哈根多夫没有太多常规贸易往来，这反倒让它成了非法生意的理想据点。 "/>
+        <string id="Settlements.Settlement.name.village_NL5_1" text="贝伦"/>
+        <string id="Gh4n9WiR" text="贝伦是德姆斯特河河畔的一个伐木村。贝伦与伊奥尼尔族关系良好。他们和精灵签订了一份协议，凭借这份协议，他们能够在劳雷尔恩森林边缘的特定区域获取木材，作为交换，他们要提供谷物。贝伦与迪特绍芬和哈根多夫这两座城市交通便捷，而这两座城市的船只都需要大量木材，所以贝伦能迅速售出自己的木材。 "/>
+        <string id="Settlements.Settlement.name.village_NL5_2" text="施拉格许格尔"/>
+        <string id="EcT7d8Eq" text="在哈根多夫以南近四十公里处，德姆斯特河西岸，坐落着废弃的施拉格许格尔村。这座村庄始建于冯·哈根费尔斯男爵祖父那一代，本意是逐步向西开拓德姆斯特河以西的土地。村庄的一大吸引人之处在于有一圈古老的石阵，那是很久以前旧信仰的追随者们所立。男爵本人是莱雅女神崇拜团体的一员，视此地为圣地，一心想要保护它，并将其彻底修复。四十户人家被迁至此地重建生活。起初，有一支卫戍部队保护村民，但平静地过了几年后，劳雷尔恩的精灵似乎容忍了这个小村落的存在。 "/>
+        <string id="Settlements.Settlement.name.village_NL5_3" text="于贝尔林根"/>
+        <string id="4cXnZk3m" text="于伯林根位于哈根多夫以东。于伯林根以训练猎犬而闻名，诺德领的许多贵族都拥有一条于伯林根猎犬。这些猎犬擅长追踪诺斯入侵者，为当地领主追踪劫掠队伍、消除威胁提供了绝佳指引。 "/>
+        <string id="Settlements.Settlement.name.castle_NL1" text="玛纳恩海姆"/>
+        <string id="9FIHe1Sw" text="玛纳恩海姆是一座帝国堡垒，坐落在诺德领德罗斯塞尔斯普勒湾的一座小岛上。这里也是海神修会修道院的所在地。堡垒配备了大量火炮，还有训练有素的诺德领水手驻守。 "/>
+        <string id="Settlements.Settlement.name.castle_village_NL1_1" text="威廉斯科格"/>
+        <string id="Settlements.Settlement.text.castle_village_NL1_1" text="威廉斯科格是一座大城市，拥有一个名为“玛纳恩之眼”的引航员公会。这些引航员都是在利爪洋航行的专家，帝国海军舰艇上总有他们的身影。引航员负责确保贸易船只安全驶入新埃姆斯克兰克港，保障贸易流通不受阻碍。得益于引航员的专业知识，当地渔民能精准知晓哪里有品质最佳的鱼群。 "/>
+        <string id="Settlements.Settlement.name.castle_village_NL1_2" text="奥克霍尔姆"/>
+        <string id="ZVAgUSiY" text="奥克霍尔姆是一个起源于诺斯卡的社群，四代人之前，长船从诺斯卡驶来。船上搭载的并非劫掠队伍，而是一整个逃离诺斯卡的诺斯坎氏族。他们并非混沌信徒，南下是为了寻求更好的生活。一开始，诺德领人对他们心存疑虑，与之保持距离。但几年过去，诺斯坎人展现出融入当地的强烈意愿，诺德领人便接纳了他们。诺德领人与诺斯坎人甚至联姻，携手建立了奥克霍尔姆村。在危难时刻，这些诺斯坎人的后裔总是愿意拿起武器，保卫自己的家园，抵御侵略者。由于诺斯坎人曾生活在艰苦环境中，人人都接受过狩猎训练。即便过了四代人，狩猎的本领依旧流淌在如今村民的血液里。 "/>
+
+		<!-- Ostland -->
+        <string id="Settlements.Settlement.name.town_OL1" text="沃尔芬堡"/>
+        <string id="vftWtpEV" text="沃尔芬堡是奥斯特领大公国的首都，也是奥斯特领最大的聚居地。它坐落在中山山脉的山脚下，是一座美丽的城市，位于基斯里夫与帝国之间陆路贸易的十字路口。高大的城墙为城市抵御着潜藏在阴影森林中的邪恶事物。在一连串无能又可疑的统治者之后，于沃尔芬堡统治奥斯特领的冯·劳科夫家族，为这片领地带来了秩序与稳定。 "/>
+        <string id="Settlements.Settlement.name.village_OL1_1" text="格鲁纳克伦"/>
+        <string id="Settlements.Settlement.text.village_OL1_1" text="格鲁纳克伦是沃尔芬堡以南、通往武尔岑道路上的一座小镇，因此，对于从塔拉贝克河上奥斯特领重要河港前往首府的行人来说，这里往往是最后一站。 "/>
+        <string id="Settlements.Settlement.name.village_OL1_2" text="梅尔贝克"/>
+        <string id="Settlements.Settlement.text.village_OL1_2" text="梅尔贝克位于沃尔芬堡正北方，在通往费尔朗根，继而通往萨尔卡尔滕的道路上。这是一个没什么名气的小村庄，除了几家招待旅客的小旅馆外，乏善可陈。据说，在中山山脉梅尔贝克以西的某个地方，有一座古老且废弃的矮人矿井。 "/>
+        <string id="Settlements.Settlement.name.village_OL1_3" text="里斯德特"/>
+        <string id="Settlements.Settlement.text.village_OL1_3" text="里斯泰特矿业村位于艾斯卡尔特河与沃尔夫河的交汇处，在伦克斯特城堡以东不远处。"/>
+        <string id="Settlements.Settlement.name.village_OL1_4" text="斯莫尔霍夫"/>
+        <string id="JXZqZcoA" text="斯莫尔霍夫这个与世隔绝的村庄，坐落在阴影森林的深处。它很不幸，经常沦为可怕且令人畏惧的“血腥号角”拉古什率领的野兽人劫掠的目标。 "/>
+        <string id="Settlements.Settlement.name.town_OL2" text="武尔岑"/>
+        <string id="9VNvWTPf" text="武尔岑是位于塔拉贝克河北岸的一座城镇（按照奥斯特领的标准，规模相当可观）。它是该省的一个重要河港，从塔拉贝克河东段活跃的贸易中获利颇丰。它也是奥斯特领与南部塔拉贝克领之间主要的渡口之一。 "/>
+        <string id="Settlements.Settlement.name.village_OL2_1" text="岑格"/>
+        <string id="Settlements.Settlement.text.village_OL2_1" text="岑格是靠近武尔岑的一个小型农业村庄，周边的耕地因塔拉贝克河的灌溉而水源充足。 "/>
+        <string id="Settlements.Settlement.name.village_OL2_2" text="多罗格"/>
+        <string id="Settlements.Settlement.text.village_OL2_2" text="多罗格是一个小型的畜牧定居点，位于武尔岑西北不远处，临近博芬公路。 "/>
+        <string id="Settlements.Settlement.name.village_OL2_3" text="祖恩达"/>
+        <string id="BsupjbKz" text="祖恩达普是北塔拉贝克的一个小型村落，作为伐木业中心而存在。这里也是高斯男爵家族世袭领地的所在地。 "/>
+        <string id="Settlements.Settlement.name.village_OL2_4" text="博芬"/>
+        <string id="KOfFPh5D" text="博芬是一个大型村庄，位于富含矿石的塞洛尼亚山脉西段。几个世纪以来，作为一块封地，它一直是各个小贵族家族争夺的对象。"/>
+        <string id="Settlements.Settlement.name.town_OL3" text="费尔朗根"/>
+        <string id="xAokYvwl" text="费尔朗根是奥斯特领中部的一座重要集镇，也是连接南部的沃尔芬堡与北部沿海港口萨尔卡尔滕路线上的一个中转站。此地的世袭统治者是贝克堡家族。它作为著名的费尔朗根火枪手团的发源地而闻名全国。 "/>
+        <string id="Settlements.Settlement.name.village_OL3_1" text="厄夸戈"/>
+        <string id="Settlements.Settlement.text.village_OL3_1" text="奥克鲁格是费尔朗根以南的一个贫穷小村庄，实际上由特劳特森家族管理，该家族是村里最大的客栈与驿站的经营者。 "/>
+        <string id="Settlements.Settlement.name.village_OL3_2" text="邓克尔普法德"/>
+        <string id="Settlements.Settlement.text.village_OL3_2" text="邓克尔普法德是位于厄贝尔施泰因正南方的一个小型矿业村。周边的矿山从中山山脉开采铅、石英和白银。 "/>
+        <string id="Settlements.Settlement.name.village_OL3_3" text="弗莱克巴"/>
+        <string id="UhO2XE05" text="弗莱克比是一个坐落在交通枢纽位置的农业村庄，它南通费尔朗根，东接博森费尔斯，北连萨尔卡尔滕。 "/>
+        <string id="Settlements.Settlement.name.village_OL3_4" text="哈塞尔洪德"/>
+        <string id="r5YVebDa" text="哈塞尔洪德是位于费尔朗根和沃尔芬堡之间的一个庙宇村，是哈塞尔洪德的莫里特教义讲解师的所在地。"/>
+        <string id="Settlements.Settlement.name.town_OL4" text="萨尔卡尔滕"/>
+        <string id="1WBOmgO5" text="萨尔卡尔滕是曾试图从玛丽恩堡分流贸易却未成功的两座城镇之一（另一座是诺德领的新埃姆斯克兰克）。2455帝国历，大亲王伊万·冯·柯尼希斯瓦尔德投入大量资金扩建萨尔卡尔滕的港口，并美化城内建筑。然而，承诺中的贸易潮并未出现，于是萨尔卡尔滕又恢复了往日的慵懒，镇民秉持典型的奥斯特领人式节俭，拆除了许多装饰性外墙与雕像，另作他用。萨尔卡尔滕在阴影森林设有伐木营地，如今其大部分产业集中在木材与渔业，不过它依旧是奥斯特领重要的海港。值得一提的是，这里是玛纳恩之子骑士团的总部所在地。 "/>
+        <string id="Settlements.Settlement.name.village_OL4_1" text="韦勃艮巴特"/>
+        <string id="Settlements.Settlement.text.village_OL4_1" text="弗博根布赫特是位于萨尔卡尔滕以东、利爪洋沿岸的一个渔村。 "/>
+        <string id="Settlements.Settlement.name.castle_OL1" text="波森菲尔"/>
+        <string id="V7pFVqRS" text="博森费尔斯，也被称为小米登海姆，是一座位于奥斯特领外部边境的堡垒城市。它建在巨大的岩石之上，下方挖有洞穴和隧道，形成了一个地下迷宫，这使得该堡垒能够储备足够的物资以抵御长期围困。"/>
+        <string id="Settlements.Settlement.name.castle_village_OL1_1" text="福格尔桑"/>
+        <string id="Settlements.Settlement.text.castle_village_OL1_1" text="福格尔桑是博森费尔斯西北方向的一个小型农业村庄，是霍亨索伦家族的世袭领地。"/>
+        <string id="Settlements.Settlement.name.castle_village_OL1_2" text="布莱克维斯"/>
+        <string id="NjMVstmR" text="比尔克维泽是一座小镇，得益于埃伦格拉德-米登海姆公路沿线的贸易而繁荣。此地是奥特贝恩男爵家族的世袭领地。 "/>
+        <string id="Settlements.Settlement.name.castle_OL2" text="伦克斯特城堡"/>
+        <string id="SmgXI3mT" text="伦克斯特城堡是一座堡垒，俯瞰着一条穿越中山山脉通往高地领的边境通道。据说，城堡所处的这片山脉曾被卡拉克·古姆祖尔最后一批矮人牧师诅咒过。这里长期驻扎着一支奥斯特领边防军。 "/>
+        <string id="UQSPJUF7" text="艾歇瓦尔岑"/>
+        <string id="9cgkyq5p" text="艾歇瓦尔岑是位于拉克特贝克河河畔的一个小村庄。它的大部分经济活动都服务于其北面的伦克斯特城堡。 "/>
+        <string id="Settlements.Settlement.name.castle_OL3" text="格伦茨堡"/>
+        <string id="zymtQyD1" text="格伦茨堡城堡镇是净化之锤西格玛教派的修道院所在地。它守卫着奥斯特领通往基斯里夫的一条主要南部道路。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OL3_1" text="范登加特"/>
+        <string id="Q4zw3ORw" text="范登加特是位于格伦茨堡以西、沿沃尔芬堡公路分布的一个小镇。其主要产业是贸易与养猪业。这里是冯·泽克特家族的世袭领地。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OL3_2" text="库斯特"/>
+        <string id="POhw8ZBI" text="库斯特是影之森林内的一个村庄，位于沃尔芬堡 - 格伦茨堡公路以北。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OL3_3" text="莱武达尔多夫"/>
+        <string id="JQLicdTj" text="莱武达尔多夫是冯·皮尔希海默男爵家族的世袭领地，是奥斯特领南部的一个大麻仓储中心。 "/>
+        <string id="LQJm4EbA" text="勒茨费尔斯"/>
+        <string id="S8h5KG3l" text="勒茨费尔斯城堡镇守卫着从奥斯特领穿过中山山脉通往高地领的西部通道。长期以来，此地一直由冯·德布雷纳贵族家族中那些坚守传统的边疆伯爵统治。 "/>
+        <string id="Settlements.Settlement.name.castle_village_OL4_1" text="奥伯斯坦"/>
+        <string id="Iii6Qaxa" text="厄贝尔施泰因是冯·厄贝尔施泰因家族的世袭领地，主要是一个木材加工中心。它位于西部的勒茨费尔斯与东北部的费尔朗根之间。 "/>
+
+	    <!-- Brass Keep-->
+  		<string id="Settlements.Settlement.name.castle_BK2" text="黄铜要塞"/>
+  		<string id="Msd6uG8m" text="黄铜要塞是一座极为古老的堡垒，事实上，它比西格玛本人的年代还要久远。没人知道是谁建造了它，只晓得它的主人几经更迭，直至近期才稳定下来。在对抗混沌的大战期间，这座堡垒遭到众多混沌军阀的围攻，他们中许多人宣誓效忠于恐虐、色孽、奸奇与纳垢。在被围攻期间，纳垢的信徒腐蚀了堡垒的地基，在要塞内引发了一场瘟疫。混沌势力最终成功夺下了这座堡垒，可随后他们就与援军断了联系，就此在堡内被宣判了死刑。这场惨烈瘟疫的唯一幸存者正是那些纳垢的信徒，如今，他们正在这座令人厌恶的城堡中悠然自得。 "/>
+		
+		<!-- Tower of Shadows -->
+  		<string id="Settlements.Settlement.name.castle_MT1" text="梅尔奇奥之塔"/>
+  		<string id="Ppnni4Mt" text="在阴影森林的深处，坐落着古老的涅克拉奇・梅尔基奥尔的塔楼。在与他昔日的学生，永生者扎卡里亚斯的战斗落败后，这座塔楼遭到了摧毁。扎卡里亚斯将塔楼据为己有后，决定重建它，并把塔楼用于研习《死灵之书》。"/>
+
+		<!-- Laurelorn -->
+		<string id="Settlements.Settlement.name.town_LL1" text="塔尔·利塔内尔"/>
+        <string id="Settlements.Settlement.text.town_LL1" text="塔尔·利塔内尔是爱诺尔木精灵国度的首都，坐落在太阳守护地，位于劳恩洛伦森林的中心。这座劳恩洛伦森林的首府，是现存极为罕见的古高等精灵建筑典范。在城墙之内，借助魔法之力，人们培育着各类奇异的果树与坚果树。几乎每栋建筑上都装饰着硕大的宝石，里面封存着已逝精灵的灵魂，它们被永久地定格，以免遭混沌吞噬。从远处看，这些灵魂宝石会捕捉光线，让整座城市熠熠生辉。那些有幸近距离目睹塔尔·利塔内尔壮丽景象的人类，给它取了个昵称——玻璃之城。 "/>
+        <string id="Settlements.Settlement.name.village_LL1_1" text="彩虹瀑布"/>
+        <string id="Settlements.Settlement.text.village_LL1_1" text="伊斯汀·瓦尔·门卢伊斯·卡伊什，凡人将其称作彩虹瀑布，它是位于太阳守护地与冰霜守护地边界处的一个小型精灵村落。瀑布之中，古老精灵魔法的粗壮方尖碑遗迹落入了水流顶端，让这瀑布融入了与附近界石相契合的全部八种魔法之风 。瓦尔的众多信徒汇聚在瀑布下方，利用这蕴含魔力的水，还有查蒙之风以及微弱形态的阿克夏之风来冷锻上乘的武器与铠甲。 "/>
+        <string id="Settlements.Settlement.name.village_LL1_2" text="祈祷之林"/>
+        <string id="Settlements.Settlement.text.village_LL1_2" text="这里有一片繁茂的落叶松与冷杉种植园，这些树木对梦境之神萨里尔而言无比神圣。塔尔·利塔内尔附近，一大片冷杉与落叶松丛林深受梦境之神萨里尔的信徒崇敬。那些人来人往的小路在界石处戛然而止，这些界石标识着树林的边缘。低垂的树枝上挂着地衣，好似帷幕，再往里则是一片浓重而不祥的黑暗。爱诺尔的朝圣者惧怕林中的精魂，宁可选择在树林周边冥想，以求获得梦中幻象。树林中央是一座破败不堪、杂草丛生的露天剧场，其历史比精灵殖民者还要久远。劳恩洛伦的女王知晓，这座露天剧场实则是一道古老者的传送门，能借由一个名为“梦幻之森”的神秘领域通往遥远的艾维隆。不过，这扇传送门已遭损坏，致使梦幻之森变得不稳定，阻断了前往艾维隆的通路。 "/>
+        <string id="Settlements.Settlement.name.village_LL1_3" text="勒宾之泉"/>
+        <string id="Settlements.Settlement.text.village_LL1_3" text="勒宾之泉是塔尔·利塔内尔附近的一个村庄。它所处位置得天独厚，坐落在一个巨大的石盆地形当中，这个石盆能够净化来自绝望山谷之外河流中的污水。这些纯净的水源让周边土地变得肥沃富饶，滋养着庄稼与树木，满足了爱诺尔族民众的需求。 "/>
+        <string id="Settlements.Settlement.name.castle_LL1" text="瑟·阿斯利之塔"/>
+        <string id="PpbAx87m" text="瑟·阿斯利之塔是一座爱诺尔瞭望塔，位于利爪海上方一处悬崖的顶端。这座建筑是爱诺尔族祖先阿苏尔文化的骄傲象征。它地势极高，能够窥探远至阿尔比恩的天气状况，还能监测南部的沉没森林，那里是变异人类的避难所。当莫尔斯利布月相渐盈时，沿海的森林会被涨潮淹没，留下一片片咸水沼泽与石化树木，为沼泽恶魔提供了适宜的栖息之所。这座塔还是帝国水手在玛丽恩堡与诺德兰之间沿海航行时的参照地标。瑟·阿斯利是凯亚·范马里斯的居所，她身为风暴守护者，也是劳恩洛伦高等议会的维卡里乌斯，荒地上的人们都称她为“风暴女巫”。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LL1_1" text="萨利林"/>
+        <string id="Settlements.Settlement.text.castle_village_LL1_1" text="萨利林是爱诺尔族的一处定居点，位于沿海岸线的劳恩洛伦森林旁的一条小路沿线。从利爪海吹来的湿润海风，为树木营造出理想的生长环境，使其长得更为茁壮，结出的果实也比平常更大。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LL1_2" text="法利塞之岩"/>
+        <string id="r4rul3SW" text="法利塞之岩是位于利爪海崎岖海岸线上的一个渔村。它是穿越劳恩洛伦森林以北道路的帝国商队的首个停靠站。生活在此处的爱诺尔人从海里获取源源不断的渔获，使得森林保持完好、未受破坏。北岸有一连串洞穴，只有在低潮时方可进入。爱诺尔人会在洞穴里向玛斯兰献上祭品。偶尔，诺斯卡劫掠者会在恶劣天气时利用这些洞穴来藏匿他们的战利品。 "/>
+        <string id="Settlements.Settlement.name.castle_LL2" text="艾索洛伦"/>
+        <string id="eYoGCrxk" text="霜之守望者过着游牧生活，以便管理公共林地，确保没有帝国人在德姆斯特河以东定居。尽管他们生性漂泊，但人们常常能在艾索洛伦附近看到他们。这座爱诺尔人的堡垒，是他们抵御诺德领不断试图为本国侵占这片领土的堡垒，同时也能防范偶尔来袭的大批绿皮和野兽人。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LL2_1" text="蔻尔·依玛摩尔"/>
+        <string id="Settlements.Settlement.text.castle_village_LL2_1" text="在塔尔·利塔内尔以东，蔻尔·依玛摩尔曾是往昔的邻城。那时，人类部落还说着晦涩难懂的喉音语言。当欺诈者马雷基斯挑起复仇之战（精灵称之为“长须之战”）时，蔻尔·依玛摩尔是劳恩洛伦地区首个沦陷的城市。如今它已破败不堪，但许多爱诺尔人依旧会前往废墟，致以敬意，缅怀在此牺牲的逝者。 "/>
+        <string id="SfKNumgV" text="艾罗斯・哈诺尔"/>
+        <string id="BqoEkOpy" text="由于迷雾丘陵和毗邻的沙登森普夫沼泽，劳恩洛伦南部终年潮湿。加伦斯特拉领主的亲族从他们位于艾索·哈诺的据点，一丝不苟地在雨之保护区展开巡逻。他们时常冒险越过北大路，前往德拉克瓦尔德森林抗击绿皮和野兽人。雨之守望者麾下的爱诺尔战士，宛如从迷雾中钻出的幽灵，庇护着疲惫的旅人。那些住在沼泽地里最为迷信的居民，会向雨之守望者献上贡品，甚至有人把他们当作神奇的超凡存在来尊崇。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LL3_1" text="拉席安"/>
+        <string id="Settlements.Settlement.text.castle_village_LL3_1" text="劳恩洛伦森林南部极度潮湿的气候，造就了一个理想的生态系统，让某些原本在这片纬度区域不会存在的树木和植物得以萌发。拉泰因村由爱诺尔人建立，他们旨在从这片森林所提供的新资源中获取益处。 "/>
+
+        <!-- Wasteland -->
+        <string id="Settlements.Settlement.name.town_WA1" text="玛丽恩堡"/>
+        <string id="spaRBcyx" text="玛丽恩堡是旧世界最伟大的人类城市之一，也可能是最富有的，能与之匹敌的仅有阿尔道夫、艾伦格拉德、米拉格利亚诺以及阿拉伯半岛最富裕的城市。玛丽恩堡坐落在瑞克河注入利爪海之处，是海上贸易进出帝国的唯一高效路线。这座城市位于一系列由桥梁和船只航道相连的岛屿之上。在南北两侧，弗洛德穆尔城墙沿海岸线而建，既能抵御洪水，又可防范来自陆地的攻击。这是一道古老的城墙，最初由精灵建造。现代的城墙在古老的精灵地基上历经数次修建与重建，玛丽恩堡的执行议会——市政总署，耗费了巨额资金对城门与堡垒进行现代化改造。抵御来自瑞克河或是马纳恩斯波特海的攻击，靠的是玛丽恩堡规模庞大的海军。仅仅一个世纪前，荒原地区还是西格玛帝国的一颗明珠，但在历任皇帝几代人的善意忽视之后，玛丽恩堡的商人和市民宣布独立。威廉三世皇帝发起了数次针对这个分离省份的远征，均以失败告终，最终在2429年通过条约承认了其独立地位。如今，玛丽恩堡由其立法机构市议会和执行委员会市政总署统治。在这种“共和制”统治下，贸易持续流经玛丽恩堡，许多人认为这座城市正处于黄金时代。它受到自身近乎难以管控的名声、形形色色的雇佣兵部队，以及瑞克河与周边沼泽湿地的庇护。即便如此，新皇帝卡尔·弗兰兹或许想要完成他高祖父未竟之事。与此同时，过去布列塔尼公爵们也曾试图将玛丽恩堡纳入自己的领地；谁又知道路易国王会不会亲自出手，去扩张库罗纳边境呢？ "/>
+        <string id="Settlements.Settlement.name.village_WA1_1" text="裤水村"/>
+        <string id="Settlements.Settlement.text.village_WA1_1" text="布罗克沃特是马纳恩斯波特海沿岸的一个贫穷社区，主要由几间破败的小屋、几家破旧的小旅馆和为数不多的几座渔家棚屋组成。它是玛丽恩堡与布列塔尼之间古老海岸道路上唯一有人居住的定居点，因此，它能存续下来，很可能只是得益于商人和旅行者的往来。也一直有传言说海盗可能把这一地区当作他们的行动基地，但官方对此既没有表态，也没有采取任何行动。 "/>
+        <string id="Settlements.Settlement.name.village_WA1_2" text="喀尔卡特"/>
+        <string id="Settlements.Settlement.text.village_WA1_2" text="卡尔卡特是位于帝国与玛丽恩堡之间道路上的一座小镇。这里的居民彻头彻尾都是荒原人，但他们对帝国及其诸神怀有一定的忠诚。尤其是西格玛教派，在此地拥有一座历史悠久且极为正统的神庙。 "/>
+        <string id="Settlements.Settlement.name.village_WA1_3" text="雷登霍文"/>
+        <string id="Settlements.Settlement.text.village_WA1_3" text="在瑞克河沿着德拉克瓦尔德森林边界流淌的河岸上，坐落着莱登霍芬小镇。这里的居民对旅行者十分友善，秉持着玛丽恩堡的风尚，当有人需要落脚之处时，他们会邀请其到家中留宿。小镇主要靠养羊维持生计，不过，从帝国前往玛丽恩堡、中途在此停留的旅行者，常常会住进河边几家客栈中的某一家。 "/>
+        <string id="Settlements.Settlement.name.village_WA1_4" text="凯尔森"/>
+        <string id="msvHGKWr" text="克莱森是位于玛丽恩堡和吉塞罗之间道路上的一个小村庄。这里的村民靠养羊获取羊毛为生，此外，还会为往返玛丽恩堡的旅人提供安全的歇脚处，以此赚取一些额外收入。 "/>
+        <string id="Settlements.Settlement.name.town_WA2" text="阿努"/>
+        <string id="1beQzNau" text="在旧北路的尽头，利爪海海岸沿线，处于荒原与诺德领、米登领的交界之处，坐落着范·布伦斯男爵领，这里是旧威斯特领最后的贵族领地。范·布伦斯男爵会对任何人宣称，阿尔瑙及其民众是荒原的守护者，不过几十年来，压根没人能确切知晓他们究竟在抵御什么。这座城市本身防御坚固，多年来多次击退诺斯卡战帮。阿尔瑙的国家部队训练有素，成员是从雇佣兵和当地民兵中选拔出来的专业军人 。由于男爵为他们提供了华丽的制服，这些士兵被嘲讽地叫作“孔雀”，但他们实则是优秀的战士，曾在附近的唐布尔唐斯地区直面过拦路强盗、不法之徒，乃至更凶残的敌手。 "/>
+        <string id="Settlements.Settlement.name.village_WA2_1" text="赫伦"/>
+        <string id="Settlements.Settlement.text.village_WA2_1" text="赫伦村坐落在利爪海海岸。据说，这个聚居地曾经是一座大城镇，但在好几个世纪前，一场诺斯卡人的劫掠几乎将一切摧毁殆尽，只留下寥寥几个零散的幸存者和一片废墟。如今，只有当地村民还会在忙碌营生、从海里捕鱼归来时，谈及这段过往。 "/>
+        <string id="Settlements.Settlement.name.village_WA2_2" text="哈斯克姆"/>
+        <string id="Settlements.Settlement.text.village_WA2_2" text="哈斯克姆普农业定居点位于唐布尔唐斯边缘。这里的居民种植蔬菜与谷物来维持生计，同时也饲养绵羊、生产羊毛，供应给附近的阿尔瑙，而且常常运往玛丽恩堡。 "/>
+        <string id="Settlements.Settlement.name.village_WA2_3" text="奥斯特沃尔德"/>
+        <string id="3oZjjO24" text="奥斯特沃尔德是位于阿尔瑙男爵领与玛丽恩堡自由市边界上的一座小镇。说实在的，这地方没什么特别值得留意之处。旅行者会发现，奥斯特沃尔德倒是能帮人区分出友善的荒原人和不友善的荒原人。北方荒原人过去遭遇过太多来自北方的恶劣劫掠者，以及来自南方和东方的骗子，所以他们不太信任陌生人。 "/>
+        <string id="Settlements.Settlement.name.castle_WA1" text="慰藉要塞"/>
+        <string id="Cb3ycQO3" text="慰藉要塞是一座设防的灯塔，位于马纳恩斯波特海对岸，与掠夺者角遥遥相望。它由玛丽恩堡的荒原进出口交易所拥有并运营，该交易所在此派驻了一名总督和一支私人卫戍部队。慰藉堡是一个相对较新的定居点，是因阿尔姆绍芬被废弃、其灯塔遭损毁才修建起来的。大多数船只如果在晚间抵达太晚，来不及驶入玛丽恩堡，就会在此停靠；但很少有船只会为了完全绕过玛丽恩堡、直接前往诺斯卡或基斯里夫而在此停留。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WA1_1" text="戈尔塞尔"/>
+        <string id="Settlements.Settlement.text.castle_village_WA1_1" text="戈尔塞尔是玛丽恩堡的荒原进出口交易所拥有的一处大型盐矿开采定居点。住在这里的所有人都是该交易所的雇员。盐矿开采极其危险，所以在矿里工作的工人都十分憔悴，许多人因为接触盐，手臂上有灼伤。戈尔塞尔是旧世界为数不多的不靠农民或奴隶劳动力进行生产的盐矿之一。虽说这里的矿工可能会抱怨薪资，但他们拿到的报酬其实相对丰厚。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WA1_2" text="玟汀税所"/>
+        <string id="qXdyuODl" text="位于劳恩洛伦森林边缘的这座收费站归荒原进出口交易所所有。其用途是对进出荒原的货物征税，因此，白天通常会有一排商人在此排队等候。众所周知，荒原的“交易所”利用在此收取的过路费，来阻止商人们绕过玛丽恩堡。 "/>
+        <string id="Settlements.Settlement.name.castle_WA2" text="博戈波要塞"/>
+        <string id="2TxUmfoK" text="博戈波要塞划分了威斯特领与巴托尼亚的边界。作为吉索雷克斯公爵与玛丽恩堡市政总署之间协议的一部分，这个收费站由威斯特领的税务官和吉索雷克斯的道路守卫共同运营。税务官和道路守卫都肩负着保障贸易安全通过吉索雷克斯峡谷以及沿着苦沼地区通行的职责，不过他们向来因不先拿到足够“报酬”就不作为而臭名昭著，这也坐实了“博戈行贿堡”这个绰号。虽说收费站算是中立地带，但要塞本身刚好位于边界靠玛丽恩堡一侧，所以这个富有的城邦在此维持着一支强大的驻军。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WA2_1" text="哈斯多夫"/>
+        <string id="rBCBAyiS" text="哈斯多夫曾经是一座重要的农业城镇，四周土地肥沃，还受塔尔神庇佑，气候宜人。然而，一天夜里，大地突然震动，沼泽吞噬了城镇的大片区域，几乎将所有农田也一并吞没。如今，哈斯多夫成了一个被遗忘的地方，生活在这里的农民目光空洞，甚至连威斯特领那些一丝不苟的税务官都把它遗忘了。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WA2_2" text="厄拉齐"/>
+        <string id="3nxkMBMf" text="在北部灰色山脉的山脚下，吉索雷克斯峡谷以南，是厄拉齐采矿定居点。这是从瑞克领经陆路前往玛丽恩堡的旅途中，人们唯一有可能驻足停留的聚居地，不过，这个村子偏离大路有一段距离，依矿道和矿坑而建。 "/>
+        <string id="Settlements.Settlement.name.castle_village_WA2_3" text="默克斯海姆"/>
+        <string id="4C1tHiPh" text="默克斯海姆是瑞克盆地一个被遗忘的角落，位于瑞克瓦尔德森林边缘。它地处偏僻，这或许就是帝国不曾争夺此地控制权的原因。正因如此，生活在这里的人们只能在这片与世隔绝的区域尽力谋生，只有税务官偶尔前来造访，才会让他们想起自己的领主远在玛丽恩堡。 "/>
+
+		<!-- Bretonnia -->
+  		<!-- Couronne -->
+		<string id="Settlements.Settlement.name.town_CO1" text="哥隆尼"/>
+        <string id="Settlements.Settlement.text.town_CO1" text="哥隆尼城堡自精灵还在如今巴托尼亚这片土地上游荡的时代起，便高高矗立着。作为权力中心所在地，其雄伟的白色城墙在阳光下闪耀，彰显着王国持久不衰的力量，见证着贵族统治者们的辉煌遗产。城堡要塞内，坐落着备受尊崇的莎莉娅大神庙，朝圣者与骑士们都会来此，祈求女神的怜悯与治愈之力。在神圣殿堂之外，城堡拥有广阔的比武场地，巴托尼亚最英勇无畏的骑士们在此展示武艺、荣誉与骑士风度，一较高下。附近矗立着古老的圣杯伙伴修道院，这是一处庄重肃穆的礼拜与纪念之所，巴托尼亚那些最伟大英雄——曾随吉勒斯·勒·巴托本人并肩作战之人——的传奇事迹在这里得到尊崇与留存。往昔岁月里，哥隆尼城堡历经多次围攻，饱受绿皮、野兽人、诺斯卡劫掠者、斯卡文鼠人和不死者的侵扰。但它扛住了所有攻击，未来也定能继续坚守。 "/>
+        <string id="Settlements.Settlement.name.village_CO1_1" text="芮内斯"/>
+        <string id="Settlements.Settlement.text.village_CO1_1" text="芮内斯以繁育强壮且速度飞快的马匹而闻名。这里是为数不多的几处贵族甘愿忍受马厩气味以及与农民共处的地方。年轻贵族们常常前来此地，为自己挑选并预定最优良的马匹。这些马匹随后会被送往哥隆尼，在那里它们将接受正规的战马训练，并与骑手建立羁绊。 "/>
+        <string id="Settlements.Settlement.name.village_CO1_2" text="瑟夫"/>
+        <string id="Settlements.Settlement.text.village_CO1_2" text="在桑内兹河附近，坐落着瑟夫耶这个不起眼的采矿村庄。健壮的驮马拖着满载铁矿石的大车，将其运往哥隆尼，以供骑士团使用。不过，获取矿石是项艰巨的工作，因为部分矿脉位于河床之下。 "/>
+        <string id="Settlements.Settlement.name.village_CO1_3" text="桑茨"/>
+        <string id="Settlements.Settlement.text.village_CO1_3" text="桑兹是桑内兹河河畔的一个小村庄。他们的马厩里养满了来自哥隆尼的最优良驮马。 "/>
+        <string id="Settlements.Settlement.name.town_CO2" text="尚蒂永"/>
+        <string id="Settlements.Settlement.text.town_CO2" text="尚蒂永是近期才建成的，但已经发展成一个热闹非凡的城镇，到处都是商人和旅行者。它起初的用途是守卫沿海道路的东侧，不过巡逻队常常兼任商队护卫。鉴于近期沿海地区时有绿皮入侵以及诺斯卡劫掠者出没，只要不妨碍巡逻队行动，商队跟着巡逻队一道行进就能更安全。 "/>
+        <string id="Settlements.Settlement.name.village_CO2_1" text="尤利斯伯戈"/>
+        <string id="Settlements.Settlement.text.village_CO2_1" text="尤利斯伯戈堡的村民靠在爪之海捕鱼为生。村庄本身十分整洁，海岸沿线建有许多造船厂。贵族们时刻监视着这个村子，因为它对玛丽恩堡人极为开放，而且村子产出的大部分食物最终都不知怎地流向了那座大城市。 "/>
+        <string id="Settlements.Settlement.name.village_CO2_2" text="安查梅斯"/>
+        <string id="Settlements.Settlement.text.village_CO2_2" text="几十年前，这个村子停止缴纳赋税，当地领主派出一小队“收税官”。骑士们本以为迎接他们的会是一群乌合之众般的反叛农民，可眼前的景象却让他们毛骨悚然。村子看似已被遗弃，但四处都是血迹。领队怀疑是兽人来袭，可财物都还留在原地，而且要是有喧闹的兽人来袭，他们肯定会有所察觉，毕竟兽人并不以潜行战术见长。在村子中央，他们目睹了一幕惨不忍睹的场景：村里所有的男人都被堆在一起，身体被打得稀烂，断骨从淤青的皮肉中戳出来。女人则不见踪影。调查陷入了僵局。唯一引人注意却很快被忽视的一点是，小队队长注意到一股浓雾朝南边飘去，那雾气仿佛有了意识一般，他发誓自己还瞧见雾里有模糊的身影。村子被清理干净，尸体被焚烧，过往历史也被抹除。如今有新的村民住在这里，对可能降临在自己身上的厄运浑然不知。 "/>
+        <string id="Settlements.Settlement.name.town_CO3" text="昂代"/>
+        <string id="PrutPtzV" text="昂代是一座大型城堡，西边与混沌之海接壤。它坐落在高高的悬崖之上，能将大海的美景一览无余。其高耸的地势让从海面来犯的攻击者几乎无机可乘，为城堡赋予了防御优势。他们把主要防御力量集中在东边，那里有一条通往城堡的狭窄小径，对任何入侵军队来说，这里就是个死亡区域。城堡的海滩上有个小型造船码头，用来打造渔船。昂代周边有大片肥沃的土地，让这座城市拥有丰富的粮食储备。凭借庞大的捕鱼船队，这里的鱼类资源也十分富足。 "/>
+        <string id="47sdMrSk" text="阿朗松"/>
+        <string id="bqiF1ea4" text="阿朗松是位于桑内兹河与混沌之海之间的一个小村庄。他们为昂代的造船码头提供了大部分木材。 "/>
+        <string id="fRfWHORI" text="卡昂"/>
+        <string id="p2MXNudZ" text="卡昂是一个位于昂代以南、博尚以北的村庄。卡昂和博尚的大多数村民都在两村之间的同一座矿场工作。 "/>
+        <string id="Settlements.Settlement.name.village_CO3_3" text="博尚"/>
+        <string id="vJSiVOnW" text="博尚是一个位于卡昂以南、朗吉耶东北方向的村庄。他们主要生产铁矿石。他们与卡昂的村民共用一座矿场，还觉得卡昂村民挖矿技术不如自己。 "/>
+        <string id="Settlements.Settlement.name.castle_CO1" text="布里洛因城堡"/>
+        <string id="vh6xzBUC" text="布里洛因城堡由布里洛因的卢库斯男爵所建。他是巴托尼亚的一位神圣圣杯骑士。卢库斯作为一名虔诚的探索骑士，声名赫赫。他踏遍旧世界的每一寸土地，找回了许多被诅咒的物品、小饰品，以及带有魔力的黑暗神器。卢库斯把这些邪恶的武器存放在哥隆尼海岸附近的一座神圣圣杯礼拜堂内，还围绕着礼拜堂修建了一座宏伟的城堡。因阻止了心怀恶念之人使用这些强大的遗物，卢库斯获圣杯认可，得以饮用圣杯中的圣水，由此跻身圣杯骑士的行列，成为在世圣人。与此同时，他作为英勇战士的事迹，远在帝国境内也传为佳话。即便男爵离世之后，仍有大批战斗朝圣者日夜守护着他的礼拜堂。 "/>
+        <string id="Settlements.Settlement.name.castle_village_CO1_1" text="考德贝克"/>
+        <string id="Settlements.Settlement.text.castle_village_CO1_1" text="在布里洛因城堡的东南方向、哥隆尼城堡以西，坐落着考德贝克这个大型伐木村。 "/>
+        <string id="Settlements.Settlement.name.castle_CO2" text="奥涅城堡"/>
+        <string id="Settlements.Settlement.text.castle_CO2" text="奥涅城堡位于哥隆尼城堡以南、灰色山脉以西。它是哥隆尼地区最南端的城堡，主要充当抵御来自灰色山脉兽人的防御壁垒。城堡配备了大量投石机与弓箭手，城墙四周布满泥泞，令攻击者举步维艰。 "/>
+        <string id="sbiNufWr" text="布鲁洛"/>
+        <string id="Settlements.Settlement.text.castle_village_CO2_1" text="布鲁洛是一个位于哥隆尼城堡以西的桥镇。这座城镇依桥而建，当哥隆尼城堡遭到来自西边的攻击时，它能充当一处易守难攻的防御据点。 "/>
+        <string id="Tfu3gdlx" text="坦克雷德城堡"/>
+        <string id="Settlements.Settlement.text.castle_CO3" text="坦克雷德城堡近期才竣工。它坐落在一座低矮却陡峭的山丘上，外墙布满了塔楼。高耸的内墙能让守军把城墙间的区域变成一片杀戮地带，而最里面的圆形主堡还建有一座高大的信号塔与瞭望塔。城堡内有一口优质水井，还储存着大量食物。若人员齐整，它足以抵御一场长达三个多月的围攻。城堡周边土地并非特别肥沃，一支现役军队恐怕没办法在此坚持那么久。 "/>
+        <string id="Settlements.Settlement.name.castle_village_CO3_1" text="亨特维尔"/>
+        <string id="Settlements.Settlement.text.castle_village_CO3_1" text="坦克雷德城堡新近才落成。它坐落于一座地势低矮却颇为陡峭的山丘之上，外墙点缀着一座座塔楼。高耸的内墙可供守军将城墙之间的区域变为一处死亡地带，而最里面的圆形主楼还建有一座高耸的信号塔与瞭望塔。城堡里有一口水质优良的水井，还囤积着大量食物。若满员驻守，它足以挺过长达三个多月的围攻。城堡周边土地并非格外肥沃，一支现役军队在此坚持那么久不太现实。  "/>
+
+        <!-- L' Anguille -->
+		<string id="Settlements.Settlement.name.town_LA1" text="勒·安古朗城堡"/>
+        <string id="Settlements.Settlement.text.town_LA1" text="勒·安古朗城堡坐落在中海那饱受风暴蹂躏的北部海岸，这里矗立着巴托尼亚的大灯塔，精灵们将其称作“托·阿莱西” 。勒·安古朗城堡是旧世界北半球所有海上贸易极为有利可图的贸易枢纽，多亏环绕公国海岸的高耸悬崖，此地防御性极强。目前，它由一个名为“灯塔兄弟会”的商业集团头目戈德马尔·菲茨戈德里克统治。由于公爵陶伯特厌恶这座城市，所以它目前处在商业集团而非公爵的掌控之下。 "/>
+        <string id="Settlements.Settlement.name.village_LA1_1" text="布雷斯特"/>
+        <string id="Settlements.Settlement.text.village_LA1_1" text="除了勒·安古朗城堡的主要港口外，布雷斯特村是整个勒·安古朗公国捕鱼量最大的地方，为城市及其周边村庄提供了充足的食物。与大多数巴托尼亚村庄相比，这个村庄算是比较富裕的，但远不及它的邻村阿讷马斯和马罗梅富裕。 "/>
+        <string id="Settlements.Settlement.name.village_LA1_2" text="阿讷马斯"/>
+        <string id="Settlements.Settlement.text.village_LA1_2" text="与它的姊妹村马罗梅一样，阿讷马斯是整个巴托尼亚较为富裕的村庄之一。实际上，这里的大多数居民被视作商人，而非普通农民。诚然，他们依旧日夜在田间辛勤劳作，但关起门来，相较于普通巴托尼亚人，他们富裕得难以估量。 "/>
+        <string id="Settlements.Settlement.name.village_LA1_3" text="马罗梅"/>
+        <string id="Settlements.Settlement.text.village_LA1_3" text="再往内陆走，过了阿讷马斯便是马罗梅村，与大多数村庄相比，它的规模颇为庞大。马罗梅拥有全巴托尼亚最大的葡萄园，将其产出的葡萄销往勒·安古朗城堡的市场，随后这些葡萄会在那里被售卖，再运往遥远的地方。 "/>
+        <string id="Settlements.Settlement.name.castle_LA1" text="戈苏迦城堡"/>
+        <string id="Settlements.Settlement.text.castle_LA1" text="这座城堡曾是公爵及其封臣们的一个小型狩猎小屋，如今已扩建成一座雄伟的堡垒，四周环绕着护城河与两道幕墙。目前，此地仅有几百名武装士兵和少数骑士驻守，不过要是勒·安古朗兵力充足的话，这座堡垒足以容纳一支大军。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LA1_1" text="科特夫拉尔"/>
+        <string id="Settlements.Settlement.text.castle_village_LA1_2" text="科特夫拉尔村位于阿登森林与阿托伊斯公国边界不远处，为勒·安古朗公国提供所有的木柴。由于其所处位置的缘故，它时常遭到野兽人战帮的劫掠，但得益于陶伯特公爵的不懈努力，这些劫掠通常能迅速被平息。 "/>
+        <string id="Settlements.Settlement.name.castle_LA2" text="塞拉克城堡"/>
+        <string id="Settlements.Settlement.text.castle_LA2" text="塞拉克城堡坐落在一座小山丘顶上，就在塞拉克村的北面。与山下的村庄相比，它更加壮丽，也更赏心悦目。这座三角形的主楼在每个角都设有瞭望塔，除了石门楼以及门楼对面一小段石墙外，四周环绕着栅栏墙。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LA2_1" text="塞拉克"/>
+        <string id="Settlements.Settlement.text.castle_village_LA2_1" text="按照勒·安古朗的标准来看，塞拉克这个小小的破败村庄非常贫穷。村里大多是些破旧的小泥屋，村民们为了讨好领主、缴纳赋税，不得不没日没夜地劳作。贵族间有传言称，一群浪荡骑士把这个贫穷的村庄当作了活动基地。  "/>
+        <string id="Settlements.Settlement.name.castle_LA3" text="桑兹城堡"/>
+        <string id="puNtqKy9" text="桑兹城堡蜷缩在沿桑兹河的哥隆尼边境处，它保护着勒·安古朗公国的东部边境，使其免受任何来自东边的威胁。不过，由于哥隆尼公国对自身边境防护极为严密，这座城堡并非刚需。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LA3_1" text="勒皮"/>
+        <string id="Settlements.Settlement.text.castle_village_LA3_1" text="勒皮村坐落在桑兹河旁一座类似火山的小山上，这里是一场小型的向湖中仙女朝圣之旅的起点，此地被称作“星之仙女之地” 。尽管农民被禁止崇拜湖中仙女，但村民们还是常常踏上前往卡尔卡松的朝圣之路。 "/>
+
+        <!-- Lyonesse -->
+        <string id="Settlements.Settlement.name.town_LY1" text="里昂尼斯堡"/>
+        <string id="qDtjIUL3" text="里昂尼斯的公爵府邸位于西北海岸外的一座岛屿之上。涨潮时，海水轻抚城堡古老的城墙，使得小船能够径直驶入外庭院。地势高耸且终年干爽的内庭院，通往坐落在岛巅的大城堡主楼，站在那儿，海湾的壮美景色可尽收眼底。公爵阿达尔哈德举办盛宴时，欢声笑语能传遍全岛，让城堡的氛围愈发活跃。退潮的时候，岛屿的轮廓好似一座小丘。一条从正门延伸出去的堤道没入大海，这契合了一则传说：里昂尼斯曾是一座被玛南的怒火击沉的宏伟城市的核心地带，唯有贤德公爵的城堡留存了下来。据说，废墟就藏在海浪之下，由怪异的生物看守守护。这座城堡坚固无比的城墙，承受住了来自被诅咒的穆西隆不死族以及黑暗精灵的多次侵袭，抵御过投石机、攻城槌，甚至连帝国海军的火炮也奈何它不得。 "/>
+        <string id="Settlements.Settlement.name.village_LY1_1" text="巴夫勒尔"/>
+        <string id="Settlements.Settlement.text.village_LY1_1" text="巴夫勒尔是坐落在里昂尼斯中部山区的一个村庄。这个村庄因其团结紧密的社群，以及年长者柳德弗尔的睿智领导而闻名。尽管柳德弗尔外表孱弱，但他备受尊敬、极有威望，周边村落的村民们遇到难题时，都会来找他裁决，因为他的评判既公正又巧妙。村庄本身靠小规模贸易繁荣发展，因其位于里昂尼斯的特殊位置，每到贸易季，各地商人纷至沓来，村里便热闹非凡。 "/>
+        <string id="Settlements.Settlement.name.village_LY1_2" text="萨布莱"/>
+        <string id="Settlements.Settlement.text.village_LY1_2" text="萨布莱村坐落在里昂尼斯的东海岸，被广袤大洋的宁静海水环绕。这个村庄以蓬勃发展的渔业而闻名，每天都有成群的渔船出海，捕捞丰富的海洋物产。萨布莱的村民都是技术娴熟的渔夫，凭借他们的专业技能，能为里昂尼斯的市场持续稳定地供应鲜鱼。 "/>
+        <string id="Settlements.Settlement.name.town_LY2" text="马特尔"/>
+        <string id="ponKhuXK" text="马特尔原本是高等精灵的一座港口城市与贸易飞地，坐落在里昂尼斯最南端的海岸线上。这座城市的建筑彰显着它的精灵渊源，优雅的尖塔、精美的雕刻，还有那超凡脱俗的美感，与传统的里昂尼斯建筑风格形成了鲜明对比。古老的托尔·马特尔城区依旧是贸易与文化的热闹汇聚地，吸引着来自巴托尼亚各地的商人和冒险家。精灵的影响在城市精心规划的布局以及建筑历久弥新的典雅气质中清晰可见。与此同时，城市里的各个集市热闹非凡，售卖着充满异域风情的商品与手工艺品，尽显其丰厚的历史底蕴。 "/>
+        <string id="Settlements.Settlement.name.village_LY2_1" text="波特萨佴"/>
+        <string id="Settlements.Settlement.text.village_LY2_1" text="索雷尔是一个以勤劳的造船工匠而闻名的村庄。此地是工匠与手艺人的集聚中心，他们制作的物件在整个巴托尼亚都颇负盛名。港口总是一片繁忙景象，渔夫和造船工人为了支撑当地经济，都在不知疲倦地劳作。 "/>
+        <string id="Settlements.Settlement.name.village_LY2_2" text="韦伦"/>
+        <string id="Settlements.Settlement.text.village_LY2_2" text="韦伦是一个以葡萄园和优质葡萄酒闻名的村庄。它坐落在连绵起伏的山丘之间，沃龙一年一度的葡萄酒节吸引着全巴托尼亚的品酒行家，共同欢庆这个村庄悠久的酿酒传统。 "/>
+        <string id="Settlements.Settlement.name.town_LY3" text="索利尔"/>
+        <string id="WgdAl7hq" text="索利尔是位于里昂尼斯西北偏远地带的一座繁华城市，以其宏伟的建筑和险要的防御地势而闻名。尽管不断遭受海盗的袭扰，索利尔依然是工匠与里昂海军的汇聚中心，拥有一个热闹的中央广场，全年都会举办各类集市、节庆及演出活动。 "/>
+        <string id="Settlements.Settlement.name.village_LY3_1" text="卡雷克富"/>
+        <string id="Settlements.Settlement.text.village_LY3_1" text="卡雷克富是一个宁静的村庄，四周环绕着繁茂的草地和奶牛养殖场。村民们以精湛的奶酪制作技艺而闻名，他们生产的高品质奶酪是里昂尼斯北部经济的重要支柱。 "/>
+        <string id="Settlements.Settlement.name.castle_LY1" text="芒丘"/>
+        <string id="Settlements.Settlement.text.castle_LY1" text="与勒·安古朗公国接壤的是芒丘，这是一座坐落在山顶的战略城堡，能俯瞰里昂尼斯北部周边的群山。该城堡是一处军事要塞，也是邻近村庄的保护象征。不过，这个地方在巴托尼亚声名狼藉，因为常有强盗、死灵法师和混沌邪教徒在此盘踞，尽管它有着重要的战略意义，但大多数里昂尼斯人都认为芒丘被诅咒了。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LYI_3" text="勒阿弗尔"/>
+        <string id="Settlements.Settlement.text.castle_village_LY1_1" text="勒阿弗尔是里昂尼斯唯一一座拥有通往混沌之海航道的港口村庄。它对海上贸易至关重要，码头上总是船只往来繁忙，它们将货物运往远方，又从异地运回各类商品，村里的村民也因精湛的航海与商业技能而闻名。 "/>
+        <string id="Settlements.Settlement.name.castle_LY2" text="西格玛海姆"/>
+        <string id="Settlements.Settlement.text.castle_LY2" text="西格玛海姆是坐落在阿登森林里的一座帝国前哨站。它是一座围绕着西格玛神庙而建的战略堡垒。据说，西格玛海姆的帝国子民一到成年，就有个传统：前往帝国游历一年，去带回一位配偶。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LY1_3" text="孔特勒穆兰"/>
+        <string id="Settlements.Settlement.text.castle_village_LY2_1" text="孔特勒穆兰位于阿登森林的西郊，是一个以肥沃土地和农业高产而闻名的村庄。村民们种植各类水果与蔬菜，这既支撑了当地经济，又为周边市场供应着新鲜农产品。 "/>
+        <string id="Settlements.Settlement.name.castle_LY3" text="奥拉·拉玫"/>
+        <string id="Settlements.Settlement.text.castle_LY3" text="奥拉·拉玫是一座小巧却坚固的城堡，坐落在里昂尼斯与曾经辉煌无比的穆席隆废墟之间。这座城堡也曾有过风光岁月，然而在贝亚德·索伦的统治下逐渐荒废，贝亚德·索伦以缺席的国王夏尔·德·拉·泰德多尔三世之名管辖这片土地。城堡的城墙虽说不算特别高，却很坚固，修建得也极为精巧，还有一根高耸的黑色尖塔，阴森地笼罩着周边的景致。尽管外观气势不凡，但自从上次遭袭过后的十年间，奥拉·拉玫的卫兵们已然变得懈怠起来。城堡远离大海的战略位置，让守军滋生出了一种虚假的安全感。 "/>
+        <string id="Settlements.Settlement.name.castle_village_LY3_1" text="迪耶普"/>
+        <string id="Settlements.Settlement.text.castle_village_LY3_1" text="迪耶普是一个以内陆畜牧场兴旺发达而闻名的村庄。该村因生产高品质羊毛和乳制品而声名远扬，这些产品会在周边市场进行交易。迪耶普的居民都是经验丰富的农民和牧民，他们不知疲倦地劳作，维持着社区的繁荣。 "/>
+
+		<!-- Gisoreux -->
+		<string id="Settlements.Settlement.name.town_GX1" text="吉索莱奥城堡"/>
+        <string id="Settlements.Settlement.text.town_GX1" text="吉索莱奥城堡坐落在一道山脊上，就在瓦伊斯河汇入格里瑟梅里河的北面。一道长达一英里的幕墙将城堡围起，城堡内有两座大型主楼以及许多其他附属建筑。公爵哈根很少在城堡或是山脚下的城中露面，因为他通常要么在库罗纳，要么在外征战，所以他的管家欣克马尔勋爵住在两座主楼中的一座里，而另一座则荒废着。城市从河岸一直延伸到城堡所在的山脊；这是个热闹的地方，来自帝国和荒原的商人比巴托尼亚其他任何城市都要多，事实上，这里可能是全世界唯一一处提起玛丽恩堡的名字，人们脑海里不会浮现出海船画面的地方。城市的大部分区域被精致的商宅街道占据，这些商宅紧挨着破旧的公寓和衰败的房屋，其中许多房屋曾经属于富裕的商人家族。在吉索莱奥，据说商人家族的财富往往只能延续一代。从其所处位置便可预料，在漫长的历史中，这座城市和城堡曾多次遭到围攻，不过公国的任何一位骑士都会立刻告诉你，它从未因英勇的骑士们而沦陷过哪怕一次。 "/>
+        <string id="Settlements.Settlement.name.village_GX1_1" text="皮埃尔拉特"/>
+        <string id="Settlements.Settlement.text.village_GX1_1" text="在吉索莱奥城堡的东北方向，离主路有一段距离的地方，是田园牧歌式的皮埃尔拉特村。这里的土地并非特别肥沃，但它的山坡与平原非常适宜牧羊人和牧民饲养他们的牲畜。 "/>
+        <string id="Settlements.Settlement.name.village_GX1_2" text="厄尔内"/>
+        <string id="Settlements.Settlement.text.village_GX1_2" text="厄尔内村就坐落在连接吉索莱奥城堡与德弗勒夫城堡的道路上。虽然这里的村民大多以饲养牲畜为生，但因其位于交通要道，无论是前往帝国方向，还是深入巴托尼亚内陆，这里都是绝佳的歇脚点。 "/>
+        <string id="Settlements.Settlement.name.town_GX2" text="欧蒙"/>
+        <string id="Settlements.Settlement.text.town_GX2" text="欧蒙是一座位于瓦伊斯河源头附近的苍白姐妹山区山腰高处的小镇。领主哈根公爵在这里并没有常住之处，所以这儿的防御工事与建筑都是农民们历经数百年居住生活逐步建造起来的。小镇是前往佛罗里达山谷小径上的唯一歇脚点，许多贵族曾试图从这儿出发，进一步在苍白姐妹山区开拓定居点。但由于冬季严寒，或是绿皮兽人侵扰，所有这些尝试都以惨败告终，因此，很久都没人再尝试开拓新的定居点了。 "/>
+        <string id="Settlements.Settlement.name.village_GX2_1" text="弗洛利德"/>
+        <string id="Settlements.Settlement.text.village_GX2_1" text="弗洛里德村坐落在佛罗里达山谷的中央。即便在山区，这里也极为难至。山谷的朝向很独特，能聚拢阳光，使得这片区域格外温暖。只有在最寒冷的冬日才会下雪，而一年中的大部分时间鲜花都在此绽放。一条溪流从村庄南面的山间潺潺流下，灌溉着山谷中的农田，而后形成壮观的瀑布，汇入下方的萨内兹河源头。山谷的土壤似乎尤其能滋养出葡萄的某种独特风味。据说这种风味需要慢慢适应才能品出其妙处，但许多爱好者仍会从五湖四海赶来品尝。 "/>
+        <string id="Settlements.Settlement.name.village_GX2_2" text="帕莱斯"/>
+        <string id="Settlements.Settlement.text.village_GX2_2" text="在通往欧蒙的山路半山腰处，沿着上瓦伊斯河坐落着帕莱斯采矿定居点。它是巴托尼亚在苍白姐妹山区仅有的三个成功定居点之一，另外两个自然是欧蒙本身以及弗洛里德。 "/>
+        <string id="Settlements.Settlement.name.castle_GX1" text="奥席隆城堡"/>
+        <string id="Settlements.Settlement.text.castle_GX1" text="奥席隆城堡坐落在山脊顶端，把守着沿着苍白姐妹山山脚通向吉索莱奥的道路。它位于阿登森林边缘，是个不起眼的地方，主要用于监视周边区域，防范野兽人战群与绿皮兽人“哇啊！”部落。在如今奥席隆城堡所处山脊再往上一点的位置，有一大片废墟。当地人说，这里曾是“奥席隆宫”，一位古代伟大的巴托尼亚国王曾在此设立宫廷。虽说你从未听说过这座宫殿，也没听过这位国王，但你很确定，这世上还有许多你不知道的事。 "/>
+        <string id="Settlements.Settlement.name.castle_village_GX1_2" text="奥西伊"/>
+        <string id="Settlements.Settlement.text.castle_village_GX1_1" text="奥西伊村坐落在奥席隆山脊与苍白姐妹山之间的山谷里。这是个静谧的地方，村民对外来者心怀恐惧，对环绕脚下的群山也满心忌惮。作为极少数能在这片山区留存下来的巴托尼亚定居点之一，它饱受过流浪者与绿皮兽人的肆虐。 "/>
+        <string id="Settlements.Settlement.name.castle_GX2" text="弗洛夫城堡"/>
+        <string id="Settlements.Settlement.text.castle_GX2" text="弗洛夫城堡把守着瑞克盆地与巴托尼亚之间的边界。它与贝格布雷斯要塞正隔着吉索莱奥峡谷相望，弗洛夫城堡及其领主弗洛夫侯爵肩负着防范走私者与不法之徒进出巴托尼亚的任务。 "/>
+        <string id="Settlements.Settlement.name.castle_village_GX2_1" text="福埃斯南"/>
+        <string id="Settlements.Settlement.text.castle_village_GX2_1" text="福埃斯南是弗洛夫城堡附近道路旁的一个小村落。大多数旅行者路过福埃斯南后，会继续前往厄尔内或者其他地方，不过村子所处的位置也能让村民们挣到些维持生计的钱，虽说还不至于发家致富。 "/>
+        <string id="bxYIoUGd" text="贝顿"/>
+        <string id="Settlements.Settlement.text.castle_village_GX2_2" text="贝顿坐落在苍白姐妹山南部的山脚下。这里的大多数人都过着典型的巴托尼亚式农耕生活，不过，也有一些农民成功地在附近山区找到了贵重金属。 "/>
+        <string id="Settlements.Settlement.name.castle_GX3" text="亚德城堡"/>
+        <string id="Settlements.Settlement.text.castle_GX3" text="在吉索莱奥城堡以南的格里瑟梅里河畔，坐落着古老的亚德城堡。很久以前它就建于此地，负责守卫往来穆西隆的沿河通道。如今，这座城堡已被纳入防疫封锁线，成为该地区的主要堡垒。 "/>
+        <string id="Settlements.Settlement.name.castle_village_GX3_1" text="邦尚"/>
+        <string id="Settlements.Settlement.text.castle_village_GX3_1" text="邦尚的村民们靠着为吉索莱奥城砍伐木材，过着平凡的日子。虽然工钱由公爵直接支付，但砍木材挣不了多少钱，尤其是考虑到邦尚面临的种种威胁，既有来自附近沼泽的，也有来自阿登森林的。"/>
+
+        <!-- Artois -->
+        <string id="Settlements.Settlement.name.town_AS1" text="阿图瓦城堡"/>
+        <string id="Settlements.Settlement.text.town_AS1" text="阿图瓦城堡是一座大型的堡垒城市，城墙之外没有任何村庄，它孤零零地屹立在阿登森林之中守望。这里是阿图瓦公国的首府，也是奇尔弗罗伊的主要行动基地，不过人们时常能看到他外出狩猎野兽人。高大的城墙之后隐藏着一座雄伟的主楼和一片宽阔的庭院，用于安置众多骑士与骑马的自耕农，正因如此，物资补给必不可少，运送物资的马车队伍几乎川流不息。 "/>
+        <string id="Settlements.Settlement.name.village_AS1_1" text="尤辛"/>
+        <string id="Settlements.Settlement.text.village_AS1_1" text="五年前，这个村子和其他村子并无二致，可怜的农民们靠着微薄的产出艰难维生，供养着他们的领主。但一切都在鼠人投毒污染水源时改变了，村子里开始出现变异，鼠人也随之发起攻击。对鼠人来说不幸的是，同样开始变异的马德雷刚爵士击退了他们的进攻。不久之后，尤辛处决了那些心智扭曲、无药可救的人，那是村子历史上黑暗的一天。如今，这个村子逐渐成了变异者与畸形人的避难所，公爵对此并不在意，因为他几乎没察觉到有什么不同。 "/>
+        <string id="Settlements.Settlement.name.village_AS1_2" text="奥德玛尔"/>
+        <string id="Settlements.Settlement.text.village_AS1_2" text="这是少数几座有围墙防护的村庄之一。村民们为村里那座宏伟的、供奉着女神的大教堂深感自豪，不过，这座教堂可不像表面看上去那么简单。在大教堂的后部，有几扇上了锁的门，由隐士骑士把守，门后存放着一本女神的圣典，只有圣杯骑士才获准瞻仰。野兽人能感知到它散发出的纯净气息，因而频繁进犯村庄。但到目前为止，它们都未能得逞，因为当地公爵常常纵马出击，将它们践踏进泥里；就算公爵没有现身，村民们也精通箭术。 "/>
+        <string id="Settlements.Settlement.name.town_AS2" text="拉莱特"/>
+        <string id="Settlements.Settlement.text.town_AS2" text="拉莱特最近才凭借近期铺设的道路获得城市地位，这些道路将拉莱特与主要贸易路线连接起来。拉莱特是个挺不错的居住地，在这里，几乎人人都能受到平等对待。道路干净整洁，建筑维护良好，犯罪率也很低。当然，拉莱特也有自己的秘密，要是城镇发展过快，穷人就会被集中起来，然后被要求离开。那些被驱逐后还在拉莱特附近徘徊的人，会被立刻处决，拉莱特的居民都尽量对这件事视而不见。 "/>
+        <string id="Settlements.Settlement.name.village_AS2_1" text="安布里库尔"/>
+        <string id="Settlements.Settlement.text.village_AS2_1" text="安布里库尔是位于拉莱特与它所毗邻的主要贸易路线之间的一个重要村庄。自从那条贯穿村庄的铺路建成以来，往来的贸易商队数量就增多了。这个村庄提供食物与住宿，为前往拉莱特的商队做好出行准备。 "/>
+        <string id="Settlements.Settlement.name.village_AS2_2" text="拉内斯特"/>
+        <string id="Settlements.Settlement.text.village_AS2_2" text="拉内斯特是一个由农民和牧民组成的大型社群，东北部有阿图瓦城堡环绕，西南部则挨着拉莱特，相对而言，村庄免受外部威胁。拉内斯特有不少过往行人，但由于村庄破败不堪，过客们很少长时间停留。 "/>
+        <string id="Settlements.Settlement.name.castle_AS1" text="阿拉斯堡"/>
+        <string id="Settlements.Settlement.text.castle_AS1" text="阿拉斯城堡曾是一座美丽的要塞城市，但一支极为强悍的野兽人军队在阿图瓦南部肆虐，并对阿拉斯发起围攻。许多建筑杰作在独眼巨人的岩石弹幕下沦为废墟，戈尔贡兽将所经之处的一切都砸成粉末，胡思兽则笨手笨脚地撞向精美的雕像。若不是当时有克洛德加爵士，这座城市恐怕早已被彻底焚毁。克洛德加爵士率队向野兽人的队列深处发起冲锋，这一冲锋极为猛烈，甚至连独眼巨人都被撞倒。屠杀与死亡的声响引来了在城中游荡的其他野兽，经过一场激战，这位骑士把它们全部杀光。城市，或者说仅存的部分，得以保全。人们在这座破败城市的废墟上修建起城堡，它至今仍守护着阿图瓦的南部地区。 "/>
+        <string id="Settlements.Settlement.name.castle_village_AS1_2" text="甘冈"/>
+        <string id="Settlements.Settlement.text.castle_village_AS1_1" text="在往昔岁月里，甘冈村曾是多次对抗绿皮、野兽人和不死者战斗的战场。如今，村庄的城墙破败不堪，守军几乎撤离殆尽，房屋也年久失修。不过，村里的小礼拜堂依旧如初建时那般宏伟，让这片地区的人们士气高昂。村民们能够自给自足，饮食也无忧。 "/>
+        <string id="Settlements.Settlement.name.castle_AS2" text="伦斯城堡"/>
+        <string id="Settlements.Settlement.text.castle_AS2" text="在阿登森林的南部，坐落着伦斯城堡，它是茫茫树海中的一座巨型堡垒。其处于森林深处的战略位置，使得众多野兽人部落都会来攻打城堡，却又必然铩羽而归。伦斯城堡的守军经验丰富且自给自足，他们从附近溪流取水，在林中狩猎野味。不过，有时城堡里的人根本没办法出城，要是碰上特别庞大的兽群围城，囤足物资就十分关键了。 "/>
+        <string id="Settlements.Settlement.name.castle_village_AS2_1" text="瓦塞尔"/>
+        <string id="Settlements.Settlement.text.castle_village_AS2_1" text="瓦塞尔的村民们总是忙碌于田间劳作、放牛牧羊、下河捕鱼或是上山打猎。每周，都会有一队骑士和自耕农来到村子，护送一辆满载食物的马车返回伦斯城堡。作为回报，伦斯城堡保障瓦塞尔村的安全。村民们深知城堡遭受攻击的频率之高，所以加倍努力，只为确保守军能吃得饱饱的，说到底也是为了保全自己。 "/>
+        <string id="Settlements.Settlement.name.castle_AS3" text="贝蒂讷堡"/>
+        <string id="Settlements.Settlement.text.castle_AS3" text="贝蒂讷城堡俯瞰着阿登森林的东部区域，此地的野兽人大多来自布雷部落，然而城堡的守军同样人手不足。有时，绿皮部落的入侵能够突破“苍白姐妹”的防线，击溃野兽人的抵抗，继而长驱直入，向西闯入人类的领地。不过，这些攻势很快就会被遏制住。经验丰富的护林员会在退回树林之前，朝着这些战帮冷不丁地放上几枪。而一旦绿皮们踏入开阔地带，迎接他们的便是长枪利刃，他们会被迅速而有效地斩杀。 "/>
+        <string id="Settlements.Settlement.name.castle_village_AS3_1" text="图尔农"/>
+        <string id="Settlements.Settlement.text.castle_village_AS3_1" text="图尔农的村民都是经验丰富的护林员，他们常常协助改变绿皮部落入侵或兽群在树林中横冲直撞的路线。村民们深知，要击败对手不一定要箭无虚发，从隐蔽处朝着大致方向射出大量箭矢，通常就能十分有效地让敌人误以为己方人数众多，从而转向其他方向逃窜，而这往往会撞入骑士的长枪之下。 "/>
+
+		<!-- Montfort -->
+		<string id="Settlements.Settlement.name.town_MO1" text="蒙特福特"/>
+        <string id="Settlements.Settlement.text.town_MO1" text="蒙特福特要塞城坐落在斧咬关的另一端。这座声名显赫的贸易中心被五层高耸的石墙环绕，以其高品质的手工艺品而闻名，其中包括钢铁武器和盔甲，这得益于它与灰山脉矮人的紧密联系。 "/>
+        <string id="Settlements.Settlement.name.village_MO1_1" text="朱伊纳德"/>
+        <string id="Settlements.Settlement.text.village_MO1_1" text="有一个小村庄坐落在通往斧咬关的巴托尼亚入口附近。朱伊纳德村是蒙特福特前方的一处小型贸易定居点。 "/>
+        <string id="Settlements.Settlement.name.village_MO1_2" text="哈什皮耶"/>
+        <string id="Settlements.Settlement.text.village_MO1_2" text="哈什皮耶小村庄位于蒙特福特城堡的河对岸，是一座小型养牛场，为蒙特福特城堡源源不断地供应肉类与兽皮。 "/>
+        <string id="Settlements.Settlement.name.village_MO1_3" text="努瓦耶"/>
+        <string id="Settlements.Settlement.text.village_MO1_3" text="努瓦耶位于斧咬关的入口处，是从关隘过来后，踏入巴托尼亚遇到的第一个地方。不幸的是，由于帝国和巴托尼亚就斧咬关归属问题不断起冲突，努瓦耶村四处都是坟墓与尸体。 "/>
+        <string id="Settlements.Settlement.name.town_MO2" text="普森"/>
+        <string id="Settlements.Settlement.text.town_MO2" text="普森城坐落在蒙特福特的西北方，位于格里瑟梅里河畔。由于临近富含金矿的灰山脉，普森的市场上常常摆满了黄金首饰与工艺品。 "/>
+        <string id="Settlements.Settlement.name.village_MO2_1" text="莱斯·沙勒姆"/>
+        <string id="Settlements.Settlement.text.village_MO2_1" text="莱斯·沙勒姆村蜷缩在格里瑟梅里河北岸，是一个小型农庄，村里大部分收成都供给给了普森城。 "/>
+        <string id="Settlements.Settlement.name.village_MO2_2" text="西罗德"/>
+        <string id="Settlements.Settlement.text.village_MO2_2" text="西罗德是一个人口稀少、不太繁荣的小村庄，在格里瑟梅里河河岸不远处，有着深厚的黏土矿层。 "/>
+        <string id="Settlements.Settlement.name.village_MO2_3" text="阿尔东"/>
+        <string id="Settlements.Settlement.text.village_MO2_3" text="在普森城东部的小片林地中，阿尔东小村庄为普森城提供木材，用于城市的诸多建设项目，还为其民兵配备弓箭。 "/>
+        <string id="Settlements.Settlement.name.castle_MO1" text="海默勒"/>
+        <string id="Settlements.Settlement.text.castle_MO1" text="海默勒城堡坐落在帕拉冯与蒙特福特的边界，沿着格里瑟梅里河而建。从南方前往蒙特福特时，这里是一处关键的防御咽喉要道。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO1_1" text="比耶尔"/>
+        <string id="Settlements.Settlement.text.castle_village_MO1_1" text="在蒙特福特以西，有个叫比耶尔的小村庄，为蒙特福特城堡的马厩供应马匹。虽说村子不大，但在巴托尼亚的马公国，马匹饲养员向来不缺。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO1_2" text="伊托伊"/>
+        <string id="Settlements.Settlement.text.castle_village_MO1_2" text="埃图瓦村的家猪为蒙特福特城堡提供了大部分的肉食与皮革。剩余的部分通常留给村子自用，或是作为商品，与那些需要此类货物的冒险者或其他村庄进行交易。由于地理位置的缘故，埃图瓦与帕拉冯的拉瓦尔小村庄关系融洽，他们时常互通货物，还会一起举办小型节庆活动。 "/>
+        <string id="Settlements.Settlement.name.castle_MO2" text="瓦伦福特城"/>
+        <string id="Settlements.Settlement.text.castle_MO2" text="瓦伦福特城堡坐落在灰山脉之中，高高矗立在群山之上，沿着河岸能眺望到很远的地方。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO2_1" text="莱索松"/>
+        <string id="Settlements.Settlement.text.castle_village_MO2_1" text="莱索松村有一个联系紧密的小村民群体，他们为蒙特福特的城市种植亚麻。尽管此地既不兴旺也不热闹，但他们的劳作并非无人关注，村庄还时常受到保护，免遭绿皮的劫掠。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO2_2" text="布尔"/>
+        <string id="Settlements.Settlement.text.castle_village_MO2_2" text="沿着一条从斧咬关流出、汇入格里瑟梅里河的小溪，坐落着一个叫布尔的小村庄。那里的居民在斧咬关隘两侧以及深入灰山脉的小型盐矿里劳作。 "/>
+        <string id="Settlements.Settlement.name.castle_MO3" text="盖特·奥卡尔"/>
+        <string id="Settlements.Settlement.text.castle_MO3" text="盖特·奥尔卡毗邻奥卡尔群山，坐落在山脚下，随时准备抵御任何来自山区的绿皮侵袭。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO3_1" text="吉列"/>
+        <string id="Settlements.Settlement.text.castle_village_MO3_1" text="吉列小村庄位于盖特·奥尔卡的正东方向，是坐落在格里瑟梅里河畔的一个小渔村。由于绿皮的劫掠愈发频繁，这个村子并不怎么兴旺。 "/>
+        <string id="Settlements.Settlement.name.castle_village_MO3_2" text="莫尔托"/>
+        <string id="Settlements.Settlement.text.castle_village_MO3_2" text="在蒙特福特，肥沃且无石块的土壤十分稀缺，这使得莫尔托，更确切地说是其土壤，对缓解饥荒至关重要。结果，莫尔托的农民被他们的同胞认为是又胖又懒。 "/>
+
+		<!-- Parravon -->
+		<string id="Settlements.Settlement.name.town_PA1" text="帕拉翁"/>
+        <string id="Settlements.Settlement.text.town_PA1" text="帕拉翁最初是精灵在很久以前建造的，主要从一座雪山上开凿出，并沿着格里斯梅里河而建。这座城市被深深的峡谷所环绕，是阻挡来自灰色山脉及其他地区的敌人到达布瑞塔尼亚中部的重要要塞。由于地理位置优越，许多矮人家族都涌向了帕拉翁。这里也是巴托尼亚唯一一个农民可以住石屋的地方。这是由于法律语言上的一个小技巧；农民们在岩石上雕刻出的房屋被视为“洞穴”，因此不在禁止之列。"/>
+        <string id="Settlements.Settlement.name.village_PA1_1" text="阿洛布罗热"/>
+        <string id="Settlements.Settlement.text.village_PA1_1" text="阿洛布罗热村因其出色的马匹饲养员而声名远扬，即便在普遍使用天马的帕拉翁地区也是如此。这个村子人口颇为可观，常有贵族与旅行者前来拜访。 "/>
+        <string id="Settlements.Settlement.name.village_PA1_2" text="让蒂安"/>
+        <string id="Settlements.Settlement.text.village_PA1_2" text="离灰山脉不远之处有个小村庄，叫让蒂安，主要专注于在灰山脉开采铁矿。因其战略意义重大，此地戒备森严、巡逻频繁，让蒂安可谓是支撑起帕拉翁经济的支柱。 "/>
+        <string id="Settlements.Settlement.name.village_PA1_3" text="戈亚尔德"/>
+        <string id="Settlements.Settlement.text.village_PA1_3" text="在灰女士关隘附近，戈亚尔德村有数量可观的村民与民兵。作为从灰女士关隘进入巴托尼亚的第一个村庄，此地极具防御性，战略意义重大。 "/>	
+        <string id="Settlements.Settlement.name.town_PA2" text="格鲁内尔"/>
+        <string id="Settlements.Settlement.text.town_PA2" text="格鲁内尔位于帕拉翁森林以北、亡者丘陵正北方以及帕拉翁城堡以东。它所处的位置使其在灰山脉山脚下拥有良好的防御态势，而亡者丘陵有助于它抵御来自南方的攻击。 "/>
+        <string id="Settlements.Settlement.name.village_PA2_1" text="克莱蒙梭"/>
+        <string id="Settlements.Settlement.text.village_PA2_1" text="克莱蒙梭是一个位于格鲁内尔城堡与艾瑟洛伦森林中间位置的村庄。 "/>
+        <string id="Settlements.Settlement.name.village_PA2_2" text="维塔尔"/>
+        <string id="Settlements.Settlement.text.village_PA2_2" text="维塔尔这个小型采矿村位于格鲁内尔城正南方向，在越过亡者丘陵之后的地方。村民们一贫如洗，并且在处境危险时，已经学会了自己照顾自己。 "/>
+        <string id="Settlements.Settlement.name.village_PA2_3" text="拉·麦松塔"/>
+        <string id="Settlements.Settlement.text.village_PA2_3" text="拉·麦松塔修道院的小回廊是众多塔尔教派僧侣的聚居地。作为拉·麦松塔神圣守卫者的大本营，这些战斗僧侣会学习作战之道，并与圣杯骑士一道踏上搜寻圣物的征途。 "/>
+        <string id="Settlements.Settlement.name.castle_PA1" text="温蒂安"/>
+        <string id="rgEJufPO" text="温蒂安城堡坐落在蒙特福特的边境，抵御着对帕拉翁北部省份的攻击，还能俯瞰格里瑟梅里河与奥卡尔群山。 "/>
+        <string id="Settlements.Settlement.name.castle_village_PA1_1" text="拉瓦尔"/>
+        <string id="Settlements.Settlement.text.castle_village_PA1_1" text="在帕拉翁西部，靠近蒙特福特边境的地方，拉瓦尔与其邻村埃托伊关系紧密。它们经常互通货物，比如用原材料交换皮革与兽皮。在百合节期间，这两个村庄会举办许多婚礼，还会举行一场小型庆典。 "/>
+        <string id="Settlements.Settlement.name.castle_village_PA1_2" text="塔巴内"/>
+        <string id="Settlements.Settlement.text.castle_village_PA1_2" text="塔巴内是一个小型军事化村庄，温蒂安城堡的大部分民兵卫队都驻扎于此。尽管这个村子以种植小麦为主业，但村民和卫兵都会誓死保卫自己的家园。 "/>
+        <string id="6xHv2u0Q" text="查博内城堡"/>
+        <string id="S8MfBBW7" text="查博内城堡把守着帕拉翁与屈内莱之间的南部边界，是抵御巴托尼亚南部侵袭的第一道防线。 "/>
+        <string id="WVfqLu1f" text="勒塞夫"/>
+        <string id="8QiNc09t" text="在帕拉翁城堡的西南方坐落着勒塞夫尔村，此地蕴藏着大量木材。由于帕拉翁城堡需要煤炭来为铁匠铺提供燃料，以生产武器和盔甲，勒塞夫尔村因而十分富有。 "/>
+        <string id="Settlements.Settlement.name.castle_village_PA2_2" text="伊米利翁"/>
+        <string id="udlKniy3" text="伊米利翁小村庄正位于帕拉翁城堡的视野范围内，紧挨着格里瑟梅里河。伊米利翁是一个联系紧密的小社区，靠着向其他村庄以及帕拉翁城堡贩卖鱼类和食物维持生计。 "/>
+  
+		<!-- Bastonne 巴斯托涅公国-->
+		<string id="Settlements.Settlement.name.town_BA1" text="巴斯托涅城堡"/>
+  		<string id="Settlements.Settlement.text.town_BA1" text="位于巴斯托涅中心地带的巴斯托涅城堡及其周边村庄，有诸多迹象表明此地的创建者是首任国王吉尔斯·勒·巴托尼亚，也就是“统一者”吉尔斯。巴斯托涅城堡本身几乎一直是圣杯骑士，或是所有希望瞻仰吉尔斯·勒·巴托尼亚功绩的人的朝圣之地。 "/>
+  		<string id="Settlements.Settlement.name.village_BA1_1" text="圣艾蒂安"/>
+  		<string id="Settlements.Settlement.text.village_BA1_1" text="圣艾蒂安位于巴斯托涅正东方向，监视着巴斯托涅与蒙特福特的东部边界。在广袤的翠绿田野间，巴斯托涅的矮种马自由繁衍，还与许多巴斯托涅人亲密互动。事实上，它们甚至聪慧到能意识到，自己为人们抵御奥卡尔群山众多生物与怪物的侵扰，提供了诸多保护。 "/>
+  		<string id="Settlements.Settlement.name.village_BA1_2" text="维希"/>
+  		<string id="Settlements.Settlement.text.village_BA1_2" text="维希这个小定居点位于奥卡尔群山以北，不断遭受绿皮和怪异鼠形类人兽的劫掠。实际上，过去村里的长者曾被迫与这些怪异的鼠形类人兽“合作”，以免村庄被毁。这里的农民十分坚韧，承受过诸多创伤。 "/>
+  		<string id="Settlements.Settlement.name.village_BA1_3" text="奥里亚克"/>
+  		<string id="Settlements.Settlement.text.village_BA1_3" text="在奥里亚克葱郁的绿野上，当地农民靠着贩卖大量牛皮与牛肉维持生计。实际上，在缴纳完众多什一税之后，奥里亚克所剩无几，几乎没什么利润可言，主要依靠集体农耕才得以存活。 "/>
+        <string id="Settlements.Settlement.name.town_BA2" text="索德"/>
+        <string id="Settlements.Settlement.text.town_BA2" text="在巴斯托涅北部的格里瑟梅里河畔，靠近蒙特福特边境处，坐落着小城索德。索德位于巴托尼亚的中心地带，这里的集市常常摆满了来自巴托尼亚各地的琳琅满目的货物，甚至还有来自帝国以及洛伦森林木精灵的外国商品。由于离蒙特福特很近，两地关系颇为紧张，很久以前，这两个公国之间就爆发过多次边境战争。 "/>
+        <string id="Settlements.Settlement.name.village_BA2_1" text="克莱蒙-费朗"/>
+        <string id="Settlements.Settlement.text.village_BA2_1" text="克莱蒙 - 费朗是一个位于格里瑟梅里河畔的小渔村，与蒙特福特边境隔河相对。由于村里的鱼并非大宗出口物资，所以这个村子的规模相当小。 "/>
+        <string id="Settlements.Settlement.name.village_BA2_2" text="伊苏瓦尔"/>
+        <string id="Settlements.Settlement.text.village_BA2_2" text="伊苏瓦尔位于巴斯托涅北部，是一个以农耕为主的聚居地，有一些小住所，可供路过的冒险者或前往巴斯托涅城堡的朝圣者歇脚。 "/>
+        <string id="Settlements.Settlement.name.village_BA2_3" text="蒂耶尔"/>
+        <string id="Settlements.Settlement.text.village_BA2_3" text="蒂耶尔位于巴斯托涅的最北端，坐落在吉瑟鲁边境上。它是一个小型贸易枢纽，常有许多来自吉瑟鲁公国的商队到访，但近来由于来自阿登森林的可怕兽人劫掠，蒂耶尔运气不佳，日子颇为艰难。 "/>
+        <string id="Settlements.Settlement.name.castle_BA1" text="加拉蒙城堡"/>
+        <string id="Settlements.Settlement.text.castle_BA1" text="加拉蒙城堡守卫着巴斯托涅的南部边界，与波尔德罗的西部边界相望，严密监视着沙隆森林以及奥卡尔群山山脚下的动静。这座城堡的守军击退过许多绿皮入侵者。 "/>
+        <string id="Settlements.Settlement.name.castle_village_BA1_1" text="安贝尔"/>
+        <string id="4unV6y1q" text="过去，来自奥卡尔群山的绿皮掠夺者多次洗劫、劫掠并焚毁了昂贝尔。加拉蒙的卡拉德派遣了许多家庭重新在昂贝尔定居，徒劳地期望这个村庄能继续从沙隆森林采伐木材。 "/>
+        <string id="Settlements.Settlement.name.castle_village_BA1_2" text="蒙吕松"/>
+        <string id="Settlements.Settlement.text.castle_village_BA1_2" text="与它那倒霉的邻居昂贝尔相反，蒙吕松是一个繁荣的村庄，村里培育的大多数马匹都供应给了加拉蒙城堡的马厩，其余的则直接送往巴斯托涅城堡。此地受到卡拉德的妥善保护，一些村民还冒险前往昂贝尔重新开拓那里。 "/>
+        <string id="Settlements.Settlement.name.castle_BA2" text="桑加斯城堡"/>
+        <string id="Settlements.Settlement.text.castle_BA2" text="位于吉索雷克斯边境前方不远处的桑加斯堡垒，是抵御任何妄图从阿登森林闯出的怪物与生物的前哨。事实上，驻守在此的骑士守军已经多次击退兽人的劫掠。 "/>
+        <string id="Settlements.Settlement.name.castle_village_BA2_1" text="屈塞"/>
+        <string id="Settlements.Settlement.text.castle_village_BA2_1" text="在桑加斯城堡的防御工事后面，库塞特在格里梅西尔河岸边藏有一个小盐矿。它的大部分盐都直接供应给巴斯通城堡的厨房和仓库。"/>
+        <string id="Settlements.Settlement.name.castle_village_BA2_2" text="沙泰勒吉永"/>
+        <string id="Settlements.Settlement.text.castle_village_BA2_2" text="沙泰勒吉永是一个小型农业社区，建在一座小城堡的旧遗址内，从其田野中收获亚麻。由于位置的原因，这些田野充满活力，出产大量的丝绸。许多居民认为，为了带来大丰收，沙泰勒吉永的田野上曾经发生过伟大的战役。"/>
+        <string id="Settlements.Settlement.name.castle_BA3" text="里翁"/>
+        <string id="m8UzI8Ck" text="在格里梅西尔河上，与被诅咒的穆西隆城隔河相望的地方，里奥姆城堡屹立不倒，直接面对着许多人担心会困扰布列塔尼的不死生物。驻扎在里奥姆城堡的许多民兵都听到过从河对岸传来的可怕噪音。"/>
+        <string id="Settlements.Settlement.name.castle_village_BA3_1" text="拉普斯"/>
+        <string id="Settlements.Settlement.text.castle_village_BA3_1" text="拉普斯村是一群坚毅的男女的家园，几个世纪以来，他们一直为保卫家园而与穆西隆的危险作斗争。许多拉普斯居民自愿请求在他们的保护者卢卡・卢普手下工作，这样他们就可以向那些把穆西隆称为家园的憔悴实体发起战斗。"/>
+        <string id="Settlements.Settlement.name.castle_village_BA3_2" text="阿尔代"/>
+        <string id="Settlements.Settlement.text.castle_village_BA3_2" text="在恐怖的穆席隆城正东方向便是阿尔德。这个小村庄一直是强盗、路匪甚至邪教徒多次劫掠的目标。它靠近穆席隆，这使得它一直是穆席隆那笼罩在阴云迷雾中的恐怖之物唾手可得的猎物。"/>
+
+        <!-- Bordeleaux -->
+        <string id="Settlements.Settlement.name.town_BL1" text="波尔德罗城堡"/>
+        <string id="Settlements.Settlement.text.town_BL1" text="波尔德罗的要塞城市建立在古老的石工基础上，也许是巴托尼亚最重要的港口，只有里昂能与之匹敌。波尔德罗城堡坐落在悬崖上，高于港口，可以俯瞰整个庞大的城市和附近的海上交通。据说，城墙上的器械和熟练的工程师能够击沉一艘停泊的划艇，而不会损坏两侧的船只。这座城市是该王国两个主要圣地的所在地，波尔德罗城堡的第一礼拜堂，是王国中最神圣的圣杯礼拜堂；还有玛纳恩神庙，有人说它甚至可以与玛丽恩堡的神庙相媲美。"/>
+		<string id="Settlements.Settlement.name.village_BL2_1" text="帕斯内"/>
+        <string id="Settlements.Settlement.text.village_BL1_1" text="就在大洋海岸边，有一个叫圣瑞尼安的村庄。圣瑞尼安是以一位很久以前保护该地区农民免受神秘海魔侵害的圣杯骑士命名的。这里的农民继续依靠玛纳恩为生，不过许多游客注意到，他们似乎总是一只眼睛盯着水汪汪的地平线。"/>
+        <string id="Settlements.Settlement.name.village_BL1_2" text="艾格尔"/>
+        <string id="Settlements.Settlement.text.village_BL1_2" text="艾格尔坐落在蒂雷恩和波尔德罗之间的道路上。艾格尔是一个田园诗般的地方，这里的农民在大多数年份都看起来很满足，粮食通常也很丰富。"/>
+        <string id="Pkryzytr" text="尼奥尔"/>
+        <string id="Settlements.Settlement.text.village_BL1_3" text="尼奥尔周边地区以其葡萄园而闻名。这里出产的水果酿成了美味的红葡萄酒，深受巴托尼亚各地许多贵族的喜爱。"/>
+        <string id="Settlements.Settlement.name.town_BL2" text="蒂雷恩"/>
+        <string id="Settlements.Settlement.text.town_BL2" text="蒂雷恩的农民城镇，虽不起眼，但也不容轻视。这里的人们在公爵的保护下生活，大多数人以城镇周围的田地为生，但也有一些农民在城镇广场附近从事手艺或贸易。蒂雷恩依赖波尔德罗的剩余资源，需要简单歇脚的商人通常可以在这里找到更便宜的房间和物资。"/>
+        <string id="Settlements.Settlement.name.village_BL2_1" text="帕尔特奈"/>
+        <string id="Settlements.Settlement.text.village_BL2_1" text="帕尔特奈这个与世隔绝的村庄被岩石峭壁环绕，坐落在一座小山上，可以俯瞰博尔德伦的土地，以及格里梅西耶河对岸的穆西隆。这里的人们从下面的海滩上把盐拖上来，打包，然后送到他们南边的蒂雷恩。"/>
+        <string id="Settlements.Settlement.name.village_BL2_2" text="昂格莱"/>
+        <string id="Settlements.Settlement.text.village_BL2_2" text="昂格莱的人民以培育出奥卡尔山脉这一侧最好的骑乘牲畜而自豪。每年，农民们都会把各种各样的牛群聚集起来，赶到波尔德罗的市场上去。"/>
+        <string id="Settlements.Settlement.name.village_BL2_3" text="鲁瓦扬"/>
+        <string id="Settlements.Settlement.text.village_BL2_3" text="鲁瓦扬位于一个又低又宽的沟壑中，免受不断吹过波尔德罗沿海平原的风的侵袭。这个洼地也为抵御诺斯坎掠夺者提供了一些庇护，他们经常从海上看不到它。"/>
+        <string id="Settlements.Settlement.name.castle_BL1" text="蒂里斯·维吉朗"/>
+        <string id="w3cspBAU" text="蒂里斯·维吉朗，这座警戒之塔，是巴托尼亚维伦娜崇拜的中心。除了一座大型神庙，该教派还维护着一座被公认为世界上最可靠的大灯塔。维伦娜的祭司们经常为那些寻求他们建议的人提供建议，并因其所带来的益处而享有声誉。该教派与波尔德罗公国对监视其北部的诅咒之地有着共同的兴趣，因此公爵在此设立了一个卫戍部队，防御工事也一直得到维护。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL1_1" text="达格兰"/>
+        <string id="Settlements.Settlement.text.castle_village_BL1_1" text="达格兰是一个小农耕村庄，为附近的维伦娜神庙提供大部分食物。这里种植的水果以其耐寒性而闻名，还可以酿成相当不错的葡萄酒。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL1_2" text="达朗斯"/>
+        <string id="Settlements.Settlement.text.castle_village_BL1_2" text="游入格里梅西耶河半咸水区的鱼以其硕大的体型和鲜美的味道而闻名。实际上，许多当地贵族认为，农民之所以继续居住在塔朗斯，仅仅是因为这里的鱼，毕竟此地离被诅咒的穆席隆沼泽实在太近了，他们并不喜欢。格里梅西耶河半咸水区的鱼以其体型和味道而闻名。实际上，许多当地贵族认为这是农民继续居住在塔朗斯的唯一原因，因为对他们来说，这里离被诅咒的穆西隆沼泽太近了。"/>
+        <string id="Settlements.Settlement.name.castle_BL2" text="圣让德吕兹堡"/>
+        <string id="Settlements.Settlement.text.castle_BL2" text="一座小型城堡，建立的目的是为了监视波尔德伦东部的农场和林地。它以一位早已去世的贵族命名，这位贵族曾在城堡现在所在的地方阻止了来自奥卡尔山脉的兽人督军。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL2_1" text="贝尔韦斯"/>
+        <string id="Settlements.Settlement.text.castle_village_BL2_1" text="在起伏的平原中央是贝尔韦斯村。贝尔韦斯的农民在波尔德罗是最……土气的。他们的领主很少来这里，而自耕农税吏往往是多年来唯一的访客。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL2_2" text="萨雷"/>
+        <string id="Settlements.Settlement.text.castle_village_BL2_2" text="萨雷骏马是任何骑士、自耕农或旅行者都可信赖的坐骑。这里的人们以生产最高质量的骏马而自豪，当然结果是他们每个季节只生产几匹。"/>
+        <string id="Settlements.Settlement.name.castle_BL3" text="甘塞特城堡"/>
+        <string id="Settlements.Settlement.text.castle_BL3" text="甘塞特城堡坐落在沙隆森林的边缘。沙隆是个危险而诡异的地方，黑暗的树木耸立在深深的峡谷、巨石和裂口之上。然而，不要被其外表所迷惑，这里也有它的美丽之处，甜美的凉爽溪流、瀑布以及平静的水池点缀在灌木丛中。据说，女士真正的圣湖就隐藏在这片森林的某个角落。由于这片土地的特殊性质，经常有野兽人、绿皮和更可怕的生物在此安家，因此甘塞特城堡时刻保持警惕，防范着入侵。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL3_1" text="蒙帕齐耶"/>
+        <string id="Settlements.Settlement.text.castle_village_BL3_1" text="深入沙隆森林砍伐木材的蒙帕齐耶樵夫，是整个波尔德伦最勇敢的农民之一。他们的日常工作几乎使他们不断地与野兽人和其他邪恶的怪物接触。"/>
+        <string id="Settlements.Settlement.name.castle_village_BL3_2" text="利穆伊"/>
+        <string id="Settlements.Settlement.text.castle_village_BL3_2" text="利穆伊的农民冒险进入奥卡尔山脉的外围峭壁，寻找粘土坑的位置。他们带回了大量的粘土，同时也讲述了他们在山脚下遇到的事情。当地领主不止一次认为有必要派遣武装人员进入山麓。他们在那里与什么战斗，大多数人都不知道。"/>
+
+        <!-- Brionne -->
+		<string id="Settlements.Settlement.name.town_BE1" text="布理奥涅城堡"/>
+        <string id="Settlements.Settlement.text.town_BE1" text="巴托尼亚人相信，这座巴托尼亚的明珠是用当地的白石和海湾的优质沙子建成的一座非凡城市，这也是布理奥涅闻名遐迩的原因之一。由于地理位置优越，这座城市防御严密，孤零零的塔楼守卫着这片土地，只需少量守军就能抵挡整支军队。吟游诗人大厅是布理奥涅最重要的建筑，许多吟游诗人，或未来的吟游诗人都在这里磨练技艺。大厅周围有一个大花园，战时可利用此地大量杀伤敌军，消灭入侵者。它是一个美丽的圆形建筑，由抛光的白色石头砌成，内部是一个拥有完美音响效果的礼堂，不论何时，吟游诗人都可以在这里放声歌唱。"/>
+        <string id="Settlements.Settlement.name.village_BE1_1" text="卢尔德"/>
+        <string id="Settlements.Settlement.text.village_BE1_1" text="在大洋海岸，卢尔德村作为一个渔村勉强维持着生计。他们将“新鲜”的鱼直接送到布理奥涅城堡。"/>
+        <string id="Settlements.Settlement.name.village_BE1_2" text="图尔讷弗耶"/>
+        <string id="Settlements.Settlement.text.village_BE1_2" text="图尔内弗耶尔村，是布理奥涅城堡前布列讷河上的最后一个定居点。这里的村民照顾着大量的牛群，为公国提供了大部分所需的肉类。"/>
+        <string id="Settlements.Settlement.name.village_BE1_3" text="博凯尔"/>
+        <string id="Settlements.Settlement.text.village_BE1_3" text="博凯尔是布理奥涅附近一个中等富裕的农业村庄，它是周围村庄和布理奥涅之间的十字路口，因此交通量相当可观。由于当地的收费站，这个村庄比其他村庄稍微繁荣一些，但仍然同样破败。"/>
+        <string id="CC7h0Mhq" text="边境城堡"/>
+        <string id="pCJHBnIN" text="在过去的岁月里，这里曾多次遭受来自诺斯卡的围攻。自从无畏的阿拉伦协助抵御比约恩·铁眉及其雇佣军大军以来，对布理奥涅的袭击频率已经显著下降。由于其战略位置，边境城堡拥有许多来自十字军东征的遗物。"/>
+        <string id="Settlements.Settlement.name.village_BE2_1" text="吕内尔"/>
+        <string id="Settlements.Settlement.text.village_BE2_1" text="吕内尔村有许多旅行者经过，因为它靠近连接着卡尔卡松的桥梁，这些旅行者中有冒险的骑士，也有商人。因此，这个村庄比其他村庄受到更多的关照，路过的贵族们至少还能勉强忍受看它一眼。"/>
+        <string id="AFCQroOU" text="加亚克"/>
+        <string id="Settlements.Settlement.text.village_BE2_2" text="加亚克地处偏远，鲜有人至，但商队经常离开此地，将农作物运往边境城堡。加亚克是布理奥涅最大的粮食产地之一。加亚克这个偏僻的地方，由于远离主要道路，常常被人忽视。这个村庄是商队的繁忙枢纽，他们将农作物运往边境城堡。加亚克在布理奥涅的粮食生产中起着至关重要的作用。"/>
+        <string id="xqL0glyi" text="沃韦尔"/>
+        <string id="DJOI1X5R" text="沃韦尔村的田地里排满了葡萄藤。由于附近有淡水，葡萄多汁且味道浓郁；虽然它无法与波尔多的葡萄酒竞争，但仍然能满足当地贵族的口渴。"/>
+        <string id="X3u9dF3t" text="格朗塞特城堡"/>
+        <string id="Tw7CJ4AD" text="格朗塞特城堡，在过去的岁月里曾发生过一场巨大的悲剧，一场足以谱写进任何歌曲的悲剧。伊索尔德夫人将骑士加瑟里克爵士视为她的情人，但不幸的是，她的丈夫并不想成为一个多余的丈夫。他将伊索尔德夫人锁在她的塔楼里，并向加瑟里克爵士发起决斗挑战。加瑟里克爵士同意了，但条件是在庭院中进行，以便让伊索尔德夫人观看。然而，决斗并未发生，因为就在两位骑士即将交锋之时，一群僵尸袭击了他们。据说这群僵尸被一群冒险者击败了，但他们再也没有回来，派去调查的任何队伍也都没有回来。当地的公爵，格朗塞特勋爵唯一的在世亲属，在对城堡进行了大规模清理后入住了这里。尽管如此，城堡的工作人员报告说城堡仍然闹鬼，能听到角落里的脚步声和呻吟声。甚至有场地管理员报告说，在一个决定性的夜晚，他看到了加瑟里克爵士和格朗塞特勋爵的幽灵在互相决斗，仍然在为他们失去已久的爱情而战。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE1_1" text="芒德"/>
+        <string id="Settlements.Settlement.text.castle_village_BE1_1" text="这是北部边境的一个有点沉闷的村庄。当格朗塞特城堡被僵尸围困时，许多逃亡的人逃到了芒德，还拖着几只僵尸。攻击被击退了，但它在村庄留下了印记；房屋比平时更加破败和荒凉，空气中仍然弥漫着淡淡的死亡气息。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE1_2" text="科利乌尔"/>
+        <string id="Settlements.Settlement.text.castle_village_BE1_2" text="当地贵族更热衷于访问科利乌尔，因为他们为布理奥涅提供大部分用于烹饪的橄榄。这就是为什么在需要的时候，这个村庄会得到更坚定的保护。"/>
+        <string id="DavxCpzt" text="奥瑟格尔城堡"/>
+        <string id="s5mHCCHf" text="奥瑟格尔城堡与其说是一座单纯的堡垒，不如说是一所巨大的医院。在城堡内，贵族们接受莎莉娅女祭司的最佳治疗；而在城堡外，农民们则恳求众多涌向该地区的智者和治疗者。一些人抱怨在露天接受治疗，但许多从业者认为这种分离保护了他们的贵族客户，并驱散了农民带来的更恶劣的瘴气。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE2_1" text="富瓦"/>
+        <string id="Settlements.Settlement.text.castle_village_BE2_1" text="当地羊群的咩咩叫声在白天淹没了大部分噪音，富瓦向奥瑟格尔城堡输送大量棉花，用于制作绷带和清洁材料。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE2_2" text="科洛米耶"/>
+        <string id="Settlements.Settlement.text.castle_village_BE2_2" text="坐落在起伏的丘陵和葱郁的田野之间的是科洛米耶，这里的空气中总是弥漫着草药的香气。这个村庄风景如画，一排排整齐的草药在温暖的阳光下茁壮成长。村民们对他们的手艺感到非常自豪，精心照料着他们的植物，充满了爱和关怀。"/>
+        <string id="Settlements.Settlement.name.castle_BE3" text="波尔特城堡"/>
+        <string id="Settlements.Settlement.text.castle_BE3" text="这座城堡也被称为玻璃城堡，以其令人惊叹的彩色玻璃窗而闻名，它是布列塔尼建筑宏伟和艺术精湛的见证。城堡散发着迷人的气息，吸引了来自布列塔尼各地的众多游客。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE3_1" text="比耶尔"/>
+        <string id="Settlements.Settlement.text.castle_village_BE3_1" text="比耶尔村被田野和牧场环绕，远处是波尔特城堡，它不断提醒着统治当地人生活的封建制度。村民们勤劳而坚韧，依靠土地和他们世世代代磨练的手艺谋生。"/>
+        <string id="Settlements.Settlement.name.castle_village_BE3_2" text="萨韦尔东"/>
+        <string id="Settlements.Settlement.text.castle_village_BE3_2" text="萨韦尔东村尘土飞扬，热闹非凡，街道狭窄，建筑拥挤。尽管他们的工作艰辛且常常充满危险，但这些村民组成了一个紧密团结的社区，他们有着共同的目标和对土地的深深敬意。他们知晓粘土的奥秘，懂得如何塑造它，并能找到最佳的矿脉进行开采。"/>
+
+        <!-- Aquitaine -->
+        <string id="Settlements.Settlement.name.town_AQ1" text="阿奎坦城堡"/>
+        <string id="Settlements.Settlement.text.town_AQ1" text="阿奎坦位于公国的西南部，是其尊贵的首都。雄伟的公爵城堡是城市景观的主体，它是该地区宏伟壮丽的见证。城堡以其非凡的花边塔而闻名，高耸的塔尖上雕刻着无数精致的花窗，宛如精美的石制花海。"/>
+        <string id="Settlements.Settlement.name.village_AQ1_1" text="巴约讷"/>
+        <string id="Settlements.Settlement.text.village_AQ1_1" text="坐落在阿奎坦城堡的阴影下，巴约讷村散发着魅力与宁静。它被郁郁葱葱的草地环绕，是这个已经宁静的公国中较为平和的村庄之一。"/>
+        <string id="Settlements.Settlement.name.village_AQ1_2" text="波城"/>
+        <string id="Settlements.Settlement.text.village_AQ1_2" text="波城位于阿奎坦城堡的东部。它被充满生机的动植物环绕，是一个相当小的村落，有着古雅的村舍和一条宁静的小溪蜿蜒穿过中心。"/>
+        <string id="Settlements.Settlement.name.village_AQ1_3" text="阿斯帕伦"/>
+        <string id="Settlements.Settlement.text.village_AQ1_3" text="以技艺精湛的织布工而闻名的阿斯帕伦，依靠其充满活力的市场繁荣发展，他们的劳动成果在那里被热情地交易。农民们坚韧而机智，从他们紧密团结的社区和附近城堡的保护中汲取力量。"/>
+        <string id="Settlements.Settlement.name.town_AQ2" text="剑堡"/>
+        <string id="Settlements.Settlement.text.town_AQ2" text="作为阿奎坦防御工事的巅峰，剑堡是一座令人敬畏的城堡，位于巴托尼亚边境附近。这座城堡的起源可以追溯到德佩勋爵的曾祖父，他是一位传奇的冒险骑士，以参与众多争斗和英勇事迹而闻名，这对于阿奎坦人来说并不罕见。利用他积累的财富，他建造了这座坚固的堡垒，在未来的几十年里，它将抵御所有来犯之敌。"/>
+        <string id="Settlements.Settlement.name.village_AQ2_1" text="德勒凡"/>
+        <string id="Settlements.Settlement.text.village_AQ2_1" text="德勒凡位于阿奎坦领地的最北部边缘，其北部靠近沙隆森林。这个村庄曾经繁荣的人口已经减少，它的房屋和街道上显示出过去争斗的伤痕。"/>
+        <string id="Settlements.Settlement.name.village_AQ2_2" text="佩萨克"/>
+        <string id="Settlements.Settlement.text.village_AQ2_2" text="佩萨克之所以能在地图上留下印记，是有原因的；它的白葡萄酒年份很受欢迎。佩萨克葡萄酒是阿奎坦最好的葡萄酒之一，因其清淡、清脆的口感和顺滑的底蕴而备受珍视。"/>
+        <string id="Settlements.Settlement.name.village_AQ2_3" text="阿让"/>
+        <string id="Settlements.Settlement.text.village_AQ2_3" text="阿让是农业韧性的堡垒，自豪地成为这片本就肥沃地区中最肥沃的村庄之一。其肥沃的农田产出丰富的谷物，为整个公国提供了食物。勤劳的农民们辛勤劳作，继续为阿奎坦饥饿的人民提供食物。"/>
+        <string id="Settlements.Settlement.name.castle_AQ1" text="利布尔讷城堡"/>
+        <string id="Settlements.Settlement.text.castle_AQ1" text="利布尔讷城堡坐落在阿奎坦的农田之中，是优雅和精致的堡垒。它位于起伏的山丘和翠绿的草地之间，这座风景如画的城堡散发着宁静与优雅的气息，体现了公国相对和平的特点。"/>
+        <string id="Settlements.Settlement.name.castle_village_AQ1_1" text="内拉克"/>
+        <string id="Settlements.Settlement.text.castle_village_AQ1_1" text="以其广阔的葡萄园而闻名，内拉克曾经是葡萄酒酿造的中心，但现在其剩余居民的劳作是无情的。在内拉克城堡统治领主的注视下，内拉克的村民们忍受着，他们的精神受到生存严酷现实的考验。"/>
+        <string id="Settlements.Settlement.name.castle_village_AQ1_2" text="温弗利特"/>
+        <string id="Settlements.Settlement.text.castle_village_AQ1_2" text="坐落在利布尔讷城堡的北郊，与阿奎坦的其他地方相比，韦恩弗利特村在社会规范方面明显不同。韦恩弗利特是农民圣杯骑士塞尔·盖格的领地，也是许多农民涌向成为他的……“侍从”的地方。"/>
+        <string id="Settlements.Settlement.name.castle_AQ2" text="蒙弗朗坎城堡"/>
+        <string id="Settlements.Settlement.text.castle_AQ2" text="蒙弗朗坎城堡巍峨屹立在阿基坦崎岖的风景中。这座要塞坐落在山顶上，体现了力量和战略优势。它的石工历经时间的洗礼，散发着古老坚韧的气息。"/>
+        <string id="gpsDJCJW" text="比亚里茨"/>
+        <string id="JMCgKrJj" text="比亚里茨是阿基坦城堡以南的一个城镇，靠近与巴托尼亚的边界。"/>
+        <string id="Settlements.Settlement.name.castle_village_AQ2_2" text="艾耶尔"/>
+        <string id="Settlements.Settlement.text.castle_village_AQ2_2" text="与它的姐妹村比亚里茨相比，艾耶尔村是一个远离战争喧嚣的田园诗般的休养所，是疲惫的冒险家在公国不断的争斗中找到喘息之机的避难所。金色的麦田一望无际，艾耶尔的经济以农业为支柱，勤劳的农民们收获着他们的劳动成果。"/>
+        <string id="Settlements.Settlement.name.castle_AQ3" text="库尔蒙城堡"/>
+        <string id="=P6dZwg2i" text="库尔蒙城堡骄傲地矗立着，是阿奎坦最古老的要塞之一。城堡装饰着可追溯到公国建立时期的古老阿奎坦挂毯，这座迷人的城堡将阿奎坦典型的宏伟与周围景观的壮丽景色融为一体。"/>
+        <string id="Z4EO0fr4" text="格拉迪尼昂"/>
+        <string id="Settlements.Settlement.text.castle_village_AQ3_1" text="在距离库尔蒙城堡坚固城墙仅一箭之遥的地方，坐落着贝尔热拉克村。虽然相对不起眼，但格拉迪尼昂的生活却微妙地保持着平衡，农民们在维持生计和忍受无聊之间小心翼翼地寻找着平衡，这无疑要归功于它相当安全的位置。"/>
+        <string id="jutmL82g" text="贝尔热拉克"/>
+        <string id="Settlements.Settlement.text.castle_village_AQ3_2" text="贝尔热拉克这个简陋的小村庄位于库尔蒙城堡的北部。虽然这个村庄的贸易不如其邻近的定居点那么多，但它仍然受益于公国较为和平的环境。由于附近发现了银矿，其大部分交通流量来自繁荣的矿业社区。"/>
+
+        <!-- Carcassonne -->
+        <string id="Settlements.Settlement.name.town_CC1" text="卡尔卡松城堡"/>
+        <string id="Settlements.Settlement.text.town_CC1" text="卡尔卡松堡是一座要塞城市，也是卡尔卡松公国的都城，其坐落在松日河环绕的一个小岛上。由于地处防御位置，卡尔卡松城堡与其说是一座城市，不如说是一座要塞，不过城堡内有一个小镇，是许多旅行者和骑士寻求服务的集散地。"/>
+        <string id="Settlements.Settlement.name.village_CC1_1" text="塔布"/>
+        <string id="Settlements.Settlement.text.village_CC1_1" text="位于卡尔卡松和巴托尼亚边境附近的布里恩河畔，与偏远的吕内勒和沃韦尔村保持着信任关系，它们在过去的岁月里一直是贸易伙伴。"/>
+        <string id="Settlements.Settlement.name.village_CC1_2" text="阿尔比"/>
+        <string id="Settlements.Settlement.text.village_CC1_2" text="阿尔比村位于伊拉纳山脉脚下，一直遭受着绿皮部落的无数次袭击。因此，牧羊人变得坚韧善战，会保卫他们的村庄免受任何来犯的怪物的侵害。"/>
+        <string id="Settlements.Settlement.name.village_CC1_3" text="卡奥尔"/>
+        <string id="Settlements.Settlement.text.village_CC1_3" text="在卡尔卡松以东是农场村庄卡奥尔。虽然人口不多，但卡奥尔是卡尔卡松城堡的一项资产，为要塞城镇提供了大部分粮食。"/>
+        <string id="Settlements.Settlement.name.town_CC2" text="杜林"/>
+        <string id="Settlements.Settlement.text.town_CC2" text="杜林城位于穹顶之下，是萨伏依男爵领的首府。该地区深受附近提利亚的影响，尽管如此，这座城市和人民依然坚定地忠于布列塔尼。都灵城拥有著名的圣物“布列塔尼的吉尔斯之裹尸布”，是所有追随湖神仙女的人以及所有渴望获得女神幻象的人的朝圣之地。"/>
+        <string id="Settlements.Settlement.name.village_CC2_1" text="蒙托邦"/>
+        <string id="Settlements.Settlement.text.village_CC2_1" text="由于过去多次遭到绿皮入侵者的洗劫，蒙特邦的人口非常少。作为卡尔卡松为数不多的木材村之一，这里剩下的农民经常被劳作到精疲力竭。"/>
+        <string id="Settlements.Settlement.name.village_CC2_2" text="沙纳兹"/>
+        <string id="Settlements.Settlement.text.village_CC2_2" text="位于奎内尔边境和布里恩河以南的沙纳村是一个小型农业社区，为杜林城提供粮食。"/>
+        <string id="Settlements.Settlement.name.village_CC2_3" text="蒙梅利扬"/>
+        <string id="Settlements.Settlement.text.village_CC2_3" text="在沙纳村以西，沿着布雷恩河，这片小土地上有许多橄榄田，受提利亚影响的巴托尼亚 peasants 不知疲倦地劳作着。"/>
+        <string id="Settlements.Settlement.name.castle_CC1" text="图卢兹"/>
+        <string id="Settlements.Settlement.text.castle_CC1" text="图卢兹位于卡尔卡松西部边境，伊拉纳山脉脚下，是一个重要的防御阵地，扼守着分隔卡尔卡松和埃斯塔利亚边境的尼沃河渡口。"/>
+        <string id="Y0F0Dmaj" text="康德"/>
+        <string id="Settlements.Settlement.text.castle_village_CC1_1" text="康德是一个位于卡尔卡松最西北部的木材村，与埃斯塔利亚和布里翁纳公国接壤。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC1_2" text="穆雷"/>
+        <string id="xFw6rwO7" text="坐落在西部伊拉纳山脉的穆雷是一个矿业城镇，已经成为卡尔卡松骑士的激烈招募地。农民们是狂热的铁匠和矿工，不会回避与绿皮的战斗。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC1_3" text="孟德斯鸠"/>
+        <string id="Settlements.Settlement.text.castle_village_CC1_3" text="在卡尔卡松西部的绿色牧场上，有一个名为孟德斯鸠的村庄。茂盛的绿色田野吸引了许多品种的巴托尼亚马，这使得这个村庄与大多数巴托尼亚村庄相比相当富有。"/>
+        <string id="Settlements.Settlement.name.castle_CC2" text="洛瓦尔"/>
+        <string id="Settlements.Settlement.text.castle_CC2" text="在巴托尼亚南部靠近提利亚边界的地方，有一个小的要塞定居点。它曾被提利亚的军队围攻，当瑟・德雷克爵士单枪匹马击溃攻击者时，围攻变成了一场大屠杀。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC2_1" text="屈尼奥"/>
+        <string id="Settlements.Settlement.text.castle_village_CC2_1" text="在卡尔卡松东部的平原上，耶恩坐落在普河对岸的佩皮尼昂村对面。在耶恩外面，躺着格伦兹尼克的墓冢，他是一个多世纪前被击败的兽人督军。兽人偶尔会来到这里，试图夺回格伦兹尼克的宝藏。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC2_2" text="埃斯卡尔屈昂"/>
+        <string id="Settlements.Settlement.text.castle_village_CC2_2" text="库尼奥克斯村是一个位于伊拉纳山脉东部山脚和西部穹顶的小型矿业村庄，这里的矿工们十分坚韧，为杜林城及其他地区开采铁矿石。"/>
+        <string id="TGJoUGE3" text="埃斯卡朗"/>
+        <string id="Settlements.Settlement.text.castle_village_CC_3" text="在布里恩河与普河的交汇处，埃斯卡朗为杜林城种植亚麻。由于他们有提利亚血统，与周围的村庄相比，埃斯卡朗相当繁荣富裕。"/>
+        <string id="Settlements.Settlement.name.castle_CC3" text="加达隆城堡"/>
+        <string id="Settlements.Settlement.text.castle_CC3" text="高达隆城堡位于洛伦森林的边界附近，它是矗立在穹顶山脉底部的一双警惕的眼睛。高达隆城堡是维持巴托尼亚对诺瓦隆通道北端统治的关键位置，同时也守卫着洛伦公路。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC3_1" text="萨利尼亚克·拉·鲁日"/>
+        <string id="Settlements.Settlement.text.castle_village_CC3_1" text="萨利尼亚克·拉·鲁日是洛伦公路上最后一个巴托尼亚定居点。前往克洛伊茨哈芬的旅行者通常会在这里的农民那里购买长途旅行所需的一切物品。这里的人们感觉离卡瓦罗克的精灵太近了，会有些不舒服，但与艾瑟洛伦的关系仍然尽可能地保持友好。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC3_2" text="蒙德马桑"/>
+        <string id="Settlements.Settlement.text.castle_village_CC3_2" text="作为提利亚和巴托尼亚之间边界的实际标志，蒙德马尔桑坐落在诺瓦隆通道上。这里的许多人实际上是提利亚人，他们以促进卡尔卡松和米拉利亚诺之间的贸易为生。"/>
+        <string id="Settlements.Settlement.name.castle_village_CC3_3" text="佩皮尼昂"/>
+        <string id="Settlements.Settlement.text.castle_village_CC3_3" text="在普河的海岸上，靠近支流汇入布里恩河的地方，坐落着佩皮尼昂村。佩皮尼昂离诺瓦隆通道很近，这里的人深受提利亚的影响。"/>
+
+        <!-- Quenelles -->
+        <string id="Settlements.Settlement.name.town_QU1" text="奎那利斯堡"/>
+        <string id="bILMPcE9" text="就在骑士之地和洛伦森林的边界上，是公爵首府和要塞城市凯内尔。这座城市实际上离森林非常近，以至于精灵要求奎那利斯人拆除东侧的城墙。城墙的尽头是一条宽阔的道路，然后紧接着就是精灵森林的边缘。"/>
+        <string id="Settlements.Settlement.name.village_QU1_1" text="贝塞尔"/>
+        <string id="Settlements.Settlement.text.village_QU1_1" text="贝塞尔是一个位于奎那利斯城堡和梅尔克多克斯·德克卢之间道路上的小型农业社区。这里的农民几乎不敢以任何方式靠近树林，因为他们非常害怕从树荫中注视着他们的精灵。"/>
+        <string id="Settlements.Settlement.name.village_QU1_2" text="纳尤"/>
+        <string id="Settlements.Settlement.text.village_QU1_2" text="在奎那利斯的平原上，被草海和农田环绕着的是奈卢村。这里的农民一年中大部分时间都在优质的草地上养牛。当到了要把牛赶到奎那利斯市场的时候，这个村庄几乎就没人了，因为大部分人都和他们的牛一起离开了。"/>
+        <string id="dVoxbTMu" text="贝济耶"/>
+        <string id="Settlements.Settlement.text.village_QU1_3" text="贝济耶几乎位于奎那利斯的中心，是一个非常孤立的村庄。关于它最值得注意的是村庄北端的一个小圣杯神龛。"/>
+        <string id="Settlements.Settlement.name.town_QU2" text="维凡"/>
+        <string id="C9FEOwRS" text="坐落在与奥卡尔山地接壤的山丘上的是要塞城镇维凡。维凡最初是作为一个驻军建立的，目的是保护奎那利斯免受从山里下来的绿皮兽人的侵害，同时也是在该地区建立新村庄的尝试的一个基地。"/>
+        <string id="Settlements.Settlement.name.village_QU2_1" text="希农"/>
+        <string id="Settlements.Settlement.text.village_QU2_1" text="希农是在奥卡尔山脉的二十多个定居点中建立的，也是唯一一个仍然存在的。这里的农民最近发现了一条高质量的铁矿脉，这为这个小村庄提供了更多的保护和守护者的警惕。"/>
+        <string id="Settlements.Settlement.name.village_QU2_2" text="日安"/>
+        <string id="Settlements.Settlement.text.village_QU2_2" text="日安是一个古老的木材企业，很久以前就成立了，为公国提供建筑材料。由于只有傻瓜才愿意甚至踏足精灵森林附近，奎那利斯人寻找了一个新的木材来源。尽管沙隆森林中存在危险，但与羊人打交道比激怒精灵要安全得多。"/>
+        <string id="Settlements.Settlement.name.village_QU2_3" text="多雷山"/>
+        <string id="Settlements.Settlement.text.village_QU2_3" text="在多雷山，是多雷山村。这里的银矿比目前任何人类定居点都要古老得多。几年前，在旧的定居点被绿皮兽人夷为平地后，这个村庄才在这里建立起来。"/>
+        <string id="Settlements.Settlement.name.castle_QU1" text="博马舍城堡"/>
+        <string id="Settlements.Settlement.text.castle_QU1" text="博马舍城堡位于三个重要地区之间的战略位置：奥卡尔山地、与帕拉冯的边境和洛伦森林。虽然奎那利斯与精灵的关系……友好，但这座城堡建在离树林边界足够远的地方，以防止木精灵像在奎那利斯城堡那样干扰它的城墙。"/>
+        <string id="91FEsE3c" text="梅尔克多克斯・德克卢"/>
+        <string id="Settlements.Settlement.text.castle_village_QU1_1" text="梅尔克多克斯·德克卢由莎莉雅信徒建立，随着那些寻求疾病治疗的人开始在修道院周围定居以示感谢，它已经发展壮大。这些恳求者建造了小房子，耕种了土地，为这里的信徒提供了所需的一切。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU1_2" text="蒙特拉"/>
+        <string id="Settlements.Settlement.text.castle_village_QU1_2" text="在奥卡尔山地脚下，是蒙特拉村。蒙特拉利用周围山上的梯田种植一排排的葡萄藤，收获的葡萄供贵族们享用。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU1_3" text="尼斯"/>
+        <string id="Settlements.Settlement.text.castle_village_QU1_3" text="圣戈当位于梅尔克多克斯·德克卢和奎那利斯城堡之间的道路上。这里的人们很久以前就发现了大量的粘土矿床。"/>
+        <string id="Settlements.Settlement.name.castle_QU2" text="卡拉尔城堡"/>
+        <string id="Settlements.Settlement.text.castle_QU2" text="卡拉尔城堡坐落在布赖恩河岸边，靠近卡尔卡松和洛伦森林的边界。它的领主利奥弗里克・卡拉尔在缺席的情况下继承了封地。他的父亲曾允许他踏上圣杯之旅，但利奥弗里克一走，他的父亲就病重去世，进入了女士的怀抱。在利奥弗里克回来之前，公爵坦克雷德二世一直在这里管理。"/>
+        <string id="NAny2IBf" text="尼斯"/>
+        <string id="Settlements.Settlement.text.castle_village_QU2_1" text="尼斯是一个古老的村庄，事实上非常古老，以至于一些贵族怀疑精灵最初就居住在这里。尽管有这种怀疑，但精灵们从未打扰过这个村庄，至少与正常的要求和限制相比，没有特别的方式。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU2_2" text="拉贝热"/>
+        <string id="Settlements.Settlement.text.castle_village_QU2_2" text="在布赖恩河上，拉贝热基本上不受入侵者或他们自己领主的干扰。这里的人以他们的奶酪而闻名，这种奶酪通常会出口到王国之外。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU2_3" text="格拉斯"/>
+        <string id="Settlements.Settlement.text.castle_village_QU2_3" text="沿着通往巴托尼亚的道路是格拉斯村，因其生长在巴托尼亚这一地区的高大草丛而得名。这里的人们在草地上饲养着特别大的牛。"/>
+        <string id="Settlements.Settlement.name.castle_QU3" text="拉吉耶城堡"/>
+        <string id="Settlements.Settlement.text.castle_QU3" text="拉吉耶城堡既是一座城堡，也是布赖恩河上的一个主要河港。附近是奎那利斯圣地库勒克斯之墓，公国的奠基人就葬在这里。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU3_1" text="布鲁塞"/>
+        <string id="Settlements.Settlement.text.castle_village_QU3_1" text="在布赖恩河上，坐落着大型农业村庄布鲁塞。它是由领主建立的种植园，为奎那利斯的工业种植亚麻。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU3_2" text="蒙托德兰"/>
+        <string id="Settlements.Settlement.text.castle_village_QU3_2" text="蒙托德兰是一个孤立的社区，只因在拉吉耶城堡以北的肥沃平原上种植棉花而闻名。这个村庄离库勒克斯之墓非常近，这里的人们已经习惯了看到骑士们来来往往，向这位早已逝去的英雄致敬。"/>
+        <string id="Settlements.Settlement.name.castle_village_QU3_3" text="博德罗日"/>
+        <string id="Settlements.Settlement.text.castle_village_QU3_3" text="博德罗日是在奎那利斯-巴托尼亚边境前的最后一站。村里有一家酒馆，为过往的骑士和商人提供服务。"/>
+        
+        <!--- Mousillon-->
+        <string id="Settlements.Settlement.name.town_MS1" text="穆席隆城堡"/>
+        <string id="Settlements.Settlement.text.town_MS1" text="在格里姆瑟里河减速形成的、充满死亡气息的深渊沼泽中，穆席隆城堡慢慢沉入穆席隆浑浊水域的无边深处。穆席隆本身就在城墙内以物物交换和贸易为生，许多人认为在城市深处甚至发生了更令人厌恶的行为。穆席隆到处都是灯光昏暗的酒馆、令人厌恶的妓院和盗贼窝点，是巴托尼亚敌人的避风港。"/>
+        <string id="Settlements.Settlement.name.village_MS1_1" text="莱斯马雷莫尔"/>
+        <string id="Settlements.Settlement.text.village_MS1_1" text="莱斯马雷莫尔位于穆席隆以北，隐藏在众多山丘之后，这些山丘被称为莱斯科利讷德沙内尔。这个村庄十分简陋，到处都是遭受各种变异折磨的农民，许多人认为其根源是来自莱斯科利讷德沙内尔的早已失传的疾病。"/>
+        <string id="Settlements.Settlement.name.village_MS1_2" text="戈日"/>
+        <string id="Settlements.Settlement.text.village_MS1_2" text="坐落在格里姆瑟里河北岸的小定居点戈日，居住着许多人类和变种人。戈日比大多数巴托尼亚定居点还要贫穷，它依靠公共渔业和从地里勉强刨出的一点东西维持生计。当他们没有被征召入领主的军队时。"/>
+        <string id="VDdQzoJU" text="拉格朗日"/>
+        <string id="Settlements.Settlement.text.village_MS1_3" text="拉格朗日，绰号“谷仓”，容纳了许多敢于在穆席隆恶臭的沼泽中吃草的骏马。虽然它是牲畜的繁殖地，但也很受那些需要安全住所躲避夜间邪恶生物的变种人和人类的欢迎。"/>
+        <string id="Settlements.Settlement.name.castle_MS1" text="拉什德城堡"/>
+        <string id="Settlements.Settlement.text.castle_MS1" text="在里昂尼斯边境的另一边，拉沙德城堡由拉沙德领主本人统治。令人惊讶的是，考虑到穆席隆的地狱般的地形和众多危险，这些土地相当稳定且维护良好。一些冒险家和村民说他们听到城堡里传来的噪音，但从来没有人调查过城堡内正在进行的活动。"/>
+        <string id="2WyS8jLN" text="黑蔷薇"/>
+        <string id="Settlements.Settlement.text.castle_village_MS1_1" text="与其说它是一个村庄，不如说它是一个被临时搭建的房屋环绕的酒馆，黑蔷薇是许多不受欢迎的流浪汉和狡猾流浪者的小型聚集中心。事实上，这个小村庄主要居住着人类，而没有任何变种人，这一点非常引人注目。村庄周围的少数房屋是黑蔷薇众多员工的家。"/>
+        <string id="Settlements.Settlement.name.castle_MS2" text="海恩堡"/>
+        <string id="lvkbGVeu" text="海恩城堡是一座高大的六边形塔楼，矗立在格里姆瑟里河附近的沼泽地中的一个小岛上。这座城堡由巴托尼亚的长期在位贵族奥卡森统治，周围的村庄按照穆席隆的标准来说，出人意料地适宜居住。塔楼周围有许多马厩，供奥卡森的吸血鬼骑士和任何来访的人使用。"/>
+        <string id="ajSPfwUT" text="伊勒米"/>
+        <string id="Settlements.Settlement.text.castle_village_MS2_1" text="伊勒米是一个与穆席隆大部分地区隔绝的小村庄，这里居住着大量的人类，而非变种人。许多居住在村里的农民为奥卡森领主工作，在海恩城堡的厨房里劳作。不过，由于伊勒米靠近格勒努耶尔门，它也有一些贸易往来。"/>
+
+        <!-- Blood Keep -->
+        <string id="Settlements.Settlement.name.castle_BK1" text="血堡"/>
+        <string id="Settlements.Settlement.text.castle_BK1" text="这里曾是一个勇敢的骑士团的家园，这个骑士团被称为血龙骑士团，或龙血教团。在一个决定性的夜晚，一个名叫瓦拉奇·哈肯的吸血鬼向每一位骑士发起了单挑挑战，最终将所有他认为有价值的骑士都变成了吸血鬼。整个龙血教团从此不复存在，他们被称为血龙。"/>
+
+        <!-- Athel Loren -->
+        <string id="Settlements.Settlement.name.town_AL1" text="守望森林"/>
+        <string id="Yu84qPBu" text="艾索洛伦的国王林中空地，是阿里尔和奥瑞恩掌管艾索洛伦王国的地方。他们并非独自掌权，而是在一个议会的协助下进行管理。目前，议会中有十五位来自树下隐秘王国的领主和贵妇。国王林中空地是一片广阔而令人敬畏的空地，四周环绕着巨大古老的橡树。虽然这座城市很大，但对于未经训练的眼睛来说几乎是看不见的。它与森林融为一体，很容易被漫不经心的旅行者和敌人忽略。几个世纪以来，织法者们在国王林中空地周围的树上建造了一座城市。巨大橡树的树枝被诱导交织成走道、树冠、走廊和拱顶。因此，建筑物和房间完全是由活的树木、树枝和树叶构成的。在地下，同样的方法也被用来在交织的树根之间创造出巨大的空洞。"/>
+        <string id="Settlements.Settlement.name.village_AL1_1" text="塔尔·艾斯艾尔"/>
+        <string id="Settlements.Settlement.text.village_AL1_1" text="塔尔・艾斯艾尔是一座位于时代橡树树荫下的木精灵定居点。森林精魂在这一地区非常常见，并且在艾索洛伦精灵的日常生活中频繁互动。这个村庄被魔法森林环绕，是许多艾索洛伦万神殿神龛的所在地。"/>
+        <string id="Settlements.Settlement.name.village_AL1_2" text="塔尔·库隆"/>
+        <string id="Settlements.Settlement.text.village_AL1_2" text="T塔尔・库隆的艾索洛伦精灵大厅是个小型定居点，位于埃德瑞尔・科伊兰以东，提尔・瓦纳以北。这一地区魔法浓郁，森林动物密布。野生森林马不计其数。当地精灵非常熟悉周围游荡的马群。他们经常会和其中一匹马建立感情，进而能骑着它们上阵杀敌。"/>
+        <string id="Settlements.Settlement.name.village_AL1_3" text="塔尔·戈沃恩"/>
+        <string id="Settlements.Settlement.text.village_AL1_3" text="塔尔·戈沃恩的艾索洛伦精灵大厅位于时代橡树以北。周围是艾索洛伦最肥沃的地区之一，有许多野生果园。"/>
+        <string id="Settlements.Settlement.name.village_AL1_4" text="塔尔·梅里恩"/>
+        <string id="N1SkZIaO" text="塔尔·梅里恩是国王林中空地中较小的厅堂之一。塔尔·梅里恩位于时代橡树和芬多尔的峭壁厅堂之间的一条重要道路上。经常有咒歌者光顾塔尔·梅里恩，并在附近举行仪式。"/>
+        <string id="Settlements.Settlement.name.town_AL2" text="芬多岩厅"/>
+        <string id="ZyGzlry0" text="维德里奥思，即松崖，是艾索洛伦的一个高等王国，由林地领主芬多尔和伊芙琳女士统治。这是一个四面受敌的地区，一直受到灰色山脉的矮人和绿皮的困扰。松崖实际上是一个庞大的堡垒。在这里，精灵们用树冠橡树建造了城堡和要塞，用石蔷薇建造了绵延不绝的多节缠结的城墙。迷宫般的走道和树根支撑的隧道将各个前哨连接在一起，形成了一个能够抵御全面进攻的活生生的防御工事。"/>
+        <string id="Settlements.Settlement.name.village_AL2_1" text="塔尔·朱芬"/>
+        <string id="Settlements.Settlement.text.village_AL2_1" text="塔尔·朱芬的住民们都是些作战老练的战士，只因他们常与那些来自灰色山脉无穷无尽的敌人作战。塔尔·朱芬大厅坐落于灰色山脉山脚。矮人和绿皮对森林展开了众多攻击，只为了毁掉他们所钟爱的树木。"/>
+        <string id="Settlements.Settlement.name.village_AL2_2" text="塔尔·瓦瑞根"/>
+        <string id="Settlements.Settlement.text.village_AL2_2" text="塔尔·瓦瑞根经常要保护自己免受矮人的攻击。矮人试图摧毁他们的森林，塔尔·瓦瑞根的居民投入所有资源来消灭入侵的矮人。塔尔·瓦瑞根的主要产品是从矮人商队和矿山获得的银质战利品。"/>
+        <string id="Settlements.Settlement.name.town_AL3" text="科斯·玛莱"/>
+        <string id="SBLduKrO" text="艾提尔维斯永远处于冬季，据传这里居民的心都是冰做的。冬心的森林精魂总是行动迟缓或处于沉睡状态，因此该王国的安全一直高度依赖精灵。艾提尔维斯的永恒守卫比其他任何王国都多。这是一个被冬季冰冷怀抱所笼罩的王国；它的树枝上总是覆盖着厚厚的霜，它的林间空地总是堆满积雪。每条小径两旁都排列着苍白的雕像，标志着每个厅堂的入口。其中一些作品是精美的冰雕，由工匠耐心雕琢而成。其他则是被霜雪困住的顽皮水仙女或恶意的水妖，它们因过去的恶行或为防止未来的恶行而被精灵魔法囚禁。当眼睛不注视这些雕像时，它们会流动并重新形成，里面的生物一直在寻求逃脱。"/>
+        <string id="Settlements.Settlement.name.village_AL3_1" text="塔尔·埃梅尔"/>
+        <string id="Settlements.Settlement.text.village_AL3_1" text="塔尔·埃梅尔大厅是一座被冰覆盖的厅堂。其中有巨大的古老冰雕，描绘着艾索洛伦精灵的万神殿。塔尔·埃梅尔由众多永恒守卫重重守护，因为这里的精魂都在沉睡。有时能从冰雕中听到声音，这声音是来自众神，还是它们另有其他用途呢？"/>
+        <string id="Settlements.Settlement.name.village_AL3_2" text="塔尔·德罗斯特"/>
+        <string id="Settlements.Settlement.text.village_AL3_2" text="塔尔·德罗斯特的树木是被冰雪覆盖的柱子。冰在厅堂上方形成一个屋顶，使精灵们免受降雪的侵袭。在上方冰障的保护下，艾索洛伦精灵找到了在这片冰雪覆盖的土地上种植植被并获得稳定食物来源的方法。"/>
+        <string id="Settlements.Settlement.name.village_AL3_3" text="塔尔·莫拉"/>
+        <string id="6ke2ktXZ" text="在艾奎斯厅和科思・玛拉厅之间，是塔尔・莫拉的贸易前哨厅。这里存有大量进口食物，以维持 Atylwyth 的艾索洛伦精灵的生存，因为他们的土地不肥沃且被冰雪覆盖。"/>
+        <string id="Settlements.Settlement.name.town_AL4" text="埃尼拉斯大厅"/>
+        <string id="HSi5371k" text="由阿纳瑞斯领主在重生之季建造，埃尼拉斯大厅是特瓦里尔女士和德莱娜女士权力的所在地。这些宏伟的大厅建在枯萎之握中心的一棵大树下，随着时间的推移，尤其是自从阿达维奇堕落之后，大厅得到了不断的加固。"/>
+        <string id="Settlements.Settlement.name.village_AL4_1" text="塔尔·哈坎"/>
+        <string id="Settlements.Settlement.text.village_AL4_1" text="在战舞盛宴大厅附近，塔尔·哈坎的精灵们经常处于愉快的心情中，他们要么刚刚从洛依克的领地回来，要么正准备再次前往那里。"/>
+        <string id="Settlements.Settlement.name.village_AL4_2" text="塔尔·布兰达"/>
+        <string id="Settlements.Settlement.text.village_AL4_2" text="布兰达大厅坐落在埃尼拉斯大厅以南。这座大厅充当着前哨站的角色，负责监视着奎那利斯城堡。塔尔・布兰达大厅内有许多守望者，他们接受过侦察艾瑟洛伦边缘地带的训练。"/>
+        <string id="Settlements.Settlement.name.village_AL4_3" text="塔尔·瓦林"/>
+        <string id="Settlements.Settlement.text.village_AL4_3" text="塔尔·瓦林是一座靠近艾索洛伦和巴托尼亚之间间隔的空旷林地和草原的大厅。这里人吃苦耐劳，这个地方很容易受到侵略者入侵。尽管如此，这里的精灵从来不缺少坚毅的品质。"/>
+        <string id="k6vcnuwG" text="塔尔・隆德"/>
+        <string id="Settlements.Settlement.text.village_AL4_4" text="塔尔·隆德是靠近怀萨里安峡谷的一个厅堂，它既是一个瞭望点，防范着经常在阿达维奇周围聚集的势力，也监视着附近的帕拉翁。"/>
+        <string id="Settlements.Settlement.name.town_AL5" text="战舞者大厅"/>
+        <string id="D7KCg1a3" text="菲尔·达里克，即“欺诈者之林”，是艾瑟洛伦的一个高等领域，由假面女士赫格里亚统治。菲尔·达里克是艾瑟洛伦中精灵神洛依克——欺诈者的圣地，这里有许多供奉他的无政府主义荣耀的神龛。在这里还可以找到战舞盛宴大厅，这是艾瑟洛伦游牧的战舞者最接近家的地方。因此，菲尔·达里克的林间空地总是回荡着欢声笑语。"/>
+        <string id="Settlements.Settlement.name.village_AL5_1" text="特雷洛克"/>
+        <string id="Settlements.Settlement.text.village_AL5_1" text="特雷洛克是一棵回荡着洛依克的歌谣与笑声的参天巨树。战舞者们经常在树边舞蹈欢笑。"/>
+        <string id="Settlements.Settlement.name.town_AL6" text="永夜林地"/>
+        <string id="peSArcMN" text="莫德林，即“永夜林地”，是艾瑟洛伦的十二王国之一。它由莫兰娜女士和阿拉斯领主统治。莫德林区别于艾瑟洛伦其他所有领域的地方在于，那里永远是黑夜。当莫拉丝毒害了阿里尔的灵魂时，黑暗便在森林中蔓延开来。然而，森林的其他部分随着阿里尔的恢复而恢复，但莫德林自此一直笼罩在黑暗之中。莫德林的精灵与其周围环境一样黑暗。他们在那里施展的黑暗魔法，在艾瑟洛伦的其他地方是被禁止的。"/>
+        <string id="Settlements.Settlement.name.village_AL6_1" text="塔尔·苏托诺斯"/>
+        <string id="Settlements.Settlement.text.village_AL6_1" text="塔尔·苏托诺斯的厅堂是一个南部的瞭望哨用来抵御来自卡尔卡松公国的入侵者。在步入莫德伦之后，这些被步入陷阱的人类不会再有生还的机会，因为黑暗魔法很快就要降临在他们身上了。"/>
+        <string id="Settlements.Settlement.name.village_AL6_2" text="塔勒尼克"/>
+        <string id="Settlements.Settlement.text.village_AL6_2" text="因为居住在这里的埃斯莱笼罩在黑暗之中，黑暗魔法环绕着塔勒尼克，任何靠近塔勒尼克的异乡游荡者都看不到第二天的太阳。"/>
+        <string id="Settlements.Settlement.name.castle_AL1" text="瓦尔铁砧"/>
+        <string id="BNh7oaW4" text="托尔戈万，又名星光熔炉，是洛伦森林中的一个领域，由戴斯领主统治。托尔戈万是艾瑟洛伦境内唯一一个火为神圣象征的地方。瓦尔铁砧既是神庙也是熔炉，每晚都用于锻造武器。当地的森林精灵被熊熊烈火吸引，但保持距离，因为他们知道这极其危险。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL1_1" text="塔尔·多芙"/>
+        <string id="Settlements.Settlement.text.castle_village_AL1_1" text="塔尔·多芙大厅是戴斯领主最大的粗铁供应商之一。瓦尔铁砧日以继夜的煅治武器。而永不停歇的铁砧需要源源不断的供应。数个世纪以来多芙大厅一直响应着这一召唤。"/>
+        <string id="Settlements.Settlement.name.castle_AL2" text="埃罗斯厅"/>
+        <string id="CzoBTKiD" text="卡瓦罗克，即“天标之巅”，是艾瑟洛伦的一个高等领域，由艾奎斯的埃德拉尔领主统治。这是草地空地的土地，是位于艾瑟洛伦南部边界的树木稀疏的草原平原。卡瓦罗克的精灵是世界上最优秀的骑手，当战争号角响起时，他们是第一批出征的人。他们行动迅速，也同样容易发怒。几乎可以肯定的是，在那疯狂的冲锋中，会发现天标之巅的林间骑手。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL2_1" text="塔尔·阿玛拉"/>
+        <string id="Settlements.Settlement.text.castle_village_AL2_1" text="来自塔尔·阿纳拉的埃斯莱是天生的骑手。几代人以来，他们贡献了整个艾索洛伦里最勇猛无畏的林地骑兵。塔尔·阿纳拉大厅的居民暴躁易怒，从不介意用武力解决问题。"/>
+        <string id="Settlements.Settlement.name.castle_AL3" text="塔尔·安达·韦莲"/>
+        <string id="pp2sbjnK" text="阿格维隆，或称为 “月泉林地”，是艾瑟洛伦的十二王国之一。它由多姆星领主萨兰多尔统治。阿格维隆的魔法含量远远超过森林中其他任何领域。在这里，奇迹和奇事每天都在上演。这是艾瑟洛伦少有的保存历史记录的地方，类似于乌苏安。这里的精灵也是艾瑟洛伦唯一懂得鹰之古语的精灵。然而，阿格维隆的精灵以傲慢著称，认为自己比其他所有精灵都优越。其他领域的精灵与阿格维隆的精灵交谈是很少见的。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL3_1" text="洛魁梅尔"/>
+        <string id="Settlements.Settlement.text.castle_village_AL3_1" text="洛魁梅尔位于塔尔·安达·韦莲和流水宫之间。这里的林木充当了监视艾索洛伦北方边境的侦察兵"/>
+        <string id="Settlements.Settlement.name.castle_village_AL3_2" text="流水宫"/>
+        <string id="Settlements.Settlement.text.castle_village_AL3_2" text="流水宫满溢着光明与奇迹，其河流因水仙子们而显得生机勃勃，瀑布浅吟幽幽歌声。这个地方是由水流构建起的天然防御系统，经年累月的保护着居住其中的精魂与精灵们。"/>
+        <string id="Settlements.Settlement.name.castle_AL4" text="塔尔·埃斯"/>
+        <string id="0h0lXOnj" text="阿兰诺克，也被称为“夏之海岸”，是艾瑟洛伦的十二领域之一。阿兰诺克永远是夏天，在某些地方很少有夜晚降临。这使得夏之海岸的森林精灵格外强大。阿兰诺克由阿玛德里·铁树皮统治，他曾是一名木精灵贵族，后来变成了树人。阿兰诺克一直面临着威胁，因为在它的边界上是寒冬地窖。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL4_1" text="夏日巨树"/>
+        <string id="Settlements.Settlement.text.castle_village_AL4_1" text="夏日巨树是艾索洛伦最巨大和古老的树木之一。它拔地参天，不断的汲取来自太阳的光与热。许多埃斯莱生活在它的树荫下，借此躲避那永不停歇的夏天。"/>
+        <string id="Settlements.Settlement.name.castle_AL5" text="塔尔·德查"/>
+        <string id="d6pidF15" text="安米尔，即“凋零要塞”，是艾瑟洛伦的一个高等领域，由特瓦里尔女士和德琳娜女士统治。这是一个急剧衰落的领域。许多年前，邪恶的野兽领主莫古尔在该地区的中心被杀死，他的血液污染了周围许多里格的土地。从那以后，安米尔的木精灵一直在与莫古尔的污点进行一场必败的战斗。每年，野兽人的战群越来越大，越来越多的森林精灵陷入疯狂，整片树林枯萎死亡。在艾瑟洛伦，即使失去一棵树也是一场悲剧，因此莫古尔血液的持续影响是无法用言语表达的悲痛原因。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL5_1" text="德利查"/>
+        <string id="mcRggZ8V" text="在这棵强大守护者那终年红褐色的树叶下，森林不断生长，永不停息。这棵树是安米尔精灵的家园。在莫古尔血液的污点包围中，古老的黛莉安德拉树坚定地屹立着，保护着那些住在它附近的人免受腐蚀。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL5_2" text="塔尔·希瓦齐"/>
+        <string id="Settlements.Settlement.text.castle_village_AL4_2" text="塔尔·希瓦齐的埃斯莱大厅充斥着那些最无法无天的那些欺诈之神洛依克的信徒。有时那些流浪的战舞者们会现身于此饮宴欢爱。他们也只会在第二天清晨消失，道走两边，永不相见。"/>
+        <string id="Settlements.Settlement.name.castle_AL6" text="湖畔之塔"/>
+        <string id="w8hpYLxH" text="赛斯瑞尔，即“荒野之林”，是艾瑟洛伦的一个高等领域，由夜鹰女士德雷娅统治。并非所有的艾瑟洛伦精灵都与精灵和谐共处。即使在第一次大议会召开数千年后的今天，仍有一些生物积极寻求摧毁精灵。有些纯粹为了恶意而狂欢，有些则会用他们所能指挥的一切狡猾和力量与精灵作战，如果他们可以自由这样做的话。正是为了防范这种威胁，第一批木精灵在艾瑟洛伦的东南部种植了一圈界石，创造了荒野之林——一个关押最恶毒森林精灵的监狱。提尔·瓦纳是荒野之林的主要据点，拥有强大的安全保障和许多瞭望台。"/>
+        <string id="Settlements.Settlement.name.castle_village_AL6_1" text="守望之塔"/>
+        <string id="kwIrbTsF" text="提尔・埃德尔充当着瞭望台的角色，负责监视逃出来的精灵，并留意着艾瑟洛伦的南部边界。荒野之林起到了监狱的作用，而提尔・埃德尔的大厅会竭尽全力将那些精灵封印起来。"/>
+
+        <!-- Hideouts -->
+  	    <!-- hideout forest -->
+        <string id="3kDHrPPm" text="邪教徒藏身处"/>
+
+        <!-- Mountain Bandit  Hideouts -->
+        <string id="MHKrMUuj" text="逃兵藏身处"/>
+
+        <!-- Beastmen  Hideouts -->
+        <string id="2mHLKJFj" text="劣角兽营地"/>
+
+        <!-- bretonnia Bandit Hideouts -->
+        <string id="Settlements.Settlement.name.hideout_mountain_1" text="劫掠者藏身处"/>
+
+        <!-- Norscan Raider Hideouts -->
+        <string id="a19yqrxs" text="诺斯卡掠夺者藏身处"/>
+
+  </strings>
+</base>
