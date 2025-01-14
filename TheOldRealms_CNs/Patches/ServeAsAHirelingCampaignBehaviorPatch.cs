@@ -276,5 +276,45 @@ namespace TheOldRealms_CNs.Patches
             if (found is false)
                 throw new ArgumentException("Cannot find ldfld [TaleWorlds.Localization]TaleWorlds.Localization.TextObject::Value in ServeAsAHirelingCampaignBehavior.SetActivities");
         }
+
+        [HarmonyTranspiler]
+        [HarmonyPatch(typeof(ServeAsAHirelingCampaignBehavior), "DisplayPrompt")]
+        public static IEnumerable<CodeInstruction> DisplayPromptTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+        {
+            var found = false;
+            foreach (var instruction in instructions)
+            {
+                if (instruction.opcode == OpCodes.Ldstr)
+                {
+                    var stringOperand = instruction.operand.ToString();
+                    switch (stringOperand)
+                    {
+                        case "Accept":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=APcnKMgv}Accept");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
+                        case "Decline":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=2Pn37PsW}Decline");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
+                        default:
+                            yield return instruction;
+                            break;
+                    }
+                }
+                else
+                {
+                    yield return instruction;
+                }
+            }
+            if (found is false)
+                throw new ArgumentException("Cannot find ldstr in ServeAsAHirelingCampaignBehavior.DisplayPrompt");
+        }
     }
 }
