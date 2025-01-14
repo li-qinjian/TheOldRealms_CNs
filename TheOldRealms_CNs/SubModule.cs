@@ -10,6 +10,8 @@ using TaleWorlds.Localization;
 using TaleWorlds.GauntletUI;
 using TOR_Core.AbilitySystem;
 using TheOldRealms_CNs.Extensions;
+using TOR_Core.Ink;
+using TOR_Core.Items;
 
 namespace TheOldRealms_CNs
 {
@@ -28,7 +30,6 @@ namespace TheOldRealms_CNs
             harmony.PatchAll();
 
             this.ReInitializeTORModule();
-            AbilityEffectType.SeekerMissile.ToTextObject();
         }
 
         protected override void OnSubModuleUnloaded()
@@ -50,24 +51,32 @@ namespace TheOldRealms_CNs
             var templates = Traverse.Create<AbilityFactory>().Field<Dictionary<string, AbilityTemplate>>("_templates");
             templates.Value.Clear();
             AbilityFactory.LoadTemplates();
+
+            var inkStoryManagerInstance = Traverse.Create<InkStoryManager>().Field<InkStoryManager>("_instance");
+            var loadStories = Traverse.Create(inkStoryManagerInstance.Value).Method("LoadStories");
+            loadStories.GetValue();
+
+            var _itemToInfoMap = Traverse.Create(typeof(ExtendedItemObjectManager)).Field<Dictionary<string, ExtendedItemObjectProperties>>("_itemToInfoMap");
+            _itemToInfoMap.Value.Clear();
+            ExtendedItemObjectManager.LoadXML();
         }
 
         private void InitialCustomsStrings()
         {   if(string.IsNullOrEmpty(ShadersCompilingString))
                 ShadersCompilingString = new TextObject("{=GJfeZNQc}Shader compilation in progress. Remaining shaders to compile:").ToString();
-            this.PutCustomStringInDictionary("5o5BUr4y", new TextObject("{=5o5BUr4y}Required clan renown: 2").ToString());
-            this.PutCustomStringInDictionary("6QmA5K0l", new TextObject("{=6QmA5K0l}Required clan renown: 4").ToString());
-            this.PutCustomStringInDictionary("JaEMdu7u", new TextObject("{=JaEMdu7u}Unlocks Dark Magic").ToString());
-            this.PutCustomStringInDictionary("zv0Eiz5S", new TextObject("{=zv0Eiz5S}Unlocks 2nd Lore").ToString());
-            this.PutCustomStringInDictionary("x2PwiTkd", new TextObject("{=x2PwiTkd}Unlocks Lore of Heavens").ToString());
-            this.PutCustomStringInDictionary("S8jyzkTS", new TextObject("{=S8jyzkTS}Unlocks Greater Powerstones").ToString());
-            this.PutCustomStringInDictionary("HpyiXD0C", new TextObject("{=HpyiXD0C}Unlocks Mighty Powerstones").ToString());
-            this.PutCustomStringInDictionary("Yn0Wvubl", new TextObject("{=Yn0Wvubl}Swiftshiver shards upgrade for troops").ToString());
-            this.PutCustomStringInDictionary("Zkgx1XzI", new TextObject("{=Zkgx1XzI}Hagbane Tipps upgrade for troops").ToString());
-            this.PutCustomStringInDictionary("yApOnGrj", new TextObject("{=yApOnGrj}Unlocks Starfire shafts").ToString());
+            this.AddCustomStringToDictionary("5o5BUr4y", new TextObject("{=5o5BUr4y}Required clan renown: 2").ToString());
+            this.AddCustomStringToDictionary("6QmA5K0l", new TextObject("{=6QmA5K0l}Required clan renown: 4").ToString());
+            this.AddCustomStringToDictionary("JaEMdu7u", new TextObject("{=JaEMdu7u}Unlocks Dark Magic").ToString());
+            this.AddCustomStringToDictionary("zv0Eiz5S", new TextObject("{=zv0Eiz5S}Unlocks 2nd Lore").ToString());
+            this.AddCustomStringToDictionary("x2PwiTkd", new TextObject("{=x2PwiTkd}Unlocks Lore of Heavens").ToString());
+            this.AddCustomStringToDictionary("S8jyzkTS", new TextObject("{=S8jyzkTS}Unlocks Greater Powerstones").ToString());
+            this.AddCustomStringToDictionary("HpyiXD0C", new TextObject("{=HpyiXD0C}Unlocks Mighty Powerstones").ToString());
+            this.AddCustomStringToDictionary("Yn0Wvubl", new TextObject("{=Yn0Wvubl}Swiftshiver shards upgrade for troops").ToString());
+            this.AddCustomStringToDictionary("Zkgx1XzI", new TextObject("{=Zkgx1XzI}Hagbane Tipps upgrade for troops").ToString());
+            this.AddCustomStringToDictionary("yApOnGrj", new TextObject("{=yApOnGrj}Unlocks Starfire shafts").ToString());
         }
         
-        private void PutCustomStringInDictionary(string key, string value)
+        private void AddCustomStringToDictionary(string key, string value)
         {
             if (!CustomStrings.ContainsKey(key))
             {

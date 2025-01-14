@@ -31,9 +31,9 @@ namespace TheOldRealms_CNs.Patches
             //var message = new TextObject("{=30yE54FF}TheOldRealms_CNs Loaded").ToString();
             //MBInformationManager.AddQuickInformation(name.ToString() + , 0, 0, false);
             //new StatItemVM(new TextObject("{=tor_spell_stat_tag_tier_str}Spell Tier: ", null).ToString(), ((SpellCastingLevel)this.SpellTier).toTextObject().ToString());
-            ChivalryLevel chivalryLevel = ChivalryLevel.Chivalrous;
-            var s = new TooltipProperty("我爱你吗", new Func<string>(chivalryLevel.ToTextObject().ToString), 0, false, TooltipProperty.TooltipPropertyFlags.None);
-            new TooltipProperty("Next Rank: ", (chivalryLevel + 1).ToTextObject().ToString(), 0, false, TooltipProperty.TooltipPropertyFlags.None);
+            //ChivalryLevel chivalryLevel = ChivalryLevel.Chivalrous;
+            //var s = new TooltipProperty("我爱你吗", new Func<string>(chivalryLevel.ToTextObject().ToString), 0, false, TooltipProperty.TooltipPropertyFlags.None);
+            //new TooltipProperty("Next Rank: ", (chivalryLevel + 1).ToTextObject().ToString(), 0, false, TooltipProperty.TooltipPropertyFlags.None);
         }
 
         private int SpellTier { get; set; } = 1;

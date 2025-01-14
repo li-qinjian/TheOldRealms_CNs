@@ -173,7 +173,7 @@ namespace TheOldRealms_CNs.Patches
                     var stringOperand = instruction.operand.ToString();
                     switch (stringOperand)
                     {
-                        case "Back":
+                        case "Your Lord engages in a battle.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=GFBZqDjw}Your Lord engages in a battle.");
                             found = true;
                             break;
@@ -210,6 +210,64 @@ namespace TheOldRealms_CNs.Patches
             }
             if (found is false)
                 throw new ArgumentException("Cannot find ldstr 'Back' in ServeAsAHirelingCampaignBehavior.SetupBattleMenu");
+        }
+
+        [HarmonyTranspiler]
+        [HarmonyPatch(typeof(ServeAsAHirelingCampaignBehavior), "PauseModeToggle")]
+        public static IEnumerable<CodeInstruction> PauseModeToggleTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+        {
+            var found = false;
+            foreach (var instruction in instructions)
+            {
+                if (instruction.opcode == OpCodes.Ldstr)
+                {
+                    var stringOperand = instruction.operand.ToString();
+                    switch (stringOperand)
+                    {
+                        case "Off":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=8Jncw6Am}Off");
+                            found = true;
+                            break;
+                        case "On":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=L8hcF1Rg}On");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
+                        default:
+                            yield return instruction;
+                            break;
+                    }
+                }
+                else
+                {
+                    yield return instruction;
+                }
+            }
+            if (found is false)
+                throw new ArgumentException("Cannot find ldstr 'Back' in ServeAsAHirelingCampaignBehavior.PauseModeToggle");
+        }
+
+        [HarmonyTranspiler]
+        [HarmonyPatch(typeof(ServeAsAHirelingCampaignBehavior), "SetActivities")]
+        public static IEnumerable<CodeInstruction> SetActivitiesTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+        {
+            var found = false;
+            foreach (var instruction in instructions)
+            {
+                if (instruction.opcode == OpCodes.Ldfld && instruction.operand == (object)AccessTools.Field(typeof(TextObject), "Value"))
+                {
+                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(TextObject), nameof(TextObject.ToString)));
+                    found = true;
+                }
+                else
+                {
+                    yield return instruction;
+                }
+            }
+            if (found is false)
+                throw new ArgumentException("Cannot find ldfld [TaleWorlds.Localization]TaleWorlds.Localization.TextObject::Value in ServeAsAHirelingCampaignBehavior.SetActivities");
         }
     }
 }
