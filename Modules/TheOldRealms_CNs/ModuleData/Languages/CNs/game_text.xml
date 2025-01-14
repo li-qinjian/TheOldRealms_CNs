@@ -988,13 +988,17 @@
 		<string id="tor_specialize_lore_quest_task1_finish_str" text="拜访魔导师，专精一类法术。"/>
   		<string id="tor_specialize_lore_quest_title_str" text="练习施法"/>
 
+		<!-- DamageType -->
+		<string id="tor_enum_DamageType_to_textObject_Invalid" text="未知"/>
+		<string id="tor_enum_DamageType_to_textObject_Physical" text="物理"/>
+		<string id="tor_enum_DamageType_to_textObject_Magical" text="魔法"/>
+		<string id="tor_enum_DamageType_to_textObject_Fire" text="火焰"/>
+		<string id="tor_enum_DamageType_to_textObject_Holy" text="神圣"/>
+		<string id="tor_enum_DamageType_to_textObject_Lightning" text="光明"/>
+		<string id="tor_enum_DamageType_to_textObject_Frost" text="寒冰"/>
+		<string id="tor_enum_DamageType_to_textObject_All" text="混乱"/>
+
 		<!-- TORDamageDisplay -->
-  		<string id="AKmb49uI" text="物理"/>
-  		<string id="tXn87GoB" text="魔法"/>
-  		<string id="Sr9yggir" text="火焰"/>
-  		<string id="aGsiaegH" text="神圣"/>
-  		<string id="90ruy50y" text="光明"/>
-  		<string id="vj5Nszy4" text="寒冰"/>
   		<string id="PjlOCgKb" text=" 伤害类型（"/>
   		<string id="nP3uh2XY" text="）伤害百分比 "/>
   		<string id="cHwmL0Qp" text=", {0} 伤害属于 {1} [{2}{3}]"/>
