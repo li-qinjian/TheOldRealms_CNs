@@ -716,8 +716,15 @@
   		<string id="TRe1rxKg" text="如你所愿，我的女神"/>
 
 		<!-- ExtendedInfoManager -->
-  		<string id="8U1fIdXH" text="职业技能使用者" />	
-  		<string id="SpNIAvEr" text="施法者" />	
+  		<string id="rqLozwgB" text="炮灰" />	
+  		<string id="igkjMJL2" text="炮兵" />	
+  		<string id="KDwHrHA7" text="树精" />	
+  		<string id="wXypqBZR" text="有动画特效" />	
+  		<string id="fAjoWNEc" text="穿透" />	
+  		<string id="TYMXL1GW" text="牛头人" />	
+  		<string id="FhaGOZbe" text="死灵法师同伴" />	
+  		<string id="8U1fIdXH" text="职业技能" />	
+  		<string id="SpNIAvEr" text="法师" />	
   		<string id="2GzK64cw" text="死灵法师" />	
   		<string id="iF9gcZYh" text="同伴" />	
   		<string id="a36IuyiB" text="不死生物" />	
@@ -728,6 +735,7 @@
   		<string id="PBuIOFlm" text="可部署火炮" />	
   		<string id="rx3V3Vrh" text="不可打断" />	
   		<string id="9OWBPxcG" text="工程师同伴" />	
+  		<string id="UR9nttpS" text="血骑士" />	
   		<string id="zAKorxqc" text="厄运缠身" />	
   		<string id="Hb4d4il6" text="名门望族" />	
   		<string id="yKn5xYA9" text="杜鲁齐使者" />	

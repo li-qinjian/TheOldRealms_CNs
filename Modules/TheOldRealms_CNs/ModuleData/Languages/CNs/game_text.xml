@@ -8,7 +8,7 @@
 		<string id="2Pn37PsW" text="返回"/>
 		<string id="13Vft5qv" text="离开"/>
 		<string id="oUukZLPN" text="继续"/>
-		
+		<string id="i2o7tfXd" text="取消"/>
 		
   		<string id="30yE54FF" text="中古战锤汉化已加载 "/>
   		<string id="GJfeZNQc" text="着色器编译中，剩余: "/>
@@ -191,11 +191,6 @@
 
   		<string id="B0QFjTwp" text="改善关系"/>
   		<string id="t58yk3Lb" text="选择一个派系，你与它的关系将提升 15，与艾尼尔派系的关系也是如此"/>
- 
-
-		
-
-		
 
 		<!-- Career Switch Dialog-->
 		<string id="tor_bloodkiss_player_notification_str" text="玩家接受了鲜血之吻。"/>
@@ -252,11 +247,11 @@
 		<string id="resname_Chivalry" text="骑士道"/>
 		<string id="resdesc_Chivalry" text="可用于升级巴托尼亚单位或执行特殊行动"/>
 
-		<string id="resname_DarkEnergy" text="森林生命"/>
-		<string id="resdesc_DarkEnergy" text="用于升级和维持精灵单位，亦可用于时代橡树的交互"/>
+		<string id="resname_DarkEnergy" text="黑暗能量"/>
+		<string id="resdesc_DarkEnergy" text="黑暗能量用于升级和维护亡灵单位"/>
 		
-		<string id="resname_ForestHarmony" text="暗能量"/>
-		<string id="resdesc_ForestHarmony" text="暗能量用于升级和维护亡灵单位"/>
+		<string id="resname_ForestHarmony" text="森林精魄"/>
+		<string id="resdesc_ForestHarmony" text="用于升级和维持精灵单位，亦可用于时代橡树的交互"/>
 
 		<string id="resname_CouncilFavor" text="艾尼尔议会声望"/>
 		<string id="resdesc_CouncilFavor" text="可在艾尼尔的议会执行特殊行动"/>
@@ -282,12 +277,12 @@
 
 		<!--ForestHarmonyHelper -->
 		<string id="U9JmGIHC" text="当前激活的符文"/>
-		<string id="1fASujgB" text="森林生命"/>
+		<string id="1fASujgB" text="森林精魄"/>
 		<string id="sUM1wA8d" text="生命值上限减少"/>
 		<string id="G4WFaFc7" text="生命回复速率减少"/>
 		<string id="k5q7QTy3" text="魔法之风充能速率减少"/>
 		<string id="XZzhLHkR" text="你是森林之子"/>
-		<string id="30sSLju4" text="需要森林生命"/>
+		<string id="30sSLju4" text="需要森林精魄"/>
 
 		<!-- TORMapInfo Extension -->
 		<string id="M1g7cwq0" text="每日变化"/>
@@ -310,7 +305,7 @@
 		<!-- Ability -->
   		<string id="6xAo3L4Q" text="已启用"/>
   		<string id="TpQT1Vm0" text="冷却中"/>
-  		<string id="G1p7qx2u" text="任务完成"/>
+  		<string id="G1p7qx2u" text="战斗结束"/>
   		<string id="Fj0owOnJ" text="施法中"/>
   		<string id="bmmSvu7S" text="处于雾化形态"/>
   		<string id="xYxWbi2Y" text="必须锁定一个目标"/>
@@ -404,7 +399,6 @@
   		<string id="dNakXeqI" text="选择专精"/>
   		<string id="3Ol7cDT7" text="选择一个你专精的魔法系"/>
   		<string id="v8KWNkEo" text="确认"/>
-  		<string id="i2o7tfXd" text="取消"/>
   		<string id="EyVZ8Quk" text="成功掌握："/>
   		<string id="ZsYsnFJy" text="你必须做出选择"/>
 
@@ -609,10 +603,10 @@
   		<string id="zv0Eiz5S" text="解锁第二法系"/>
   		<string id="x2PwiTkd" text="解锁天堂系魔法"/>
   		<string id="S8jyzkTS" text="解锁大型力量石"/>
-  		<string id="HpyiXD0C" text="解锁全能力量石"/>
-  		<string id="Yn0Wvubl" text="可为部队装备疾风之锥"/>
-  		<string id="Zkgx1XzI" text="可为部队装备淬毒武器"/>
-  		<string id="yApOnGrj" text="解锁星火之锥"/>
+  		<string id="HpyiXD0C" text="解锁至尊力量石"/>
+  		<string id="Yn0Wvubl" text="解锁疾风之矢"/>
+  		<string id="Zkgx1XzI" text="解锁淬毒之矢"/>
+  		<string id="yApOnGrj" text="解锁星火之矢"/>
 
 		<string id="book_of_sigmar_choice_group_str" text="西格玛之卷"/>
   		<string id="sigmar_proclaimer_choice_group_str" text="西格玛传道者"/>
@@ -665,7 +659,7 @@
   		<string id="holy_crusader_choice_group_str" text="神圣征途"/>
   		<string id="curse_of_mousillon_group_str" text="穆席隆的诅咒"/>
   		<string id="swamp_rider_choice_group_str" text="沼泽骑手"/>
-  		<string id="uunbreakable_army_choice_group_str" text="不破之军"/>
+  		<string id="3U97O8wu" text="不破之军"/>
   		<string id="scourge_of_Mousillon_choice_group_str" text="巴托尼亚之灾祸"/>
   		<string id="robber_baron_choice_group_str" text="盗贼骑士"/>
   		<string id="lie_of_lady_choice_group_str" text="女神的谎言"/>
@@ -878,7 +872,7 @@
 
   		<string id="WrMi9r0z" text="需要等级"/>
   		<string id="xubAsrWo" text="{newline}需要等级"/>
-  		<string id="uCadPfat" text="{newline}森林之心不足"/>
+  		<string id="uCadPfat" text="{newline}森林精魄不足"/>
   		<string id="jtwNMbmj" text="{newline}升级已解锁"/>
   		<string id="PJnIwefY" text="{newline}没有更多的升级"/>
 
@@ -1022,5 +1016,132 @@
 		<string id="tor_skill_book_done_notification_str" text="你读完了{SKILLBOOK}，但无法从中学到什么新知识了。"/>
   		<string id="tor_skill_book_progress_notification_str" text="你已经读完了{SKILLBOOK}中的{BOOK_PROGRESS}%内容。"/>
 
+		<!-- CustomResourcePatches -->
+  		<string id="partyscreen_resource_text" text="需要：{NEEDED_AMOUNT} {RESOURCE_ICON}"/>
+
+		<!-- BlackGrailKnightCareerButtonBehavior -->
+  		<string id="M14TEX9S" text="将"/>
+  		<string id="EqRUi5mH" text="转换为穆席隆厄运骑士"/>
+  		<string id="caGWSsQW" text="没有足够多的健康俘虏"/>
+  		<string id="wtFidRsY" text="没有足够多的健康士兵"/>
+  		<string id="blPD1ZlQ" text="需要"/>
+  		<string id="pOgYAWrm" text="圣杯骑士无法被转换"/>
+
+		<!-- GrailKnightCareerButtonBehavior -->
+  		<string id="FdpUljsd" text="提升圣杯骑士为同伴 (花费 100"/>
+
+		<!-- ImperialMagisterCareerButtonBehavior -->
+  		<string id="Pho9k5TZ" text="小型闪耀火焰红宝石"/>
+  		<string id="cJtR6Sll" text="+15%火焰伤害"/>
+  		<string id="aC7nkyTn" text="小型滋养火焰红宝石"/>
+  		<string id="cuO2ETEd" text="+50%火焰范围"/>
+  		<string id="ijXHHSOf" text="小型炽热火焰红宝石"/>
+  		<string id="E8tQJuLM" text="+20%冰霜与火焰抗性"/>
+  		<string id="UErvnqRH" text="小型防护明光石"/>
+  		<string id="kCzXhGDL" text="+20%物理抗性"/>
+		<string id="bxz6libF" text="小型时空扭曲明光石"/>
+		<string id="eRF0MJLC" text="+25%移动速度"/>
+		<string id="BTTqfWED" text="小型闪耀明光石"/>
+		<string id="bF0Rdqpv" text="+15%物理伤害"/>
+		<string id="dFRBU1UJ" text="小型残破幽灵琥珀"/>
+		<string id="1NQZVgpK" text="+25%远程抗性"/>
+		<string id="uqHzRoew" text="小型防护幽灵琥珀"/>
+		<string id="bT0AvQJa" text="+15%物理抗性"/>
+		<string id="bVEG5vYX" text="小型搜寻幽灵琥珀"/>
+		<string id="IwYjp8Fa" text="+20%远程伤害"/>
+		<string id="bDxZsN8m" text="小型阻尼维特埃勒姆"/>
+		<string id="yXOxBYv4" text="+25%魔法和火焰抗性"/>
+		<string id="uBK0lugc" text="小型防护维特埃勒姆"/>
+		<string id="Duqs50d8" text="+20%物理抗性"/>
+		<string id="O0WPp1B6" text="小型重型维特埃勒姆"/>
+		<string id="HYweuhoM" text="+35%物理抗性-35%移动速度"/>
+		<string id="QhSEX0H8" text="小型风蓝宝石"/>
+		<string id="NyDratvJ" text="+20%远程物理伤害"/>
+		<string id="Iz8gD8RG" text="小型传导蓝宝石"/>
+		<string id="T0yiafDa" text="+20%闪电近战伤害"/>
+		<string id="6xmBVkHZ" text="小型消散蓝宝石"/>
+		<string id="Hgeanaf9" text="+25%闪电抗性，+25%魔法抗性"/>
+		<string id="V77UKXO2" text="小型硬化金石"/>
+		<string id="l5hr5OJv" text="+15%物理伤害"/>
+		<string id="h3dcGFNw" text="小型闪耀金石"/>
+		<string id="kpRLlAL9" text="+20%远程物理伤害"/>
+		<string id="NwR8L5Oj" text="小型负重金石"/>
+		<string id="qxe9EF9w" text="+35%物理抗性-35%移动速度"/>
+
+		<string id="f5GjfKTO" text="大型启迪火焰红宝石"/>
+		<string id="Z5pjKit6" text="+50%火焰范围，+15%火焰伤害"/>
+		<string id="YmMV1FaT" text="大型滋养火焰红宝石"/>
+		<string id="04LX4D4g" text="+20%火焰扩散速度"/>
+		<string id="5rJagi1s" text="大型防护明光石"/>
+		<string id="HGyLxlkC" text="+40%物理，魔法抗性"/>
+		<string id="G0JdYzCc" text="大型时空扭曲明光石"/>
+		<string id="TbhqdHTe" text="+25%移动速度，+25%魔法近战伤害"/>
+		<string id="zkIczesw" text="大型野性幽灵琥珀"/>
+		<string id="7LPj6Mle" text="单位不可阻挡"/>
+		<string id="5FaZoN7L" text="猎人的大型幽灵琥珀"/>
+		<string id="hrPyUJCq" text="+35%远程抗性，+25%远程伤害"/>
+		<string id="QVYNidJb" text="大型尖刺维塔勒姆"/>
+		<string id="34v1RlTL" text="反弹25%的伤害"/>
+		<string id="yTfNU2wj" text="大型防护维塔勒姆"/>
+		<string id="V15RlBe4" text="+35%特殊保护"/>
+		<string id="GyTBsHYZ" text="大型增强真蓝宝石"/>
+		<string id="0Wse8HhZ" text="+40%闪电伤害"/>
+		<string id="lYQEeagj" text="大型消散蓝宝石"/>
+		<string id="Us35Lxvi" text="+40%物理，魔法，闪电抗性"/>
+		<string id="6t6PgaeG" text="大型衰变金石"/>
+		<string id="OT2L6a20" text="+20%魔法，火焰伤害"/>
+		<string id="xRJWCTTM" text="大型锐化金石"/>
+		<string id="xOmOPG3t" text="+50%护甲防护"/>
+  		
+		<string id="pcT0rC1F" text="至尊火焰红宝石"/>
+		<string id="WrxXRTUL" text="+150%火焰范围，火焰伤害"/>
+		<string id="8ksiM1pP" text="至尊明光石"/>
+		<string id="dq8wdgc4" text="+40%魔法伤害，击中使敌人减速"/>
+		<string id="NJRagXEd" text="至尊幽灵琥珀"/>
+		<string id="PyvaHBTn" text="+50%速度, +50%物理抗性"/>
+		<string id="Tjeup2Lj" text="至尊维塔勒姆"/>
+		<string id="Pa0yYBVo" text="每秒恢复 1 点生命值"/>
+		<string id="WWWfqmAh" text="至尊蓝宝石"/>
+		<string id="xRJWCTTM" text="大型锐化金石"/>
+		<string id="O50eGiTq" text="+20%闪电伤害, +20%冰霜伤害, 使敌人减速20%"/>
+		<string id="igrRzazu" text="至尊金石"/>
+		<string id="aBtdmcVu" text="+40%护甲防护, 20%魔法抗性, 20%火焰抗性"/>
+
+		<string id="U97IR6CM" text="魔法之风不足"/>
+		<string id="bqEqZ6Pv" text="选择力量宝石"/>
+		<string id="ZBwVFK6H" text="用力量宝石的永久魔法效果增强你的部队。在石头激活时，减少魔法之风上限"/>
+
+		<string id="yxyPX3NZ" text="至少需要4阶"/>
+		<string id="QomHhRYo" text="声望不足"/>
+		<string id="qTUNvyz2" text="移除力量宝石"/>
+		<string id="e0xygSto" text="使用力量宝石增强部队或角色"/>
+
+		<!-- NecrarchCareerButtonBehavior -->
+		<string id="8pIth1X7" text="魔法之风已满"/>
+		<string id="GcgoKdif" text="需要 "/>
+		<string id="jeFdBiJx" text="转换"/>
+		<string id="fdlIVIam" text="转换 "/>
+		<string id="yua9di1r" text=" 为 "/>
+
+		<!-- WaywatcherCareerButtonBehavior -->
+		<string id="Jl9Kynaq" text="疾风之矢"/>
+		<string id="614jfyrv" text="+15%魔法伤害"/>
+		<string id="BAvd4G3b" text="淬毒之矢"/>
+		<string id="4Z3xbPct" text="+25%的几率使目标减速40%"/>
+		<string id="XAX3kLUh" text="星火之矢"/>
+		<string id="QiQdKGYU" text="+25%护甲防护"/>
+		
+		<string id="4aKeL1rc" text="移除 "/>
+		<string id="w4PV8buW" text="选择特殊箭头"/>
+		<string id="iTC5wSZR" text="使用魔法箭头增强远程兵种"/>
+
+		<string id="dBeO6Api" text="使用魔法箭头"/>
+
+		<!-- WitchHunterCareerButtonBehavior -->
+		<string id="sBEe7CNG" text="猎巫人侍从"/>
+		<string id="j6E4MU1Z" text="将部队升级为猎巫人侍从"/>
+		<string id="sBEe7CNG" text="骑士不能升级为猎巫人侍从"/>
+		<string id="1Z4ADKAt" text="健康的士兵不足"/>
+		<string id="rnOUKMf7" text="必须属于南部帝国"/>
   </strings>
 </base>

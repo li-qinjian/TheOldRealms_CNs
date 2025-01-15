@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <strings>
+		<!-- <string id="str_string_newline_string" text="{newline}" /> -->
 		<!-- HuntingEvent -->
 		<string id="tor_hunt_perk_result.CompletelyFailed" text="{=9TjaHKHz}CompletelyFailed"/>
 		<string id="tor_hunt_perk_result.Failed" text="{=HlNWTHY8}Failed"/>
@@ -681,6 +682,13 @@
 		<string id="careerchoice_description.EndsJustifiesMeansPassive4" text="{=thOGyv9q}Ranged shots can penetrate multiple targets."/> 
 
 		<!-- ExtendedInfoManager -->
+  		<string id="tor_extendedInfo.Expendable" text="{=rqLozwgB}Expendable" />
+  		<string id="tor_extendedInfo.ArtilleryCrew" text="{=igkjMJL2}ArtilleryCrew" />
+  		<string id="tor_extendedInfo.TreeSpirit" text="{=KDwHrHA7}TreeSpirit" />
+  		<string id="tor_extendedInfo.HasAnimationTriggeredEffects" text="{=wXypqBZR}HasAnimationTriggeredEffects" />
+  		<string id="tor_extendedInfo.Piercing" text="{=fAjoWNEc}Piercing" />
+  		<string id="tor_extendedInfo.Minotaur" text="{=TYMXL1GW}Minotaur" />
+  		<string id="tor_extendedInfo.NecromancerChampion" text="{=FhaGOZbe}NecromancerChampion" />
   		<string id="tor_extendedInfo.AbilityUser" text="{=8U1fIdXH}AbilityUser" />
   		<string id="tor_extendedInfo.SpellCaster" text="{=SpNIAvEr}SpellCaster" />
   		<string id="tor_extendedInfo.Necromancer" text="{=2GzK64cw}Necromancer" />
@@ -693,6 +701,7 @@
   		<string id="tor_extendedInfo.CanPlaceArtillery" text="{=PBuIOFlm}CanPlaceArtillery" />
   		<string id="tor_extendedInfo.Unbreakable" text="{=rx3V3Vrh}Unbreakable" />
   		<string id="tor_extendedInfo.EngineerCompanion" text="{=9OWBPxcG}EngineerCompanion" />
+  		<string id="tor_extendedInfo.BloodDragon" text="{=UR9nttpS}BloodDragon" />
   		<string id="tor_extendedInfo.IllFated" text="{=zAKorxqc}IllFated" />
   		<string id="tor_extendedInfo.PrestigeNoble" text="{=Hb4d4il6}PrestigeNoble" />
   		<string id="tor_extendedInfo.DruchiiEnvoy" text="{=yKn5xYA9}DruchiiEnvoy" />
