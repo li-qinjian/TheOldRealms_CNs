@@ -6,6 +6,7 @@ using System.Text;
 using TaleWorlds.Localization;
 using TheOldRealms_CNs.Extensions;
 using TOR_Core.AbilitySystem.Spells;
+using TOR_Core.BattleMechanics.DamageSystem;
 using TOR_Core.Extensions.ExtendedInfoSystem;
 using TOR_Core.Utilities;
 
@@ -120,6 +121,9 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(TORExtendedInfoHelper), "GenerateAmplifierDisplay")]
         public static IEnumerable<CodeInstruction> GenerateAmplifierDisplayTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
+            var AmplifiedDamageTypeField = AccessTools.Field(typeof(AmplifierTuple), nameof(AmplifierTuple.AmplifiedDamageType));
+            var DamageType = AccessTools.TypeByName("DamageType");
+            var toTextObjct = AccessTools.Method(typeof(EnumExtensions), nameof(EnumExtensions.ToTextObject));
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -142,6 +146,18 @@ namespace TheOldRealms_CNs.Patches
 
                     found = true;
                 }
+                else if (instruction.opcode == OpCodes.Ldflda && instruction.operand == (object)AmplifiedDamageTypeField)
+                {
+                    yield return new CodeInstruction(OpCodes.Ldfld, instruction.operand);
+                    found = true;
+                }
+                else if (instruction.opcode == OpCodes.Constrained && instruction.operand == (object)DamageType)
+                {
+                    yield return new CodeInstruction(OpCodes.Box, DamageType);
+                    yield return new CodeInstruction(OpCodes.Ldnull);
+                    yield return new CodeInstruction(OpCodes.Call, toTextObjct);
+                    found = true;
+                }
                 else
                 {
                     yield return instruction;
@@ -155,6 +171,9 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(TORExtendedInfoHelper), "GenerateDamageDisplay")]
         public static IEnumerable<CodeInstruction> GenerateDamageDisplayTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
+            var DamageType = AccessTools.TypeByName("DamageType");
+            var toTextObjct = AccessTools.Method(typeof(EnumExtensions), nameof(EnumExtensions.ToTextObject));
+
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -196,6 +215,13 @@ namespace TheOldRealms_CNs.Patches
                             break;
                     }
 
+                    found = true;
+                }
+                else if (instruction.opcode == OpCodes.Box && instruction.operand == (object)DamageType)
+                {
+                    yield return instruction;
+                    yield return new CodeInstruction(OpCodes.Ldnull);
+                    yield return new CodeInstruction(OpCodes.Call, toTextObjct);
                     found = true;
                 }
                 else
