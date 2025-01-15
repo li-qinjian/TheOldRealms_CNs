@@ -360,11 +360,13 @@
   		<string id="tor_enum_AbilityEffectType_to_textObject_TimeWarpEffect" text="时间扭曲"/>
   		<string id="tor_enum_AbilityEffectType_to_textObject_CareerAbilityEffect" text="职业技能"/>
 
+  		<string id="tor_enum_SpellCastingLevel_to_textObject_None" text="初始"/>
   		<string id="tor_enum_SpellCastingLevel_to_textObject_Minor" text="次级"/>
   		<string id="tor_enum_SpellCastingLevel_to_textObject_Entry" text="初级"/>
   		<string id="tor_enum_SpellCastingLevel_to_textObject_Adept" text="中级"/>
   		<string id="tor_enum_SpellCastingLevel_to_textObject_Master" text="高级"/>
 
+  		<string id="tor_enum_PrayerLevel_to_textObject_None" text="初始"/>
   		<string id="tor_enum_PrayerLevel_to_textObject_Minor" text="次级"/>
   		<string id="tor_enum_PrayerLevel_to_textObject_Novice" text="初级"/>
   		<string id="tor_enum_PrayerLevel_to_textObject_Adept" text="中级"/>
@@ -928,8 +930,8 @@
 		<string id="tor_religion_follower_none_str" text="没有信仰任意一神"/>
 
 		<!-- InkStory -->
-		<!-- <string id="inky_end_str" text="结束"/>
-		<string id="inky_continue_str" text="继续"/> -->
+		<string id="inky_end_str" text="结束"/>
+		<string id="inky_continue_str" text="继续"/>
 
 		<!-- EngineerQuest -->
 		  <string id="tor_engineer_quest_log0_str" text="工程大师委托我去找盗取部件的窃贼，我应该抓住他们，把他们偷的东西带回来。"/>
@@ -1016,6 +1018,9 @@
   		<string id="PHOr23UP" text="长矛/骑枪"/>
   		<string id="ufWv3i3F" text=" 伤害 "/>
 
-		
+		<!-- TORSkillBookCampaignBehavior -->
+		<string id="tor_skill_book_done_notification_str" text="你读完了{SKILLBOOK}，但无法从中学到什么新知识了。"/>
+  		<string id="tor_skill_book_progress_notification_str" text="你已经读完了{SKILLBOOK}中的{BOOK_PROGRESS}%内容。"/>
+
   </strings>
 </base>

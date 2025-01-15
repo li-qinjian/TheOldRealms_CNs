@@ -73,6 +73,9 @@ namespace TheOldRealms_CNs.Patches
                         case "{=knightly_choice_group_str}The Paymaster":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=40T3amv6}The Paymaster");
                             break;
+                        case "{uunbreakable_army_choice_group_str}Unbreakable Army":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=3U97O8wu}Unbreakable Army");
+                            break;
                         case "Disciple of the Accursed":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=HZUgJviq}Disciple of the Accursed");
                             break;

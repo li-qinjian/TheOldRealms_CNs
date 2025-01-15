@@ -984,8 +984,8 @@
 
         <!-- Inky translation related.  Do NOT add texts inside quotation marks!-->
         <!-- every inky story starts with "inky: "+ ID of the file name. While the Variation accounts for the specific text block -->
-        <string id="inky_continue_str" text=""/>
-        <string id="inky_end_str" text=""/>
+        <!-- <string id="inky_continue_str" text=""/>
+        <string id="inky_end_str" text=""/> -->
 
         <!--Ink !-->
         <string id="inky_party_skill_check_template_str" text="({inky_skill_check_skill_name}检查成功概率 {inky_Party_skill_CheckChance}%)"/>

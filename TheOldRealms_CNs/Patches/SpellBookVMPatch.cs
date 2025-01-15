@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Text;
 using TaleWorlds.Localization;
+using TheOldRealms_CNs.Extensions;
 using TOR_Core.AbilitySystem.SpellBook;
+using TOR_Core.AbilitySystem.Spells;
+using TOR_Core.Extensions.ExtendedInfoSystem;
 
 namespace TheOldRealms_CNs.Patches
 {
@@ -15,6 +18,10 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(SpellBookVM), "Initialize")]
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
+            var SpellCastingLevelField = AccessTools.Field(typeof(HeroExtendedInfo), nameof(HeroExtendedInfo.SpellCastingLevel));
+            var SpellCastingLevel = AccessTools.TypeByName("SpellCastingLevel");
+            var toTextObjct = AccessTools.Method(typeof(EnumExtensions), nameof(EnumExtensions.ToTextObject));
+
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -77,6 +84,16 @@ namespace TheOldRealms_CNs.Patches
                             break;
                     }
                     found = true;
+                }
+                else if (instruction.opcode == OpCodes.Ldflda && instruction.operand == (object)SpellCastingLevelField)
+                {
+                    yield return new CodeInstruction(OpCodes.Ldfld, instruction.operand);
+                }
+                else if (instruction.opcode == OpCodes.Constrained && instruction.operand == (object)SpellCastingLevel)
+                {
+                    yield return new CodeInstruction(OpCodes.Box, SpellCastingLevel);
+                    yield return new CodeInstruction(OpCodes.Ldnull);
+                    yield return new CodeInstruction(OpCodes.Call, toTextObjct);
                 }
                 else
                 {

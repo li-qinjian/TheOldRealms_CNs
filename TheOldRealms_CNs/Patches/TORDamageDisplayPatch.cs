@@ -105,8 +105,8 @@ namespace TheOldRealms_CNs.Patches
         public static IEnumerable<CodeInstruction> DisplayDamageResultTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
             var DamageType = AccessTools.TypeByName("DamageType");
-            var toString = AccessTools.Method(typeof(Object), nameof(Object.ToString));
             var toTextObjct = AccessTools.Method(typeof(EnumExtensions), nameof(EnumExtensions.ToTextObject));
+            var toString = AccessTools.Method(typeof(Object), nameof(Object.ToString));
 
             var found = false;
             foreach (var instruction in instructions)
@@ -117,7 +117,7 @@ namespace TheOldRealms_CNs.Patches
                     switch (stringOperand)
                     {
                         case ", {0} was dealt in {1} [{2}{3}]":
-                            yield return new CodeInstruction(OpCodes.Ldstr, ", {0}， [{1} [{2}{3}]");
+                            yield return new CodeInstruction(OpCodes.Ldstr, ", {0} {1}[{2}{3}]");
                             //yield return new CodeInstruction(OpCodes.Ldnull);
                             //yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             //yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
@@ -131,7 +131,7 @@ namespace TheOldRealms_CNs.Patches
                             found = true;
                             break;
                         case "{0} damage was dealt which was {1}{2}{3} {4}{5}{6}":
-                            var codeInstruction = new CodeInstruction(OpCodes.Ldstr, "{0} 伤害 [{1}{2}{3} {4}{5}{6}]");
+                            var codeInstruction = new CodeInstruction(OpCodes.Ldstr, "{0} 伤害（{1} {4}[{2}{3}]  {5}{6}）");
                             codeInstruction.labels.AddRange(instruction.labels);
                             yield return codeInstruction;
                             //yield return new CodeInstruction(OpCodes.Ldnull);

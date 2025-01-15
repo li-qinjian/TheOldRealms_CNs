@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Text;
 using TaleWorlds.Localization;
+using TheOldRealms_CNs.Extensions;
+using TOR_Core.AbilitySystem.Spells;
+using TOR_Core.Extensions.ExtendedInfoSystem;
 using TOR_Core.Utilities;
 
 namespace TheOldRealms_CNs.Patches
@@ -59,6 +62,10 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(TORExtendedInfoHelper), "GenerateResistanceDisplay")]
         public static IEnumerable<CodeInstruction> GenerateResistanceDisplayTipTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
+            var ResistedDamageTypeField = AccessTools.Field(typeof(ResistanceTuple), nameof(ResistanceTuple.ResistedDamageType));
+            var DamageType = AccessTools.TypeByName("DamageType");
+            var toTextObjct = AccessTools.Method(typeof(EnumExtensions), nameof(EnumExtensions.ToTextObject));
+
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -86,6 +93,18 @@ namespace TheOldRealms_CNs.Patches
                             break;
                     }
 
+                    found = true;
+                }
+                else if (instruction.opcode == OpCodes.Ldflda && instruction.operand == (object)ResistedDamageTypeField)
+                {
+                    yield return new CodeInstruction(OpCodes.Ldfld, instruction.operand);
+                    found = true;
+                }
+                else if (instruction.opcode == OpCodes.Constrained && instruction.operand == (object)DamageType)
+                {
+                    yield return new CodeInstruction(OpCodes.Box, DamageType);
+                    yield return new CodeInstruction(OpCodes.Ldnull);
+                    yield return new CodeInstruction(OpCodes.Call, toTextObjct);
                     found = true;
                 }
                 else
