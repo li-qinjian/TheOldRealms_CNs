@@ -996,7 +996,7 @@
 		<string id="tor_enum_DamageType_to_textObject_Fire" text="火焰"/>
 		<string id="tor_enum_DamageType_to_textObject_Holy" text="神圣"/>
 		<string id="tor_enum_DamageType_to_textObject_Lightning" text="光明"/>
-		<string id="tor_enum_DamageType_to_textObject_Frost" text="寒冰"/>
+		<string id="tor_enum_DamageType_to_textObject_Frost" text="冰霜"/>
 		<string id="tor_enum_DamageType_to_textObject_All" text="混乱"/>
 
 		<!-- TORDamageDisplay -->
@@ -1148,5 +1148,18 @@
 		<string id="sBEe7CNG" text="骑士不能升级为猎巫人侍从"/>
 		<string id="1Z4ADKAt" text="健康的士兵不足"/>
 		<string id="rnOUKMf7" text="必须属于南部帝国"/>
+
+		<!-- TorItemMenuVM -->
+		<string id="tor_item_hint_read_scroll_str" text="阅读书籍"/>
+		<string id="ciPRQUKu" text="{TOR_LAST_READ_BOOK}已经读完"/>
+		<string id="ivEFrGKl" text="你正在阅读 {TOR_LAST_READ_BOOK} "/>
+		<string id="fvB7E0O2" text="开始阅读{TOR_LAST_READ_BOOK}"/>
+		<string id="74dc1908cb0b990e80fb977b5a0ef10d" text="速度："/>
+		<string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="伤害："/>
+		<string id="5dec16fa0be433ade3c4cb0074ef366d" text="精度："/>
+		<string id="5dec16fa0be433ade3c4cb0074ef366d" text="精度："/>
+		<string id="6adabc1f82216992571c3e22abc164d7" text="弹药上限："/>
+
+		
   </strings>
 </base>

@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <strings>
-		<!-- <string id="str_string_newline_string" text="{newline}" /> -->
+		<!-- TorItemMenuVM -->
+		<string id="str_missile_speed" text="{=64oGbhDo}" />
+		<string id="tor_damagetype.Invalid" text="{=tor_enum_DamageType_to_textObject_Invalid}Invalid" />
+		<string id="tor_damagetype.Physical" text="{=tor_enum_DamageType_to_textObject_Physical}Physical" />
+		<string id="tor_damagetype.Magical" text="{=tor_enum_DamageType_to_textObject_Magical}Magical" />
+		<string id="tor_damagetype.Fire" text="{=tor_enum_DamageType_to_textObject_Fire}Fire" />
+		<string id="tor_damagetype.Holy" text="{=tor_enum_DamageType_to_textObject_Holy}Holy" />
+		<string id="tor_damagetype.Lightning" text="{=tor_enum_DamageType_to_textObject_Lightning}Lightning" />
+		<string id="tor_damagetype.Frost" text="{=tor_enum_DamageType_to_textObject_Frost}Frost" />
+		<string id="tor_damagetype.All" text="{=tor_enum_DamageType_to_textObject_All}All" />
+	
 		<!-- HuntingEvent -->
 		<string id="tor_hunt_perk_result.CompletelyFailed" text="{=9TjaHKHz}CompletelyFailed"/>
 		<string id="tor_hunt_perk_result.Failed" text="{=HlNWTHY8}Failed"/>

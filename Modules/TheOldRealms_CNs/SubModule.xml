@@ -40,6 +40,16 @@
 	</SubModules>
 	<Xmls>
 		<XmlNode>
+			<!-- 战锤对原版装备名字进行了修改，但是没有留下汉化接口，所以我给该回去，并且加上汉化接口 -->
+			<XmlName id="Items" path="mpitems"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
             <XmlName id="GameText" path="tor_strings"/>
             <IncludedGameTypes>
                 <GameType value="Campaign"/>

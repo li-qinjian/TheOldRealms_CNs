@@ -4,6 +4,10 @@
 		<tag language="简体中文"/>
 	</tags>
 	<strings>
+		<!-- TorItemMenuVM -->
+		<string id="64oGbhDo" text="弹道速度" />
+		<string id="792PmvDz" text="物理" />
+
 		<!-- HuntingEvent -->
 		<string id="9TjaHKHz" text="狩猎大败" />
 		<string id="HlNWTHY8" text="狩猎失败" />

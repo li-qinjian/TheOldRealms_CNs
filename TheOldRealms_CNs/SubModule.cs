@@ -12,6 +12,11 @@ using TOR_Core.AbilitySystem;
 using TheOldRealms_CNs.Extensions;
 using TOR_Core.Ink;
 using TOR_Core.Items;
+using System.Reflection;
+using System;
+using TOR_Core.Utilities;
+using System.IO;
+using TaleWorlds.ModuleManager;
 
 namespace TheOldRealms_CNs
 {
@@ -25,11 +30,22 @@ namespace TheOldRealms_CNs
 
         protected override void OnSubModuleLoad()
         {
+            AppDomain.CurrentDomain.AssemblyResolve += this.ResolveDllPath;  //加这段话，可以让GUI/Prefab的同名文件覆盖源文件
             base.OnSubModuleLoad();
             var harmony = new Harmony(SubModule.ModuleName);
             harmony.PatchAll();
 
             this.ReInitializeTORModule();
+        }
+
+        private Assembly ResolveDllPath(object sender, ResolveEventArgs args)
+        {
+            string dllPath = ModuleHelper.GetModuleFullPath("TheOldRealms_CNs") + "bin/Win64_Shipping_Client/" + new AssemblyName(args.Name).Name + ".dll";
+            if (File.Exists(dllPath))
+            {
+                return Assembly.LoadFrom(dllPath);
+            }
+            return null;
         }
 
         protected override void OnSubModuleUnloaded()
