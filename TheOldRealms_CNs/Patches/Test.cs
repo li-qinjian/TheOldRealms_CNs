@@ -54,7 +54,7 @@ namespace TheOldRealms_CNs.Patches
             //statItems.Add(new StatItemVM(labeltxt, prayerLevel2.ToString()));
         }
 
-        private int SpellTier { get; set; } = 1;
+        //private int SpellTier { get; set; } = 1;
 
         //public string UnderscoreFirstCharToUpper(this string input)
         //{
