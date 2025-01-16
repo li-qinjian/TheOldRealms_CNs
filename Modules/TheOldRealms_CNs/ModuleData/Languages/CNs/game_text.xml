@@ -30,6 +30,11 @@
 		<string id="tor_quick_cast_description_str" text="施法或祈祷时不一定要切换到施法模式。但若没有目标指示，法术会遵循预定义的施法顺序。要有针对性地施法，需要手动打开施法界面选择法术"/>
   		<string id="tor_career_ability_description_str" text="初始职业能力，如吸血鬼伯爵的雾化形态或圣杯骑士的骑士冲锋"/>
 
+		<!-- PartyVMExtension -->
+  		<string id="upkeep" text="维持"/>
+
+  		<string id="rSRZwwck" text="你没有足够的"/>
+
 		<!-- PrestigeNobleTownBehavior -->
   		<string id="X4LBsLaO" text="你并不为帝国效力，陌生人，走开。"/>
   		<string id="0YIMCTQ6" text="我不会和无名小卒做生意，陌生人，而且我不认识你。现在离开。（低声望）"/>

@@ -468,7 +468,7 @@
   		<string id="wHaD9McE" text="火枪"/>
 
   		<!--party screen-->
-  		<string id="q3bhAMpk" text="你愿意花{\?}买下{TRADE_AMOUNT}吗{?}，{?PAY_OR_GET}"/>
+  		<string id="q3bhAMpk" text="你将{?PAY_OR_GET}获得{?}支付{\?} {TRADE_AMOUNT}"/>
 
   		<!--custom settlements e.g. chaos portal, shrines, herdstones -->
   		<string id="jvKbK9Zo" text="你来到了时代橡树，艾索洛伦之心。"/>

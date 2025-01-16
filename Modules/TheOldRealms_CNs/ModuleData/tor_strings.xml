@@ -485,7 +485,7 @@
 		<string id="str_inventory_weapon.23" text="{=wHaD9McE}Handgun"/>
 		
 		<!--party screen-->
-		<string id="str_customresource_trade_label" text="{=q3bhAMpk}You will {?PAY_OR_GET}get{?}pay{\?} {TRADE_AMOUNT}"/>
+		<!-- <string id="str_customresource_trade_label" text="{=!}你将{?PAY_OR_GET}获得{?}支付{\?} {TRADE_AMOUNT}"/> -->
 		
 		<!--custom settlements e.g. chaos portal, shrines, herdstones -->
 		<string id="customsettlement_intro.oak_of_ages" text="{=jvKbK9Zo}You arrive at the Oak of Ages. The Heart of Athel Loren."/>
