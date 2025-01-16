@@ -2831,7 +2831,7 @@
         <TriggeredEffect>storm_of_renewal</TriggeredEffect>
     </AbilityTemplate>
 	<AbilityTemplate StringID="ShieldOfThorns"
-                     Name="{=barkskin_label_str}Shield of Thorns"
+                     Name="{=muPCrRbb}Shield of Thorns"
                      SpriteName="shield_of_thorns_icon"
                      CoolDown="70"
                      WindsOfMagicCost="16"

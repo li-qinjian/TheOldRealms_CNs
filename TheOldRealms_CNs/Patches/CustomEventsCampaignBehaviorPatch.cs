@@ -16,7 +16,7 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(CustomEventsCampaignBehavior), "OnChaosUprisingStarted")]
         public static bool Prefix(object sender, ChaosUprisingStartedEventArgs e)
         {
-            var message = string.Format(new TextObject("{=5PPtBRZI}Chaos corruption reaches a critical level in {0} and rebellion breaks out.").ToString(), e.Settlement.Name.ToString());
+            var message = string.Format("混沌腐化严重，就会在 {0} 爆发叛乱", e.Settlement.Name.ToString());
             MBInformationManager.AddQuickInformation(new TextObject(message, null), 0, null, "");
             return false;
         }

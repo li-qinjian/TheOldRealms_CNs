@@ -830,8 +830,14 @@
   		<string id="tor_beastmen_raiders_str" text="野兽人掠夺者"/>
   		<string id="tor_dark_elf_slavers" text="暗精灵奴隶贩子"/>
 
+		<!-- TORCustomSettlementCampaignBehavior -->
+  		<string id="NVAfjGRY" text="胜利"/>
 		<string id="tor_custom_settlement_chaos_portal_victory_str" text="你获胜了！领取你的奖励吧！"/>
+  		<string id="NbDpue0c" text="战败"/>
   		<string id="tor_custom_settlement_chaos_portal_lose_str" text="敌人似乎比你更强。再接再厉！"/>
+
+		<!-- RaidingSiteMenuLogic -->
+  		<string id="5G50yWZJ" text="混沌军团"/>
 
 		<!-- CursedSiteMenuLogic -->
 		<string id="lg9LtwR9" text="汲取黑暗魔法的凝固精华，将一些幽灵束缚于你的意志之下"/>
@@ -933,7 +939,7 @@
 		<string id="inky_continue_str" text="继续"/>
 
 		<!-- EngineerQuest -->
-		  <string id="tor_engineer_quest_log0_str" text="工程大师委托我去找盗取部件的窃贼，我应该抓住他们，把他们偷的东西带回来。"/>
+		<string id="tor_engineer_quest_log0_str" text="工程大师委托我去找盗取部件的窃贼，我应该抓住他们，把他们偷的东西带回来。"/>
   		<string id="tor_engineer_quest_log1_str" text="我找到了窃贼，但他们没有偷来的部件。我应该向工程大师报告这个消息。"/>
   		<string id="tor_engineer_quest_log2_str" text="被盗部件似乎在一个叛徒工程师手里，工程大师需要我找到他。"/>
   		<string id="tor_engineer_quest_log3_str" text="我已经杀死了戈斯温，并取回了被盗的部件，我应该回去告诉工程大师。"/>
@@ -946,6 +952,24 @@
   		<string id="tor_engineer_quest_log1_fail_str" text="我失败了，回去向工程大师报告吧……"/>
   		<string id="tor_engineer_quest_log3_fail_str" text="我失败了，回去向工程大师报告吧……"/>
 
+  		<string id="l28hyeyC" text="取回失窃的部件"/>
+  		<string id="cFZAJ6jS" text="逃跑的窃贼"/>
+  		<string id="k5lyQIjw" text="逃跑的窃贼团伙"/>
+
+		<!-- MasterEngineerTownBehaviour -->
+  		<string id="mEs5PkPu" text="没什么可选的，你的好东西在哪儿呢？"/>
+  		<string id="KpD3cNo7" text="戈斯温不仅偷走了珍贵的零件，还偷走了蓝图。我最优秀的一部分作品在他的肆虐中毁于一旦。"/>
+  		<string id="y5mV1fH5" text="帝国的其他工程师学院可以提供图纸副本，而且这些部件也可以重新制作。但我既没有权力，也没有关系，无法很快把它们弄到手。"/>
+  		<string id="Wo87f4cM" text="给我500{PRESTIGE_ICON}，我就可以储备些霰弹，用于制造大口径霰弹枪，而且还能弄到几把霍克领的长步枪。"/>
+  		<string id="wmdAiiRI" text="再给我500{PRESTIGE_ICON}，我可以购买零件，从而制造出更先进的手枪和步枪，大枪械师梅科普特会为我骄傲的。"/>
+  		<string id="eFRx48wZ" text="最后再给我500{PRESTIGE_ICON}，我终于可以在火药实验室储备火药了，这样我就有机会制作手榴弹和大炮。"/>
+  		<string id="WvLdsUP8" text="但愿我这关系花的值。(需要500{PRESTIGE_ICON})"/>
+  		<string id="31KJW5U2" text="抱歉，我觉得有点太冒险了。"/>
+  		<string id="gbarOO7a" text="但愿这些枪炮助你在战场上取得胜利，只要你别拿它们对准你自己就行。"/>
+  		<string id="yc9qGkji" text="人们老说，梅科普特造完枪，总会听一听里面机械结构发出的“咔哒”声。"/>
+  		<string id="8DR5Z6ZF" text="我喜欢在早上闻一闻黑火药燃烧的香味。"/>
+  		<string id="O7D1dMQP" text="坏了，这下我还能做什么？"/>
+ 
 		<!-- HuntCultistsQuestCampaignBehavior  -->
 		<string id="tor_quest_hunt_cultist_description_str" text="前往目标定居点，铲除可能藏匿在那里的邪教徒。"/>
   		<string id="tor_quest_hunt_cultist_issue_accept_player_str" text="大人，您有什么需要做的吗？"/>

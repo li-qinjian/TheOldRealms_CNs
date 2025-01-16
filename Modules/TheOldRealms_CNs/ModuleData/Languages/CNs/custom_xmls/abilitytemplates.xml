@@ -184,7 +184,7 @@
 		<string id="the_green_eye_description_str" text="施法者双眼合拢，向指定方向瞬间发射出一束快而可穿透的激光。"/>
 
 		<string id="barkskin_label_str" text="石化之躯"/>
-		<string id="barkskin_description_str" text="目标的皮肤变得坚硬。80秒内提供50%的物理抗性。&quot;"/>
+		<string id="barkskin_description_str" text="目标的皮肤变得坚硬。80秒内提供50%的物理抗性。"/>
 
 		<string id="summer_heat_label_str" text="夏日之炎"/>
 		<string id="summer_heat_description_str" text="用夏季的热量烧灼小面积区域，受影响的人汗流浃背，疲惫不堪。降低50%的移速，并使敌人在15秒内更易受到火焰伤害。"/>
@@ -198,8 +198,8 @@
 		<string id="storm_of_renewal_label_str" text="重生风暴"/>
 		<string id="storm_of_renewal_description_str" text="原始的，神奇的生命能量在战场上流动，修复伤口，恢复人们的活力。治疗30点生命，治愈范围内友军10点生命，持续12秒。"/>
 
-		<string id="barkskin_label_str" text="石化之躯"/>
-		<string id="barkskin_description_str" text="目标的皮肤变得坚硬。80秒内提供50%的物理抗性。&quot;"/>
+		<string id="muPCrRbb" text="荆棘之盾"/>
+		<string id="shieldofthorns_description_str" text="带刺的金雀花保护半径内的盟友。反弹 25% 的近战伤害。"/>
 
 		<!-- Lore of Beasts-->
 		<string id="amber_spear_label_str" text="琥珀之矛"/>

@@ -1059,7 +1059,7 @@
   <ExtendedItemObjectProperties ItemStringId="tor_empire_body_armour_kotww_001">
     <ItemTraits>
       <ItemTrait ItemTraitName="Frost Amplification" IconName="blessing_icon_45">
-        <ItemTraitDescription>This item provides its wearer 10% frost damage amplification</ItemTraitDescription>
+        <ItemTraitDescription>该物品可为佩戴者提供 10% 冰霜伤害加成</ItemTraitDescription>
         <AmplifierTuple AmplifiedDamageType="Frost" DamageAmplifier="0.10"/>
       </ItemTrait>
     </ItemTraits>
@@ -4088,7 +4088,7 @@
         <SkillTuple SkillId="Roguery" SkillExp="5000" LearningTime="15"/>
       </ItemTrait>
       <ItemTrait ItemTraitName="Small Crossbow Instruction" IconName="xp_icon">
-        <ItemTraitDescription>This book provides 2000 crossbow skill experience points upon reading.</ItemTraitDescription>
+        <ItemTraitDescription>这本书读完后提供 2000 弩技能经验值。</ItemTraitDescription>
         <SkillTuple SkillId="Crossbow" SkillExp="2000" LearningTime="5"/>
       </ItemTrait>
     </ItemTraits>
