@@ -73,10 +73,13 @@ namespace TheOldRealms_CNs.Patches
         [HarmonyPatch(typeof(PrestigeNobleTownBehavior), "OnSessionLaunched")]
         public static bool PrefixOnSessionLaunched(CampaignGameStarter obj, PrestigeNobleTownBehavior __instance)
         {
-            var InitializeVariables = Traverse.Create<PrestigeNobleTownBehavior>().Method("InitializeVariables");
+            var methodNameOfInitializeVariables = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("InitializeVariables"));
+            var InitializeVariables = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfInitializeVariables);
             InitializeVariables.GetValue();
 
-            var EmpirePrestigeNobleStartCondition = Traverse.Create<PrestigeNobleTownBehavior>().Method("EmpirePrestigeNobleStartCondition");
+            var methodNameOfEmpirePrestigeNobleStartCondition = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("EmpirePrestigeNobleStartCondition"));
+            var EmpirePrestigeNobleStartCondition = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfEmpirePrestigeNobleStartCondition);
+
             var IsPartOfEmpire = Traverse.Create(__instance).Method("IsPartOfEmpire");
             var HasRenown2 = Traverse.Create(__instance).Method("HasRenown2");
             var _knowsPlayer = Traverse.Create(__instance).Field<bool>("_knowsPlayer");
@@ -112,19 +115,27 @@ namespace TheOldRealms_CNs.Patches
 
         static void InitSelectionMount(CampaignGameStarter obj, PrestigeNobleTownBehavior __instance)
         {
-            var HasEnoughPrestigeForMount = Traverse.Create<PrestigeNobleTownBehavior>().Method("HasEnoughPrestigeForMount");
+            //var methodNameOfHasEnoughPrestigeForMount = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("HasEnoughPrestigeForMount"));
+            //var HasEnoughPrestigeForMount = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfHasEnoughPrestigeForMount);
+       
+
             var SelectDemiGryphen = Traverse.Create(__instance).Method("SelectDemiGryphen");
             
             obj.AddDialogLine("noble_prestige_item_explain_mount", "noble_prestige_item_explain_mount", "noble__prestige_item_choice", new TextObject("{=UKRx0qt1}Due to some rather unfortunate circumstances, we have a monstrous steed without a rider. A Demigryph, to be precise. While the rider will be missed, the keeper of the Imperial Menagerie doesn't know what to do with it. Luckily, I have contacts within the Order of the fallen Knight and they may be willing to entrust the mount to you... ({1000}{PRESTIGE_ICON})").ToString(), null, null, 200);
-            obj.AddPlayerLine("noble__prestige_item_choice_agree", "noble__prestige_item_choice", "noble_hub_intro2", new TextObject("{=N2sTSXQz}Price is no issue, such a mighty steed would be worth it. ({PRESTIGE_COST}{PRESTIGE_ICON}) ").ToString(), () => HasEnoughPrestigeForMount.GetValue<bool>(), () => SelectDemiGryphen.GetValue(), 200);
+            obj.AddPlayerLine("noble__prestige_item_choice_agree", "noble__prestige_item_choice", "noble_hub_intro2", new TextObject("{=N2sTSXQz}Price is no issue, such a mighty steed would be worth it. ({PRESTIGE_COST}{PRESTIGE_ICON}) ").ToString(), () => HasEnoughPrestigeForMount(), () => SelectDemiGryphen.GetValue(), 200);
             obj.AddPlayerLine("noble_prestige_item_choice_decline", "noble__prestige_item_choice", "noble_hub_intro2", new TextObject("{=VquLZAMx}Not at this time, perhaps later.").ToString(), null, null, 200);
         }
 
         static void InitInfrastructureProjectsDialog(CampaignGameStarter obj, PrestigeNobleTownBehavior __instance)
         {
             var _constructedBuildings = Traverse.Create(__instance).Field<List<string>>("_constructedBuildings");
-            var HasEnoughGold = Traverse.Create(typeof(PrestigeNobleTownBehavior)).Method("HasEnoughGold");
-            //var StartTransaction = Traverse.Create(__instance).Method("StartTransaction");
+            //var methodNameOfHasEnoughGold =  Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("HasEnoughGold"));
+            //var HasEnoughGold = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfHasEnoughGold);
+
+
+            //var methodNameOfStartTransaction = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("StartTransaction"));
+            //var StartTransaction = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfStartTransaction);
+
 
             obj.AddDialogLine("noble_prestige_infrastructure_hub", "noble_prestige_infrastructure_hub", "noble_prestige_infrastructure_hub_selection", new TextObject("{=zMoYOYNL}An interesting choice, there are a number of projects slated for the future...but with the right amount of coin I can ensure you are known as the magnimonous benefactor behind their expedited construction.").ToString(), null, null, 200);
             string text3 = "noble_prestige_building_selection_";
@@ -144,9 +155,9 @@ namespace TheOldRealms_CNs.Patches
                 int index2 = j;
                 obj.AddPlayerLine(text3 + index2, "noble_prestige_infrastructure_hub_selection", text4 + index2, array3[index2], () => !_constructedBuildings.Value.Any((string x) => x.Contains("building" + index2)), null, 200);
                 obj.AddDialogLine(text4 + j, text4 + j, $"buildingPrestigeSelection{index2}_choice", array4[index2], null, null, 200);
-                obj.AddPlayerLine($"noble_prestige_item_selection_building_{index2}_agree", $"buildingPrestigeSelection{index2}_choice", "noble_hub_intro2", string.Format("{0} {1} {{GOLD_ICON}}", new TextObject("{=h3wvI1aQ}That sounds good, I will send you the funding. ").ToString(), buildingCosts[index2]), () => HasEnoughGold.GetValue<bool>(buildingCosts[index2]), delegate
+                obj.AddPlayerLine($"noble_prestige_item_selection_building_{index2}_agree", $"buildingPrestigeSelection{index2}_choice", "noble_hub_intro2", string.Format("{0} {1} {{GOLD_ICON}}", new TextObject("{=h3wvI1aQ}That sounds good, I will send you the funding. ").ToString(), buildingCosts[index2]), () => HasEnoughGold(buildingCosts[index2]), delegate
                 {
-                    PrestigeNobleTownBehaviorPatch.StartTransaction(buildingCosts[index2], index2, _constructedBuildings.Value);
+                    StartTransaction(buildingCosts[index2], index2, _constructedBuildings.Value);
                 }, 200);
                 obj.AddPlayerLine($"noble_prestige_item_selection_building_{index2}_decline", $"buildingPrestigeSelection{index2}_choice", "noble_hub_intro2", new TextObject("{=C3QfgQdT}Not at this time, perhaps later.").ToString(), null, null, 200);
             }
@@ -154,18 +165,15 @@ namespace TheOldRealms_CNs.Patches
             obj.AddPlayerLine("noble_prestige_infrastructure_hub_back", "noble_prestige_infrastructure_hub_selection", "noble_hub_intro2", new TextObject("{=N1jGtwBa}Maybe something different.(back)").ToString(), null, null, 200);
         }
 
-        static void StartTransaction(int price, int id, List<string> _constructedBuildings)
-        {
-            Hero.MainHero.ChangeHeroGold(-price);
-            Hero.MainHero.AddCustomResource("Prestige", price / 500);
-            _constructedBuildings.Add("building" + id);
-        }
-
         static void InitPoliticalPowerProjects(CampaignGameStarter obj, PrestigeNobleTownBehavior __instance)
         {
             var _politicalPowerProjects = Traverse.Create(__instance).Field<List<string>>("_politicalPowerProjects");
-            var HasEnoughInfluence = Traverse.Create(typeof(PrestigeNobleTownBehavior)).Method("HasEnoughInfluence");
-            var ExchangeInfluenceForPrestige = Traverse.Create(typeof(PrestigeNobleTownBehavior)).Method("ExchangeInfluenceForPrestige");
+
+            //var methodNameOfHasEnoughInfluence = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("HasEnoughInfluence"));
+            //var HasEnoughInfluence = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfHasEnoughInfluence);
+
+            //var methodNameOfExchangeInfluenceForPrestige = Traverse.Create(__instance).Methods().FirstOrDefault<string>(methodName => methodName.Contains("ExchangeInfluenceForPrestige"));
+            //var ExchangeInfluenceForPrestige = Traverse.Create<PrestigeNobleTownBehavior>().Method(methodNameOfExchangeInfluenceForPrestige);
 
             string text = "noble_prestige_power_projects_selection_";
             string text2 = "noble_prestige_explain_selection_";
@@ -191,19 +199,47 @@ namespace TheOldRealms_CNs.Patches
                 int index = i;
                 obj.AddPlayerLine(text + index, "noble_prestige_political_power_hub_selection", text2 + index, array[index], () => !_politicalPowerProjects.Value.Any((string x) => x.Contains("powerProject" + index)), null, 200);
                 obj.AddDialogLine(text2 + index, text2 + index, $"powerSelection{index}_choice", array2[index], null, null, 200);
-                obj.AddPlayerLine($"powerSelection_choice{index}_agree", $"powerSelection{index}_choice", "noble_hub_intro2", string.Format("{0} {1} {{INFLUENCE_ICON}}",new TextObject("{=qEv9OOps}This sounds good, I will support this.").ToString(), costs[index]), () => HasEnoughInfluence.GetValue<bool>(costs[index]), delegate
+                obj.AddPlayerLine($"powerSelection_choice{index}_agree", $"powerSelection{index}_choice", "noble_hub_intro2", string.Format("{0} {1} {{INFLUENCE_ICON}}",new TextObject("{=qEv9OOps}This sounds good, I will support this.").ToString(), costs[index]), () => HasEnoughInfluence(costs[index]), delegate
                 {
-                    ExchangeInfluenceForPrestige.GetValue(costs[index], costs[index]);
+                    ExchangeInfluenceForPrestige(costs[index], costs[index]);
                     _politicalPowerProjects.Value.Add("powerProject" + index);
                 }, 200);
                 obj.AddPlayerLine($"powerSelection_choice{index}_decline", $"powerSelection{index}_choice", "noble_hub_intro2", new TextObject("{=A2zGMa9Q}Not at this time, perhaps later.").ToString(), null, null, 200);
             }
 
-            obj.AddPlayerLine(text + 4, "noble_prestige_political_power_hub_selection", "noble_prestige_political_power_hub", new TextObject("{=Xp2zccPw}[Enlarge your Influence throughout the Empire (Repeatable)]").ToString(), () => HasEnoughInfluence.GetValue<bool>(25), delegate
+            obj.AddPlayerLine(text + 4, "noble_prestige_political_power_hub_selection", "noble_prestige_political_power_hub", new TextObject("{=Xp2zccPw}[Enlarge your Influence throughout the Empire (Repeatable)]").ToString(), () => HasEnoughInfluence(25), delegate
             {
-                ExchangeInfluenceForPrestige.GetValue(25, 15);
+                ExchangeInfluenceForPrestige(25, 15);
             }, 200);
             obj.AddPlayerLine("noble_prestige_politicalpower_hub_back", "noble_prestige_political_power_hub_selection", "noble_hub_intro2", new TextObject("{=wv5RMDBj}Maybe something different.(back)").ToString(), null, null, 200);
+        }
+
+        static void ExchangeInfluenceForPrestige(int cost, int exchange)
+        {
+            Hero.MainHero.AddInfluenceWithKingdom(-cost);
+            Hero.MainHero.AddCultureSpecificCustomResource(exchange);
+        }
+
+        static bool HasEnoughGold(int price)
+        {
+            return Hero.MainHero.Gold > price;
+        }
+
+        static bool HasEnoughInfluence(int cost)
+        {
+            return Hero.MainHero.Clan.Influence > (float)cost;
+        }
+
+        static bool HasEnoughPrestigeForMount()
+        {
+            return Hero.MainHero.GetCustomResourceValue("Prestige") >= 1000f;
+        }
+
+        static void StartTransaction(int price, int id, List<string> _constructedBuildings)
+        {
+            Hero.MainHero.ChangeHeroGold(-price);
+            Hero.MainHero.AddCustomResource("Prestige", price / 500);
+            _constructedBuildings.Add("building" + id);
         }
 
         [HarmonyPrefix]
