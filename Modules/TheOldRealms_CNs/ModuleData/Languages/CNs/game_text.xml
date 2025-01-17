@@ -865,21 +865,36 @@
   		<string id="7SIc63va" text="你的爪牙的 {UNDEAD_UPGRADES} 变得更强了"/>
 
 		<!-- OakOfAgesMenuLogic -->
-  		<string id="cPstkNrN" text="树精"/>
-  		<string id="ckBNGOjq" text="时代橡树枝"/>
-  		<string id="GQJB31LK" text="时代橡树的世界之根"/>
-  		<string id="lA34QIEz" text="树木符文"/>
+  		<string id="cPstkNrN" text="森林精魂"/>
+  		<string id="ckBNGOjq" text="橡树枝条"/>
+  		<string id="GQJB31LK" text="世界根须"/>
+  		<string id="lA34QIEz" text="森林符文"/>
 
-  		<string id="7AGZ7Dev" text="与时代橡树周围的树精交流"/>
-  		<string id="X21so5LJ" text="唤醒树妖。800 {FORESTHARMONY}。"/>
-  		<string id="X345baXa" text="慰藉树精"/>
-  		<string id="nAO6h0nv" text="捐赠灵魂"/>
-  		<string id="7Ajo9kvu" text="你得以将 {NUMBEROFTROOPS} 名树妖纳入你的队伍"/>
+  		<string id="7AGZ7Dev" text="与橡树精魂交流"/>
+  		<string id="OUs6CtXt" text="与橡树交流"/>
+  		<string id="X21so5LJ" text="召唤树人 800 {FORESTHARMONY}"/>
+  		<string id="X345baXa" text="奉献精魂"/>
+  		<string id="nAO6h0nv" text="奉献精魂"/>
+  		<string id="7Ajo9kvu" text="你招募了{NUMBEROFTROOPS}树妖加入了你的队伍"/>
 
-  		<string id="KinyMyGK" text="树木符文：为你的队伍选择一个激活的符文。这些符文会提供强大的增强效果，但它们也会带来严重的劣势。明智地选择，一次只能有一个符文处于激活状态"/>
+  		<string id="KinyMyGK" text="森林符文： 为你的队伍选择一个符文。这些符文可以提供强大的强化效果，但也会带来强大的负面效果。请明智选择，一次只能激活一个符文"/>
+		<string id="tor_treeSymbolMenu_0_unlock_str" text="解锁邻帮符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_0_str" text="启用邻帮符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_1_unlock_str" text="解锁战舞者符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_1_str" text="启用战舞者符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_2_unlock_str" text="解锁树精符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_2_str" text="启用树精符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_3_unlock_str" text="解锁奥莱恩符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_3_str" text="启用奥莱恩符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_4_unlock_str" text="解锁艾瑞尔符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_4_str" text="启用艾瑞尔符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_5_unlock_str" text="解锁流浪者符文。{TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_5_str" text="启用流浪者符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>
+		<string id="tor_treeSymbolMenu_6_unlock_str" text="解锁杜尔苏符文。 {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}"/>
+  		<string id="tor_treeSymbolMenu_6_str" text="启用杜尔苏符文。 {TREESYMBOLCHANGECOST}{FORESTHARMONY}"/>		
   		<string id="DERcfqv4" text="移除符文"/>
-  		<string id="Hvg8XhRh" text="魔法粉笔 {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}"/>
-  		<string id="28wGfKjr" text="移除符文变更成本 {newline}{UPGRADEFAILEDREASON}"/>
+  		<string id="Hvg8XhRh" text="魔法粉末 {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}"/>
+  		<string id="28wGfKjr" text="移除符文不再需要花费森林精魄 {newline}{UPGRADEFAILEDREASON}"/>
 
   		<string id="WrMi9r0z" text="需要等级"/>
   		<string id="xubAsrWo" text="{newline}需要等级"/>
@@ -889,28 +904,28 @@
 
   		<string id="u7B4HWqV" text="{newline}森林符文已激活"/>
 
-  		<string id="5wDfyHZL" text="世界之根：世界之根与时代橡树的根形成了一条辫状的通道。借助它们，阿斯莱得以在世界中旅行。帮助重建这些根，并前往旧世界中根的尽头。"/>
-  		<string id="YVAyDFto" text="解锁通往阿登森林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
-		<string id="0YaQIMX8" text="前往阿登森林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
-		<string id="TBzCGmtx" text="解锁通往劳恩洛伦的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
-		<string id="ALVOQpPa" text="前往劳恩洛伦 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
-		<string id="psIX4EaF" text="解锁通往格里芬伍德的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
-		<string id="2RJWbPLl" text="前往格里芬伍德 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
-		<string id="CScWjVsn" text="内化根路径 {ROOTTRAVELUPGRADE}{FORESTHARMONY}"/>
+  		<string id="5wDfyHZL" text="世界根须 : 世界根须与橡树之根相互缠绕，形成了通往旧世界各地的路径。阿斯莱人可以借此周游世界。帮助重建世界根须，就可以前往其他根系的尽头"/>
+  		<string id="YVAyDFto" text="解锁通往亚登森林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="0YaQIMX8" text="前往亚登森林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="TBzCGmtx" text="解锁通往劳伦洛伦森林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="ALVOQpPa" text="前往劳伦洛伦森林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="psIX4EaF" text="解锁通往狮鹫林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
+		<string id="2RJWbPLl" text="前往狮鹫林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
+		<string id="CScWjVsn" text="内化根须路径 {ROOTTRAVELUPGRADE}{FORESTHARMONY}"/>
 		<string id="qdG2Z0ui" text="建立返回时代橡树的路径 {ROOTRETURNUPGRADE}{FORESTHARMONY}"/>
-		<string id="PhqPSaSF" text="世界之根的治疗光环 {ROOTHEALUPGRADE}{FORESTHARMONY}"/>
+		<string id="PhqPSaSF" text="治愈根须光环 {ROOTHEALUPGRADE}{FORESTHARMONY}"/>
 		
   		<string id="tor_custom_settlement_we_party_size_info_str" text="已经解锁"/>
 	
-  		<string id="YNbIGaAL" text="前往迈松塔尔"/>
-  		<string id="natOhOp2" text="前往劳恩洛伦"/>
-  		<string id="4Ud9yoOm" text="返回艾索洛伦"/>
+  		<string id="YNbIGaAL" text="传送到麦松塔"/>
+  		<string id="natOhOp2" text="传送到劳伦洛伦"/>
+  		<string id="4Ud9yoOm" text="传送回艾索洛伦"/>
   		<string id="zObjtTxB" text="建立返回时代橡树的路径"/>
 
-  		<string id="yf7MFFAp" text="时代橡树的树枝"/>
-  		<string id="GRLjfdqm" text="建造前哨站 {PARTYSIZEUPGRADECOST}"/>
-  		<string id="EaB9NNhq" text="强壮的树枝 {HEALTHUPGRADECOST}"/>
-  		<string id="DFVQqXfB" text="繁茂的叶子 {GAINUPGRADECOST}"/>
+  		<string id="yf7MFFAp" text="橡树枝条"/>
+  		<string id="GRLjfdqm" text="建立分枝 {PARTYSIZEUPGRADECOST}"/>
+  		<string id="EaB9NNhq" text="粗壮枝干 {HEALTHUPGRADECOST}"/>
+  		<string id="DFVQqXfB" text="繁盛枝叶 {GAINUPGRADECOST}"/>
 
 		<!-- ShrineMenuLogic -->
   		<string id="xprJh6ZA" text="亵渎神龛以获取黑暗能量。{GOD_NAME} 的追随者将会记住这一点"/>

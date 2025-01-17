@@ -1,11 +1,16 @@
 ﻿using HarmonyLib;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Reflection.Emit;
 using System.Text;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.GameMenus;
+using TaleWorlds.CampaignSystem.Overlay;
 using TaleWorlds.Localization;
 using TOR_Core.AbilitySystem.Spells;
 using TOR_Core.CampaignMechanics.TORCustomSettlement.CustomSettlementMenus;
+using TOR_Core.Extensions;
 
 namespace TheOldRealms_CNs.Patches
 {
@@ -53,6 +58,13 @@ namespace TheOldRealms_CNs.Patches
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
+                        case "{tor_custom_settlement_menu_leave_str}Leave...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
                         default:
                             yield return instruction;
                             break;
@@ -82,51 +94,34 @@ namespace TheOldRealms_CNs.Patches
                     {
                         case "Communicate with the Tree spirits around the oak.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=7AGZ7Dev}Communicate with the Tree spirits around the oak.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
+                        case "{tor_custom_settlement_menu_cursed_site_ghost_str}Commune with the forest. 100 {FORESTHARMONY}":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=OUs6CtXt}Commune with the forest. 100 {FORESTHARMONY}");
                             found = true;
                             break;
                         case "Rouse Treemen. 800 {FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=X21so5LJ}Rouse Treemen. 800 {FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Relief Treespirits":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=X345baXa}Relief Treespirits");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Donated Spirits":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=nAO6h0nv}Donated Spirits");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Leave...":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You were able to bind {NUMBEROFTROOPS} dryads to your party":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=7Ajo9kvu}You were able to bind {NUMBEROFTROOPS} dryads to your party");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "back...":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=2Pn37PsW}back...");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         default:
@@ -146,17 +141,15 @@ namespace TheOldRealms_CNs.Patches
         /// <summary>
         /// 不知道为什么这个注入会报错，奇怪
         /// </summary>
-        /// <param name="instructions"></param>
-        /// <returns></returns>
-        /// <exception cref="ArgumentException"></exception>
+        /// <param name = "instructions" ></ param >
+        /// < returns ></ returns >
+        /// < exception cref="ArgumentException"></exception>
         //[HarmonyTranspiler]
         //[HarmonyPatch(typeof(OakOfAgesMenuLogic), "AddTreeSymbolMenu")]
         //public static IEnumerable<CodeInstruction> AddTreeSymbolMenuTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         //{
         //    var found = false;
-        //    var i = 0;
-        //    var listInstructions = new List<CodeInstruction>(instructions);
-        //    foreach (var instruction in listInstructions)
+        //    foreach (var instruction in instructions)
         //    {
         //        if (instruction.opcode == OpCodes.Ldstr)
         //        {
@@ -164,33 +157,45 @@ namespace TheOldRealms_CNs.Patches
         //            switch (stringOperand)
         //            {
         //                case "Tree Symbols: Choose one Symbol activated for your party. The Symbols provide strong enhancements, yet they will also provide strong disadvantages. Choose wisely, only one Symbol can be active at once.":
-        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=KinyMyGK}Tree Symbols: Choose one Symbol activated for your party. The Symbols provide strong enhancements, yet they will also provide strong disadvantages. Choose wisely, only one Symbol can be active at once.");
-        //                    yield return new CodeInstruction(OpCodes.Ldnull);
-        //                    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-        //                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+        //                    var codeInstruction1 = new CodeInstruction(OpCodes.Ldstr, "{=KinyMyGK}Tree Symbols: Choose one Symbol activated for your party. The Symbols provide strong enhancements, yet they will also provide strong disadvantages. Choose wisely, only one Symbol can be active at once.");
+        //                    codeInstruction1.labels.AddRange(instruction.labels);
+        //                    codeInstruction1.blocks.AddRange(instruction.blocks);
+        //                    yield return codeInstruction1;
+        //                    //yield return new CodeInstruction(OpCodes.Ldnull);
+        //                    //yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+        //                    //yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
         //                    found = true;
         //                    break;
-        //                case "Remove symbol":
-        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=DERcfqv4}Remove symbol");
-        //                    yield return new CodeInstruction(OpCodes.Ldnull);
-        //                    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-        //                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
-        //                    found = true;
-        //                    break;
-        //                case "Magical chalk. {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}":
-        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=Hvg8XhRh}Magical chalk. {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}");
-        //                    yield return new CodeInstruction(OpCodes.Ldnull);
-        //                    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-        //                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
-        //                    found = true;
-        //                    break;
-        //                case "Leave...":
-        //                    yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
-        //                    yield return new CodeInstruction(OpCodes.Ldnull);
-        //                    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-        //                    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
-        //                    found = true;
-        //                    break;
+        //                //case "Remove symbol":
+        //                //    var codeInstruction2 = new CodeInstruction(OpCodes.Ldstr, "{=DERcfqv4}Remove symbol");
+        //                //    codeInstruction2.labels.AddRange(instruction.labels);
+        //                //    codeInstruction2.blocks.AddRange(instruction.blocks);
+        //                //    yield return codeInstruction2;
+        //                //    yield return new CodeInstruction(OpCodes.Ldnull);
+        //                //    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+        //                //    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+        //                //    found = true;
+        //                //    break;
+        //                //case "Magical chalk. {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}":
+        //                //    var codeInstruction3 = new CodeInstruction(OpCodes.Ldstr, "{=Hvg8XhRh}Magical chalk. {TREESYMBOLFREEUPGRADE}{FORESTHARMONY}");
+        //                //    codeInstruction3.labels.AddRange(instruction.labels);
+        //                //    codeInstruction3.blocks.AddRange(instruction.blocks);
+        //                //    yield return codeInstruction3;
+        //                //    yield return new CodeInstruction(OpCodes.Ldnull);
+        //                //    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+        //                //    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+        //                //    found = true;
+        //                //    break;
+        //                //case "Leave...":
+        //                //    var codeInstruction4 = new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
+        //                //    codeInstruction4.labels.AddRange(instruction.labels);
+        //                //    codeInstruction4.blocks.AddRange(instruction.blocks);
+        //                //    yield return codeInstruction4;
+        //                //    yield return new CodeInstruction(OpCodes.Ldnull);
+        //                //    yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+        //                //    yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+        //                //    found = true;
+        //                //    break;
         //                default:
         //                    yield return instruction;
         //                    break;
@@ -200,11 +205,23 @@ namespace TheOldRealms_CNs.Patches
         //        {
         //            yield return instruction;
         //        }
-        //        i++;
         //    }
         //    if (found is false)
         //        throw new ArgumentException("Cannot find ldstr in OakOfAgesMenuLogic.AddTreeSymbolMenu");
         //}
+
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(OakOfAgesMenuLogic), "DefaultUnlockOakUpgradeCondition")]
+        public static bool PrefixAddTreeSymbolMenu(MenuCallbackArgs args, string upgrade, int cost, TextObject toolTipDescription = null, int minimumLevel = 0)
+        {
+            if (toolTipDescription.Value == "Remove Symbol change costs.{newline}{UPGRADEFAILEDREASON}")
+            {
+                toolTipDescription.Value = "{=28wGfKjr}Remove Symbol change costs.{newline}{UPGRADEFAILEDREASON}";
+            }
+
+            return true;
+        }
 
         [HarmonyTranspiler]
         [HarmonyPatch(typeof(OakOfAgesMenuLogic), "DefaultUnlockOakUpgradeCondition")]
@@ -355,79 +372,46 @@ namespace TheOldRealms_CNs.Patches
                     {
                         case "World Roots : The world roots create a braid of pathways with the oaks Roots. With them the Asrai are allowed to travel world. Help to restablish the roots and travel to roots ends in the old World":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=5wDfyHZL}World Roots : The world roots create a braid of pathways with the oaks Roots. With them the Asrai are allowed to travel world. Help to restablish the roots and travel to roots ends in the old World");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Unlock Pathway to the Forest of Arden. {ROOTUNLOCKCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=YVAyDFto}Unlock Pathway to the Forest of Arden. {ROOTUNLOCKCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Travel to the forest of Arden. {WORLDROOTTRAVELCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=0YaQIMX8}Travel to the forest of Arden. {WORLDROOTTRAVELCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Unlock the pathway to Laurelorn. {ROOTUNLOCKCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=TBzCGmtx}Unlock the pathway to Laurelorn. {ROOTUNLOCKCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Travel to Laurelorn. {WORLDROOTTRAVELCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=ALVOQpPa}Travel to Laurelorn. {WORLDROOTTRAVELCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Unlock the pathway to the Gryphenwood. {ROOTUNLOCKCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=psIX4EaF}Unlock the pathway to the Gryphenwood. {ROOTUNLOCKCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Travel to the Gryphenwood. {WORLDROOTTRAVELCOST}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=2RJWbPLl}Travel to the Gryphenwood. {WORLDROOTTRAVELCOST}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Internalize the root pathways. {ROOTTRAVELUPGRADE}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=CScWjVsn}Internalize the root pathways. {ROOTTRAVELUPGRADE}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Establish pathways back to the Oak of Ages. {ROOTRETURNUPGRADE}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=qdG2Z0ui}Establish pathways back to the Oak of Ages. {ROOTRETURNUPGRADE}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Healing Aura of roots. {ROOTHEALUPGRADE}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=PhqPSaSF}Healing Aura of roots. {ROOTHEALUPGRADE}{FORESTHARMONY}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Leave...":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         default:
@@ -458,21 +442,21 @@ namespace TheOldRealms_CNs.Patches
                     switch (stringOperand)
                     {
                         case "{tor_custom_settlement_menu_leave_str}Travel to Maisontaal":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{YNbIGaAL}Travel to Maisontaal");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=YNbIGaAL}Travel to Maisontaal");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "{tor_custom_settlement_menu_leave_str}Travel to Laurelorn":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{natOhOp2}Travel to Laurelorn");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=natOhOp2}Travel to Laurelorn");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "{tor_custom_settlement_menu_leave_str}Travel back to Athel Loren...":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{4Ud9yoOm}Travel back to Athel Loren...");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=4Ud9yoOm}Travel back to Athel Loren...");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
@@ -480,6 +464,13 @@ namespace TheOldRealms_CNs.Patches
                             break;
                         case "Establish pathways back to the Oak of Ages. {ROOTRETURNUPGRADE}{FORESTHARMONY}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=zObjtTxB}Establish pathways back to the Oak of Ages. {ROOTRETURNUPGRADE}{FORESTHARMONY}");
+                            yield return new CodeInstruction(OpCodes.Ldnull);
+                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
+                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
+                            found = true;
+                            break;
+                        case "{tor_custom_settlement_menu_leave_str}Leave...":
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
@@ -514,21 +505,21 @@ namespace TheOldRealms_CNs.Patches
                     switch (stringOperand)
                     {
                         case "Branches of The Oak":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{yf7MFFAp}Branches of The Oak");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=yf7MFFAp}Branches of The Oak");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Build Outposts. {PARTYSIZEUPGRADECOST}":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{GRLjfdqm}Build Outposts. {PARTYSIZEUPGRADECOST}");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=GRLjfdqm}Build Outposts. {PARTYSIZEUPGRADECOST}");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Strong branches. {HEALTHUPGRADECOST}":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{EaB9NNhq}Strong branches. {HEALTHUPGRADECOST}");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=EaB9NNhq}Strong branches. {HEALTHUPGRADECOST}");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));

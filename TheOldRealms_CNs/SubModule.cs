@@ -17,6 +17,10 @@ using System;
 using TOR_Core.Utilities;
 using System.IO;
 using TaleWorlds.ModuleManager;
+using TaleWorlds.CampaignSystem;
+using TOR_Core.CampaignMechanics.TORCustomSettlement;
+using TaleWorlds.CampaignSystem.GameMenus;
+using TheOldRealms_CNs.Override;
 
 namespace TheOldRealms_CNs
 {
@@ -60,6 +64,27 @@ namespace TheOldRealms_CNs
             InformationManager.DisplayMessage(new InformationMessage((new TextObject("{=30yE54FF}TheOldRealms_CNs Loaded")).ToString(), Colors.Green));
 
             this.InitialCustomsStrings();
+        }
+
+        //protected override void InitializeGameStarter(Game game, IGameStarter starterObject)
+        //{
+        //    if (Game.Current.GameType is Campaign && starterObject is CampaignGameStarter)
+        //    {
+        //        CampaignGameStarter campaignGameStarter = starterObject as CampaignGameStarter;
+
+        //        campaignGameStarter.AddBehavior(new TheOldRealmsCNsBehavior());
+        //    }
+        //}
+
+        public override void OnAfterGameInitializationFinished(Game game, object starterObject)
+        {
+            if (Game.Current.GameType is Campaign && starterObject is CampaignGameStarter)
+            {
+                CampaignGameStarter campaignGameStarter = starterObject as CampaignGameStarter;
+
+                new OverrideOakOfAgesMenuLogic(campaignGameStarter);
+            }
+            
         }
 
         private void ReInitializeTORModule()
