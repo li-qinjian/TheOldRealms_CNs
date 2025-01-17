@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
 using TaleWorlds.CampaignSystem;
@@ -17,6 +18,8 @@ namespace TheOldRealms_CNs.Patches
     [HarmonyPatch]
     internal class OakOfAgesMenuLogicPatch
     {
+        
+
         [HarmonyTranspiler]
         [HarmonyPatch(typeof(OakOfAgesMenuLogic), "AddOakOfAgeMenus")]
         public static IEnumerable<CodeInstruction> AddOakOfAgeMenusTranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
@@ -495,9 +498,7 @@ namespace TheOldRealms_CNs.Patches
         public static IEnumerable<CodeInstruction> AddBranchesOfTheOakMenuranspiler(IEnumerable<CodeInstruction> instructions /*, ILGenerator generator*/)
         {
             var found = false;
-            var i = 0;
-            var listInstructions = new List<CodeInstruction>(instructions);
-            foreach (var instruction in listInstructions)
+            foreach (var instruction in instructions)
             {
                 if (instruction.opcode == OpCodes.Ldstr)
                 {
@@ -548,7 +549,6 @@ namespace TheOldRealms_CNs.Patches
                 {
                     yield return instruction;
                 }
-                i++;
             }
             if (found is false)
                 throw new ArgumentException("Cannot find ldstr in OakOfAgesMenuLogic.AddBranchesOfTheOakMenu");

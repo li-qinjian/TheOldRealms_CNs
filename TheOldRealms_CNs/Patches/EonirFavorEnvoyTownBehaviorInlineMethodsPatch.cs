@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Text;
+using TaleWorlds.CampaignSystem;
 using TaleWorlds.Localization;
 using TOR_Core.CampaignMechanics.Menagery;
 
@@ -119,6 +120,8 @@ namespace TheOldRealms_CNs.Patches
 
         private static IEnumerable<CodeInstruction> ForcePeacePromptTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator, MethodBase method)
         {
+            var EncyclopediaTitleProperty = AccessTools.PropertyGetter(typeof(Kingdom), "EncyclopediaTitle");
+            var NameProperty = AccessTools.PropertyGetter(typeof(Kingdom), "Name");
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -170,6 +173,10 @@ namespace TheOldRealms_CNs.Patches
                     }
                     found = true;
                 }
+                else if (instruction.opcode == OpCodes.Callvirt && instruction.operand == (object)EncyclopediaTitleProperty)
+                {
+                    yield return new CodeInstruction(OpCodes.Callvirt, NameProperty);
+                }
                 else
                 {
                     yield return instruction;
@@ -181,6 +188,8 @@ namespace TheOldRealms_CNs.Patches
 
         private static IEnumerable<CodeInstruction> ForceWarPromptTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator, MethodBase method)
         {
+            var EncyclopediaTitleProperty = AccessTools.PropertyGetter(typeof(Kingdom), "EncyclopediaTitle");
+            var NameProperty = AccessTools.PropertyGetter(typeof(Kingdom), "Name");
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -231,6 +240,10 @@ namespace TheOldRealms_CNs.Patches
                             break;
                     }
                     found = true;
+                }
+                else if (instruction.opcode == OpCodes.Callvirt && instruction.operand == (object)EncyclopediaTitleProperty)
+                {
+                    yield return new CodeInstruction(OpCodes.Callvirt, NameProperty);
                 }
                 else
                 {
@@ -336,6 +349,8 @@ namespace TheOldRealms_CNs.Patches
 
         private static IEnumerable<CodeInstruction> AsurDiplomacyPromptTranspiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator, MethodBase method)
         {
+            var EncyclopediaTitleProperty = AccessTools.PropertyGetter(typeof(Kingdom), "EncyclopediaTitle");
+            var NameProperty = AccessTools.PropertyGetter(typeof(Kingdom), "Name");
             var found = false;
             foreach (var instruction in instructions)
             {
@@ -386,6 +401,10 @@ namespace TheOldRealms_CNs.Patches
                             break;
                     }
                     found = true;
+                }
+                else if (instruction.opcode == OpCodes.Callvirt && instruction.operand == (object)EncyclopediaTitleProperty)
+                {
+                    yield return new CodeInstruction(OpCodes.Callvirt, NameProperty);
                 }
                 else
                 {

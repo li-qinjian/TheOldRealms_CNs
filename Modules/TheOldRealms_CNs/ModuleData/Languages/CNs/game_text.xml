@@ -124,7 +124,7 @@
   		<string id="Ulszxwuw" text="就这样做"/>
   		<string id="GNNXg5Rh" text="看看我能做些什么"/>
   		<string id="WCXQdbG1" text="显然，你们帝国的提议能使议会受益（将 {ORIGINAL_PRESTIGE} 兑换为 {RETURN_FAVOR}{EONIR_FAVOR}"/>
-  		<string id="49mLC4TQ" text="合作愉快。(用{ORIGINAL_PRESTIGE} 换取 {RETURN_FAVOR}{EONIR_FAVOR})"/>
+  		<string id="49mLC4TQ" text="合作愉快。(用{ORIGINAL_PRESTIGE}{PRESTIGE_ICON} 换取 {RETURN_FAVOR}{EONIR_FAVOR})"/>
   		<string id="qJGJQORn" text="帝国的雄心壮志需要在议会中得到体现。 (30点帝国威望换50点艾尼尔议会声望)"/>
   		<string id="Gd0FPuZ6" text="合作愉快"/>
   		<string id="apxKtpxU" text="我是选帝侯鲍里斯-托德布林格的使节，我代表米登领的利益，并在一定程度上代表整个帝国的利益。我们希望与艾尼尔保持和平的关系，建立在信任、贸易和相互尊重的基础上，这样我们都能从中受益"/>
@@ -912,8 +912,11 @@
 		<string id="psIX4EaF" text="解锁通往狮鹫林的路径 {ROOTUNLOCKCOST}{FORESTHARMONY}"/>
 		<string id="2RJWbPLl" text="前往狮鹫林 {WORLDROOTTRAVELCOST}{FORESTHARMONY}"/>
 		<string id="CScWjVsn" text="内化根须路径 {ROOTTRAVELUPGRADE}{FORESTHARMONY}"/>
+		<string id="2W2pFs3w" text="减少传送花费 {ROOTTRAVELUPGRADE}{FORESTHARMONY}"/>
 		<string id="qdG2Z0ui" text="建立返回时代橡树的路径 {ROOTRETURNUPGRADE}{FORESTHARMONY}"/>
+		<string id="x7vhDhJ4" text="返回时代橡树 {ROOTRETURNUPGRADE}{FORESTHARMONY}"/>
 		<string id="PhqPSaSF" text="治愈根须光环 {ROOTHEALUPGRADE}{FORESTHARMONY}"/>
+		<string id="b7huo6v0" text="回复所有部队和角色生命值 {ROOTHEALUPGRADE}{FORESTHARMONY}"/>
 		
   		<string id="tor_custom_settlement_we_party_size_info_str" text="已经解锁"/>
 	
@@ -924,8 +927,11 @@
 
   		<string id="yf7MFFAp" text="橡树枝条"/>
   		<string id="GRLjfdqm" text="建立分枝 {PARTYSIZEUPGRADECOST}"/>
+  		<string id="vCejqve6" text="+10%部队上限 {UPGRADEFAILEDREASON}"/>
   		<string id="EaB9NNhq" text="粗壮枝干 {HEALTHUPGRADECOST}"/>
+  		<string id="CWYEUFDS" text="+10%生命值上限 {UPGRADEFAILEDREASON}"/>
   		<string id="DFVQqXfB" text="繁盛枝叶 {GAINUPGRADECOST}"/>
+  		<string id="WI7t58Hc" text="+20%定居点每日森林精魄产出 {UPGRADEFAILEDREASON}"/>
 
 		<!-- ShrineMenuLogic -->
   		<string id="xprJh6ZA" text="亵渎神龛以获取黑暗能量。{GOD_NAME} 的追随者将会记住这一点"/>

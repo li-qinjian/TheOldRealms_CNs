@@ -965,13 +965,13 @@
 		<!--Custom Resource related ! -->
 		
 		<!--Forest Harmony ! -->
-        <string id="9rMUr460" text="邻帮符号"/>
-        <string id="4s4rEAqA" text="战舞者符号"/>
-        <string id="LiJRHeTU" text="树精符号"/>
-        <string id="Iyzet19E" text="奥莱恩符号"/>
-        <string id="pjqxlxBk" text="艾瑞尔符号"/>
-        <string id="v2n1Ty9B" text="杜尔苏符号"/>
-        <string id="BnM70s4C" text="流浪符号"/>
+        <string id="9rMUr460" text="邻帮符文"/>
+        <string id="4s4rEAqA" text="战舞者符文"/>
+        <string id="LiJRHeTU" text="树精符文"/>
+        <string id="Iyzet19E" text="奥莱恩符文"/>
+        <string id="pjqxlxBk" text="艾瑞尔符文"/>
+        <string id="v2n1Ty9B" text="杜尔苏符文"/>
+        <string id="BnM70s4C" text="流浪符文"/>
 
         <string id="str_tor_treesymbol_description_kithbandsymbol" text="你的队伍规模增加 50%，森林生命的收益减少 25%，部队薪资增加 15%。"/>
         <string id="str_tor_treesymbol_description_wardancersymbol" text="你和你的同伴获得额外 25% 生命值，伤口恢复速度加快 25%。所有部队治愈速度减慢 25%，森林生命获得速度减慢 25%。"/>

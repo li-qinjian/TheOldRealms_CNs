@@ -236,177 +236,102 @@ namespace TheOldRealms_CNs.Patches
                     {
                         case "You are not part of these people, begone.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=7YBSPfkG}You are not part of these people, begone.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You do not have the privilege to serve the council. You are of no use. (Low Renown).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=FGwwD1aC}You do not have the privilege to serve the council. You are of no use. (Low Renown).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Is there some way I can be of assistance?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=tzymiZRk}Is there some way I can be of assistance?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I bring quality goods to trade and wish to build my reputation amongst the High Council. Are you interested?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=fyQNpQvr}I bring quality goods to trade and wish to build my reputation amongst the High Council. Are you interested?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I find myself in need of quality goods to trade amongst the nobles of the Empire. Can you supply them?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=MpCfcjmn}I find myself in need of quality goods to trade amongst the nobles of the Empire. Can you supply them?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Our people need to make peace. What does it take to stop the war?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=kDY99VXI}Our people need to make peace. What does it take to stop the war?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Why are you here?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=X3aGZ7dk}Why are you here?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "That's all thank you.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=eAHu0CbA}That's all thank you.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "The Empire and the Council should make peace. Your people, neither ours will do this without hesitantion ({PEACE_COSTS}{EONIR_FAVOR})":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=PQY5EdTE}The Empire and the Council should make peace. Your people, neither ours will do this without hesitantion ({PEACE_COSTS}{EONIR_FAVOR})");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "My political power is limited. We became too demanding, you should ask another time":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=cO6n5WfZ}My political power is limited. We became too demanding, you should ask another time");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Understood.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=mPIYTfVu}Understood.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Let's do this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Ulszxwuw}Let's do this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I need to think about this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=iI5lXnvc}I need to think about this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We will see what we can do.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=GNNXg5Rh}We will see what we can do.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Obviously your offering the empire can benefit the Council.(Exchange {ORIGINAL_PRESTIGE} to {RETURN_FAVOR}{EONIR_FAVOR}) ":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=WCXQdbG1}Obviously your offering the empire can benefit the Council.(Exchange {ORIGINAL_PRESTIGE} to {RETURN_FAVOR}{EONIR_FAVOR}) ");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I am glad to make businesses with you(Exchanged {ORIGINAL_PRESTIGE} Prestige to {RETURN_FAVOR}{EONIR_FAVOR})":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=49mLC4TQ}I am glad to make businesses with you(Exchanged {ORIGINAL_PRESTIGE} Prestige to {RETURN_FAVOR}{EONIR_FAVOR})");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "The Empires ambitions need to way in the Council. (gain for 50 Council Favour 30 Prestige)":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=qJGJQORn}The Empires ambitions need to way in the Council. (gain for 50 Council Favour 30 Prestige)");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I am glad to make businesses with you.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Gd0FPuZ6}I am glad to make businesses with you.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "As an envoy of Graf Boris Todbringer I represent the interests of Middenland, and to a minor extent that of the Empire as a whole. We wish to maintain peaceful relations with Eonir, built on trust, trade and mutual respect so that we may all benefit.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=apxKtpxU}As an envoy of Graf Boris Todbringer I represent the interests of Middenland, and to a minor extent that of the Empire as a whole. We wish to maintain peaceful relations with Eonir, built on trust, trade and mutual respect so that we may all benefit.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You encroach upon our lands without heeding what is sacred, yet talk to us about respect? You do not belong here.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=64oLGj0y}You encroach upon our lands without heeding what is sacred, yet talk to us about respect? You do not belong here.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "It benefits neither of us to make enemies when they aren't needed, trade and peace can only benefit both our peoples.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=RGjuJ1YZ}It benefits neither of us to make enemies when they aren't needed, trade and peace can only benefit both our peoples.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "The problems of the empire are shared with the Eonir. We need to fight together side on side, all of our common enemies.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Ge8ealF5}The problems of the empire are shared with the Eonir. We need to fight together side on side, all of our common enemies.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We seek only to cooperate, to the mutual benefit of all involved. Conflict between our peoples serves to aid none but our enemies, surely you can agree with me on this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=nnBw7olg}We seek only to cooperate, to the mutual benefit of all involved. Conflict between our peoples serves to aid none but our enemies, surely you can agree with me on this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "My word carries weight, as does that of our Graf. I can ensure a state of peace and profitable trade between our nations, we may even be able to provide mercenaries should your lands ever be threatened. ...Think on it, we both have much to gain.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=4RiY4mbm}My word carries weight, as does that of our Graf. I can ensure a state of peace and profitable trade between our nations, we may even be able to provide mercenaries should your lands ever be threatened. ...Think on it, we both have much to gain.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Is there another way I can be of service?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=radDVKcA}Is there another way I can be of service?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         default:
@@ -438,184 +363,106 @@ namespace TheOldRealms_CNs.Patches
                     {
                         case "You are not part of these people, begone.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=7YBSPfkG}You are not part of these people, begone.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You do not have the previleg to serve the council. You are of no use. (Low Renown).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=FGwwD1aC}You do not have the previleg to serve the council. You are of no use. (Low Renown).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I am a servant of the Witchking, what can I do for you?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=uIvDWosG}I am a servant of the Witchking, what can I do for you?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We are surrounded by enemies, we seek your aid to sow chaos within their ranks to weaken them.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=JrdC1oeb}We are surrounded by enemies, we seek your aid to sow chaos within their ranks to weaken them.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I have a fine stock of prisoners to sell, should you be interested.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=o1lB63N5}I have a fine stock of prisoners to sell, should you be interested.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I have some lucrative raiding targets for you.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=3n5Cnyml}I have some lucrative raiding targets for you.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Why are you here?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=X3aGZ7dk}Why are you here?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "That's all thank you.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=eAHu0CbA}That's all thank you.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "A Khainite dagger can make all the difference, if it finds the right throat at the wrong time. Wars have started over less. Upon whose throat should our daggers fall? (Declare war between 2 factions ({FORCEWAR_PRICE}{EONIR_FAVOR})":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=NGCceVrl}A Khainite dagger can make all the difference, if it finds the right throat at the wrong time. Wars have started over less. Upon whose throat should our daggers fall? (Declare war between 2 factions ({FORCEWAR_PRICE}{EONIR_FAVOR})");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "The Witchking would not allow that. We should wait longer with such a request.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=UZo3nYU8}The Witchking would not allow that. We should wait longer with such a request.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Understood.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=mPIYTfVu}Understood.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Let's do this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Ulszxwuw}Let's do this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I need to think about this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=iI5lXnvc}I need to think about this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We will see what we can do.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=GNNXg5Rh}We will see what we can do.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "What a promising trade. This will be credited for your next negotiation with the Witch king I believe the Council will like this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=HHiiCtsY}What a promising trade. This will be credited for your next negotiation with the Witch king I believe the Council will like this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "...This will cost you influence with the council, but we are always in need of more slaves. where do you suggest our Black Arks to anchor?({SLAVERTIDE_PRICE}{EONIR_FAVOR})":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=UTriM8Hk}...This will cost you influence with the council, but we are always in need of more slaves. where do you suggest our Black Arks to anchor?({SLAVERTIDE_PRICE}{EONIR_FAVOR})");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Let's do this({SLAVERTIDE_PRICE}{EONIR_FAVOR}).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=fCQJqSAa}Let's do this({SLAVERTIDE_PRICE}{EONIR_FAVOR}).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I could see what I can do.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=tRsO1ecP}I could see what I can do.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I speak as an envoy of the rightful ruler of the Asur, and the Black Council. We may not always be aligned in our views but we believe both the Druchii and Eonir have much in common, and much to gain from one another.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=TxOHUiK0}I speak as an envoy of the rightful ruler of the Asur, and the Black Council. We may not always be aligned in our views but we believe both the Druchii and Eonir have much in common, and much to gain from one another.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You raid our coasts, enslave our people and yet have the audacity to stand before us, acting as if none of this has taken place!":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=E3hCoPqP}You raid our coasts, enslave our people and yet have the audacity to stand before us, acting as if none of this has taken place!");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I am skeptical, you come here with your own ambitions but to what end? How would hearing you speak now, benefit the Eonir?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=nZWxdrZl}I am skeptical, you come here with your own ambitions but to what end? How would hearing you speak now, benefit the Eonir?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "The Asur betrayed us and left us to die, I might not share your every sentiment Druchii, but I know you too suffer from our cousin's boundless arrogance.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Rh4DAYCW}The Asur betrayed us and left us to die, I might not share your every sentiment Druchii, but I know you too suffer from our cousin's boundless arrogance.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We are not your enemy, the opposite is true. Few share our bond of suffering at the hands of the Asur, few can understand our mutual plight. There are many ways we can coexist and thrive, together. - Join us, we have been scorned by our kin for far too long and this is the best path for our futures combined.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=v7OhAG4w}We are not your enemy, the opposite is true. Few share our bond of suffering at the hands of the Asur, few can understand our mutual plight. There are many ways we can coexist and thrive, together. - Join us, we have been scorned by our kin for far too long and this is the best path for our futures combined.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Your seas will be safe from raids and protected from any foe, the darkest desires of your people will be free of judgement and all we seek is influence over your council. - We merely wish to lessen the gap between our peoples so that we may stand against the Asur together, a sure and just cause, do you not agree?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=11Za94Wp}Your seas will be safe from raids and protected from any foe, the darkest desires of your people will be free of judgement and all we seek is influence over your council. - We merely wish to lessen the gap between our peoples so that we may stand against the Asur together, a sure and just cause, do you not agree?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Is there something else you require of me?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=YYWcCASK}Is there something else you require of me?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Is there something else the Witch king could do for you?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=rr9OOSKH}Is there something else the Witch king could do for you?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         default:
@@ -647,51 +494,30 @@ namespace TheOldRealms_CNs.Patches
                     {
                         case "You are not part of these people, begone.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=7YBSPfkG}You are not part of these people, begone.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You do not have the previleg to serve the council. You are of no use. (Low Renown).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=FGwwD1aC}You do not have the previleg to serve the council. You are of no use. (Low Renown).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Kneel before the envoy of the Asur and representative of the illustrious Pheonix King, Finubar the Seafarer. Speak and do so quickly.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=AFWTrARL}Kneel before the envoy of the Asur and representative of the illustrious Pheonix King, Finubar the Seafarer. Speak and do so quickly.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We desire to expand our trade networks, but lack the funding. Would Ulthuan be willing to invest in this endeavour?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=6YKVAKYp}We desire to expand our trade networks, but lack the funding. Would Ulthuan be willing to invest in this endeavour?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Eonir is threatened, we need soldiers to defend our homes and people, can you aid us?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=cEiP7pbA}Eonir is threatened, we need soldiers to defend our homes and people, can you aid us?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We seek the aid of your diplomats, tensions between the kingdoms of man is at a high and we seek to reverse this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=A62ouYQ4}We seek the aid of your diplomats, tensions between the kingdoms of man is at a high and we seek to reverse this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Why are you here?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=X3aGZ7dk}Why are you here?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "That's all thank you.":
@@ -710,9 +536,6 @@ namespace TheOldRealms_CNs.Patches
                             break;
                         case "We wait for another shipment of the tressure fleet, this might take a few days. Come back":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=IQyM2Ygt}We wait for another shipment of the tressure fleet, this might take a few days. Come back");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Understood.":
@@ -724,114 +547,66 @@ namespace TheOldRealms_CNs.Patches
                             break;
                         case "{ASUR_MONEYRETURN1}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY1}{EONIR_FAVOR}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=rVLwBWyI}{ASUR_MONEYRETURN1}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY1}{EONIR_FAVOR}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "{ASUR_MONEYRETURN2}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY2}{EONIR_FAVOR}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=MxYxCfQy}{ASUR_MONEYRETURN2}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY2}{EONIR_FAVOR}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "{ASUR_MONEYRETURN3}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY3}{EONIR_FAVOR}":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=mtsbvc69}{ASUR_MONEYRETURN3}{GOLD_ICON} for {ASUR_FAVORCOST_MONEY3}{EONIR_FAVOR}");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I need to think about this.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=iI5lXnvc}I need to think about this.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "There may be some amongst the Asur willing to fight, even if it is for our less civlised kin.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=ygGEZPSp}There may be some amongst the Asur willing to fight, even if it is for our less civlised kin.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Sure I accept (150 {EONIR_FAVOR}).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=CUOaO4iM}Sure I accept (150 {EONIR_FAVOR}).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We can put in a good word for you from one of our many embassies, the word of an Asur has much worth amongst men. With whom do you seek better relations?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=ZSGigdWT}We can put in a good word for you from one of our many embassies, the word of an Asur has much worth amongst men. With whom do you seek better relations?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You should wait a bit, good diplomacy requires patience":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=wmKmGU2e}You should wait a bit, good diplomacy requires patience");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Sure I accept (400 {EONIR_FAVOR}).":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=SfhXhq7W}Sure I accept (400 {EONIR_FAVOR}).");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "I am here as a representative of Ulthuan, and to stand as a reminder that the freedom and independence you enjoy is a most gracious gift given by the Pheonix King. A gift that can be rescinded at his discretion.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=RX1nYik1}I am here as a representative of Ulthuan, and to stand as a reminder that the freedom and independence you enjoy is a most gracious gift given by the Pheonix King. A gift that can be rescinded at his discretion.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "You abandoned us to die, then tried to take our lands by force. We have survived without Ulthuan until now and will continue to do so. Begone, 'kin'.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=gEtj3avH}You abandoned us to die, then tried to take our lands by force. We have survived without Ulthuan until now and will continue to do so. Begone, 'kin'.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Be mindful, our willingess to negotiate is not a sign that we have forgotten your transgressions, what do you come here to offer us?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=Bs6Et84t}Be mindful, our willingess to negotiate is not a sign that we have forgotten your transgressions, what do you come here to offer us?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We are kin and have been apart for far too long, we seek the help of the Asur and appreciate any that can be offered.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=3H7K7tnR}We are kin and have been apart for far too long, we seek the help of the Asur and appreciate any that can be offered.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "We are willing to offer aid in many forms, as long as it increases our influence within the council.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=8HSzi1pr}We are willing to offer aid in many forms, as long as it increases our influence within the council.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Ulthuan has connections across the Old World, should finances, a good word with an enemy or soldiers to defend your forest be needed, we can provide it. For the agreed price, of course.":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=1uowtL5k}Ulthuan has connections across the Old World, should finances, a good word with an enemy or soldiers to defend your forest be needed, we can provide it. For the agreed price, of course.");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         case "Is there something else I could do for you?":
                             yield return new CodeInstruction(OpCodes.Ldstr, "{=gsyVDcXQ}Is there something else I could do for you?");
-                            yield return new CodeInstruction(OpCodes.Ldnull);
-                            yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
-                            yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
                             found = true;
                             break;
                         default:
