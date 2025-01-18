@@ -841,19 +841,17 @@
 
 		<!-- CursedSiteMenuLogic -->
 		<string id="lg9LtwR9" text="汲取黑暗魔法的凝固精华，将一些幽灵束缚于你的意志之下"/>
-  		<string id="tor_custom_settlement_menu_cursed_site_ghost_str" text="感应森林精魂，需要100{FORESTHARMONY}。"/>
-  		<string id="tor_custom_settlement_menu_leave_str" text="离开"/>
+		<string id="7mQlwAIK" text="利用暗能量强化你的不死仆从。(需要100{DARKENERGYICON})"/>
 		<string id="tor_custom_settlement_cursed_site_purify_progress_str" text="举行净化仪式"/>
   		<string id="tor_custom_settlement_cursed_site_ghosts_progress_str" text="举行缚灵仪式"/>
-  		<string id="7TVVVUIT" text="强化你的爪牙……"/>
-  		<string id="tor_custom_settlement_menu_continue_str" text="继续"/>
+  		<string id="7TVVVUIT" text="强化你的不死单位..."/>
 
   		<string id="tor_custom_settlement_cursed_site_ward_text_str" text="目前，有一些防护措施可以阻挡诅咒的邪恶能量。这些防护罩将能维持{CURSEDSITE_WARDHOURS}小时。"/>
   		<string id="tor_custom_settlement_cursed_site_purify_text_str" text="以{GOD_NAME}之名，举行净化仪式。"/>
   		<string id="tor_custom_settlement_cursed_site_purify_fail_text_str" text="至少需要 10 名健康的士兵才能举行仪式。"/>
   		<string id="tor_custom_settlement_cursed_site_not_necromancer_text_str" text="你不是死灵法师。"/>
   		<string id="tor_custom_settlement_cursed_site_not_enough_free_slots_text_str" text="你的队伍空间不足。"/>
-  		<string id="tor_custom_settlement_cursed_site_once_a_day_text_str" text="{DEFILE_COOLDOWN_DAYS}天只能执行一次。"/>
+  		<string id="8K57sS87" text="每天只能执行一次。"/>
 
   		<string id="mCQvdzbd" text="你的队伍中没有不死生物"/>
   		<string id="AaIMiUaa" text="你没有足够的黑暗能量({DARKENERGYICON})"/>
@@ -862,7 +860,7 @@
   		<string id="tor_custom_settlement_cursed_site_purify_wounded_result_str" text="进行仪式时，你的士兵一直待在被诅咒的地方，受影响严重，{PURIFICATION_WOUNDED_RESULT_NUMBER}名士兵严重受伤。"/>
   		<string id="tor_custom_settlement_cursed_site_ghosts_result_str" text="你成功束缚了{GHOST_RESULT_NUMBER}个灵魂归于你的指挥。"/>
 
-  		<string id="7SIc63va" text="你的爪牙的 {UNDEAD_UPGRADES} 变得更强了"/>
+  		<string id="TdjEZWZg" text="{UNDEAD_UPGRADES}，这些死灵单位变得更加强大了"/>
 
 		<!-- OakOfAgesMenuLogic -->
   		<string id="cPstkNrN" text="森林精魂"/>

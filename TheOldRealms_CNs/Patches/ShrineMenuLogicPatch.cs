@@ -33,7 +33,7 @@ namespace TheOldRealms_CNs.Patches
                             found = true;
                             break;
                         case "{tor_custom_settlement_menu_leave_str}Leave...":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=tor_custom_settlement_menu_leave_str}Leave...");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=13Vft5qv}Leave...");
                             yield return new CodeInstruction(OpCodes.Ldnull);
                             yield return new CodeInstruction(OpCodes.Newobj, AccessTools.Constructor(typeof(TextObject), new Type[] { typeof(string), typeof(Dictionary<string, object>) }));
                             yield return new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Object), nameof(Object.ToString)));
