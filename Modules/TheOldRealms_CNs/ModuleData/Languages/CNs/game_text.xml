@@ -372,6 +372,9 @@
   		<string id="tor_enum_PrayerLevel_to_textObject_Adept" text="中级"/>
   		<string id="tor_enum_PrayerLevel_to_textObject_Grand" text="高级"/>
 
+		<!-- CareerAbilityHUD_VM -->
+  		<string id="ABfcRrsO" text="职业技能充能："/>
+
 		<!-- Lores -->
   		<string id="JX7zCt89" text="基础魔法"/>
   		<string id="2FOZvUat" text="火焰系魔法"/>
