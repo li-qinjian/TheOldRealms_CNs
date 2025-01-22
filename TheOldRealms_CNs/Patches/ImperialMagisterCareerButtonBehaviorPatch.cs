@@ -334,7 +334,7 @@ namespace TheOldRealms_CNs.Patches
                             found = true;
                             break;
                         case "40% magical dmg., slows enemies on hit":
-                            yield return new CodeInstruction(OpCodes.Ldstr, "{=f5GjfKTO}40% magical dmg., slows enemies on hit");
+                            yield return new CodeInstruction(OpCodes.Ldstr, "{=dq8wdgc4}40% magical dmg., slows enemies on hit");
                             found = true;
                             break;
                         case "Mighty Ghost Amber":

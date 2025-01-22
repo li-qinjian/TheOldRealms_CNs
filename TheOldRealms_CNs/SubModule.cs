@@ -44,7 +44,7 @@ namespace TheOldRealms_CNs
 
         private Assembly ResolveDllPath(object sender, ResolveEventArgs args)
         {
-            string dllPath = ModuleHelper.GetModuleFullPath("TheOldRealms_CNs") + "bin/Win64_Shipping_Client/" + new AssemblyName(args.Name).Name + ".dll";
+            string dllPath = ModuleHelper.GetModuleFullPath(ModuleName) + "bin/Win64_Shipping_Client/" + new AssemblyName(args.Name).Name + ".dll";
             if (File.Exists(dllPath))
             {
                 return Assembly.LoadFrom(dllPath);

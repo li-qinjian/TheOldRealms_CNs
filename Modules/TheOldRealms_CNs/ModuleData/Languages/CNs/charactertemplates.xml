@@ -5,7 +5,7 @@
 	</tags>
 	<strings>
 		<string id="str_tor_wanderer_empire_0" text="烈焰法师{FIRSTNAME}"/>
-		<string id="str_tor_wanderer_empire_1" text="战士牧师{FIRSTNAME}"/>
+		<string id="str_tor_wanderer_empire_1" text="战斗牧师{FIRSTNAME}"/>
 		<string id="str_tor_wanderer_empire_2" text="猎巫人{FIRSTNAME}"/>
 		<string id="str_tor_wanderer_empire_3" text="光明法师{FIRSTNAME}"/>
 		<string id="str_tor_wanderer_empire_4" text="天堂法师{FIRSTNAME}"/>

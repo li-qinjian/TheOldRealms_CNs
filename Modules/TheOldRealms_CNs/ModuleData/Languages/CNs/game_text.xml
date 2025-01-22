@@ -8,6 +8,7 @@
 		<string id="2Pn37PsW" text="返回"/>
 		<string id="13Vft5qv" text="离开"/>
 		<string id="oUukZLPN" text="继续"/>
+		<string id="v8KWNkEo" text="确认"/>
 		<string id="i2o7tfXd" text="取消"/>
 		
   		<string id="30yE54FF" text="中古战锤汉化已加载 "/>
@@ -406,7 +407,6 @@
 		<!-- Character Creation Chose Lore -->
   		<string id="dNakXeqI" text="选择专精"/>
   		<string id="3Ol7cDT7" text="选择一个你专精的魔法系"/>
-  		<string id="v8KWNkEo" text="确认"/>
   		<string id="EyVZ8Quk" text="成功掌握："/>
   		<string id="ZsYsnFJy" text="你必须做出选择"/>
 
@@ -789,7 +789,7 @@
   		<string id="XFekXOjF" text="教我阿斯莱众多路径中的一条"/>
   		<string id="WUFOXnb5" text="一名吟咒者，可以选择织暗者之路或者织明者之路。明智地选择。"/>
   		<string id="s90pKC0r" text="让我来选择"/>
-  		<string id="7RKg4vLq" text="你可以学习森林魔法的其他方面。明智地选择（总共不超过 2 种额外的法术知识，总计 6 种）"/>
+  		<string id="7RKg4vLq" text="你可以学习特殊的黑暗魔法和高等魔法，以及其他魔法之风（总计不能超过6种魔法之风）"/>
   		<string id="awk9gy9J" text="愿阿斯莱在你穿越她花园的所有道路上引导你"/>
   		<string id="0ShfMDuI" text="我觉得 {SPELLSINGERNAME} 已经达到了一个新的魔法潜力水平，是时候培养一位新的织法者了"/>
   		<string id="6wuFOPb2" text="阿斯莱与你同在"/>
