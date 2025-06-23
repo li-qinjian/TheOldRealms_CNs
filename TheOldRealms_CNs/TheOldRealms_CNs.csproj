@@ -3,10 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<Platforms>x64;AnyCPU</Platforms>
-	<OutputPath>$(GamePath)\Modules\TheOldRealms_CNs\bin\Win64_Shipping_Client</OutputPath>
+	<OutputPath>..\Modules\TheOldRealms_CNs\bin\Win64_Shipping_Client</OutputPath>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Patches\OakOfAgesMenuLogicInlineMethodsPatch.cs" />
+    <Compile Remove="Patches\OakOfAgesMenuLogicPatch.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Lib.Harmony" Version="2.3.3" />

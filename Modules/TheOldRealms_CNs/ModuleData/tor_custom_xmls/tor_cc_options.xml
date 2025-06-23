@@ -122,10 +122,10 @@
 		<SkillsToIncrease>
 			<string>OneHanded</string>
 			<string>Trade</string>
-			<string>Tactics</string>
+			<string>Athletics</string>
 			<string>Crafting</string>
 		</SkillsToIncrease>
-		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option8_label_str}Blacksmith apprentice</OptionText>
 		<OptionFlavourText>{=tor_cc_option8_text_str}Conflict was never ending for the Empire and neither was the work of its Blacksmiths, you chose to turn your strength into a trade as you bent metals to your will under the tutelage of the local smith. Your first sword may have been wonky but it was still sharp!</OptionFlavourText>
 	</CharacterCreationOption>

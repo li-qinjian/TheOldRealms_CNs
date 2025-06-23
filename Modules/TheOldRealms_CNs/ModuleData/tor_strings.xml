@@ -464,7 +464,10 @@
 		<string id="str_crafting_template.tor_mace_template" text="{=b1ppRDaa}TOR-Maces"/>
 		<string id="str_crafting_template.tor_twohandedmace" text="{=4jRr3XSO}TOR-Two-Handed Mace"/>
 		<string id="str_crafting_template.tor_lance_template" text="{=34DzcunV}TOR-Lances"/>
-		
+		<!-- Missed -->
+		<string id="str_crafting_template.tor_large_monster_weapon_template" text="{=dQw4w9Wg}TOR-Large-Monster weapons"/>
+		<string id="str_crafting_template.tor_dual_wield_mainhand" text="{=hwBNKrsp}TOR-Dual-Wield Mainhand"/>
+    
 		<string id="str_weapon_usage.TorOneHandedSword" text="{=Nfq313J1}One Handed Sword"/>
 		<string id="str_weapon_usage.TorTwoHandedSword" text="{=xSvE3at3}Two Handed Sword"/>
 		<string id="str_weapon_usage.TorRapier" text="{=5poglvyQ}Rapier"/>
@@ -479,6 +482,10 @@
 		<string id="str_weapon_usage.TorScythe" text="{=6qr71Ohl}Scythe"/>
 		<string id="str_weapon_usage.TorLance" text="{=8wXc4vAj}Lance"/>
 		<string id="str_weapon_usage.TorLance_Couchable" text="{=LYV9PY0I}Couche Lance"/>
+		<!-- Missed -->
+		<string id="str_weapon_usage.TorLargeMonsterWeapon" text="{=Q9v8X3Zp}Large Monster weapons"/>
+		<string id="str_weapon_usage.TorDualWieldMainHand" text="{=5sDe9jHK}Dual Wield Mainhand"/>
+
 		
 		<!--inventory-->
 		<string id="str_inventory_weapon.22" text="{=YmmQF8Mh}Pistol"/>

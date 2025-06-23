@@ -445,7 +445,8 @@
   		<string id="b1ppRDaa" text="TOR-钉锤"/>
   		<string id="4jRr3XSO" text="TOR-双手锤"/>
   		<string id="34DzcunV" text="TOR-长枪"/>
-  		<!-- <string id="hwBNKrsp" text="TOR-双持"/> -->
+  	    <string id="hwBNKrsp" text="TOR-双持"/>
+		<string id="dQw4w9Wg" text="TOR-巨兽武器"/>
 		
   		<string id="Nfq313J1" text="单手剑"/>
   		<string id="xSvE3at3" text="双手剑"/>
@@ -461,8 +462,9 @@
   		<string id="6qr71Ohl" text="镰刀"/>
   		<string id="8wXc4vAj" text="长矛"/>
   		<string id="LYV9PY0I" text="骑枪冲刺"/>
-  		<!-- <string id="5sDe9jHK" text="双持"/> -->
-
+  		<string id="5sDe9jHK" text="双持"/>
+        <string id="Q9v8X3Zp" text="巨兽武器"/>
+        
 		<!--inventory-->
   		<string id="YmmQF8Mh" text="手枪"/>
   		<string id="wHaD9McE" text="火枪"/>
