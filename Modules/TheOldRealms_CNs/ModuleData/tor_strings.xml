@@ -480,6 +480,9 @@
 		<string id="str_weapon_usage.TorLance" text="{=8wXc4vAj}Lance"/>
 		<string id="str_weapon_usage.TorLance_Couchable" text="{=LYV9PY0I}Couche Lance"/>
 		
+		<string id="str_weapon_usage.TorDualWieldMainHand" text="{=hwBNKrsp}Dual Wield Mainhand"/>
+		<string id="str_weapon_usage.TorLargeMonsterWeapon" text="{=ZbRjH4cY}Large Monster weapons"/>
+		
 		<!--inventory-->
 		<string id="str_inventory_weapon.22" text="{=YmmQF8Mh}Pistol"/>
 		<string id="str_inventory_weapon.23" text="{=wHaD9McE}Handgun"/>
