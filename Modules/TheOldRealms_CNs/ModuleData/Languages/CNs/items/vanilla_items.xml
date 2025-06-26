@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="简体中文"/>
+	</tags>
+	<strings>
+		<string id="b4c3d2e1" text="游侠腕甲"/>
+		<string id="e5f6g7h8" text="经典提利尔轻甲"/>
+		<string id="i9j0k1l2" text="提利尔肩带古典轻甲"/>
+		<string id="m3n4o5p6" text="草原战冠"/>
+		<string id="q7r8s9t0" text="装饰头盔"/>
+		<string id="u1v2w3x4" text="巴托尼亚马驹"/>
+		<string id="y5z6a7b8" text="巴托尼亚矮种马"/>
+		<string id="c9d0e1f2" text="帝国战马"/>
+		<string id="g3h4i5j6" text="诺斯卡快马"/>
+		<string id="k7l8m9n0" text="巴托尼亚纯血马"/>
+		<string id="o1p2q3r4" text="北方荒原布制马鞍"/>
+		<string id="s5t6u7v8" text="北方荒原普通马鞍"/>
+		<string id="w9x0y1z2" text="经典提利尔铁短剑"/>
+		<string id="a3b4c5d6" text="经典提利尔窄槽短剑"/>
+		<string id="e7f8g9h0" text="经典提利尔短剑"/>
+		<string id="i1j2k3l4" text="经典提利尔精钢短剑"/>
+		<string id="m5n6o7p8" text="精炼陨铁长矛"/>
+		<string id="q9r0s1t2" text="陨铁长矛"/>
+		<string id="u3v4w5x6" text="轻型短矛"/>
+		<string id="y7z8a9b0" text="轻骑兵短矛"/>
+		<string id="c1d2e3f4" text="马穆鲁克次等矛"/>
+		<string id="g5h6i7j8" text="骑士次等矛"/>
+		<string id="k9l0m1n2" text="亲卫次等矛"/>
+		<string id="o3p4q5r6" text="重型骑士次等矛"/>
+		<string id="s7t8u9v0" text="重型亲卫次等矛"/>
+		<string id="w1x2y3z4" text="经典提利尔装饰短剑"/>
+		<string id="a5b6c7d8" text="经典提利尔陨铁短剑"/>
+		<string id="e9f0g1h2" text="经典提利尔环柄短剑"/>
+		<string id="i3j4k5l6" text="基斯里夫宽槽巨剑"/>
+		<string id="m7n8o9p0" text="巴托尼亚山地剑"/>
+		<string id="q1r2s3t4" text="陨铁双手剑"/>
+		<string id="u5v6w7x8" text="陨铁战剑"/>
+		<string id="y9z0a1b2" text="简单基斯里夫弯刀"/>
+		<string id="c3d4e5f6" text="经典提利尔铁短剑"/>
+
+    </strings>
+</base>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ItemAttributeOverrides>
+    <ItemAttributeOverride id="battania_noble_bracers" name="{=b4c3d2e1}Ranger Bracers" culture="Culture.battania"/>
+    <ItemAttributeOverride id="empire_warrior_padded_armor_f" name="{=e5f6g7h8}Classical Tilean Light Armor" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_warrior_padded_armor_g" name="{=i9j0k1l2}Classical Tilean Light Armor with Straps" culture="Culture.empire"/>
+    <ItemAttributeOverride id="khuzait_battle_crown" name="{=m3n4o5p6}Steppes Battle Crown" culture="Culture.khuzait"/>
+    <ItemAttributeOverride id="sturgian_battle_crown" name="{=q7r8s9t0}Decorated Helmet" culture="Culture.sturgia"/>
+    <ItemAttributeOverride id="battania_horse_tournament" name="{=u1v2w3x4}Bretonnian Pony" culture="Culture.battania"/>
+    <ItemAttributeOverride id="battania_horse" name="{=y5z6a7b8}Bretonnian Hobby" culture="Culture.battania"/>
+    <ItemAttributeOverride id="t2_empire_horse" name="{=c9d0e1f2}Empire Charger" culture="Culture.empire"/>
+    <ItemAttributeOverride id="t3_sturgia_horse" name="{=g3h4i5j6}Norscan Trotter" culture="Culture.sturgia"/>
+    <ItemAttributeOverride id="noble_horse_battania" name="{=k7l8m9n0}Bretonnian Thoroughbred" culture="Culture.battania"/>
+    <ItemAttributeOverride id="desert_cloth_harness" name="{=o1p2q3r4}Desert Nomadic Cloth Saddle" culture="Culture.aserai"/>
+    <ItemAttributeOverride id="aseran_village_harness" name="{=s5t6u7v8}Desert Nomadic Common Saddle" culture="Culture.aserai"/>
+    <ItemAttributeOverride id="empire_sword_1_t2" name="{=w9x0y1z2}Classical Tilean Iron Shortsword" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_sword_2_t3" name="{=a3b4c5d6}Classical Tilean Shortsword with Narrow Fuller" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_sword_3_t3" name="{=e7f8g9h0}Classical Tilean Shortsword" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_sword_4_t4" name="{=i1j2k3l4}Classical Tilean Fine Steel Shortsword" culture="Culture.empire"/>
+    <ItemAttributeOverride id="southern_spear_3_t4" name="{=m5n6o7p8}Long Gromril Tipped Spear" culture="Culture.aserai"/>
+    <ItemAttributeOverride id="thamaskene_pike_t4" name="{=q9r0s1t2}Gromril Pike"/>
+    <ItemAttributeOverride id="vlandia_lance_1_t3" name="{=u3v4w5x6}Light Demilance" culture="Culture.vlandia"/>
+    <ItemAttributeOverride id="empire_lance_1_t3" name="{=y7z8a9b0}Light Cavalry Demilance" culture="Culture.empire"/>
+    <ItemAttributeOverride id="aserai_lance_1_t5" name="{=c1d2e3f4}Mamluke Demilance" culture="Culture.aserai"/>
+    <ItemAttributeOverride id="vlandia_lance_2_t4" name="{=g5h6i7j8}Knight Demi-lance" culture="Culture.vlandia"/>
+    <ItemAttributeOverride id="sturgia_lance_1_t4" name="{=k9l0m1n2}Druzhina Demilance" culture="Culture.sturgia"/>
+    <ItemAttributeOverride id="vlandia_lance_3_t5" name="{=o3p4q5r6}Heavy Knight Demi-lance" culture="Culture.vlandia"/>
+    <ItemAttributeOverride id="sturgia_lance_2_t5" name="{=s7t8u9v0}Heavy Druzhina Demilance" culture="Culture.sturgia"/>
+    <ItemAttributeOverride id="empire_noble_sword_1_t5" name="{=w1x2y3z4}Classical Tilean Decorated Shortsword" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_noble_sword_2_t5" name="{=a5b6c7d8}Classical Tilean Gromril Shortsword" culture="Culture.empire"/>
+    <ItemAttributeOverride id="empire_noble_sword_3_t5" name="{=e9f0g1h2}Classical Tilean Shortsword with Ring Pommel" culture="Culture.empire"/>
+    <ItemAttributeOverride id="battania_2hsword_3_t3" name="{=i3j4k5l6}Kislevite Wide Fullered Greatsword" culture="Culture.battania"/>
+    <ItemAttributeOverride id="battania_2hsword_5_t5" name="{=m7n8o9p0}Bretonnian Mountain Blade" culture="Culture.battania"/>
+    <ItemAttributeOverride id="vlandia_2hsword_2_t5" name="{=q1r2s3t4}Gromril Steel Two Hander" culture="Culture.vlandia"/>
+    <ItemAttributeOverride id="sturgia_noble_sword_1_t5" name="{=u5v6w7x8}Gromril Steel Warsword" culture="Culture.sturgia"/>
+    <ItemAttributeOverride id="simple_back_sword_t2" name="{=y9z0a1b2}Simple Kislevite Scimitar" culture="Culture.khuzait"/>
+    <ItemAttributeOverride id="iron_spatha_sword_t2" name="{=c3d4e5f6}Classical Tilean Iron Shortsword" culture="Culture.empire"/>
+</ItemAttributeOverrides>
