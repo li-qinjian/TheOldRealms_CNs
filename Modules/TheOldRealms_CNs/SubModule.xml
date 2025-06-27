@@ -85,6 +85,15 @@
 				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="tor_pre_items"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+                <GameType value = "EditorGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
 		<XmlNode>
 			<XmlName id="Religions" path="tor_religions" />
 			<IncludedGameTypes>
