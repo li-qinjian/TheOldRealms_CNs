@@ -5,7 +5,6 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match="Item[@Type='Banner']"/>
 
 	<xsl:variable name="data" select="document('xslt_changes.xml')/ItemAttributeOverrides/ItemAttributeOverride"/>
 
