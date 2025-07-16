@@ -1208,6 +1208,8 @@
 
         <string id="inky_overturned_cart_helpextort_3_str" text="你告诉{inky_Profession}，他不必如此谦虚。他显然是个富裕的人，完全可以轻松提供{inky_RewardText}作为感谢。"/>
         <string id="inky_overturned_cart_after_Lift_Medicine_3_str" text="你告诉{inky_Profession}，他不必如此谦虚。他显然是个富裕的人，完全可以轻松提供{inky_RewardText}作为感谢。"/>
-
+		
+		<string id="sfabt_TORBehaviorDefend" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在坚守阵地。"/>
+		<string id="sfabt_TORBehaviorProtectArtillery" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在保护火炮。"/>
   </strings>
 </base>
