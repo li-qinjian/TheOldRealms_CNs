@@ -28,7 +28,7 @@
                 </beard_tags>
             </face>
             <Traits>
-                <Trait id="HopliteFightingSkills" value="3" />
+                <Trait id="HopliteFightingSkills" value="5" />
                 <!-- <Trait id="Manager" value="6" /> -->
                 <Trait id="EngineerSkills" value="9" />
                 <Trait id="Blacksmith" value="4" />
@@ -47,11 +47,16 @@
     <xsl:template match="NPCCharacter[@id='tor_wanderer_empire_6']">
         <NPCCharacter id="tor_wanderer_empire_6" default_group="infantry" occupation="Wanderer" culture="Culture.empire" voice="curt" age="21" is_female="true" is_template="true" is_hero="false">
             <xsl:attribute name="name">
-                <xsl:text>{=tor_wanderer_empire_6}{FIRSTNAME} the Priestess of Shallya</xsl:text>
+                <xsl:text>{=str_tor_wanderer_empire_6}{FIRSTNAME} the Priestess of Shallya</xsl:text>
             </xsl:attribute>
             <face>
                 <BodyProperties version="4" age="22.24" weight="0.2002" build="0.1082"  key="0000EC03521430047E8994576364769494E588557BB77E117E774CB6879A116701B236130B47521000000000000000000000000000000000000000007F7C4003"  />
             </face>
+            <skills>
+                <skill
+                    id="OneHanded"
+                    value="100" />
+            </skills>
             <Traits>
                 <Trait id="ArcherFIghtingSkills" value="3" />
                 <Trait id="Surgeon" value="8" />
@@ -103,6 +108,11 @@
             <face>
                 <BodyProperties version="4" age="22.42" weight="0.0262" build="0.0386" key="0002140FD114200403877354C044644083F889B5A8AB52102E72593189E6060200A105030A420574000000000000000000000000000000000000000057581003" />
             </face>
+            <skills>
+                <skill
+                    id="OneHanded"
+                    value="100" />
+            </skills>
             <Traits>
                 <Trait id="ArcherFIghtingSkills" value="3" />
                 <Trait id="Manager" value="5" />
@@ -122,18 +132,22 @@
     <xsl:template match="NPCCharacter[@id='tor_wanderer_eonir_0']">
         <NPCCharacter id="tor_wanderer_eonir_0" default_group="infantry" occupation="Wanderer" culture="Culture.eonir" voice="curt" age="22" race="elf" is_template="true" is_hero="false">
             <xsl:attribute name="name">
-                <xsl:text>{=tor_wanderer_eonir_0}{FIRSTNAME} the Ghost Strider</xsl:text>
+                <xsl:text>{=str_tor_wanderer_eonir_0}{FIRSTNAME} the Ghost Strider</xsl:text>
             </xsl:attribute>
             <face>
                 <face_key_template value="BodyProperty.male_wood_elf" />
             </face>
+            <skills>
+                <skill
+                    id="TwoHanded"
+                    value="100" />
+            </skills>
             <Traits>
-                <Trait id="Commander" value="1" />
                 <Trait id="Calculating" value="5" />
                 <Trait id="Valor" value="-1" />
                 <Trait id="RogueSkills" value="-1" />
-                <Trait id="ScoutSkills" value="7" />
-                <Trait id="ArcherFIghtingSkills" value="6" />
+                <Trait id="ScoutSkills" value="15" />
+                <Trait id="ArcherFIghtingSkills" value="7" />
             </Traits>
             <Equipments>
                 <EquipmentSet id="tor_eo_ghoststrider_template" />
