@@ -28,14 +28,14 @@
                 </beard_tags>
             </face>
             <Traits>
-                <Trait id="HopliteFightingSkills" value="5" />
+                <Trait id="HopliteFightingSkills" value="2" />
                 <!-- <Trait id="Manager" value="6" /> -->
-                <Trait id="EngineerSkills" value="9" />
-                <Trait id="Blacksmith" value="4" />
+                <Trait id="EngineerSkills" value="12" />
+                <Trait id="Blacksmith" value="1" />
                 <Trait id="Calculating" value="1" />
                 <Trait id="Mercy" value="1" />
                 <Trait id="Valor" value="1" />
-                <Trait id="Gunner" value="7" />
+                <Trait id="Gunner" value="5" />
             </Traits>
             <Equipments>
                 <EquipmentSet id="tor_engineer_companion_template" />
@@ -55,15 +55,15 @@
             <skills>
                 <skill
                     id="OneHanded"
-                    value="100" />
+                    value="50" />
             </skills>
             <Traits>
-                <Trait id="ArcherFIghtingSkills" value="3" />
-                <Trait id="Surgeon" value="8" />
+                <Trait id="ArcherFIghtingSkills" value="2" />
+                <Trait id="Surgeon" value="12" />
                 <Trait id="Calculating" value="1" />
                 <Trait id="Mercy" value="5" />
                 <Trait id="Valor" value="7" />
-                <Trait id="ShallyaDevoted" value="7" />
+                <Trait id="ShallyaDevoted" value="1" />
             </Traits>
             <Equipments>
                 <EquipmentSet id="tor_priestess_of_shallya_template" />
@@ -106,21 +106,26 @@
                 <xsl:text>{=str_tor_wanderer_bretonnia_1}{FIRSTNAME} the Damsel of the Lady</xsl:text>
             </xsl:attribute>
             <face>
-                <BodyProperties version="4" age="22.42" weight="0.0262" build="0.0386" key="0002140FD114200403877354C044644083F889B5A8AB52102E72593189E6060200A105030A420574000000000000000000000000000000000000000057581003" />
+                <BodyProperties version="4" age="22.42" weight="0.0262" build="0.0386" key="00006807104410036436583353C5743893B76C7627786754569AB47979575AE801E776130E7A225F00000000000000000000000000000000000000001DDC1083" />
             </face>
             <skills>
                 <skill
                     id="OneHanded"
-                    value="100" />
+                    value="75" />
+                <skill
+                    id="Trade"
+                    value="25" />
+                <skill
+                    id="Steward"
+                    value="125" />
             </skills>
             <Traits>
-                <Trait id="ArcherFIghtingSkills" value="3" />
-                <Trait id="Manager" value="5" />
+                <Trait id="ArcherFIghtingSkills" value="2" />
                 <Trait id="Surgeon" value="1" />
                 <Trait id="Calculating" value="3" />
                 <Trait id="Mercy" value="1" />
                 <Trait id="Valor" value="1" />
-                <Trait id="SpellCasterSkills" value="7" />
+                <Trait id="SpellCasterSkills" value="3" />
             </Traits>
             <Equipments>
                 <EquipmentSet id="tor_prophetess_template" />
@@ -140,14 +145,14 @@
             <skills>
                 <skill
                     id="TwoHanded"
-                    value="100" />
+                    value="75" />
             </skills>
             <Traits>
                 <Trait id="Calculating" value="5" />
                 <Trait id="Valor" value="-1" />
                 <Trait id="RogueSkills" value="-1" />
                 <Trait id="ScoutSkills" value="15" />
-                <Trait id="ArcherFIghtingSkills" value="7" />
+                <Trait id="ArcherFIghtingSkills" value="3" />
             </Traits>
             <Equipments>
                 <EquipmentSet id="tor_eo_ghoststrider_template" />
