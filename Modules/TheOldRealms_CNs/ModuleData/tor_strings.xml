@@ -847,6 +847,15 @@
 		<string id="backstory_d.tor_wanderer_woodelf_2" text="{=Vqz4uXnn}I am adept in the arts of survival, disruption, and ambush. I can approach my quarry, strike swiftly, and vanish before its body hits the ground. Alternatively, I can subtly lead it into one of my traps."/>
 		<string id="generic_backstory.tor_wanderer_woodelf_2" text="{=I07I8XnY}I have but one request. Although I seldom leave the forest, when I do, I seek the pleasures of civilised life. A fine wine in the tavern, pleasant company... I trust your group can provide these comforts."/>
 		
+		<string id="prebackstory.tor_wanderer_chaos_0" text="{=!}黑暗诸神带你来见我，凡人。" />
+		<string id="backstory_a.tor_wanderer_chaos_0" text="{=!}我是混沌神选，受到毁灭之力的祝福。从我在严酷废土诞生的那一刻起，我就被标记为伟大的存在。诸神对我低语他们的秘密，而我听从了他们的召唤。" />
+		<string id="backstory_b.tor_wanderer_chaos_0" text="{=!}我已经走过诅咒之路并变得更强。当弱者紧抱他们虚假的希望和微不足道的道德时，我拥抱了混沌的真理，并获得了超越凡人理解的力量。" />
+		<string id="backstory_c.tor_wanderer_chaos_0" text="{=!}很少有凡人能理解流淌在我血管中的力量。黑暗诸神的祝福如熔铁般在我体内奔流。" />
+		<string id="response_1.tor_wanderer_chaos_0" text="{=!}你的自信令人...不安" />
+		<string id="response_2.tor_wanderer_chaos_0" text="{=!}是什么驱使你离开废土？" />
+		<string id="backstory_d.tor_wanderer_chaos_0" text="{=!}我是战争与毁灭的大师。别人看到障碍的地方，我看到的是大屠杀的机会。我的刀刃品尝过无数敌人的鲜血，我的盔甲承载着千次战斗的痕迹。弱者在我面前逃跑，强者倒在我的威力之下。" />
+		<string id="generic_backstory.tor_wanderer_chaos_0" text="{=!}在为你效力时我只寻求一样东西——传播混沌并向黑暗诸神证明我价值的机会。给我敌人去粉碎，给我战斗去赢得，我会忠实地为你服务。但如果你背叛我，你将了解为什么连恶魔都畏惧神选。" />
+
 		<!-- Religions -->
 		<string id="tor_religion_blessing_effect_description.cult_of_ulric" text="{=n6ZASJ3A}Earn 20% more xp from battles."/> 
 
