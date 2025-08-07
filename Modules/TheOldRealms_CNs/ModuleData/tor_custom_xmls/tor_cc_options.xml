@@ -158,9 +158,9 @@
 	<CharacterCreationOption Id="option11" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_free_company_militiaman_3">
 		<SkillsToIncrease>
 			<string>OneHanded</string>
-			<string>Gunpowder</string>
+			<string>Polearm</string>
 			<string>TwoHanded</string>
-			<string>Bow</string>
+			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option11_label_str}Free Company Militiaman</OptionText>

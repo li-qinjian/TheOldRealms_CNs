@@ -167,7 +167,7 @@
                 <xsl:text>{=str_tor_wanderer_woodelf_0}{FIRSTNAME} the Spellsinger</xsl:text>
             </xsl:attribute>
             <face>
-                <BodyProperties version="4" age="22" weight="0" build="0.2749" key="0015500B8758300866885396977479B85B26577487A3463A886475B28A788B17DBE416030CA4364C904C94B469A87884000000000000000C0000000035A44003" />
+                <BodyProperties version="4" age="22" weight="0.0185" build="0.1576"  key="0015500A4458300866885396977479B85B26577487A3463A886475B28A788B170001060307A4364C2006747465F75C1100000000000000070000000028EC4003"  />
             </face>
             <Traits>
                 <Trait id="HorseArcherFightingSkills" value="3" />
@@ -221,7 +221,7 @@
             </beard_tags>
         </face>
         <Traits>
-            <Trait id="BalancedFightingSkills" value="8" />
+            <Trait id="KnightFightingSkills" value="8" />
             <Trait id="Commander" value="5" />
             <Trait id="Calculating" value="5" />
             <Trait id="Mercy" value="-1" />
@@ -230,7 +230,7 @@
         </Traits>
         <Equipments>
             <EquipmentSet id="tor_fallen_knight" />
-            <EquipmentSet id="tor_fallen_knight" civilian="true" />
+            <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
         </Equipments>
         </NPCCharacter>
     </xsl:template>
